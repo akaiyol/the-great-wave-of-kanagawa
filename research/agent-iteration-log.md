@@ -1,6 +1,8 @@
-# Wave action log
+# Wave action log — historical index
 
-Active direction: generate wave anatomy from rules, following Shan, Shui’s construction hierarchy and the canonical Hokusai print. The procedural gallery is research, not an accepted artwork or endless ocean.
+**New phase records:** `research/phases/<id>.json` is authoritative from P066 onward. Start from `research/agent-brief.md` and relevant `research/agent-memory.json` IDs. This narrative is retained as historical evidence; do not append duplicate new phase outcomes here.
+
+Historical direction: generate wave anatomy from rules, following Shan, Shui’s construction hierarchy and the canonical Hokusai print. The procedural gallery is research, not an accepted artwork or endless ocean.
 
 [Original W001–W060 log](archive/agent-iteration-log-through-W060-2026-11-01.md) preserves the complete history and detailed measurements. This active log retains the procedural pivot and reconciled outcomes. Evidence paths below are under `research/output/procedural-wave-2026-10-30/` unless stated otherwise.
 

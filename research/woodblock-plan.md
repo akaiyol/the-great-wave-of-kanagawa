@@ -37,8 +37,8 @@ W034 passes sampled independent visual review; W035 integrates the painted primi
 
 User rejects a standard template and repeated finished waves. ADR-002 supersedes the painted-primitive architecture. The current root app passes limited appearance/control checks but does not satisfy procedural construction. Retain camera, controls, reference and source-informed style findings; replace the sprite catalogue, periodic water material and fixed opening with generated wave anatomy. Start with a whole-wave seed set demonstrating topology variation before world integration.
 
-## Current procedural checkpoint — 2026-11-02
+## Current procedural checkpoint
 
-The research gallery constructs varying crown profiles, root/child graphs, shared water/foam fronts and continuous flow contours. It remains artistically unaccepted. W061 consolidates common geometry with exact regression evidence. W063–W064 establish one centerline-grown fork with continuous attachment across six fixed seeds; this is a local method pass, not a complete foam vocabulary. The fork still has a fixed two-child pattern.
+Current decisions are in the linked phase under `agent-state.json`; `agent-brief.md` is the generated startup view. New iteration outcomes and required process reviews live in `phases/`, with scoped durable lessons in `agent-memory.json`. Historical action logs remain evidence rather than a second live outcome record.
 
-Next, replace one adjacent rounded group and validate the exposed inter-group sky space before expanding the branch hierarchy. Then vary actual child count, curvature and spacing under shared-boundary constraints. Broad cap proportions and uniform water bands require source comparison before material texture or scenery work. Keep the earlier painted root app separate until a procedural replacement meets the artistic criteria. Current decisions and evidence live in `agent-state.json` and `agent-iteration-log.md`; archived history is not a startup requirement.
+The earlier painted app remains separate from the procedural study until the replacement meets visual criteria. Source appearance, broader construction families and continuous scenery are still required. See ADR-003 for the agent and logging architecture.

@@ -3,9 +3,7 @@ model = "gpt-6-luna"
 model_reasoning_effort = "high"
 description = "Optional read-only investigation of one blocking woodblock reference, geometry or rendering question."
 developer_instructions = """
-Answer one blocking question with a requested decision and stopping condition. Read current AGENTS.md, this role and relevant evidence only; inspect the canonical scan for visual questions. First check whether the log already rejects the proposed method. Prefer existing findings or primary sources.
-
-Return one actionable discriminator with the smallest executable artifact and rejection condition. Explicitly identify which premise differs from failed work. If no new evidence or changed premise exists, say so and stop; do not restart research or recommend re-entering rejected extraction. A plausible recommendation is not tested readiness.
-
-Separate observations, hypotheses and unknowns. Return finding, evidence and decision; under200words. No edits, scope/model changes or subagents.
+Read AGENTS.md, research/agent-brief.md, this role and the assigned phase record. Confirm phase ID and role policy v2. Answer one blocking question with a discriminator, evidence and stopping condition; read-only, no edits or delegation.
+Check durable lessons for prior rejection before investigating. Prefer existing source evidence; inspect canonical scan for visual questions. Return a missing decision immediately if the question cannot be resolved inside the assigned work budget. Do not restart rejected methods without a changed premise.
+Research recommendations are hypotheses, not implementation readiness. No new dashboards, generalized tooling or model changes. Preserve the phase final5% for process review; no paid fallback/reset/purchase. Under150words.
 """

@@ -1,16 +1,16 @@
-# Wave agents
+# Wave agents — policy v2
 
-The [lead workflow](wave-completion.md) governs the woodblock rebuild.
+The main experiment is an evaluated agent system; wave art supplies the test case.
 
-| Role | Responsibility | Use |
+| Role | Current responsibility | When used |
 |---|---|---|
-| Lead | Art direction, integration, milestone decisions | Always |
-| wave_worker | Complete colored geometry and rendering within owned files | Bounded implementation |
-| wave_evaluator | Independent reference and display-scale review | Promising milestones |
-| wave_researcher | Resolve one blocking question | Only when needed |
+| Lead | Phase budget, uncertain construction, integration, captures and decisions | Always |
+| wave_worker | A defined patch with an executable first handoff | Optional |
+| wave_evaluator | Independent artifact review; bounded process review | Milestones/process changes |
+| wave_researcher | One exact blocking question | Only when needed |
 
-Retain existing models in `.codex/agents/` and concurrency defaults in `.codex/config.toml`. At most two children, one source writer, no recursive delegation. More roles are not required.
+One child at a time, one source writer, existing role models. No permanent meta-agent. Every phase reserves 5% of planned tokens for process/log review; estimates remain estimates when runtime telemetry is unavailable. `scripts/phase.mjs` blocks advancement until that review is recorded.
 
-[Action log](../research/agent-iteration-log.md) · [Active plan](../research/woodblock-plan.md) · [Checkpoint](../research/agent-state.json) · [Review protocol](../research/validation-loop.md)
+Read the [generated brief](../research/agent-brief.md), current phase and relevant [durable lessons](../research/agent-memory.json). New authoritative records are under `research/phases/`; historical [action logs](../research/agent-iteration-log.md) are retrieved by link. [Workflow](wave-completion.md) · [Architecture decision](../research/decisions/ADR-003-phase-review-and-agent-memory.md)
 
-The [Braille archive](../research/archive/braille-2026-10-28/) preserves superseded instructions and checkpoint for provenance. It is not startup context. Role file edits require a fresh agent invocation to assess behavior; file validation alone does not prove runtime adoption.
+Role-file changes require a fresh invocation to demonstrate runtime adoption. The P066 worker confirmed policy v2; reviewer adoption is checked separately. Validation of files alone is not runtime proof.

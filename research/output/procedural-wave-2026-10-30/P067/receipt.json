@@ -1,0 +1,23 @@
+{
+  "iteration": "P067",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/integrated-crest.html": "7054f62f93e8c4552171191d7af9dd02696175a6e6f408ac18a8d6743a7ab38c",
+    "src/procedural/branch-patch.mjs": "26f2972e346c93f1111d446c5dad6ebf82a493a9a011bf4c2232e8b775d3a67a",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/geometry.test.mjs": "6979873e1b6e6f080ba5af146e98e537ffe73dcb09622112bc9986e3df213ce9",
+    "src/procedural/integrated-crest.mjs": "f992d60c144de85d67e4ccb7740bac6077dee31f8bbb86f64522705e0d84cb61",
+    "src/procedural/rolled-front.mjs": "0856c958e7175d376e280e40a4ba0a629e17eca9f5bd7b38e13440ef463e4e0a",
+    "src/procedural/rolled-front.test.mjs": "db470b29513d281ab2fc8459be34a247d462b7fa206134bee6e7e94a57084b7b",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "seed721.png": "d363ba6c4f99d0b67701d355a6ec5135e9b17a8fd40f742caf5e856838a4c460"
+  }
+}

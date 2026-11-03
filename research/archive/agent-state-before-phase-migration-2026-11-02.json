@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 3,
+  "direction": "woodblock",
+  "plan": "research/woodblock-plan.md",
+  "validationProtocol": "research/validation-loop.md",
+  "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
+  "currentStudy": "research/woodblock/generated-gallery.html",
+  "retainedCandidate": "W064 six-seed local attachment robustness; stable gallery remains W061/W059/W057, no accepted procedural artwork",
+  "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
+  "userArtisticAcceptance": "Painted checkpoint shape received positive feedback earlier; new procedural study has no artistic acceptance.",
+  "openScope": [
+    "Boats and Fuji undecided; not blocking the still."
+  ],
+  "updatedAt": "2026-11-02",
+  "status": "two_group_experimental_control",
+  "milestone": "crest_anatomy",
+  "lastIteration": "W065",
+  "workingCandidate": "research/output/procedural-wave-2026-10-30/W065/receipt.json",
+  "localControl": "research/output/procedural-wave-2026-10-30/W060/receipt.json",
+  "observedFailure": "W065 upper fork reads as a long prong; broad ivory cap, fixed two-child motif and uniform bands remain.",
+  "lastDecision": "Independent W065 review retains attachment continuity but rejects upper antler/prong anatomy; do not promote.",
+  "nextAction": "Build one upper group from a locally turning parent spine and shorter recurved children against canonical source; verify inter-group sky before expansion.",
+  "checkpointReason": null,
+  "lastObservedAllowance": {
+    "fiveHourRemainingPercent": 77,
+    "weeklyRemainingPercent": 25,
+    "scope": "Measured during W065 assignment; no reset/purchase."
+  },
+  "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "actionLog": "research/agent-iteration-log.md",
+  "history": {
+    "log": "research/archive/agent-iteration-log-through-W060-2026-11-01.md",
+    "state": "research/archive/agent-state-through-W060-2026-11-01.json"
+  },
+  "evidence": [
+    "research/output/procedural-wave-2026-10-30/W061/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W062/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W063/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W064/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W065/receipt.json"
+  ],
+  "currentPhase": "P066",
+  "currentPhaseRecord": "research/phases/P066.json"
+}

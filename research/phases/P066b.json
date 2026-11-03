@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "P066b",
+  "objective": "Automatically refresh startup context on phase transitions.",
+  "hypothesis": "Lifecycle-owned brief refresh prevents stale startup context without requiring an extra manual command.",
+  "failureIds": [
+    "logging.stale-brief",
+    "review.context-overhead"
+  ],
+  "baseline": "P066 independent process review found lifecycle mutations did not refresh the brief.",
+  "artifactTarget": "scripts/phase.mjs",
+  "plannedTokens": 4000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 3800,
+    "reviewTokens": 200
+  },
+  "startedAt": "2026-11-03T03:58:31.820Z",
+  "result": {
+    "id": "P066b",
+    "summary": "Phase transitions now refresh the startup brief; check detects stale edits. CLI subprocess test exposed and fixed macOS symlink entry detection. All11lifecycle tests pass.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "scripts/phase.mjs",
+      "research/tests/phase.test.mjs",
+      "research/output/agent-phase-2026-11-02/P066b/checks.json"
+    ],
+    "nextAction": "Close the process review, then start P067 wave control using the fresh brief.",
+    "estimatedWorkTokens": 3000
+  },
+  "review": {
+    "id": "P066b",
+    "findings": [
+      "The prior review produced a specific fix and11focused tests now cover the real CLI and automatic context refresh.",
+      "A symlink entrypoint bug appeared in the new test, was fixed, and the failed run is recorded rather than erased."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Lifecycle owns brief refresh; routine process review uses the lead's existing context.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-02/P066b/checks.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Use a lead-built single visible wave control; do not delegate an unspecified geometry decision.",
+    "estimatedReviewTokens": 250
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3000,
+    "estimatedReviewTokens": 250,
+    "estimatedTotalTokens": 3250,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 50,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T03:59:19.448Z",
+  "closedAt": "2026-11-03T03:59:19.474Z"
+}

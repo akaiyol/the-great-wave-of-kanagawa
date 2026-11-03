@@ -1,0 +1,7 @@
+{
+ "phase":"P066","rolePolicy":"v2","verdict":"pass_with_change",
+ "findings":["Review gate, failed-delivery handling and explicit estimate accounting work within tested scope.","Lifecycle mutations leave the generated startup brief stale until a separate command.","Independent review estimated9000 tokens including context, exceeding the1000-token reservation; exact telemetry unavailable."],
+ "nextImprovement":"Auto-refresh brief after transitions; use compact phase/evidence packs for future process review.",
+ "estimatedReviewTokens":9000,"actualTokens":null,
+ "scope":"CLI ordering and record retrieval, not runtime hard token caps, automatic scheduling or artistic quality."
+}

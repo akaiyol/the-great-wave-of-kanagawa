@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "maxActiveLessons": 12,
+  "lessons": [
+    {
+      "id": "delivery.no-artifact",
+      "status": "retained",
+      "lesson": "Uncertain geometry stays with lead; workers receive a defined executable construction. Stop after one narrowed retry without an artifact.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/W065/receipt.json",
+        "research/agent-iteration-log.md"
+      ],
+      "reentryCondition": "A concrete construction decision and smallest executable slice are supplied."
+    },
+    {
+      "id": "evaluation.scope-inflation",
+      "status": "retained",
+      "lesson": "Simple polygons, hashes and local attachment passes do not establish whole-crest anatomy, source style or perceptual uniqueness.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/W064/receipt.json"
+      ],
+      "reentryCondition": "Inspect the claimed whole scope at native scale against the canonical scan."
+    },
+    {
+      "id": "geometry.fixed-fork-prong",
+      "status": "retained",
+      "lesson": "Reorienting the same long two-child fork creates an antler/prong in the upper crest.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/W065/seed721.png"
+      ],
+      "reentryCondition": "Change parent turning and child curvature/reach; do not repeat placement/scale-only tuning."
+    },
+    {
+      "id": "verification.redundant-regression",
+      "status": "retained",
+      "lesson": "Reuse source-bound broad regression evidence while its owning code is unchanged; local edits get affected diagnostics and one render first.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/W063/receipt.json"
+      ],
+      "reentryCondition": "Shared owning code changes, a failure appears or a release milestone requires a broader check."
+    },
+    {
+      "id": "logging.delayed-handoff",
+      "status": "retained",
+      "lesson": "Save the first executable result and compact diagnostics before longer reporting or page expansion.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/W064/diagnostics.json",
+        "research/agent-iteration-log.md"
+      ],
+      "reentryCondition": "Every phase has an explicit first evidence path."
+    },
+    {
+      "id": "review.context-overhead",
+      "status": "retained",
+      "lesson": "The P066 independent process audit estimated9000 tokens against1000reserved. Routine audits use lead context; independent audits begin with a compact phase/lesson pack, escalating source reads only for a concrete flaw.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-02/P066/process-review.json"
+      ],
+      "reentryCondition": "Allocate review context explicitly before an independent audit; record estimates/overruns rather than claiming measured5% usage."
+    },
+    {
+      "id": "logging.stale-brief",
+      "status": "retained",
+      "lesson": "Phase transitions regenerate the startup brief automatically; check rejects stale manual context.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-02/P066b/checks.json"
+      ],
+      "reentryCondition": "Any lifecycle or memory/state change must preserve brief freshness."
+    },
+    {
+      "id": "geometry.compact-fork-fusion",
+      "status": "retained",
+      "lesson": "P067 shorter falling children remain visually cramped despite simple components and no external sibling crossing. Reach reduction alone is insufficient; separate child growth sectors.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/P067/seed721.png",
+        "research/output/procedural-wave-2026-10-30/P067/checks.json"
+      ],
+      "reentryCondition": "Change angular fan/parent hierarchy and check native visible separation; do not claim geometric collision from internal parent overlap."
+    },
+    {
+      "id": "geometry.divergent-sectors",
+      "status": "retained",
+      "lesson": "P068 parent-relative divergent child directions restore a visible notch and remove the long antler sweep at seed721. Retain local method only; thin angular hooks and whole source style remain unresolved.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-02/P068/visual-review.json",
+        "research/output/procedural-wave-2026-10-30/P068/seed721.png"
+      ],
+      "reentryCondition": "Preserve the notch while improving lobe width/curvature; test held-out seeds before claiming generality."
+    }
+  ]
+}

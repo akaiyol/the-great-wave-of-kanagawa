@@ -1,0 +1,1 @@
+{"phase":"P066b","tests":11,"passed":11,"failed":0,"scope":["automatic brief refresh after start/result/review","stale-brief detection","CLI subprocess transitions","existing lifecycle contracts"],"firstRunFailure":"CLI entrypoint comparison failed under macOS temporary-directory symlink; fixed by comparing real paths.","geometryTestsRerun":false}

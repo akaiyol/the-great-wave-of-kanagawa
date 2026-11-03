@@ -4,18 +4,28 @@ import {lerp,cubicBezier,cubicTangent,taperedRibbon,pointInPolygon,polygonCleara
 const unit=v=>v.map(x=>x/Math.hypot(...v));
 const dot=(a,b)=>a.reduce((s,x,k)=>s+x*b[k],0);
 const same=(a,b)=>a.every((x,k)=>x===b[k]);
-function generateGraft(wave,group){
+function generateGraft(wave,group,recipe='legacy'){
  const seed=wave.seed,start=wave.frontGraph[group.startIndex],end=wave.frontGraph[group.endIndex];
  const t=unit(group.tangent),rawOut=unit(group.normal).map(x=>-x),out=unit(rawOut.map((x,k)=>x-dot(rawOut,t)*t[k]));
  const span=Math.hypot(...end.map((x,k)=>x-start[k])),scale=span*.65;
  const origin=lerp(start,end,.43).map((x,k)=>x-out[k]*scale*.12);
  const P=(a,b)=>origin.map((x,k)=>x+scale*(out[k]*a+t[k]*b));
- const parent=taperedRibbon('graft-parent','cap',[P(0,0),P(.35,0),P(.65,.15),P(.75,.65)],scale*.43,scale*.24);
+ const turning=recipe==='turning';
+ const parentControls=turning?[P(0,0),P(.28,0),P(.50,.12),P(.48,.62)]:[P(0,0),P(.35,0),P(.65,.15),P(.75,.65)];
+ const parent=taperedRibbon('graft-parent','cap',parentControls,scale*.43,scale*.24);
  const child=(id,station,length,reach,tipT,width)=>{
   const root=cubicBezier(...parent.controls,station),direction=unit(cubicTangent(parent.controls,station));
   return taperedRibbon(id,parent.id,[root,root.map((x,k)=>x+direction[k]*scale*length),P(reach,tipT-.32),P(reach-.3,tipT)],scale*width,scale*.022);
  };
- const branches=[parent,child('graft-child-a',.68,.28,1.55,1.12,.19),child('graft-child-b',.90,.25,1.02,1.76,.145)];
+ // P068: children occupy different sectors of the turning parent frame.
+ // Their terminal tangents return, while their roots diverge upward/downward.
+ const recurvedChild=(id,station,shape,width,tip)=>{
+  const root=cubicBezier(...parent.controls,station),direction=unit(cubicTangent(parent.controls,station));
+  const outward=[direction[1],-direction[0]];
+  const local=(along,across)=>root.map((x,k)=>x+scale*(direction[k]*along+outward[k]*across));
+  return taperedRibbon(id,parent.id,[root,local(...shape[0]),local(...shape[1]),local(...shape[2])],scale*width,scale*tip);
+ };
+ const branches=turning?[parent,recurvedChild('graft-child-a',.50,[[.12,.28],[.64,.40],[.45,.12]],.20,.055),recurvedChild('graft-child-b',.90,[[.32,0],[.70,.30],[.65,-.05]],.16,.04)]:[parent,child('graft-child-a',.68,.28,1.55,1.12,.19),child('graft-child-b',.90,.25,1.02,1.76,.145)];
  // Join the real exterior to sampled parent flanks, before either child root.
  // The sole straight cross-section lies through parent interior and is hidden.
  const stationIndex=20,station=stationIndex/96;
@@ -35,7 +45,7 @@ function generateGraft(wave,group){
  const tangentError=(actual,expected)=>Math.hypot(...unit(actual).map((x,k)=>x-expected[k]));
  const joinErrors=[tangentError(cubicTangent(entryControls,0),incoming),tangentError(cubicTangent(entryControls,1),firstGrowth),tangentError(cubicTangent(exitControls,0),secondReturn),tangentError(cubicTangent(exitControls,1),outgoing)];
  const crossSection=Array.from({length:95},(_,i)=>lerp(firstFlank,secondFlank,(i+1)/96));
- const collar={station,childRootStations:[.68,.90],construction:'frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent',joinPositionError:Math.max(Math.hypot(...difference(entry.at(-1),firstFlank)),Math.hypot(...difference(exit[0],secondFlank))),normalizedTangentErrors:joinErrors,maxNormalizedTangentError:Math.max(...joinErrors),hiddenCrossSectionSamples:crossSection.length,hiddenCrossSectionOutsideParent:crossSection.filter(p=>!pointInPolygon(p,parent.points)).length,hiddenCrossSectionMinInteriorClearance:Math.min(...crossSection.map(p=>polygonClearance(p,parent.points))),exposedConnectorSegments:entry.length+exit.length-2,removedLargeStraightChord:true};
+ const collar={station,childRootStations:turning?[.50,.90]:[.68,.90],construction:'frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent',joinPositionError:Math.max(Math.hypot(...difference(entry.at(-1),firstFlank)),Math.hypot(...difference(exit[0],secondFlank))),normalizedTangentErrors:joinErrors,maxNormalizedTangentError:Math.max(...joinErrors),hiddenCrossSectionSamples:crossSection.length,hiddenCrossSectionOutsideParent:crossSection.filter(p=>!pointInPolygon(p,parent.points)).length,hiddenCrossSectionMinInteriorClearance:Math.min(...crossSection.map(p=>polygonClearance(p,parent.points))),exposedConnectorSegments:entry.length+exit.length-2,removedLargeStraightChord:true};
 
  const replace=polygon=>{const offset=polygon.findIndex(p=>same(p,wave.frontGraph[0]));if(offset<0)throw Error('shared front not found');return[...polygon.slice(0,offset+group.startIndex),...baseEdge,...polygon.slice(offset+group.endIndex+1)];};
  const baseBody=replace(wave.body),baseFoam=replace(wave.cap),shared=branches.map(b=>b.points),bodyPolygons=[baseBody,...shared],foamPolygons=[baseFoam,...shared];
@@ -49,15 +59,16 @@ function generateGraft(wave,group){
   for(const poly of bodyPolygons)for(let i=0;i<poly.length;i++)boundaryCrossings+=+segmentsCross(covePath[k-1],covePath[k],poly[i],poly[(i+1)%poly.length]);
   for(let j=0;j<=96;j++){const p=lerp(covePath[k-1],covePath[k],j/96);samples++;bodyHits+=+bodyPolygons.some(poly=>pointInPolygon(p,poly));foamHits+=+foamPolygons.some(poly=>pointInPolygon(p,poly));minClearance=Math.min(minClearance,...bodyPolygons.map(poly=>polygonClearance(p,poly)));}
  }
- const diagnostics={collar,scope:'one real whole-wave group replacement; seed721 continuous attachment control',removedRoot:group.rootId,removedChildIds:removedIds,replacedFrontRange:[group.startIndex,group.endIndex],removedFrontVertices:group.endIndex-group.startIndex+1,newBaseVertices:baseEdge.length,generatedBranches:branches.length,generatedChildren:branches.length-1,scale,attachments,cove:{samples,bodyHits,foamHits,boundaryCrossings,minClearance},simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedPolygons:shared.length,sharedExposedGeometryError:0,retainedInk:inkSeams.length,removedInk:wave.inkSeams.length-inkSeams.length,flowContinuity:wave.continuity};
+ const diagnostics={recipe,localCoveScope:turning?'legacy route; no claim that it lies between new children':'between legacy children',collar,scope:'one real whole-wave group replacement; seed721 continuous attachment control',removedRoot:group.rootId,removedChildIds:removedIds,replacedFrontRange:[group.startIndex,group.endIndex],removedFrontVertices:group.endIndex-group.startIndex+1,newBaseVertices:baseEdge.length,generatedBranches:branches.length,generatedChildren:branches.length-1,scale,attachments,cove:{samples,bodyHits,foamHits,boundaryCrossings,minClearance},simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedPolygons:shared.length,sharedExposedGeometryError:0,retainedInk:inkSeams.length,removedInk:wave.inkSeams.length-inkSeams.length,flowContinuity:wave.continuity};
  return{seed,wave,group,baseBody,baseFoam,bodyPolygons,foamPolygons,branches,inkSeams,covePath,baseEdge,attachmentCurves:[entryControls,exitControls],diagnostics};
 }
 // The two-group control deliberately preserves the original junction/bridge.
 // It tests the visible result before attempting a new inter-group boundary.
-export function generateIntegratedCrest(seed=721,groupCount=1){
+export function generateIntegratedCrest(seed=721,groupCount=1,variant='legacy'){
+ if(!['legacy','turning'].includes(variant))throw new RangeError('Unknown crest variant');
  if(![1,2].includes(groupCount))throw new RangeError('groupCount must be 1 or 2');
  const wave=generateWave(seed);
- const grafts=wave.frontGroups.slice(-groupCount).map(group=>generateGraft(wave,group));
+ const grafts=wave.frontGroups.slice(-groupCount).map((group,i)=>generateGraft(wave,group,variant==='turning'&&groupCount===2&&i===0?'turning':'legacy'));
  if(groupCount===1)return grafts[0];
  const replaceAll=polygon=>{
   const offset=polygon.findIndex(p=>same(p,wave.frontGraph[0]));
@@ -78,7 +89,14 @@ export function generateIntegratedCrest(seed=721,groupCount=1){
  const shared=branches.map(b=>b.points),bodyPolygons=[baseBody,...shared],foamPolygons=[baseFoam,...shared];
  const removedIds=grafts.flatMap(g=>g.diagnostics.removedChildIds);
  const inkSeams=wave.inkSeams.filter(s=>!removedIds.includes(s.ownerId));
- const diagnostics={scope:'two adjacent groups with retained original junction; inter-group sky unproven',groups:grafts.map(g=>({root:g.group.rootId,range:[g.group.startIndex,g.group.endIndex],collar:g.diagnostics.collar,localAttachments:g.diagnostics.attachments})),simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedGeometryError:0,interGroupSky:'unproven: first visible control',localCovesAgainstCombinedUnion:grafts.map(g=>({root:g.group.rootId,bodyHits:g.covePath.filter(p=>bodyPolygons.some(poly=>pointInPolygon(p,poly))).length})),retainedInk:inkSeams.length};
+ const junction=wave.frontGraph[grafts[0].group.endIndex];
+ const interGroupRoute=[[18,17],[38,37],[63,67],[93,92]].map(v=>v.map((x,k)=>x+junction[k]));
+ let routeHits=0,routeCrossings=0,routeMinClearance=Infinity,routeSamples=0;
+ for(let k=1;k<interGroupRoute.length;k++){
+  for(const poly of bodyPolygons)for(let i=0;i<poly.length;i++)routeCrossings+=+segmentsCross(interGroupRoute[k-1],interGroupRoute[k],poly[i],poly[(i+1)%poly.length]);
+  for(let j=0;j<=64;j++){const p=lerp(interGroupRoute[k-1],interGroupRoute[k],j/64);routeSamples++;routeHits+=+bodyPolygons.some(poly=>pointInPolygon(p,poly));routeMinClearance=Math.min(routeMinClearance,...bodyPolygons.map(poly=>polygonClearance(p,poly)));}
+ }
+ const diagnostics={variant,declaredInterGroupRoute:{points:interGroupRoute,samples:routeSamples,bodyHits:routeHits,boundaryCrossings:routeCrossings,minClearance:routeMinClearance,scope:'seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof'},scope:'two adjacent groups with retained original junction; inter-group sky unproven',groups:grafts.map(g=>({root:g.group.rootId,range:[g.group.startIndex,g.group.endIndex],collar:g.diagnostics.collar,localAttachments:g.diagnostics.attachments})),simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedGeometryError:0,interGroupSky:'declared route sampled; whole sky topology unproven',localCovesAgainstCombinedUnion:grafts.map(g=>({root:g.group.rootId,bodyHits:g.covePath.filter(p=>bodyPolygons.some(poly=>pointInPolygon(p,poly))).length})),retainedInk:inkSeams.length};
  return{seed,wave,grafts,groupCount,baseBody,baseFoam,bodyPolygons,foamPolygons,branches,inkSeams,diagnostics};
 }
 const pt=p=>p.map(x=>x.toFixed(2)).join(',');

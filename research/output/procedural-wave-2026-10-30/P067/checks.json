@@ -1,0 +1,82 @@
+{
+  "singleGroupSvgExact": true,
+  "finite": true,
+  "simpleComponentCrossings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "declaredSkyRoute": {
+    "points": [
+      [
+        785.8255670467114,
+        365.18731459963294
+      ],
+      [
+        805.8255670467114,
+        385.18731459963294
+      ],
+      [
+        830.8255670467114,
+        415.18731459963294
+      ],
+      [
+        860.8255670467114,
+        440.18731459963294
+      ]
+    ],
+    "samples": 195,
+    "bodyHits": 0,
+    "boundaryCrossings": 0,
+    "minClearance": 21.001406838837838,
+    "scope": "seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof"
+  },
+  "siblingIntersections": [
+    {
+      "point": [
+        759.1489186426044,
+        321.85140213425944
+      ],
+      "insideParent": true
+    },
+    {
+      "point": [
+        756.7826325517392,
+        328.06399545910796
+      ],
+      "insideParent": true
+    },
+    {
+      "point": [
+        760.2920880153156,
+        329.5444920872878
+      ],
+      "insideParent": true
+    },
+    {
+      "point": [
+        764.2604133511179,
+        321.86272369414195
+      ],
+      "insideParent": true
+    }
+  ],
+  "outsideParentSiblingCrossings": 0,
+  "visualVerdict": "reject: compact upper children fuse into a cramped lobe",
+  "scope": "seed721 first control only",
+  "childTipsInsideCombinedBase": [
+    false,
+    false
+  ]
+}

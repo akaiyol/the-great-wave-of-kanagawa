@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "P067",
+  "objective": "Replace W065 upper projecting fork with a compact turning parent and recurved children in one whole seed721 control.",
+  "hypothesis": "A parent that turns with the falling crest plus shorter returning children avoids the rotated antler pattern while retaining W063 attachments.",
+  "failureIds": [
+    "geometry.fixed-fork-prong",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "research/output/procedural-wave-2026-10-30/W065/seed721.png; one-group W064 remains reviewed local control.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P067/seed721.png",
+  "plannedTokens": 12000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 11400,
+    "reviewTokens": 600
+  },
+  "startedAt": "2026-11-03T03:59:19.541Z",
+  "result": {
+    "id": "P067",
+    "summary": "Lead delivered whole seed721 control before broad testing. Turning parent shortened upper prongs, but compact children read as a cramped/fused lobe; reject visually.14component boundaries simple, sampled sky route clear, single-group SVG unchanged. Four sibling crossings all lie inside shared parent; no claim of external collision.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P067/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P067/seed721.png",
+      "research/output/procedural-wave-2026-10-30/P067/checks.json"
+    ],
+    "nextAction": "Change upper child fan direction/spacing so compact recurved terminals remain distinct; retain the single-group baseline.",
+    "estimatedWorkTokens": 5500
+  },
+  "review": {
+    "id": "P067",
+    "findings": [
+      "A lead-built executable control and native render arrived before broad tests; no stalled handoff or seven-minute regression rerun.",
+      "Component simplicity and an open declared route did not establish readable branch anatomy. The sibling crossings are internal to the parent, so they must not be reported as external collisions.",
+      "Shortening alone traded prongs for a cramped shared lobe; next attempt needs changed angular spacing, not another reach-only adjustment."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep cheap native visual rejection and scoped interaction diagnostics; no independent reviewer needed for an obvious failure.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P067/seed721.png",
+          "research/output/procedural-wave-2026-10-30/P067/checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Use distinct growth sectors for returning children and verify their visible separation.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P067/seed721.png"
+        ]
+      }
+    ],
+    "nextImprovement": "P068: divergent local child directions around the turning parent, one whole render first.",
+    "estimatedReviewTokens": 450
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 5500,
+    "estimatedReviewTokens": 450,
+    "estimatedTotalTokens": 5950,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T04:02:51.111Z",
+  "closedAt": "2026-11-03T04:02:51.141Z"
+}

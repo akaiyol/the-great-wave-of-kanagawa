@@ -1,0 +1,51 @@
+{
+  "singleGroupSvgExact": true,
+  "finite": true,
+  "componentCrossings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "upperAttachmentInsideBoth": [
+    true,
+    true,
+    true
+  ],
+  "declaredRoute": {
+    "points": [
+      [
+        785.8255670467114,
+        365.18731459963294
+      ],
+      [
+        805.8255670467114,
+        385.18731459963294
+      ],
+      [
+        830.8255670467114,
+        415.18731459963294
+      ],
+      [
+        860.8255670467114,
+        440.18731459963294
+      ]
+    ],
+    "samples": 195,
+    "bodyHits": 0,
+    "boundaryCrossings": 0,
+    "minClearance": 16.686857644995513,
+    "scope": "seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof"
+  },
+  "scope": "seed721 only"
+}

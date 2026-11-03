@@ -12,12 +12,13 @@ import{generateIntegratedCrest,integratedCrestSvg}from'../../src/procedural/inte
 const main=document.querySelector('main'),raw=new URLSearchParams(location.search).get('seed');
 const seed=raw===null?721:Number(raw);
 const groups=Number(new URLSearchParams(location.search).get('groups')??1);
-if(![1,2].includes(groups)||raw!==null&&(!/^\d+$/.test(raw)||!Number.isInteger(seed)||seed<0||seed>4294967295)){
+const variant=new URLSearchParams(location.search).get('variant')??'legacy';
+if(!['legacy','turning'].includes(variant)||![1,2].includes(groups)||raw!==null&&(!/^\d+$/.test(raw)||!Number.isInteger(seed)||seed<0||seed>4294967295)){
  main.setAttribute('role','alert');main.textContent='Invalid seed. Use an integer from 0 to 4294967295.';
 }else{
  const seeds=[0,1,721,1847,13891,4294967295];
- document.querySelector('nav').innerHTML=seeds.map(s=>`<a href="?seed=${s}&groups=${groups}"${s===seed?' aria-current="page"':''}>${s}</a>`).join('');
- const control=generateIntegratedCrest(seed,groups);main.innerHTML=integratedCrestSvg(control);window.integratedCrest=control;window.controlReady=true;
+ document.querySelector('nav').innerHTML=seeds.map(s=>`<a href="?seed=${s}&groups=${groups}&variant=${variant}"${s===seed?' aria-current="page"':''}>${s}</a>`).join('');
+ const control=generateIntegratedCrest(seed,groups,variant);main.innerHTML=integratedCrestSvg(control);window.integratedCrest=control;window.controlReady=true;
 }
 </script>
 </html>

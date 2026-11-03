@@ -4,25 +4,28 @@ The main purpose of this project is to build an agentic system with evaluation a
 
 ## Agent architecture
 
-A lead coordinates a **worker** for implementation, an independent **evaluator** for visual review, and an optional **researcher** for blocking questions. At most two agents run under the lead, with one source writer.
+The lead builds uncertain constructions and coordinates an independent **evaluator**. A **worker** handles defined patches; a **researcher** resolves specific blockers. One child runs at a time, with one source writer.
 
 ```mermaid
 flowchart TD
-    Goal[Goal and canonical reference] --> Lead[Lead: scope and assign]
-    Lead --> Worker[Worker: build a small artifact]
+    Goal[Goal and canonical reference] --> Lead[Lead: scope and construct]
+    Lead --> Artifact[Small executable artifact]
+    Lead -->|Defined patch| Worker[Optional worker]
+    Worker --> Artifact
     Lead -->|Blocking question| Researcher[Researcher: investigate]
     Researcher -->|Findings| Lead
-    Worker --> Checks[Technical checks and render captures]
+    Artifact --> Checks[Technical checks and render captures]
     Checks --> Evaluator[Evaluator: independent visual review]
     Evaluator --> Decision{Lead: assess evidence}
     Decision -->|Retain or reject| Record[Action log and checkpoint]
-    Record -->|Improve task, method or workflow| Lead
-    Decision -->|Milestone criteria met| Result[Validated checkpoint]
+    Record --> Review[Process review: reserved 5%]
+    Review -->|Update lessons and next task| Lead
+    Review -->|Milestone criteria met| Result[Validated checkpoint]
 ```
 
-The loop records failures, compares results with explicit criteria, and changes the next task or method. Repeated failures should trigger a different approach rather than more nearby tweaks. Technical correctness and artistic quality are evaluated separately.
+Every phase reserves **5% of its planned token budget** for reviewing process and logs before another phase starts. A short brief, evidence-linked lessons and structured phase records carry findings forward. Technical correctness and artistic quality are evaluated separately. Exact compute telemetry is unavailable here, so usage estimates remain explicit.
 
-Today, this learning is **lead-managed** through recorded findings and updates to tasks and workflow rules. Reliable autonomous self-improvement is still the goal. See the [agent workflow](agents/wave-completion.md) and [action log](research/agent-iteration-log.md).
+Today, this learning is **lead-managed** through recorded findings and updates to tasks and workflow rules. Reliable autonomous self-improvement is still the goal. See the [agent workflow](agents/wave-completion.md), [current brief](research/agent-brief.md) and [phase records](research/phases/).
 
 ## Inspiration
 

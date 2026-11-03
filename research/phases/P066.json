@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "P066",
+  "objective": "Reconfigure evidence-led agents, mandatory5% phase reviews and digestible records; exercise lifecycle before continuing art.",
+  "hypothesis": "Lead-builder plus independent evaluator, optional defined-patch worker and structured phase records reduce no-artifact handoffs and context replay.",
+  "failureIds": [
+    "delivery.no-artifact",
+    "logging.delayed-handoff",
+    "verification.redundant-regression",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "W065: two worker attempts without artifact; lead-built control rejected for upper prong; narrative log carries all current decisions.",
+  "artifactTarget": "scripts/phase.mjs",
+  "plannedTokens": 20000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 19000,
+    "reviewTokens": 1000
+  },
+  "startedAt": "2026-11-03T03:56:50.401Z",
+  "result": {
+    "id": "P066",
+    "summary": "Reconfigured serial lead-builder/reviewer architecture, fresh policy-v2 worker adoption, structured phase records, bounded memory and mandatory5% review gate. Bootstrap phase created its own lifecycle tool.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "scripts/phase.mjs",
+      "research/tests/phase.test.mjs",
+      "research/output/agent-phase-2026-11-02/P066/worker-checks.json",
+      "research/output/agent-phase-2026-11-02/P066/cli-checks.json",
+      "research/decisions/ADR-003-phase-review-and-agent-memory.md",
+      "agents/wave-completion.md"
+    ],
+    "nextAction": "Use independent process review, close P066, then start P067 turning-parent wave control.",
+    "estimatedWorkTokens": 18000
+  },
+  "review": {
+    "id": "P066",
+    "findings": [
+      "Fresh policy-v2 worker and evaluator adopted narrow roles;9tests and real CLI verified review ordering, not improved art.",
+      "Independent reviewer identified stale startup briefs after lifecycle mutations.",
+      "Review context estimated9000tokens versus1000reserved; this is a disclosed estimated overrun, not measured exact compute."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep serial lead-builder plus optional specialists and mandatory structured phase review.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-02/P066/worker-checks.json",
+          "research/output/agent-phase-2026-11-02/P066/cli-checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Make brief refresh part of lifecycle transitions and verify freshness in P066b.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-02/P066/process-review.json",
+          "scripts/phase.mjs"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Routine process reviews stay with lead; independent audits get only compact phase/lesson evidence unless a concrete flaw requires source inspection.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-02/P066/process-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "P066b: fix automatic brief freshness before starting P067 wave iteration.",
+    "estimatedReviewTokens": 9000
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 18000,
+    "estimatedReviewTokens": 9000,
+    "estimatedTotalTokens": 27000,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 8000,
+    "estimatedTotalOverrun": 7000
+  },
+  "resultAt": "2026-11-03T03:56:50.476Z",
+  "closedAt": "2026-11-03T03:58:31.768Z"
+}
