@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "P070",
+  "objective": "Construct every primary crest group from the rounded branch grammar, using each seeded group's actual child count.",
+  "hypothesis": "Replacing all upstream outline scallops and the final long fork with one shared exposed branch hierarchy creates a more coherent whole crest than a two-group graft.",
+  "failureIds": [
+    "geometry.fixed-fork-prong",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P069 two-group control; W064 legacy single-group control remains unchanged.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P070/seed721.png",
+  "plannedTokens": 10000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-03T04:17:20.357Z",
+  "result": {
+    "id": "P070",
+    "summary": "All3crest groups now use actual seeded child counts[1,2,2] and rounded branch grammar. Independent review retains a local construction gain and removal of the long lower fork; broad blank cap and water-head separation remain major failures.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P070/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P070/seed721.png",
+      "research/output/procedural-wave-2026-10-30/P070/diagnostics.json",
+      "research/output/agent-phase-2026-11-02/P070/visual-review.json"
+    ],
+    "nextAction": "Couple dark-water tongues from actual bay mouths toward foam roots before any further terminal polish.",
+    "estimatedWorkTokens": 7500
+  },
+  "review": {
+    "id": "P070",
+    "findings": [
+      "Whole-crest control exposed the cap/water hierarchy problem that tiny terminal iterations could not resolve.",
+      "Independent review confirmed shared local exposure but did not certify source style or union topology; scope stays explicit."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep actual child-count hierarchy and rounded branch method.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-02/P070/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Next phase changes the interior water/foam hierarchy rather than polishing sparse tips again.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P070/seed721.png"
+        ]
+      }
+    ],
+    "nextImprovement": "Build dark-water tongues attached to actual bay mouths and aimed under foam roots; inspect one whole scene first.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 7500,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 7850,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T04:55:51.163Z",
+  "closedAt": "2026-11-03T04:55:51.191Z"
+}

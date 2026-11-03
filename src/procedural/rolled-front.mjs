@@ -13,10 +13,19 @@ export function profileField(seed){
  const parameters={height:.78+.34*rng(),slope:-.07+.14*rng(),lean:-105+210*rng(),hollowBulge:-160+320*rng()};
  const terms=([x,y])=>{const h=parameters.height*(1+parameters.slope*(x/600-1)),hx=parameters.height*parameters.slope/600,Y=760+(y-760)*h,z=(760-Y)/760,g=4*x/1200*(1-x/1200),gx=4/1200*(1-x/600),L=parameters.lean*z+parameters.hollowBulge*z*(1-z),LY=-(parameters.lean+parameters.hollowBulge*(1-2*z))/760;return{h,hx,Y,g,gx,L,LY};};
  const apply=p=>{const q=terms(p);return[p[0]+q.g*q.L,q.Y];};
+ const inverse=p=>{
+  if(!Array.isArray(p)||p.length!==2||!p.every(Number.isFinite))throw new RangeError('world point must contain two finite coordinates');
+  const [X,Y]=p,z=(760-Y)/760,L=parameters.lean*z+parameters.hollowBulge*z*(1-z);
+  let x=X;
+  for(let i=0;i<8;i++){const g=4*x/1200*(1-x/1200),gx=4/1200*(1-2*x/1200);x-=(x+g*L-X)/(1+gx*L);}
+  const y=760+(Y-760)/(parameters.height*(1+parameters.slope*(x/600-1)));
+  if(!Number.isFinite(x)||!Number.isFinite(y))throw new RangeError('world point has no finite profile inverse');
+  return[x,y];
+ };
  const push=(p,v)=>{const q=terms(p),Yx=(p[1]-760)*q.hx,Yy=q.h,dY=Yx*v[0]+Yy*v[1];return[(1+q.gx*q.L)*v[0]+q.g*q.LY*dY,dY];};
  const determinant=p=>{const q=terms(p);return q.h*(1+q.gx*q.L);};
  const jacobianLowerBound=parameters.height*(1-Math.abs(parameters.slope))*(1-4/1200*(Math.abs(parameters.lean)+Math.abs(parameters.hollowBulge)/4));
- return{parameters,apply,push,determinant,jacobianLowerBound};
+ return{parameters,apply,inverse,push,determinant,jacobianLowerBound};
 }
 export function generateWave(seed=721){
  if(!Number.isInteger(seed)||seed<0||seed>4294967295)throw new RangeError('seed must be a uint32 integer');
@@ -241,7 +250,14 @@ export function generateWave(seed=721){
   const minX=Math.min(...points.map(p=>p[0])),maxX=Math.max(...points.map(p=>p[0])),minY=Math.min(...points.map(p=>p[1])),maxY=Math.max(...points.map(p=>p[1]));
   inkSeams.push({ownerId:spine.ownerId,parentId:spine.parentId,points,strokeWidth,metrics:{anatomicalLength:length,retainedStations:points.length,totalStations:spine.points.length,localWidth:node.width,minCenterlineClearance,minInkEdgeClearance:minCenterlineClearance-strokeWidth/2,boundaryCrossings,selfCrossings,openEndpointDistance,minOtherInkEdgeGap:record.minOtherInkEdgeGap,insideFoam:true,construction:'paired actual child sides; no path scaling'},context:{origin:spine.origin,throat:spine.throat,bend:spine.bend,turn:spine.turn,frame:node.frame,viewBox:[minX-15,minY-15,maxX-minX+30,maxY-minY+30]}});
  }
- const wave={seed,profile:profileDiagnostics,foamNodes,foamSpines,inkSeams,seamQualifications,seamControl:{rule:'all readable actual child spines, conflict qualified',accepted:inkSeams.length,rejected:seamQualifications.filter(r=>!r.accepted).length},body,cap,frontGraph,foamBranches,foamTopology,bands,strokes,patch,continuity,topology,descriptor:{family:'rolled-front-grammar',...topology,principalHollow:profile.apply([cx,cy])}};
+ // inverseFront covers the annular chart only; the back chart is cubic.
+ // Its canonical angular branch is 0 <= u < 2*pi, with positive radius.
+ const surfaceChart={map:(u,r)=>{if(!Number.isFinite(u)||!Number.isFinite(r))throw new RangeError('surface coordinates must be finite');return flow(u,r);},inverseFront:p=>{
+  const [x,y]=profile.inverse(p),dx=(x-cx)/rx,dy=(y-cy)/ry;
+  let u=Math.atan2(dy,dx)+125*Math.PI/180;if(u<0)u+=2*Math.PI;
+  return[u,Math.hypot(dx,dy)];
+ }};
+ const wave={seed,surfaceChart,profile:profileDiagnostics,foamNodes,foamSpines,inkSeams,seamQualifications,seamControl:{rule:'all readable actual child spines, conflict qualified',accepted:inkSeams.length,rejected:seamQualifications.filter(r=>!r.accepted).length},body,cap,frontGraph,foamBranches,foamTopology,bands,strokes,patch,continuity,topology,descriptor:{family:'rolled-front-grammar',...topology,principalHollow:profile.apply([cx,cy])}};
  wave.baseFingerprint=geometryFingerprint(wave,false);wave.fingerprint=geometryFingerprint(wave);wave.nativeChildAnatomy=childAnatomy;wave.frontGroups=nativeFrontGroups.map(group=>({...group,anchor:profile.apply(group.anchor),tangent:profile.push(group.anchor,group.tangent),normal:profile.push(group.anchor,group.normal)}));return wave;
 }
 export function waveSvg(w){return`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Rolled front wave study"><defs><clipPath id="water-${w.seed}"><path d="${d(w.body)}"/></clipPath></defs><rect width="1200" height="800" fill="#e6dcc1"/><path d="M780 125 Q800 100 825 120 Q842 80 870 115 Q925 95 955 132 Q1005 122 1020 145 L775 150Z" fill="#efead6"/><path d="${d(w.body)}" fill="${ink}" stroke="${ink}" stroke-width="2.5"/><g clip-path="url(#water-${w.seed})">${w.bands.map(b=>`<path d="${d(b.points)}" fill="${b.color}"/>`).join('')}${w.strokes.map(p=>`<path d="M${p.map(pt).join(' L')}" fill="none" stroke="#1c3c52" stroke-width="1.1"/>`).join('')}</g><g fill="none" stroke="${ink}" stroke-width="2.1" stroke-linejoin="round">${[w.cap,...w.foamBranches.map(b=>b.points)].map(p=>`<path d="${d(p)}"/>`).join('')}</g><g fill="${foam}">${[w.cap,...w.foamBranches.map(b=>b.points)].map(p=>`<path d="${d(p)}"/>`).join('')}</g>${(w.inkSeams||[]).map(s=>`<path d="M${s.points.map(pt).join(' L')}" fill="none" stroke="${ink}" stroke-width="${s.strokeWidth}" stroke-linecap="round" stroke-linejoin="round"/>`).join('')}</svg>`;}

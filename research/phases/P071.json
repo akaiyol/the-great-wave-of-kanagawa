@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "P071",
+  "objective": "Interlock connected dark-water tongues with the whole-crest foam hierarchy.",
+  "hypothesis": "Carving connected tongues from the actual seeded bay heads toward foam-parent roots will reduce the blank cap and tie the exposed branches to water flow.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.compact-fork-fusion"
+  ],
+  "baseline": "research/output/procedural-wave-2026-10-30/P070/seed721.png; independent review identifies broad blank cap and short water heads.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P071/seed721.png",
+  "plannedTokens": 10000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-03T04:55:51.218Z",
+  "result": {
+    "id": "P071",
+    "summary": "Rejected native render: independent water tongues merge into a dark stripe with a blunt mouth and apparent ivory pockets. Root witnesses, simple components and containment pass, but do not establish correct combined water/foam anatomy.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P071/seed721.png",
+      "research/output/procedural-wave-2026-10-30/P071/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P071/diagnostics.json"
+    ],
+    "nextAction": "Replace the inner cap boundary as one connected bay path tied to foam roots; remove independent tongue overlay from active implementation.",
+    "estimatedWorkTokens": 4500
+  },
+  "review": {
+    "id": "P071",
+    "findings": [
+      "Cheap first whole render rejected a monolithic stripe despite individually valid geometry.",
+      "Independent water overlays preserve the wrong boundary relationship and can leave apparent ivory pockets; change representation before tuning widths."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Remove failed tongue overlay from active source; frozen source/capture remains historical evidence.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P071/seed721.png"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Construct water heads and intervening ivory tongues in one continuous inner cap seam.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P071/seed721.png"
+        ]
+      }
+    ],
+    "nextImprovement": "P072 one connected bay boundary aimed at actual foam roots, no overlay rectangles or crossfades.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 4500,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 4800,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T06:16:29.715Z",
+  "closedAt": "2026-11-03T06:16:29.747Z"
+}

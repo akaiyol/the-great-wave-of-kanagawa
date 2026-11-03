@@ -1,0 +1,40 @@
+{
+  "phase": "P073",
+  "rolePolicy": "v2",
+  "status": "focused checks pass",
+  "artifact": "src/procedural/rolled-front.mjs",
+  "test": "src/procedural/surface-chart.test.mjs",
+  "command": "node --test src/procedural/surface-chart.test.mjs",
+  "testsPassed": 4,
+  "profileErrors": [
+    {
+      "seed": 0,
+      "maxError": 0
+    },
+    {
+      "seed": 721,
+      "maxError": 0
+    },
+    {
+      "seed": 1847,
+      "maxError": 0
+    }
+  ],
+  "frontMaxError": 5.684515355781502e-14,
+  "tolerance": 1e-7,
+  "frozenP070Seed721": {
+    "normalizedGeometryEqual": true,
+    "baseFingerprintEqual": true,
+    "fingerprintEqual": true,
+    "svgEqual": true,
+    "baseFingerprint": "edff728ea57a71d4",
+    "fingerprint": "babac3432f4eea2d"
+  },
+  "limitations": [
+    "inverseFront is annular/front only, not an inverse of the cubic back chart",
+    "inverseFront uses canonical 0 <= u < 2*pi and positive radius; arbitrary angular revolutions and negative radius are not recoverable",
+    "profile inverse verified at seven native points for seeds 0,721,1847; no global-domain claim",
+    "no visuals or broad regressions run; lead owns captures"
+  ],
+  "estimatedWorkerTokens": 4000
+}

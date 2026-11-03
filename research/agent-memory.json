@@ -86,6 +86,25 @@
         "research/output/procedural-wave-2026-10-30/P068/seed721.png"
       ],
       "reentryCondition": "Preserve the notch while improving lobe width/curvature; test held-out seeds before claiming generality."
+    },
+    {
+      "id": "water.parallel-overlay-stripe",
+      "status": "retained",
+      "lesson": "P071independent water overlays merge into a dark stripe with a blunt mouth; P072free Cartesian inner seam folds. Do not re-enter these without an ordered boundary construction.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/P071/seed721.png",
+        "research/output/procedural-wave-2026-10-30/P072/diagnostics.json"
+      ],
+      "reentryCondition": "Use a shared ordered surface chart and connected inner seam; no overlay tuning."
+    },
+    {
+      "id": "water.ordered-bay",
+      "status": "retained",
+      "lesson": "P073ordered chart plus inverse root coordinates gives a connected bay hierarchy under foam roots atseed721. Regular scallops and full source style remain unresolved.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-03/P073/visual-review.json"
+      ],
+      "reentryCondition": "Keep chart ordering/attachment while varying head depth/width; validate other seeds before generality claims."
     }
   ]
 }

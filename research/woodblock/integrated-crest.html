@@ -11,9 +11,10 @@ html,body{margin:0;background:#e6dcc1}main{width:100vw;height:100vh;display:grid
 import{generateIntegratedCrest,integratedCrestSvg}from'../../src/procedural/integrated-crest.mjs';
 const main=document.querySelector('main'),raw=new URLSearchParams(location.search).get('seed');
 const seed=raw===null?721:Number(raw);
-const groups=Number(new URLSearchParams(location.search).get('groups')??1);
+const rawGroups=new URLSearchParams(location.search).get('groups')??'1';
+const groups=rawGroups==='all'?'all':Number(rawGroups);
 const variant=new URLSearchParams(location.search).get('variant')??'legacy';
-if(!['legacy','turning'].includes(variant)||![1,2].includes(groups)||raw!==null&&(!/^\d+$/.test(raw)||!Number.isInteger(seed)||seed<0||seed>4294967295)){
+if(!['legacy','turning','branched','interlocked'].includes(variant)||![1,2,'all'].includes(groups)||groups==='all'&&!['branched','interlocked'].includes(variant)||raw!==null&&(!/^\d+$/.test(raw)||!Number.isInteger(seed)||seed<0||seed>4294967295)){
  main.setAttribute('role','alert');main.textContent='Invalid seed. Use an integer from 0 to 4294967295.';
 }else{
  const seeds=[0,1,721,1847,13891,4294967295];

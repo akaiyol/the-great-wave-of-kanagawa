@@ -6,13 +6,19 @@
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "research/woodblock/generated-gallery.html",
-  "retainedCandidate": "P068 local seed721 two-group terminal separation; W064 remains six-seed attachment control. Whole artwork unaccepted.",
-  "currentPhase": "P068",
-  "currentPhaseRecord": "research/phases/P068.json",
+  "retainedCandidate": "P073 ordered inner bay + whole-crest branches atseed721; six-seed validation pending, source style unaccepted.",
+  "currentPhase": "P073",
+  "currentPhaseRecord": "research/phases/P073.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
   "historicalLog": "research/agent-iteration-log.md",
   "artisticAcceptance": "No accepted procedural artwork; local method reviews are scoped evidence.",
-  "bootstrapNote": "P066 created its own lifecycle tool; planned budget/earlier setup work recorded at tool bootstrap. Later phases start before productive work."
+  "bootstrapNote": "P066 created its own lifecycle tool; planned budget/earlier setup work recorded at tool bootstrap. Later phases start before productive work.",
+  "runAuthorization": {
+    "instruction": "Continue until available usage reaches0%; do not stop at10% for this run.",
+    "checkpointRemainingPercent": 10,
+    "stopRemainingPercent": 0,
+    "noPurchaseResetOrWaitingForReset": true
+  }
 }

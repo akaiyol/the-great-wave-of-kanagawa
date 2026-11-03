@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "P073",
+  "objective": "Build the interlocking bay seam in the existing ordered C1 water-surface chart.",
+  "hypothesis": "Monotone longitudinal chart positions and positive radial widths prevent the Cartesian seam folds while reaching beneath actual foam-root coordinates.",
+  "failureIds": [
+    "water.parallel-overlay-stripe",
+    "water.unordered-cartesian-seam",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P072 seam rejected with7crossings; P070 full-crest branch construction retained.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P073/seed721.png",
+  "plannedTokens": 16000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 15200,
+    "reviewTokens": 800
+  },
+  "startedAt": "2026-11-03T08:36:40.850Z",
+  "result": {
+    "id": "P073",
+    "summary": "Ordered surface chart removes P072 folds; connected water now reaches beneath actual foam-root groups. Independent review retains local hierarchy improvement, not source style.18simple components,3water-head and3foam-root witnesses pass.4focused chart tests pass; roundtrip error<5.69e-14; legacyseed721geometry/SVG unchanged.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P073/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P073/seed721.png",
+      "research/output/procedural-wave-2026-10-30/P073/diagnostics.json",
+      "research/output/procedural-wave-2026-10-30/P073/surface-chart-checks.json",
+      "research/output/agent-phase-2026-11-03/P073/visual-review.json"
+    ],
+    "nextAction": "Check ordered construction across seeded topology fixtures, then make water heads unequal and tapering rather than regular scallops.",
+    "estimatedWorkTokens": 16500
+  },
+  "review": {
+    "id": "P073",
+    "findings": [
+      "A defined API task delivered promptly and preserved existing geometry; lead-owned chart construction fixed the representation-level seam failure.",
+      "Independent review retained a visible hierarchy gain but not source style. Required context cost was estimated6500tokens, above4500assigned; productive-work overrun remains explicit.",
+      "P071overlay and P072freeCartesian failures are frozen evidence, not active fallback renderers."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Use ordered surface coordinates and invert actual root positions instead of free Cartesian joining.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P073/seed721.png",
+          "research/output/procedural-wave-2026-10-30/P073/surface-chart-checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Plan about7000estimated tokens for a fresh independent visual review with image/source context; routine process review remains lead-owned.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-03/P073/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Run fixed/held-out seeded structural cases before more single-poster polish; retain scoped review claims.",
+    "estimatedReviewTokens": 550
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 16500,
+    "estimatedReviewTokens": 550,
+    "estimatedTotalTokens": 17050,
+    "estimatedWorkOverrun": 1300,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 1050
+  },
+  "resultAt": "2026-11-03T10:16:39.662Z",
+  "closedAt": "2026-11-03T10:16:39.696Z"
+}

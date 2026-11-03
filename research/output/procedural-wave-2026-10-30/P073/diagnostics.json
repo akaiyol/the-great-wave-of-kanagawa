@@ -1,0 +1,290 @@
+{
+  "variant": "interlocked",
+  "innerBaySeamOutsideBody": 0,
+  "waterTongues": [
+    {
+      "rootId": "root-2",
+      "halfWidth": 0.055817465784427714,
+      "chartPosition": [
+        1.6934626734476768,
+        229.9087347549341
+      ],
+      "headInConnectedBay": true
+    },
+    {
+      "rootId": "root-1",
+      "halfWidth": 0.055817465784427714,
+      "chartPosition": [
+        1.486731318690537,
+        247.30744453877986
+      ],
+      "headInConnectedBay": true
+    },
+    {
+      "rootId": "root-0",
+      "halfWidth": 0.09663680765392671,
+      "chartPosition": [
+        1.1288172162685863,
+        233.95196108408052
+      ],
+      "headInConnectedBay": true
+    }
+  ],
+  "foamRootKept": [
+    {
+      "root": "root-0",
+      "insideFoamAfterWaterSubtraction": true
+    },
+    {
+      "root": "root-1",
+      "insideFoamAfterWaterSubtraction": true
+    },
+    {
+      "root": "root-2",
+      "insideFoamAfterWaterSubtraction": true
+    }
+  ],
+  "declaredInterGroupRoute": {
+    "points": [
+      [
+        705.8317033743839,
+        319.8647344976223
+      ],
+      [
+        725.8317033743839,
+        339.8647344976223
+      ],
+      [
+        750.8317033743839,
+        369.8647344976223
+      ],
+      [
+        780.8317033743839,
+        394.8647344976223
+      ]
+    ],
+    "samples": 195,
+    "bodyHits": 128,
+    "boundaryCrossings": 1,
+    "minClearance": 0.039283163526660315,
+    "scope": "seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof"
+  },
+  "scope": "selected whole-wave crest groups; retained original junctions; sky topology unproven",
+  "groups": [
+    {
+      "root": "root-0",
+      "range": [
+        0,
+        96
+      ],
+      "collar": {
+        "station": 0.20833333333333334,
+        "childRootStations": [
+          0.72
+        ],
+        "construction": "frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent",
+        "joinPositionError": 0,
+        "normalizedTangentErrors": [
+          2.196025632989205e-15,
+          4.085258685332182e-15,
+          1.8385843027689748e-15,
+          5.321276633229411e-16
+        ],
+        "maxNormalizedTangentError": 4.085258685332182e-15,
+        "hiddenCrossSectionSamples": 95,
+        "hiddenCrossSectionOutsideParent": 0,
+        "hiddenCrossSectionMinInteriorClearance": 0.25506593677410216,
+        "exposedConnectorSegments": 96,
+        "removedLargeStraightChord": true
+      },
+      "localAttachments": [
+        {
+          "id": "graft-parent",
+          "parentId": "cap",
+          "witness": [
+            634.1193264969185,
+            285.88600972318216
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.989345585844621,
+          "branchClearance": 1.6000156520511553
+        },
+        {
+          "id": "root-0-child-0",
+          "parentId": "graft-parent",
+          "witness": [
+            662.7410176917884,
+            267.76131885158185
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.308719021216756,
+          "branchClearance": 1.535462102060786
+        }
+      ]
+    },
+    {
+      "root": "root-1",
+      "range": [
+        96,
+        264
+      ],
+      "collar": {
+        "station": 0.20833333333333334,
+        "childRootStations": [
+          0.42,
+          0.8999999999999999
+        ],
+        "construction": "frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent",
+        "joinPositionError": 0,
+        "normalizedTangentErrors": [
+          3.33251893187639e-15,
+          4.3794041556113366e-15,
+          3.0867394805640034e-15,
+          1.0408340855860843e-15
+        ],
+        "maxNormalizedTangentError": 4.3794041556113366e-15,
+        "hiddenCrossSectionSamples": 95,
+        "hiddenCrossSectionOutsideParent": 0,
+        "hiddenCrossSectionMinInteriorClearance": 0.23848788424925463,
+        "exposedConnectorSegments": 96,
+        "removedLargeStraightChord": true
+      },
+      "localAttachments": [
+        {
+          "id": "graft-parent",
+          "parentId": "cap",
+          "witness": [
+            718.7227757801326,
+            326.8162066797362
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.405081590538698,
+          "branchClearance": 1.4960223715067125
+        },
+        {
+          "id": "root-1-child-0",
+          "parentId": "graft-parent",
+          "witness": [
+            733.3674103814429,
+            315.0127973292412
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.842120932354565,
+          "branchClearance": 1.6391063758620963
+        },
+        {
+          "id": "root-1-child-1",
+          "parentId": "graft-parent",
+          "witness": [
+            759.536293584568,
+            324.3231074372596
+          ],
+          "insideBoth": true,
+          "parentClearance": 6.5730250196534525,
+          "branchClearance": 1.730026978141821
+        }
+      ]
+    },
+    {
+      "root": "root-2",
+      "range": [
+        264,
+        432
+      ],
+      "collar": {
+        "station": 0.20833333333333334,
+        "childRootStations": [
+          0.42,
+          0.8999999999999999
+        ],
+        "construction": "frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent",
+        "joinPositionError": 0,
+        "normalizedTangentErrors": [
+          1.8619006149354546e-15,
+          1.8452761694870047e-15,
+          4.965068306494546e-16,
+          5.661048867003677e-16
+        ],
+        "maxNormalizedTangentError": 1.8619006149354546e-15,
+        "hiddenCrossSectionSamples": 95,
+        "hiddenCrossSectionOutsideParent": 0,
+        "hiddenCrossSectionMinInteriorClearance": 0.23881204171430329,
+        "exposedConnectorSegments": 96,
+        "removedLargeStraightChord": true
+      },
+      "localAttachments": [
+        {
+          "id": "graft-parent",
+          "parentId": "cap",
+          "witness": [
+            735.6311821952529,
+            372.0565449943014
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.416505944235597,
+          "branchClearance": 1.4980557948025945
+        },
+        {
+          "id": "root-2-child-0",
+          "parentId": "graft-parent",
+          "witness": [
+            745.7732282232919,
+            387.92749632762445
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.854139318597515,
+          "branchClearance": 1.6413342817762966
+        },
+        {
+          "id": "root-2-child-1",
+          "parentId": "graft-parent",
+          "witness": [
+            733.6360428685751,
+            412.9530779339905
+          ],
+          "insideBoth": true,
+          "parentClearance": 6.581959205702063,
+          "branchClearance": 1.7323784651429492
+        }
+      ]
+    }
+  ],
+  "simpleComponents": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "finite": true,
+  "sharedExposedGeometryError": 0,
+  "interGroupSky": "declared route sampled; whole sky topology unproven",
+  "localCovesAgainstCombinedUnion": [
+    {
+      "root": "root-0",
+      "bodyHits": 0
+    },
+    {
+      "root": "root-1",
+      "bodyHits": 0
+    },
+    {
+      "root": "root-2",
+      "bodyHits": 0
+    }
+  ],
+  "retainedInk": 0
+}

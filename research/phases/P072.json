@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "P072",
+  "objective": "Rebuild the inner foam/water boundary as a connected bay network near actual foam roots.",
+  "hypothesis": "A single simple cap seam with unequal rounded water heads and attached ivory gaps avoids P071's merged strip and brings water flow beneath the exposed branches.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "water.parallel-overlay-stripe"
+  ],
+  "baseline": "P070 whole-crest branches retained; P071 independent water overlay rejected as dark stripe.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P072/seed721.png",
+  "plannedTokens": 11000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 10450,
+    "reviewTokens": 550
+  },
+  "startedAt": "2026-11-03T06:16:29.774Z",
+  "result": {
+    "id": "P072",
+    "summary": "Rejected: free Cartesian bay seam has7self-crossings, one head fails its water witness, and native fill hides intended heads. Exterior and root witnesses alone are insufficient. No promotion.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P072/seed721.png",
+      "research/output/procedural-wave-2026-10-30/P072/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P072/diagnostics.json"
+    ],
+    "nextAction": "Construct the inner seam in the existing ordered surface chart, with monotone longitudinal positions and radial heads aimed below foam roots.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P072",
+    "findings": [
+      "The first connected-seam control failed its own crossing/head checks; capture retained for diagnosis, no visual promotion.",
+      "Local foam-parent directions turn through the crest and cannot define a globally ordered inner water seam. The existing C1 surface chart supplies the missing ordering constraint."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Remove the free Cartesian seam; do not tune it through more crossings.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P072/diagnostics.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Expose/invert the established flow chart and constrain the inner seam there.",
+        "evidence": [
+          "src/procedural/rolled-front.mjs",
+          "research/output/procedural-wave-2026-10-30/P072/seed721.png"
+        ]
+      }
+    ],
+    "nextImprovement": "P073: monotone chart construction with actual foam-root target coordinates.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 6900,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T08:36:40.788Z",
+  "closedAt": "2026-11-03T08:36:40.823Z"
+}

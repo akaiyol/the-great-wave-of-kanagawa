@@ -2,21 +2,21 @@
 
 Policy v2. Phase records are authoritative; review is required before advancing.
 
-Current phase: P068 (closed).
-Record: research/phases/P068.json
-Objective: Separate compact upper foam terminals around the turning parent without restoring long antler prongs.
-Hypothesis: Divergent parent-relative growth sectors with returning tips produce distinct compact lobes where global falling controls in P067 fused visually.
-Baseline: research/output/procedural-wave-2026-10-30/P067/seed721.png; W065 prongs rejected; W064 one-group control retained.
-Artifact: research/output/procedural-wave-2026-10-30/P068/seed721.png
-Budget: 7600 work / 400 review tokens (planned; usage estimated).
+Current phase: P073 (closed).
+Record: research/phases/P073.json
+Objective: Build the interlocking bay seam in the existing ordered C1 water-surface chart.
+Hypothesis: Monotone longitudinal chart positions and positive radial widths prevent the Cartesian seam folds while reaching beneath actual foam-root coordinates.
+Baseline: P072 seam rejected with7crossings; P070 full-crest branch construction retained.
+Artifact: research/output/procedural-wave-2026-10-30/P073/seed721.png
+Budget: 15200 work / 800 review tokens (planned; usage estimated).
 Artifact delivered: true.
-Result: Independent native review retains a local gain: compact upper terminals now occupy distinct sectors with a visible notch and no long antler sweep. Thin angular tips/shoulders remain; full artwork unaccepted. Single-group SVG unchanged,14simple components, positive attachments and195clear declared route samples.
+Result: Ordered surface chart removes P072 folds; connected water now reaches beneath actual foam-root groups. Independent review retains local hierarchy improvement, not source style.18simple components,3water-head and3foam-root witnesses pass.4focused chart tests pass; roundtrip error<5.69e-14; legacyseed721geometry/SVG unchanged.
 Verdicts: technical pass; artistic incomplete.
-Next action: Retain divergent sectors; build fuller upper foam lobes with smoother return curvature while preserving notch, then verify held-out seeds after local form passes.
-Decision (retain): Keep divergent growth sectors and native notch comparison as the next geometry baseline.
-Decision (change): Budget specialist context setup within productive work before delegation; keep routine process review in lead context.
-Next improvement: Next geometry phase targets fuller return lobes, not more group/seed expansion; include reviewer context in its planned budget.
-State retainedCandidate: P068 local seed721 two-group terminal separation; W064 remains six-seed attachment control. Whole artwork unaccepted.
+Next action: Check ordered construction across seeded topology fixtures, then make water heads unequal and tapering rather than regular scallops.
+Decision (retain): Use ordered surface coordinates and invert actual root positions instead of free Cartesian joining.
+Decision (change): Plan about7000estimated tokens for a fresh independent visual review with image/source context; routine process review remains lead-owned.
+Next improvement: Run fixed/held-out seeded structural cases before more single-poster polish; retain scoped review claims.
+State retainedCandidate: P073 ordered inner bay + whole-crest branches atseed721; six-seed validation pending, source style unaccepted.
 
 Scoped lessons:
 - delivery.no-artifact: Uncertain geometry stays with lead; workers receive a defined executable construction. Stop after one narrowed retry without an artifact. Re-entry: A concrete construction decision and smallest executable slice are supplied. Evidence: research/output/procedural-wave-2026-10-30/W065/receipt.json, research/agent-iteration-log.md
@@ -28,3 +28,5 @@ Scoped lessons:
 - logging.stale-brief: Phase transitions regenerate the startup brief automatically; check rejects stale manual context. Re-entry: Any lifecycle or memory/state change must preserve brief freshness. Evidence: research/output/agent-phase-2026-11-02/P066b/checks.json
 - geometry.compact-fork-fusion: P067 shorter falling children remain visually cramped despite simple components and no external sibling crossing. Reach reduction alone is insufficient; separate child growth sectors. Re-entry: Change angular fan/parent hierarchy and check native visible separation; do not claim geometric collision from internal parent overlap. Evidence: research/output/procedural-wave-2026-10-30/P067/seed721.png, research/output/procedural-wave-2026-10-30/P067/checks.json
 - geometry.divergent-sectors: P068 parent-relative divergent child directions restore a visible notch and remove the long antler sweep at seed721. Retain local method only; thin angular hooks and whole source style remain unresolved. Re-entry: Preserve the notch while improving lobe width/curvature; test held-out seeds before claiming generality. Evidence: research/output/agent-phase-2026-11-02/P068/visual-review.json, research/output/procedural-wave-2026-10-30/P068/seed721.png
+- water.parallel-overlay-stripe: P071independent water overlays merge into a dark stripe with a blunt mouth; P072free Cartesian inner seam folds. Do not re-enter these without an ordered boundary construction. Re-entry: Use a shared ordered surface chart and connected inner seam; no overlay tuning. Evidence: research/output/procedural-wave-2026-10-30/P071/seed721.png, research/output/procedural-wave-2026-10-30/P072/diagnostics.json
+- water.ordered-bay: P073ordered chart plus inverse root coordinates gives a connected bay hierarchy under foam roots atseed721. Regular scallops and full source style remain unresolved. Re-entry: Keep chart ordering/attachment while varying head depth/width; validate other seeds before generality claims. Evidence: research/output/agent-phase-2026-11-03/P073/visual-review.json
