@@ -1,30 +1,40 @@
 # The ocean — after Hokusai
 
-Procedural wave research inspired by Shan, Shui’s rule-based construction and guided visually by Hokusai’s canonical Great Wave print.
+An experiment in generating an endless ocean that immediately evokes Hokusai’s *The Great Wave*. The goal is varied wave anatomy, defined foam and flowing water contours, with deterministic generation so revisiting a location reproduces the same scene.
 
-## Active study
+## Inspiration
 
-Open [the generated wave gallery](http://127.0.0.1:4187/research/woodblock/generated-gallery.html). **New waves** constructs fresh collections. Each wave has generated branch topology and profile geometry; no finished wave images enter this generator. Collection URLs, detail links and Back reproduce the geometry.
+- **Visual language:** Hokusai’s original woodblock print, using the [Metropolitan Museum scan](references/great-wave-off-kanagawa-met-DP130155.jpg) as the canonical reference for shape, palette and composition.
+- **Generative approach:** [LingDong-’s Shan, Shui](https://github.com/LingDong-/shan-shui-inf)—construct objects from rules, then render their contours and details. Here, those objects are waves and branching foam.
 
-This is one curl family and an unfinished shape study. Foam, printed style, broader construction families and continuous ocean scenery still need work. The root index.html remains the earlier painted checkpoint and does not satisfy the procedural requirement.
+## Pivots
 
-## Run
+1. **Braille foam → woodblock color:** moved from dot sampling to complete water surfaces, ivory foam, indigo contours and pale clouds.
+2. **Painted sprites → generated geometry:** reusable finished waves looked too repetitive. The active generator now constructs wave profiles and branch relationships from seeds.
+3. **Detail tuning → anatomy first:** geometry and visual review now precede texture, scenery and endless travel.
 
-From the repository root, run `python3 -m http.server 4187 --bind 127.0.0.1` and open the gallery link above. No build or package installation is required. Nothing has been deployed.
+## Current progress
 
-## Code and evidence
+The [procedural gallery](research/woodblock/generated-gallery.html) generates reproducible collections with varying crest topology and wave profiles. Fifteen geometry/model tests pass; a new foam attachment also passed local visual review across six seeds.
 
-- src/procedural/rolled-front.mjs: shared flow, generated root/child graph, seeded profile field and qualified branch-spine ink.
-- src/procedural/rolled-front.test.mjs: structural, deterministic, profile and ink checks; run `node --test src/procedural/rolled-front.test.mjs`.
-- src/procedural/geometry.mjs: shared curve, ribbon and polygon operations.
-- src/procedural/branch-patch.mjs and research/woodblock/branch-control.html: isolated centerline-grown fork control.
-- src/procedural/integrated-crest.mjs and research/woodblock/integrated-crest.html: one-group attachment study across six seeds; `?seed=721&groups=2` opens the unaccepted two-group experiment.
-- research/output/procedural-wave-2026-10-30/: exact source snapshots, captures and bounded results.
-- research/agent-iteration-log.md and research/agent-state.json: decisions, failures and next action.
-- research/decisions/ADR-002-generated-wave-geometry.md: active direction; painted-sprite ADR-001 is superseded.
+The artwork remains unfinished. Foam is too sparse, water bands too uniform, and the latest two-group experiment produces an overly pointed branch. Broader wave families and a continuous procedural ocean are still ahead. The root page retains an earlier painted prototype.
 
-Fifteen model/shared-geometry tests and seven gallery browser behavior groups pass. The browser run checked 24 different seed/base geometries without exact repeats; this is not an infinite or perceptual uniqueness guarantee. Independent review passed the local one-group attachment across six seeds. The two-group experiment remains unaccepted because its upper fork resembles a projecting prong. Main artwork is unchanged and no procedural artistic acceptance is established.
+## Agent architecture
 
-## Reference
+A lead coordinates three bounded roles:
 
-references/great-wave-off-kanagawa-met-DP130155.jpg is the unchanged canonical Met JP1847 scan. Its pin remains in references/manifest.json. Source provenance and Shan, Shui links are in references/README.md. Historical painted assets and Braille studies remain evidence, not current generation inputs.
+- **Worker:** implements geometry and rendering within assigned files.
+- **Evaluator:** independently compares rendered results with the reference.
+- **Researcher:** resolves a specific blocking question when needed.
+
+At most two agents run under the lead, with one source writer. Small executable controls come before expansion. Source snapshots, render captures and an [action log](research/agent-iteration-log.md) connect each result to a decision; technical checks and artistic acceptance remain separate. See the [agent workflow](agents/wave-completion.md).
+
+## Run locally
+
+No build or package installation is required:
+
+```sh
+python3 -m http.server 4187 --bind 127.0.0.1
+```
+
+Open the [generated wave gallery](http://127.0.0.1:4187/research/woodblock/generated-gallery.html).
