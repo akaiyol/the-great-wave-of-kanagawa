@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="An endless ocean after Hokusai. White foam, drawn in the eight-dot Braille layout, over black water.">
+  <title>The ocean — after Hokusai</title>
+  <link rel="stylesheet" href="src/style.css?v=1">
+</head>
+<body>
+  <main>
+    <canvas id="ocean" tabindex="0" role="img" aria-label="An endless black ocean with white foam drawn in Braille dots. Curling crests, lower breaking waves, and distant foam overlap. Use the arrow keys, scroll, or drag to explore." aria-describedby="instructions"></canvas>
+    <p id="instructions" class="sr-only">Space pauses or resumes travel. Left and right arrows explore the ocean and pause automatic travel. Home returns to the starting view. Press H for controls.</p>
+    <div class="caption"><h1>The ocean</h1><p>After Hokusai</p></div>
+    <nav class="controls" aria-label="Ocean controls">
+      <button id="left" aria-label="Move left" title="Move left (left arrow)">←</button>
+      <button id="play" aria-label="Pause automatic travel">Pause</button>
+      <button id="right" aria-label="Move right" title="Move right (right arrow)">→</button>
+      <span class="separator" aria-hidden="true"></span>
+      <button id="new">New ocean</button>
+      <button id="help" aria-label="Open controls and artwork information" title="Controls (H)">?</button>
+    </nav>
+    <p id="announcement" class="sr-only" role="status"></p>
+    <p id="error" role="alert" hidden></p>
+  </main>
+  <dialog id="about" aria-labelledby="about-title">
+    <h2 id="about-title">An ocean to wander through</h2>
+    <p>Inspired by Katsushika Hokusai’s <cite>Under the Wave off Kanagawa</cite>. Only the foam is drawn; the water and sky remain black.</p>
+    <dl><dt>Explore</dt><dd>Scroll, drag, or use the left and right arrows.</dd><dt>Pause or play</dt><dd>Press Space, or use the Pause / Play button.</dd><dt>Return</dt><dd>Press Home to revisit the starting view.</dd><dt>Another composition</dt><dd>Choose New ocean.</dd></dl>
+    <p>Exploring pauses automatic travel. Choose Play to continue. Reduced motion starts paused.</p>
+    <p class="study-note">First visual prototype. Wave shapes and composition are still being refined.</p>
+    <form method="dialog"><button>Close</button></form>
+  </dialog>
+  <noscript><p class="no-script">This artwork requires JavaScript. <a href="references/great-wave-off-kanagawa-met-DP130155.jpg">View the original Great Wave reference.</a></p></noscript>
+  <script type="module" src="src/main.mjs"></script>
+</body>
+</html>

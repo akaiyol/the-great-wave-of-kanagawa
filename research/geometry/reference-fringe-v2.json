@@ -1,0 +1,99 @@
+{
+  "status": "unaccepted source-anchored authored fringe approximation; overlay and sampling review pending",
+  "source": "Katsushika Hokusai, Under the Wave off Kanagawa, Met JP1847, DP130155",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "frame": [
+    1000,
+    672
+  ],
+  "crop": [
+    450,
+    150,
+    150,
+    160
+  ],
+  "method": "Manual closed cubic contours authored from visual inspection of the unmodified canonical scan and baseline/reference-crop.png. No thresholding, flood fill, image generation or automatic tracing.",
+  "purpose": "One connected parent on the right-hand crest arm with three unequal attached subordinate fingers. Bounded reference study only; not a whole-wave stamp or procedural motif.",
+  "landmarks": [
+    {
+      "id": "parent-root",
+      "point": [
+        486,
+        170
+      ],
+      "role": "Approximate attachment transect inside the pale right-hand arm, below its upper skyline; the cut edge is an authored ROI boundary, not a printed foam boundary."
+    },
+    {
+      "id": "upper-finger",
+      "point": [
+        528,
+        184
+      ],
+      "role": "Upper right-turning subordinate tip; shorter reach and higher return than the lower group. Position and curvature need source overlay confirmation."
+    },
+    {
+      "id": "middle-finger",
+      "point": [
+        546,
+        217
+      ],
+      "role": "Intermediate scalloped projection on the descending arm; the inner dark contour is treated separately from foam."
+    },
+    {
+      "id": "lower-side-finger",
+      "point": [
+        565,
+        242
+      ],
+      "role": "Longer outer-right projection with a downward return. Approximate landmark rather than a measured exact contour."
+    },
+    {
+      "id": "parent-return",
+      "point": [
+        545,
+        277
+      ],
+      "role": "Lower returning tip on the diagonal parent; terminal boundary is simplified and requires overlay review."
+    }
+  ],
+  "assumptions": [
+    "Positive paths overlap at broad roots to author a connected foam network; sampled connectivity has not been checked.",
+    "Three unequal subordinate contours follow the descending right-hand-arm flow. Small scallops, fine ink irregularities and detached spray are omitted.",
+    "Subtract paths approximate strong interior ink contours and narrow dark gaps; an interior dark mark is not assumed to be exterior-connected water.",
+    "Pale paper outside the authored positive paths is negative space. The arbitrary parent attachment transect is documented rather than presented as a traced boundary.",
+    "Shared roots target at least roughly 4-6 normalized units before sampling, but no minimum sampled width or phase robustness is claimed.",
+    "Boundary locations and landmark matches are visual estimates. No source-overlay confirmation or accurate-trace claim is made.",
+    "The accepted interior calibration fragment does not transfer acceptance to this new fringe."
+  ],
+  "paths": [
+    {
+      "op": "add",
+      "d": "M 475 169 C 484 163 496 162 505 169 C 511 175 509 185 514 194 C 519 202 522 211 528 222 C 535 233 539 243 545 254 C 551 263 554 272 549 279 C 545 284 538 282 537 277 C 536 274 540 273 542 275 C 544 272 542 266 538 261 C 530 251 526 240 520 230 C 514 220 507 214 503 205 C 499 195 492 187 485 183 C 480 180 476 180 472 178 C 476 176 478 172 475 169 Z"
+    },
+    {
+      "op": "add",
+      "d": "M 497 181 C 501 176 506 173 513 173 C 521 171 528 175 531 182 C 534 188 531 195 526 196 C 523 197 520 194 521 191 C 523 192 526 191 526 188 C 526 184 521 180 516 180 C 510 180 506 185 504 192 C 501 191 498 187 497 181 Z"
+    },
+    {
+      "op": "add",
+      "d": "M 514 211 C 519 207 524 202 532 202 C 540 202 547 207 549 214 C 552 220 549 227 545 230 C 541 231 537 228 538 225 C 541 225 543 222 543 219 C 542 214 538 211 534 211 C 528 211 526 218 525 224 C 521 223 517 218 514 211 Z"
+    },
+    {
+      "op": "add",
+      "d": "M 530 232 C 535 227 541 223 548 224 C 557 224 564 230 567 239 C 570 247 568 254 563 257 C 559 259 555 256 555 252 C 558 253 561 250 561 247 C 562 242 558 236 553 234 C 548 232 542 236 539 244 C 536 242 532 237 530 232 Z"
+    },
+    {
+      "op": "subtract",
+      "d": "M 511 175 C 518 173 525 177 528 183 C 529 186 528 189 526 190 C 527 186 524 181 520 179 C 517 177 514 178 511 178 Z"
+    },
+    {
+      "op": "subtract",
+      "d": "M 508 194 C 511 197 513 200 516 204 C 517 205 517 207 516 208 C 512 205 510 201 508 197 C 507 195 507 194 508 194 Z"
+    },
+    {
+      "op": "subtract",
+      "d": "M 531 234 C 534 238 535 242 538 246 C 540 249 542 250 543 253 C 540 252 537 250 535 247 C 532 243 532 239 530 236 Z"
+    }
+  ]
+}

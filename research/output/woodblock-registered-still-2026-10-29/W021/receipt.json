@@ -1,0 +1,274 @@
+{
+  "iteration": "W021",
+  "browser": "151.0.7922.34",
+  "sourceHashes": {
+    "research/woodblock/registered-still.html": "4df880c40abfe78763256f2f88eebeff98343a8bc35d75728f750e274ee434b0",
+    "research/woodblock/registered-still.mjs": "44518334446471cce80e384d546c71433f993f969b129496e57d166beffba806",
+    "research/woodblock/annotation/crest/annotation.json": "94cc624ae9ae0d41b729f08dfb1d4acb33f3cde773053ab53dfccdee3e13fb2f",
+    "research/woodblock/crest-contours.json": "c5f7465aa0fdfba1d5336547f309fe097b95b9d2cade8897e039812ebaa10b65"
+  },
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "results": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "iteration": "W021",
+        "scope": "Complete fixed colored still experiment; registered crest with authored water continuation and clouds. No boats or Fuji. No production migration or procedural claim.",
+        "provenance": {
+          "reference": {
+            "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+            "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+            "frame": [
+              1000,
+              672
+            ]
+          },
+          "crestColors": "research/woodblock/crest-contours.json",
+          "crestDomain": "research/woodblock/annotation/crest/annotation.json",
+          "domainIteration": "W017",
+          "colorKind": "fixed_source_color_vector_control",
+          "originalScanDrawn": false
+        },
+        "uncertainty": [
+          "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+          "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+          "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance.",
+          "W020 joins use declared root color diagnostics; pale x185–225 and x399–426 root intervals continue as paper/foam rather than water. Microtexture and interpreted band directions may still reveal registration boundaries.",
+          "Principal-water mask is unused and unverified; original registered color layers retain source appearance.",
+          "Foreground and right swell are authored interpretations, not source reconstructions."
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1,
+          "scale": 1.28,
+          "offsetX": 0,
+          "offsetY": 0,
+          "visibleSource": [
+            0,
+            0,
+            1000,
+            562.5
+          ],
+          "fit": "uniform cover, top aligned"
+        },
+        "stats": {
+          "registeredLayers": 12,
+          "registeredDomainVertices": 292,
+          "explicitSkyCuts": 2,
+          "clouds": 2,
+          "authoredBands": 13
+        }
+      },
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 720,
+          "cssWidth": 1280,
+          "cssHeight": 720
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "resize": true,
+      "errors": [],
+      "state": {
+        "ready": true,
+        "iteration": "W021",
+        "scope": "Complete fixed colored still experiment; registered crest with authored water continuation and clouds. No boats or Fuji. No production migration or procedural claim.",
+        "provenance": {
+          "reference": {
+            "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+            "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+            "frame": [
+              1000,
+              672
+            ]
+          },
+          "crestColors": "research/woodblock/crest-contours.json",
+          "crestDomain": "research/woodblock/annotation/crest/annotation.json",
+          "domainIteration": "W017",
+          "colorKind": "fixed_source_color_vector_control",
+          "originalScanDrawn": false
+        },
+        "uncertainty": [
+          "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+          "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+          "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance.",
+          "W020 joins use declared root color diagnostics; pale x185–225 and x399–426 root intervals continue as paper/foam rather than water. Microtexture and interpreted band directions may still reveal registration boundaries.",
+          "Principal-water mask is unused and unverified; original registered color layers retain source appearance.",
+          "Foreground and right swell are authored interpretations, not source reconstructions."
+        ],
+        "viewport": {
+          "width": 1000,
+          "height": 800,
+          "dpr": 1,
+          "scale": 1.1904761904761905,
+          "offsetX": -95.23809523809518,
+          "offsetY": 0,
+          "visibleSource": [
+            79.99999999999996,
+            0,
+            840,
+            672
+          ],
+          "fit": "uniform cover, top aligned"
+        },
+        "stats": {
+          "registeredLayers": 12,
+          "registeredDomainVertices": 292,
+          "explicitSkyCuts": 2,
+          "clouds": 2,
+          "authoredBands": 13
+        }
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "dpr": 2,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "iteration": "W021",
+        "scope": "Complete fixed colored still experiment; registered crest with authored water continuation and clouds. No boats or Fuji. No production migration or procedural claim.",
+        "provenance": {
+          "reference": {
+            "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+            "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+            "frame": [
+              1000,
+              672
+            ]
+          },
+          "crestColors": "research/woodblock/crest-contours.json",
+          "crestDomain": "research/woodblock/annotation/crest/annotation.json",
+          "domainIteration": "W017",
+          "colorKind": "fixed_source_color_vector_control",
+          "originalScanDrawn": false
+        },
+        "uncertainty": [
+          "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+          "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+          "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance.",
+          "W020 joins use declared root color diagnostics; pale x185–225 and x399–426 root intervals continue as paper/foam rather than water. Microtexture and interpreted band directions may still reveal registration boundaries.",
+          "Principal-water mask is unused and unverified; original registered color layers retain source appearance.",
+          "Foreground and right swell are authored interpretations, not source reconstructions."
+        ],
+        "viewport": {
+          "width": 1920,
+          "height": 1080,
+          "dpr": 2,
+          "scale": 1.92,
+          "offsetX": 0,
+          "offsetY": 0,
+          "visibleSource": [
+            0,
+            0,
+            1000,
+            562.5
+          ],
+          "fit": "uniform cover, top aligned"
+        },
+        "stats": {
+          "registeredLayers": 12,
+          "registeredDomainVertices": 292,
+          "explicitSkyCuts": 2,
+          "clouds": 2,
+          "authoredBands": 13
+        }
+      },
+      "canvases": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "cssWidth": 1920,
+          "cssHeight": 1080
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": {
+        "width": 960,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "iteration": "W021",
+        "scope": "Complete fixed colored still experiment; registered crest with authored water continuation and clouds. No boats or Fuji. No production migration or procedural claim.",
+        "provenance": {
+          "reference": {
+            "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+            "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+            "frame": [
+              1000,
+              672
+            ]
+          },
+          "crestColors": "research/woodblock/crest-contours.json",
+          "crestDomain": "research/woodblock/annotation/crest/annotation.json",
+          "domainIteration": "W017",
+          "colorKind": "fixed_source_color_vector_control",
+          "originalScanDrawn": false
+        },
+        "uncertainty": [
+          "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+          "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+          "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance.",
+          "W020 joins use declared root color diagnostics; pale x185–225 and x399–426 root intervals continue as paper/foam rather than water. Microtexture and interpreted band directions may still reveal registration boundaries.",
+          "Principal-water mask is unused and unverified; original registered color layers retain source appearance.",
+          "Foreground and right swell are authored interpretations, not source reconstructions."
+        ],
+        "viewport": {
+          "width": 960,
+          "height": 720,
+          "dpr": 1,
+          "scale": 1.0714285714285714,
+          "offsetX": -55.714285714285666,
+          "offsetY": 0,
+          "visibleSource": [
+            51.99999999999996,
+            0,
+            896,
+            672
+          ],
+          "fit": "uniform cover, top aligned"
+        },
+        "stats": {
+          "registeredLayers": 12,
+          "registeredDomainVertices": 292,
+          "explicitSkyCuts": 2,
+          "clouds": 2,
+          "authoredBands": 13
+        }
+      },
+      "canvases": [
+        {
+          "width": 960,
+          "height": 720,
+          "cssWidth": 960,
+          "cssHeight": 720
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "captureHashes": {
+    "resized.png": "6f9017935ecc68b3181b8c0b11289e73c2bb1b2ff8632586badc49f5ca77d58d",
+    "view-1280.png": "f8f4ee5f922fe4867411c37d7c02ddbbe10ef50be99c775816704f06a25e37ec",
+    "view-1920.png": "e5de7bda75056e49802cd7eec6ba406af58c2014556981fd3940320914dd4aad",
+    "view-960.png": "ea413cf04655e0039661a8b562a348887159bd429116d48bc80172a5018e8364"
+  }
+}

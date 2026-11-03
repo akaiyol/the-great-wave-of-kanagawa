@@ -1,0 +1,18 @@
+{
+  "iteration": "W051",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "6b55f9740446d20109d613778eeb176a79cccfc2fea927046cdb97a1e5ff86cc",
+    "src/procedural/rolled-front.mjs": "5fa48ec0bdb047863c0547fe43084de58b703c1483c53d5c9473133129c6ed08",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "seed721.png": "e9a6495a523667551cb0823feb7e9d3683f654c9386076209ce04ad221169d87"
+  }
+}

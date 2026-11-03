@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T01:01:00.567Z",
+  "kind": "approximate scale-transfer diagnostic",
+  "qualityScore": null,
+  "productionAcceptance": "not_assessed",
+  "wholeCrestAcceptance": "not_established",
+  "labeling": {
+    "acceptedControl": "User accepted sufficient interior branching/channel detail at 360x280 only.",
+    "scaleTransfer": "Requires inspection; no automatic artistic verdict."
+  },
+  "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+  "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+  "snapshotRoot": "research/output/validation-snapshots/48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+  "evaluationFingerprint": "ce7e784cc3ba44643ed512730ee5f974009e6627424a9ab6c797fa2eb16361b9",
+  "evaluationSnapshotRoot": "research/output/validation-evaluators/48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26-ce7e784cc3ba44643ed512730ee5f974009e6627424a9ab6c797fa2eb16361b9",
+  "modelReceiptSHA256": "877b48ba95afe47f036fc8d06f71523b8105b2344c2d408332b655de777c18f0",
+  "sourceIdentityScope": "Checked immutable model-receipt snapshot; live working-tree freshness not assessed.",
+  "studyFingerprint": "371f894053fb793f131aa8e866de401437eaf438a90ef1f628f40d15c8fa5310",
+  "studyIdentityScope": "Separate study files; not included in receipt evaluator file list.",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "svgSHA256": "1f6e96246f2c52564056a8fd9010c78ee9ff001924b82e3e540ccb4b332a93c7",
+  "jsonSHA256": "7b556132d0b806c2ccae3b366be2f84e3d3a3d690c0aba0f3867764b50e801f1",
+  "protocol": {
+    "version": 2,
+    "generatedGeometry": {
+      "fixtures": [
+        {
+          "seed": 721,
+          "id": "2:0:0",
+          "layer": 2
+        },
+        {
+          "seed": 0,
+          "id": "1:5:1",
+          "layer": 1
+        }
+      ],
+      "featureDimensionScales": [
+        1,
+        2
+      ],
+      "regeneration": "Copy checked scene feature and multiply width and height only; preserve seed, layer, x and y; regenerate waveGeometry.",
+      "raw": "Checked drawFoam including spray; holes subtracted; black negative-space backing.",
+      "sampled": "Checked OceanRenderer.sprite re-rasterizes the regenerated feature on production world grid; white/alpha>=128 mask; checked drawDotSamples at fixed DOT_STEP4.",
+      "display": "1 CSS pixel per world unit; no fitted preview or bitmap enlargement",
+      "bounds": "Production sprite bounds include body, foam, holes and spray plus geometryBounds margins.",
+      "sceneScope": "Scale1 is the actual isolated scene feature. Scale2 is hypothetical geometry scaling at the same world anchor; not a composition proposal or acceptance test.",
+      "phaseCoverage": "One existing world-grid placement per feature and scale; no phase sweep"
+    },
+    "kind": "approximate-reference-fragment-scale-transfer",
+    "normalizedFrame": [
+      1000,
+      672
+    ],
+    "roi": [
+      270,
+      90,
+      90,
+      70
+    ],
+    "comparisonCrop": [
+      200,
+      50,
+      405,
+      265
+    ],
+    "fitRule": "min(foamBoundsWidth/405,foamBoundsHeight/265)",
+    "boundsCall": "geometryBounds({...geometry,body:[],spray:[]})",
+    "boundsCaveat": "Includes eight-world-unit margins on every side, path control points and holes; not tight foam support or semantic correspondence.",
+    "panelRounding": "ceil desired dimension to a multiple of DOT_STEP; uniform content size retained with right/bottom black padding",
+    "cssPixelsPerWorldUnit": 1,
+    "pngPixelsPerWorldUnit": 1,
+    "dotPitch": 4,
+    "gridOrigin": [
+      0,
+      0
+    ],
+    "gridOriginScope": "Reference view origin only; generated sprite world-grid origins are recorded in each generated view.",
+    "phaseCoverage": "Single origin per scale; no all-offset claim",
+    "readbackContext": {
+      "willReadFrequently": true
+    },
+    "sampling": "SVG drawn to transparent world/4 sample canvas; alpha>=128 and red>=128 occupancy; checked production drawDotSamples.",
+    "sourceRect": [
+      1041.93,
+      347.4107142857143,
+      347.31,
+      270.20833333333337
+    ],
+    "sourceSize": [
+      3859,
+      2594
+    ],
+    "viewport": [
+      1280,
+      720
+    ],
+    "dpr": 2,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+  },
+  "protocolSHA256": "e2d3e868c429d22c1bb43602be198785003960f976edb539c4c7d0f232e4f358",
+  "views": [
+    {
+      "id": "control",
+      "label": "Accepted interior-detail control",
+      "fitScale": 4,
+      "fixture": null,
+      "foamBounds": null,
+      "desiredPixels": [
+        360,
+        280
+      ],
+      "actualPanelPixels": [
+        360,
+        280
+      ],
+      "actualContentScale": 4,
+      "blackPadding": [
+        0,
+        0
+      ],
+      "grid": [
+        90,
+        70
+      ],
+      "controlToFitLinearRatio": 1,
+      "worldTransform": [
+        4,
+        0,
+        0,
+        4,
+        -1080,
+        -360
+      ],
+      "occupiedSamples": 4827
+    },
+    {
+      "id": "foreground",
+      "label": "Fixed foreground: 721/2:0:0",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2,
+        "label": "Fixed foreground"
+      },
+      "featureDimensions": [
+        621.6742272023112,
+        296.52078239069397
+      ],
+      "foamBounds": {
+        "left": -7.350312220488196,
+        "right": 637.4856002385104,
+        "top": 13.635578919191357,
+        "bottom": 326.24605375467866
+      },
+      "boundWidth": 644.8359124589986,
+      "boundHeight": 312.6104748354873,
+      "fitScale": 1.1796621691905183,
+      "desiredPixels": [
+        106.16959522714664,
+        82.57635184333628
+      ],
+      "actualPanelPixels": [
+        108,
+        84
+      ],
+      "actualContentScale": 1.1796621691905183,
+      "blackPadding": [
+        1.8304047728533561,
+        1.4236481566637167
+      ],
+      "grid": [
+        27,
+        21
+      ],
+      "controlToFitLinearRatio": 3.3908012857145295,
+      "worldTransform": [
+        1.1796621691905183,
+        0,
+        0,
+        1.1796621691905183,
+        -318.5087856814399,
+        -106.16959522714664
+      ],
+      "occupiedSamples": 417
+    },
+    {
+      "id": "middle",
+      "label": "Fixed middle: 0/1:5:1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1,
+        "label": "Fixed middle"
+      },
+      "featureDimensions": [
+        309.98082584002987,
+        164.99078968443757
+      ],
+      "foamBounds": {
+        "left": -8.152629684847343,
+        "right": 319.3379230391958,
+        "top": 4.467583822596206,
+        "bottom": 169.63290421895556
+      },
+      "boundWidth": 327.49055272404314,
+      "boundHeight": 165.16532039635936,
+      "fitScale": 0.6232653599862618,
+      "desiredPixels": [
+        56.09388239876356,
+        43.62857519903832
+      ],
+      "actualPanelPixels": [
+        60,
+        44
+      ],
+      "actualContentScale": 0.6232653599862618,
+      "blackPadding": [
+        3.9061176012364385,
+        0.37142480096167674
+      ],
+      "grid": [
+        15,
+        11
+      ],
+      "controlToFitLinearRatio": 6.417812150009699,
+      "worldTransform": [
+        0.6232653599862618,
+        0,
+        0,
+        0.6232653599862618,
+        -168.28164719629066,
+        -56.09388239876356
+      ],
+      "occupiedSamples": 130
+    }
+  ],
+  "generatedViews": [
+    {
+      "id": "generated-foreground-1x",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "featureScale": 1,
+      "geometryRegenerated": true,
+      "bitmapEnlargement": false,
+      "actualSceneFeature": true,
+      "sceneScope": "Actual isolated scene feature at its original world anchor",
+      "originalFeatureDimensions": [
+        621.6742272023112,
+        296.52078239069397
+      ],
+      "featureDimensions": [
+        621.6742272023112,
+        296.52078239069397
+      ],
+      "featureWorldAnchor": [
+        520,
+        560
+      ],
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "grid": [
+        187,
+        116
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "occupiedSamples": 2620,
+      "phaseCoverage": "Single original world-grid anchor only"
+    },
+    {
+      "id": "generated-foreground-2x",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "featureScale": 2,
+      "geometryRegenerated": true,
+      "bitmapEnlargement": false,
+      "actualSceneFeature": false,
+      "sceneScope": "Hypothetical dimension scaling; not an actual scene or composition proposal",
+      "originalFeatureDimensions": [
+        621.6742272023112,
+        296.52078239069397
+      ],
+      "featureDimensions": [
+        1243.3484544046223,
+        593.0415647813879
+      ],
+      "featureWorldAnchor": [
+        520,
+        560
+      ],
+      "worldBounds": [
+        480,
+        540,
+        1444,
+        764
+      ],
+      "grid": [
+        361,
+        191
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "occupiedSamples": 10009,
+      "phaseCoverage": "Single original world-grid anchor only"
+    },
+    {
+      "id": "generated-middle-1x",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "featureScale": 1,
+      "geometryRegenerated": true,
+      "bitmapEnlargement": false,
+      "actualSceneFeature": true,
+      "sceneScope": "Actual isolated scene feature at its original world anchor",
+      "originalFeatureDimensions": [
+        309.98082584002987,
+        164.99078968443757
+      ],
+      "featureDimensions": [
+        309.98082584002987,
+        164.99078968443757
+      ],
+      "featureWorldAnchor": [
+        5344,
+        512
+      ],
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "grid": [
+        99,
+        82
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "occupiedSamples": 695,
+      "phaseCoverage": "Single original world-grid anchor only"
+    },
+    {
+      "id": "generated-middle-2x",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "featureScale": 2,
+      "geometryRegenerated": true,
+      "bitmapEnlargement": false,
+      "actualSceneFeature": false,
+      "sceneScope": "Hypothetical dimension scaling; not an actual scene or composition proposal",
+      "originalFeatureDimensions": [
+        309.98082584002987,
+        164.99078968443757
+      ],
+      "featureDimensions": [
+        619.9616516800597,
+        329.98157936887515
+      ],
+      "featureWorldAnchor": [
+        5344,
+        512
+      ],
+      "worldBounds": [
+        5304,
+        500,
+        744,
+        492
+      ],
+      "grid": [
+        186,
+        123
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "occupiedSamples": 2592,
+      "phaseCoverage": "Single original world-grid anchor only"
+    }
+  ],
+  "captureCounts": {
+    "reference": 9,
+    "generated": 8,
+    "total": 17
+  },
+  "captures": [
+    {
+      "id": "scale-control-reference",
+      "filename": "scale-control-reference.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "control",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 360,
+      "height": 280,
+      "sha256": "3544efba3a70d8355620211f52b90ff688ef87eeaf941bbf36b42d63588101a6"
+    },
+    {
+      "id": "scale-control-mask",
+      "filename": "scale-control-mask.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "control",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 360,
+      "height": 280,
+      "sha256": "b2eabc661028d51e6fa15ccb76165e3a58704cea823bbbdd79ebf5a287407f69"
+    },
+    {
+      "id": "scale-control-sampled",
+      "filename": "scale-control-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "control",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 360,
+      "height": 280,
+      "sha256": "939d998e796968b2f4ffd0e6f9ce8a79f3dd772c91403759121148f685883c04"
+    },
+    {
+      "id": "scale-foreground-reference",
+      "filename": "scale-foreground-reference.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "foreground",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 108,
+      "height": 84,
+      "sha256": "1035ea3cacb822be6ecd1d1519b1ada101d3b9694122c1833c166eaf8bf56b78"
+    },
+    {
+      "id": "scale-foreground-mask",
+      "filename": "scale-foreground-mask.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "foreground",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 108,
+      "height": 84,
+      "sha256": "6949a4cb8e229d317b3d5d522aaa982e2edfb3599816eb9a05f1f9bf6a491da9"
+    },
+    {
+      "id": "scale-foreground-sampled",
+      "filename": "scale-foreground-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "foreground",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 108,
+      "height": 84,
+      "sha256": "c0d31a1ac13c30bfa1c3ce85088b841dadc143efa125127e8f5fb400d94e4152"
+    },
+    {
+      "id": "scale-middle-reference",
+      "filename": "scale-middle-reference.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "middle",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 60,
+      "height": 44,
+      "sha256": "f197ba26e4d25445ae9082e82293199d1f5493b90b48acf2af79531f40cc5e0a"
+    },
+    {
+      "id": "scale-middle-mask",
+      "filename": "scale-middle-mask.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "middle",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 60,
+      "height": 44,
+      "sha256": "0670ff1760f24533fe45674ec46b1e6bc825381008af34da9bf2778193750362"
+    },
+    {
+      "id": "scale-middle-sampled",
+      "filename": "scale-middle-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "middle",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 60,
+      "height": 44,
+      "sha256": "42ee7c547683c4f4a0d29f647a43d867a3d5fbccd2f885f5f4669bfd3603bf04"
+    },
+    {
+      "id": "scale-generated-foreground-1x-raw",
+      "filename": "scale-generated-foreground-1x-raw.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-foreground-1x",
+      "kind": "raw",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "featureScale": 1,
+      "geometryRegenerated": true,
+      "actualSceneFeature": true,
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "featureWorldAnchor": [
+        520,
+        560
+      ],
+      "grid": [
+        187,
+        116
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 748,
+      "height": 464,
+      "sha256": "504673d35931c3fba837aeafbcabbdb462b14a7604183026274bcfb64e55956f"
+    },
+    {
+      "id": "scale-generated-foreground-1x-sampled",
+      "filename": "scale-generated-foreground-1x-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-foreground-1x",
+      "kind": "sampled",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "featureScale": 1,
+      "geometryRegenerated": true,
+      "actualSceneFeature": true,
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "featureWorldAnchor": [
+        520,
+        560
+      ],
+      "grid": [
+        187,
+        116
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 748,
+      "height": 464,
+      "sha256": "69bae4dea141f963e9ab97d36bf41ec1567e6f8178d644233d52ca93360d8962"
+    },
+    {
+      "id": "scale-generated-foreground-2x-raw",
+      "filename": "scale-generated-foreground-2x-raw.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-foreground-2x",
+      "kind": "raw",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "featureScale": 2,
+      "geometryRegenerated": true,
+      "actualSceneFeature": false,
+      "worldBounds": [
+        480,
+        540,
+        1444,
+        764
+      ],
+      "featureWorldAnchor": [
+        520,
+        560
+      ],
+      "grid": [
+        361,
+        191
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 1444,
+      "height": 764,
+      "sha256": "436e3383be61fc82e926784bcf373aef9c30cd5f572b5b8458bbb6b64d4c8bdd"
+    },
+    {
+      "id": "scale-generated-foreground-2x-sampled",
+      "filename": "scale-generated-foreground-2x-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-foreground-2x",
+      "kind": "sampled",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "featureScale": 2,
+      "geometryRegenerated": true,
+      "actualSceneFeature": false,
+      "worldBounds": [
+        480,
+        540,
+        1444,
+        764
+      ],
+      "featureWorldAnchor": [
+        520,
+        560
+      ],
+      "grid": [
+        361,
+        191
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 1444,
+      "height": 764,
+      "sha256": "3821e46fc1eb98d01e9f6dfdb70bdba87075b94a92341dd81b69d19b3f6720c0"
+    },
+    {
+      "id": "scale-generated-middle-1x-raw",
+      "filename": "scale-generated-middle-1x-raw.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-middle-1x",
+      "kind": "raw",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "featureScale": 1,
+      "geometryRegenerated": true,
+      "actualSceneFeature": true,
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "featureWorldAnchor": [
+        5344,
+        512
+      ],
+      "grid": [
+        99,
+        82
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 396,
+      "height": 328,
+      "sha256": "15f7fa11676b344935d6f3f8c7a86c450171e64ebcaee0e6f11822c7431a8da1"
+    },
+    {
+      "id": "scale-generated-middle-1x-sampled",
+      "filename": "scale-generated-middle-1x-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-middle-1x",
+      "kind": "sampled",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "featureScale": 1,
+      "geometryRegenerated": true,
+      "actualSceneFeature": true,
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "featureWorldAnchor": [
+        5344,
+        512
+      ],
+      "grid": [
+        99,
+        82
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 396,
+      "height": 328,
+      "sha256": "0623ba142a0300516e415f15df9f568ecccdf148d4d54991f37a3fe48240f593"
+    },
+    {
+      "id": "scale-generated-middle-2x-raw",
+      "filename": "scale-generated-middle-2x-raw.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-middle-2x",
+      "kind": "raw",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "featureScale": 2,
+      "geometryRegenerated": true,
+      "actualSceneFeature": false,
+      "worldBounds": [
+        5304,
+        500,
+        744,
+        492
+      ],
+      "featureWorldAnchor": [
+        5344,
+        512
+      ],
+      "grid": [
+        186,
+        123
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 744,
+      "height": 492,
+      "sha256": "dfd739ce024cd5f668d98db81b00f77f5f23083f8f88b071e8a1695559b771dd"
+    },
+    {
+      "id": "scale-generated-middle-2x-sampled",
+      "filename": "scale-generated-middle-2x-sampled.png",
+      "identity": "8c6602bce85e5b7a965a8733b1d36d2d048dfc0b6192aa061d17d0547fb0f489",
+      "view": "generated-middle-2x",
+      "kind": "sampled",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "featureScale": 2,
+      "geometryRegenerated": true,
+      "actualSceneFeature": false,
+      "worldBounds": [
+        5304,
+        500,
+        744,
+        492
+      ],
+      "featureWorldAnchor": [
+        5344,
+        512
+      ],
+      "grid": [
+        186,
+        123
+      ],
+      "dotPitch": 4,
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "mime": "image/png",
+      "width": 744,
+      "height": 492,
+      "sha256": "cbfb7ba496dfdd32ccddc6e57bcb0b5af9205d465d444042d4465d508f131191"
+    }
+  ],
+  "limits": [
+    "ROI only; accepted control is not a whole-crest approval.",
+    "Uniform bounding-box fit approximates scale and does not register semantic features.",
+    "One grid origin; not a phase sweep, production check or quality score.",
+    "Unchanged existing reference mask; no new brightness segmentation.",
+    "Generated scale2 examples change feature dimensions and regenerate geometry at fixed dot pitch; they are hypothetical isolated features, not actual scene coverage or a composition proposal."
+  ]
+}

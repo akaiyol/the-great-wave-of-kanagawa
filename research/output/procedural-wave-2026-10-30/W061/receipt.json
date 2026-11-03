@@ -1,0 +1,28 @@
+{
+  "iteration": "W061",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "ef99168cb5ef2c92777eb52b08338ed55b5e263bc16ed7f7b2223cebd8e708e3",
+    "src/procedural/branch-patch.mjs": "26f2972e346c93f1111d446c5dad6ebf82a493a9a011bf4c2232e8b775d3a67a",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/geometry.test.mjs": "6979873e1b6e6f080ba5af146e98e537ffe73dcb09622112bc9986e3df213ce9",
+    "src/procedural/rolled-front.mjs": "bd77321b3f6d099d575f09b95034bdd77a2d679652f124a1fc5ede186e6851b2",
+    "src/procedural/rolled-front.test.mjs": "db470b29513d281ab2fc8459be34a247d462b7fa206134bee6e7e94a57084b7b",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "seed721.png": "d664a3e61113cb1b86ffc4239ac8d3814c74d1ec207ff2157f286b6d4d61c29b",
+    "before.svg.png": "37691d990ae5037c0aea5a6b37bd1c83cfb5ae435b319f1071b6b5859a717cd1",
+    "after.svg.png": "37691d990ae5037c0aea5a6b37bd1c83cfb5ae435b319f1071b6b5859a717cd1"
+  },
+  "renderComparison": {
+    "frozenBaseline": "W059/source/research/woodblock/generated-gallery.html",
+    "svgPixelsEqual": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "iteration": "W058",
+  "diagnosticOverride": "Raw SVG rendered despite known failing sky probes; not a functional pass.",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "ef99168cb5ef2c92777eb52b08338ed55b5e263bc16ed7f7b2223cebd8e708e3",
+    "src/procedural/rolled-front.mjs": "8d2d8a1d1144b051fc87cbd0dae998af2496907604f2ce6615410a99f0523a68",
+    "src/procedural/rolled-front.test.mjs": "db470b29513d281ab2fc8459be34a247d462b7fa206134bee6e7e94a57084b7b",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "seed0.png": "94fca80850e1aa51e8d8107cea64d7f01000932751e23f1b2b4ad99a350aad19",
+    "seed1847.png": "f2f5d566fa83f8df5e7c8b9319ce7792d2c60e683424f0af8cd44842151d889c"
+  }
+}

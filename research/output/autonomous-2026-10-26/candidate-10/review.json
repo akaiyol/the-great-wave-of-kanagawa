@@ -1,0 +1,19 @@
+{
+  "reviewer": "wave_evaluator /root/cove_sweep_review",
+  "preference": "H over I; marginal, neither ready",
+  "mapping": {
+    "H": "candidate-10",
+    "I": "candidate-09"
+  },
+  "integrity": "28PNG hashes, canonical and3calibration hashes verified; same evaluator/protocol,6fixtures96phases384head384mouth probes",
+  "criteria": {
+    "hollows": "Central heads lean laterally, retained at native scale; long upright trunks persist",
+    "curl": "needs_work; broad smooth arch unchanged",
+    "foamMass": "needs_work; solidcap dominant",
+    "branching": "needs_work; repeated hooked loweredge lacks nestedhierarchy",
+    "detail": "needs_work; small hooks losearticulation"
+  },
+  "regression": "No clear new middle0/1:5:1 regression",
+  "readiness": "not_ready",
+  "nextChange": "Redraw central cove mouth-through-head, not just its cap"
+}

@@ -1,0 +1,2388 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-10-27T00:54:03.869Z",
+  "kind": "approximate scale-transfer diagnostic",
+  "qualityScore": null,
+  "productionAcceptance": "not_assessed",
+  "wholeCrestAcceptance": "not_established",
+  "labeling": {
+    "candidate": "UNACCEPTED candidate at every scale; no accepted control",
+    "scaleTransfer": "Approximate fit only; boundary review pending"
+  },
+  "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+  "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+  "snapshotRoot": "research/output/validation-snapshots/48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+  "evaluationFingerprint": "ce7e784cc3ba44643ed512730ee5f974009e6627424a9ab6c797fa2eb16361b9",
+  "evaluationSnapshotRoot": "research/output/validation-evaluators/48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26-ce7e784cc3ba44643ed512730ee5f974009e6627424a9ab6c797fa2eb16361b9",
+  "modelReceiptSHA256": "877b48ba95afe47f036fc8d06f71523b8105b2344c2d408332b655de777c18f0",
+  "sourceIdentityScope": "Checked immutable model-receipt snapshot; live working-tree freshness not assessed.",
+  "studyFingerprint": "ee954a46d3f534d8f8a40edac9383f6a02c5254471f97eb94353809aca548d33",
+  "studyIdentityScope": "Separate study files; not included in receipt evaluator file list.",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "svgSHA256": "bae32edef9be0b7534ea1a2376c0748365b8bc2eb3c921fa52b61556413dc107",
+  "jsonSHA256": "6ce1f22e93259a2ce8ace0f087ccd4e6bf892fb47e8a988e2b318d6a1bed36ff",
+  "protocol": {
+    "version": 3,
+    "generatedGeometry": null,
+    "kind": "approximate-reference-fragment-scale-transfer",
+    "normalizedFrame": [
+      1000,
+      672
+    ],
+    "roi": [
+      325,
+      145,
+      34,
+      35
+    ],
+    "comparisonCrop": [
+      200,
+      50,
+      405,
+      265
+    ],
+    "fitRule": "min(foamBoundsWidth/405,foamBoundsHeight/265)",
+    "boundsCall": "geometryBounds({...geometry,body:[],spray:[]})",
+    "boundsCaveat": "Includes eight-world-unit margins on every side, path control points and holes; not tight foam support or semantic correspondence.",
+    "panelRounding": "ceil desired dimension to a multiple of DOT_STEP; uniform content size retained with right/bottom black padding",
+    "cssPixelsPerWorldUnit": 1,
+    "pngPixelsPerWorldUnit": 1,
+    "dotPitch": 4,
+    "gridOrigin": [
+      0,
+      0
+    ],
+    "gridOriginScope": "Local source patch, not production scene world phases",
+    "phaseCoverage": "Source-patch diagnostics only: sixteen offsets per scale; displayed triptychs show origin 0",
+    "readbackContext": {
+      "willReadFrequently": true
+    },
+    "sampling": "SVG drawn to transparent world/4 sample canvas; alpha>=128 and red>=128 occupancy; checked production drawDotSamples.",
+    "sourceRect": [
+      1254.175,
+      559.7172619047619,
+      131.20600000000002,
+      135.10416666666669
+    ],
+    "sourceSize": [
+      3859,
+      2594
+    ],
+    "viewport": [
+      1280,
+      720
+    ],
+    "dpr": 2,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "mode": "interface-v1",
+    "assetPaths": [
+      "research/geometry/reference-water-interface-v1.svg",
+      "research/geometry/reference-water-interface-v1.json"
+    ],
+    "candidateStatus": "UNACCEPTED candidate; boundary review pending",
+    "cropCuts": [
+      {
+        "edge": "top",
+        "segment": [
+          [
+            325,
+            145
+          ],
+          [
+            330.75,
+            145
+          ]
+        ],
+        "classification": "artificial ROI/root cut; not a traced printed boundary"
+      },
+      {
+        "edge": "top",
+        "segment": [
+          [
+            332.5,
+            145
+          ],
+          [
+            335,
+            145
+          ]
+        ],
+        "classification": "artificial ROI/root cut; not a traced printed boundary"
+      },
+      {
+        "edge": "top",
+        "segment": [
+          [
+            336.75,
+            145
+          ],
+          [
+            341.75,
+            145
+          ]
+        ],
+        "classification": "artificial ROI/root cut; not a traced printed boundary"
+      },
+      {
+        "edge": "left",
+        "segment": [
+          [
+            325,
+            145
+          ],
+          [
+            325,
+            147.75
+          ]
+        ],
+        "classification": "artificial ROI/root cut; not a traced printed boundary"
+      }
+    ],
+    "segmentation": {
+      "method": "Manually bounded source-interior ROI; LANCZOS source resampling at4samples/referenceunit, luminance>184, four-neighbor component seeded at supportedfoam seed F2(335,151); horizontal-run vectorization. Not global image/sky segmentation.",
+      "threshold": 184,
+      "thresholdSensitivity": [
+        {
+          "threshold": 172,
+          "selectedPixels": 4783,
+          "totalEligiblePixels": 4783,
+          "bounds": [
+            325,
+            145,
+            356,
+            173.5
+          ]
+        },
+        {
+          "threshold": 184,
+          "selectedPixels": 4700,
+          "totalEligiblePixels": 4700,
+          "bounds": [
+            325,
+            145,
+            356,
+            173.5
+          ]
+        },
+        {
+          "threshold": 196,
+          "selectedPixels": 4585,
+          "totalEligiblePixels": 4585,
+          "bounds": [
+            325,
+            145,
+            356,
+            173.5
+          ]
+        }
+      ],
+      "accepted": false
+    },
+    "sourcePatchOffsets": {
+      "scope": "48 local source-patch samples only; not fixed six-fixture production phases/probes or form acceptance",
+      "offsetsPerScale": 16,
+      "offsetWorldUnits": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "padding": "DOT_STEP+dx/dy left/top; at least DOT_STEP right/bottom, plus ceil-grid padding",
+      "connectivity": "Checked evaluator snapshot components(mask,width,1), eight-neighbor; all components including single samples",
+      "sampling": "Transparent low-resolution canvas at world/DOT_STEP; alpha>=128 and red>=128; fixed production DOT_STEP4"
+    }
+  },
+  "protocolSHA256": "3cf7b6c1054db5c648349f619e23e325cf9cc4c405bf8ab13a91ae32814f6b09",
+  "views": [
+    {
+      "id": "control",
+      "label": "UNACCEPTED candidate authoring scale 4",
+      "fitScale": 4,
+      "fixture": null,
+      "foamBounds": null,
+      "desiredPixels": [
+        136,
+        140
+      ],
+      "actualPanelPixels": [
+        136,
+        140
+      ],
+      "actualContentScale": 4,
+      "blackPadding": [
+        0,
+        0
+      ],
+      "grid": [
+        34,
+        35
+      ],
+      "controlToFitLinearRatio": 1,
+      "worldTransform": [
+        4,
+        0,
+        0,
+        4,
+        -1300,
+        -580
+      ],
+      "occupiedSamples": 301,
+      "sourcePatchDiagnostics": {
+        "view": "control",
+        "offsetCount": 16,
+        "nonemptyOffsets": 16,
+        "allNonempty": true,
+        "largestFractionRange": [
+          1,
+          1
+        ],
+        "componentCountIncludingSinglesRange": [
+          1,
+          1
+        ],
+        "records": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "grid": [
+              36,
+              37
+            ],
+            "paddingWorld": [
+              4,
+              4,
+              4,
+              4
+            ],
+            "nonempty": true,
+            "occupiedSamples": 301,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "grid": [
+              37,
+              37
+            ],
+            "paddingWorld": [
+              5,
+              4,
+              7,
+              4
+            ],
+            "nonempty": true,
+            "occupiedSamples": 299,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "grid": [
+              37,
+              37
+            ],
+            "paddingWorld": [
+              6,
+              4,
+              6,
+              4
+            ],
+            "nonempty": true,
+            "occupiedSamples": 296,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "grid": [
+              37,
+              37
+            ],
+            "paddingWorld": [
+              7,
+              4,
+              5,
+              4
+            ],
+            "nonempty": true,
+            "occupiedSamples": 302,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "grid": [
+              36,
+              38
+            ],
+            "paddingWorld": [
+              4,
+              5,
+              4,
+              7
+            ],
+            "nonempty": true,
+            "occupiedSamples": 302,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              5,
+              5,
+              7,
+              7
+            ],
+            "nonempty": true,
+            "occupiedSamples": 301,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              6,
+              5,
+              6,
+              7
+            ],
+            "nonempty": true,
+            "occupiedSamples": 295,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              7,
+              5,
+              5,
+              7
+            ],
+            "nonempty": true,
+            "occupiedSamples": 293,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "grid": [
+              36,
+              38
+            ],
+            "paddingWorld": [
+              4,
+              6,
+              4,
+              6
+            ],
+            "nonempty": true,
+            "occupiedSamples": 295,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              5,
+              6,
+              7,
+              6
+            ],
+            "nonempty": true,
+            "occupiedSamples": 286,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              6,
+              6,
+              6,
+              6
+            ],
+            "nonempty": true,
+            "occupiedSamples": 281,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              7,
+              6,
+              5,
+              6
+            ],
+            "nonempty": true,
+            "occupiedSamples": 283,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "grid": [
+              36,
+              38
+            ],
+            "paddingWorld": [
+              4,
+              7,
+              4,
+              5
+            ],
+            "nonempty": true,
+            "occupiedSamples": 295,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              5,
+              7,
+              7,
+              5
+            ],
+            "nonempty": true,
+            "occupiedSamples": 290,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              6,
+              7,
+              6,
+              5
+            ],
+            "nonempty": true,
+            "occupiedSamples": 289,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "grid": [
+              37,
+              38
+            ],
+            "paddingWorld": [
+              7,
+              7,
+              5,
+              5
+            ],
+            "nonempty": true,
+            "occupiedSamples": 288,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "foreground",
+      "label": "UNACCEPTED candidate Fixed foreground: 721/2:0:0",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2,
+        "label": "Fixed foreground"
+      },
+      "featureDimensions": [
+        621.6742272023112,
+        296.52078239069397
+      ],
+      "foamBounds": {
+        "left": -7.350312220488196,
+        "right": 637.4856002385104,
+        "top": 13.635578919191357,
+        "bottom": 326.24605375467866
+      },
+      "boundWidth": 644.8359124589986,
+      "boundHeight": 312.6104748354873,
+      "fitScale": 1.1796621691905183,
+      "desiredPixels": [
+        40.10851375247762,
+        41.28817592166814
+      ],
+      "actualPanelPixels": [
+        44,
+        44
+      ],
+      "actualContentScale": 1.1796621691905183,
+      "blackPadding": [
+        3.89148624752238,
+        2.7118240783318583
+      ],
+      "grid": [
+        11,
+        11
+      ],
+      "controlToFitLinearRatio": 3.3908012857145295,
+      "worldTransform": [
+        1.1796621691905183,
+        0,
+        0,
+        1.1796621691905183,
+        -383.39020498691843,
+        -171.05101453262515
+      ],
+      "occupiedSamples": 24,
+      "sourcePatchDiagnostics": {
+        "view": "foreground",
+        "offsetCount": 16,
+        "nonemptyOffsets": 16,
+        "allNonempty": true,
+        "largestFractionRange": [
+          0.9583333333333334,
+          1
+        ],
+        "componentCountIncludingSinglesRange": [
+          1,
+          2
+        ],
+        "records": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              4,
+              4,
+              7.89148624752238,
+              6.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 25,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              5,
+              4,
+              6.89148624752238,
+              6.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 24,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              6,
+              4,
+              5.89148624752238,
+              6.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 27,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              7,
+              4,
+              4.89148624752238,
+              6.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 29,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              4,
+              5,
+              7.89148624752238,
+              5.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 24,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              5,
+              5,
+              6.89148624752238,
+              5.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 23,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              6,
+              5,
+              5.89148624752238,
+              5.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 24,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              7,
+              5,
+              4.89148624752238,
+              5.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 28,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              4,
+              6,
+              7.89148624752238,
+              4.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 25,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              5,
+              6,
+              6.89148624752238,
+              4.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 24,
+            "componentCountIncludingSingles": 2,
+            "largestComponentFraction": 0.9583333333333334
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              6,
+              6,
+              5.89148624752238,
+              4.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 24,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "grid": [
+              13,
+              13
+            ],
+            "paddingWorld": [
+              7,
+              6,
+              4.89148624752238,
+              4.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 25,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "grid": [
+              13,
+              14
+            ],
+            "paddingWorld": [
+              4,
+              7,
+              7.89148624752238,
+              7.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 23,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "grid": [
+              13,
+              14
+            ],
+            "paddingWorld": [
+              5,
+              7,
+              6.89148624752238,
+              7.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 21,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "grid": [
+              13,
+              14
+            ],
+            "paddingWorld": [
+              6,
+              7,
+              5.89148624752238,
+              7.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 26,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "grid": [
+              13,
+              14
+            ],
+            "paddingWorld": [
+              7,
+              7,
+              4.89148624752238,
+              7.711824078331858
+            ],
+            "nonempty": true,
+            "occupiedSamples": 26,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "middle",
+      "label": "UNACCEPTED candidate Fixed middle: 0/1:5:1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1,
+        "label": "Fixed middle"
+      },
+      "featureDimensions": [
+        309.98082584002987,
+        164.99078968443757
+      ],
+      "foamBounds": {
+        "left": -8.152629684847343,
+        "right": 319.3379230391958,
+        "top": 4.467583822596206,
+        "bottom": 169.63290421895556
+      },
+      "boundWidth": 327.49055272404314,
+      "boundHeight": 165.16532039635936,
+      "fitScale": 0.6232653599862618,
+      "desiredPixels": [
+        21.1910222395329,
+        21.81428759951916
+      ],
+      "actualPanelPixels": [
+        24,
+        24
+      ],
+      "actualContentScale": 0.6232653599862618,
+      "blackPadding": [
+        2.8089777604671013,
+        2.1857124004808384
+      ],
+      "grid": [
+        6,
+        6
+      ],
+      "controlToFitLinearRatio": 6.417812150009699,
+      "worldTransform": [
+        0.6232653599862618,
+        0,
+        0,
+        0.6232653599862618,
+        -202.56124199553508,
+        -90.37347719800796
+      ],
+      "occupiedSamples": 6,
+      "sourcePatchDiagnostics": {
+        "view": "middle",
+        "offsetCount": 16,
+        "nonemptyOffsets": 16,
+        "allNonempty": true,
+        "largestFractionRange": [
+          0.8,
+          1
+        ],
+        "componentCountIncludingSinglesRange": [
+          1,
+          2
+        ],
+        "records": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              4,
+              4,
+              6.808977760467101,
+              6.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              5,
+              4,
+              5.808977760467101,
+              6.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 7,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              6,
+              4,
+              4.808977760467101,
+              6.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 7,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "grid": [
+              9,
+              8
+            ],
+            "paddingWorld": [
+              7,
+              4,
+              7.808977760467101,
+              6.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 7,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              4,
+              5,
+              6.808977760467101,
+              5.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              5,
+              5,
+              5.808977760467101,
+              5.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 2,
+            "largestComponentFraction": 0.8333333333333334
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              6,
+              5,
+              4.808977760467101,
+              5.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "grid": [
+              9,
+              8
+            ],
+            "paddingWorld": [
+              7,
+              5,
+              7.808977760467101,
+              5.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 4,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              4,
+              6,
+              6.808977760467101,
+              4.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 5,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              5,
+              6,
+              5.808977760467101,
+              4.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "grid": [
+              8,
+              8
+            ],
+            "paddingWorld": [
+              6,
+              6,
+              4.808977760467101,
+              4.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 5,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "grid": [
+              9,
+              8
+            ],
+            "paddingWorld": [
+              7,
+              6,
+              7.808977760467101,
+              4.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 5,
+            "componentCountIncludingSingles": 2,
+            "largestComponentFraction": 0.8
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "grid": [
+              8,
+              9
+            ],
+            "paddingWorld": [
+              4,
+              7,
+              6.808977760467101,
+              7.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 7,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "grid": [
+              8,
+              9
+            ],
+            "paddingWorld": [
+              5,
+              7,
+              5.808977760467101,
+              7.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "grid": [
+              8,
+              9
+            ],
+            "paddingWorld": [
+              6,
+              7,
+              4.808977760467101,
+              7.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "grid": [
+              9,
+              9
+            ],
+            "paddingWorld": [
+              7,
+              7,
+              7.808977760467101,
+              7.185712400480838
+            ],
+            "nonempty": true,
+            "occupiedSamples": 6,
+            "componentCountIncludingSingles": 1,
+            "largestComponentFraction": 1
+          }
+        ]
+      }
+    }
+  ],
+  "generatedViews": [],
+  "captureCounts": {
+    "reference": 9,
+    "overlay": 1,
+    "generated": 0,
+    "total": 10
+  },
+  "captures": [
+    {
+      "id": "scale-control-reference",
+      "filename": "scale-control-reference.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "control",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 136,
+      "height": 140,
+      "sha256": "301aceee25b73d73272143ce6babad638990d34e2ae2800b522ce696d6faeb0f",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-control-mask",
+      "filename": "scale-control-mask.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "control",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 136,
+      "height": 140,
+      "sha256": "f4a890f7acffc17af16c355aeb0407e6fc2308750c3780a52ac412686ad6b1fa",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-control-sampled",
+      "filename": "scale-control-sampled.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "control",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 136,
+      "height": 140,
+      "sha256": "527f849fa2f2834cfbda762439b6f9233ad55f4387dfd3531fbad929d0ec4c09",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-foreground-reference",
+      "filename": "scale-foreground-reference.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "foreground",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "sha256": "3e4c471553c4350774f2efb4f82a6ee5d7019b30ce32664ddc0768dbabf24e77",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-foreground-mask",
+      "filename": "scale-foreground-mask.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "foreground",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "sha256": "877915234cc0b31d09616fa95f0b9fecc2952b5342708d9f0ea9b070275b18da",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-foreground-sampled",
+      "filename": "scale-foreground-sampled.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "foreground",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 44,
+      "height": 44,
+      "sha256": "d35bb9e6d3826c73826dc7d3344227fbcc2104865c831e1f102fa5ad31bfeceb",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-middle-reference",
+      "filename": "scale-middle-reference.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "middle",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 24,
+      "height": 24,
+      "sha256": "5084f60a08e1beada6c1e3de436c874cfd91f26ce60d07eb9551d1f931d88523",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-middle-mask",
+      "filename": "scale-middle-mask.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "middle",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 24,
+      "height": 24,
+      "sha256": "55a41e6ba8e5ce17f17cce0475b0995ce745076d1ff5e170e97272c7b4ea6d22",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-middle-sampled",
+      "filename": "scale-middle-sampled.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "middle",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 24,
+      "height": 24,
+      "sha256": "7866f38f73fd4b991fe784d20bb1475ac674810f5d2efd34051cea6d02394c5f",
+      "status": "UNACCEPTED candidate",
+      "mode": "interface-v1"
+    },
+    {
+      "id": "scale-control-overlay",
+      "filename": "scale-control-overlay.png",
+      "identity": "ad89079bc93f199af1f720bbc5fde75d51f686538bbfc1881e46c354e538bcf3",
+      "view": "control",
+      "kind": "source-mask-root-cut-overlay",
+      "status": "UNACCEPTED candidate",
+      "cropCuts": [
+        {
+          "edge": "top",
+          "segment": [
+            [
+              325,
+              145
+            ],
+            [
+              330.75,
+              145
+            ]
+          ],
+          "classification": "artificial ROI/root cut; not a traced printed boundary"
+        },
+        {
+          "edge": "top",
+          "segment": [
+            [
+              332.5,
+              145
+            ],
+            [
+              335,
+              145
+            ]
+          ],
+          "classification": "artificial ROI/root cut; not a traced printed boundary"
+        },
+        {
+          "edge": "top",
+          "segment": [
+            [
+              336.75,
+              145
+            ],
+            [
+              341.75,
+              145
+            ]
+          ],
+          "classification": "artificial ROI/root cut; not a traced printed boundary"
+        },
+        {
+          "edge": "left",
+          "segment": [
+            [
+              325,
+              145
+            ],
+            [
+              325,
+              147.75
+            ]
+          ],
+          "classification": "artificial ROI/root cut; not a traced printed boundary"
+        }
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 136,
+      "height": 140,
+      "sha256": "4c40b04f4e6045a1ecd386829576554b7e37fe4f8a39f4d6dec88b9f6dd85ce9",
+      "mode": "interface-v1"
+    }
+  ],
+  "limits": [
+    "UNACCEPTED candidate source boundary; source-mask overlay review pending.",
+    "Artificial top/left cuts are not printed foam edges.",
+    "Top/left mask closures are explicit artificial cuts, not printed foam edges.",
+    "Initial height27 clipped the lower taper; expanded to35; no selected bottom or right edge pixels remain.",
+    "No fixed primary/secondary inventory or whole-crest trace is asserted.",
+    "Pale wash/antialias edge is threshold-dependent.",
+    "Not production geometry or artistic acceptance.",
+    "48 source-patch offsets do not replace fixed six-fixture production phases, channel/root probes or form acceptance.",
+    "Uniform bounding-box fit is approximate; no semantic registration or composition approval."
+  ],
+  "mode": "interface-v1",
+  "candidateStatus": "UNACCEPTED candidate; boundary review pending",
+  "patchDiagnostics": [
+    {
+      "view": "control",
+      "offsetCount": 16,
+      "nonemptyOffsets": 16,
+      "allNonempty": true,
+      "largestFractionRange": [
+        1,
+        1
+      ],
+      "componentCountIncludingSinglesRange": [
+        1,
+        1
+      ],
+      "records": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "grid": [
+            36,
+            37
+          ],
+          "paddingWorld": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "nonempty": true,
+          "occupiedSamples": 301,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "grid": [
+            37,
+            37
+          ],
+          "paddingWorld": [
+            5,
+            4,
+            7,
+            4
+          ],
+          "nonempty": true,
+          "occupiedSamples": 299,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "grid": [
+            37,
+            37
+          ],
+          "paddingWorld": [
+            6,
+            4,
+            6,
+            4
+          ],
+          "nonempty": true,
+          "occupiedSamples": 296,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 0,
+          "grid": [
+            37,
+            37
+          ],
+          "paddingWorld": [
+            7,
+            4,
+            5,
+            4
+          ],
+          "nonempty": true,
+          "occupiedSamples": 302,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "grid": [
+            36,
+            38
+          ],
+          "paddingWorld": [
+            4,
+            5,
+            4,
+            7
+          ],
+          "nonempty": true,
+          "occupiedSamples": 302,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            5,
+            5,
+            7,
+            7
+          ],
+          "nonempty": true,
+          "occupiedSamples": 301,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            6,
+            5,
+            6,
+            7
+          ],
+          "nonempty": true,
+          "occupiedSamples": 295,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 1,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            7,
+            5,
+            5,
+            7
+          ],
+          "nonempty": true,
+          "occupiedSamples": 293,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "grid": [
+            36,
+            38
+          ],
+          "paddingWorld": [
+            4,
+            6,
+            4,
+            6
+          ],
+          "nonempty": true,
+          "occupiedSamples": 295,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            5,
+            6,
+            7,
+            6
+          ],
+          "nonempty": true,
+          "occupiedSamples": 286,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "nonempty": true,
+          "occupiedSamples": 281,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 2,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            7,
+            6,
+            5,
+            6
+          ],
+          "nonempty": true,
+          "occupiedSamples": 283,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 3,
+          "grid": [
+            36,
+            38
+          ],
+          "paddingWorld": [
+            4,
+            7,
+            4,
+            5
+          ],
+          "nonempty": true,
+          "occupiedSamples": 295,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 3,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            5,
+            7,
+            7,
+            5
+          ],
+          "nonempty": true,
+          "occupiedSamples": 290,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 3,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            6,
+            7,
+            6,
+            5
+          ],
+          "nonempty": true,
+          "occupiedSamples": 289,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 3,
+          "grid": [
+            37,
+            38
+          ],
+          "paddingWorld": [
+            7,
+            7,
+            5,
+            5
+          ],
+          "nonempty": true,
+          "occupiedSamples": 288,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        }
+      ]
+    },
+    {
+      "view": "foreground",
+      "offsetCount": 16,
+      "nonemptyOffsets": 16,
+      "allNonempty": true,
+      "largestFractionRange": [
+        0.9583333333333334,
+        1
+      ],
+      "componentCountIncludingSinglesRange": [
+        1,
+        2
+      ],
+      "records": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            4,
+            4,
+            7.89148624752238,
+            6.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 25,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            5,
+            4,
+            6.89148624752238,
+            6.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 24,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            6,
+            4,
+            5.89148624752238,
+            6.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 27,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 0,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            7,
+            4,
+            4.89148624752238,
+            6.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 29,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            4,
+            5,
+            7.89148624752238,
+            5.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 24,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            5,
+            5,
+            6.89148624752238,
+            5.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 23,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            6,
+            5,
+            5.89148624752238,
+            5.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 24,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 1,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            7,
+            5,
+            4.89148624752238,
+            5.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 28,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            4,
+            6,
+            7.89148624752238,
+            4.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 25,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            5,
+            6,
+            6.89148624752238,
+            4.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 24,
+          "componentCountIncludingSingles": 2,
+          "largestComponentFraction": 0.9583333333333334
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            6,
+            6,
+            5.89148624752238,
+            4.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 24,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 2,
+          "grid": [
+            13,
+            13
+          ],
+          "paddingWorld": [
+            7,
+            6,
+            4.89148624752238,
+            4.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 25,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 3,
+          "grid": [
+            13,
+            14
+          ],
+          "paddingWorld": [
+            4,
+            7,
+            7.89148624752238,
+            7.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 23,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 3,
+          "grid": [
+            13,
+            14
+          ],
+          "paddingWorld": [
+            5,
+            7,
+            6.89148624752238,
+            7.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 21,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 3,
+          "grid": [
+            13,
+            14
+          ],
+          "paddingWorld": [
+            6,
+            7,
+            5.89148624752238,
+            7.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 26,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 3,
+          "grid": [
+            13,
+            14
+          ],
+          "paddingWorld": [
+            7,
+            7,
+            4.89148624752238,
+            7.711824078331858
+          ],
+          "nonempty": true,
+          "occupiedSamples": 26,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        }
+      ]
+    },
+    {
+      "view": "middle",
+      "offsetCount": 16,
+      "nonemptyOffsets": 16,
+      "allNonempty": true,
+      "largestFractionRange": [
+        0.8,
+        1
+      ],
+      "componentCountIncludingSinglesRange": [
+        1,
+        2
+      ],
+      "records": [
+        {
+          "dx": 0,
+          "dy": 0,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            4,
+            4,
+            6.808977760467101,
+            6.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 0,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            5,
+            4,
+            5.808977760467101,
+            6.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 7,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 0,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            6,
+            4,
+            4.808977760467101,
+            6.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 7,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 0,
+          "grid": [
+            9,
+            8
+          ],
+          "paddingWorld": [
+            7,
+            4,
+            7.808977760467101,
+            6.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 7,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 1,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            4,
+            5,
+            6.808977760467101,
+            5.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 1,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            5,
+            5,
+            5.808977760467101,
+            5.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 2,
+          "largestComponentFraction": 0.8333333333333334
+        },
+        {
+          "dx": 2,
+          "dy": 1,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            6,
+            5,
+            4.808977760467101,
+            5.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 1,
+          "grid": [
+            9,
+            8
+          ],
+          "paddingWorld": [
+            7,
+            5,
+            7.808977760467101,
+            5.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 4,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 0,
+          "dy": 2,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            4,
+            6,
+            6.808977760467101,
+            4.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 5,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 2,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            5,
+            6,
+            5.808977760467101,
+            4.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 2,
+          "grid": [
+            8,
+            8
+          ],
+          "paddingWorld": [
+            6,
+            6,
+            4.808977760467101,
+            4.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 5,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 2,
+          "grid": [
+            9,
+            8
+          ],
+          "paddingWorld": [
+            7,
+            6,
+            7.808977760467101,
+            4.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 5,
+          "componentCountIncludingSingles": 2,
+          "largestComponentFraction": 0.8
+        },
+        {
+          "dx": 0,
+          "dy": 3,
+          "grid": [
+            8,
+            9
+          ],
+          "paddingWorld": [
+            4,
+            7,
+            6.808977760467101,
+            7.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 7,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 1,
+          "dy": 3,
+          "grid": [
+            8,
+            9
+          ],
+          "paddingWorld": [
+            5,
+            7,
+            5.808977760467101,
+            7.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 2,
+          "dy": 3,
+          "grid": [
+            8,
+            9
+          ],
+          "paddingWorld": [
+            6,
+            7,
+            4.808977760467101,
+            7.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        },
+        {
+          "dx": 3,
+          "dy": 3,
+          "grid": [
+            9,
+            9
+          ],
+          "paddingWorld": [
+            7,
+            7,
+            7.808977760467101,
+            7.185712400480838
+          ],
+          "nonempty": true,
+          "occupiedSamples": 6,
+          "componentCountIncludingSingles": 1,
+          "largestComponentFraction": 1
+        }
+      ]
+    }
+  ]
+}

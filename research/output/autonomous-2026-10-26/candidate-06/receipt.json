@@ -1,0 +1,3352 @@
+{
+  "schemaVersion": 3,
+  "renderProtocol": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "dpr": 2,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "panel": [
+      810,
+      530
+    ],
+    "gallery": [
+      768,
+      448
+    ],
+    "dotPitch": 4,
+    "focused": {
+      "version": 1,
+      "mode": "focused",
+      "nativeCSSPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true,
+      "phaseSpray": false,
+      "phaseOffsets": 16,
+      "contactPanel": [
+        360,
+        240
+      ],
+      "referenceCropNormalized": [
+        200,
+        50,
+        405,
+        265
+      ],
+      "referenceNormalizedSize": [
+        1000,
+        672
+      ]
+    }
+  },
+  "renderProtocolFingerprint": "7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+  "evaluationFingerprint": "83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79",
+  "evaluationSnapshotRoot": "research/output/validation-evaluators/68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009-83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79",
+  "generatedAt": "2026-10-26T18:55:30.894Z",
+  "sourceFingerprint": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009",
+  "sourceFiles": [
+    "index.html",
+    "src/camera.mjs",
+    "src/crest.mjs",
+    "src/geometry.mjs",
+    "src/main.mjs",
+    "src/random.mjs",
+    "src/render.mjs",
+    "src/scene.mjs",
+    "src/style.css"
+  ],
+  "snapshotRoot": "research/output/validation-snapshots/68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009",
+  "snapshotFingerprint": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "expected": {
+    "status": "incomplete",
+    "checks": [
+      {
+        "name": "Versioned evaluator and review identity",
+        "pass": true,
+        "evidence": "Evaluator 83fc047c09c9; current files, executing module version and snapshot agree. Changed tests/rubric invalidate saved reviews."
+      },
+      {
+        "name": "Current source, executing snapshot, and canonical reference",
+        "pass": true,
+        "evidence": "Source and executing snapshot 68e83d6ff155; reference cbb9988f2f18. Versioned module URLs isolate this run from previously loaded generators."
+      },
+      {
+        "name": "Model behavior",
+        "pass": true,
+        "evidence": "23 tests passed, 0 failed; camera preference/hidden-time checks are model tests, not OS-level interaction tests."
+      },
+      {
+        "name": "Fixed sampling coverage",
+        "pass": true,
+        "evidence": "6 required fixtures; 96 offsets; 384 head and 384 mouth probes. Openness remains a separate diagnostic."
+      },
+      {
+        "name": "Fixed no-spray foam connectivity",
+        "pass": true,
+        "evidence": "6 fixed curl fixtures × 16 offsets (96 phases); 0 disconnected phases. Every occupied sample must belong to one eight-neighbor component, including tiny fragments. This does not establish openness or artistic fidelity."
+      },
+      {
+        "name": "Fixed principal-cove openness",
+        "pass": true,
+        "evidence": "384 head and 384 mouth probes; 0 failed channel/offset cases. This is not a width or fidelity test."
+      }
+    ],
+    "focusedChecks": "pass"
+  },
+  "model": {
+    "generatedAt": "2026-10-26T18:55:23.982Z",
+    "passed": 23,
+    "failed": 0
+  },
+  "renderer": null,
+  "crestPhases": {
+    "records": [
+      {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2,
+        "width": 621.6742272023112,
+        "height": 296.52078239069397,
+        "phaseCount": 16,
+        "minimumLargestComponentFraction": 1,
+        "maximumComponents": 1,
+        "channelHeadFailures": 0,
+        "channelMouthFailures": 0,
+        "phases": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "occupiedSamples": 2520,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "occupiedSamples": 2524,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "occupiedSamples": 2519,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "occupiedSamples": 2517,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "occupiedSamples": 2527,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "occupiedSamples": 2516,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "occupiedSamples": 2519,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "occupiedSamples": 2524,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "occupiedSamples": 2513,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "occupiedSamples": 2521,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "occupiedSamples": 2527,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "occupiedSamples": 2534,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "occupiedSamples": 2512,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "occupiedSamples": 2520,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "occupiedSamples": 2517,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "occupiedSamples": 2512,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seed": 721,
+        "id": "1:1:2",
+        "layer": 1,
+        "width": 398.6427156138234,
+        "height": 205.52554858854523,
+        "phaseCount": 16,
+        "minimumLargestComponentFraction": 1,
+        "maximumComponents": 1,
+        "channelHeadFailures": 0,
+        "channelMouthFailures": 0,
+        "phases": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "occupiedSamples": 1104,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "occupiedSamples": 1111,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "occupiedSamples": 1103,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "occupiedSamples": 1103,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "occupiedSamples": 1102,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "occupiedSamples": 1102,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "occupiedSamples": 1098,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "occupiedSamples": 1099,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "occupiedSamples": 1101,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "occupiedSamples": 1105,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "occupiedSamples": 1104,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "occupiedSamples": 1104,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "occupiedSamples": 1113,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "occupiedSamples": 1101,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "occupiedSamples": 1101,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "occupiedSamples": 1111,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seed": 13891,
+        "id": "2:2:0",
+        "layer": 2,
+        "width": 715.1658493233845,
+        "height": 342.14860702268834,
+        "phaseCount": 16,
+        "minimumLargestComponentFraction": 1,
+        "maximumComponents": 1,
+        "channelHeadFailures": 0,
+        "channelMouthFailures": 0,
+        "phases": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "occupiedSamples": 3209,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "occupiedSamples": 3205,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "occupiedSamples": 3202,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "occupiedSamples": 3217,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "occupiedSamples": 3221,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "occupiedSamples": 3207,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "occupiedSamples": 3195,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "occupiedSamples": 3219,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "occupiedSamples": 3206,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "occupiedSamples": 3196,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "occupiedSamples": 3188,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "occupiedSamples": 3209,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "occupiedSamples": 3197,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "occupiedSamples": 3187,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "occupiedSamples": 3189,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "occupiedSamples": 3204,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seed": 13891,
+        "id": "1:2:0",
+        "layer": 1,
+        "width": 363.3718362613581,
+        "height": 185.25616156785424,
+        "phaseCount": 16,
+        "minimumLargestComponentFraction": 1,
+        "maximumComponents": 1,
+        "channelHeadFailures": 0,
+        "channelMouthFailures": 0,
+        "phases": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "occupiedSamples": 828,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "occupiedSamples": 817,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "occupiedSamples": 816,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "occupiedSamples": 822,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "occupiedSamples": 819,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "occupiedSamples": 815,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "occupiedSamples": 817,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "occupiedSamples": 821,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "occupiedSamples": 812,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "occupiedSamples": 806,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "occupiedSamples": 812,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "occupiedSamples": 819,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "occupiedSamples": 817,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "occupiedSamples": 810,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "occupiedSamples": 806,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "occupiedSamples": 823,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seed": 0,
+        "id": "2:4:0",
+        "layer": 2,
+        "width": 740.1772209792398,
+        "height": 409.6863137986911,
+        "phaseCount": 16,
+        "minimumLargestComponentFraction": 1,
+        "maximumComponents": 1,
+        "channelHeadFailures": 0,
+        "channelMouthFailures": 0,
+        "phases": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "occupiedSamples": 3896,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "occupiedSamples": 3890,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "occupiedSamples": 3897,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "occupiedSamples": 3896,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "occupiedSamples": 3895,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "occupiedSamples": 3887,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "occupiedSamples": 3896,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "occupiedSamples": 3897,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "occupiedSamples": 3905,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "occupiedSamples": 3891,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "occupiedSamples": 3908,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "occupiedSamples": 3909,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "occupiedSamples": 3897,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "occupiedSamples": 3893,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "occupiedSamples": 3904,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "occupiedSamples": 3908,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1,
+        "width": 309.98082584002987,
+        "height": 164.99078968443757,
+        "phaseCount": 16,
+        "minimumLargestComponentFraction": 1,
+        "maximumComponents": 1,
+        "channelHeadFailures": 0,
+        "channelMouthFailures": 0,
+        "phases": [
+          {
+            "dx": 0,
+            "dy": 0,
+            "occupiedSamples": 640,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "occupiedSamples": 630,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 0,
+            "occupiedSamples": 631,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 0,
+            "occupiedSamples": 633,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "occupiedSamples": 633,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "occupiedSamples": 627,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 1,
+            "occupiedSamples": 624,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 1,
+            "occupiedSamples": 626,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 2,
+            "occupiedSamples": 628,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 2,
+            "occupiedSamples": 639,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 2,
+            "occupiedSamples": 637,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 2,
+            "occupiedSamples": 630,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 3,
+            "occupiedSamples": 641,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 3,
+            "occupiedSamples": 634,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 2,
+            "dy": 3,
+            "occupiedSamples": 631,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          },
+          {
+            "dx": 3,
+            "dy": 3,
+            "occupiedSamples": 630,
+            "componentsAtLeastThreeSamples": 1,
+            "largestComponentFraction": 1,
+            "channels": [
+              {
+                "channel": 0,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 1,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 2,
+                "headOpen": true,
+                "mouthOpen": true
+              },
+              {
+                "channel": 3,
+                "headOpen": true,
+                "mouthOpen": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "fixtures": 6,
+      "phases": 96,
+      "headProbes": 384,
+      "mouthProbes": 384
+    },
+    "phaseCount": 96,
+    "limits": "Fixed foreground and middle curl fixtures only; no spray. Probe connectivity is not minimum-width measurement, a proof of vector simplicity, or artistic acceptance.",
+    "connectivity": {
+      "pass": true,
+      "fixtures": 6,
+      "phases": 96,
+      "failures": [],
+      "scope": "Six fixed curl fixtures at sixteen offsets each; no spray; eight-neighbor foam connectivity. This does not establish openness, minimum width, or artistic fidelity."
+    },
+    "openness": {
+      "pass": true,
+      "fixtures": 6,
+      "phases": 96,
+      "headProbes": 384,
+      "mouthProbes": 384,
+      "failures": [],
+      "scope": "Fixed principal-cove head/mouth probes only; four-neighbor exterior water. Not minimum-width or artistic acceptance."
+    }
+  },
+  "compositionCoverage": [],
+  "formDiagnostics": [],
+  "limits": [
+    "Visual verdicts require a reviewer; they are not automated likeness scores.",
+    "The complete semantic foam trace has not been accepted.",
+    "One local Chrome-based browser; no cross-engine or long-duration memory claim."
+  ],
+  "mode": "focused",
+  "unrunChecks": [
+    {
+      "name": "Tile continuity and water occlusion",
+      "status": "not_run"
+    },
+    {
+      "name": "Regeneration and retained cache bounds",
+      "status": "not_run"
+    },
+    {
+      "name": "White-dot output and declared sky region",
+      "status": "not_run"
+    },
+    {
+      "name": "Generated ocean coverage",
+      "status": "not_run"
+    }
+  ],
+  "form": {
+    "status": "pending"
+  },
+  "quality": {
+    "status": "pending"
+  },
+  "overall": "incomplete_full_validation",
+  "captures": [
+    {
+      "id": "fixture-721-2-0-0-raw",
+      "filename": "fixture-721-2-0-0-raw.png",
+      "mime": "image/png",
+      "width": 748,
+      "height": 464,
+      "sha256": "0727efec785aed36185e3cc39dbd75cc62beffd980c93bde70c406e7bdc42192",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-721-2-0-0-sampled",
+      "filename": "fixture-721-2-0-0-sampled.png",
+      "mime": "image/png",
+      "width": 748,
+      "height": 464,
+      "sha256": "bc86e4bb696f92ec15af72b35eaa3cda79fc46c4d42c07674727dda19f9f32aa",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-721-1-1-2-raw",
+      "filename": "fixture-721-1-1-2-raw.png",
+      "mime": "image/png",
+      "width": 496,
+      "height": 368,
+      "sha256": "de8ce228dc03ebf1f9933ac6763be54f55e2dd157f18939d70ef4c0356065e07",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 721,
+        "id": "1:1:2",
+        "layer": 1
+      },
+      "worldBounds": [
+        1652,
+        296,
+        496,
+        368
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-721-1-1-2-sampled",
+      "filename": "fixture-721-1-1-2-sampled.png",
+      "mime": "image/png",
+      "width": 496,
+      "height": 368,
+      "sha256": "db0de7b769063b377fca927c978e27e22b8f2bdd671e1915479e113e9e88f998",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 721,
+        "id": "1:1:2",
+        "layer": 1
+      },
+      "worldBounds": [
+        1652,
+        296,
+        496,
+        368
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-13891-2-2-0-raw",
+      "filename": "fixture-13891-2-2-0-raw.png",
+      "mime": "image/png",
+      "width": 852,
+      "height": 504,
+      "sha256": "45504a01091232787452023a41ee30b7423b48d5ced7f6f0673a5f560ec79426",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 13891,
+        "id": "2:2:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        2076,
+        612,
+        852,
+        504
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-13891-2-2-0-sampled",
+      "filename": "fixture-13891-2-2-0-sampled.png",
+      "mime": "image/png",
+      "width": 852,
+      "height": 504,
+      "sha256": "c15835d3333fc30a9cdfb5d6fdaeefe729a022b50d86a682a331b32e76625c61",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 13891,
+        "id": "2:2:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        2076,
+        612,
+        852,
+        504
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-13891-1-2-0-raw",
+      "filename": "fixture-13891-1-2-0-raw.png",
+      "mime": "image/png",
+      "width": 456,
+      "height": 348,
+      "sha256": "a23ea99d6d42e05488c5253e979c96e09ea72e1ce6fb6f01e1094d51d8b8bf22",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 13891,
+        "id": "1:2:0",
+        "layer": 1
+      },
+      "worldBounds": [
+        2308,
+        372,
+        456,
+        348
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-13891-1-2-0-sampled",
+      "filename": "fixture-13891-1-2-0-sampled.png",
+      "mime": "image/png",
+      "width": 456,
+      "height": 348,
+      "sha256": "db3aaf3a03caa08dada5395118e98208b86ed3fa89b123510ab5459a23e9ac8f",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 13891,
+        "id": "1:2:0",
+        "layer": 1
+      },
+      "worldBounds": [
+        2308,
+        372,
+        456,
+        348
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-0-2-4-0-raw",
+      "filename": "fixture-0-2-4-0-raw.png",
+      "mime": "image/png",
+      "width": 880,
+      "height": 572,
+      "sha256": "75578cbfcfbf544aaeb637944ac036bd0caa6ebcb5b27e91bba84b5eaa4513f5",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 0,
+        "id": "2:4:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        4264,
+        496,
+        880,
+        572
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-0-2-4-0-sampled",
+      "filename": "fixture-0-2-4-0-sampled.png",
+      "mime": "image/png",
+      "width": 880,
+      "height": 572,
+      "sha256": "88be9d303348b3bb045630a5fd7c18f1602cc8dd892f7b15e580863ed03161c5",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 0,
+        "id": "2:4:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        4264,
+        496,
+        880,
+        572
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-0-1-5-1-raw",
+      "filename": "fixture-0-1-5-1-raw.png",
+      "mime": "image/png",
+      "width": 396,
+      "height": 328,
+      "sha256": "88e3d1d048043e39ab7961247c86f62d0bc35bd4ded08b1f803923434dc41074",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-0-1-5-1-sampled",
+      "filename": "fixture-0-1-5-1-sampled.png",
+      "mime": "image/png",
+      "width": 396,
+      "height": 328,
+      "sha256": "779d5a9683121e7c27bb4ab5320d5ac463d01979d85eac3185b4022b98b45d98",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "contact-sheet",
+      "filename": "contact-sheet.png",
+      "mime": "image/png",
+      "width": 720,
+      "height": 1584,
+      "sha256": "56d73dde6a473511fa621d4dbc5e9e86d4bb66c8194e2f7fe67df749fc367d17",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "role": "scaled-preview",
+      "panel": [
+        360,
+        240
+      ]
+    },
+    {
+      "id": "reference-crop",
+      "filename": "reference-crop.png",
+      "mime": "image/png",
+      "width": 1563,
+      "height": 1023,
+      "sha256": "dadb06da5701fd0e0899245dff14c1aba4c6910e23f009314af8e5a5a966b95b",
+      "identity": "68e83d6ff15548fba7cf8378f3f674b63bcfed72b2788736d2e9bde5380de009:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "role": "canonical-reference-crop",
+      "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+      "sourceRect": [
+        771.8000000000001,
+        193.00595238095238,
+        1562.8950000000002,
+        1022.9315476190476
+      ]
+    }
+  ],
+  "captureCoverage": {
+    "captures": 14,
+    "fixtures": 6,
+    "phases": 96
+  },
+  "durationMs": 345,
+  "modelUsage": {
+    "status": "unknown",
+    "note": "Browser harness does not expose account usage or model token counts."
+  }
+}

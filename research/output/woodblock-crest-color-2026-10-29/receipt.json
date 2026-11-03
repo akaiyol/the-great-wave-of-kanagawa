@@ -1,0 +1,66 @@
+{
+  "iteration": "W018",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "dataset": "crest/annotation.json",
+    "iteration": "W017",
+    "status": "exterior_bays_and_root_domain_corrected_unreviewed",
+    "context": [
+      185,
+      50,
+      425,
+      260
+    ],
+    "vertexCount": 292,
+    "waterExclusionCount": 1,
+    "skyExclusionCount": 2,
+    "rootCut": {
+      "from": [
+        185,
+        200
+      ],
+      "to": [
+        185,
+        136
+      ],
+      "classification": "artificial left cut through cropped parent foam; not printed boundary"
+    },
+    "scope": "One revised main crest-group foam silhouette with explicit exterior paper bays and principal water exclusion; cropped parent root. Not a full wave or scene.",
+    "uncertainty": [
+      "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+      "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+      "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance."
+    ],
+    "colorControl": {
+      "kind": "fixed_source_color_control",
+      "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+      "notWaterMaskApproval": true,
+      "notProcedural": true
+    },
+    "canvasAspects": [
+      1.632,
+      1.632,
+      1.632
+    ]
+  },
+  "sourceHashes": {
+    "crest/annotation.json": "94cc624ae9ae0d41b729f08dfb1d4acb33f3cde773053ab53dfccdee3e13fb2f",
+    "annotation.mjs": "6358d13f6216e755e623dffc227dc3b01c501049c89a7fbdd634f0535ef74d1c",
+    "index.html": "f7d1af46ce8d4da55be0b73b9c7c03e0a9643ca6ccadaf1d2327adf8768e66bf",
+    "../crest-contours.json": "c5f7465aa0fdfba1d5336547f309fe097b95b9d2cade8897e039812ebaa10b65"
+  },
+  "captureSHA256": "e55da984c79fcc21efe89baedee1ddaca07b399e8d44543ee0812ec178a4e680",
+  "geometryIteration": "W017",
+  "scope": "Fixed source-color reconstruction clipped through W017 annotated outerdomain/skyexclusions; original water colors do not validate principalwatermask or proceduralreadygeometry.",
+  "sharedSource": {
+    "path": "research/woodblock/crest-contours.json",
+    "sha256": "c5f7465aa0fdfba1d5336547f309fe097b95b9d2cade8897e039812ebaa10b65"
+  }
+}

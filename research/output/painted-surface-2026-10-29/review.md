@@ -1,0 +1,9 @@
+# W025 independent fixed-image review
+
+Reviewer: painted_review / wave_evaluator. Fixed visualfeasibility PASS at inspected1672×941scale, informednotblind recognition; notuseracceptance.
+
+Recognition/formPASS: dominantcurl,descendingclaws,unequalfingers,darkhollows,flowingbluecontours evokecanonicalGreatWave. SurfacecoherencePASS: allwater/foreground/sky consistentink/papertreatment; W021insert mismatchresolved. Palette/cloudsPASS. DepthqualifiedPASS: overlapcreatesrecession, similarlydensefoam compressesdepth; excludedscaleobjectsremoved. No visibleboats/people/Fuji/text orrepairrectangles atinspectedscale.
+
+Source/asset/prompthashesmatchreceipt/canonicalpin; W021captureverified. Candidate/scan/W021inspected. Exactsourceproportions/anatomy andnativeresolutionnotestablished. Requiredbrowser presentations wereNOTRUNatreviewtime; subsequentleadbrowser.jsonrecords1280DPR1,1920DPR2,960DPR1zeroerrors/nooverflow. Lead inspected960composition; notindependentreviewofallnativerasters.
+
+Retain provisionalfixedvisualbaseline. Doesnotestablishgeometry,reusablewaveconstruction,deterministicworld,travel,controls orrelease. Museumscanremains solevisualauthority.

@@ -1,0 +1,126 @@
+{
+  "browser": "Chromium",
+  "results": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "revision": "W004-branches",
+        "geometryStats": {
+          "authoredPaths": 34,
+          "principalCoves": 7,
+          "foamGroups": 5,
+          "clouds": 3,
+          "spray": 220
+        },
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1,
+          "scale": 1.0666666666666667,
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 720,
+          "cssWidth": 1280,
+          "cssHeight": 720
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "resize": true,
+      "errors": [],
+      "viewport": {
+        "width": 1000,
+        "height": 800
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "dpr": 2,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "revision": "W004-branches",
+        "geometryStats": {
+          "authoredPaths": 34,
+          "principalCoves": 7,
+          "foamGroups": 5,
+          "clouds": 3,
+          "spray": 220
+        },
+        "viewport": {
+          "width": 1920,
+          "height": 1080,
+          "dpr": 2,
+          "scale": 1.6,
+          "offsetX": 0,
+          "offsetY": 0
+        }
+      },
+      "canvases": [
+        {
+          "width": 3840,
+          "height": 2160,
+          "cssWidth": 1920,
+          "cssHeight": 1080
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": {
+        "width": 960,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "revision": "W004-branches",
+        "geometryStats": {
+          "authoredPaths": 34,
+          "principalCoves": 7,
+          "foamGroups": 5,
+          "clouds": 3,
+          "spray": 220
+        },
+        "viewport": {
+          "width": 960,
+          "height": 720,
+          "dpr": 1,
+          "scale": 0.8,
+          "offsetX": 0,
+          "offsetY": 90
+        }
+      },
+      "canvases": [
+        {
+          "width": 960,
+          "height": 720,
+          "cssWidth": 960,
+          "cssHeight": 720
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "hashes": {
+    "geometry.mjs": "8b9db2d5a28fb099a711561a6bfdfb3342d693b1c55c1ae71c4f58d046f08f5b",
+    "handoff.md": "683a092e47448f4ea4ddc019d3399934dbf7c41674651cc4ec7fe29146af1b78",
+    "still.mjs": "45f03c98d1554e49ddb4ba0c66932d20db0930839765ccb435d407f23e28c5da"
+  }
+}

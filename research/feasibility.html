@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Great Wave · Braille feasibility study</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101010;color:#eee;font:15px/1.5 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}h1{font-size:25px}h2{font-size:19px;margin-top:32px}p{max-width:850px;color:#bbb}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}figure{margin:0}figcaption{font-size:13px;color:#bbb}img,.panel{width:100%;display:block;background:black}button,select{padding:8px;background:#222;color:white;border:1px solid #777;border-radius:3px}label{display:inline-block;margin:0 10px 8px 0}button{cursor:pointer}#strip{width:100%;height:370px;display:block;background:#000}#status{font-variant-numeric:tabular-nums}pre{font:12px/1.5 monospace;white-space:pre-wrap;background:#191919;padding:14px;overflow-wrap:anywhere}#text-sample{white-space:pre;font-family:Menlo,monospace;line-height:1;margin:0;padding:0;background:#000;color:#fff;overflow:hidden}#sample-shell{background:#000;overflow:hidden}a{color:#ccc}@media(max-width:620px){main{padding:16px}.grid{grid-template-columns:1fr}#strip{height:270px}}
+</style>
+<main>
+<h1>Great Wave · Braille feasibility</h1>
+<p>Research experiment for an endlessly scrolling field. White foam is visible; water and sky remain black. The generated shapes below are technical test geometry, not an approved interpretation of Hokusai.</p>
+<h2>1. Separate foam from pale paper</h2>
+<div class="grid">
+<figure><img src="../references/great-wave-off-kanagawa-met-DP130155.jpg" alt="Hokusai's Great Wave, Metropolitan Museum of Art impression"><figcaption>Canonical reference, unchanged.</figcaption></figure>
+<figure><canvas class="panel" id="threshold"></canvas><figcaption>Brightness only: pale sky becomes unwanted dots.</figcaption></figure>
+<figure><canvas class="panel" id="gated"></canvas><figcaption>Same threshold inside a hand-marked crest region. Coarse diagnostic mask; edges still require tracing.</figcaption></figure>
+</div>
+<p id="reference-result">Loading reference analysis…</p>
+<h2>2. Resolution and actual Unicode characters</h2>
+<label>Columns <select id="resolution"><option>80</option><option selected>160</option><option>240</option></select></label>
+<div id="sample-shell"><pre id="text-sample" role="img" aria-label="Braille rendering of the selected reference crest region"></pre></div>
+<p>The same crest is resampled at each resolution. This is visual dot art, not a Braille-language transcription.</p>
+<h2>3. Seeded scrolling and bounded tile storage</h2>
+<button id="play">Play</button> <button id="next">Advance one tile</button> <button id="reset">Reset</button>
+<canvas id="strip" role="img" aria-label="Technical study of scrolling procedural foam in Braille"></canvas>
+<p id="status"></p>
+<h2>4. Reproducible browser checks</h2>
+<button id="run">Run browser checks</button>
+<pre id="results">Not run. Checks include all 256 Braille patterns, clipping, deterministic regeneration, tile seams and browser timings.</pre>
+<p><a href="wave-feasibility.md">Assessment and recommendation</a> · <a href="shan-shui-code-notes.md">Source code notes</a></p>
+</main><script type="module" src="tests/browser-study.mjs"></script></html>

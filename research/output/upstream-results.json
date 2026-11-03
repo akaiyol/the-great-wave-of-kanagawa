@@ -1,0 +1,80 @@
+{
+  "sourceSHA256": "858792db2659e7d4c6604606d4ff2175f137f07061f8af51644f06ab0788215f",
+  "identicalInitialSeed": true,
+  "samples": [
+    {
+      "x": 0,
+      "ms": 2847.872291,
+      "retainedObjects": 113,
+      "retainedSVGCharacters": 13869103,
+      "visibleSVGCharacters": 11306449,
+      "digest": "03aef5234dfb5c70dabd03944117e0b9712567c6f7c3fb4675dfec57a1f9375c"
+    },
+    {
+      "x": 1024,
+      "ms": 47.77116699999988,
+      "retainedObjects": 118,
+      "retainedSVGCharacters": 14189760,
+      "visibleSVGCharacters": 5427977,
+      "digest": "5c2d46603a224de514544329213fbb2c2e33e6699d506189766d9e197a968d15"
+    },
+    {
+      "x": 2048,
+      "ms": 726.7827500000003,
+      "retainedObjects": 148,
+      "retainedSVGCharacters": 17737425,
+      "visibleSVGCharacters": 3410157,
+      "digest": "3ee916120217897ad2a0d609a48f2c72122f79843ea4eb551375a9438d99c9fc"
+    },
+    {
+      "x": 3072,
+      "ms": 1024.5482500000003,
+      "retainedObjects": 191,
+      "retainedSVGCharacters": 22719649,
+      "visibleSVGCharacters": 6897999,
+      "digest": "9041745d19f69d051d4eb0e76f0fce110738e7399f4007eee29a9f8c8181b446"
+    },
+    {
+      "x": 4096,
+      "ms": 1176.0587080000005,
+      "retainedObjects": 241,
+      "retainedSVGCharacters": 28270840,
+      "visibleSVGCharacters": 12280595,
+      "digest": "5eba363a0935643a3d4f005cd3d193d259856ac3679cb4d1247f60a240a22c96"
+    },
+    {
+      "x": 5120,
+      "ms": 638.565584,
+      "retainedObjects": 264,
+      "retainedSVGCharacters": 31657204,
+      "visibleSVGCharacters": 10238581,
+      "digest": "76ed753257dac1038b0f5327080653d14bbe77ed4271d70976f35ba63ef401b1"
+    },
+    {
+      "x": 6144,
+      "ms": 525.9942090000004,
+      "retainedObjects": 285,
+      "retainedSVGCharacters": 34142106,
+      "visibleSVGCharacters": 6541803,
+      "digest": "0100fba1bfaf4ee7bae2ea8b4212f5ec0a112fcfd685776e11d3ea3317f259dc"
+    },
+    {
+      "x": 7168,
+      "ms": 386.7348749999992,
+      "retainedObjects": 300,
+      "retainedSVGCharacters": 36040957,
+      "visibleSVGCharacters": 5436270,
+      "digest": "91f4d4a15c536bec667298cdcfdff2cb22bc08459bc6756a07d91410eae5b3ea"
+    },
+    {
+      "x": 8192,
+      "ms": 316.07816699999967,
+      "retainedObjects": 315,
+      "retainedSVGCharacters": 37674355,
+      "visibleSVGCharacters": 4197002,
+      "digest": "15297ad723d76e17f036b72b17427eb5a0bc5db87d3270c55de9a91f9b7686d5"
+    }
+  ],
+  "externalScriptImports": 0,
+  "note": "VM test of original generation functions; excludes SVG DOM parse, browser layout and paint."
+}

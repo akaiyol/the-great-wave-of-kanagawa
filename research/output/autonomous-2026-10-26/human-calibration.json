@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "labeler": "user",
+  "question": "A/B sampled crest fidelity to the original print",
+  "answer": "B is closer, but neither is acceptable yet",
+  "preference": "B",
+  "candidates": {
+    "A": {
+      "sourceFingerprint": "89a016470f82c27d4b33ff8b30cb230a0abdc48e5ab58c5b6f6dbee866f3827f",
+      "image": "research/output/autonomous-2026-10-26/baseline/fixture-721-2-0-0-sampled.png",
+      "pngSHA256": "960e3e195e909bfe4e730ee0282caabe7a8e065d214b330b10ef835feadd3853",
+      "accepted": false
+    },
+    "B": {
+      "sourceFingerprint": "d8edc75b664ea71aef699037ec71861614520242fb9c84a7b523ad6bdf469413",
+      "image": "research/output/autonomous-2026-10-26/candidate-02/fixture-721-2-0-0-sampled.png",
+      "pngSHA256": "304df036ff7aa9baa91f1393344b3dfe644c50a47e001b3579176d30d73d2727",
+      "accepted": false
+    }
+  },
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "scope": "Relative style preference and two negative labels for these exact captures; not positive calibration or project acceptance",
+  "positiveDetailReference": {
+    "answer": "Yes, enough detail survives for this fragment",
+    "accepted": true,
+    "scope": "Branching and black-channel detail for this exact source-derived interior fragment; not a generated crest, full mask, or ocean approval",
+    "receipt": "research/output/autonomous-2026-10-26/reference-calibration/receipt.json",
+    "identity": "1472bfd1df19194b66d1f8451319801ab4d3e5f913f061293d9598dd3de9df34",
+    "captures": [
+      {
+        "id": "calibration-reference",
+        "filename": "calibration-reference.png",
+        "mime": "image/png",
+        "width": 360,
+        "height": 280,
+        "sha256": "cf2590daa9d0f35bd58910316485b437a481e1e29aa24ef68f9004e244adde0e",
+        "identity": "1472bfd1df19194b66d1f8451319801ab4d3e5f913f061293d9598dd3de9df34"
+      },
+      {
+        "id": "calibration-mask",
+        "filename": "calibration-mask.png",
+        "mime": "image/png",
+        "width": 360,
+        "height": 280,
+        "sha256": "b2eabc661028d51e6fa15ccb76165e3a58704cea823bbbdd79ebf5a287407f69",
+        "identity": "1472bfd1df19194b66d1f8451319801ab4d3e5f913f061293d9598dd3de9df34"
+      },
+      {
+        "id": "calibration-sampled",
+        "filename": "calibration-sampled.png",
+        "mime": "image/png",
+        "width": 360,
+        "height": 280,
+        "sha256": "b1d5df7ff4dfbc793d9a389597e7fa6cc773b2aeae462894f9823cd97a743f84",
+        "identity": "1472bfd1df19194b66d1f8451319801ab4d3e5f913f061293d9598dd3de9df34"
+      }
+    ]
+  }
+}

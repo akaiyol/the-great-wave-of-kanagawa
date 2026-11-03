@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-25",
+  "leadModel": "user-selected; unchanged by project configuration",
+  "routes": {
+    "wave_evaluator": {
+      "model": "gpt-6.1-sol",
+      "reasoning": "high",
+      "config": ".codex/agents/wave-evaluator.toml",
+      "sha256": "4e7efff373d0f986dd9115a60e7a74c23371206fd09dc003ad8a55c43fa095a8"
+    },
+    "wave_researcher": {
+      "model": "gpt-6-luna",
+      "reasoning": "high",
+      "config": ".codex/agents/wave-researcher.toml",
+      "sha256": "ebca61cb05385b9952f3bd7c6b859b8ee00a92faee730b4f4b2b20f283d1b2bc"
+    },
+    "wave_worker": {
+      "model": "gpt-6.1-sol",
+      "reasoning": "medium",
+      "config": ".codex/agents/wave-worker.toml",
+      "sha256": "ec0b922160c97dafd912c8d8cf6123a19637fc28a408ebbb2f9c9b54f5ad7c18"
+    }
+  },
+  "maximumConcurrentSubagents": 2,
+  "checks": [
+    {
+      "route": "wave_researcher",
+      "invocation": "named role",
+      "result": "completed bounded read-only task"
+    },
+    {
+      "route": "wave_evaluator",
+      "invocation": "named role",
+      "result": "completed bounded read-only configuration task; no visual grading"
+    },
+    {
+      "route": "wave_worker",
+      "invocation": "built-in worker with explicit gpt-6.1-sol/medium and owned read-only task",
+      "result": "completed; newly added named worker role not yet exercised"
+    }
+  ],
+  "modelTests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "limits": [
+    "Parent Astra selection was not changed or directly exercised in this session",
+    "Smoke tests demonstrate accepted role/override invocations; no independent provider billing attribution was inspected",
+    "Changing evaluator configuration invalidates previous visual-review evidence"
+  ]
+}

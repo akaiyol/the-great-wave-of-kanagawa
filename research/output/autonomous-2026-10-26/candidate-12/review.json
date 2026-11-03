@@ -1,0 +1,19 @@
+{
+  "reviewer": "wave_evaluator /root/ribbon_network_review",
+  "preference": "J over K narrowly; neither meets originalform",
+  "mapping": {
+    "J": "candidate-12",
+    "K": "candidate-10"
+  },
+  "integrity": "All28PNG hashes and identities verified; canonical and3calibration hashes match; both6fixtures96phases384head384mouth probes pass",
+  "branching": "J central shared root has distinct recurved children surviving nativeforegroundsampling across3fixtures; still an isolated group, not distributed hierarchy",
+  "unchangedFailures": [
+    "Broad smooth cap",
+    "Tall smooth principalchannels",
+    "Nested internalcontour vocabulary absent",
+    "Coarse middletips"
+  ],
+  "regressions": "No new grossform or cove regression; all6middle PNGs byte-identical",
+  "readiness": "not_ready; composition unassessed; no useracceptance",
+  "nextChange": "Distribute unequal shared-root groups and nested dark contours"
+}

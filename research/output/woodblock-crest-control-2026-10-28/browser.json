@@ -1,0 +1,50 @@
+[
+  {
+    "browser": "151.0.7922.34",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "dpr": 1,
+    "errors": [],
+    "state": {
+      "ready": true,
+      "mode": "overlay",
+      "kind": "fixed_source_color_vector_control",
+      "roi": [
+        185,
+        50,
+        610,
+        310
+      ],
+      "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+      "runs": 110384,
+      "layers": 12,
+      "semanticSegmentation": "not_established"
+    }
+  },
+  {
+    "browser": "151.0.7922.34",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "dpr": 2,
+    "errors": [],
+    "state": {
+      "ready": true,
+      "mode": "overlay",
+      "kind": "fixed_source_color_vector_control",
+      "roi": [
+        185,
+        50,
+        610,
+        310
+      ],
+      "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+      "runs": 110384,
+      "layers": 12,
+      "semanticSegmentation": "not_established"
+    }
+  }
+]

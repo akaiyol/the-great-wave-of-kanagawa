@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T23:21:25.892Z",
+  "sourceFingerprint": "488cc2ce1eee6334d0c2bc8695607983c34cbd7b79cb816bd3de38eaf9cd7586",
+  "sourceFiles": [
+    "index.html",
+    "src/camera.mjs",
+    "src/crest.mjs",
+    "src/geometry.mjs",
+    "src/main.mjs",
+    "src/random.mjs",
+    "src/render.mjs",
+    "src/scene.mjs",
+    "src/style.css"
+  ],
+  "snapshotRoot": "research/output/validation-snapshots/488cc2ce1eee6334d0c2bc8695607983c34cbd7b79cb816bd3de38eaf9cd7586",
+  "snapshotFingerprint": "488cc2ce1eee6334d0c2bc8695607983c34cbd7b79cb816bd3de38eaf9cd7586",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "expected": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "Current source, executing snapshot, and canonical reference",
+        "pass": true,
+        "evidence": "Source and executing snapshot 488cc2ce1eee; reference cbb9988f2f18. Versioned module URLs isolate this run from previously loaded generators."
+      },
+      {
+        "name": "Model behavior",
+        "pass": true,
+        "evidence": "6 tests passed, 0 failed; camera preference/hidden-time checks are model tests, not OS-level interaction tests."
+      },
+      {
+        "name": "Tile continuity and water occlusion",
+        "pass": true,
+        "evidence": "9 tile comparisons; 0 differing dots; 1258 background dots occluded correctly."
+      },
+      {
+        "name": "Regeneration and retained cache bounds",
+        "pass": true,
+        "evidence": "80 positions; at most 6 tiles and 36 object sprites. Cache counts are not process memory."
+      },
+      {
+        "name": "White-dot output and declared sky region",
+        "pass": true,
+        "evidence": "0 sample/center mismatches; 0 colored pixels; 0 occupied dots in the upper 96-world-unit sky strip. This verifies the authored mask, not its semantic fidelity to Hokusai."
+      },
+      {
+        "name": "Generated ocean coverage",
+        "pass": true,
+        "evidence": "Three families present and all ten views nonempty for each of three seeds. Perceived variety remains a separate visual judgment."
+      }
+    ]
+  },
+  "model": {
+    "generatedAt": "2026-10-11T23:21:15.784Z",
+    "passed": 6,
+    "failed": 0
+  },
+  "renderer": {
+    "date": "2026-10-11",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "viewport": [
+      749,
+      930
+    ],
+    "renderedCanvasCSS": [
+      749,
+      930
+    ],
+    "dpr": 1.7999999523162842,
+    "seamComparisons": 9,
+    "seamMismatchedDots": 0,
+    "occludedBackgroundDots": 1258,
+    "occlusionErrors": 0,
+    "travelPositions": 80,
+    "maxRetainedTiles": 6,
+    "maxRetainedObjects": 36,
+    "regenerationPassed": true,
+    "rasterBucketGeometryPassed": true,
+    "familiesAcrossTenViewWidths": {
+      "curl": 19,
+      "breaker": 34,
+      "band": 62
+    },
+    "frameIntervalMs": {
+      "median": 16.699999999999818,
+      "p95": 17.59999999999991,
+      "max": 17.700000000000273
+    },
+    "drawSubmissionMs": {
+      "median": 0.09999990463256836,
+      "p95": 0.20000004768371582,
+      "max": 12.899999856948853
+    },
+    "tileGenerationMs": {
+      "median": 2.9000000953674316,
+      "p95": 9.400000095367432,
+      "max": 9.400000095367432
+    },
+    "elapsedMs": 3528.5,
+    "limits": "Single local Chrome-based desktop browser. 120 frame intervals after stress checks; retained-cache counts are not measured process memory. Visual fidelity and cross-browser behavior remain unapproved."
+  },
+  "compositionCoverage": [
+    {
+      "seed": 721,
+      "viewCount": 10,
+      "worldInterval": [
+        0,
+        15360
+      ],
+      "families": {
+        "curl": 19,
+        "breaker": 34,
+        "band": 62
+      },
+      "sampleOccupancy": [
+        0.06503441220238096,
+        0.08861142113095238,
+        0.06476702008928571,
+        0.0674409412202381,
+        0.05031622023809524,
+        0.04184105282738095,
+        0.06938244047619048,
+        0.06511579241071429,
+        0.07600911458333333,
+        0.06025623139880952
+      ]
+    },
+    {
+      "seed": 13891,
+      "viewCount": 10,
+      "worldInterval": [
+        0,
+        15360
+      ],
+      "families": {
+        "curl": 15,
+        "breaker": 45,
+        "band": 61
+      },
+      "sampleOccupancy": [
+        0.029436383928571428,
+        0.077392578125,
+        0.08528645833333333,
+        0.09059942336309523,
+        0.08425176711309523,
+        0.08829752604166667,
+        0.09669131324404762,
+        0.11032831101190477,
+        0.03495861235119048,
+        0.044201078869047616
+      ]
+    },
+    {
+      "seed": 0,
+      "viewCount": 10,
+      "worldInterval": [
+        0,
+        15360
+      ],
+      "families": {
+        "curl": 16,
+        "breaker": 44,
+        "band": 61
+      },
+      "sampleOccupancy": [
+        0.04909551711309524,
+        0.04528227306547619,
+        0.0649995349702381,
+        0.07936895461309523,
+        0.09402901785714286,
+        0.030633835565476192,
+        0.10738699776785714,
+        0.07604399181547619,
+        0.08385649181547619,
+        0.11576915922619048
+      ]
+    }
+  ],
+  "formDiagnostics": [
+    {
+      "seed": 721,
+      "id": "2:0:0",
+      "family": "curl",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 0,
+      "branchRoots": 39,
+      "occupiedSamples": 3008,
+      "componentsAtLeastThreeSamples": 2,
+      "largestComponentFraction": 0.9983377659574468
+    },
+    {
+      "seed": 721,
+      "id": "1:0:0",
+      "family": "breaker",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 20,
+      "branchRoots": 32,
+      "occupiedSamples": 1281,
+      "componentsAtLeastThreeSamples": 2,
+      "largestComponentFraction": 0.9921935987509758
+    },
+    {
+      "seed": 721,
+      "id": "0:0:0",
+      "family": "band",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 8,
+      "branchRoots": 8,
+      "occupiedSamples": 75,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 13891,
+      "id": "0:0:1",
+      "family": "band",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 6,
+      "branchRoots": 6,
+      "occupiedSamples": 138,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 13891,
+      "id": "2:2:0",
+      "family": "curl",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 0,
+      "branchRoots": 30,
+      "occupiedSamples": 3739,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 13891,
+      "id": "1:0:0",
+      "family": "breaker",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 10,
+      "branchRoots": 17,
+      "occupiedSamples": 305,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 0.980327868852459
+    },
+    {
+      "seed": 0,
+      "id": "0:0:0",
+      "family": "band",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 6,
+      "branchRoots": 6,
+      "occupiedSamples": 86,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 0,
+      "id": "2:4:0",
+      "family": "curl",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 0,
+      "branchRoots": 32,
+      "occupiedSamples": 4548,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 0,
+      "id": "1:0:3",
+      "family": "breaker",
+      "rootWidthsUnderOneDot": 7,
+      "rootWidthsUnderTwoDots": 11,
+      "branchRoots": 18,
+      "occupiedSamples": 255,
+      "componentsAtLeastThreeSamples": 3,
+      "largestComponentFraction": 0.9686274509803922
+    }
+  ],
+  "limits": [
+    "Visual verdicts require a reviewer; they are not automated likeness scores.",
+    "The complete semantic foam trace has not been accepted.",
+    "One local Chrome-based browser; no cross-engine or long-duration memory claim."
+  ],
+  "reviewer": "Codex — tool-assisted visual inspection",
+  "form": {
+    "status": "needs_work",
+    "criteria": [
+      {
+        "id": "overhang",
+        "criterion": "Curl and overhang",
+        "status": "pass",
+        "evidence": "The large foam envelope still turns downward over an open cavity. This is a basic curl check, not a finding of reference fidelity."
+      },
+      {
+        "id": "cap",
+        "criterion": "Foam mass and asymmetry",
+        "status": "work",
+        "evidence": "The curl now has a broad asymmetric foam mass instead of a narrow ribbon. Its upper ridge remains too smooth and its solid shoulder too uniform against the canonical crest."
+      },
+      {
+        "id": "fingers",
+        "criterion": "Connected, unequal branching fingers",
+        "status": "work",
+        "evidence": "Closed Bézier lobes replace the curl’s repeated offset hooks, with unequal lengths and side branches. The exposed fingers remain blunt and clustered along one boundary; the richer reference hierarchy is missing. Lower breakers retain their old hook construction."
+      },
+      {
+        "id": "hollows",
+        "criterion": "Distinct black hollows",
+        "status": "work",
+        "evidence": "Unequal rounded channels are authored in the cap. Overlaying fingers closes several channel mouths into isolated holes or interrupted slots. These must become coherent open coves while preserving shared roots."
+      },
+      {
+        "id": "taper",
+        "criterion": "Taper and fine detail after sampling",
+        "status": "work",
+        "evidence": "All nominal roots in the three foreground curl fixtures exceed two dot pitches. Seed 721 still has a small extra sampled component; the distinction between mouth width, actual attachment, and retained fine detail remains unresolved."
+      }
+    ]
+  },
+  "quality": {
+    "status": "needs_work",
+    "criteria": [
+      {
+        "id": "ocean",
+        "criterion": "Continuous ocean reading",
+        "status": "work",
+        "evidence": "The broader crests establish stronger foreground masses, but the fixed views still contain separate floating arches and disconnected foam bands rather than a shared ocean surface."
+      },
+      {
+        "id": "variety",
+        "criterion": "Perceived structural variety",
+        "status": "work",
+        "evidence": "Seeded curl proportions and unequal lobes vary. A single dominant cap profile still repeats; breaker and band topology remain unchanged."
+      },
+      {
+        "id": "depth",
+        "criterion": "Depth and visual hierarchy",
+        "status": "work",
+        "evidence": "Water occlusion and size differences work, but stacked placement ranges and repeated foreground profiles still flatten the composition."
+      },
+      {
+        "id": "legibility",
+        "criterion": "Dot-scale readability",
+        "status": "pass",
+        "evidence": "The principal cap, cavity, fingers, and individual dots are readable in the 1280 by 720 desktop render. Layout also fits 1920 by 1080 and 960 by 600 with the paused camera preserved; this does not approve fine-detail fidelity."
+      }
+    ]
+  },
+  "nextArtIteration": "1. Reauthor finger outlines and channel mouths together, so open coves survive without severing shared roots; break the smooth upper ridge into unequal foam clusters.\n2. Check actual attachment and hollow survival across dot-grid phases before declaring the crest accepted.\n3. Replace lower-breaker hooks and shallow foam bows with distinct reference-derived structures.\n4. Refine overlapping surface groups and open-water intervals after the crest form passes.",
+  "overall": "revise_original_form",
+  "updatedAt": "2026-10-11T23:24:33.664Z"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "provenance": "research/output/autonomous-2026-10-26/human-calibration.json",
+  "routineDesignAuthority": "delegated to agent on 2026-10-26",
+  "labels": [
+    {
+      "id": "generated-A",
+      "image": "research/output/autonomous-2026-10-26/baseline/fixture-721-2-0-0-sampled.png",
+      "sha256": "960e3e195e909bfe4e730ee0282caabe7a8e065d214b330b10ef835feadd3853",
+      "judgment": "not_acceptable",
+      "scope": "whole-crest sample shown to user"
+    },
+    {
+      "id": "generated-B",
+      "image": "research/output/autonomous-2026-10-26/candidate-02/fixture-721-2-0-0-sampled.png",
+      "sha256": "304df036ff7aa9baa91f1393344b3dfe644c50a47e001b3579176d30d73d2727",
+      "judgment": "not_acceptable",
+      "scope": "whole-crest sample shown to user"
+    },
+    {
+      "id": "reference-detail",
+      "image": "research/output/autonomous-2026-10-26/reference-calibration/calibration-sampled.png",
+      "sha256": "b1d5df7ff4dfbc793d9a389597e7fa6cc773b2aeae462894f9823cd97a743f84",
+      "judgment": "sufficient_detail",
+      "scope": "this interior fragment at 360x280 only; not whole-crest acceptance"
+    }
+  ],
+  "relativePreference": "generated-B over generated-A; both unacceptable"
+}

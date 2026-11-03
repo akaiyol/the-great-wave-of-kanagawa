@@ -1,0 +1,23 @@
+{
+  "study": "reference-fringe-v2",
+  "status": "rejected_for_production",
+  "reviewer": "lead visual inspection",
+  "evidence": "fringe-overlay.png",
+  "findings": [
+    "The authored diagonal parent omits much of the source branching network.",
+    "Three dominant curls repeat a similar loop construction and do not follow the printed boundaries closely enough.",
+    "Source overlay demonstrates approximate placement, not an accurate trace."
+  ],
+  "scope": "No full-wave, production or user acceptance. The existing workbench integration is useful independently of this rejected art asset.",
+  "controlsVerified": [
+    "fringe selection",
+    "brightness baseline disabled for exterior fringe",
+    "48 and 160 columns",
+    "overlay toggle",
+    "native circle pitch 5 CSS pixels with metadata"
+  ],
+  "assetHashes": {
+    "research/geometry/reference-fringe-v2.json": "bb6c3c13165ee907b5458e57d0610e07200d3f9e0874d3735bd0838b4aa49d03",
+    "research/geometry/reference-fringe-v2.svg": "08b82632d67cce9b7cd36be32659f579abed8516043e48327214c5d1dc670449"
+  }
+}

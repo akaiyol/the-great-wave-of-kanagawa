@@ -1,0 +1,16 @@
+{
+  "reviewer": "lead visual inspection",
+  "sourceFingerprint": "f383dd295bc052a4c3a6a0d07dd84f71a4d13b4fc0e1523b7da71a5e5bc7f9eb",
+  "verifiedCaptureHashes": 17,
+  "findings": [
+    "Regenerated2x foreground retains a clearer tapered arm, but still has a broad blank cap and four upright hollow/pendant groupings.",
+    "Regenerated2x middle clarifies the compact hooks without creating a shared-root branching hierarchy.",
+    "Sampling density is a constraint for small detail, but increasing scale alone does not solve the observed original-form failure."
+  ],
+  "decision": "Do not change production scene scale based on this study; change foam network representation first.",
+  "limits": [
+    "One original grid anchor per isolated feature",
+    "No phase sweep or composition test",
+    "No new user artistic acceptance"
+  ]
+}

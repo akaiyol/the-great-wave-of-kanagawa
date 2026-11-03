@@ -1,0 +1,51 @@
+{
+  "iteration": "W014",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "dataset": "group/annotation.json",
+    "iteration": "W014",
+    "status": "corrected_fork_source_alignment_unreviewed",
+    "context": [
+      533,
+      268,
+      38,
+      33
+    ],
+    "vertexCount": 61,
+    "rootCut": {
+      "from": [
+        546,
+        281
+      ],
+      "to": [
+        550,
+        276.5
+      ],
+      "classification": "artificial upstream closure through shared attachment; not printed boundary"
+    },
+    "scope": "One lower terminal fork silhouette with two unequal downward returns and one common root. This is a different group from W011; not a whole crest or scene.",
+    "uncertainty": [
+      "One corrected local two-terminal silhouette; boundary is approximate printed contour centerline and requires overlay review.",
+      "Artificial diagonal root closure runs from (546,281) to (550,276.5); connection is a local silhouette interpretation, not full-network semantics.",
+      "Interior ink remains unmodeled; terminal inward returns include partly uninked edges. W011 remains separately preserved with original uncertainty."
+    ],
+    "canvasAspects": [
+      1.152542372881356,
+      1.152542372881356,
+      1.152542372881356
+    ]
+  },
+  "sourceHashes": {
+    "group/annotation.json": "c6cb1e6eab01198aafe7b2f3c818ac17b5e83f3f58c4e8ce526b375b6c666e9a",
+    "annotation.mjs": "5101a9e26a69df0f27590f7b04b6e66f158fad58da5519fac225044ed2e8c4d4",
+    "index.html": "f7d1af46ce8d4da55be0b73b9c7c03e0a9643ca6ccadaf1d2327adf8768e66bf"
+  },
+  "captureSHA256": "3abb5f764f145d9e75b3dd669b9d5c7567589ac0f2e521e0a1f736cb499ea24b"
+}

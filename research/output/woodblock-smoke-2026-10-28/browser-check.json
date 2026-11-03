@@ -1,0 +1,22 @@
+[
+  {
+    "browser": "151.0.7922.34",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "dpr": 1,
+    "errors": [],
+    "svg": 1
+  },
+  {
+    "browser": "151.0.7922.34",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "dpr": 2,
+    "errors": [],
+    "svg": 1
+  }
+]

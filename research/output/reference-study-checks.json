@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-11",
+  "checks": [
+    {
+      "columns": "48",
+      "metrics": "48 × 16 cells; 4413 occupied dot samples. Displayed size follows panel width.",
+      "region": "Turning crest",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "columns": "160",
+      "metrics": "160 × 52 cells; 47994 occupied dot samples. Displayed size follows panel width.",
+      "region": "Turning crest",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "columns": "48",
+      "metrics": "48 × 20 cells; 2020 occupied dot samples. Displayed size follows panel width.",
+      "region": "Lower breaking foam",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "columns": "160",
+      "metrics": "160 × 68 cells; 22855 occupied dot samples. Displayed size follows panel width.",
+      "region": "Lower breaking foam",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "columns": "48",
+      "metrics": "48 × 9 cells; 795 occupied dot samples. Displayed size follows panel width.",
+      "region": "Surface foam band",
+      "viewport": 1280,
+      "width": 1280
+    },
+    {
+      "columns": "160",
+      "metrics": "160 × 29 cells; 8610 occupied dot samples. Displayed size follows panel width.",
+      "region": "Surface foam band",
+      "viewport": 1280,
+      "width": 1280
+    }
+  ],
+  "invalidJSONRejected": true,
+  "limits": "UI sampling checks only. Both candidate masks are rejected; no accepted geometry or mobile hardware performance evidence."
+}

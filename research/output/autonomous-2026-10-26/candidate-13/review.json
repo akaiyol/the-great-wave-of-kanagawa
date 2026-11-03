@@ -1,0 +1,7 @@
+{
+  "status": "unreviewed_not_retained",
+  "objective": "23 model tests;96connected phases;384openhead and384openmouth probes",
+  "reason": "Shared5hour allowance reached project10percent reserve before independent visual review.",
+  "decision": "Archive candidate13 and restore independently reviewed candidate12.",
+  "nextReview": "Compare13against12 after quota reserve no longer constrains a future authorized run. No acceptance implied."
+}

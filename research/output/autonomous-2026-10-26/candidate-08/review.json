@@ -1,0 +1,20 @@
+{
+  "reviewer": "wave_evaluator /root/swept_fork_review",
+  "preference": "G over F, modest local improvement; neither passes",
+  "mapping": {
+    "G": "candidate-08",
+    "F": "review-F (retained candidate-02)"
+  },
+  "integrity": "All28PNG hashes/dimensions/identities verified; canonical and calibration hashes match; same4unit protocol/world bounds;6fixtures16phases384head384mouth probes",
+  "criteria": {
+    "curl": "unchanged; needs work",
+    "mass": "unchanged; broad smooth cap",
+    "branching": "Foreground taper and unequal spur improve; chiefly elongated pendant, incomplete subordinate hierarchy",
+    "coves": "Open but upright rounded slots",
+    "ink": "Nested dark contour vocabulary absent",
+    "sampling": "Foreground tip improves; middle0/1:5:1 becomes sparse pendant/angular nub"
+  },
+  "regression": "Middle loses compact hooked articulation",
+  "readiness": "not_ready; no composition verdict",
+  "nextChange": "Oblique shared-root fan with unequal recurved children and offshoot"
+}

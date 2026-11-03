@@ -1,0 +1,17 @@
+{
+  "kind": "Existing reference-control export diagnostic",
+  "png": "research/output/autonomous-2026-10-26/reference-calibration/calibration-sampled.png",
+  "sha256": "b1d5df7ff4dfbc793d9a389597e7fa6cc773b2aeae462894f9823cd97a743f84",
+  "matchesOriginalReceipt": true,
+  "dimensions": [
+    360,
+    280
+  ],
+  "pitch": 4,
+  "sampleCenters": "integer positions (2+4c,2+4r); RGB channels >=128",
+  "adjacency": 8,
+  "occupiedCenters": 4827,
+  "components": 1,
+  "largestComponentFraction": 1.0,
+  "scope": "One exported fragment at one recorded grid origin; not a phase sweep, semantic full-crest validation or new artistic acceptance"
+}

@@ -1,0 +1,52 @@
+{
+  "iteration": "W016",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "dataset": "crest/annotation.json",
+    "iteration": "W016",
+    "status": "first_full_crest_group_outline_unreviewed",
+    "context": [
+      185,
+      50,
+      425,
+      260
+    ],
+    "vertexCount": 286,
+    "waterExclusionCount": 1,
+    "rootCut": {
+      "from": [
+        185,
+        310
+      ],
+      "to": [
+        185,
+        136
+      ],
+      "classification": "artificial left closure through cropped foam/parent; not printed boundary"
+    },
+    "scope": "One provisional main crest-group outer foam mask with a principal water exclusion; explicit left/bottom root cuts. Not a whole wave, scene or procedural result.",
+    "uncertainty": [
+      "First broad source-coordinate outline. Outer fringe joins, lower parent return and principal-water cove heads are provisional and require source-overlay inspection.",
+      "Reviewed W011/W014 terminal coordinates are retained, but that does not certify the new parent attachment or whole crest. Artificial left/bottom cuts close cropped roots.",
+      "Water exclusion is a manually authored main-region approximation, not an accepted semantic mask. Thin interior ink and fine source wash remain unmodeled. No procedural or whole-scene acceptance."
+    ],
+    "canvasAspects": [
+      1.632,
+      1.632,
+      1.632
+    ]
+  },
+  "sourceHashes": {
+    "crest/annotation.json": "5ed16e9883ccb720e9edad1909a4fcb9316ef987dcab9bbacdec76b3837a6c14",
+    "annotation.mjs": "bc73ea65927e1c0f5875a144382ddded605c3bba422ebe5abf7263f1436554ec",
+    "index.html": "f7d1af46ce8d4da55be0b73b9c7c03e0a9643ca6ccadaf1d2327adf8768e66bf"
+  },
+  "captureSHA256": "ee7741d11eb0cb2991d8dfe0c8773b751ee802bfe926bfffb004361061931ef3"
+}

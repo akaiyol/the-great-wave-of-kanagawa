@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "singleDotMappings": 8,
+  "exhaustivePatterns": 256,
+  "cachePositions": 2001,
+  "peakRetainedTiles": 5,
+  "regenerationIdentical": true,
+  "timings": [
+    {
+      "cols": 80,
+      "rows": 27,
+      "packAndStringMeanMs": 0.043797915000000034
+    },
+    {
+      "cols": 160,
+      "rows": 54,
+      "packAndStringMeanMs": 0.10623166499999996
+    },
+    {
+      "cols": 240,
+      "rows": 81,
+      "packAndStringMeanMs": 0.23662853999999997
+    }
+  ],
+  "note": "Node CPU microbenchmark only; excludes browser layout, painting and shape generation."
+}

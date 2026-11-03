@@ -1,0 +1,130 @@
+{
+  "iteration": "W029",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "snapshot": {
+    "seed": 721,
+    "worldBounds": {
+      "left": 0,
+      "right": 1592.888888888889,
+      "top": 0,
+      "bottom": 896
+    },
+    "regions": [
+      {
+        "index": -3,
+        "type": "open"
+      },
+      {
+        "index": -2,
+        "type": "open"
+      },
+      {
+        "index": -1,
+        "type": "curl"
+      },
+      {
+        "index": 0,
+        "type": "landing"
+      },
+      {
+        "index": 1,
+        "type": "rolling"
+      }
+    ],
+    "features": [
+      {
+        "id": "0:distance",
+        "region": 0,
+        "family": "swell",
+        "x": 1088.2407839477369,
+        "y": 427.29818012132523,
+        "width": 1702.7344843677088,
+        "height": 567.5781614559029,
+        "foot": 940,
+        "bounds": {
+          "left": 1088.2407839477369,
+          "right": 2790.9752683154456,
+          "top": 427.29818012132523,
+          "bottom": 994.8763415772281
+        }
+      },
+      {
+        "id": "0:hero",
+        "region": 0,
+        "family": "curl",
+        "x": -100.8508200266326,
+        "y": 68.53111776286153,
+        "width": 1388.904963408973,
+        "height": 925.9366422726486,
+        "foot": 980,
+        "bounds": {
+          "left": -100.8508200266326,
+          "right": 1288.0541433823403,
+          "top": 68.53111776286153,
+          "bottom": 994.4677600355101
+        }
+      },
+      {
+        "id": "0:fore-left",
+        "region": 0,
+        "family": "breaker",
+        "x": -470.10888252149,
+        "y": 460.69340974212037,
+        "width": 1494.429799426934,
+        "height": 747.214899713467,
+        "foot": 1170,
+        "bounds": {
+          "left": -470.10888252149,
+          "right": 1024.3209169054442,
+          "top": 460.69340974212037,
+          "bottom": 1207.9083094555874
+        }
+      },
+      {
+        "id": "0:fore-right",
+        "region": 0,
+        "family": "swell",
+        "x": 584.7410172655157,
+        "y": 504.70835277648155,
+        "width": 2209.5006999533366,
+        "height": 736.5002333177788,
+        "foot": 1170,
+        "bounds": {
+          "left": 584.7410172655157,
+          "right": 2794.2417172188525,
+          "top": 504.70835277648155,
+          "bottom": 1241.2085860942602
+        }
+      }
+    ],
+    "cacheCounts": {
+      "regions": 0,
+      "images": 4
+    },
+    "playing": false,
+    "visible": true,
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1
+    },
+    "ready": true
+  },
+  "sourceHashes": {
+    "research/woodblock/ocean.html": "d8157cc4de0e9d5407fa41f6213b3e406a6a4f203c743ef670db5db8cce8bbbd",
+    "src/camera.mjs": "79390e77b81101c86c1c578ed1b6bcf2e6cc0cc4fdd47684c5a2bb95de09202e",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "assets/woodblock/manifest.json": "afe40227de1c2aa4f5fc9ebf2a74107be34a00a3055274a3788170b903dba4c4",
+    "src/painted/app.mjs": "3c5d824c7646448ec09454e3a78fe2c23094c48d6b35eb0ed09cc6725d6c3f11",
+    "src/painted/renderer.mjs": "b2b8807358d5b859695d78ea6a18e40b1da210831ca68220ebd5d7772a86f57e",
+    "src/painted/scene.mjs": "61a1e136b51d64cbc56bcfa5011d885de8c51005e9d6fb4caf575ac65e95348c",
+    "src/painted/scene.test.mjs": "48f217630ebb09fa8a1f927e76d33284bdee6701175865d9c270a517e5ff91a9"
+  },
+  "captureSHA256": "75b749d3f4166ae30cd34ea183583b91efa4404a1e4ded1b7b41587ccd3c6b31"
+}

@@ -1,0 +1,46 @@
+{
+  "iteration": "W013",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "dataset": "group/annotation.json",
+    "iteration": "W013",
+    "status": "first_connected_fork_annotation_unreviewed",
+    "context": [
+      535,
+      265,
+      50,
+      37
+    ],
+    "vertexCount": 40,
+    "rootCut": {
+      "from": [
+        548.7,
+        279.8
+      ],
+      "to": [
+        549,
+        277
+      ],
+      "classification": "artificial upstream closure through shared attachment; not printed boundary"
+    },
+    "scope": "One lower terminal fork silhouette with two unequal downward returns and one common root. This is a different group from W011; not a whole crest or scene.",
+    "uncertainty": [
+      "First coarse lower-fork annotation; source-overlay correction may be required before alignment acceptance.",
+      "Candidate models outer foam silhouette only. Interior ink strokes and water semantics are intentionally unmodeled.",
+      "W011 is preserved separately with its original uncertain uninked terminal return; this group does not resolve or replace that uncertainty."
+    ]
+  },
+  "sourceHashes": {
+    "group/annotation.json": "f0103f59619753721e5c8b4fdb71204a48965c4ff5e00b29c85e90650ee71a88",
+    "annotation.mjs": "b5f9c898caa7f3a9c181a6c1bb7264ef0411f8db1c45fc608646850b1369cf9a",
+    "index.html": "f7d1af46ce8d4da55be0b73b9c7c03e0a9643ca6ccadaf1d2327adf8768e66bf"
+  },
+  "captureSHA256": "0419a328e557017d636714d9aeb55b71bdfbe2873453fd898169ee086eaea351"
+}

@@ -1,0 +1,332 @@
+{
+  "iteration": "W054-final",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "metadata": {
+    "keys": [
+      "ready",
+      "waves",
+      "descriptors",
+      "fingerprints",
+      "scope"
+    ],
+    "waves": [
+      {
+        "seed": 0,
+        "descriptor": {
+          "family": "rolled-front-grammar",
+          "crests": 1,
+          "roots": 2,
+          "children": [
+            3,
+            1
+          ],
+          "tips": 4,
+          "bayLobes": 2,
+          "relationships": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "principalHollow": [
+            494.5144778575225,
+            450.37583327879685
+          ]
+        },
+        "fingerprint": "b85c2787f398bb26"
+      },
+      {
+        "seed": 1,
+        "descriptor": {
+          "family": "rolled-front-grammar",
+          "crests": 1,
+          "roots": 2,
+          "children": [
+            3,
+            3
+          ],
+          "tips": 6,
+          "bayLobes": 2,
+          "relationships": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "principalHollow": [
+            514.0495938958135,
+            451.71742227220597
+          ]
+        },
+        "fingerprint": "27d64a8f73318b19"
+      },
+      {
+        "seed": 721,
+        "descriptor": {
+          "family": "rolled-front-grammar",
+          "crests": 1,
+          "roots": 3,
+          "children": [
+            1,
+            2,
+            2
+          ],
+          "tips": 5,
+          "bayLobes": 3,
+          "relationships": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "principalHollow": [
+            506.79822472906676,
+            461.0582667784583
+          ]
+        },
+        "fingerprint": "edff728ea57a71d4"
+      },
+      {
+        "seed": 1847,
+        "descriptor": {
+          "family": "rolled-front-grammar",
+          "crests": 1,
+          "roots": 3,
+          "children": [
+            3,
+            3,
+            3
+          ],
+          "tips": 9,
+          "bayLobes": 3,
+          "relationships": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "principalHollow": [
+            546.2328672352196,
+            403.94778126841834
+          ]
+        },
+        "fingerprint": "6b6d1e9be81eb514"
+      },
+      {
+        "seed": 13891,
+        "descriptor": {
+          "family": "rolled-front-grammar",
+          "crests": 1,
+          "roots": 2,
+          "children": [
+            2,
+            1
+          ],
+          "tips": 3,
+          "bayLobes": 2,
+          "relationships": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "principalHollow": [
+            477.4870413279788,
+            444.6316595532203
+          ]
+        },
+        "fingerprint": "025936612a30cde5"
+      },
+      {
+        "seed": 4294967295,
+        "descriptor": {
+          "family": "rolled-front-grammar",
+          "crests": 1,
+          "roots": 3,
+          "children": [
+            1,
+            3,
+            3
+          ],
+          "tips": 7,
+          "bayLobes": 3,
+          "relationships": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "principalHollow": [
+            542.8215351809552,
+            386.2950531903673
+          ]
+        },
+        "fingerprint": "dcec7f95e10684a7"
+      }
+    ]
+  },
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dpr": 1,
+      "metrics": {
+        "w": 1280,
+        "h": 853.328125,
+        "viewBox": "0 0 1200 800",
+        "overflow": false
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "dpr": 2,
+      "metrics": {
+        "w": 1440,
+        "h": 960,
+        "viewBox": "0 0 1200 800",
+        "overflow": false
+      }
+    }
+  ],
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "cdf14f616552e5d662cb155b3bcb0063189d74037e63a0e7e21b82db3b8db0b9",
+    "src/procedural/rolled-front.mjs": "27106b4b2c1a5f2cbfb35e05309ecc5999dc7d8ef7b9b7a77bf5499b4093cfd2",
+    "src/procedural/rolled-front.test.mjs": "1fe62e60832e7c0fb662893d16979e29957ad478c66e678cde378e7634484587",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "gallery.png": "2817f196d9e7ed58fdd4d481c83ba816f7a5d9708581ec16aa96ae843fa1a5ed",
+    "seed0.png": "d94aae96348c6f28531bcf92d29039974aa5e07c6416b95497ccbf024ee548e8",
+    "seed1.png": "e1b5ea9617040d464d0394c73a7b0644e7dc88ba693dd39f1536f0b586a729a7",
+    "seed721.png": "0d201ca4eb87fae5ec2c1d5e07fb72e0a1b18687d4f32da54adb114ff45a0312",
+    "seed1847.png": "16bf9febb387774d6ce730761994f681d2849fed77d065c11837d7dfc1ef7816",
+    "seed13891.png": "ad9e3df377f3344f39067fc354b04dba62d467b547dc8d44b044e75f39997839",
+    "seed4294967295.png": "ce68723a6e3311da68c4190a49a2313aaba88a58eebb4a1f8aab905fca5c6c3a",
+    "layout1280.png": "8b681aa8ed6f943aaad2e75b8203462e1c9a2140fa93d6396b5f74d7ae1c97b7",
+    "layout1920.png": "1185fcf7ea945dc01c66f05f72a18619c1bd793a37feb6e98c6533aeaf295d44"
+  }
+}

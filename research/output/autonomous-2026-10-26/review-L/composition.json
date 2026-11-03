@@ -1,0 +1,150 @@
+{
+  "label": "review-L",
+  "scope": "Three seeds by three overlapping native views per snapshot,1280x720CSS atDPR2;not10viewsperseed",
+  "captures": [
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "721",
+      "view": 0,
+      "filename": "seed-721-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000",
+      "sha256": "55420d6be859d84f2d0c431ca81def9a5ea2290fbf6e3144698e61e25a2f19f7"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "721",
+      "view": 1,
+      "filename": "seed-721-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022",
+      "sha256": "b7bb1a2cd8e852c627e2f7dcda7160361917a03bb00624bdbc29c007e16e7d88"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "721",
+      "view": 2,
+      "filename": "seed-721-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044",
+      "sha256": "aade977935324c7c811ca051b2d8e93bc7b5314ebc33e4468d918d864f1118f8"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "13891",
+      "view": 0,
+      "filename": "seed-13891-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000",
+      "sha256": "f7f03aaa88d76f23061957555be128c6ed35cce5927cfc0977034fc916f76e66"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "13891",
+      "view": 1,
+      "filename": "seed-13891-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022",
+      "sha256": "ebb543c2b8d1efdfe287d8a1cc4e61e093ff9849f49568648530697cbbf63a30"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "13891",
+      "view": 2,
+      "filename": "seed-13891-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044",
+      "sha256": "33001dc15e990b57ae519fa9818a34b183329e677334c56c9b26fff524989f81"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "0",
+      "view": 0,
+      "filename": "seed-0-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000",
+      "sha256": "da406db862520038f6fda2abc33b86f0f0f41a51229b8127db62ab78a2c86323"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "0",
+      "view": 1,
+      "filename": "seed-0-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022",
+      "sha256": "e3b48ed0fdaf7a356d7876b7cb89d5393ea9549290c436e47897874a0d35713a"
+    },
+    {
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "0",
+      "view": 2,
+      "filename": "seed-0-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044",
+      "sha256": "c64167d82050e8860cbf86d76dc39ae6b6dc3e8fe76a807be58c7f565d0fd43b"
+    }
+  ]
+}

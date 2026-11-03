@@ -1,0 +1,293 @@
+{
+  "scope": "Three seeds by three overlapping native views per snapshot,1280x720CSS atDPR2;not10viewsperseed",
+  "captures": [
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "721",
+      "view": 0,
+      "filename": "seed-721-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "721",
+      "view": 1,
+      "filename": "seed-721-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "721",
+      "view": 2,
+      "filename": "seed-721-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "13891",
+      "view": 0,
+      "filename": "seed-13891-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "13891",
+      "view": 1,
+      "filename": "seed-13891-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "13891",
+      "view": 2,
+      "filename": "seed-13891-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "0",
+      "view": 0,
+      "filename": "seed-0-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "0",
+      "view": 1,
+      "filename": "seed-0-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022"
+    },
+    {
+      "candidate": "candidate-12",
+      "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+      "seed": "0",
+      "view": 2,
+      "filename": "seed-0-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "721",
+      "view": 0,
+      "filename": "seed-721-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "721",
+      "view": 1,
+      "filename": "seed-721-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "721",
+      "view": 2,
+      "filename": "seed-721-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "13891",
+      "view": 0,
+      "filename": "seed-13891-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "13891",
+      "view": 1,
+      "filename": "seed-13891-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "13891",
+      "view": 2,
+      "filename": "seed-13891-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "0",
+      "view": 0,
+      "filename": "seed-0-view-0.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "0.000"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "0",
+      "view": 1,
+      "filename": "seed-0-view-1.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "1115.022"
+    },
+    {
+      "candidate": "candidate-16",
+      "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+      "seed": "0",
+      "view": 2,
+      "filename": "seed-0-view-2.png",
+      "canvasCSS": [
+        1280,
+        720
+      ],
+      "canvasPixels": [
+        2560,
+        1440
+      ],
+      "worldX": "2230.044"
+    }
+  ]
+}

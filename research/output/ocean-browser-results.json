@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-11",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "viewport": [
+    1280,
+    720
+  ],
+  "renderedCanvasCSS": [
+    1280,
+    720
+  ],
+  "dpr": 2,
+  "seamComparisons": 9,
+  "seamMismatchedDots": 0,
+  "occludedBackgroundDots": 466,
+  "occlusionErrors": 0,
+  "travelPositions": 80,
+  "maxRetainedTiles": 6,
+  "maxRetainedObjects": 36,
+  "regenerationPassed": true,
+  "rasterBucketGeometryPassed": true,
+  "familiesAcrossTenViewWidths": {
+    "curl": 19,
+    "breaker": 34,
+    "band": 62
+  },
+  "frameIntervalMs": {
+    "median": 16.699999999999818,
+    "p95": 16.799999999999727,
+    "max": 17.199999999999818
+  },
+  "drawSubmissionMs": {
+    "median": 0,
+    "p95": 0.10000014305114746,
+    "max": 6
+  },
+  "tileGenerationMs": {
+    "median": 3.299999952316284,
+    "p95": 5.5,
+    "max": 5.5
+  },
+  "elapsedMs": 3445.5999999046326,
+  "limits": "Single local Chrome-based desktop browser. 120 frame intervals after stress checks; retained-cache counts are not measured process memory. Visual fidelity and cross-browser behavior remain unapproved."
+}

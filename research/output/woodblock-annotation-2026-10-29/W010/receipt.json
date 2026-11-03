@@ -1,0 +1,45 @@
+{
+  "iteration": "W010",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "iteration": "W010",
+    "status": "first_source_annotation_unreviewed",
+    "context": [
+      560,
+      195,
+      40,
+      45
+    ],
+    "vertexCount": 22,
+    "rootCut": {
+      "from": [
+        571,
+        216.5
+      ],
+      "to": [
+        570,
+        209
+      ],
+      "classification": "artificial closure at the finger attachment; not printed boundary"
+    },
+    "scope": "One small right-fringe hooked finger; not a whole branch network, crest or wave.",
+    "uncertainty": [
+      "First coarse coordinate annotation, approximately 1–3 reference units uncertain; overlay review required before refinement.",
+      "Only the outer finger silhouette is annotated. Its fine ink and source wash are not candidate geometry.",
+      "Root cut isolates the slice; no connectivity claim beyond this slice."
+    ]
+  },
+  "sourceHashes": {
+    "annotation.json": "e2dd1a0fdc81661e7f941b6436c17a2319b0f8a555b40f5be535d2b89ba9fe25",
+    "annotation.mjs": "cde9378d546f6f6e2b5ce8bf8969c784d15168ae717a3879dd9221e1b1b2708e",
+    "index.html": "264ebca94caf5a663338c58c888579806243cf013135eba7ca638af8b275ebe8"
+  },
+  "captureSHA256": "5448ceeaedf2727d79b772cf02f52873511f7c0a2b161046103031a05d78e732"
+}

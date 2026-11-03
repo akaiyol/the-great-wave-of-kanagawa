@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "seed": 0,
+      "finite": true,
+      "deterministic": true,
+      "normalizedGeometrySHA256": "e872af212f4309c722bcc2db3dec2c2750be5c6e92baca3390b804eef9ca5ee0",
+      "descriptor": {
+        "family": "rolled-front-patch",
+        "crests": 1,
+        "roots": 3,
+        "tips": 3,
+        "principalHollow": [
+          540,
+          407
+        ]
+      }
+    },
+    {
+      "seed": 1,
+      "finite": true,
+      "deterministic": true,
+      "normalizedGeometrySHA256": "3251823f073a0b356a1c096a4846f3736d4beb06d1798b5c7ea0026ae77406c3",
+      "descriptor": {
+        "family": "rolled-front-patch",
+        "crests": 1,
+        "roots": 3,
+        "tips": 3,
+        "principalHollow": [
+          547.4164078412578,
+          407
+        ]
+      }
+    },
+    {
+      "seed": 721,
+      "finite": true,
+      "deterministic": true,
+      "normalizedGeometrySHA256": "d94646b4d115bd2160129295d0c7058d80f2cf2679e90aca19e7789f589eb6a3",
+      "descriptor": {
+        "family": "rolled-front-patch",
+        "crests": 1,
+        "roots": 3,
+        "tips": 3,
+        "principalHollow": [
+          547.2300535468385,
+          407
+        ]
+      }
+    },
+    {
+      "seed": 1847,
+      "finite": true,
+      "deterministic": true,
+      "normalizedGeometrySHA256": "2bd001471428e45463c60c3f85e5d25a6eadccb1d960e1ae55c040041a9aa682",
+      "descriptor": {
+        "family": "rolled-front-patch",
+        "crests": 1,
+        "roots": 3,
+        "tips": 3,
+        "principalHollow": [
+          546.1052828030661,
+          407
+        ]
+      }
+    },
+    {
+      "seed": 13891,
+      "finite": true,
+      "deterministic": true,
+      "normalizedGeometrySHA256": "9f22f841e947691fbc124417898c98e5992bc347a2b93f276cf342a6232e8678",
+      "descriptor": {
+        "family": "rolled-front-patch",
+        "crests": 1,
+        "roots": 3,
+        "tips": 3,
+        "principalHollow": [
+          541.321322911419,
+          407
+        ]
+      }
+    },
+    {
+      "seed": 4294967295,
+      "finite": true,
+      "deterministic": true,
+      "normalizedGeometrySHA256": "570e53023277a8ba37113bb3d015d4cc6d116443b9a394c11371a85a102ffe56",
+      "descriptor": {
+        "family": "rolled-front-patch",
+        "crests": 1,
+        "roots": 3,
+        "tips": 3,
+        "principalHollow": [
+          544.5835933685303,
+          407
+        ]
+      }
+    }
+  ],
+  "distinctNormalizedGeometry": 6,
+  "scope": "Six finite deterministic geometry samples; hashes exclude seed/metadata. No perceptual uniqueness, topology diversity or artistic pass."
+}

@@ -1,0 +1,45 @@
+{
+  "iteration": "W011",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "iteration": "W011",
+    "status": "source_overlay_corrected_unreviewed",
+    "context": [
+      560,
+      195,
+      40,
+      45
+    ],
+    "vertexCount": 44,
+    "rootCut": {
+      "from": [
+        571,
+        216.5
+      ],
+      "to": [
+        570,
+        209.8
+      ],
+      "classification": "artificial closure at the finger attachment; not printed boundary"
+    },
+    "scope": "One small right-fringe hooked finger; not a whole branch network, crest or wave.",
+    "uncertainty": [
+      "Boundary follows approximate printed contour centerlines rather than claiming a unique ink/foam subpixel edge. Source overlay review still required.",
+      "Inner ink line ends near (589,225); its relation to the terminal return is partly uninked and remains interpretation-dependent.",
+      "One small finger and artificial root cut only; no whole branch network, crest or wave acceptance."
+    ]
+  },
+  "sourceHashes": {
+    "annotation.json": "9cdd890fdc2c2ad5d60aee94dad875b2397d23fa0cbe001981c2b41fc83a5529",
+    "annotation.mjs": "cde9378d546f6f6e2b5ce8bf8969c784d15168ae717a3879dd9221e1b1b2708e",
+    "index.html": "f7d1af46ce8d4da55be0b73b9c7c03e0a9643ca6ccadaf1d2327adf8768e66bf"
+  },
+  "captureSHA256": "9d7b49ce57d6d83b65eba63da7ac74cdb1a23865fc23d5a33620ff985696ad06"
+}

@@ -1,0 +1,89 @@
+{
+  "scope": "Exact-color components at1440CSS/DPR1. Components under9pixels excluded as antialias artifacts; no guarantee for thinner geometry. Cloud color excluded.",
+  "results": [
+    {
+      "seed": 0,
+      "isolatedSkyRegions": [],
+      "foamComponentsAtLeast9Pixels": [
+        {
+          "pixels": 131415,
+          "center": [
+            511.5,
+            390.7
+          ],
+          "touchesFrame": false
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "isolatedSkyRegions": [],
+      "foamComponentsAtLeast9Pixels": [
+        {
+          "pixels": 127487,
+          "center": [
+            503.3,
+            393.3
+          ],
+          "touchesFrame": false
+        }
+      ]
+    },
+    {
+      "seed": 721,
+      "isolatedSkyRegions": [],
+      "foamComponentsAtLeast9Pixels": [
+        {
+          "pixels": 133913,
+          "center": [
+            513.9,
+            391.0
+          ],
+          "touchesFrame": false
+        }
+      ]
+    },
+    {
+      "seed": 1847,
+      "isolatedSkyRegions": [],
+      "foamComponentsAtLeast9Pixels": [
+        {
+          "pixels": 132245,
+          "center": [
+            511.5,
+            391.9
+          ],
+          "touchesFrame": false
+        }
+      ]
+    },
+    {
+      "seed": 13891,
+      "isolatedSkyRegions": [],
+      "foamComponentsAtLeast9Pixels": [
+        {
+          "pixels": 128957,
+          "center": [
+            511.5,
+            392.4
+          ],
+          "touchesFrame": false
+        }
+      ]
+    },
+    {
+      "seed": 4294967295,
+      "isolatedSkyRegions": [],
+      "foamComponentsAtLeast9Pixels": [
+        {
+          "pixels": 132343,
+          "center": [
+            512.2,
+            392.8
+          ],
+          "touchesFrame": false
+        }
+      ]
+    }
+  ]
+}

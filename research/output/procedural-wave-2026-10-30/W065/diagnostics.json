@@ -1,0 +1,161 @@
+{
+  "scope": "two adjacent groups with retained original junction; inter-group sky unproven",
+  "groups": [
+    {
+      "root": "root-1",
+      "range": [
+        96,
+        264
+      ],
+      "collar": {
+        "station": 0.20833333333333334,
+        "childRootStations": [
+          0.68,
+          0.9
+        ],
+        "construction": "frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent",
+        "joinPositionError": 0,
+        "normalizedTangentErrors": [
+          2.6852712547870858e-15,
+          9.550499576785472e-16,
+          1.8841109504205303e-15,
+          6.628005886499562e-16
+        ],
+        "maxNormalizedTangentError": 2.6852712547870858e-15,
+        "hiddenCrossSectionSamples": 95,
+        "hiddenCrossSectionOutsideParent": 0,
+        "hiddenCrossSectionMinInteriorClearance": 0.24129230791722237,
+        "exposedConnectorSegments": 96,
+        "removedLargeStraightChord": true
+      },
+      "localAttachments": [
+        {
+          "id": "graft-parent",
+          "parentId": "cap",
+          "witness": [
+            718.961159696647,
+            326.5226066215688
+          ],
+          "insideBoth": true,
+          "parentClearance": 10.746094529734803,
+          "branchClearance": 1.8741828948227197
+        },
+        {
+          "id": "graft-child-a",
+          "parentId": "graft-parent",
+          "witness": [
+            754.209046756866,
+            310.02732801662125
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.723049293845143,
+          "branchClearance": 1.5728912042127035
+        },
+        {
+          "id": "graft-child-b",
+          "parentId": "graft-parent",
+          "witness": [
+            769.507157424202,
+            313.93240646541136
+          ],
+          "insideBoth": true,
+          "parentClearance": 7.1955739811849675,
+          "branchClearance": 1.4202729302807853
+        }
+      ]
+    },
+    {
+      "root": "root-2",
+      "range": [
+        264,
+        432
+      ],
+      "collar": {
+        "station": 0.20833333333333334,
+        "childRootStations": [
+          0.68,
+          0.9
+        ],
+        "construction": "frontier tangent to actual parent flank, hidden cross-section, return flank to frontier tangent",
+        "joinPositionError": 0,
+        "normalizedTangentErrors": [
+          3.958455005116838e-15,
+          3.973993651728112e-15,
+          1.0990647210786425e-15,
+          2.220446049250313e-16
+        ],
+        "maxNormalizedTangentError": 3.973993651728112e-15,
+        "hiddenCrossSectionSamples": 95,
+        "hiddenCrossSectionOutsideParent": 0,
+        "hiddenCrossSectionMinInteriorClearance": 0.2416202772105575,
+        "exposedConnectorSegments": 96,
+        "removedLargeStraightChord": true
+      },
+      "localAttachments": [
+        {
+          "id": "graft-parent",
+          "parentId": "cap",
+          "witness": [
+            735.8972653004606,
+            372.3260199353521
+          ],
+          "insideBoth": true,
+          "parentClearance": 10.760700834676225,
+          "branchClearance": 1.876730321406624
+        },
+        {
+          "id": "graft-child-a",
+          "parentId": "graft-parent",
+          "witness": [
+            748.4494329049386,
+            409.21871220517795
+          ],
+          "insideBoth": true,
+          "parentClearance": 8.734905835554391,
+          "branchClearance": 1.5750291091516597
+        },
+        {
+          "id": "graft-child-b",
+          "parentId": "graft-parent",
+          "witness": [
+            742.8846119902745,
+            424.0171146198372
+          ],
+          "insideBoth": true,
+          "parentClearance": 7.2053543481365825,
+          "branchClearance": 1.4222033934330058
+        }
+      ]
+    }
+  ],
+  "simpleComponents": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "finite": true,
+  "sharedExposedGeometryError": 0,
+  "interGroupSky": "unproven: first visible control",
+  "localCovesAgainstCombinedUnion": [
+    {
+      "root": "root-1",
+      "bodyHits": 0
+    },
+    {
+      "root": "root-2",
+      "bodyHits": 0
+    }
+  ],
+  "retainedInk": 1
+}

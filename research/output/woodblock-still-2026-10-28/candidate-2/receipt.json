@@ -1,0 +1,152 @@
+{
+  "iteration": "W004",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceHashes": {
+    "research/woodblock-still.html": "6bd09489b3cb29648fb9bf5fb9ae703c0154ab3fd2535792045049104782ab2c",
+    "research/woodblock/still.mjs": "45f03c98d1554e49ddb4ba0c66932d20db0930839765ccb435d407f23e28c5da",
+    "research/woodblock/geometry.mjs": "8b9db2d5a28fb099a711561a6bfdfb3342d693b1c55c1ae71c4f58d046f08f5b",
+    "research/woodblock/handoff.md": "683a092e47448f4ea4ddc019d3399934dbf7c41674651cc4ec7fe29146af1b78"
+  },
+  "evidenceHashes": {
+    "view-960.png": "ee60a81a9c1f26cdfbd0d92682449f135ce387b700fb8a9a185ada8e07b1afd8",
+    "resized.png": "4874b0782a210c95c11eb4c27416bae3e57091c7f16b2d0809e582d3352c3151",
+    "view-1280.png": "74b517ed0079bdd31b13143a9637c67a8ded485dfd19dc874aac965d3629fe21",
+    "view-1920.png": "cdd2860ef256d16002c2e8532c8542510f3ea62249b14aa7d1e158506d7fbec9",
+    "browser.json": "bdb9e836eaab685eb05478eebc19f091fc24df644d05027ccd3c7c390ecdc017"
+  },
+  "productionAndTestsUnchanged": true,
+  "browser": {
+    "browser": "Chromium",
+    "results": [
+      {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "dpr": 1,
+        "errors": [],
+        "study": {
+          "ready": true,
+          "revision": "W004-branches",
+          "geometryStats": {
+            "authoredPaths": 34,
+            "principalCoves": 7,
+            "foamGroups": 5,
+            "clouds": 3,
+            "spray": 220
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1,
+            "scale": 1.0666666666666667,
+            "offsetX": 0,
+            "offsetY": 0
+          }
+        },
+        "canvases": [
+          {
+            "width": 1280,
+            "height": 720,
+            "cssWidth": 1280,
+            "cssHeight": 720
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "resize": true,
+        "errors": [],
+        "viewport": {
+          "width": 1000,
+          "height": 800
+        }
+      },
+      {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "dpr": 2,
+        "errors": [],
+        "study": {
+          "ready": true,
+          "revision": "W004-branches",
+          "geometryStats": {
+            "authoredPaths": 34,
+            "principalCoves": 7,
+            "foamGroups": 5,
+            "clouds": 3,
+            "spray": 220
+          },
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "dpr": 2,
+            "scale": 1.6,
+            "offsetX": 0,
+            "offsetY": 0
+          }
+        },
+        "canvases": [
+          {
+            "width": 3840,
+            "height": 2160,
+            "cssWidth": 1920,
+            "cssHeight": 1080
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "viewport": {
+          "width": 960,
+          "height": 720
+        },
+        "dpr": 1,
+        "errors": [],
+        "study": {
+          "ready": true,
+          "revision": "W004-branches",
+          "geometryStats": {
+            "authoredPaths": 34,
+            "principalCoves": 7,
+            "foamGroups": 5,
+            "clouds": 3,
+            "spray": 220
+          },
+          "viewport": {
+            "width": 960,
+            "height": 720,
+            "dpr": 1,
+            "scale": 0.8,
+            "offsetX": 0,
+            "offsetY": 90
+          }
+        },
+        "canvases": [
+          {
+            "width": 960,
+            "height": 720,
+            "cssWidth": 960,
+            "cssHeight": 720
+          }
+        ],
+        "overflow": false
+      }
+    ],
+    "hashes": {
+      "geometry.mjs": "8b9db2d5a28fb099a711561a6bfdfb3342d693b1c55c1ae71c4f58d046f08f5b",
+      "handoff.md": "683a092e47448f4ea4ddc019d3399934dbf7c41674651cc4ec7fe29146af1b78",
+      "still.mjs": "45f03c98d1554e49ddb4ba0c66932d20db0930839765ccb435d407f23e28c5da"
+    }
+  },
+  "visualReview": "pending",
+  "userAcceptance": "not_granted",
+  "receiptNote": "Receipt is not included in its own evidence hashes; source and capture hashes bind external evidence.",
+  "replay": {
+    "entry": "preview.html",
+    "note": "Replay wrapper changes only module URL to archived sibling still.mjs; archived original page and modules remain byte-identical to recorded source.",
+    "sha256": "1139ed2dee0196f06bb6481027204db09e84f020ef37333fd73fe7b8b9ab1c09"
+  }
+}

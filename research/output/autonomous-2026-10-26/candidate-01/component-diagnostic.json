@@ -1,0 +1,40 @@
+{
+  "source": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf",
+  "fixture": "2:0:0",
+  "offset": [
+    1,
+    3
+  ],
+  "parts": [
+    {
+      "samples": 2464,
+      "gridBounds": [
+        19,
+        10,
+        165,
+        76
+      ],
+      "localWorldBounds": [
+        35,
+        25,
+        623,
+        293
+      ]
+    },
+    {
+      "samples": 3,
+      "gridBounds": [
+        15,
+        77,
+        17,
+        77
+      ],
+      "localWorldBounds": [
+        19,
+        293,
+        31,
+        297
+      ]
+    }
+  ]
+}

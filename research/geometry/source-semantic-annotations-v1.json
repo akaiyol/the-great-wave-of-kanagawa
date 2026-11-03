@@ -1,0 +1,166 @@
+{
+  "status": "provisional sparse semantic annotations; independent review pending",
+  "source": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "frame": [
+    1000,
+    672
+  ],
+  "contextCrop": [
+    200,
+    50,
+    450,
+    280
+  ],
+  "detailCrop": [
+    300,
+    105,
+    110,
+    90
+  ],
+  "rgbSampling": "Pillow RGB resize to1000x672 with explicit LANCZOS; values are diagnostics, not semantic classification",
+  "annotations": [
+    {
+      "id": "F1",
+      "class": "foam_candidate",
+      "point": [
+        345,
+        129
+      ],
+      "rgb": [
+        232,
+        230,
+        216
+      ],
+      "note": "Pale region inside the foam cap; not exterior paper.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "F2",
+      "class": "foam_candidate",
+      "point": [
+        335,
+        151
+      ],
+      "rgb": [
+        251,
+        247,
+        228
+      ],
+      "note": "Pale neck between dark water regions; attachment not inferred beyond this seed.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "F3",
+      "class": "foam_candidate",
+      "point": [
+        350,
+        160
+      ],
+      "rgb": [
+        204,
+        220,
+        207
+      ],
+      "note": "Pale blue/cream margin beside the water body.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "W1",
+      "class": "water",
+      "point": [
+        352,
+        169
+      ],
+      "rgb": [
+        57,
+        71,
+        103
+      ],
+      "note": "Broad dark-blue water below the crest.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "W2",
+      "class": "water",
+      "point": [
+        360,
+        144
+      ],
+      "rgb": [
+        44,
+        62,
+        94
+      ],
+      "note": "Dark upper water tongue; source-context interpretation.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "I1",
+      "class": "internal_ink_candidate",
+      "point": [
+        334,
+        127
+      ],
+      "rgb": [
+        60,
+        79,
+        109
+      ],
+      "note": "Narrow curved blue mark inside pale foam; requires independent semantic review.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "I2",
+      "class": "internal_ink_candidate",
+      "point": [
+        330,
+        116
+      ],
+      "rgb": [
+        58,
+        78,
+        114
+      ],
+      "note": "Small curved blue mark inside the cap; not automatically an exterior-water cove.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "P1",
+      "class": "paper",
+      "point": [
+        620,
+        120
+      ],
+      "rgb": [
+        250,
+        245,
+        228
+      ],
+      "note": "Pale exterior paper to the right of the crest; must not produce foam dots.",
+      "status": "provisional_seed_not_boundary"
+    },
+    {
+      "id": "U1",
+      "class": "uncertain",
+      "point": [
+        350,
+        133
+      ],
+      "rgb": [
+        96,
+        108,
+        126
+      ],
+      "note": "Junction/edge where water versus contour interpretation is unresolved.",
+      "status": "provisional_seed_not_boundary"
+    }
+  ],
+  "limits": [
+    "Seeds are not contours or a complete semantic mask.",
+    "Parent connections cross study boundaries; no unique parent direction or fixed tree inventory is asserted.",
+    "Dark color alone does not distinguish water from internal ink.",
+    "Pale color alone does not distinguish foam from paper.",
+    "No native-dot sampling, production or artistic acceptance is claimed."
+  ]
+}

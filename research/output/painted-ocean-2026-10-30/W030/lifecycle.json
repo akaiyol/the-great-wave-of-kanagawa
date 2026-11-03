@@ -1,0 +1,6 @@
+{
+  "loadingGuards": "pass",
+  "defaultAutomaticTravel": "pass",
+  "visibilityEventIntegration": "pass",
+  "actualOSHiddenTab": "not tested"
+}

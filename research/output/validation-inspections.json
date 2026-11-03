@@ -1,0 +1,56 @@
+[
+  {
+    "seed": "721",
+    "family": "curl",
+    "feature": "Seed 721, feature 2:0:0, curl. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 30/41 branch roots are narrower than two dot pitches; 2 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 100.0% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "721",
+    "family": "breaker",
+    "feature": "Seed 721, feature 1:0:0, breaker. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 20/32 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 2 components of at least three samples; largest component 99.2% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "721",
+    "family": "band",
+    "feature": "Seed 721, feature 0:0:0, band. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 8/8 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 100.0% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "13891",
+    "family": "curl",
+    "feature": "Seed 13891, feature 2:2:0, curl. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 18/33 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 100.0% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "13891",
+    "family": "breaker",
+    "feature": "Seed 13891, feature 1:0:0, breaker. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 10/17 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 98.0% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "13891",
+    "family": "band",
+    "feature": "Seed 13891, feature 0:0:1, band. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 6/6 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 100.0% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "0",
+    "family": "curl",
+    "feature": "Seed 0, feature 2:4:0, curl. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 7/37 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 100.0% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "0",
+    "family": "breaker",
+    "feature": "Seed 0, feature 1:0:3, breaker. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 11/18 branch roots are narrower than two dot pitches; 7 are narrower than one. Occupied foam grid: 3 components of at least three samples; largest component 96.9% of occupied foam samples. No acceptance threshold is assigned."
+  },
+  {
+    "seed": "0",
+    "family": "band",
+    "feature": "Seed 0, feature 0:0:0, band. The geometry and sampled panel use the same feature; the print crop is a visual reference, not a fitted target mask.",
+    "diagnostic": "Diagnostic: 6/6 branch roots are narrower than two dot pitches; 0 are narrower than one. Occupied foam grid: 1 components of at least three samples; largest component 100.0% of occupied foam samples. No acceptance threshold is assigned."
+  }
+]

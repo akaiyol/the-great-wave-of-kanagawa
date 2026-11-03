@@ -1,0 +1,29 @@
+{
+  "iteration": "W064",
+  "scope": "Six primary seeds, same retained W063 one-group construction; no geometry changes",
+  "commandOutcome": "completed, exit 0; prior session 57508",
+  "commonResults": {
+    "finite": true,
+    "componentCrossings": [0,0,0,0,0,0,0,0],
+    "allThreeAttachmentsInsideBoth": true,
+    "coveSamples": 291,
+    "coveBodyHits": 0,
+    "coveFoamHits": 0,
+    "coveBoundaryCrossings": 0,
+    "hiddenCrossSectionSamples": 95,
+    "hiddenCrossSectionOutsideParent": 0,
+    "joinPositionError": 0,
+    "failures": []
+  },
+  "normalization": "SHA256 of baseBody, baseFoam and three branch point arrays; common bounding-box minimum subtracted, divided by maximum extent, coordinates rounded to 7 decimal places",
+  "results": [
+    {"seed":0,"attachmentMinClearances":[1.6610348617489619,1.3940086269878185,1.258747402354179],"coveMinClearance":5.29785145516418,"hiddenCrossSectionMinInteriorClearance":0.21385049262236422,"maxNormalizedTangentError":6.355723800288653e-15,"normalizedGeometrySha256":"5e916ad6a1f6dd0596c72083abe82f32f6f7dcd1f27ec345c744c10535a82d25"},
+    {"seed":1,"attachmentMinClearances":[1.6680658730424276,1.3999093402269676,1.2640755669852801],"coveMinClearance":5.320276784258503,"hiddenCrossSectionMinInteriorClearance":0.21475570253901516,"maxNormalizedTangentError":3.3893637946200148e-15,"normalizedGeometrySha256":"b5768735c0f3fb8590950187ec70400c8c6901c9899afebbe3bcc9af8ef69331"},
+    {"seed":721,"attachmentMinClearances":[1.876730321406624,1.5750291091516597,1.4222033934330058],"coveMinClearance":5.985809625780634,"hiddenCrossSectionMinInteriorClearance":0.2416202772105575,"maxNormalizedTangentError":3.973993651728112e-15,"normalizedGeometrySha256":"4bce8a8b65ca143e55cac8f436298622a7dd712ff228c1c1db1dcc3a15fafcf3"},
+    {"seed":1847,"attachmentMinClearances":[2.176350244796583,1.8264824456477642,1.649258110312059],"coveMinClearance":6.941443901545613,"hiddenCrossSectionMinInteriorClearance":0.280194945143152,"maxNormalizedTangentError":3.911074787101517e-15,"normalizedGeometrySha256":"882a6494b46506f8528fea0c84138ee5e77f62c1cf3be9a6ac769c929fe53502"},
+    {"seed":13891,"attachmentMinClearances":[1.635984955570261,1.372985717642235,1.239764354461626],"coveMinClearance":5.217955069509022,"hiddenCrossSectionMinInteriorClearance":0.2106254340159589,"maxNormalizedTangentError":3.054626883036172e-15,"normalizedGeometrySha256":"78f10dc0ac6e46253f8a56941366b8c4a052479de2c644fea79ac2802b9037ea"},
+    {"seed":4294967295,"attachmentMinClearances":[2.219461969649992,1.8626635745053213,1.6819285695057986],"coveMinClearance":7.078948248690218,"hiddenCrossSectionMinInteriorClearance":0.28574537867710204,"maxNormalizedTangentError":4.06597868201741e-15,"normalizedGeometrySha256":"5e1865c5e233b295eaac42a325683ea5de8840b8f79bb32b604d0e7e3c0309b7"}
+  ],
+  "distinctNormalizedGeometryCount": 6,
+  "visualReview": "Pending lead six-case captures; numeric checks do not establish absence of visible collars or source artistic acceptance"
+}

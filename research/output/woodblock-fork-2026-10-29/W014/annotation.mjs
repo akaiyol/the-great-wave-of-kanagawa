@@ -1,0 +1,9 @@
+const dataset=new URLSearchParams(location.search).get('data')||'./annotation.json';
+const data=await fetch(dataset).then(r=>r.json());
+document.querySelector('header').textContent=`${data.iteration} · ${data.scope} · Unreviewed`;
+document.querySelector('footer').textContent=data.uncertainty.join(' ');
+const image=new Image();image.src='../../../references/great-wave-off-kanagawa-met-DP130155.jpg';await image.decode();
+function polygon(g,points){g.beginPath();points.forEach(([x,y],i)=>i?g.lineTo(x,y):g.moveTo(x,y));g.closePath()}
+function render(){const [left,top,w,h]=data.context,dpr=Math.min(devicePixelRatio||1,2);for(const id of ['source','overlay','mask']){const canvas=document.getElementById(id);canvas.style.aspectRatio=`${w}/${h}`;const cw=canvas.clientWidth,ch=cw*h/w;canvas.width=Math.round(cw*dpr);canvas.height=Math.round(ch*dpr);const g=canvas.getContext('2d');g.setTransform(dpr*cw/w,0,0,dpr*cw/w,0,0);g.fillStyle=id==='mask'?'#193e58':'#e8d7b1';g.fillRect(0,0,w,h);if(id!=='mask')g.drawImage(image,left/1000*image.naturalWidth,top/672*image.naturalHeight,w/1000*image.naturalWidth,h/672*image.naturalHeight,0,0,w,h);g.translate(-left,-top);if(id!=='source'){polygon(g,data.foam.vertices);if(id==='mask'){g.fillStyle='#f3eed9';g.fill()}else{g.fillStyle='#ff334426';g.fill();g.strokeStyle='#d51c3b';g.lineWidth=.2;g.stroke();for(const gap of data.exteriorSkyGaps){polygon(g,gap.vertices);g.strokeStyle='#00d4cf';g.stroke()}}const{from,to}=data.rootCut;g.beginPath();g.moveTo(...from);g.lineTo(...to);g.strokeStyle='#e34134';g.lineWidth=.35;g.stroke()}}
+window.waveAnnotation={ready:true,dataset,iteration:data.iteration,status:data.status,context:data.context,vertexCount:data.foam.vertices.length,rootCut:data.rootCut,scope:data.scope,uncertainty:data.uncertainty};}
+addEventListener('resize',render);render();

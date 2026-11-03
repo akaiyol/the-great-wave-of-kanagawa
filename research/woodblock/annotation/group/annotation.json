@@ -1,0 +1,391 @@
+{
+  "iteration": "W014",
+  "status": "corrected_fork_source_alignment_unreviewed",
+  "reference": {
+    "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "frame": [
+      1000,
+      672
+    ]
+  },
+  "context": [
+    533,
+    268,
+    38,
+    33
+  ],
+  "scope": "One lower terminal fork silhouette with two unequal downward returns and one common root. This is a different group from W011; not a whole crest or scene.",
+  "method": "One explicit polygon correction from W013 source/overlay after verifying canonical source-coordinate anchors. No automatic contour extraction or shape generator.",
+  "foam": {
+    "vertices": [
+      [
+        550,
+        276.5
+      ],
+      [
+        552,
+        277
+      ],
+      [
+        554.5,
+        277.2
+      ],
+      [
+        557,
+        277.2
+      ],
+      [
+        559,
+        277.4
+      ],
+      [
+        560,
+        278
+      ],
+      [
+        560.6,
+        279.4
+      ],
+      [
+        561.2,
+        281
+      ],
+      [
+        562,
+        282.8
+      ],
+      [
+        563,
+        284.7
+      ],
+      [
+        564,
+        286.5
+      ],
+      [
+        564.8,
+        288.4
+      ],
+      [
+        565.1,
+        290.2
+      ],
+      [
+        564.7,
+        291.8
+      ],
+      [
+        564,
+        293.2
+      ],
+      [
+        563,
+        294.2
+      ],
+      [
+        561.8,
+        294.7
+      ],
+      [
+        561.2,
+        294.4
+      ],
+      [
+        561,
+        293.2
+      ],
+      [
+        561,
+        291.8
+      ],
+      [
+        561.5,
+        291.7
+      ],
+      [
+        562.1,
+        292.8
+      ],
+      [
+        562.3,
+        293.2
+      ],
+      [
+        562.9,
+        292.7
+      ],
+      [
+        563.5,
+        291.3
+      ],
+      [
+        563.9,
+        289.7
+      ],
+      [
+        563.8,
+        288.2
+      ],
+      [
+        563.2,
+        286.5
+      ],
+      [
+        562.4,
+        285
+      ],
+      [
+        561.2,
+        283.7
+      ],
+      [
+        559.7,
+        282.9
+      ],
+      [
+        558.3,
+        282.6
+      ],
+      [
+        556.8,
+        282.8
+      ],
+      [
+        555.5,
+        283.6
+      ],
+      [
+        554,
+        284.4
+      ],
+      [
+        552.5,
+        285.1
+      ],
+      [
+        551.3,
+        285.3
+      ],
+      [
+        550.5,
+        284.7
+      ],
+      [
+        548.8,
+        286.7
+      ],
+      [
+        548,
+        289
+      ],
+      [
+        547,
+        291
+      ],
+      [
+        545,
+        292.4
+      ],
+      [
+        542.8,
+        293.4
+      ],
+      [
+        540.3,
+        295
+      ],
+      [
+        538.2,
+        295.5
+      ],
+      [
+        537.6,
+        295.2
+      ],
+      [
+        537.2,
+        294.4
+      ],
+      [
+        537.4,
+        293.2
+      ],
+      [
+        538,
+        292.8
+      ],
+      [
+        538.4,
+        293.5
+      ],
+      [
+        538.4,
+        294
+      ],
+      [
+        539.2,
+        294.1
+      ],
+      [
+        540.6,
+        293.4
+      ],
+      [
+        543,
+        292.3
+      ],
+      [
+        544.8,
+        291
+      ],
+      [
+        546,
+        289.5
+      ],
+      [
+        546.6,
+        287.3
+      ],
+      [
+        546.9,
+        285.4
+      ],
+      [
+        547.1,
+        283.5
+      ],
+      [
+        546.9,
+        282
+      ],
+      [
+        546,
+        281
+      ]
+    ],
+    "closed": true,
+    "vertexCount": 61
+  },
+  "rootCut": {
+    "from": [
+      546,
+      281
+    ],
+    "to": [
+      550,
+      276.5
+    ],
+    "classification": "artificial upstream closure through shared attachment; not printed boundary"
+  },
+  "exteriorSkyGaps": [
+    {
+      "kind": "exterior_paper_notch_probe",
+      "vertices": [
+        [
+          551.5,
+          291
+        ],
+        [
+          557.5,
+          291
+        ],
+        [
+          557.5,
+          295
+        ],
+        [
+          551.5,
+          295
+        ]
+      ],
+      "closed": true,
+      "meaning": "Observed pale-paper notch between unequal left and right terminals, away from printed right tip."
+    }
+  ],
+  "uncertainty": [
+    "One corrected local two-terminal silhouette; boundary is approximate printed contour centerline and requires overlay review.",
+    "Artificial diagonal root closure runs from (546,281) to (550,276.5); connection is a local silhouette interpretation, not full-network semantics.",
+    "Interior ink remains unmodeled; terminal inward returns include partly uninked edges. W011 remains separately preserved with original uncertainty."
+  ],
+  "sourceAnchors": [
+    {
+      "feature": "common root upper contour",
+      "point": [
+        551,
+        277
+      ],
+      "canonicalRGB": [
+        76,
+        95,
+        101
+      ]
+    },
+    {
+      "feature": "right outer contour",
+      "point": [
+        565,
+        289
+      ],
+      "canonicalRGB": [
+        86,
+        97,
+        129
+      ]
+    },
+    {
+      "feature": "right terminal",
+      "point": [
+        563,
+        294
+      ],
+      "canonicalRGB": [
+        71,
+        80,
+        109
+      ]
+    },
+    {
+      "feature": "left terminal",
+      "point": [
+        538,
+        295
+      ],
+      "canonicalRGB": [
+        81,
+        88,
+        98
+      ]
+    },
+    {
+      "feature": "inner arch",
+      "point": [
+        555,
+        283
+      ],
+      "canonicalRGB": [
+        68,
+        89,
+        108
+      ]
+    },
+    {
+      "feature": "left upstream cut endpoint",
+      "point": [
+        546,
+        281
+      ],
+      "canonicalRGB": [
+        67,
+        81,
+        94
+      ]
+    }
+  ],
+  "sourceAnchorMethod": "Fixed individual RGB spot readings from unchanged canonical image at normalized 1000\u00d7672 coordinates, corroborated against W013 source panel. Anchors are coordinate diagnostics, not semantic color classification.",
+  "correctionEvidence": {
+    "capture": "research/output/woodblock-fork-2026-10-29/comparison-1280.png",
+    "failure": "W013 right edge too far right and left return too short; old sky probe overlapped printed terminal.",
+    "rendererCorrection": "Inline canvas aspect ratio now derives from dataset context before sizing; fixed 40/45 CSS no longer stretches other contexts."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "entry": "index.html",
+  "prototypeCaptureEquality": true,
+  "comparedCaptures": 14,
+  "legacyArchive": "research/archive/braille-2026-10-30/runtime",
+  "modelTestsPassed": 10,
+  "browserGroupsPassed": 9,
+  "actualOSHiddenTab": "not tested",
+  "deployment": "not performed"
+}

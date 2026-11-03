@@ -1,0 +1,118 @@
+{
+  "iteration": "W059",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "checks": [
+    "Default six fixtures render",
+    "Gallery UI preserves reviewed W057 vectors",
+    "Three New waves sets:24 total seeds/base geometries without exact repeats in this run",
+    "Generated URL reproduces the exact set on reload",
+    "Browser Back restores generated set",
+    "Wave detail and All waves preserve collection",
+    "Invalid seed is an explicit link error, no static fallback"
+  ],
+  "errors": [],
+  "sets": [
+    {
+      "url": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=4170570647,360903787,1987134010,836171524,1337203348,2108657926",
+      "seeds": [
+        4170570647,
+        360903787,
+        1987134010,
+        836171524,
+        1337203348,
+        2108657926
+      ],
+      "full": [
+        "a4b6c06951db6364",
+        "0fa110d10afc82b5",
+        "06573508535ab086",
+        "7b16a459ba2f874c",
+        "4119bba2081f1da5",
+        "9d0bc3b27bff651b"
+      ],
+      "base": [
+        "43c4709b9956739f",
+        "48537a3c05690916",
+        "cea1ddb20510b771",
+        "f9b49c653b3c9569",
+        "4421b991505e606a",
+        "9633ece393c8d4f3"
+      ],
+      "error": null,
+      "rejected": []
+    },
+    {
+      "url": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=3627737677,900734544,3008532453,1613118336,2270767109,2142588985",
+      "seeds": [
+        3627737677,
+        900734544,
+        3008532453,
+        1613118336,
+        2270767109,
+        2142588985
+      ],
+      "full": [
+        "f2e4d4946373a80d",
+        "e9bd2f6023cffbf5",
+        "df4da72d735f1426",
+        "e9f6317d046e4fc6",
+        "e290cda085622899",
+        "65cb93d1353732d1"
+      ],
+      "base": [
+        "1ce8f4995540cbfc",
+        "6381dce86456e463",
+        "d086e7b0bb07363a",
+        "e0afeecf352f553e",
+        "46e7af27b4260ef5",
+        "bdc77825a6a5e9d6"
+      ],
+      "error": null,
+      "rejected": []
+    },
+    {
+      "url": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=3768600304,3370479322,3398644881,20771354,443123569,4082376657",
+      "seeds": [
+        3768600304,
+        3370479322,
+        3398644881,
+        20771354,
+        443123569,
+        4082376657
+      ],
+      "full": [
+        "f51be53835414967",
+        "ee1ec36991778591",
+        "e14180715637383c",
+        "7b23049714c3e845",
+        "e1e97d575980fe81",
+        "bef4f230a81c5696"
+      ],
+      "base": [
+        "00754371f3a79895",
+        "8e0f38cd979569c9",
+        "d02569351e91e8bb",
+        "9fb36ef7836565cb",
+        "f9099b413bf1b00b",
+        "334ad5b9bfaca192"
+      ],
+      "error": null,
+      "rejected": []
+    }
+  ],
+  "savedURL": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=3768600304,3370479322,3398644881,20771354,443123569,4082376657",
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "ef99168cb5ef2c92777eb52b08338ed55b5e263bc16ed7f7b2223cebd8e708e3",
+    "src/procedural/rolled-front.mjs": "3371e089ea879812f7de5396dc32f85a1ed1e475183ac5196b19068ff272c0db",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7"
+  },
+  "captures": {
+    "generated-set.png": "d8fdc6a29a4df9a7b301c18009e747766a4468ade0a222a7314f2e176bf9b20f"
+  },
+  "scope": "Three sequential randomized sets in one session; exact geometry/seed non-repetition only, not perceptual/infinite uniqueness."
+}

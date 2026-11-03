@@ -1,0 +1,47 @@
+[
+  {
+    "requested": "1280,720",
+    "html": {
+      "height": 720,
+      "scrollHeight": 720,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    "canvas": {
+      "height": 720,
+      "seed": "721",
+      "width": 1280,
+      "x": "79.959"
+    }
+  },
+  {
+    "requested": "1920,1080",
+    "html": {
+      "height": 1080,
+      "scrollHeight": 1080,
+      "scrollWidth": 1920,
+      "width": 1920
+    },
+    "canvas": {
+      "height": 1080,
+      "seed": "721",
+      "width": 1920,
+      "x": "79.959"
+    }
+  },
+  {
+    "requested": "960,600",
+    "html": {
+      "height": 600,
+      "scrollHeight": 600,
+      "scrollWidth": 960,
+      "width": 960
+    },
+    "canvas": {
+      "height": 600,
+      "seed": "721",
+      "width": 960,
+      "x": "79.959"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "paper": [
+    {
+      "point": [
+        500,
+        250
+      ],
+      "W016foam": true,
+      "W017foam": false
+    },
+    {
+      "point": [
+        500,
+        255
+      ],
+      "W016foam": true,
+      "W017foam": false
+    },
+    {
+      "point": [
+        460,
+        242
+      ],
+      "W016foam": true,
+      "W017foam": false
+    },
+    {
+      "point": [
+        460,
+        246
+      ],
+      "W016foam": true,
+      "W017foam": false
+    }
+  ],
+  "guard": [
+    {
+      "point": [
+        529,
+        275
+      ],
+      "W016foam": false,
+      "W017foam": false
+    }
+  ]
+}

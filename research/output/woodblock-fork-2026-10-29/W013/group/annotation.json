@@ -1,0 +1,227 @@
+{
+  "iteration": "W013",
+  "status": "first_connected_fork_annotation_unreviewed",
+  "reference": {
+    "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "frame": [
+      1000,
+      672
+    ]
+  },
+  "context": [
+    535,
+    265,
+    50,
+    37
+  ],
+  "scope": "One lower terminal fork silhouette with two unequal downward returns and one common root. This is a different group from W011; not a whole crest or scene.",
+  "method": "Explicit manually placed polygon vertices against canonical source and existing fringe grid. No inferred holes from dark loops, automatic extraction or parametric hooks.",
+  "foam": {
+    "vertices": [
+      [
+        549,
+        277
+      ],
+      [
+        552,
+        277.4
+      ],
+      [
+        555,
+        277.1
+      ],
+      [
+        558,
+        276.8
+      ],
+      [
+        561,
+        277.5
+      ],
+      [
+        564,
+        279
+      ],
+      [
+        566.5,
+        281.1
+      ],
+      [
+        568.5,
+        283.4
+      ],
+      [
+        570,
+        286
+      ],
+      [
+        571.3,
+        288.6
+      ],
+      [
+        571.8,
+        290.8
+      ],
+      [
+        571,
+        292.6
+      ],
+      [
+        569.7,
+        294
+      ],
+      [
+        568.8,
+        294
+      ],
+      [
+        568.4,
+        293.3
+      ],
+      [
+        568.7,
+        292.1
+      ],
+      [
+        569.4,
+        290.6
+      ],
+      [
+        569.1,
+        289.1
+      ],
+      [
+        568.1,
+        287.6
+      ],
+      [
+        566.6,
+        286.2
+      ],
+      [
+        564.5,
+        284.9
+      ],
+      [
+        562.4,
+        284.1
+      ],
+      [
+        560.4,
+        283.9
+      ],
+      [
+        558.7,
+        284.4
+      ],
+      [
+        557.3,
+        285.7
+      ],
+      [
+        556.6,
+        287.6
+      ],
+      [
+        555.6,
+        289.9
+      ],
+      [
+        553.8,
+        291.8
+      ],
+      [
+        551.5,
+        292.8
+      ],
+      [
+        549.6,
+        293.8
+      ],
+      [
+        548.4,
+        294
+      ],
+      [
+        547.8,
+        293.5
+      ],
+      [
+        548,
+        292.7
+      ],
+      [
+        549.3,
+        291.3
+      ],
+      [
+        550.5,
+        289.4
+      ],
+      [
+        550.9,
+        287.3
+      ],
+      [
+        550.7,
+        285.3
+      ],
+      [
+        550.1,
+        283.3
+      ],
+      [
+        549.3,
+        281.5
+      ],
+      [
+        548.7,
+        279.8
+      ]
+    ],
+    "closed": true,
+    "vertexCount": 40
+  },
+  "rootCut": {
+    "from": [
+      548.7,
+      279.8
+    ],
+    "to": [
+      549,
+      277
+    ],
+    "classification": "artificial upstream closure through shared attachment; not printed boundary"
+  },
+  "exteriorSkyGaps": [
+    {
+      "kind": "exterior_paper_notch_probe",
+      "vertices": [
+        [
+          558.5,
+          293
+        ],
+        [
+          563.5,
+          293
+        ],
+        [
+          563.5,
+          297
+        ],
+        [
+          558.5,
+          297
+        ]
+      ],
+      "closed": true,
+      "meaning": "Visible exterior paper below the valley between the two downward terminals; no internal ink loop classified as a hole."
+    }
+  ],
+  "uncertainty": [
+    "First coarse lower-fork annotation; source-overlay correction may be required before alignment acceptance.",
+    "Candidate models outer foam silhouette only. Interior ink strokes and water semantics are intentionally unmodeled.",
+    "W011 is preserved separately with its original uncertain uninked terminal return; this group does not resolve or replace that uncertainty."
+  ]
+}

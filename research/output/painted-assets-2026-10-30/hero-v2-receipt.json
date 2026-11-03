@@ -1,0 +1,17 @@
+{
+  "iteration": "W027",
+  "asset": "assets/woodblock/hero-wave-v2.png",
+  "sha256": "320ce419190519f4382aa3d5bec33839f2cd2d412720b5626bb771bc6d23b266",
+  "size": [
+    1536,
+    1024
+  ],
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentFraction": 0.4767169952392578,
+  "nearOpaqueFraction": 0.5014019012451172,
+  "compositingEvidence": "research/output/painted-assets-2026-10-30/hero-v2-backgrounds.png",
+  "scope": "Provisional main wave-bank primitive; actual browser composite clean, not a validated wholeworld assetbank."
+}

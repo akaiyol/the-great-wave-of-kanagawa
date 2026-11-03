@@ -1,0 +1,38 @@
+{
+  "scope": "Frozen candidate15, experimental sampler comparison; no production change",
+  "baselinePhaseRecordsExact": true,
+  "baselinePNGHashesExact": 6,
+  "sourceFingerprint": "86f10e57b6d9f0988876983f1a8f4816360969dde4c1dee367812f8ec8e2a034",
+  "results": [
+    {
+      "pitch": 4,
+      "connectivityFailures": 2,
+      "opennessFailures": 0
+    },
+    {
+      "pitch": 2,
+      "connectivityFailures": 0,
+      "opennessFailures": 0
+    }
+  ],
+  "leadNativeRasterObservation": "At1PNGpixel/world unit, pitch2subpixel circles read as a dim near-solid field rather than distinct white dots. No independent form review or physicalDPR2render test performed.",
+  "pixelDiagnostics": {
+    "4": {
+      "maxRGB": [
+        255,
+        255,
+        255
+      ],
+      "pixelsOver200": 9808
+    },
+    "2": {
+      "maxRGB": [
+        64,
+        64,
+        64
+      ],
+      "pixelsOver200": 0
+    }
+  },
+  "decision": "Do not promote finer sampler from topology alone. Keep productionpitch4; test larger detailed foreground allocation with source15geometry instead."
+}

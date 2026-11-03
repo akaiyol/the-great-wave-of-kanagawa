@@ -1,0 +1,43 @@
+{
+  "feature": {
+    "id": "2:4:0",
+    "x": 4304,
+    "y": 508
+  },
+  "bounds": [
+    4264,
+    496,
+    880,
+    572
+  ],
+  "png": "fixture-0-2-4-0-sampled.png",
+  "probes": {
+    "head": [
+      473.5955937337459,
+      81.44740413714693
+    ],
+    "mouth": [
+      480.27832557697064,
+      156.5344448376653
+    ]
+  },
+  "diagnosis": {
+    "head": {
+      "grid": [
+        128,
+        23
+      ],
+      "foamOccupied": false,
+      "exteriorWater": false
+    },
+    "mouth": {
+      "grid": [
+        130,
+        42
+      ],
+      "foamOccupied": false,
+      "exteriorWater": false
+    }
+  },
+  "scope": "Captured world-grid origin0; dot centers reconstructed from PNG. Spray present in capture, away from these probes; authoritative96phase gate remains receipt."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "rejected",
+  "sourceHashes": {
+    "crest-separation.mjs": "e014882798e62108072ca045b0e822c47af04f8a4b821802d74fbaf68dd67ee0",
+    "crest-separation.html": "b4b88af6a7c35b3b98eac4445fed567c5cf37e36fe038d1d0e62ec043b21befa"
+  },
+  "evidenceHashes": {
+    "candidate.png": "65e1955d6a638a8b162e735fcc8cd5672d7b3a8abe410751b520185d041c3075"
+  },
+  "scope": "Diagnostic source snapshot only; relative imports are preserved from original study layout, not a standalone replay."
+}

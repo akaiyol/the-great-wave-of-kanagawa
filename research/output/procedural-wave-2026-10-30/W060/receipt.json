@@ -1,0 +1,20 @@
+{
+  "iteration": "W060",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/branch-control.html": "e3b026c1a128e5fa7896a1646e16e5f6344c13268899a232713503b262f0f325",
+    "src/procedural/branch-patch.mjs": "f5ec298b517a9b537f651cdd07654e1ded060fc4576aa5e5bb379a2a97909267",
+    "src/procedural/rolled-front.mjs": "3371e089ea879812f7de5396dc32f85a1ed1e475183ac5196b19068ff272c0db",
+    "src/procedural/rolled-front.test.mjs": "db470b29513d281ab2fc8459be34a247d462b7fa206134bee6e7e94a57084b7b",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "branch-control.png": "57503c4645edda9718d95991a4a2e4793327e0154a878d7ff28ab7f9a1bd29a7"
+  }
+}

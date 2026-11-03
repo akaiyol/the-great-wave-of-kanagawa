@@ -1,0 +1,30 @@
+{
+  "decision": "rejected_without_independent_art_review",
+  "failureSignature": "Footprint-constrained source primitive keeps coves open but two native offsets produce a detached single sample",
+  "failedOffsets": [
+    {
+      "seed": 721,
+      "id": "2:0:0",
+      "layer": 2,
+      "dx": 1,
+      "dy": 2,
+      "occupiedSamples": 2435,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 0.9995893223819302
+    },
+    {
+      "seed": 0,
+      "id": "2:4:0",
+      "layer": 2,
+      "dx": 3,
+      "dy": 0,
+      "occupiedSamples": 3791,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 0.9997362173568979
+    }
+  ],
+  "openness": "384head and384mouth probes open",
+  "diagnosis": "Placement conflict addressed; literal contour downsampling remains fragile. Defining returns are coarse in native capture. Do not prune samples or loosen connectivity.",
+  "nextHypothesis": "Freeze source15geometry and compare hypothetical2worldpitch against current4worldpitch; preserve knownfixedcases/probes and expose changed experimental phase semantics separately.",
+  "artisticAcceptance": false
+}

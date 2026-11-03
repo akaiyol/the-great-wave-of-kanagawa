@@ -1,0 +1,19 @@
+{
+  "iteration": "W009",
+  "date": "2026-10-29",
+  "files": {
+    "agents/wave-completion.md": "646c7a95de8ece3ca53e919a690b1f1a3961874d70e6670382a5410cad44862c",
+    "research/validation-loop.md": "e14d1e051f9036439fea77cfdf7998d496055f44289a8a5c828c54e0ef184603",
+    ".codex/agents/wave-worker.toml": "1fb25288f7b467eb4b40aacf1c8cf48357157cdc57241ae846d56d50df4d609c",
+    ".codex/agents/wave-evaluator.toml": "23cf3fc66ec86ddd8fe0592c865538585c5e75a9e4431c945e1c6b4795d21131",
+    ".codex/agents/wave-researcher.toml": "e4c57a7cd318b1393566b88b99d5cddd9441fc7c732e8043140329b8458ed6fb"
+  },
+  "checks": [
+    "TOML valid; exact prior model/effort settings retained",
+    "W003-W014 records reconciled",
+    "W01438:33aspect gate and browser capture pass"
+  ],
+  "behavioralTrial": "Worker/evaluator adopted revised rules; artifact-first/early-blocker/single-view exercised. Source-anchor firstdraft rule requires future trial.",
+  "measuredEfficiencyGain": null,
+  "unexercised": "Updated researcher role"
+}

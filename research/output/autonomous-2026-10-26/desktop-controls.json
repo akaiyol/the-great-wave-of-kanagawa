@@ -1,0 +1,22 @@
+{
+  "sourceFingerprint": "d8edc75b664ea71aef699037ec71861614520242fb9c84a7b523ad6bdf469413",
+  "viewport": [
+    1280,
+    720
+  ],
+  "devicePixelRatio": 2,
+  "evidence": "desktop-controls.png",
+  "observations": {
+    "pausedCamera": 183.405,
+    "moveRightCamera": 740.916,
+    "helpOpenCloseCamera": 740.916,
+    "homeCamera": 0,
+    "arrowRightCamera": 95.573,
+    "remainedPaused": true,
+    "horizontalOverflow": false
+  },
+  "limits": [
+    "One desktop browser and viewport",
+    "OS reduced motion, live resize and DPR change not verified"
+  ]
+}

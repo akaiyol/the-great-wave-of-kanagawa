@@ -1,0 +1,24 @@
+{
+  "reviewer": "wave_evaluator /root/ink_contour_review",
+  "preference": "E marginally; both fail",
+  "mapping": {
+    "E": "candidate-07",
+    "F": "retained-current"
+  },
+  "integrity": "All28PNG hashes and identities verified; canonical and calibration hashes match. F historical evaluator context, same protocol and world bounds.",
+  "criteria": {
+    "curl": "needs_work: smooth arch unchanged",
+    "mass": "needs_work: sparse cuts barely redistribute cap",
+    "fingers": "needs_work: pendant hooks remain",
+    "coves": "needs_work: probes open but slot-like heads",
+    "ink": "minor increment: foreground crescents act mainly as decoration",
+    "detail": "needs_work: middle0/1:5:1 crescents become ambiguous missing-dot marks"
+  },
+  "regressions": [
+    "No gross silhouette or principal-cove regression",
+    "Ambiguous middle-scale cap perforations"
+  ],
+  "readiness": "not_ready",
+  "nextChange": "Replace central pendant with unequal swept branches sharing a broad root and tapered tips",
+  "leadDecision": "Archive study; do not carry sparse ink decorations into structural branch experiment"
+}

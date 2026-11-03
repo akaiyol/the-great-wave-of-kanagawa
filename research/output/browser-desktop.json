@@ -1,0 +1,44 @@
+{
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "viewport": [
+    1280,
+    720
+  ],
+  "dpr": 2,
+  "patternsPassed": 256,
+  "patternsTotal": 256,
+  "neighborTileMismatchedCells": 0,
+  "mismatchCoordinates": [],
+  "repeatedTileIdentical": true,
+  "topThreeRowsNonemptyCells": 0,
+  "cachedTileDimensions": [
+    1200,
+    800
+  ],
+  "retainedTiles": 5,
+  "peakRetainedTiles": 6,
+  "estimatedRetainedRGBAMiB": 21.97265625,
+  "tileGenerationMs": {
+    "median": 2.700000047683716,
+    "p95": 3.299999952316284,
+    "max": 6.900000095367432
+  },
+  "frameIntervalMs": {
+    "median": 16.69999999999891,
+    "p95": 17.19999999999891,
+    "max": 83.30000000000109
+  },
+  "drawSubmissionMs": {
+    "median": 0.09999990463256836,
+    "p95": 0.19999980926513672,
+    "max": 4.400000095367432
+  },
+  "glyphAdvance": {
+    "blank": 9.5703125,
+    "full": 9.5703125,
+    "asciiM": 8.4287109375
+  },
+  "skyThresholdPercent": 99.99663871195442,
+  "elapsedMs": 2060,
+  "limits": "Single local browser, 120 frames, synthetic waves; timing is not a mobile hardware or long-duration performance guarantee. Draw submission excludes asynchronous GPU completion."
+}

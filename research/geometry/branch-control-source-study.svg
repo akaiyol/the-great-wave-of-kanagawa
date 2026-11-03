@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="360" viewBox="300 105 110 90">
+<title>Unmodified canonical source crop for branch-control research</title>
+<desc>Crop [300,105,110,90] in the normalized 1000 by 672 frame. Source image unchanged. The parent foam crosses crop boundaries; isolated pale specks are not automatically part of the connected branch. This is not a semantic mask, trace or accepted positive control. Display scale: four pixels per reference unit.</desc>
+<image x="0" y="0" width="1000" height="672" href="../../references/great-wave-off-kanagawa-met-DP130155.jpg"/>
+</svg>

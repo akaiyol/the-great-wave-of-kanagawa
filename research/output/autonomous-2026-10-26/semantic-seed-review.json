@@ -1,0 +1,25 @@
+{
+  "reviewer": "wave_evaluator /root/semantic_seed_review",
+  "scope": "source-only sparse semantic seed review; no mask, dot sampling, phase coverage or production acceptance",
+  "inputHashes": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/geometry/source-semantic-annotations-v1.json": "930abea4128889563ea96f044bcb82168fc8b3d77108dea718cd26a2c3aa1df8",
+    "research/geometry/source-semantic-annotations-v1.svg": "6062e935aae1f59441c7b85a7109bf3e1b759e5e19c5be9b495d0ee3d3e13276",
+    "research/output/autonomous-2026-10-26/source-semantic-annotations-v1.png": "a522dad6f55c6b6ddf314b79bab237aed3860e18ed92790925bdc0ae9c2f9b98"
+  },
+  "supported": [
+    "F1 pale cap foam seed",
+    "F2 narrow pale foam connection",
+    "F3 pale blue/cream foam-margin candidate, exact boundary uncertain",
+    "W1 broad dark-water body seed",
+    "W2 upper dark tongue continuous with water",
+    "I1 narrow curved internal-ink candidate",
+    "I2 internal-ink candidate within cap",
+    "P1 exterior paper",
+    "U1 correctly unresolved contour/water junction"
+  ],
+  "meaningfulGain": "Wider context supports sparse semantic distinctions; no contour topology established.",
+  "readiness": "Conditional local visible boundary study nearF2/F3, initialROI[325,145,34,27]; expand if taper or junction truncated, document all artificial parentcuts.",
+  "rejectionCriterion": "Do not present crop closures as printed boundaries, bridge unresolved junctions, treat internal ink as exteriorwater, or include pale paper by brightness.",
+  "acceptance": "Study readiness only; no artistic acceptance or whole-crest fidelity."
+}

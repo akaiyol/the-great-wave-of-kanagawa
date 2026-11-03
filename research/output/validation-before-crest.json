@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T23:00:13.388Z",
+  "sourceFingerprint": "143e344cc05ee07fff7be89bd90b54110932d195b3d9734539b009e16736299b",
+  "sourceFiles": [
+    "index.html",
+    "src/camera.mjs",
+    "src/geometry.mjs",
+    "src/main.mjs",
+    "src/random.mjs",
+    "src/render.mjs",
+    "src/scene.mjs",
+    "src/style.css"
+  ],
+  "snapshotRoot": "research/output/validation-snapshots/143e344cc05ee07fff7be89bd90b54110932d195b3d9734539b009e16736299b",
+  "snapshotFingerprint": "143e344cc05ee07fff7be89bd90b54110932d195b3d9734539b009e16736299b",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "expected": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "Current source, executing snapshot, and canonical reference",
+        "pass": true,
+        "evidence": "Source and executing snapshot 143e344cc05e; reference cbb9988f2f18. Versioned module URLs isolate this run from previously loaded generators."
+      },
+      {
+        "name": "Model behavior",
+        "pass": true,
+        "evidence": "6 tests passed, 0 failed; camera preference/hidden-time checks are model tests, not OS-level interaction tests."
+      },
+      {
+        "name": "Tile continuity and water occlusion",
+        "pass": true,
+        "evidence": "9 tile comparisons; 0 differing dots; 466 background dots occluded correctly."
+      },
+      {
+        "name": "Regeneration and retained cache bounds",
+        "pass": true,
+        "evidence": "80 positions; at most 6 tiles and 36 object sprites. Cache counts are not process memory."
+      },
+      {
+        "name": "White-dot output and declared sky region",
+        "pass": true,
+        "evidence": "0 sample/center mismatches; 0 colored pixels; 0 occupied dots in the upper 96-world-unit sky strip. This verifies the authored mask, not its semantic fidelity to Hokusai."
+      },
+      {
+        "name": "Generated ocean coverage",
+        "pass": true,
+        "evidence": "Three families present and all ten views nonempty for each of three seeds. Perceived variety remains a separate visual judgment."
+      }
+    ]
+  },
+  "model": {
+    "generatedAt": "2026-10-11T22:59:09.883Z",
+    "passed": 6,
+    "failed": 0
+  },
+  "renderer": {
+    "date": "2026-10-11",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "viewport": [
+      1280,
+      720
+    ],
+    "renderedCanvasCSS": [
+      1280,
+      720
+    ],
+    "dpr": 2,
+    "seamComparisons": 9,
+    "seamMismatchedDots": 0,
+    "occludedBackgroundDots": 466,
+    "occlusionErrors": 0,
+    "travelPositions": 80,
+    "maxRetainedTiles": 6,
+    "maxRetainedObjects": 36,
+    "regenerationPassed": true,
+    "rasterBucketGeometryPassed": true,
+    "familiesAcrossTenViewWidths": {
+      "curl": 19,
+      "breaker": 34,
+      "band": 62
+    },
+    "frameIntervalMs": {
+      "median": 16.699999999999818,
+      "p95": 17.199999999999818,
+      "max": 17.59999999999991
+    },
+    "drawSubmissionMs": {
+      "median": 0.09999990463256836,
+      "p95": 0.20000004768371582,
+      "max": 7.5
+    },
+    "tileGenerationMs": {
+      "median": 2.9000000953674316,
+      "p95": 5.8999998569488525,
+      "max": 5.8999998569488525
+    },
+    "elapsedMs": 3539.0999999046326,
+    "limits": "Single local Chrome-based desktop browser. 120 frame intervals after stress checks; retained-cache counts are not measured process memory. Visual fidelity and cross-browser behavior remain unapproved."
+  },
+  "compositionCoverage": [
+    {
+      "seed": 721,
+      "viewCount": 10,
+      "worldInterval": [
+        0,
+        15360
+      ],
+      "families": {
+        "curl": 19,
+        "breaker": 34,
+        "band": 62
+      },
+      "sampleOccupancy": [
+        0.05158342633928571,
+        0.07292829241071429,
+        0.052408854166666664,
+        0.05435035342261905,
+        0.04894438244047619,
+        0.03600492931547619,
+        0.05675688244047619,
+        0.05612909226190476,
+        0.06825474330357142,
+        0.05357142857142857
+      ]
+    },
+    {
+      "seed": 13891,
+      "viewCount": 10,
+      "worldInterval": [
+        0,
+        15360
+      ],
+      "families": {
+        "curl": 15,
+        "breaker": 45,
+        "band": 61
+      },
+      "sampleOccupancy": [
+        0.02443731398809524,
+        0.060488746279761904,
+        0.07691592261904762,
+        0.0736723400297619,
+        0.07657877604166667,
+        0.06994047619047619,
+        0.07779947916666667,
+        0.07819475446428571,
+        0.030203683035714284,
+        0.044201078869047616
+      ]
+    },
+    {
+      "seed": 0,
+      "viewCount": 10,
+      "worldInterval": [
+        0,
+        15360
+      ],
+      "families": {
+        "curl": 16,
+        "breaker": 44,
+        "band": 61
+      },
+      "sampleOccupancy": [
+        0.044735863095238096,
+        0.04528227306547619,
+        0.05519903273809524,
+        0.07192847842261904,
+        0.08321707589285714,
+        0.03026181175595238,
+        0.09404064360119048,
+        0.06343005952380952,
+        0.0673828125,
+        0.08897181919642858
+      ]
+    }
+  ],
+  "formDiagnostics": [
+    {
+      "seed": 721,
+      "id": "2:0:0",
+      "family": "curl",
+      "rootWidthsUnderOneDot": 2,
+      "rootWidthsUnderTwoDots": 30,
+      "branchRoots": 41,
+      "occupiedSamples": 2062,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 0.9995150339476236
+    },
+    {
+      "seed": 721,
+      "id": "1:0:0",
+      "family": "breaker",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 20,
+      "branchRoots": 32,
+      "occupiedSamples": 1281,
+      "componentsAtLeastThreeSamples": 2,
+      "largestComponentFraction": 0.9921935987509758
+    },
+    {
+      "seed": 721,
+      "id": "0:0:0",
+      "family": "band",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 8,
+      "branchRoots": 8,
+      "occupiedSamples": 75,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 13891,
+      "id": "0:0:1",
+      "family": "band",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 6,
+      "branchRoots": 6,
+      "occupiedSamples": 138,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 13891,
+      "id": "2:2:0",
+      "family": "curl",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 18,
+      "branchRoots": 33,
+      "occupiedSamples": 2667,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 13891,
+      "id": "1:0:0",
+      "family": "breaker",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 10,
+      "branchRoots": 17,
+      "occupiedSamples": 305,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 0.980327868852459
+    },
+    {
+      "seed": 0,
+      "id": "0:0:0",
+      "family": "band",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 6,
+      "branchRoots": 6,
+      "occupiedSamples": 86,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 0,
+      "id": "2:4:0",
+      "family": "curl",
+      "rootWidthsUnderOneDot": 0,
+      "rootWidthsUnderTwoDots": 7,
+      "branchRoots": 37,
+      "occupiedSamples": 3474,
+      "componentsAtLeastThreeSamples": 1,
+      "largestComponentFraction": 1
+    },
+    {
+      "seed": 0,
+      "id": "1:0:3",
+      "family": "breaker",
+      "rootWidthsUnderOneDot": 7,
+      "rootWidthsUnderTwoDots": 11,
+      "branchRoots": 18,
+      "occupiedSamples": 255,
+      "componentsAtLeastThreeSamples": 3,
+      "largestComponentFraction": 0.9686274509803922
+    }
+  ],
+  "limits": [
+    "Visual verdicts require a reviewer; they are not automated likeness scores.",
+    "The complete semantic foam trace has not been accepted.",
+    "One local Chrome-based browser; no cross-engine or long-duration memory claim."
+  ],
+  "reviewer": "Codex — tool-assisted visual inspection",
+  "form": {
+    "status": "needs_work",
+    "criteria": [
+      {
+        "id": "overhang",
+        "criterion": "Curl and overhang",
+        "status": "pass",
+        "evidence": "The curl family turns downward into an open cavity. This passes the basic overhang criterion only; it does not establish overall resemblance to Hokusai."
+      },
+      {
+        "id": "cap",
+        "criterion": "Foam mass and asymmetry",
+        "status": "work",
+        "evidence": "The raw generated crest is a narrow, mostly smooth ribbon. The reference has a broader, asymmetric foam mass with an irregular transition into dense fingers. This mismatch precedes dot sampling."
+      },
+      {
+        "id": "fingers",
+        "criterion": "Connected, unequal branching fingers",
+        "status": "work",
+        "evidence": "Representative curl and breaker shapes use repeated angular hooked or loop-like branches. The reference uses unequal claw-like lobes and richer shared branching at several scales."
+      },
+      {
+        "id": "hollows",
+        "criterion": "Distinct black hollows",
+        "status": "work",
+        "evidence": "One dominant cavity and repeated loop-shaped internal holes replace the reference’s unequal elongated hollows integrated with the foam fingers."
+      },
+      {
+        "id": "taper",
+        "criterion": "Taper and fine detail after sampling",
+        "status": "work",
+        "evidence": "The main cap remains connected, but fine details are vulnerable at the current grid. In seed 721 curl 2:0:0, 30/41 branch roots are below two dot pitches; in seed 0 breaker 1:0:3, 7/18 are below one. These are risk diagnostics, not automatic likeness failures."
+      }
+    ]
+  },
+  "quality": {
+    "status": "needs_work",
+    "criteria": [
+      {
+        "id": "ocean",
+        "criterion": "Continuous ocean reading",
+        "status": "work",
+        "evidence": "Across the thirty overview views, many crests read as separate floating arches. Supporting bands and overlap need to establish coherent water planes while keeping dark water black."
+      },
+      {
+        "id": "variety",
+        "criterion": "Perceived structural variety",
+        "status": "work",
+        "evidence": "Layouts and family counts vary, but the same arch envelope and hook vocabulary remain recognizable across many views. More seeds alone will not fix perceived structural repetition."
+      },
+      {
+        "id": "depth",
+        "criterion": "Depth and visual hierarchy",
+        "status": "work",
+        "evidence": "Scale and occlusion provide basic depth, but persistent distant/middle/foreground ranges often read as stacked rows. Similar large crests sometimes align rather than forming a deliberate ocean hierarchy."
+      },
+      {
+        "id": "legibility",
+        "criterion": "Dot-scale readability",
+        "status": "pass",
+        "evidence": "The primary silhouettes and individual dots are readable in the existing 1280×720 fullscreen output; white-only rendering and sampling positions pass. Thumbnail contact sheets are used for layout, not fine-dot judgment. Fine branch fidelity remains a separate failed form criterion."
+      }
+    ]
+  },
+  "nextArtIteration": "1. Author one reference-faithful foam cap and its unequal black hollows as editable closed contours; validate it before introducing variation.\n2. Replace repeated hook ribbons with connected, tapered, unequal foam lobes. Establish dot-scale root and hollow limits using the fixed failing fixtures.\n3. Derive genuinely different curl, spilling, and surface-foam constructions from accepted forms; then revise groupings and overlap so the scene reads as a coherent ocean rather than stacked arches.\n4. Tune dot density and fine spray only after the raw geometry passes the form review. Preserve the passing renderer and deterministic world mechanics.",
+  "overall": "revise_original_form",
+  "updatedAt": "2026-10-11T23:01:28.408Z"
+}

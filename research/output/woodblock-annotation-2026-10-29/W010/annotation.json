@@ -1,0 +1,162 @@
+{
+  "iteration": "W010",
+  "status": "first_source_annotation_unreviewed",
+  "reference": {
+    "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "frame": [
+      1000,
+      672
+    ]
+  },
+  "context": [
+    560,
+    195,
+    40,
+    45
+  ],
+  "scope": "One small right-fringe hooked finger; not a whole branch network, crest or wave.",
+  "method": "Explicit polygon vertices manually placed against canonical source and existing coordinate grid. No color segmentation, floodfill, morphology or parametric hook generation.",
+  "foam": {
+    "vertices": [
+      [
+        570,
+        209
+      ],
+      [
+        573,
+        208.8
+      ],
+      [
+        576,
+        209.3
+      ],
+      [
+        579,
+        211
+      ],
+      [
+        582,
+        213.2
+      ],
+      [
+        584.5,
+        215.8
+      ],
+      [
+        586.6,
+        218.5
+      ],
+      [
+        588,
+        221.3
+      ],
+      [
+        588.5,
+        224.1
+      ],
+      [
+        588,
+        226.7
+      ],
+      [
+        587,
+        228.5
+      ],
+      [
+        586,
+        228.8
+      ],
+      [
+        585.5,
+        227.8
+      ],
+      [
+        586,
+        226.3
+      ],
+      [
+        586,
+        224.5
+      ],
+      [
+        585.3,
+        222.8
+      ],
+      [
+        583.8,
+        221
+      ],
+      [
+        581.8,
+        219.4
+      ],
+      [
+        579.5,
+        218
+      ],
+      [
+        576.8,
+        216.8
+      ],
+      [
+        574,
+        216.3
+      ],
+      [
+        571,
+        216.5
+      ]
+    ],
+    "closed": true
+  },
+  "rootCut": {
+    "from": [
+      571,
+      216.5
+    ],
+    "to": [
+      570,
+      209
+    ],
+    "classification": "artificial closure at the finger attachment; not printed boundary"
+  },
+  "exteriorSkyGaps": [
+    {
+      "kind": "exterior_notch_probe",
+      "vertices": [
+        [
+          587.1,
+          229.3
+        ],
+        [
+          590,
+          229.5
+        ],
+        [
+          590,
+          222
+        ],
+        [
+          588.7,
+          222
+        ],
+        [
+          588.7,
+          225.5
+        ],
+        [
+          588.2,
+          227.8
+        ]
+      ],
+      "closed": true,
+      "meaning": "Outside the annotated terminal hook; sky must remain outside mask."
+    }
+  ],
+  "uncertainty": [
+    "First coarse coordinate annotation, approximately 1\u20133 reference units uncertain; overlay review required before refinement.",
+    "Only the outer finger silhouette is annotated. Its fine ink and source wash are not candidate geometry.",
+    "Root cut isolates the slice; no connectivity claim beyond this slice."
+  ]
+}

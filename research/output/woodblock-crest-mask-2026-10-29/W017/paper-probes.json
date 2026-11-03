@@ -1,0 +1,29 @@
+{
+  "declaredFor": "W017",
+  "basis": "Source inspection reported before revised capture; paper positions are not derived from candidate.",
+  "paperPoints": [
+    [
+      500,
+      250
+    ],
+    [
+      500,
+      255
+    ],
+    [
+      460,
+      242
+    ],
+    [
+      460,
+      246
+    ]
+  ],
+  "outsideGuard": [
+    [
+      529,
+      275
+    ]
+  ],
+  "scope": "Targeted exterior-paper regression only; not complete semantic ground truth or artistic fidelity."
+}

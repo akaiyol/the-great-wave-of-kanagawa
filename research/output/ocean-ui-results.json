@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-11",
+  "cameraOrigin": "0.000",
+  "cameraMoved": "557.511",
+  "cameraReturned": "0.000",
+  "helpPausedCamera": true,
+  "newSeedMatchesURL": true,
+  "desktopLayouts": [
+    {
+      "requested": "1280,720",
+      "document": [
+        1280,
+        720
+      ],
+      "viewport": [
+        1280,
+        720
+      ],
+      "camera": "0.000",
+      "backingWidth": "2560",
+      "backingHeight": "1440"
+    },
+    {
+      "requested": "1920,1080",
+      "document": [
+        1920,
+        1080
+      ],
+      "viewport": [
+        1920,
+        1080
+      ],
+      "camera": "0.000",
+      "backingWidth": "3840",
+      "backingHeight": "2160"
+    },
+    {
+      "requested": "960,600",
+      "document": [
+        960,
+        600
+      ],
+      "viewport": [
+        960,
+        600
+      ],
+      "camera": "0.000",
+      "backingWidth": "1920",
+      "backingHeight": "1200"
+    }
+  ],
+  "layoutMethod": "Same-origin iframe viewports with measured CSS dimensions; browser viewport override did not affect the artwork tab.",
+  "limits": "Single local Chrome-based desktop browser at DPR 2. Reduced-motion and hidden-time behavior have model tests; OS preference switching, other engines, DPR 1 physical displays, and long-duration process memory remain untested."
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-25",
+  "candidate": "89a016470f82c27d4b33ff8b30cb230a0abdc48e5ab58c5b6f6dbee866f3827f",
+  "evaluationFingerprint": "6f57b2477fde951424b199a76b729323f2a30ceaa7ac85415d7aefd54d34d791",
+  "agentDefinitionValidation": "TOML parsed with required keys; default model and inherited permissions preserved",
+  "nativeDiscovery": "not_runtime_verified",
+  "reviewExecution": "Fresh collaboration subagent explicitly read project evaluator instructions; this is not a test of native custom-agent registration",
+  "independentReview": {
+    "status": "provisional_needs_work",
+    "imagesInspected": [
+      "references/great-wave-off-kanagawa-met-DP130155.jpg",
+      "research/output/hierarchical-lobes-form.png",
+      "research/output/hierarchical-lobes-seed0.png"
+    ],
+    "findings": [
+      "Smooth hanging-fringe overhang",
+      "Repeated foam masses and paired hooks",
+      "Straight repeated black coves despite open probes",
+      "Blunt sampled tips; actual-scale middle-layer readability unknown"
+    ],
+    "missing": [
+      "Blinded baseline/candidate pair",
+      "Actual-scale middle-layer evidence",
+      "Human-labeled positive calibration set"
+    ],
+    "userAcceptance": false
+  },
+  "browser": {
+    "expected": "pass",
+    "modelTestsPassed": 11,
+    "coverage": {
+      "fixtures": 6,
+      "phases": 96,
+      "headProbes": 384,
+      "mouthProbes": 384
+    },
+    "staleEvaluatorRejected": true,
+    "staleEvaluatorExportDisabled": true,
+    "receipt": "research/output/validation-harness-2026-10-25.json"
+  },
+  "artifactSHA256": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/hierarchical-lobes-form.png": "e74e0f814590e8a3e54cac3644c605115ad86632b115b2f6438ea016eba4a740",
+    "research/output/hierarchical-lobes-seed0.png": "76caabb7b9a1793691d28fd25681f5dfeab391279c16c7967a1f2c70d8f78280",
+    "research/output/agent-harness-browser.png": "2b17128c24b36ff85a581e3e70e7ff0f475dfa295ceebfcf3a43a376bad05432"
+  },
+  "limits": [
+    "One negative visual smoke test does not establish evaluator reliability",
+    "Role read-only instructions do not enforce separate filesystem permissions",
+    "No exact plan-token budget or unattended resumption was demonstrated"
+  ]
+}

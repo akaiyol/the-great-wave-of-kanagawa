@@ -1,0 +1,15 @@
+{
+  "decision": "rejected_without_independent_art_review",
+  "failureSignature": "Source-derived fan joins neighboring foam and encloses a principal cove in seed0foreground",
+  "checks": {
+    "modelTests": 23,
+    "connectedPhases": 96,
+    "failedChannelPhasePairs": 16,
+    "failedHeadProbes": 16,
+    "failedMouthProbes": 16
+  },
+  "diagnosis": "Captured origin0head andmouth pixels are black, not foam, but not exterior-connected: enclosed cove, not merely shifted/occupied probes. All16offsets fail for seed0/2:4:0channel1.",
+  "evidence": "probe-diagnostic.json",
+  "nextHypothesis": "Fit the source patch fullwidth into the available root footprint with a short explicit procedural collar, rather than scale its narrower cropped attachment to the full root width. Preserve source contours, lean, probes and tests.",
+  "artisticAcceptance": false
+}

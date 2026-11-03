@@ -1,0 +1,18 @@
+{
+  "reviewer": "wave_evaluator /root/source_interface_review",
+  "scope": "Canonical context, supported semantic seeds and all10corrected source/raw/sample/overlay captures;48local source-patch diagnostics only",
+  "sourceCorrespondence": "Supported local foam/water band withtwo curved tapered ends; no evident exterior-paper inclusion. Parent topology and internalink/exteriorcove classification not established.",
+  "uncertainty": [
+    "Artificial top/left cuts",
+    "Threshold-sensitive antialias edges, pale wash and narrow marks",
+    "No complete parent or whole-crest trace"
+  ],
+  "scaleFindings": {
+    "authoring4": "Useful bounded research control; turns/hollow/tapers survive native authoring sample and16/16localoffsetsconnected",
+    "foregroundApprox1.1797": "Coarse arch and arm survive; fine curl/taper/internalstructure lost;1/16offsetsplits",
+    "middleApprox0.6233": "4\u20137dots cannot communicate fineform;2/16offsetssplit"
+  },
+  "readiness": "One bounded source-derived primitive pilot at authoring scale; production and fine-form transfer unproven",
+  "rejectionCriterion": "Invented parent connections, crop cuts presented as printed edges, internalink relabeled exteriorwater, or loss of turns/hollow",
+  "humanAcceptance": false
+}

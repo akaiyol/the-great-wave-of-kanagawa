@@ -1,0 +1,150 @@
+{
+  "iteration": "W003",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceHashes": {
+    "research/woodblock-still.html": "6bd09489b3cb29648fb9bf5fb9ae703c0154ab3fd2535792045049104782ab2c",
+    "research/woodblock/still.mjs": "9efd358d51785cac76cb78e7e4c085d42d6ec14d79ebee17e7e75b704e301b0a",
+    "research/woodblock/geometry.mjs": "07dd52e23d27aed4ac122c3a442f1ae81209786dfc0040c651c63a8e56030483"
+  },
+  "evidenceHashes": {
+    "view-960.png": "55dad1c7a8cb020e9d5eaa9fe1163214b43734a9906db2fd25043e6e67b7d277",
+    "resized.png": "8884c97b76b46b3022d99ac5b87e547bbe01a6cb14ee8062d1b383468660884a",
+    "view-1280.png": "e52f9a9770ecf539e695c97724b75aa5e7c4c648f3dc907dd10d25d700d7d4c0",
+    "view-1920.png": "34d30f7db2a1c08571d3f7cf6678684e33f862ce9eaedc1df1a42e121b3a3693",
+    "browser.json": "d0b28afa6b0acfe6363e1da9e6d9847b5f6842532c3028740a10f8e5b25114cf"
+  },
+  "productionAndTestsUnchanged": true,
+  "browser": {
+    "browser": "Chromium",
+    "results": [
+      {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "dpr": 1,
+        "errors": [],
+        "study": {
+          "ready": true,
+          "revision": "W003-first",
+          "geometryStats": {
+            "authoredPaths": 41,
+            "principalCoves": 7,
+            "foamGroups": 12,
+            "clouds": 3,
+            "spray": 220
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 720,
+            "dpr": 1,
+            "scale": 1.0666666666666667,
+            "offsetX": 0,
+            "offsetY": 0
+          }
+        },
+        "canvases": [
+          {
+            "width": 1280,
+            "height": 720,
+            "cssWidth": 1280,
+            "cssHeight": 720
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "resize": true,
+        "errors": [],
+        "viewport": {
+          "width": 1000,
+          "height": 800
+        }
+      },
+      {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "dpr": 2,
+        "errors": [],
+        "study": {
+          "ready": true,
+          "revision": "W003-first",
+          "geometryStats": {
+            "authoredPaths": 41,
+            "principalCoves": 7,
+            "foamGroups": 12,
+            "clouds": 3,
+            "spray": 220
+          },
+          "viewport": {
+            "width": 1920,
+            "height": 1080,
+            "dpr": 2,
+            "scale": 1.6,
+            "offsetX": 0,
+            "offsetY": 0
+          }
+        },
+        "canvases": [
+          {
+            "width": 3840,
+            "height": 2160,
+            "cssWidth": 1920,
+            "cssHeight": 1080
+          }
+        ],
+        "overflow": false
+      },
+      {
+        "viewport": {
+          "width": 960,
+          "height": 720
+        },
+        "dpr": 1,
+        "errors": [],
+        "study": {
+          "ready": true,
+          "revision": "W003-first",
+          "geometryStats": {
+            "authoredPaths": 41,
+            "principalCoves": 7,
+            "foamGroups": 12,
+            "clouds": 3,
+            "spray": 220
+          },
+          "viewport": {
+            "width": 960,
+            "height": 720,
+            "dpr": 1,
+            "scale": 0.8,
+            "offsetX": 0,
+            "offsetY": 90
+          }
+        },
+        "canvases": [
+          {
+            "width": 960,
+            "height": 720,
+            "cssWidth": 960,
+            "cssHeight": 720
+          }
+        ],
+        "overflow": false
+      }
+    ],
+    "hashes": {
+      "geometry.mjs": "07dd52e23d27aed4ac122c3a442f1ae81209786dfc0040c651c63a8e56030483",
+      "still.mjs": "9efd358d51785cac76cb78e7e4c085d42d6ec14d79ebee17e7e75b704e301b0a"
+    }
+  },
+  "visualReview": "pending",
+  "userAcceptance": "not_granted",
+  "receiptNote": "Receipt is not included in its own evidence hashes; source and capture hashes bind external evidence.",
+  "replay": {
+    "entry": "preview.html",
+    "note": "Replay wrapper changes only module URL to archived sibling still.mjs; archived original page and modules remain byte-identical to recorded source.",
+    "sha256": "1139ed2dee0196f06bb6481027204db09e84f020ef37333fd73fe7b8b9ab1c09"
+  }
+}

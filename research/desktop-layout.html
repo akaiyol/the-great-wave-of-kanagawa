@@ -1,0 +1,6 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Desktop viewport checks</title>
+<style>body{margin:20px;background:#171717;color:#eee;font:14px/1.5 Arial,sans-serif}select{padding:8px;font:inherit}iframe{display:block;margin-top:16px;border:0}p{max-width:80ch}a{color:#fff}</style>
+<h1>Desktop viewport checks</h1><p>The artwork runs inside an explicitly sized viewport. The surrounding research page may scroll; the artwork itself must fit its frame. This checks desktop layout and resize behavior, not physical display hardware.</p>
+<label>Viewport <select id="size"><option value="1280,720">1280 × 720</option><option value="1920,1080">1920 × 1080</option><option value="960,600">960 × 600</option></select></label> · <a href="../">Open standalone artwork</a>
+<iframe id="art" title="Ocean desktop viewport" src="../?seed=721" width="1280" height="720"></iframe>
+<script>document.getElementById('size').onchange=event=>{const [width,height]=event.target.value.split(',');const frame=document.getElementById('art');frame.width=width;frame.height=height;};</script></html>

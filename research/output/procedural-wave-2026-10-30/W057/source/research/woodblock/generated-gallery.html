@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Generated wave study</title><style>html,body{margin:0;background:#ded4ba;color:#23485f}main{max-width:1440px;margin:auto}main.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:16px}svg{display:block;width:100%;height:auto}figure{margin:0}a{color:inherit;text-decoration:none}figcaption,output{font:12px monospace;padding:8px;display:block}output{overflow-wrap:anywhere}@media(max-width:700px){main.gallery{grid-template-columns:1fr}}</style><main id="view"></main><output id="details"></output><script type="module">
+import{generateWave,waveSvg}from'../../src/procedural/rolled-front.mjs';
+const seeds=[0,1,721,1847,13891,4294967295],params=new URLSearchParams(location.search),detail=params.has('seed');
+const selected=detail?[Number(params.get('seed'))]:seeds,waves=selected.map(generateWave),view=document.querySelector('#view');
+if(detail){view.innerHTML=waveSvg(waves[0]);document.querySelector('#details').textContent=JSON.stringify({seed:waves[0].seed,fingerprint:waves[0].fingerprint,...waves[0].topology});window.generatedWave=waves[0];}
+else{view.className='gallery';view.innerHTML=waves.map(w=>`<figure><a href="?seed=${w.seed}">${waveSvg(w)}<figcaption>${w.seed} · roots ${w.topology.roots} · children ${w.topology.children.join('/')} · bay lobes ${w.topology.bayLobes}</figcaption></a></figure>`).join('');}
+window.generatedGallery={ready:true,waves,descriptors:waves.map(w=>w.topology),fingerprints:waves.map(w=>w.fingerprint),scope:'Six structural samples in one curl family; perceptual repetition and art quality unaccepted.'};
+</script></html>

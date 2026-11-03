@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Integrated crest control</title>
+<style>
+html,body{margin:0;background:#e6dcc1}main{width:100vw;height:100vh;display:grid;place-items:center}svg{width:100%;height:100%;object-fit:contain}nav{position:fixed;top:10px;left:12px;display:flex;gap:14px;font:14px monospace}a{color:#23485f}a[aria-current]{font-weight:bold}main[role=alert]{font:16px sans-serif;color:#23485f}
+</style>
+<nav aria-label="Control seeds"></nav>
+<main></main>
+<script type="module">
+import{generateIntegratedCrest,integratedCrestSvg}from'../../src/procedural/integrated-crest.mjs';
+const main=document.querySelector('main'),raw=new URLSearchParams(location.search).get('seed');
+const seed=raw===null?721:Number(raw);
+if(raw!==null&&(!/^\d+$/.test(raw)||!Number.isInteger(seed)||seed<0||seed>4294967295)){
+ main.setAttribute('role','alert');main.textContent='Invalid seed. Use an integer from 0 to 4294967295.';
+}else{
+ const seeds=[0,1,721,1847,13891,4294967295];
+ document.querySelector('nav').innerHTML=seeds.map(s=>`<a href="?seed=${s}"${s===seed?' aria-current="page"':''}>${s}</a>`).join('');
+ const control=generateIntegratedCrest(seed);main.innerHTML=integratedCrestSvg(control);window.integratedCrest=control;window.controlReady=true;
+}
+</script>
+</html>

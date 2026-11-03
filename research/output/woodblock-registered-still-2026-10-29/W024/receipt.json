@@ -1,0 +1,95 @@
+{
+  "iteration": "W024",
+  "browser": "151.0.7922.34",
+  "sourceHashes": {
+    "research/woodblock/registered-still.html": "4df880c40abfe78763256f2f88eebeff98343a8bc35d75728f750e274ee434b0",
+    "research/woodblock/registered-still.mjs": "38487a24847ee3da234f884b7fddf26751605f740f83675eb38326f51ebb3b16",
+    "research/woodblock/annotation/crest/annotation.json": "94cc624ae9ae0d41b729f08dfb1d4acb33f3cde773053ab53dfccdee3e13fb2f",
+    "research/woodblock/crest-contours.json": "c5f7465aa0fdfba1d5336547f309fe097b95b9d2cade8897e039812ebaa10b65",
+    "research/woodblock/water-surface-atlas.mjs": "02056b588e2cdc2d251522c79877f52ea0277fca5c913db82c052454efce8750"
+  },
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "results": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "study": {
+        "ready": true,
+        "iteration": "W024",
+        "scope": "Complete fixed-source vector appearance still with four water atlas fields mapped across overlapping curved water surfaces and pale clouds. No boats/Fuji, procedural geometry or production claim.",
+        "provenance": {
+          "reference": {
+            "asset": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+            "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+            "frame": [
+              1000,
+              672
+            ]
+          },
+          "crestColors": "research/woodblock/crest-contours.json",
+          "crestDomain": "research/woodblock/annotation/crest/annotation.json",
+          "domainIteration": "W017",
+          "colorKind": "fixed_source_color_vector_control",
+          "waterAtlas": "research/woodblock/water-surface-atlas.mjs",
+          "waterAtlasSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+          "waterAtlasKind": "fixed_source_water_color_vector_atlas",
+          "originalScanDrawn": false,
+          "sourceImagesDrawn": false,
+          "mapping": "Piecewise-affine curved surface meshes, clipped to overlapping authored water silhouettes; vector-path caches only."
+        },
+        "uncertainty": [
+          "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+          "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+          "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance.",
+          "Only four inspected object-free source fields, not complete source water or semantic boundaries.",
+          "Mapped and clipped fields are fixed source-appearance experiments; no procedural or unique-mask claim.",
+          "Source feature distortion and composition joins require visual assessment.",
+          "Principal-water mask remains unused and unverified.",
+          "Lower-left field reused at two anatomical scales; source-feature duplication, stretching and joins require visual review.",
+          "Authored outer water boundaries are not semantic source masks."
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1,
+          "scale": 1.28,
+          "offsetX": 0,
+          "offsetY": 0,
+          "visibleSource": [
+            0,
+            0,
+            1000,
+            562.5
+          ],
+          "fit": "uniform cover, top aligned"
+        },
+        "stats": {
+          "registeredLayers": 12,
+          "registeredDomainVertices": 292,
+          "explicitSkyCuts": 2,
+          "clouds": 2,
+          "atlasFields": 4,
+          "atlasRuns": 55400,
+          "mappedWaterSurfaces": 5,
+          "sourcePaletteSize": 12
+        }
+      },
+      "canvases": [
+        {
+          "width": 1280,
+          "height": 720,
+          "cssWidth": 1280,
+          "cssHeight": 720
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "captureHashes": {
+    "view-1280.png": "f7d8e2560c6a7b6fd04cea6bdab713d96d48ebc6df74aa1d6d5f6d796cf5eb0e"
+  }
+}

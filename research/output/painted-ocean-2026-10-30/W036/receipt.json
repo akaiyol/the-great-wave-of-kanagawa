@@ -1,0 +1,23 @@
+{
+  "iteration": "W036",
+  "viewport": [
+    1280,
+    720
+  ],
+  "dpr": 1,
+  "sourceHashes": {
+    "research/woodblock/ocean.html": "60ffebc12ae8668407f06ca088d847a6fba201807525e6384e9da1655e5e769f",
+    "assets/woodblock/manifest.json": "4de26a2b8724d0ebca7c876f052984c9261fa5633f643c346e48146db74ed1a4",
+    "src/painted/app.mjs": "28d395d7eef4798fee229f40e16536d27e6012ca2094cc1902906961b3953a2e",
+    "src/painted/material.mjs": "6ee7f914ba0edd36a3651f1975882dcc04695feb78e996dcb4f9db1a212ded14",
+    "src/painted/renderer.mjs": "2fa5478239c35264009b98e0e3c4c2f7fe4b05687b277b61580b9364e770b439",
+    "src/painted/scene.mjs": "f1dfb17c7967bd60038cd317473cf69905b7a44c754022b2fdc5c2d3d92bb537",
+    "src/painted/scene.test.mjs": "8607ed0928e9058620dc6a255ac30d0af713fc5b6a90b73ae1ce8ffaccada26a"
+  },
+  "captures": {
+    "x0.png": "44d87ad358709d52bf809691a954044adba50f943e6c397db9056b971a1278aa",
+    "x3200.png": "885c8fe40094cc4daee8da70d804ffebe9b67719defc31f168c0a1af0174cdb2",
+    "x7200.png": "df1bcd885e6b088c8d75e20fe81042f3423f1c103b2bb102006ff87a26b0a7b8"
+  },
+  "errors": []
+}

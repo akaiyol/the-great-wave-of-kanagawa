@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "kind": "generated painted primitives for deterministic composition; not originalmuseumimages",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "tool": "builtin image_gen.imagegen",
+  "prompts": "research/output/painted-assets-2026-10-30/",
+  "baseline": "assets/woodblock/painted-still-v1.png",
+  "assets": [
+    {
+      "family": "curl",
+      "path": "assets/woodblock/hero-wave-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "alphaBounds": [
+        0,
+        42,
+        1535,
+        1011
+      ],
+      "nearOpaqueBounds": [
+        12,
+        47,
+        1528,
+        1008
+      ],
+      "transparentFraction": 0.4767169952392578,
+      "nearOpaqueFraction": 0.5014019012451172,
+      "sha256": "320ce419190519f4382aa3d5bec33839f2cd2d412720b5626bb771bc6d23b266",
+      "status": "provisional_painted_primitive"
+    },
+    {
+      "family": "breaker",
+      "path": "assets/woodblock/breaker-bank-v1.png",
+      "width": 1774,
+      "height": 887,
+      "alphaBounds": [
+        0,
+        18,
+        1765,
+        857
+      ],
+      "nearOpaqueBounds": [
+        12,
+        244,
+        1757,
+        842
+      ],
+      "transparentFraction": 0.5948035573338553,
+      "nearOpaqueFraction": 0.37854313019450436,
+      "sha256": "9c560cc83591861035f0ac86f5cf35afc80d5bca3b056221d75f045c6bf5c236",
+      "status": "provisional_painted_primitive"
+    },
+    {
+      "family": "swell",
+      "path": "assets/woodblock/long-swell-v1.png",
+      "width": 2172,
+      "height": 724,
+      "alphaBounds": [
+        0,
+        37,
+        2172,
+        663
+      ],
+      "nearOpaqueBounds": [
+        15,
+        214,
+        2158,
+        654
+      ],
+      "transparentFraction": 0.6581599818890347,
+      "nearOpaqueFraction": 0.31334322822868654,
+      "sha256": "3402a8987b22a4fea049bc7a8840fb664aae04fd91775e448ddaae48b4f7bb79",
+      "status": "provisional_painted_primitive"
+    }
+  ],
+  "waterField": {
+    "path": "assets/woodblock/quiet-water-v2.png",
+    "width": 2172,
+    "height": 724,
+    "sha256": "0235d40f3a516767ba8f63ef20dc8af09c7a2ecb1dfeac7cd15cb37a0a09d153",
+    "status": "provisional_water_material",
+    "prompt": "research/output/painted-water-2026-10-30/prompt-v2.md",
+    "generationMode": "built-in image_gen, canonical reference edit"
+  }
+}

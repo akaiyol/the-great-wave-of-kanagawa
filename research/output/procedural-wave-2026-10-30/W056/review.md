@@ -1,0 +1,1 @@
+Independent control review retains actual-child-spine crease: readable throat to bend/curl relation; not the W055 floating eye. One child only, not whole-crest acceptance. Next per-child qualification must preserve rejected cases and avoid merging neighboring seams.

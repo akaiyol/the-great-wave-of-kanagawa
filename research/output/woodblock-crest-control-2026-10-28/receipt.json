@@ -1,0 +1,23 @@
+{
+  "iteration": "W006",
+  "kind": "fixed_source_color_vector_control",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceHashes": {
+    "research/woodblock/derive-crest-control.py": "1e6e2744629247c830eb190c564bad25ab951f626bce63ad561b50a7c56c4d48",
+    "research/woodblock/crest-contours.json": "c5f7465aa0fdfba1d5336547f309fe097b95b9d2cade8897e039812ebaa10b65",
+    "research/woodblock/crest-control.html": "2e657cef1088819a1aab5dbf2b75f3bc842d5b92442d17c86e2fb1d7e4d3e07b",
+    "research/woodblock/crest-control.mjs": "930576f7e1fbb2ed1ea4dd7fd7e02c8abf902d753a4a0790408220537c51e9a8"
+  },
+  "evidenceHashes": {
+    "vector-1920.png": "4b68ac012f16913dec2f5c3ff47dfc133343f24b7330b5120c7d4642f24f64d1",
+    "source-1280.png": "daaeb965422acc00da8d5140e93f0da4b524b1158463d88eeed9eb6e8a116ce3",
+    "overlay-1280.png": "d076e2289ec5b303ae712101426bc2642504c12d2620058b48feb730810d81b0",
+    "source-1920.png": "048c7ca711595754c1af3a4f202a1908135aa2fda8fca01aebf8bad512d4e079",
+    "overlay-1920.png": "e5359230ca6b6b0adbcca1a91fc026ccef27c25721d75d980e4311e3a1f3f088",
+    "vector-1280.png": "a5b0dcb4b29cd9217e1019c11276536c5565019f4b251e0c84705a49c1db8789",
+    "browser.json": "b4e47aacdef707bbaf2346b6206ce53dca3d7a2c9f572223ab212278248209ee"
+  },
+  "scope": "Fixed color reconstruction of principal crest region. No semantic foam/paper segmentation, whole-wave or procedural claim.",
+  "review": "pass_as_fixed_visual_control_only",
+  "reviewPath": "review.md"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-10-30",
+  "direction": "woodblock",
+  "status": "checkpoint_usage_reserve",
+  "plan": "research/woodblock-plan.md",
+  "validationProtocol": "research/validation-loop.md",
+  "milestone": "procedural_wave_geometry_gallery",
+  "retainedCandidate": "W059 functional gallery using W057 procedural model; source artistic acceptance absent",
+  "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
+  "observedFailure": "One curl family only; source foam remains schematic/scalloped with oversized terminal bulb and uniform bands. No continuous procedural world yet.",
+  "lastDecision": "Retain functional generated topology/profile/spine gallery; reject W055 glyph/W058 narrowing. W060 actual centerline-grown fork passes partial method review only.",
+  "nextAction": "Integrate exactly one W060 centerline-grown fork into one real W057 crest group; attach parent to cap/water with same exposed branch union and no independent water lip. Render whole attachment/cove before broadening seeds/groups.",
+  "openScope": [
+    "Boats and Fuji undecided; not blocking the still."
+  ],
+  "evidence": [
+    "research/output/procedural-wave-2026-10-30/W059/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W057/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W060/receipt.json",
+    "research/output/procedural-wave-2026-10-30/W060/review.md"
+  ],
+  "userArtisticAcceptance": "Painted checkpoint shape received positive feedback earlier; new procedural study has no artistic acceptance.",
+  "archive": "research/archive/braille-2026-10-28/",
+  "runtimeAdoption": "Revised W009 worker/evaluator exercised without conflicts; revised researcher not re-exercised.",
+  "actionLog": "research/agent-iteration-log.md",
+  "lastIteration": "W060",
+  "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
+  "recognitionEvidence": "Earlier painted recognition findings do not establish new procedural recognition.",
+  "currentStudy": "research/woodblock/generated-gallery.html",
+  "workflowRevision": "W009",
+  "localControl": "research/output/procedural-wave-2026-10-30/W060/receipt.json",
+  "workflowTrial": "W019fresh-contextworker producedcompletecandidate with sameconfiguredrole/model. Exact resource savings unmeasured. Prior artifact/earlyblocker rules exercised.",
+  "checkpointReason": "Project workflow reserve reached:9%fivehour remaining; new delegation stopped.",
+  "workingCandidate": "research/output/procedural-wave-2026-10-30/W059/receipt.json",
+  "lastObservedAllowance": {
+    "fiveHourRemainingPercent": 9,
+    "weeklyRemainingPercent": 34,
+    "scope": "Shared account after W059 UI and W060 control; no reset/purchase."
+  },
+  "independentWorkingCandidateReview": "W054 profile variation within one family; W056 spine crease method; W060 exposed fork partial method. No accepted whole procedural crest/artwork.",
+  "fixedVisualBaseline": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "historicalPaintedBaseline": "assets/woodblock/painted-still-v1.png",
+  "historicalPaintedAssetManifest": "assets/woodblock/manifest.json",
+  "historicalVisualControl": "research/woodblock/crest-control.html"
+}

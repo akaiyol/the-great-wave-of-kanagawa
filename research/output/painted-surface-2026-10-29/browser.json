@@ -1,0 +1,102 @@
+{
+  "browser": "151.0.7922.34",
+  "results": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "ready": {
+        "ready": true,
+        "iteration": "W025",
+        "kind": "generated fixed painted-surface prototype",
+        "notProcedural": true,
+        "notCanonicalReference": true
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "top": 0,
+        "right": 1280,
+        "bottom": 720,
+        "left": 0
+      },
+      "natural": [
+        1672,
+        941
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "dpr": 2,
+      "errors": [],
+      "ready": {
+        "ready": true,
+        "iteration": "W025",
+        "kind": "generated fixed painted-surface prototype",
+        "notProcedural": true,
+        "notCanonicalReference": true
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080,
+        "left": 0
+      },
+      "natural": [
+        1672,
+        941
+      ],
+      "overflow": false
+    },
+    {
+      "viewport": {
+        "width": 960,
+        "height": 720
+      },
+      "dpr": 1,
+      "errors": [],
+      "ready": {
+        "ready": true,
+        "iteration": "W025",
+        "kind": "generated fixed painted-surface prototype",
+        "notProcedural": true,
+        "notCanonicalReference": true
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 960,
+        "height": 720,
+        "top": 0,
+        "right": 960,
+        "bottom": 720,
+        "left": 0
+      },
+      "natural": [
+        1672,
+        941
+      ],
+      "overflow": false
+    }
+  ],
+  "htmlSHA256": "16f63cdad294aad053688365689239d798ede273a70f40e654d1b51747465214",
+  "assetSHA256": "8eddd2b0082ee89a176d4739f7955bb2a4522effcdf8e71979e59e4dbf1ee952",
+  "captureHashes": {
+    "view-1280.png": "dff9bca72499b9e7d97e28ba04fa68564e247e2a0f853b834c84074b105b82b8",
+    "view-1920.png": "9473e1d0cad0aa96aa5b84f0485689bb3827d401de23ced301c5ac21699bc6d8",
+    "view-960.png": "113b25c5ca37c957bbc909a82764f4ca41032bf78f869fbc39ef888ec4e22efd"
+  }
+}

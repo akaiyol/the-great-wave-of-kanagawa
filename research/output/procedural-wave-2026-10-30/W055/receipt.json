@@ -1,0 +1,46 @@
+{
+  "iteration": "W055",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "cdf14f616552e5d662cb155b3bcb0063189d74037e63a0e7e21b82db3b8db0b9",
+    "src/procedural/rolled-front.mjs": "0b4df97704f29e095a40913b967f45c00ed0f55020f85e42579cd8fc6841c35e",
+    "src/procedural/rolled-front.test.mjs": "1fe62e60832e7c0fb662893d16979e29957ad478c66e678cde378e7634484587",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "nodeContext": {
+    "center": [
+      775.5703456399472,
+      217.1820655973687
+    ],
+    "childCenter": [
+      781.4261085863809,
+      217.25688680295775
+    ],
+    "frame": {
+      "tangent": [
+        0.7073511756933263,
+        0.7068623021814567
+      ],
+      "normal": [
+        -0.6962925637688726,
+        0.7177580829500777
+      ]
+    },
+    "viewBox": [
+      744.0183224432376,
+      185.63004240065916,
+      63.10404639341907,
+      63.10404639341907
+    ]
+  },
+  "captures": {
+    "seed1847.png": "7818698d69e23bd7d76601a74b821d91a0443a52ca6cacdf66988dfd1a741949",
+    "node-context.png": "07e65e0b7be3db9240ff36adcecc9ff1d210e7e7ecd74af2ebfcf7d94d07477c"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "rejected",
+  "sourceHashes": {
+    "derive-boundary-control.py": "e4f9f0ac3439781596321310c17a055c18866faf7643db7d7a5c964464d31ae1",
+    "crest-boundary.json": "f9d533df45c19e81d6853270e0eabb056a001d70607244976c1800acc8eff591",
+    "crest-boundary.mjs": "a3383bd598972dd42afaa1923715816bc19fc934b4cd0996dab177a185bd157f",
+    "crest-boundary.html": "f6026cd89f446d177233286d0c02cfaa5824449811290872cff62107bcf6bb42"
+  },
+  "evidenceHashes": {
+    "candidate.png": "b6e867b6ee6d8b10fbd0f159c84c8c18ea9e330a23d335ac17afad3ea843502a"
+  },
+  "scope": "Diagnostic source snapshot only; relative imports are preserved from original study layout, not a standalone replay."
+}

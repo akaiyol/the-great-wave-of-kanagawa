@@ -1,0 +1,20 @@
+{
+  "iteration": "W025",
+  "completedAt": "2026-10-30",
+  "tool": "builtin image_gen.imagegen",
+  "mode": "generated non-destructive edit / fixed painted-surface prototype",
+  "source": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "asset": "assets/woodblock/painted-still-v1.png",
+  "assetSHA256": "8eddd2b0082ee89a176d4739f7955bb2a4522effcdf8e71979e59e4dbf1ee952",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "prompt": "research/output/painted-surface-2026-10-29/prompt.md",
+  "promptSHA256": "aa1b545230965af180d7b42153a388b90198b81a546465d4139cb44805aa5bc2",
+  "scope": "Generated derivative candidate; not canonicalreference, semanticgeometry, proceduralcomposition orrelease.",
+  "review": "pass_fixed_visual_feasibility_only",
+  "reviewPath": "research/output/painted-surface-2026-10-29/review.md",
+  "browserChecks": "research/output/painted-surface-2026-10-29/browser.json"
+}

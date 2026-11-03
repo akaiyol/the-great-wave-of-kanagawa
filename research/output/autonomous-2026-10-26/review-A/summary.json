@@ -1,0 +1,220 @@
+{
+  "sourceFingerprint": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "evaluationFingerprint": "c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922",
+  "renderProtocolFingerprint": "7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+  "renderProtocol": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "dpr": 2,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "panel": [
+      810,
+      530
+    ],
+    "gallery": [
+      768,
+      448
+    ],
+    "dotPitch": 4,
+    "focused": {
+      "version": 1,
+      "mode": "focused",
+      "nativeCSSPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true,
+      "phaseSpray": false,
+      "phaseOffsets": 16,
+      "contactPanel": [
+        360,
+        240
+      ],
+      "referenceCropNormalized": [
+        200,
+        50,
+        405,
+        265
+      ],
+      "referenceNormalizedSize": [
+        1000,
+        672
+      ]
+    }
+  },
+  "captureCoverage": {
+    "captures": 14,
+    "fixtures": 6,
+    "phases": 96
+  },
+  "principalChannels": [
+    {
+      "seed": 721,
+      "id": "2:0:0",
+      "headFailures": 0,
+      "mouthFailures": 0,
+      "maximumComponents": 2
+    },
+    {
+      "seed": 721,
+      "id": "1:1:2",
+      "headFailures": 0,
+      "mouthFailures": 0,
+      "maximumComponents": 1
+    },
+    {
+      "seed": 13891,
+      "id": "2:2:0",
+      "headFailures": 0,
+      "mouthFailures": 0,
+      "maximumComponents": 1
+    },
+    {
+      "seed": 13891,
+      "id": "1:2:0",
+      "headFailures": 0,
+      "mouthFailures": 0,
+      "maximumComponents": 1
+    },
+    {
+      "seed": 0,
+      "id": "2:4:0",
+      "headFailures": 0,
+      "mouthFailures": 0,
+      "maximumComponents": 1
+    },
+    {
+      "seed": 0,
+      "id": "1:5:1",
+      "headFailures": 0,
+      "mouthFailures": 0,
+      "maximumComponents": 1
+    }
+  ],
+  "captures": [
+    {
+      "id": "fixture-721-2-0-0-raw",
+      "filename": "fixture-721-2-0-0-raw.png",
+      "mime": "image/png",
+      "width": 748,
+      "height": 464,
+      "sha256": "bf81e54742115c5734d9d07974a1adcce61da10d86df44e7b9457b83a0e64d55",
+      "identity": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-721-2-0-0-sampled",
+      "filename": "fixture-721-2-0-0-sampled.png",
+      "mime": "image/png",
+      "width": 748,
+      "height": 464,
+      "sha256": "1642b59d2852e65796a715c313965c1dda395d3d8d2c42a43226336908e3202b",
+      "identity": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2
+      },
+      "worldBounds": [
+        480,
+        544,
+        748,
+        464
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-0-1-5-1-raw",
+      "filename": "fixture-0-1-5-1-raw.png",
+      "mime": "image/png",
+      "width": 396,
+      "height": 328,
+      "sha256": "b170537463a9e7f47ad23b794e6de6f085a3fc886fafde6507b00db9b6e79333",
+      "identity": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "fixture-0-1-5-1-sampled",
+      "filename": "fixture-0-1-5-1-sampled.png",
+      "mime": "image/png",
+      "width": 396,
+      "height": 328,
+      "sha256": "6c0a2fb4f33b85ac1fc98656bfd6830c687750996b750cc14b3c368c70da502a",
+      "identity": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1
+      },
+      "worldBounds": [
+        5304,
+        500,
+        396,
+        328
+      ],
+      "cssPixelsPerWorldUnit": 1,
+      "pngPixelsPerWorldUnit": 1,
+      "spray": true
+    },
+    {
+      "id": "contact-sheet",
+      "filename": "contact-sheet.png",
+      "mime": "image/png",
+      "width": 720,
+      "height": 1584,
+      "sha256": "d072115e4a6bdcbceef00b29ea6adcb7ea75a591958448b8635a99f8f2a9994e",
+      "identity": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "role": "scaled-preview",
+      "panel": [
+        360,
+        240
+      ]
+    },
+    {
+      "id": "reference-crop",
+      "filename": "reference-crop.png",
+      "mime": "image/png",
+      "width": 1563,
+      "height": 1023,
+      "sha256": "dadb06da5701fd0e0899245dff14c1aba4c6910e23f009314af8e5a5a966b95b",
+      "identity": "d0cf12d46088ee521185e226cb58410d887743e8ee9420cd699c26df0799a4cf:cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303:c6694be47acba638e3d5cb0d6c54ce25e7ce8b45dc43daceea10d6165eca7922:7c4424b86c2e3487e285a1c5b5843e48b1ec8da0b22a8422ba7ec965e46df6e1",
+      "role": "canonical-reference-crop",
+      "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+      "sourceRect": [
+        771.8000000000001,
+        193.00595238095238,
+        1562.8950000000002,
+        1022.9315476190476
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "iteration": "W017",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "dpr": 1,
+  "errors": [],
+  "state": {
+    "ready": true,
+    "dataset": "crest/annotation.json",
+    "iteration": "W017",
+    "status": "exterior_bays_and_root_domain_corrected_unreviewed",
+    "context": [
+      185,
+      50,
+      425,
+      260
+    ],
+    "vertexCount": 292,
+    "waterExclusionCount": 1,
+    "skyExclusionCount": 2,
+    "rootCut": {
+      "from": [
+        185,
+        200
+      ],
+      "to": [
+        185,
+        136
+      ],
+      "classification": "artificial left cut through cropped parent foam; not printed boundary"
+    },
+    "scope": "One revised main crest-group foam silhouette with explicit exterior paper bays and principal water exclusion; cropped parent root. Not a full wave or scene.",
+    "uncertainty": [
+      "Second broad mask experiment: only source-observed open paper bays are cut; actual pale/cyan foam is retained even where the scan-hidden mask consequently remains plain.",
+      "W011/W014 tips are unchanged. Exterior-bay edges include explicitly interpreted uninked segments; the lower domain cut omits the unrelated lower-left family rather than implying a physical wave edge.",
+      "Principal-water cove heads and other W016 fringe joins remain provisional. Thin interior ink and wash are unmodeled. This is not a full-crest fidelity or whole-scene acceptance."
+    ],
+    "canvasAspects": [
+      1.632,
+      1.632,
+      1.632
+    ]
+  },
+  "sourceHashes": {
+    "crest/annotation.json": "94cc624ae9ae0d41b729f08dfb1d4acb33f3cde773053ab53dfccdee3e13fb2f",
+    "annotation.mjs": "c195dad5af7a37eb942776cbc6a292d3cda4fd32a1d6e23fb2d480b396633750",
+    "index.html": "f7d1af46ce8d4da55be0b73b9c7c03e0a9643ca6ccadaf1d2327adf8768e66bf"
+  },
+  "captureSHA256": "e004a9247c7da6fc2c75a379d57ed2554f02856c9d6c2373917ddccde0797de5"
+}

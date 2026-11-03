@@ -1,0 +1,369 @@
+{
+  "status": "unaccepted source-derived primitive study, not production geometry",
+  "sourceControl": "research/geometry/reference-water-interface-v1.json",
+  "sourceControlSHA256": "6ce1f22e93259a2ce8ace0f087ccd4e6bf892fb47e8a988e2b318d6a1bed36ff",
+  "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "frame": [
+    1000,
+    672
+  ],
+  "crop": [
+    325,
+    145,
+    34,
+    35
+  ],
+  "cropCuts": [
+    {
+      "edge": "top",
+      "segment": [
+        [
+          325.0,
+          145
+        ],
+        [
+          330.75,
+          145
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    },
+    {
+      "edge": "top",
+      "segment": [
+        [
+          332.5,
+          145
+        ],
+        [
+          335.0,
+          145
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    },
+    {
+      "edge": "top",
+      "segment": [
+        [
+          336.75,
+          145
+        ],
+        [
+          341.75,
+          145
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    },
+    {
+      "edge": "left",
+      "segment": [
+        [
+          325,
+          145.0
+        ],
+        [
+          325,
+          147.75
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    }
+  ],
+  "method": "Reconstruct reviewed candidate horizontal runs; trace directed pixel-union edges with right-turn disambiguation; Ramer-Douglas-Peucker at0.5referenceunit outer-boundary tolerance; retain tiny-hole polygons. No new segmentation.",
+  "selectedPixels": 4700,
+  "exactUnionAreaPixels": 4700.0,
+  "paths": [
+    {
+      "kind": "outer",
+      "originalVertices": 738,
+      "simplifiedVertices": 44,
+      "originalAreaReferenceUnits": 308.9375,
+      "maxBoundaryDeviationReferenceUnits": 0.49029033784546006,
+      "commands": [
+        [
+          "M",
+          325.0,
+          145.0
+        ],
+        [
+          "L",
+          330.75,
+          145.0
+        ],
+        [
+          "L",
+          331.75,
+          147.0
+        ],
+        [
+          "L",
+          332.5,
+          145.0
+        ],
+        [
+          "L",
+          335.0,
+          145.0
+        ],
+        [
+          "L",
+          335.0,
+          146.25
+        ],
+        [
+          "L",
+          336.75,
+          145.0
+        ],
+        [
+          "L",
+          341.75,
+          145.0
+        ],
+        [
+          "L",
+          343.25,
+          149.25
+        ],
+        [
+          "L",
+          345.0,
+          151.0
+        ],
+        [
+          "L",
+          347.5,
+          151.5
+        ],
+        [
+          "L",
+          349.0,
+          152.75
+        ],
+        [
+          "L",
+          352.25,
+          160.75
+        ],
+        [
+          "L",
+          355.75,
+          163.25
+        ],
+        [
+          "L",
+          356.25,
+          165.5
+        ],
+        [
+          "L",
+          355.25,
+          172.0
+        ],
+        [
+          "L",
+          353.75,
+          173.5
+        ],
+        [
+          "L",
+          352.25,
+          173.75
+        ],
+        [
+          "L",
+          351.75,
+          172.25
+        ],
+        [
+          "L",
+          353.25,
+          171.5
+        ],
+        [
+          "L",
+          353.25,
+          168.75
+        ],
+        [
+          "L",
+          351.75,
+          164.25
+        ],
+        [
+          "L",
+          350.75,
+          162.25
+        ],
+        [
+          "L",
+          346.0,
+          159.0
+        ],
+        [
+          "L",
+          344.75,
+          157.25
+        ],
+        [
+          "L",
+          339.75,
+          156.25
+        ],
+        [
+          "L",
+          338.0,
+          157.75
+        ],
+        [
+          "L",
+          336.75,
+          157.5
+        ],
+        [
+          "L",
+          336.75,
+          154.25
+        ],
+        [
+          "L",
+          338.0,
+          154.0
+        ],
+        [
+          "L",
+          338.25,
+          153.0
+        ],
+        [
+          "L",
+          340.0,
+          153.0
+        ],
+        [
+          "L",
+          338.75,
+          151.5
+        ],
+        [
+          "L",
+          336.5,
+          152.0
+        ],
+        [
+          "L",
+          334.75,
+          155.0
+        ],
+        [
+          "L",
+          334.75,
+          160.75
+        ],
+        [
+          "L",
+          331.75,
+          166.0
+        ],
+        [
+          "L",
+          329.25,
+          168.0
+        ],
+        [
+          "L",
+          326.5,
+          168.5
+        ],
+        [
+          "L",
+          326.25,
+          166.0
+        ],
+        [
+          "L",
+          328.25,
+          166.5
+        ],
+        [
+          "L",
+          330.25,
+          163.0
+        ],
+        [
+          "L",
+          330.5,
+          156.0
+        ],
+        [
+          "L",
+          325.25,
+          148.25
+        ],
+        [
+          "Z"
+        ]
+      ]
+    },
+    {
+      "kind": "hole",
+      "originalVertices": 112,
+      "simplifiedVertices": 8,
+      "originalAreaReferenceUnits": -15.1875,
+      "maxBoundaryDeviationReferenceUnits": 0.42679753259478465,
+      "commands": [
+        [
+          "M",
+          329.25,
+          148.0
+        ],
+        [
+          "L",
+          329.75,
+          151.5
+        ],
+        [
+          "L",
+          331.5,
+          152.75
+        ],
+        [
+          "L",
+          334.0,
+          150.5
+        ],
+        [
+          "L",
+          335.25,
+          146.5
+        ],
+        [
+          "L",
+          334.5,
+          146.5
+        ],
+        [
+          "L",
+          332.0,
+          149.75
+        ],
+        [
+          "L",
+          331.0,
+          149.75
+        ],
+        [
+          "Z"
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Parent/crop cuts remain artificial and must not be presented as printed boundaries.",
+    "Simplification is bounded geometric approximation, not artistic acceptance.",
+    "Negative regions are not automatically classified as exterior water; no principal probes inferred.",
+    "Generated attachment and native-scale behavior require separate checks."
+  ]
+}

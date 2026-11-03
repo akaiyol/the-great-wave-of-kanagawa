@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T18:59:28.642Z",
+  "kind": "approximate scale-transfer diagnostic",
+  "qualityScore": null,
+  "productionAcceptance": "not_assessed",
+  "wholeCrestAcceptance": "not_established",
+  "labeling": {
+    "acceptedControl": "User accepted sufficient interior branching/channel detail at 360x280 only.",
+    "scaleTransfer": "Requires inspection; no automatic artistic verdict."
+  },
+  "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+  "sourceFingerprint": "d8edc75b664ea71aef699037ec71861614520242fb9c84a7b523ad6bdf469413",
+  "snapshotRoot": "research/output/validation-snapshots/d8edc75b664ea71aef699037ec71861614520242fb9c84a7b523ad6bdf469413",
+  "evaluationFingerprint": "83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79",
+  "evaluationSnapshotRoot": "research/output/validation-evaluators/d8edc75b664ea71aef699037ec71861614520242fb9c84a7b523ad6bdf469413-83fc047c09c9cc67f3b3c48e0a09c424593d7aca05c2a14c3334ec4c54d58e79",
+  "modelReceiptSHA256": "ae81f8a4bd9c89ec2ee95573d3b442ca53ecebf071eace1873de4f3b0d134463",
+  "sourceIdentityScope": "Checked immutable model-receipt snapshot; live working-tree freshness not assessed.",
+  "studyFingerprint": "bd80423f9399562d6478b79bfb5327cdf74062ea9fac4dd9adc9637802f5144b",
+  "studyIdentityScope": "Separate study files; not included in receipt evaluator file list.",
+  "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "svgSHA256": "1f6e96246f2c52564056a8fd9010c78ee9ff001924b82e3e540ccb4b332a93c7",
+  "jsonSHA256": "7b556132d0b806c2ccae3b366be2f84e3d3a3d690c0aba0f3867764b50e801f1",
+  "protocol": {
+    "version": 1,
+    "kind": "approximate-reference-fragment-scale-transfer",
+    "normalizedFrame": [
+      1000,
+      672
+    ],
+    "roi": [
+      270,
+      90,
+      90,
+      70
+    ],
+    "comparisonCrop": [
+      200,
+      50,
+      405,
+      265
+    ],
+    "fitRule": "min(foamBoundsWidth/405,foamBoundsHeight/265)",
+    "boundsCall": "geometryBounds({...geometry,body:[],spray:[]})",
+    "boundsCaveat": "Includes eight-world-unit margins on every side, path control points and holes; not tight foam support or semantic correspondence.",
+    "panelRounding": "ceil desired dimension to a multiple of DOT_STEP; uniform content size retained with right/bottom black padding",
+    "cssPixelsPerWorldUnit": 1,
+    "pngPixelsPerWorldUnit": 1,
+    "dotPitch": 4,
+    "gridOrigin": [
+      0,
+      0
+    ],
+    "phaseCoverage": "Single origin per scale; no all-offset claim",
+    "readbackContext": {
+      "willReadFrequently": true
+    },
+    "sampling": "SVG drawn to transparent world/4 sample canvas; alpha>=128 and red>=128 occupancy; checked production drawDotSamples.",
+    "sourceRect": [
+      1041.93,
+      347.4107142857143,
+      347.31,
+      270.20833333333337
+    ],
+    "sourceSize": [
+      3859,
+      2594
+    ],
+    "viewport": [
+      1280,
+      720
+    ],
+    "dpr": 2,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+  },
+  "protocolSHA256": "54be30d71153674be7762c2ce541abb02ca0964eda73dbe9e9bbd1f25acd0c9d",
+  "views": [
+    {
+      "id": "control",
+      "label": "Accepted interior-detail control",
+      "fitScale": 4,
+      "fixture": null,
+      "foamBounds": null,
+      "desiredPixels": [
+        360,
+        280
+      ],
+      "actualPanelPixels": [
+        360,
+        280
+      ],
+      "actualContentScale": 4,
+      "blackPadding": [
+        0,
+        0
+      ],
+      "grid": [
+        90,
+        70
+      ],
+      "controlToFitLinearRatio": 1,
+      "worldTransform": [
+        4,
+        0,
+        0,
+        4,
+        -1080,
+        -360
+      ],
+      "occupiedSamples": 4827
+    },
+    {
+      "id": "foreground",
+      "label": "Fixed foreground: 721/2:0:0",
+      "fixture": {
+        "seed": 721,
+        "id": "2:0:0",
+        "layer": 2,
+        "label": "Fixed foreground"
+      },
+      "featureDimensions": [
+        621.6742272023112,
+        296.52078239069397
+      ],
+      "foamBounds": {
+        "left": -7.350312220488196,
+        "right": 637.4856002385104,
+        "top": 13.635578919191357,
+        "bottom": 326.24605375467866
+      },
+      "boundWidth": 644.8359124589986,
+      "boundHeight": 312.6104748354873,
+      "fitScale": 1.1796621691905183,
+      "desiredPixels": [
+        106.16959522714664,
+        82.57635184333628
+      ],
+      "actualPanelPixels": [
+        108,
+        84
+      ],
+      "actualContentScale": 1.1796621691905183,
+      "blackPadding": [
+        1.8304047728533561,
+        1.4236481566637167
+      ],
+      "grid": [
+        27,
+        21
+      ],
+      "controlToFitLinearRatio": 3.3908012857145295,
+      "worldTransform": [
+        1.1796621691905183,
+        0,
+        0,
+        1.1796621691905183,
+        -318.5087856814399,
+        -106.16959522714664
+      ],
+      "occupiedSamples": 417
+    },
+    {
+      "id": "middle",
+      "label": "Fixed middle: 0/1:5:1",
+      "fixture": {
+        "seed": 0,
+        "id": "1:5:1",
+        "layer": 1,
+        "label": "Fixed middle"
+      },
+      "featureDimensions": [
+        309.98082584002987,
+        164.99078968443757
+      ],
+      "foamBounds": {
+        "left": -8.152629684847343,
+        "right": 319.3379230391958,
+        "top": 4.467583822596206,
+        "bottom": 169.63290421895556
+      },
+      "boundWidth": 327.49055272404314,
+      "boundHeight": 165.16532039635936,
+      "fitScale": 0.6232653599862618,
+      "desiredPixels": [
+        56.09388239876356,
+        43.62857519903832
+      ],
+      "actualPanelPixels": [
+        60,
+        44
+      ],
+      "actualContentScale": 0.6232653599862618,
+      "blackPadding": [
+        3.9061176012364385,
+        0.37142480096167674
+      ],
+      "grid": [
+        15,
+        11
+      ],
+      "controlToFitLinearRatio": 6.417812150009699,
+      "worldTransform": [
+        0.6232653599862618,
+        0,
+        0,
+        0.6232653599862618,
+        -168.28164719629066,
+        -56.09388239876356
+      ],
+      "occupiedSamples": 130
+    }
+  ],
+  "captures": [
+    {
+      "id": "scale-control-reference",
+      "filename": "scale-control-reference.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "control",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 360,
+      "height": 280,
+      "sha256": "3544efba3a70d8355620211f52b90ff688ef87eeaf941bbf36b42d63588101a6"
+    },
+    {
+      "id": "scale-control-mask",
+      "filename": "scale-control-mask.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "control",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 360,
+      "height": 280,
+      "sha256": "b2eabc661028d51e6fa15ccb76165e3a58704cea823bbbdd79ebf5a287407f69"
+    },
+    {
+      "id": "scale-control-sampled",
+      "filename": "scale-control-sampled.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "control",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 4,
+      "mime": "image/png",
+      "width": 360,
+      "height": 280,
+      "sha256": "939d998e796968b2f4ffd0e6f9ce8a79f3dd772c91403759121148f685883c04"
+    },
+    {
+      "id": "scale-foreground-reference",
+      "filename": "scale-foreground-reference.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "foreground",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 108,
+      "height": 84,
+      "sha256": "1035ea3cacb822be6ecd1d1519b1ada101d3b9694122c1833c166eaf8bf56b78"
+    },
+    {
+      "id": "scale-foreground-mask",
+      "filename": "scale-foreground-mask.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "foreground",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 108,
+      "height": 84,
+      "sha256": "6949a4cb8e229d317b3d5d522aaa982e2edfb3599816eb9a05f1f9bf6a491da9"
+    },
+    {
+      "id": "scale-foreground-sampled",
+      "filename": "scale-foreground-sampled.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "foreground",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 1.1796621691905183,
+      "mime": "image/png",
+      "width": 108,
+      "height": 84,
+      "sha256": "c0d31a1ac13c30bfa1c3ce85088b841dadc143efa125127e8f5fb400d94e4152"
+    },
+    {
+      "id": "scale-middle-reference",
+      "filename": "scale-middle-reference.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "middle",
+      "kind": "reference",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 60,
+      "height": 44,
+      "sha256": "f197ba26e4d25445ae9082e82293199d1f5493b90b48acf2af79531f40cc5e0a"
+    },
+    {
+      "id": "scale-middle-mask",
+      "filename": "scale-middle-mask.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "middle",
+      "kind": "mask",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 60,
+      "height": 44,
+      "sha256": "0670ff1760f24533fe45674ec46b1e6bc825381008af34da9bf2778193750362"
+    },
+    {
+      "id": "scale-middle-sampled",
+      "filename": "scale-middle-sampled.png",
+      "identity": "569a7f4b7af0c882f3a82364caa77a3c03517c2c633faf90ae3131bbdb034476",
+      "view": "middle",
+      "kind": "sampled",
+      "cssPixelsPerWorldUnit": 1,
+      "contentScale": 0.6232653599862618,
+      "mime": "image/png",
+      "width": 60,
+      "height": 44,
+      "sha256": "42ee7c547683c4f4a0d29f647a43d867a3d5fbccd2f885f5f4669bfd3603bf04"
+    }
+  ],
+  "limits": [
+    "ROI only; accepted control is not a whole-crest approval.",
+    "Uniform bounding-box fit approximates scale and does not register semantic features.",
+    "One grid origin; not a phase sweep, production check or quality score.",
+    "Unchanged existing reference mask; no new brightness segmentation."
+  ]
+}

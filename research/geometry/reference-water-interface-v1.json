@@ -1,0 +1,125 @@
+{
+  "status": "unaccepted source-derived local foam/water-interface study",
+  "reference": "Met DP130155",
+  "sourceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "frame": [
+    1000,
+    672
+  ],
+  "crop": [
+    325,
+    145,
+    34,
+    35
+  ],
+  "authoringScale": 4,
+  "accepted": false,
+  "method": "Manually bounded source-interior ROI; LANCZOS source resampling at4samples/referenceunit, luminance>184, four-neighbor component seeded at supportedfoam seed F2(335,151); horizontal-run vectorization. Not global image/sky segmentation.",
+  "semanticBasis": "Independent seed review supports F2/F3foam and nearby water; full boundary remains a candidate requiring source overlay review.",
+  "paths": [
+    {
+      "op": "add",
+      "d": "M325 145h5.75v.25h-5.75Z M332.5 145h2.5v.25h-2.5Z M336.75 145h5v.25h-5Z M325 145.25h5.75v.25h-5.75Z M332.5 145.25h2.5v.25h-2.5Z M336.5 145.25h5.5v.25h-5.5Z M325 145.5h6v.25h-6Z M332.5 145.5h2.5v.25h-2.5Z M336 145.5h6v.25h-6Z M325 145.75h6v.25h-6Z M332.5 145.75h2.5v.25h-2.5Z M335.75 145.75h6.5v.25h-6.5Z M325 146h6v.25h-6Z M332.25 146h2.75v.25h-2.75Z M335.25 146h7v.25h-7Z M325 146.25h6.25v.25h-6.25Z M332.25 146.25h10v.25h-10Z M325 146.5h6.5v.25h-6.5Z M332 146.5h2.5v.25h-2.5Z M335.25 146.5h7.25v.25h-7.25Z M325 146.75h6.75v.25h-6.75Z M332 146.75h2.5v.25h-2.5Z M335.25 146.75h7.25v.25h-7.25Z M325 147h9.25v.25h-9.25Z M335 147h7.5v.25h-7.5Z M325 147.25h9.25v.25h-9.25Z M335 147.25h7.5v.25h-7.5Z M325 147.5h9v.25h-9Z M335 147.5h7.5v.25h-7.5Z M325.25 147.75h8.5v.25h-8.5Z M335 147.75h7.75v.25h-7.75Z M325.25 148h4v.25h-4Z M329.5 148h4v.25h-4Z M334.75 148h8v.25h-8Z M325.75 148.25h3.5v.25h-3.5Z M329.75 148.25h3.75v.25h-3.75Z M334.75 148.25h8.25v.25h-8.25Z M326 148.5h3.25v.25h-3.25Z M330 148.5h3.25v.25h-3.25Z M334.75 148.5h8.25v.25h-8.25Z M326 148.75h3.25v.25h-3.25Z M330.25 148.75h2.5v.25h-2.5Z M334.75 148.75h8.5v.25h-8.5Z M326.25 149h3.25v.25h-3.25Z M330.75 149h2v.25h-2Z M334.75 149h8.5v.25h-8.5Z M326.5 149.25h3v.25h-3Z M331 149.25h1.25v.25h-1.25Z M334.5 149.25h9v.25h-9Z M326.5 149.5h3v.25h-3Z M331 149.5h1v.25h-1Z M334.25 149.5h9.5v.25h-9.5Z M326.75 149.75h2.75v.25h-2.75Z M334.25 149.75h9.75v.25h-9.75Z M326.75 150h2.75v.25h-2.75Z M334 150h10.25v.25h-10.25Z M327 150.25h2.5v.25h-2.5Z M334 150.25h10.5v.25h-10.5Z M327.25 150.5h2.5v.25h-2.5Z M333.75 150.5h11v.25h-11Z M327.25 150.75h2.5v.25h-2.5Z M333.5 150.75h11.5v.25h-11.5Z M327.5 151h2.25v.25h-2.25Z M333.25 151h12.25v.25h-12.25Z M327.5 151.25h2.25v.25h-2.25Z M333 151.25h13.5v.25h-13.5Z M327.75 151.5h2.5v.25h-2.5Z M332.75 151.5h5.75v.25h-5.75Z M338.75 151.5h8.75v.25h-8.75Z M328 151.75h2.5v.25h-2.5Z M332.5 151.75h4.5v.25h-4.5Z M339.25 151.75h8.75v.25h-8.75Z M328.25 152h2.25v.25h-2.25Z M332.25 152h4.25v.25h-4.25Z M339.5 152h8.75v.25h-8.75Z M328.25 152.25h2.5v.25h-2.5Z M332 152.25h4.5v.25h-4.5Z M340 152.25h8.5v.25h-8.5Z M328.5 152.5h2.5v.25h-2.5Z M331.5 152.5h5v.25h-5Z M340 152.5h8.75v.25h-8.75Z M328.5 152.75h7.75v.25h-7.75Z M340 152.75h9v.25h-9Z M328.75 153h7.25v.25h-7.25Z M338.25 153h10.75v.25h-10.75Z M328.75 153.25h7.25v.25h-7.25Z M338 153.25h11.25v.25h-11.25Z M329 153.5h6.75v.25h-6.75Z M338 153.5h11.25v.25h-11.25Z M329 153.75h6.5v.25h-6.5Z M338 153.75h11.5v.25h-11.5Z M329.25 154h6.25v.25h-6.25Z M337 154h12.5v.25h-12.5Z M329.5 154.25h5.75v.25h-5.75Z M336.75 154.25h13v.25h-13Z M329.75 154.5h5.5v.25h-5.5Z M336.75 154.5h13v.25h-13Z M329.75 154.75h5.25v.25h-5.25Z M336.75 154.75h13v.25h-13Z M330 155h4.75v.25h-4.75Z M336.75 155h13.25v.25h-13.25Z M330 155.25h4.75v.25h-4.75Z M336.75 155.25h13.25v.25h-13.25Z M330 155.5h4.75v.25h-4.75Z M336.5 155.5h13.75v.25h-13.75Z M330.25 155.75h4.5v.25h-4.5Z M336.5 155.75h13.75v.25h-13.75Z M330.5 156h4.25v.25h-4.25Z M336.75 156h13.75v.25h-13.75Z M330.5 156.25h4.25v.25h-4.25Z M336.75 156.25h3v.25h-3Z M342.25 156.25h8.25v.25h-8.25Z M330.5 156.5h4.25v.25h-4.25Z M336.75 156.5h2.25v.25h-2.25Z M343 156.5h7.5v.25h-7.5Z M330.5 156.75h4v.25h-4Z M336.75 156.75h2v.25h-2Z M344 156.75h6.5v.25h-6.5Z M330.5 157h4.25v.25h-4.25Z M337 157h1.5v.25h-1.5Z M344.25 157h6.5v.25h-6.5Z M330.5 157.25h4.25v.25h-4.25Z M336.75 157.25h1.5v.25h-1.5Z M344.75 157.25h6v.25h-6Z M330.5 157.5h4.25v.25h-4.25Z M337 157.5h1v.25h-1Z M345 157.5h5.75v.25h-5.75Z M330.5 157.75h4.25v.25h-4.25Z M345 157.75h6v.25h-6Z M330.5 158h4.25v.25h-4.25Z M345.25 158h5.75v.25h-5.75Z M330.5 158.25h4.25v.25h-4.25Z M345.5 158.25h5.75v.25h-5.75Z M330.5 158.5h4.25v.25h-4.25Z M345.75 158.5h5.5v.25h-5.5Z M330.5 158.75h4.25v.25h-4.25Z M346 158.75h5.5v.25h-5.5Z M330.5 159h4.25v.25h-4.25Z M346.5 159h5v.25h-5Z M330.5 159.25h4.5v.25h-4.5Z M346.75 159.25h5v.25h-5Z M330.5 159.5h4.25v.25h-4.25Z M347 159.5h4.75v.25h-4.75Z M330.5 159.75h4.25v.25h-4.25Z M347.25 159.75h4.75v.25h-4.75Z M330.5 160h4.25v.25h-4.25Z M347.75 160h4.25v.25h-4.25Z M330.5 160.25h4.25v.25h-4.25Z M348 160.25h4.25v.25h-4.25Z M330.5 160.5h4.25v.25h-4.25Z M348.5 160.5h3.75v.25h-3.75Z M330.5 160.75h4v.25h-4Z M348.75 160.75h4v.25h-4Z M330.5 161h3.75v.25h-3.75Z M349 161h3.75v.25h-3.75Z M330.5 161.25h3.75v.25h-3.75Z M349.25 161.25h3.75v.25h-3.75Z M330.25 161.5h3.75v.25h-3.75Z M349.75 161.5h3.5v.25h-3.5Z M330.25 161.75h3.5v.25h-3.5Z M350 161.75h3.5v.25h-3.5Z M330.25 162h3.5v.25h-3.5Z M350.25 162h3.5v.25h-3.5Z M330.25 162.25h3.25v.25h-3.25Z M350.75 162.25h3.25v.25h-3.25Z M330.25 162.5h3v.25h-3Z M350.75 162.5h3.5v.25h-3.5Z M330.25 162.75h3v.25h-3Z M350.75 162.75h4.5v.25h-4.5Z M330 163h3v.25h-3Z M350.75 163h4.75v.25h-4.75Z M330 163.25h3v.25h-3Z M351 163.25h4.75v.25h-4.75Z M329.75 163.5h3v.25h-3Z M351.25 163.5h4.5v.25h-4.5Z M329.75 163.75h3v.25h-3Z M351.5 163.75h4.5v.25h-4.5Z M329.5 164h3.25v.25h-3.25Z M351.5 164h4.5v.25h-4.5Z M329.5 164.25h3v.25h-3Z M351.75 164.25h4.5v.25h-4.5Z M329.25 164.5h3v.25h-3Z M351.75 164.5h4.5v.25h-4.5Z M329.25 164.75h3v.25h-3Z M351.75 164.75h4.5v.25h-4.5Z M329 165h3v.25h-3Z M352 165h4.25v.25h-4.25Z M328.75 165.25h3.25v.25h-3.25Z M352 165.25h4.25v.25h-4.25Z M328.75 165.5h3v.25h-3Z M352.25 165.5h3.75v.25h-3.75Z M328.5 165.75h3.25v.25h-3.25Z M352.25 165.75h3.75v.25h-3.75Z M326.25 166h1v.25h-1Z M328.5 166h3v.25h-3Z M352.5 166h3.5v.25h-3.5Z M326.25 166.25h1.5v.25h-1.5Z M328.25 166.25h3v.25h-3Z M352.5 166.25h3.5v.25h-3.5Z M326.25 166.5h4.75v.25h-4.75Z M352.5 166.5h3.25v.25h-3.25Z M326.5 166.75h4.25v.25h-4.25Z M352.75 166.75h3v.25h-3Z M326.5 167h4v.25h-4Z M352.75 167h3v.25h-3Z M326.5 167.25h3.5v.25h-3.5Z M352.75 167.25h3v.25h-3Z M326.5 167.5h3.25v.25h-3.25Z M353 167.5h2.75v.25h-2.75Z M326.5 167.75h2.75v.25h-2.75Z M353 167.75h2.75v.25h-2.75Z M326.5 168h2v.25h-2Z M353 168h2.75v.25h-2.75Z M326.5 168.25h1.5v.25h-1.5Z M353 168.25h2.75v.25h-2.75Z M353 168.5h2.75v.25h-2.75Z M353.25 168.75h2.5v.25h-2.5Z M353.25 169h2.5v.25h-2.5Z M353.25 169.25h2.5v.25h-2.5Z M353.25 169.5h2.5v.25h-2.5Z M353.25 169.75h2.5v.25h-2.5Z M353.25 170h2.5v.25h-2.5Z M353.25 170.25h2.5v.25h-2.5Z M353.25 170.5h2.5v.25h-2.5Z M353.25 170.75h2.5v.25h-2.5Z M353.25 171h2.25v.25h-2.25Z M353.25 171.25h2v.25h-2Z M353 171.5h2.25v.25h-2.25Z M352.75 171.75h2.5v.25h-2.5Z M352.5 172h2.5v.25h-2.5Z M351.75 172.25h3v.25h-3Z M351.75 172.5h2.75v.25h-2.75Z M352 172.75h2v.25h-2Z M352 173h2v.25h-2Z M352.25 173.25h1.5v.25h-1.5Z M352.25 173.5h1v.25h-1Z"
+    }
+  ],
+  "thresholdSensitivity": [
+    {
+      "threshold": 172,
+      "selectedPixels": 4783,
+      "totalEligiblePixels": 4783,
+      "bounds": [
+        325.0,
+        145.0,
+        356.0,
+        173.5
+      ]
+    },
+    {
+      "threshold": 184,
+      "selectedPixels": 4700,
+      "totalEligiblePixels": 4700,
+      "bounds": [
+        325.0,
+        145.0,
+        356.0,
+        173.5
+      ]
+    },
+    {
+      "threshold": 196,
+      "selectedPixels": 4585,
+      "totalEligiblePixels": 4585,
+      "bounds": [
+        325.0,
+        145.0,
+        356.0,
+        173.5
+      ]
+    }
+  ],
+  "cropCuts": [
+    {
+      "edge": "top",
+      "segment": [
+        [
+          325.0,
+          145
+        ],
+        [
+          330.75,
+          145
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    },
+    {
+      "edge": "top",
+      "segment": [
+        [
+          332.5,
+          145
+        ],
+        [
+          335.0,
+          145
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    },
+    {
+      "edge": "top",
+      "segment": [
+        [
+          336.75,
+          145
+        ],
+        [
+          341.75,
+          145
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    },
+    {
+      "edge": "left",
+      "segment": [
+        [
+          325,
+          145.0
+        ],
+        [
+          325,
+          147.75
+        ]
+      ],
+      "classification": "artificial ROI/root cut; not a traced printed boundary"
+    }
+  ],
+  "limits": [
+    "Top/left mask closures are explicit artificial cuts, not printed foam edges.",
+    "Initial height27 clipped the lower taper; expanded to35; no selected bottom or right edge pixels remain.",
+    "No fixed primary/secondary inventory or whole-crest trace is asserted.",
+    "Pale wash/antialias edge is threshold-dependent.",
+    "Not production geometry or artistic acceptance."
+  ]
+}

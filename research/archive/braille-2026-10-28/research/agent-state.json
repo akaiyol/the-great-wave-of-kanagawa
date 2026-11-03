@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-26",
+  "runtime": "Codex session with project instructions and delegated subagents",
+  "status": "checkpoint_allowance_reserve",
+  "checkpointReason": "Independent review rejected16composition regression. Exact12restored. Shared five-hour allowance observed at9%remaining; no new delegation or paid fallback.",
+  "budget": {
+    "mode": "existing_chatgpt_plan",
+    "tokenLimit": null,
+    "usageKnown": true,
+    "lastObservedAllowance": {
+      "observedDate": "2026-10-26",
+      "fiveHourRemainingPercent": 9,
+      "weeklyRemainingPercent": 60,
+      "scope": "Shared account observation at checkpoint; not project token usage"
+    },
+    "note": "Read fresh account-wide allowance at launch. No conversion from remaining percentages to tokens. No paid API fallback or automatic resets."
+  },
+  "candidate": {
+    "sourceFingerprint": "48f9e74348806fef48c164cb7e5253cc49288c0267e4d0e82af6c43bb0ed9d26",
+    "referenceSHA256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "receipt": "research/output/autonomous-2026-10-26/candidate-12/current-evaluator-full-receipt.json",
+    "expected": "23 model tests and refreshed full browser checks pass",
+    "form": "needs_work_independent_review",
+    "quality": "pending",
+    "userAcceptance": "not_granted",
+    "evaluationFingerprint": "ce7e784cc3ba44643ed512730ee5f974009e6627424a9ab6c797fa2eb16361b9",
+    "renderProtocolFingerprint": "93a3efd57b378a7a6d75eb574f4fdab1cbdbdba2f2d3035d4c6c497de8f9ced0",
+    "evaluationEvidenceCurrent": true,
+    "evaluationEvidenceNote": "Current technical refresh only; historical artistic review remains scoped to its original protocol."
+  },
+  "bestIndependentlyVerifiedCandidate": null,
+  "evaluatorCalibration": "user-labeled positive reference detail and negative generated pair; whole-crest positive not established",
+  "nativeAgentDiscovery": {
+    "wave_researcher": "named role invocation completed",
+    "wave_evaluator": "named role invocation completed",
+    "wave_worker": "named role exercised successfully in this run"
+  },
+  "knownFailures": [
+    "Broad smooth parent cap dominates local source-derived detail",
+    "Repeated pendant hooks and regular tall water coves",
+    "Source detail disappears at middle-depth sampling",
+    "Uniform foreground enlargement causes crowding and clipping",
+    "Breaker/band families and full ocean remain visually unaccepted"
+  ],
+  "backlog": [
+    {
+      "id": "H1",
+      "task": "Version evaluator, rubric, fixtures, rendering protocol and review inputs; invalidate stale verdicts",
+      "status": "implemented_and_verified"
+    },
+    {
+      "id": "H2",
+      "task": "Assert fixed fixture identities, phase counts and nonempty channel coverage; detect missing evidence",
+      "status": "implemented_and_verified"
+    },
+    {
+      "id": "H3",
+      "task": "Create compact scripted raw/sampled captures and summary export for focused candidate checks",
+      "status": "implemented_and_browser_verified"
+    },
+    {
+      "id": "H4",
+      "task": "Calibrate independent evaluator against known failures and human-labeled positive reference examples",
+      "status": "pilot_labels_verified"
+    },
+    {
+      "id": "W1",
+      "task": "Build asymmetric reference-derived crest groups and remove detached fragment",
+      "status": "in_progress_local_improvement_not_accepted"
+    },
+    {
+      "id": "W2",
+      "task": "Develop and accept distinct lower-breaker and foam-band constructions",
+      "status": "pending"
+    },
+    {
+      "id": "W3",
+      "task": "Develop varied continuous ocean composition with depth and open-water intervals",
+      "status": "pending"
+    },
+    {
+      "id": "W4",
+      "task": "Verify actual desktop interactions, reduced motion, resize/DPR and longer travel on held-out cases",
+      "status": "pending"
+    }
+  ],
+  "nextAction": "Use retained12as fallback. Select a wider source-supported crest region and author outer boundary, unequal roots and principal water coves jointly before another production trial. Preserve4pitch and fixed tests; validate native detail before ocean composition.",
+  "nextHypothesis": "The smooth parent cap is the dominant representation failure; joint source-informed boundary construction should distribute branching instead of attaching one detailed fragment beneath a generic arch.",
+  "smokeReview": "research/output/agent-harness-smoke.json",
+  "routingSmoke": "research/output/agent-routing-smoke.json",
+  "configuredEvaluationFingerprint": "ce7e784cc3ba44643ed512730ee5f974009e6627424a9ab6c797fa2eb16361b9",
+  "focusedEvidence": {
+    "receipt": "research/output/autonomous-2026-10-26/candidate-12/receipt.json",
+    "pngHashesVerified": 14,
+    "durationMs": 357
+  },
+  "humanCalibration": "research/output/autonomous-2026-10-26/human-calibration.json",
+  "resolvedFailures": [
+    "Detached no-spray tail fragment: one component and largest fraction 1 across six fixtures and 96 offsets"
+  ],
+  "modelRoutingSource": ".codex/agents/ and .codex/config.toml",
+  "agentBloatAudit": {
+    "beforeWords": 1904,
+    "afterWords": 1053,
+    "scope": "completion instructions, agents README and three role definitions",
+    "newRoles": 0,
+    "preserved": "routing, ownership, independent review, budget and evidence checks",
+    "currentWordsAfterRetrospective": 1066,
+    "currentWordsAfterStructureChanges": 1079
+  },
+  "activeExperiment": {
+    "id": "candidate-16",
+    "sourceFingerprint": "58256d030ca8d1b89ae3e68566219b782c35791b27f3fcc3e6c28686ebaf0c14",
+    "hypothesis": "Larger selected foreground curls retain source-derived local turns at unchanged dot pitch",
+    "predictedVisibleGain": "Native-size source turns and hollow remain readable without overcrowding the ocean",
+    "rejectionCriterion": "Crowding, oversized repeated caps, no meaningful source-form gain, or technical regression",
+    "repeatedFailureCount": 1,
+    "reviewScope": "Independent fixed/native and nine-view composition review completed; local gain insufficient against crowding regression",
+    "evidence": "research/output/autonomous-2026-10-26/candidate-16/full-receipt.json",
+    "tokenUsage": null,
+    "decision": "rejected_and_archived",
+    "review": "research/output/autonomous-2026-10-26/candidate-16/review.json"
+  },
+  "scaleStudy": "research/output/autonomous-2026-10-26/generated-scale-study/review.json",
+  "unreviewedStudy": {
+    "id": "candidate-13",
+    "receipt": "research/output/autonomous-2026-10-26/candidate-13/receipt.json",
+    "decision": "archived; not retained"
+  },
+  "retrospective": "research/iteration-retrospective-2026-10-26.md",
+  "agentStructureRevision": {
+    "date": "2026-10-26",
+    "status": "saved_and_structurally_validated",
+    "behavioralEffectiveness": "not_yet_measured",
+    "files": [
+      "agents/wave-completion.md",
+      "agents/README.md",
+      ".codex/agents/wave-worker.toml",
+      ".codex/agents/wave-evaluator.toml",
+      ".codex/agents/wave-researcher.toml"
+    ],
+    "newRoles": 0,
+    "instructionWords": 1079
+  },
+  "nextMilestone": {
+    "kind": "joint_source_crest_representation",
+    "successCriterion": "Supported outer crest, unequal attached roots and water hollows remain recognizable at production foreground scale without generic cap dominance",
+    "rejectionCriterion": "Requires invented foam connections, repeats smooth-cap silhouette or loses source hollows at native sampling",
+    "reviewScope": "Next experiment not started; current16rejected",
+    "tokenUsage": null,
+    "repeatedFailureCount": 0
+  },
+  "interactionLog": "research/agent-iteration-log.md",
+  "latestResearch": "research/visual-evaluation-research-2026-10-26.md",
+  "stoppedResearchHypothesis": {
+    "hypothesis": "Select a complete two-primary/secondary group by nearby cropping before semantic annotation",
+    "trials": 2,
+    "outcome": "Neither view establishes the prescribed control; no claim that source branching is absent",
+    "logEntry": "L005"
+  },
+  "semanticStudyReview": "research/output/autonomous-2026-10-26/semantic-seed-review.json",
+  "sourceControlReview": "research/output/autonomous-2026-10-26/source-interface-v1-padded/review.json",
+  "densityStudy": "research/output/autonomous-2026-10-26/sampler-density-v1/review.json",
+  "sourceIntegrationFailures": [
+    "candidate14: enclosed principal cove",
+    "candidate15: detached single sample in two of 96 phase offsets"
+  ]
+}

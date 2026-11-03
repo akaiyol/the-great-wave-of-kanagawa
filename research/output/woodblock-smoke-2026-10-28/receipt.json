@@ -1,0 +1,50 @@
+{
+  "iteration": "W001",
+  "date": "2026-10-28",
+  "workflowResult": "pass_for_bounded_worker_review_checkpoint_cycle",
+  "artisticResult": "needs_work_not_promoted",
+  "checks": {
+    "svgParses": true,
+    "selfContained": true,
+    "productionAndTestsUnchanged": true,
+    "referenceMatchesPin": true,
+    "browser": [
+      {
+        "browser": "151.0.7922.34",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "dpr": 1,
+        "errors": [],
+        "svg": 1
+      },
+      {
+        "browser": "151.0.7922.34",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "dpr": 2,
+        "errors": [],
+        "svg": 1
+      }
+    ]
+  },
+  "roleAdoption": "Worker and evaluator reported reading current disk roles; no conflict observed. Researcher not exercised.",
+  "limits": [
+    "One small SVG candidate only; Canvas implementation not tested.",
+    "Standalone SVG browser loading checked; app controls, responsive integration, travel and release readiness not tested.",
+    "Artistic review used Sharp captures; later browser evidence does not expand that review."
+  ],
+  "hashes": {
+    "study-1920.png": "c321bc6ad4960023140726ec2e816a95c72e8145e698ee7cc05722b2fafc6976",
+    "study.svg": "1f08911f0f39146a596559777a72e6f5300534e21446ea549bc02498da1f098a",
+    "browser-1280.png": "51db3cb1bdf3a00b1ec5ddd5ea29e405197824f61cbd4a91e0f65521b58d89e6",
+    "browser-1920.png": "95b8abf3460e757e2af45d9418582247e4ae45a3d94b09592d870bfe70b9fd56",
+    "browser-check.json": "a9169c830d65a6da31b674fe8e9b7fb4b33cef51ff39fe9e245a6c8e197ed314",
+    "review.md": "4ed04b4de8e99ce7fc855d27f2ceb1ebbd4a3db003bc6bdfef09a64784027dff",
+    "study-1280.png": "a200dc7af271fb3af4c04bea54c99aac04fe44a8080677b8a2d48c745e59841e",
+    "handoff.md": "6b9b558fcf7735bb4108c0379c0851266371ec26b2abb6f3da78467844004996"
+  }
+}
