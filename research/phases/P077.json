@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "P077",
+  "objective": "Reduce startup context to the current phase's relevant lessons and explicit run authorization.",
+  "hypothesis": "Selecting lessons by stable failureID plus essential delivery/scope rules reduces repeated context without discarding historical evidence.",
+  "failureIds": [
+    "review.context-overhead",
+    "logging.delayed-handoff"
+  ],
+  "baseline": "Generatedbrief currently includes all11active lessons, including unrelated old geometry failures.",
+  "artifactTarget": "scripts/phase.mjs",
+  "plannedTokens": 4000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 3800,
+    "reviewTokens": 200
+  },
+  "startedAt": "2026-11-03T14:21:50.650Z",
+  "result": {
+    "id": "P077",
+    "summary": "Generated briefs now select phase failureIDs plus essential delivery/scope rules, keep unrelated lessons retrievable, and display the explicit until0%run authorization. Current startup brief shrank517to273words without deleting memory.12lifecycle tests pass.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "scripts/phase.mjs",
+      "research/tests/phase.test.mjs",
+      "research/output/agent-phase-2026-11-03/P077/brief-before.md",
+      "research/output/agent-phase-2026-11-03/P077/brief-after.md"
+    ],
+    "nextAction": "Integrate the repaired construction into the research gallery with explicit structural rejection and actual-geometry duplicate checks.",
+    "estimatedWorkTokens": 2200
+  },
+  "review": {
+    "id": "P077",
+    "findings": [
+      "Phase-specific retrieval removes unrelated old geometry text while preserving the complete bounded memory file.",
+      "Measured word reduction is not an exact compute reduction; token/account usage remains unknown."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep failure-ID-selected context and the explicit run-stop instruction in generated briefs.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-03/P077/brief-before.md",
+          "research/output/agent-phase-2026-11-03/P077/brief-after.md"
+        ]
+      }
+    ],
+    "nextImprovement": "Use the shorter brief in the next defined worker handoff; verify real gallery behavior after source integration.",
+    "estimatedReviewTokens": 200
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 2200,
+    "estimatedReviewTokens": 200,
+    "estimatedTotalTokens": 2400,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T14:24:02.871Z",
+  "closedAt": "2026-11-03T14:24:02.901Z"
+}

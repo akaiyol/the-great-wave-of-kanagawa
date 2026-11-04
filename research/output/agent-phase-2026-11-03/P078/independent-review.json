@@ -1,0 +1,15 @@
+{
+  "phase": "P078",
+  "policyVersion": "v2",
+  "verdict": "retain research-gallery adapter",
+  "technical": "Generator/source preservation and matched native SVG rendering supported.",
+  "visual": "Local branches and connected blue bays retained; sparse hooks, regular bands and flat surfaces remain unlike the canonical composition. Whole artwork and user acceptance untested.",
+  "process": [
+    "Preserve failed crop and successful matched-viewport outcomes; discard assumed-offset comparison method.",
+    "Control capture hash was added by lead after reviewer read its earlier receipt snapshot.",
+    "Exact sampled non-repetition does not establish perceptual or infinite uniqueness."
+  ],
+  "estimatedEvaluatorTokens": 2200,
+  "requestedEvaluatorTokens": 1500,
+  "actualTokens": null
+}

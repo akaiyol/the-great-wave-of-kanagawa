@@ -1,0 +1,230 @@
+{
+  "results": [
+    {
+      "seed": 0,
+      "componentCrossings": 0,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 71.22750223647515,
+      "headFits": [
+        {
+          "rootId": "root-1",
+          "attempts": 4,
+          "halfWidth": 0.04311109483829808,
+          "minBodyClearance": 3.0691615951023414
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.10525169638256364,
+          "minBodyClearance": 26.566512491970652
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "componentCrossings": 0,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 70.2734590305887,
+      "headFits": [
+        {
+          "rootId": "root-1",
+          "attempts": 2,
+          "halfWidth": 0.07287129515211528,
+          "minBodyClearance": 3.0228974886999898
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.11386139867518012,
+          "minBodyClearance": 25.6797523542046
+        }
+      ]
+    },
+    {
+      "seed": 721,
+      "componentCrossings": 0,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 77.0094656509302,
+      "headFits": [
+        {
+          "rootId": "root-2",
+          "attempts": 0,
+          "halfWidth": 0.055817465784427714,
+          "minBodyClearance": 2.7968422194360913
+        },
+        {
+          "rootId": "root-1",
+          "attempts": 0,
+          "halfWidth": 0.055817465784427714,
+          "minBodyClearance": 19.667788091624153
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.09663680765392671,
+          "minBodyClearance": 17.911869296711217
+        }
+      ]
+    },
+    {
+      "seed": 1847,
+      "componentCrossings": 0,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 78.00594374394825,
+      "headFits": [
+        {
+          "rootId": "root-2",
+          "attempts": 0,
+          "halfWidth": 0.05293489486369337,
+          "minBodyClearance": 4.335766434683574
+        },
+        {
+          "rootId": "root-1",
+          "attempts": 0,
+          "halfWidth": 0.05293489486369337,
+          "minBodyClearance": 20.519008707524886
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.09677949475525086,
+          "minBodyClearance": 21.943807650515748
+        }
+      ]
+    },
+    {
+      "seed": 13891,
+      "componentCrossings": 0,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 64.29431856452902,
+      "headFits": [
+        {
+          "rootId": "root-1",
+          "attempts": 3,
+          "halfWidth": 0.05289656115115601,
+          "minBodyClearance": 2.3683748944836736
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.10331359599835156,
+          "minBodyClearance": 25.755041269989405
+        }
+      ]
+    },
+    {
+      "seed": 4294967295,
+      "componentCrossings": 0,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 75.59735023949682,
+      "headFits": [
+        {
+          "rootId": "root-2",
+          "attempts": 0,
+          "halfWidth": 0.06060945263674405,
+          "minBodyClearance": 3.0892534973855983
+        },
+        {
+          "rootId": "root-1",
+          "attempts": 0,
+          "halfWidth": 0.06060945263674405,
+          "minBodyClearance": 22.300839180711304
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.09757798132640552,
+          "minBodyClearance": 19.233464999026754
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "componentCrossings": 2,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 74.4593265465596,
+      "headFits": [
+        {
+          "rootId": "root-3",
+          "attempts": 0,
+          "halfWidth": 0.03962540667402046,
+          "minBodyClearance": 6.921147920356889
+        },
+        {
+          "rootId": "root-2",
+          "attempts": 0,
+          "halfWidth": 0.03962540667402046,
+          "minBodyClearance": 17.841681412423558
+        },
+        {
+          "rootId": "root-1",
+          "attempts": 0,
+          "halfWidth": 0.04589982035745023,
+          "minBodyClearance": 18.153925373602075
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.07364383925655747,
+          "minBodyClearance": 20.775411355413905
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "componentCrossings": 4,
+      "outside": 0,
+      "headFailures": 0,
+      "rootFailures": 0,
+      "monotone": true,
+      "minCorridor": 74.38885695576599,
+      "headFits": [
+        {
+          "rootId": "root-3",
+          "attempts": 0,
+          "halfWidth": 0.035688822387863056,
+          "minBodyClearance": 6.549157135336042
+        },
+        {
+          "rootId": "root-2",
+          "attempts": 0,
+          "halfWidth": 0.035688822387863056,
+          "minBodyClearance": 17.66576643364421
+        },
+        {
+          "rootId": "root-1",
+          "attempts": 0,
+          "halfWidth": 0.045803912060081046,
+          "minBodyClearance": 17.815495391104264
+        },
+        {
+          "rootId": "root-0",
+          "attempts": 0,
+          "halfWidth": 0.0737001252947333,
+          "minBodyClearance": 20.83128426380287
+        }
+      ]
+    }
+  ]
+}

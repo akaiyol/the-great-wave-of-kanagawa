@@ -192,11 +192,16 @@ function buildBrief(root) {
     if (record?.result && ['lastDecision', 'nextAction'].includes(key)) continue;
     if (state[key]) lines.push(`State ${key}: ${line(state[key])}`);
   }
+  if (state.runAuthorization?.stopRemainingPercent !== undefined) {
+    lines.push(`Run authorization: ${line(state.runAuthorization.instruction)} No purchases, resets or waiting for a reset.`);
+  }
+  const relevant = new Set([...(record?.failureIds ?? []), 'delivery.no-artifact', 'evaluation.scope-inflation']);
   lines.push('', 'Scoped lessons:');
   for (const lesson of memory.lessons) {
-    if (lesson.status === 'archived') continue;
+    if (lesson.status === 'archived' || !relevant.has(lesson.id)) continue;
     lines.push(`- ${line(lesson.id)}: ${line(lesson.lesson)} Re-entry: ${line(lesson.reentryCondition)} Evidence: ${line((lesson.evidence ?? []).slice(0, 3).join(', '))}`);
   }
+  lines.push('Other lessons remain in research/agent-memory.json; retrieve by failure ID only when relevant.');
   const brief = lines.join('\n') + '\n';
   return brief;
 }

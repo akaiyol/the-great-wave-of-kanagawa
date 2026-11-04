@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "P078",
+  "objective": "Adopt the repaired whole-crest generator in the research gallery while retaining deterministic collections and explicit rejected-candidate diagnostics.",
+  "hypothesis": "A small adapter with actual combined-geometry signatures and current structural checks can expose iteration progress without reviving sprite templates or hiding invalid constructions.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "water.ordered-bay",
+    "delivery.no-artifact"
+  ],
+  "baseline": "P076eightfixture repair reviewed; generated-gallery currently still uses older unbranched model.",
+  "artifactTarget": "src/procedural/study.mjs",
+  "plannedTokens": 15000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 14250,
+    "reviewTokens": 750
+  },
+  "startedAt": "2026-11-03T14:24:02.927Z",
+  "result": {
+    "id": "P078",
+    "summary": "Research gallery now uses repaired whole-crest geometry with combined-geometry duplicate signatures, scoped SVG clipping IDs and explicit structural rejection reasons. Eight browser behavior groups passed, 24 sampled geometries had no exact repeat, and matched 1440x960 seed721 rendering equals the reviewed control. Final focused suite passes38/38. Independent review retains adapter only; artwork remains unaccepted.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "src/procedural/study.mjs",
+      "src/procedural/study.test.mjs",
+      "research/output/procedural-wave-2026-10-30/P078/receipt.json",
+      "research/output/agent-phase-2026-11-03/P078/independent-review.json"
+    ],
+    "nextAction": "Test a specific whole-crest foam hierarchy hypothesis against canonical reference with matched native-scale captures before wider checks.",
+    "estimatedWorkTokens": 20000
+  },
+  "review": {
+    "id": "P078",
+    "findings": [
+      "Defined adapter ownership delivered working source and browser behavior; independent review supports adoption within research scope.",
+      "An assumed screenshot offset caused a false mismatch; matched SVG viewports and direct markup comparison resolved it without changing geometry.",
+      "Phase work is estimated above plan after integration, interruption recovery and rendering diagnosis; evaluator estimated2200 versus1500requested. Exact usage unavailable."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep adapter and scoped uniqueness claims; preserve both comparison outcomes.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P078/receipt.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Match SVG viewport and transform explicitly before pixel-equivalence comparisons; capture hash is now included.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P078/receipt.json",
+          "research/output/agent-phase-2026-11-03/P078/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Declare one source-led whole-crest hypothesis and use one discriminating native view before broad tests.",
+    "estimatedReviewTokens": 650
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 20000,
+    "estimatedReviewTokens": 650,
+    "estimatedTotalTokens": 20650,
+    "estimatedWorkOverrun": 5750,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 5650
+  },
+  "resultAt": "2026-11-04T00:37:32.457Z",
+  "closedAt": "2026-11-04T00:37:32.492Z"
+}

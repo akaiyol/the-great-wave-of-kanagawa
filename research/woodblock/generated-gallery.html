@@ -4,18 +4,15 @@
 html,body{margin:0;background:#ded4ba;color:#23485f;font:15px Georgia,serif}main{max-width:1440px;margin:auto}main.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:16px}svg{display:block;width:100%;height:auto}figure{margin:0}a{color:inherit;text-decoration:none}figcaption{padding:8px;display:flex;justify-content:space-between;font-size:13px}figcaption span{opacity:.7}footer{max-width:1408px;margin:0 auto;padding:12px 16px 24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}button{font:inherit;background:#eeecd5;color:inherit;border:1px solid #708081;border-radius:3px;padding:10px 18px;cursor:pointer}button:disabled{cursor:wait}button:focus-visible,a:focus-visible{outline:2px solid #23485f;outline-offset:3px}#status{font-size:13px}#scope{font-size:13px;opacity:.75;margin:0}@media(max-width:700px){main.gallery{grid-template-columns:1fr}}
 </style>
 <main id="view" aria-label="Generated wave studies"></main>
-<footer><button id="new">New waves</button><span id="status" role="status"></span><p id="scope">Shape study · woodblock detail is still in progress.</p></footer>
+<footer><button id="new">New waves</button><span id="status" role="status"></span><p id="scope">One procedural curl family · woodblock detail is still in progress.</p></footer>
 <script type="module">
-import{generateWave,waveSvg,normalizedGeometry}from'../../src/procedural/rolled-front.mjs';
+import{generateWave,waveSvg,normalizedGeometry}from'../../src/procedural/study.mjs';
 import{hash}from'../../src/random.mjs';
 const fixtures=[0,1,721,1847,13891,4294967295],view=document.querySelector('#view'),button=document.querySelector('#new'),status=document.querySelector('#status');
 const api=window.generatedGallery={ready:false,waves:[],descriptors:[],fingerprints:[],rejectedCandidates:[],error:null,scope:'One procedural curl family; artistic acceptance and world generation remain open.'};
 const uint=n=>Number.isInteger(n)&&n>=0&&n<=4294967295;
-const signature=w=>JSON.stringify(normalizedGeometry({...w,inkSeams:[]}));
-function structural(w){
- const t=w.foamTopology,c=w.continuity,b=w.profile.bounds;
- return t.finite&&t.bodyAndCapBoundaryCrossings===0&&t.openHollow.every(p=>!p.waterHits&&!p.foamHits&&!p.boundaryCrossings&&p.minSegmentClearance>0)&&t.bayWaterContinuity.every(p=>!p.outsideBody&&!p.insideFoam)&&!t.tongueOutsideFoam&&c.finite&&!c.transverseCrossings&&c.maxJoinPositionError<1e-8&&c.maxJoinDerivativeError<1e-8&&w.profile.jacobianLowerBound>0&&b.minX>=-1e-6&&b.maxX<=1200+1e-6&&b.minY>=0&&b.maxY<=800;
-}
+const signature=w=>JSON.stringify(normalizedGeometry(w));
+const structural=w=>w.valid;
 let collection=fixtures.slice(),revision=0,counter=0,initialized=false;
 const salt=crypto.getRandomValues(new Uint32Array(1))[0],initialSeeds=new Set(fixtures);
 function publish(waves,seeds,detail){
@@ -26,7 +23,7 @@ function publish(waves,seeds,detail){
 }
 function load(){
  revision++;api.ready=false;api.rejectedCandidates=[];
- try{const q=new URLSearchParams(location.search),seeds=q.has('set')?q.get('set').split(',').map(Number):fixtures.slice();if(seeds.length!==6||!seeds.every(uint)||new Set(seeds).size!==6)throw Error('link');if(!initialized)seeds.forEach(s=>initialSeeds.add(s));const detail=q.has('seed'),selected=detail?[Number(q.get('seed'))]:seeds;if(!selected.every(uint))throw Error('link');if(!initialized)selected.forEach(s=>initialSeeds.add(s));const waves=selected.map(generateWave);if(!waves.every(structural))throw Error('geometry');publish(waves,seeds,detail);initialized=true;}
+ try{const q=new URLSearchParams(location.search),seeds=q.has('set')?q.get('set').split(',').map(Number):fixtures.slice();if(seeds.length!==6||!seeds.every(uint)||new Set(seeds).size!==6)throw Error('link');if(!initialized)seeds.forEach(s=>initialSeeds.add(s));const detail=q.has('seed'),selected=detail?[Number(q.get('seed'))]:seeds;if(!selected.every(uint))throw Error('link');if(!initialized)selected.forEach(s=>initialSeeds.add(s));const waves=selected.map(generateWave);api.rejectedCandidates=waves.filter(w=>!structural(w)).map(w=>({seed:w.seed,reason:w.reasons}));if(api.rejectedCandidates.length)throw Error('geometry');publish(waves,seeds,detail);initialized=true;}
  catch(e){view.innerHTML='';status.textContent=e.message==='link'?'This wave link is not valid.':'This wave could not be built. Choose New waves to try another set.';Object.assign(api,{ready:true,waves:[],error:e.message});button.disabled=false;}
 }
 button.addEventListener('click',async()=>{
@@ -35,9 +32,9 @@ button.addEventListener('click',async()=>{
  try{const waves=[],seeds=[],seen=new Set(api.waves.map(signature)),rejected=[];
  for(let attempt=0;waves.length<6&&attempt<48;attempt++){
   if(counter>4294967295)throw Error('exhausted');const seed=hash(salt,counter++);if(initialSeeds.has(seed))continue;
-  const w=generateWave(seed);if(!structural(w)){rejected.push({seed,reason:'structural constraint'});continue;}const key=signature(w);if(seen.has(key)){rejected.push({seed,reason:'duplicate normalized base geometry'});continue;}seen.add(key);seeds.push(seed);waves.push(w);
+  const w=generateWave(seed);if(!structural(w)){rejected.push({seed,reason:w.reasons});continue;}const key=signature(w);if(seen.has(key)){rejected.push({seed,reason:'duplicate normalized geometry'});continue;}seen.add(key);seeds.push(seed);waves.push(w);
  }
- if(waves.length!==6)throw Error('generation');if(ticket!==revision)return;
+ api.rejectedCandidates=rejected;if(waves.length!==6)throw Error('generation');if(ticket!==revision)return;
  const url=new URL(location.href);url.search='?set='+seeds.join(',');history.pushState(null,'',url);publish(waves,seeds,false);api.rejectedCandidates=rejected;
  }catch(e){api.ready=true;api.error=e.message;status.textContent='Could not build a new set. Please try again.';}
  finally{if(ticket===revision){button.disabled=false;button.textContent='New waves';}}

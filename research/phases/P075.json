@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "P075",
+  "objective": "Correct ordered bay entry for the fixed two-root failures without weakening fixtures.",
+  "hypothesis": "Matching the mouth's final chart tangent to the first head, without longitudinal overshoot, keeps the seam inside the water body across root counts.",
+  "failureIds": [
+    "water.ordered-bay",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P074two-root0/1/13891have2capcrossings and outside-bodyseam points;5other fixtures pass.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P075/checks.json",
+  "plannedTokens": 9000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 8550,
+    "reviewTokens": 450
+  },
+  "startedAt": "2026-11-03T10:58:00.306Z",
+  "result": {
+    "id": "P075",
+    "summary": "Specified radial-tangent mouth fix failed: two-root failures remain and four previously passing fixtures gain crossings. Worker stopped at first failed matrix, no extra tuning. Patch reverted to P073/P074 baseline; outside-point trace saved.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P075/checks.json",
+      "research/output/procedural-wave-2026-10-30/P075/outside-trace.json"
+    ],
+    "nextAction": "Use actual body containment/clearance in ordered coordinates to constrain the inner seam; stop unconstrained control-point tuning.",
+    "estimatedWorkTokens": 3500
+  },
+  "review": {
+    "id": "P075",
+    "findings": [
+      "The defined worker patch delivered evidence quickly and stopped on failure; no speculative expansion.",
+      "Mouth-tangent adjustment does not remove the original failure; actual body-surface availability must constrain the chart seam."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Revert P075 control change; keep exact failing fixtures and traces.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P075/checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Change from hand-tuned controls to body-constrained chart geometry; no third nearby mouth tweak.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P075/outside-trace.json"
+        ]
+      }
+    ],
+    "nextImprovement": "P076derive radial clearance constraints and validate full inner boundary against the real body.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3500,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 3800,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T10:59:40.186Z",
+  "closedAt": "2026-11-03T10:59:40.215Z"
+}

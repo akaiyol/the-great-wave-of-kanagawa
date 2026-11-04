@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "P076",
+  "objective": "Constrain ordered bay geometry to the water body's available radial interval across seeded root counts.",
+  "hypothesis": "A monotone head profile plus a body-clearance-constrained entry path prevents the two-root boundary crossings without hand-tuned control points.",
+  "failureIds": [
+    "water.ordered-bay",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P074/P075fixed two-root failures0/1/13891; simple mouth-control tuning rejected.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P076/checks.json",
+  "plannedTokens": 16000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 15200,
+    "reviewTokens": 800
+  },
+  "startedAt": "2026-11-03T12:06:27.081Z",
+  "result": {
+    "id": "P076",
+    "summary": "Body-constrained head widths and entry paths repair all8fixedfixtures. Sampling every head/cove knot fixes narrow-cove bridging. Initial body-hugging path's V-wedge rejected; smooth desired trajectory constrained only as needed is retained by independent review in3nativecases.10regression tests pass; legacySVGexact.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P076/checks.json",
+      "research/output/procedural-wave-2026-10-30/P076/first-checks.json",
+      "research/output/procedural-wave-2026-10-30/P076/revised/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P076/revised/seed0.png",
+      "research/output/procedural-wave-2026-10-30/P076/revised/seed721.png",
+      "research/output/procedural-wave-2026-10-30/P076/revised/seed5.png",
+      "research/output/agent-phase-2026-11-03/P076/visual-review.json",
+      "src/procedural/integrated-crest.test.mjs"
+    ],
+    "nextAction": "Retain repaired construction; reduce irrelevant startup lessons, then integrate into research gallery before richer foam/water hierarchy.",
+    "estimatedWorkTokens": 14000
+  },
+  "review": {
+    "id": "P076",
+    "findings": [
+      "First numerical fix found a dense-cove sampling failure, then valid geometry revealed a V-shaped visual regression; both are retained rather than erased.",
+      "A broad textual patch hit the wrong block and caused a syntax error; restored source plus context-specific patch corrected it before validation.",
+      "Current generated brief includes every active lesson even when irrelevant; filter by phase failureIDs to reduce repeated context cost."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep fixed cases and visual-before-promotion checks; all8structural fixtures and3nativeviews now support the local repair.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-03/P076/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Use context-specific source patches and include all constraint extrema in sampling.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P076/patch-error/note.json",
+          "research/output/procedural-wave-2026-10-30/P076/first-checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Generate briefs from current failure IDs plus essential delivery/scope rules; keep other lessons retrievable by link.",
+        "evidence": [
+          "research/agent-brief.md"
+        ]
+      }
+    ],
+    "nextImprovement": "P077phase-specific brief filtering, then gallery adoption of the repaired construction.",
+    "estimatedReviewTokens": 650
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 14000,
+    "estimatedReviewTokens": 650,
+    "estimatedTotalTokens": 14650,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T14:21:50.538Z",
+  "closedAt": "2026-11-03T14:21:50.568Z"
+}

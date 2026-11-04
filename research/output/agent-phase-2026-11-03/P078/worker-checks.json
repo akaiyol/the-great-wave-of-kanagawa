@@ -1,0 +1,70 @@
+{
+  "phase": "P078",
+  "policyVersion": "v2",
+  "status": "adapter and gallery ready for lead browser verification",
+  "artifacts": [
+    "src/procedural/study.mjs",
+    "src/procedural/study.test.mjs",
+    "research/woodblock/generated-gallery.html"
+  ],
+  "sourceHashes": {
+    "src/procedural/study.mjs": "08768f959833d1250e3a2833e13d53f4f0170d2a3d57c47c4ad86a00d7ca155e",
+    "src/procedural/study.test.mjs": "87708be4a7edd34e4aaa3b27d60fbe56009c25c33564584f7fa92da81a58b0b8",
+    "research/woodblock/generated-gallery.html": "526be854937d02aa2b402e96d39299d1c2d727651fe4ffde30e1b0bcb24be34d"
+  },
+  "checks": [
+    {
+      "command": "node --test src/procedural/study.test.mjs",
+      "passed": 15,
+      "failed": 1,
+      "failure": "Test assumed retained fixture ink; all-group grafts remove all original child seams."
+    },
+    {
+      "command": "node --test --test-name-pattern='current ink points' src/procedural/study.test.mjs",
+      "passed": 1,
+      "failed": 0,
+      "change": "Corrected test supplies an explicit seam input; verifies points and width affect the actual normalized signature."
+    },
+    {
+      "command": "git diff --check -- src/procedural/study.mjs src/procedural/study.test.mjs research/woodblock/generated-gallery.html",
+      "exitCode": 0
+    }
+  ],
+  "fixtureSeeds": [
+    0,
+    1,
+    721,
+    1847,
+    13891,
+    4294967295,
+    5,
+    11
+  ],
+  "observed": {
+    "allEightStructurallyValid": true,
+    "defaultSixActualSignaturesDistinct": true,
+    "deterministicGeometry": true,
+    "metadataDoesNotDistinguishSignatures": true,
+    "bodyAndFoamBranchChangesDistinguishSignatures": true,
+    "invalidSeedInputsThrowWithoutFallback": true,
+    "fullUnionHeadWitnesses": true,
+    "parentWitnessesInsideBaseFoam": true,
+    "svgClipIdsScopedBySeed": true,
+    "failedGenerationBatchPersistsRejectedCandidates": true
+  },
+  "limits": [
+    "No full-suite rerun after localized test correction; unchanged 15 passing checks retained.",
+    "No browser capture or interaction validation by worker.",
+    "No whole-crest artistic acceptance or perceptual uniqueness claim."
+  ],
+  "missingEvidence": [
+    "lead browser verification",
+    "independent visual review"
+  ],
+  "accounting": {
+    "basis": "estimated",
+    "estimatedWorkerTokens": 6000,
+    "actualTokens": null,
+    "processReviewReservedToLead": true
+  }
+}

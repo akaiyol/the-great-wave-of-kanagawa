@@ -1,0 +1,28 @@
+{
+  "iteration": "P076",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "errors": [],
+  "sourceHashes": {
+    "research/woodblock/integrated-crest.html": "7b23230bce8f41273b76ec089019ef9a7647576c44049e1da3bed5079e372222",
+    "src/procedural/branch-patch.mjs": "26f2972e346c93f1111d446c5dad6ebf82a493a9a011bf4c2232e8b775d3a67a",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/geometry.test.mjs": "6979873e1b6e6f080ba5af146e98e537ffe73dcb09622112bc9986e3df213ce9",
+    "src/procedural/integrated-crest.mjs": "03dc2362314d233e1c169285104ee2b4c3b7c709e1368106bfa618860e2d327d",
+    "src/procedural/integrated-crest.test.mjs": "e59cf3fd771b9f05e91651c167afa7adb30b84f7690059aabd3525059084a459",
+    "src/procedural/ordered-bay.mjs": "1ea9d457b47fc03c6b8e6570b522a29de906ebb57d3b554ac8cb0ee2dd1bb151",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "src/procedural/rolled-front.test.mjs": "db470b29513d281ab2fc8459be34a247d462b7fa206134bee6e7e94a57084b7b",
+    "src/procedural/surface-chart.test.mjs": "11ef5ce7554d2c463897485e7b55a0dd181cd9908e8dd8e9a607413af7163a6c",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "seed0.png": "2db724198c3d14b80910a81ad2a2d85200d7061d64b4b5db20d27eda28355a83",
+    "seed721.png": "cae969e5e448e8619927b566796e680b400831686a8838c378eee9c151ef9070",
+    "seed5.png": "a4dc6dee8a72ed9f753d856ef7572b0d176a41114b69d2e6c743b7db54e3b46f"
+  }
+}

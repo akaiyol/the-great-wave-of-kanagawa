@@ -1,0 +1,1 @@
+{"error":"An unscoped textual replacement matched the head-width gap rather than the entry gap, causing a syntax error.","correction":"Restored the frozen source and used a context-specific patch; syntax check passed before rerunning tests.","scope":"editing error, not a geometry-method failure"}

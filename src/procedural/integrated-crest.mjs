@@ -1,5 +1,6 @@
 // W063: opt-in one-group replacement with continuous parent-flank attachment.
 import {generateWave} from './rolled-front.mjs';
+import {buildOrderedBay} from './ordered-bay.mjs';
 import {lerp,cubicBezier,cubicTangent,taperedRibbon,pointInPolygon,polygonClearance,polygonSelfCrossings,segmentsCross} from './geometry.mjs';
 const unit=v=>v.map(x=>x/Math.hypot(...v));
 const dot=(a,b)=>a.reduce((s,x,k)=>s+x*b[k],0);
@@ -105,35 +106,11 @@ export function generateIntegratedCrest(seed=721,groupCount=1,variant='legacy'){
   result.push(...polygon.slice(cursor));
   return result;
  };
- let innerBayHeads=[],newBaySeam=[];
- let capSource=wave.cap;
- if(variant==='interlocked'){
-  const chart=wave.surfaceChart;
-  const plans=grafts.map(g=>{const [u,r]=chart.inverseFront(g.branches[0].controls[0]);return{rootId:g.group.rootId,u,r:r-18};}).sort((a,b)=>b.u-a.u);
-  innerBayHeads=plans.map((h,i)=>{
-   const gaps=plans.filter((_,j)=>j!==i).map(q=>Math.abs(q.u-h.u));
-   const halfWidth=Math.max(.025,Math.min(.13,Math.min(...gaps)*.27));
-   return{...h,halfWidth,head:chart.map(h.u,h.r),witness:chart.map(h.u,h.r-2)};
-  });
-  const end=wave.frontGraph.at(-1),index=wave.cap.findIndex(p=>same(p,end)),prefix=wave.cap.slice(0,index+25);
-  newBaySeam=[prefix.at(-1)];let position=[.2,135];
-  const edge=(b,c,e)=>{const a=position;for(let i=1;i<=32;i++)newBaySeam.push(chart.map(...cubicBezier(a,b,c,e,i/32)));position=e;};
-  const first=innerBayHeads[0];
-  edge([.65,125],[first.u+.22,155],[first.u+first.halfWidth,first.r-15]);
-  for(let i=0;i<innerBayHeads.length;i++){
-   const h=innerBayHeads[i],w=h.halfWidth;
-   edge([h.u+w,h.r+8],[h.u-w*.65,h.r+10],[h.u-w,h.r-12]);
-   if(i+1<innerBayHeads.length){
-    const next=innerBayHeads[i+1],mid=(h.u+next.u)/2,depth=Math.min(h.r,next.r)-38;
-    edge([h.u-w*.9,h.r-30],[mid+.03,depth+3],[mid,depth]);
-    edge([mid-.03,depth+4],[next.u+next.halfWidth,next.r-28],[next.u+next.halfWidth,next.r-14]);
-   }
-  }
-  const last=innerBayHeads.at(-1);
-  edge([last.u-.25,last.r-12],[-.22,217],[-.6,210]);
-  capSource=[...prefix,...newBaySeam.slice(1),...wave.cap.slice(-24)];
- }
- const baseBody=replaceAll(wave.body),baseFoam=replaceAll(capSource);
+ const baseBody=replaceAll(wave.body);
+ const bay=variant==='interlocked'?buildOrderedBay(wave,grafts,baseBody):null;
+ const innerBayHeads=bay?.heads??[],newBaySeam=bay?.seam??[];
+ const capSource=bay?.cap??wave.cap;
+ const baseFoam=replaceAll(capSource);
  const branches=grafts.flatMap((g,i)=>g.branches.map(b=>({...b,id:`group-${i}-${b.id}`,parentId:b.parentId==='cap'?'cap':`group-${i}-${b.parentId}`})));
  const shared=branches.map(b=>b.points),bodyPolygons=[baseBody,...shared],foamPolygons=[baseFoam,...shared];
  const removedIds=grafts.flatMap(g=>g.diagnostics.removedChildIds);
@@ -153,7 +130,7 @@ export function generateIntegratedCrest(seed=721,groupCount=1,variant='legacy'){
   for(const poly of bodyPolygons)for(let i=0;i<poly.length;i++)routeCrossings+=+segmentsCross(interGroupRoute[k-1],interGroupRoute[k],poly[i],poly[(i+1)%poly.length]);
   for(let j=0;j<=64;j++){const p=lerp(interGroupRoute[k-1],interGroupRoute[k],j/64);routeSamples++;routeHits+=+bodyPolygons.some(poly=>pointInPolygon(p,poly));routeMinClearance=Math.min(routeMinClearance,...bodyPolygons.map(poly=>polygonClearance(p,poly)));}
  }
- const diagnostics={variant,innerBaySeamOutsideBody:newBaySeam.filter(p=>!bodyPolygons.some(poly=>pointInPolygon(p,poly))&&Math.min(...bodyPolygons.map(poly=>polygonClearance(p,poly)))>.1).length,waterTongues:waterTongueDiagnostics,foamRootKept,declaredInterGroupRoute:{points:interGroupRoute,samples:routeSamples,bodyHits:routeHits,boundaryCrossings:routeCrossings,minClearance:routeMinClearance,scope:'seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof'},scope:'selected whole-wave crest groups; retained original junctions; sky topology unproven',groups:grafts.map(g=>({root:g.group.rootId,range:[g.group.startIndex,g.group.endIndex],collar:g.diagnostics.collar,localAttachments:g.diagnostics.attachments})),simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedGeometryError:0,interGroupSky:'declared route sampled; whole sky topology unproven',localCovesAgainstCombinedUnion:grafts.map(g=>({root:g.group.rootId,bodyHits:g.covePath.filter(p=>bodyPolygons.some(poly=>pointInPolygon(p,poly))).length})),retainedInk:inkSeams.length};
+ const diagnostics={variant,bayConstraints:bay?.diagnostics??null,innerBaySeamOutsideBody:newBaySeam.filter(p=>!bodyPolygons.some(poly=>pointInPolygon(p,poly))&&Math.min(...bodyPolygons.map(poly=>polygonClearance(p,poly)))>.1).length,waterTongues:waterTongueDiagnostics,foamRootKept,declaredInterGroupRoute:{points:interGroupRoute,samples:routeSamples,bodyHits:routeHits,boundaryCrossings:routeCrossings,minClearance:routeMinClearance,scope:'seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof'},scope:'selected whole-wave crest groups; retained original junctions; sky topology unproven',groups:grafts.map(g=>({root:g.group.rootId,range:[g.group.startIndex,g.group.endIndex],collar:g.diagnostics.collar,localAttachments:g.diagnostics.attachments})),simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedGeometryError:0,interGroupSky:'declared route sampled; whole sky topology unproven',localCovesAgainstCombinedUnion:grafts.map(g=>({root:g.group.rootId,bodyHits:g.covePath.filter(p=>bodyPolygons.some(poly=>pointInPolygon(p,poly))).length})),retainedInk:inkSeams.length};
  return{seed,wave,grafts,groupCount,baseBody,baseFoam,bodyPolygons,foamPolygons,waterChannels,innerBayHeads,branches,inkSeams,diagnostics};
 }
 const pt=p=>p.map(x=>x.toFixed(2)).join(',');

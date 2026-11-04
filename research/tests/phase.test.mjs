@@ -12,7 +12,7 @@ function fixture(t) {
   fs.mkdirSync(path.join(root, 'research'), { recursive: true });
   const state = { schemaVersion: 3, retainedCandidate: 'W064', lastDecision: 'Keep local continuity', nested: { preserve: true } };
   fs.writeFileSync(path.join(root, 'research/agent-state.json'), JSON.stringify(state));
-  fs.writeFileSync(path.join(root, 'research/agent-memory.json'), JSON.stringify({ lessons: [{ id: 'delivery', lesson: 'Save first artifact', reentryCondition: 'Next phase' }] }));
+  fs.writeFileSync(path.join(root, 'research/agent-memory.json'), JSON.stringify({ lessons: [{ id: 'delivery.no-artifact', lesson: 'Save first artifact', reentryCondition: 'Next phase' }] }));
   fs.writeFileSync(path.join(root, 'evidence.txt'), 'Observed check result');
   return { root, state, read: file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8')) };
 }
@@ -144,7 +144,7 @@ test('brief uses current decisions and bounded lessons without historical log re
   assert.match(brief, /P001 \(closed\)/);
   assert.match(brief, /Decision \(retain\): Keep explicit review gate/);
   assert.match(brief, /Next improvement: Apply gate to next phase/);
-  assert.match(brief, /delivery: Save first artifact/);
+  assert.match(brief, /delivery.no-artifact: Save first artifact/);
   assert.doesNotMatch(brief, /HISTORICAL_SENTINEL/);
   assert.equal(fs.readFileSync(path.join(root, 'research/agent-brief.md'), 'utf8'), brief);
   fs.writeFileSync(path.join(root, 'research/agent-memory.json'), JSON.stringify({ lessons: Array(13).fill({}) }));
@@ -179,4 +179,17 @@ test('CLI transitions use the same reviewed ordering and refresh contract', t =>
  artifact(root);invoke('result',result());invoke('review',review());
  assert.equal(JSON.parse(execFileSync(process.execPath,[cli,'check'],{stdio:'pipe'})).status,'closed');
  assert.match(fs.readFileSync(path.join(root,'research/agent-brief.md'),'utf8'),/P001 \(closed\)/);
+});
+
+test('brief selects current failure IDs plus core rules and carries run authorization',t=>{
+ const {root,read}=fixture(t);
+ const memory=read('research/agent-memory.json');
+ memory.lessons.push({id:'review.missing',lesson:'MATCHED_LESSON',reentryCondition:'Review first'},{id:'geometry.unrelated',lesson:'UNRELATED_SENTINEL',reentryCondition:'Other phase'});
+ fs.writeFileSync(path.join(root,'research/agent-memory.json'),JSON.stringify(memory));
+ const state=read('research/agent-state.json');state.runAuthorization={stopRemainingPercent:0,instruction:'Continue until0%usage for this run.'};
+ fs.writeFileSync(path.join(root,'research/agent-state.json'),JSON.stringify(state));
+ startPhase(root,spec());const brief=generateBrief(root);
+ assert.match(brief,/MATCHED_LESSON/);assert.match(brief,/delivery.no-artifact/);assert.match(brief,/Continue until0%usage/);
+ assert.doesNotMatch(brief,/UNRELATED_SENTINEL/);
+ assert.equal(read('research/agent-memory.json').lessons.length,3,'filtering must not delete history');
 });

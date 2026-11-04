@@ -1,0 +1,160 @@
+{
+  "iteration": "P078",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    1000
+  ],
+  "dpr": 1,
+  "checks": [
+    "Default six fixtures render",
+    "Gallery uses the current repaired whole-crest generator",
+    "Six SVGs have unique clipping IDs",
+    "Three New waves sets:24 total seeds/base geometries without exact repeats in this run",
+    "Generated URL reproduces the exact set on reload",
+    "Browser Back restores generated set",
+    "Wave detail and All waves preserve collection",
+    "Invalid seed is an explicit link error, no static fallback"
+  ],
+  "errors": [],
+  "sets": [
+    {
+      "url": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=2460932042,826468449,2029309626,3032154281,4188658426,1309262151",
+      "seeds": [
+        2460932042,
+        826468449,
+        2029309626,
+        3032154281,
+        4188658426,
+        1309262151
+      ],
+      "full": [
+        "3385fdd5",
+        "412da325",
+        "43aca435",
+        "bb89fc9e",
+        "e024d6b3",
+        "351686c2"
+      ],
+      "base": [
+        "ae8d687c68d2161fac46ff7de676cbff51da99b49b55a7b3a90bdd31d9187575",
+        "961943c6a0b16cc30fc97e222c65273587935e9e6d7889c5d9321dbea3254618",
+        "170bbb5d554ae2edab1f5e25f8728cfc2dbbeb08c962f9261adca1fbdc041b85",
+        "d21d8fb4e772de769a390d7f98df980f6f14b4f96d77fde3695084170ec1122f",
+        "67de21203da2a3aaf0268cc0e042dfe1d3b5aea20633ff57ed40426267ca49c4",
+        "a341481df237d0300017656e68b282642c7930e575944d4fc3afb9357cd88a98"
+      ],
+      "error": null,
+      "rejected": []
+    },
+    {
+      "url": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=1521099629,2374806465,2442037172,3808498459,3123849963,2010672476",
+      "seeds": [
+        1521099629,
+        2374806465,
+        2442037172,
+        3808498459,
+        3123849963,
+        2010672476
+      ],
+      "full": [
+        "0567d35d",
+        "302732a2",
+        "a8b61f70",
+        "862dc9d5",
+        "15659241",
+        "af64fa3e"
+      ],
+      "base": [
+        "8da65a59ae61488c3aefe868e64b1b846b00ec60dc4719d86a8785275cdd5a6c",
+        "fda383e5ea52d342298b51e36840d0e8584e4048bb9e1681ac68d9453ecc758f",
+        "7fb365fa90d9eedd3edb015b14722a0c9f618d894a8b9304b33f3798216f6663",
+        "4aaf26e6cd6d34656821981e9c17df6da563c483faea65b76294efee5304819c",
+        "4f647e94ca5c66a65450cf07d4941501c59758c04e5e73ce404de7fa882960bf",
+        "84bf76cdac45d7cc42f14e975c24e9a4f9305f5b09a10452b46f3fa057707e99"
+      ],
+      "error": null,
+      "rejected": []
+    },
+    {
+      "url": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=4093325301,2101071410,4076889153,1679903558,1963742602,909241241",
+      "seeds": [
+        4093325301,
+        2101071410,
+        4076889153,
+        1679903558,
+        1963742602,
+        909241241
+      ],
+      "full": [
+        "97160847",
+        "4779c798",
+        "1e4fb3e1",
+        "ac489b80",
+        "d5d74401",
+        "5da0e485"
+      ],
+      "base": [
+        "19cf8c99d2e11d4ac8e4894928cf531626c2bd392542aabcd997de6c5d43971c",
+        "a5ecac612ab7f43b4cf820ce55156111302cabd736765bb00f938ca5ed6466e3",
+        "86faed956f777ade60869ac423e10e3f96459e69af586073deadf3debd4c5209",
+        "33cc214e353c9449ff4f4683dc460c146e353ef74fd015dcf940b608ee8dc799",
+        "a36d2e8a26e7424f0e1b427355a928d8acf5af677d442a2c8d6beeaa52d36ebd",
+        "410932ed1c4003413e715c63f1de30d9aa1f3e986de0100d9ef63949158bbdbf"
+      ],
+      "error": null,
+      "rejected": []
+    }
+  ],
+  "savedURL": "http://127.0.0.1:4187/research/woodblock/generated-gallery.html?set=4093325301,2101071410,4076889153,1679903558,1963742602,909241241",
+  "sourceHashes": {
+    "research/woodblock/generated-gallery.html": "526be854937d02aa2b402e96d39299d1c2d727651fe4ffde30e1b0bcb24be34d",
+    "src/procedural/branch-patch.mjs": "26f2972e346c93f1111d446c5dad6ebf82a493a9a011bf4c2232e8b775d3a67a",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/geometry.test.mjs": "6979873e1b6e6f080ba5af146e98e537ffe73dcb09622112bc9986e3df213ce9",
+    "src/procedural/integrated-crest.mjs": "03dc2362314d233e1c169285104ee2b4c3b7c709e1368106bfa618860e2d327d",
+    "src/procedural/integrated-crest.test.mjs": "e59cf3fd771b9f05e91651c167afa7adb30b84f7690059aabd3525059084a459",
+    "src/procedural/ordered-bay.mjs": "453c3792f93937e830a55e9e9ca3326404a84962836616ce8111352dd550b1b1",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "src/procedural/rolled-front.test.mjs": "db470b29513d281ab2fc8459be34a247d462b7fa206134bee6e7e94a57084b7b",
+    "src/procedural/study.mjs": "08768f959833d1250e3a2833e13d53f4f0170d2a3d57c47c4ad86a00d7ca155e",
+    "src/procedural/study.test.mjs": "87708be4a7edd34e4aaa3b27d60fbe56009c25c33564584f7fa92da81a58b0b8",
+    "src/procedural/surface-chart.test.mjs": "11ef5ce7554d2c463897485e7b55a0dd181cd9908e8dd8e9a607413af7163a6c",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "captures": {
+    "generated-set.png": "6e15758cba7069f04aec6b9e20436cd0cecc2f0fce754406f5db60c35230479a",
+    "default-gallery.png": "dd6d250aebe03fe8bc408b26301c4153a1c20904e70342e0b10e1ceb4c80acba",
+    "detail-seed721.png": "cbe7cca7b6bc5bb622129e26f1786beb8980a1e3c4c622c8c0c2ed70f42398bc",
+    "control-matched.png": "cbe7cca7b6bc5bb622129e26f1786beb8980a1e3c4c622c8c0c2ed70f42398bc"
+  },
+  "scope": "Three sequential randomized sets in one session; exact geometry/seed non-repetition only, not perceptual/infinite uniqueness.",
+  "reviewedControlComparison": {
+    "baseline": "P076/revised/seed721.png",
+    "baselineCrop": [
+      0,
+      20,
+      1440,
+      980
+    ],
+    "current": "detail-seed721.png",
+    "pixelsEqual": false,
+    "note": "Initial crop assumed a 20px letterbox offset; it did not establish equality. A fresh control at the same 1440x960 SVG viewport is compared separately."
+  },
+  "matchedViewportComparison": {
+    "control": "control-matched.png",
+    "gallery": "detail-seed721.png",
+    "viewport": [
+      1440,
+      960
+    ],
+    "pixelsEqual": true,
+    "differenceBounds": null
+  },
+  "finalFocusedChecks": {
+    "command": "node --test src/procedural/study.test.mjs research/tests/phase.test.mjs src/procedural/integrated-crest.test.mjs",
+    "passed": 38,
+    "failed": 0
+  }
+}

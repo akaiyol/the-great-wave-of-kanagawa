@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "P074",
+  "objective": "Check the ordered whole-crest construction across primary and held-out seeded topologies.",
+  "hypothesis": "Surface ordering and fan-relative branches should generalize across root/child counts without static fallback; explicit failures must be retained if not.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.compact-fork-fusion",
+    "water.ordered-bay"
+  ],
+  "baseline": "P073 passes scoped seed721 local hierarchy review; all other seeds remain unverified.",
+  "artifactTarget": "research/output/procedural-wave-2026-10-30/P074/seed-diagnostics.json",
+  "plannedTokens": 10000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-03T10:52:55.288Z",
+  "result": {
+    "id": "P074",
+    "summary": "Eight topology fixtures checked.721/1847/4294967295/5/11pass current structural checks;0/1/13891(two-root cases) have2cap crossings and6–15inner-seam points outsidebody. Raw captures retained, no gallery adoption. External sibling crossings0 in all8.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P074/seed-diagnostics.json",
+      "research/output/procedural-wave-2026-10-30/P074/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P074/seed0.png",
+      "research/output/procedural-wave-2026-10-30/P074/seed1847.png",
+      "research/output/procedural-wave-2026-10-30/P074/seed5.png"
+    ],
+    "nextAction": "Fix the ordered chart mouth entry that overshoots the exterior in the two-root fixtures; keep all8as regression cases.",
+    "estimatedWorkTokens": 3500
+  },
+  "review": {
+    "id": "P074",
+    "findings": [
+      "A broader topology check caught the seed721-only assumption before gallery adoption.",
+      "Failures share the two-root spacing pattern; preserve exact fixtures rather than replacing seeds or adding fallback geometry."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep0/1/13891as fixed failing cases alongside successful dense fixtures5/11/1847.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P074/seed-diagnostics.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Remove longitudinal mouth overshoot and match the entry tangent to the first head's chart direction.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P074/seed0.png"
+        ]
+      }
+    ],
+    "nextImprovement": "P075 bounded mouth-entry fix and8-case structural regression.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3500,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 3800,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-03T10:58:00.249Z",
+  "closedAt": "2026-11-03T10:58:00.278Z"
+}
