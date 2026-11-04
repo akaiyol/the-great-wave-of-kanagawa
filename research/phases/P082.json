@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P082",
+  "objective": "Diagnose long activity gaps and build an independent strategy challenge with evidence-based continue, pivot, reject and defer decisions.",
+  "hypothesis": "Runtime continuity monitoring and pre-experiment strategy review address different failures; deterministic gates plus calibrated independent review can expose both without adding an always-on agent fleet.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "review.context-overhead",
+    "geometry.secondary-prongs"
+  ],
+  "baseline": "Policyv2 has artifact and process review, but no explicit runtime goal before today, no strategy decision contract, and multiple unexplained multi-hour activity gaps.",
+  "artifactTarget": "scripts/strategy.mjs",
+  "plannedTokens": 20000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 19000,
+    "reviewTokens": 1000
+  },
+  "startedAt": "2026-11-04T21:45:30.887Z",
+  "result": {
+    "id": "P082",
+    "summary": "Added independent pre-experiment strategy contracts, evidence pins and phase-start rejection gates plus a metadata-only activity diagnostic.20affected tests pass; real-session diagnostic runs. Power events closely match the multi-hour gaps. Restored90%-used instruction and activated a runtime continuation goal. Existing evaluator gains strategy instructions; README diagram updated. Decision quality and stall recovery are not yet demonstrated.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "scripts/strategy.mjs",
+      "scripts/run-health.mjs",
+      "research/output/agent-phase-2026-11-04/P082/worker-checks.json",
+      "research/output/agent-phase-2026-11-04/P082/activity-audit.json",
+      "research/output/agent-phase-2026-11-04/P082/session-health.json",
+      "research/output/agent-phase-2026-11-04/P082/independent-architecture-review.json",
+      "research/decisions/ADR-004-strategy-challenge-and-continuation.md"
+    ],
+    "nextAction": "Make the two user-defined goals authoritative and enforce README architecture synchronization, then prospectively pilot the strategy gate on artwork.",
+    "estimatedWorkTokens": 30000
+  },
+  "review": {
+    "id": "P082",
+    "findings": [
+      "Sleep events closely match gaps, but activity metadata cannot diagnose all backend delay or recover a sleeping host. Initial coarse audit omitted custom tool events and was corrected.",
+      "Independent strategy challenge supports a minimal pilot; contract tests prove gate behavior, not critical-thinking quality.",
+      "Audit, workflow changes and user steering exceeded the initial phase estimate. Future contracts must keep goal visibility and documentation synchronization in the same change."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep evidence-pinned strategy gates and bounded health reporting with explicit limits.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P082/worker-checks.json",
+          "research/output/agent-phase-2026-11-04/P082/independent-architecture-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Treat the two goals as equal, pin acceptance criteria, and make stale architecture diagrams fail checks.",
+        "evidence": [
+          "README.md",
+          "research/decisions/ADR-004-strategy-challenge-and-continuation.md"
+        ]
+      }
+    ],
+    "nextImprovement": "Use a real independently reviewed next-phase packet; preserve both goals in every startup brief and reject documentation drift.",
+    "estimatedReviewTokens": 950
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 30000,
+    "estimatedReviewTokens": 950,
+    "estimatedTotalTokens": 30950,
+    "estimatedWorkOverrun": 11000,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 10950
+  },
+  "resultAt": "2026-11-04T21:52:53.686Z",
+  "closedAt": "2026-11-04T21:52:53.712Z"
+}

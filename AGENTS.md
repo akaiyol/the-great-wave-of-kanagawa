@@ -25,8 +25,8 @@ Repository: https://github.com/akaiyol/the-great-wave-of-kanagawa
 
 ## Agentic system and mandatory phase review
 
-- Main purpose: an agentic system that improves through evaluations and feedback; Great Wave artwork is its test case. Follow `agents/wave-completion.md` policy v2.
-- Startup reads: `research/agent-brief.md`, `research/agent-state.json`, current linked phase, then relevant IDs in `research/agent-memory.json`. Do not replay historical logs by default.
+- Two equally important goals: a recognizably Hokusai-like procedural ocean built in LingDong's construction spirit, and an efficient evaluated agentic system that reaches that quality. Neither substitutes for the other. Canonical definitions are in `research/project-goals.json`; generated human guidance is in `GOALS.md`. Follow `agents/wave-completion.md` policy v2 and strategy extension v1.
+- Startup reads: `research/agent-brief.md`, `research/agent-state.json`, current linked phase/strategy, then relevant IDs in `research/agent-memory.json`. Both goals and unmet criteria must remain visible in the brief. Read `GOALS.md` at a new run or hypothesis-family change; do not replay historical logs by default.
 - Use `scripts/phase.mjs` for phase start, result and mandatory review. Reserve the final **5% of every planned phase token budget** for assessing process and logs; productive work uses 95%. Review before closing or starting the next phase, including rejected/incomplete attempts, without another user prompt. Actual token telemetry is unavailable unless explicitly provided; label estimates and overruns honestly.
 - Default architecture: lead-builder plus independent evaluator. Worker is optional for defined patches, researcher for one exact blocker. At most **one child active**, one source writer, no recursive delegation. Role instructions in `.codex/agents/` use policy v2; preserve existing role models. Fresh agents must confirm phase ID and policy version.
 - Record new results/reviews once in `research/phases/<id>.json`; generate the brief and keep a bounded lesson memory. The action log remains historical evidence. Every lesson needs stable failure ID, evidence and a changed-premise condition for retry.
@@ -39,3 +39,17 @@ Repository: https://github.com/akaiyol/the-great-wave-of-kanagawa
 - Avoid repetition, filler, emojis, unsolicited examples, and descriptions of internal processes.
 - Ask for clarification when required. When multiple materially different approaches exist, ask the user which path to take before implementing one.
 - Prioritize coherent, well-supported reasoning and practical viability.
+
+## Strategy extension v1
+
+- Follow ADR-004 and the strategy extension in `agents/wave-completion.md`. Obtain a fresh independent hypothesis review before each new phase when the strategy policy is enabled. Preserve existing role models and the one-child limit.
+- Use supporting and contrary evidence, explicit unknowns, causal predictions and bounded tests. Preserve demonstrated gains; do not equate an implementation defect with a falsified premise. Require a changed premise before repeating a family with two explicit failures.
+- Keep actual runtime continuation separate from stored instructions. The current user limit is90%used in either account window; retain the 5%phase process reserve. Activity diagnostics do not wake sleeping hosts or guarantee autonomous recovery.
+
+## Goal and architecture ownership
+
+- The lead owns the complete system: artwork quality, reasoning, resource efficiency, integration, documentation and GitHub publication. Delegate work, not accountability.
+- Every new phase links ART and/or SYSTEM and states how it protects the other goal. Both need acceptance evidence before project completion; an account limit or passing tests is not completion.
+- Do not silently weaken the canonical goal criteria. Numerical sampling/performance plans are provisional evaluations, not substitutes for artistic acceptance or demonstrated efficiency.
+- Any agent structure, role behavior or workflow change must update `research/agent-architecture.json` and the generated GitHub README diagram in the same change. Refresh the manifest's reviewed source pins, then run `node scripts/project-contract.mjs sync` and `check`; never auto-repin goal criteria from a checker.
+- Consult primary research/original implementations for a precise blocker, record the useful mechanism and its limits, and test the transfer. Do not confuse reading volume, candidate counts or quota consumption with progress.

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "criteria": {
+    "A1": {
+      "status": "unmet",
+      "evidence": [
+        "research/phases/P079.json"
+      ],
+      "note": "No accepted procedural ocean."
+    },
+    "A2": {
+      "status": "partial",
+      "evidence": [
+        "research/phases/P079.json"
+      ],
+      "note": "No accepted procedural ocean."
+    },
+    "A3": {
+      "status": "unmet",
+      "evidence": [
+        "research/phases/P079.json"
+      ],
+      "note": "No accepted procedural ocean."
+    },
+    "A4": {
+      "status": "partial",
+      "evidence": [
+        "research/phases/P079.json"
+      ],
+      "note": "No accepted procedural ocean."
+    },
+    "S1": {
+      "status": "partial",
+      "evidence": [
+        "research/phases/P082.json"
+      ],
+      "note": "Gates exist; effectiveness and efficiency remain unproven."
+    },
+    "S2": {
+      "status": "unmet",
+      "evidence": [
+        "research/phases/P082.json"
+      ],
+      "note": "Gates exist; effectiveness and efficiency remain unproven."
+    },
+    "S3": {
+      "status": "partial",
+      "evidence": [
+        "research/phases/P082.json"
+      ],
+      "note": "Gates exist; effectiveness and efficiency remain unproven."
+    },
+    "S4": {
+      "status": "partial",
+      "evidence": [
+        "research/phases/P082.json"
+      ],
+      "note": "Gates exist; effectiveness and efficiency remain unproven."
+    }
+  }
+}

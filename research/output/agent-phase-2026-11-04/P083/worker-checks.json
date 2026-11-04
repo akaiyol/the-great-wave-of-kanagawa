@@ -1,0 +1,11 @@
+{
+  "phase": "P083",
+  "rolePolicy": "wave_worker v2; strategy extension v1",
+  "artifact": "scripts/project-contract.mjs",
+  "checks": {"command": "node --test research/tests/project-contract.test.mjs research/tests/phase.test.mjs", "passed": 16, "failed": 0},
+  "observedGain": "Generated GOALS.md and README goal/architecture blocks have deterministic exact checks. Goals are hash-pinned in state; architecture sources are checked against manifest pins before sync writes. Neither command repins. Real goal text, pinned role source and README diagram mutations fail. Phase goal IDs and other-goal protection are gated before writes. Brief lists both equal goals and outstanding criterion IDs/statuses without replaying full definitions. Historical policy-absent fixtures remain valid.",
+  "schemas": {"progress": "research/goal-progress.json criteria map; statuses unmet|partial|met|unknown; evidence array required, each nonempty entry must be an existing project file", "pins": "state.projectContract.goalsSha256 and nonempty architecture.sourcePins relativePath:SHA256", "phase": "goalIds nonempty unique ART/SYSTEM IDs; otherGoalProtection nonempty text"},
+  "missingEvidence": ["Lead must freeze source files, populate architecture sourcePins and state goalsSha256, activate policy, sync generated live documents and refresh brief.", "Independent review and rendered Mermaid review remain with lead.", "Progress metadata does not establish artistic acceptance or demonstrated system efficiency."],
+  "processReview": "Executable patch and focused drift tests delivered within bounded scope. No framework, new roles, delegation, source repinning or visual criterion changes. Existing edits preserved. No broad unchanged regressions run; phase tests were affected by added module import.",
+  "usage": {"basis": "estimated", "estimatedWorkerTokens": 4900, "actualTokens": null, "assignedBudget": 5000}
+}

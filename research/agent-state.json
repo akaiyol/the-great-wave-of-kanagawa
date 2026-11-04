@@ -4,11 +4,11 @@
   "direction": "woodblock",
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
-  "currentApp": "index.html — earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
+  "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "research/woodblock/generated-gallery.html",
   "retainedCandidate": "P079 anatomical branch creases in research gallery: minor local tip articulation retained at3seeds,25affected tests pass. Whole source recognition remains unaccepted.",
-  "currentPhase": "P080",
-  "currentPhaseRecord": "research/phases/P080.json",
+  "currentPhase": "P083",
+  "currentPhaseRecord": "research/phases/P083.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -16,9 +16,26 @@
   "artisticAcceptance": "No accepted procedural artwork; local method reviews are scoped evidence.",
   "bootstrapNote": "P066 created its own lifecycle tool; planned budget/earlier setup work recorded at tool bootstrap. Later phases start before productive work.",
   "runAuthorization": {
-    "instruction": "Continue until available usage reaches0%; do not stop at10% for this run.",
+    "instruction": "Continue until either account usage window reaches90%used, then checkpoint and stop. User restored90% on2026-11-04; supersedes50% and0% instructions.",
     "checkpointRemainingPercent": 10,
-    "stopRemainingPercent": 0,
+    "stopRemainingPercent": 10,
     "noPurchaseResetOrWaitingForReset": true
-  }
+  },
+  "continuationGoal": "Active runtime goal created2026-11-04 for architecture audit plus evaluated artwork iteration to90%used; goal is not a background scheduler or guarantee against runtime stalls.",
+  "strategyPolicy": {
+    "enabled": true,
+    "version": 1,
+    "bootstrapPhase": "P082",
+    "note": "Checks records and evidence, not reviewer authenticity or judgment quality."
+  },
+  "projectContract": {
+    "enabled": true,
+    "version": 1,
+    "goalsSha256": "e58715410a25dad06e8acfc0a67bab73a1dceb9acc15e776ddc01e9c95e57978",
+    "goals": "research/project-goals.json",
+    "progress": "research/goal-progress.json",
+    "architecture": "research/agent-architecture.json"
+  },
+  "primarySystemCriterion": "Demonstrated better decisions and faster, lower-cost iteration at equal-or-better independently reviewed visual quality; workflow sophistication alone fails.",
+  "goalPriority": "ART and SYSTEM are equally important; neither compensates for failure of the other."
 }

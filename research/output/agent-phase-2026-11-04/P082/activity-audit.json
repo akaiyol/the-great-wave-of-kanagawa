@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-04",
+  "timezone": "America/Toronto",
+  "sources": [
+    "Current root and researcher session event timestamps; message/reasoning content excluded",
+    "pmset -g log, filtered sleep/wake event metadata",
+    "get_goal returned null before activation; create_goal confirmed active afterwards"
+  ],
+  "activity": [
+    {
+      "local": "10:48:31",
+      "event": "Researcher launched"
+    },
+    {
+      "local": "11:52:50",
+      "event": "Researcher finished"
+    },
+    {
+      "local": "14:35:53",
+      "event": "Lead resumed tool calls"
+    },
+    {
+      "local": "14:37:32",
+      "event": "Last geometry tool result before later gap"
+    },
+    {
+      "local": "16:39:45",
+      "event": "Lead status message"
+    },
+    {
+      "local": "16:40:20",
+      "event": "Turn interrupted"
+    }
+  ],
+  "power": [
+    {
+      "local": "10:48:32",
+      "event": "Idle sleep"
+    },
+    {
+      "local": "11:18:59",
+      "event": "Clamshell sleep"
+    },
+    {
+      "local": "11:52:33",
+      "event": "Full wake"
+    },
+    {
+      "local": "11:53:15",
+      "event": "Clamshell sleep"
+    },
+    {
+      "local": "14:30:36",
+      "event": "Full wake"
+    },
+    {
+      "local": "14:37:55",
+      "event": "Idle sleep"
+    },
+    {
+      "local": "14:41:38",
+      "event": "Clamshell sleep"
+    },
+    {
+      "local": "16:38:53",
+      "event": "Full wake"
+    }
+  ],
+  "findings": [
+    "Sleep intervals closely align with gaps in local activity; no long-running test spans them.",
+    "The initial coarse audit incorrectly treated the whole10:48to16:40interval as one empty gap because it omitted custom tool events. Detailed event parsing shows several gaps and short work bursts.",
+    "Sleep is a supported contributor; logs do not isolate every scheduling/network/model delay.",
+    "Earlier completed runs stopped before account ceilings, and no runtime goal was active when inspected. This is a distinct continuation-control failure."
+  ],
+  "actions": [
+    "Restore90%-used authorization and activate the runtime goal.",
+    "Add metadata-only activity reporting, without claiming recovery while asleep.",
+    "Add independently reviewed hypothesis contracts and prospective calibration."
+  ],
+  "limits": [
+    "No new scheduler, background daemon, power change, purchases or reset.",
+    "An active goal improves explicit continuation intent but is not a demonstrated fix for all stalls."
+  ]
+}

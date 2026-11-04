@@ -1,0 +1,50 @@
+{
+  "id": "S083",
+  "targetPhase": "P083",
+  "family": "project-goal-contract",
+  "hypothesis": "Pinned equal goals, evidence-based acceptance floors and generated architecture documentation can prevent silent goal drift without replacing visual judgment.",
+  "reviewer": {
+    "agentId": "/root/two_goal_strategy_review",
+    "role": "wave_evaluator"
+  },
+  "recommendation": "pivot",
+  "reason": "Implement equal-goal visibility and architecture synchronization; retain unsupported numerical floors as provisional evaluation plans, not mandatory artistic acceptance gates.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/two-goal-contract-v1.md",
+      "claim": "Separates artwork, system effectiveness and user acceptance.",
+      "sha256": "c8cfc52a85cb09e38832dc3bdc525acd3a22bfc8adfc7e5604e6137459a7e3e2"
+    },
+    {
+      "path": "research/phases/P082.json",
+      "claim": "Documents goal-priority drift and stale-documentation risk; existing strategy gates remain useful.",
+      "sha256": "1136c171f42359a81f6c90b54a196d011c3fe75ebc52f8612f25963d963b23b0"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/proposals/two-goal-contract-v1.md",
+      "claim": "Three construction families and fixed experiment quotas lack supporting evidence; quotas could reward unnecessary machinery.",
+      "sha256": "c8cfc52a85cb09e38832dc3bdc525acd3a22bfc8adfc7e5604e6137459a7e3e2"
+    },
+    {
+      "path": "research/phases/P082.json",
+      "claim": "Previous workflow expansion exceeded budget; decision-quality benefits remain unproven.",
+      "sha256": "1136c171f42359a81f6c90b54a196d011c3fe75ebc52f8612f25963d963b23b0"
+    }
+  ],
+  "unknowns": [
+    "Whether additional gates improve decisions.",
+    "Whether proposed numerical floors predict either goal's success."
+  ],
+  "prediction": {
+    "ifTrue": "Fresh startup preserves both goals; deliberate documentation drift fails checks.",
+    "ifFalse": "Checks pass despite semantic drift, or maintenance displaces artwork."
+  },
+  "test": {
+    "action": "Implement minimal contract and diagram synchronization; test deliberate goal and architecture drift plus one fresh startup. Preserve existing gates.",
+    "success": "Both goals survive startup, drift fails checks, and visual acceptance remains independent.",
+    "failure": "Semantic drift escapes, duplicated authorities arise, or budget expires; stop expansion.",
+    "maxWorkTokens": 12000
+  }
+}

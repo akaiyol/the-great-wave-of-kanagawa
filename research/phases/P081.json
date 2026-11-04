@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "P081",
+  "objective": "Replace sparse shaft-and-twig foam with a connected cluster boundary whose lobes and open coves are constructed together.",
+  "hypothesis": "A broad supported cluster with unequal recurved boundary lobes can change the whole crest hierarchy; appending detail to unchanged shafts cannot.",
+  "failureIds": [
+    "geometry.secondary-prongs",
+    "geometry.compact-fork-fusion",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P079 retained gallery; P080 secondary prong experiment rejected at first native view.",
+  "artifactTarget": "src/procedural/foam-cluster.mjs",
+  "plannedTokens": 20000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 19000,
+    "reviewTokens": 1000
+  },
+  "startedAt": "2026-11-04T15:48:24.886Z",
+  "result": {
+    "id": "P081",
+    "summary": "Connected cluster prototype partially constructed. Revised body has0self-crossings, but foam2crossings and133seam points outside body; no native visual review. Gallery unchanged. Work deferred for user-requested architecture and stall audit; the geometry premise remains unverified rather than artistically disproven.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "src/procedural/foam-cluster.mjs",
+      "research/output/procedural-wave-2026-11-04/P081/summary.json",
+      "research/output/procedural-wave-2026-11-04/P081/first-checks.json",
+      "research/output/procedural-wave-2026-11-04/P081/revised-checks.json"
+    ],
+    "nextAction": "Audit continuity and strategy controls before spending more work on the unverified new cluster.",
+    "estimatedWorkTokens": 15000
+  },
+  "review": {
+    "id": "P081",
+    "findings": [
+      "A different outer-boundary representation removed body crossings, but reusing old radial bay assumptions leaves an integration failure; this does not yet falsify the artistic premise.",
+      "Activity records need runtime-gap review; wall-clock gaps cannot be treated as useful work or model compute.",
+      "Researcher assignment requested file delivery despite a read-only role; lead should record research findings. Oversized diagnostics were printed once; summaries must omit coordinate arrays."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep the cluster prototype isolated and unaccepted; preserve the actual failure evidence.",
+        "evidence": [
+          "research/output/procedural-wave-2026-11-04/P081/summary.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Add pre-experiment strategy assessment and runtime health evidence; keep researcher output in read-only handoffs.",
+        "evidence": [
+          "research/output/procedural-wave-2026-11-04/P081/summary.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Use independent architecture challenge, then an enforced decision record and liveness check tested against known cases.",
+    "estimatedReviewTokens": 800
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 15000,
+    "estimatedReviewTokens": 800,
+    "estimatedTotalTokens": 15800,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-04T21:45:30.782Z",
+  "closedAt": "2026-11-04T21:45:30.835Z"
+}

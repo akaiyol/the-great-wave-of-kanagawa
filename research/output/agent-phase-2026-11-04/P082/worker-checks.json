@@ -1,0 +1,22 @@
+{
+  "phase": "P082",
+  "rolePolicy": "wave_worker v2",
+  "artifacts": ["scripts/strategy.mjs", "scripts/run-health.mjs"],
+  "integration": "scripts/phase.mjs gates start before writes, preserves optional family/strategyReview, displays strategy reference in brief; no retroactive gate",
+  "checks": [
+    {"command": "node --test research/tests/strategy.test.mjs research/tests/phase.test.mjs", "passed": 17, "failed": 0},
+    {"command": "node --test research/tests/run-health.test.mjs", "passed": 3, "failed": 0},
+    {"command": "node scripts/phase.mjs check", "result": "P082 working; existing brief valid"},
+    {"command": "node scripts/run-health.mjs --help", "result": "diagnostic caveat present"}
+  ],
+  "observedGain": "Deterministic evidence-pinned pre-experiment gate rejects missing evidence, stale hashes, mismatches, reject/defer recommendations, excess work and repeated family failures without changed-premise evidence. Incomplete is not falsification. Phase-start failure is verified to leave state, phase directory and brief unchanged. Sanitized health report bounds gap details, ignores usage/completion noise and keeps unknown distinct from stale.",
+  "limitations": [
+    "Reviewer metadata cannot authenticate real independence.",
+    "Immutable means exclusive creation through this CLI, not filesystem tamper resistance.",
+    "Health report observes recorded metadata only; no cause, model-running, restart, scheduler or goal-state inference.",
+    "No real session diagnostic or independent evaluator review performed by worker; lead owns these.",
+    "No visual changes or reference/fixture changes. No broad unchanged regressions rerun."
+  ],
+  "processReview": "Defined patch delivered without delegation or construction ambiguity. Affected checks passed; no narrowed retry needed. Existing state/docs/role edits preserved. Stopped for handoff before additional scope.",
+  "usage": {"basis": "estimated", "estimatedWorkerTokens": 6700, "actualTokens": null, "assignedWorkBudget": 7000}
+}

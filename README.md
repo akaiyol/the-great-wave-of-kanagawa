@@ -1,27 +1,48 @@
-# The ocean — an agentic systems experiment
+# The ocean — procedural art and agentic systems
 
-The main purpose of this project is to build an agentic system with evaluation and feedback loops built in, so it can learn from its results and improve how it works. Generating an ocean inspired by Hokusai’s *The Great Wave* is the test case: a concrete visual problem that exposes weak reasoning, repeated failures and gaps between passing tests and convincing output.
+<!-- goals:start -->
+Both project goals have equal priority.
+
+- **ART: Procedural Great Wave ocean.** Create a visually recognizable Great Wave ocean in the canonical Hokusai woodblock language, using LingDong-style mathematical construction and continuous generation.
+- **SYSTEM: Efficient evaluated agentic development.** Develop a small agentic system that reaches the artwork goal through critical thinking, external learning and fast, high-quality experiments with few resources.
+
+[Full goals and acceptance criteria](GOALS.md). Progress status does not establish visual acceptance.
+<!-- goals:end -->
 
 ## Agent architecture
 
-The lead builds uncertain constructions and coordinates an independent **evaluator**. A **worker** handles defined patches; a **researcher** resolves specific blockers. One child runs at a time, with one source writer.
+The lead owns delivery, decisions and documentation. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
 
+<!-- architecture:start -->
+<!-- Reviewed architecture inputs: b8275d101d63bd8d27b596a2768814927cd7b75bba1c6d5d29d876a694a40415 -->
 ```mermaid
 flowchart TD
-    Goal[Goal and canonical reference] --> Lead[Lead: scope and construct]
-    Lead --> Artifact[Small executable artifact]
-    Lead -->|Defined patch| Worker[Optional worker]
-    Worker --> Artifact
-    Lead -->|Blocking question| Researcher[Researcher: investigate]
-    Researcher -->|Findings| Lead
-    Artifact --> Checks[Technical checks and render captures]
-    Checks --> Evaluator[Evaluator: independent visual review]
-    Evaluator --> Decision{Lead: assess evidence}
-    Decision -->|Retain or reject| Record[Action log and checkpoint]
-    Record --> Review[Process review: reserved 5%]
-    Review -->|Update lessons and next task| Lead
-    Review -->|Milestone criteria met| Result[Validated checkpoint]
+  n_Goals["Two equal goals: ART + SYSTEM"]
+  n_Lead["Lead: propose and own result"]
+  n_Research["Optional researcher: exact blocker"]
+  n_Strategy["Independent evaluator: challenge hypothesis"]
+  n_Build["Lead / optional worker: build"]
+  n_Artifact["Artifact + technical checks"]
+  n_Visual["Independent evaluator: visual review"]
+  n_Record["Decision + phase evidence"]
+  n_Process["Process review: final 5%"]
+  n_Result["Both goals verified"]
+  n_Goals --> n_Lead
+  n_Lead -->|"Exact blocker"| n_Research
+  n_Research --> n_Lead
+  n_Lead --> n_Strategy
+  n_Strategy -->|"Continue or pivot"| n_Build
+  n_Strategy -->|"Reject or defer"| n_Lead
+  n_Build --> n_Artifact
+  n_Artifact --> n_Visual
+  n_Visual --> n_Record
+  n_Record --> n_Process
+  n_Process -->|"Lessons and next test"| n_Lead
+  n_Process -->|"Acceptance evidence"| n_Result
 ```
+<!-- architecture:end -->
+
+Before building a new hypothesis, an independent strategy review checks supporting and contrary evidence, predicts an observable result, and sets one bounded test. It can retain a sound path, pivot, reject a construction, or defer judgment when evidence is missing. A deterministic gate checks the record and evidence; it cannot guarantee good judgment.
 
 Every phase reserves **5% of its planned token budget** for reviewing process and logs before another phase starts. A short brief, evidence-linked lessons and structured phase records carry findings forward. Technical correctness and artistic quality are evaluated separately. Exact compute telemetry is unavailable here, so usage estimates remain explicit.
 

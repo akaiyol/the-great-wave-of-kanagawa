@@ -1,0 +1,28 @@
+{
+  "phase": "P082",
+  "policyVersion": "v2",
+  "reviewer": "independent wave_evaluator strategy_architecture_challenge",
+  "verdict": "conditionally retain minimal pilot",
+  "findings": [
+    {
+      "fault": "In-loop health reporting cannot guarantee recovery",
+      "action": "Report activity, goal and pending work separately; acknowledge host sleep."
+    },
+    {
+      "fault": "Structured decisions may rubber-stamp weak reasoning",
+      "action": "Require causal predictions, discriminating tests and stopping budgets; separate implementation defects from failed premises."
+    },
+    {
+      "fault": "A critic may create hindsight and idea churn",
+      "action": "Use outcome-hidden calibration and prospective results; preserve supported gains and require changed evidence to revisit settled decisions."
+    }
+  ],
+  "nextDecision": "Pilot on a bounded P081 integration repair before expanding machinery.",
+  "unknowns": [
+    "Full runtime stall cause",
+    "Continuity improvement from goal activation",
+    "Actual decision-quality improvement"
+  ],
+  "estimatedTokens": 2300,
+  "actualTokens": null
+}

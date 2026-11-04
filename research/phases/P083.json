@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "P083",
+  "objective": "Establish two equal project goals, honest acceptance criteria and synchronized public architecture documentation.",
+  "hypothesis": "Pinned equal goals, evidence-based acceptance floors and generated architecture documentation can prevent silent goal drift without replacing visual judgment.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "review.context-overhead",
+    "logging.stale-brief"
+  ],
+  "baseline": "The README still calls artwork a test case; goals are scattered and diagram synchronization is manual. Independent preflight rejected unsupported numerical acceptance quotas.",
+  "artifactTarget": "scripts/project-contract.mjs",
+  "plannedTokens": 20000,
+  "family": "project-goal-contract",
+  "strategyReview": "research/strategies/S083.json",
+  "status": "working",
+  "budget": {
+    "workTokens": 19000,
+    "reviewTokens": 1000
+  },
+  "startedAt": "2026-11-04T21:55:32.796Z",
+  "result": null,
+  "review": null,
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": null,
+    "estimatedReviewTokens": null,
+    "estimatedTotalTokens": null,
+    "estimatedWorkOverrun": null,
+    "estimatedReviewOverrun": null,
+    "estimatedTotalOverrun": null
+  }
+}

@@ -2,7 +2,7 @@
 
 ## Startup and purpose
 
-The main project goal is an agentic system that improves through evaluations and feedback; procedural Great Wave artwork is its test case. Read AGENTS.md, `research/agent-brief.md`, `research/agent-state.json` and the linked current phase. Load durable lessons by failure ID; retrieve historical evidence only when needed.
+The two equally important goals are a source-recognizable procedural Great Wave ocean and an efficient, evaluated agentic system that can reach it. Canonical criteria are in `research/project-goals.json`, rendered in `GOALS.md`; neither goal can compensate for failure of the other. Read AGENTS.md, `research/agent-brief.md`, `research/agent-state.json` and the linked current phase. Load durable lessons by failure ID; retrieve historical evidence only when needed.
 
 ## Team
 
@@ -31,3 +31,19 @@ First capture one discriminating view. Run affected checks; reuse broad exact-re
 `research/phases/<id>.json` is authoritative for new phase results and reviews. `agent-state.json` holds current pointers; `agent-brief.md` is generated for startup. `agent-memory.json` holds at most 12 active, scoped lessons with evidence and re-entry conditions. Historical action log is an index/archive, not a second changing account. Do not duplicate phase outcomes across prose logs and checkpoints.
 
 Check account allowance at startup/milestones; at <=10% remaining in either window checkpoint and stop new delegation. Never purchase/reset credits or switch to paid fallback. The per-phase 5% reserve does not replace that account limit. Continue authorized work after each completed review. Stop for user request, allowance/external blocker or verified criteria; do not use recurring artistic-approval questions as the loop gate. Boats/Fuji remain undecided but do not block current geometry.
+
+## Strategy extension v1 — 2026-11-04
+
+Before a new phase hypothesis, obtain a fresh independent evaluator strategy review and record its evidence-pinned packet with `scripts/strategy.mjs`. When `agent-state.json` enables the strategy policy, the phase-start gate requires the matching review. See ADR-004 and the strategy CLI contract. Read the current linked strategy record with the brief; do not replay all strategy history.
+
+Supply the objective, baseline, relevant failure IDs and evidence without telling the critic the lead's preferred answer. Require supporting and contrary evidence, explicit unknowns, a causal prediction, one discriminating test and a stopping budget. Keep a supported path when the evidence warrants it. Distinguish an implementation defect from a falsified premise, and a rejected candidate from an entire family of ideas. After two explicit failures in a family, re-entry requires an evidence-backed changed premise; renaming the family is not a pivot. Incomplete work is not automatically a failed premise.
+
+Use continue/pivot/reject/defer. Do not silently override an independent rejection; seek reconsideration only with material new evidence and a bounded test. Review hypotheses rather than every parameter change. Calibrate the critic against outcome-hidden cases and later prospective results; never describe JSON compliance as critical-thinking accuracy. The existing artifact and final5%process gates remain.
+
+Check the actual continuation goal at startup and milestones. For the current authorization, continue useful work to90%used in either account window, then checkpoint; do not end an intermediate run merely because a commit was pushed. Keep the effective user threshold in state. `run-health.mjs` diagnoses recorded inactivity only: it cannot run while the host sleeps, prove a pending agent is computing, or restart an interrupted runner. Do not create recurring jobs or change power settings without the corresponding user request. Researchers are read-only: the lead records their findings.
+
+## Two-goal contract
+
+Link every phase to ART and/or SYSTEM and state how it protects the other goal. The generated brief must retain both objectives and outstanding criteria. A promising still does not complete the agent-system goal, and sophisticated workflow does not complete the artwork goal. Final user artistic acceptance is separate from model review. Fixed sample counts and performance plans are provisional evaluation designs, not invented beauty thresholds. Compare quality and resource use against a declared baseline before claiming efficiency.
+
+The lead owns the whole system and its public explanation. Update the architecture manifest and generated README diagram with every agent/workflow change, in the same commit. `project-contract.mjs check` must detect changed goal definitions, changed reviewed architecture inputs and stale generated documentation. The checker does not judge semantic fidelity; the lead and independent review still inspect that. Only an explicit user decision can authorize weakened goal requirements.

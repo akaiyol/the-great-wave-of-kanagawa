@@ -3,6 +3,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { randomUUID } from 'node:crypto';
+import { assertStrategyAllows } from './strategy.mjs';
+import { assertProjectPhase, checkProjectContract, projectGoalBrief } from './project-contract.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const VERDICTS = ['pass', 'fail', 'incomplete', 'not_applicable'];
@@ -131,10 +133,13 @@ export function startPhase(root, spec) {
   if (previous && previous.status !== 'closed') fail('Current phase must be reviewed before starting another');
   const relative = recordPath(spec.id);
   if (fs.existsSync(projectPath(root, relative))) fail('Duplicate phase ID');
+  assertStrategyAllows(root, spec);
+  assertProjectPhase(root, spec);
   const reviewTokens = Math.ceil(spec.plannedTokens * .05);
   const record = {
     schemaVersion: 1,
     ...Object.fromEntries(['id', 'objective', 'hypothesis', 'failureIds', 'baseline', 'artifactTarget', 'plannedTokens'].map(key => [key, spec[key]])),
+    ...Object.fromEntries(['family', 'strategyReview', 'goalIds', 'otherGoalProtection'].filter(key => spec[key] !== undefined).map(key => [key, spec[key]])),
     status: 'working', budget: { workTokens: spec.plannedTokens - reviewTokens, reviewTokens },
     startedAt: new Date().toISOString(), result: null, review: null,
   };
@@ -164,7 +169,8 @@ export function reviewPhase(root, review) {
   return record;
 }
 export function checkPhase(root) {
-  const { record } = current(root);
+  const { state, record } = current(root);
+  if (state.projectContract?.enabled === true) checkProjectContract(root);
   if (!record) return { ok: true, currentPhase: null, status: null };
   const expected = buildBrief(root);
   const briefPath = projectPath(root, 'research/agent-brief.md', true);
@@ -177,11 +183,13 @@ function buildBrief(root) {
   const memory = read(root, 'research/agent-memory.json');
   if (!Array.isArray(memory.lessons) || memory.lessons.length > 12) fail('Memory must contain at most 12 lessons');
   const lines = ['# Agent brief', '', 'Policy v2. Phase records are authoritative; review is required before advancing.', ''];
+  if (state.projectContract) lines.push(...projectGoalBrief(root), '');
   if (record) {
     lines.push(`Current phase: ${record.id} (${record.status}).`, `Record: ${recordPath(record.id)}`,
       `Objective: ${line(record.objective)}`, `Hypothesis: ${line(record.hypothesis)}`,
       `Baseline: ${line(record.baseline)}`, `Artifact: ${record.artifactTarget}`,
       `Budget: ${record.budget.workTokens} work / ${record.budget.reviewTokens} review tokens (planned; usage estimated).`);
+    if (record.strategyReview) lines.push(`Strategy: ${line(record.strategyReview)} (family: ${line(record.family)}).`);
     if (record.result) lines.push(`Artifact delivered: ${record.result.artifactDelivered}.`, `Result: ${line(record.result.summary)}`, `Verdicts: technical ${record.result.technicalVerdict}; artistic ${record.result.artisticVerdict}.`, `Next action: ${line(record.result.nextAction)}`);
     if (record.review) {
       for (const action of record.review.actions) lines.push(`Decision (${action.decision}): ${line(action.summary)}`);

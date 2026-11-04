@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-11-04-v1",
+  "sourcePins": {
+    "AGENTS.md": "6e5e3883840bd3a92b40391ededaeca54cd755506d2507da83126beb8b445fd4",
+    "agents/wave-completion.md": "8f65d9cc897f6eae6933a7634d76643ffa62a40d3de10b468fff88aad8809de5",
+    ".codex/config.toml": "a198aac471b651db60840bf1e38a13c30fe23207a4d0f118bc6e0003684053d6",
+    ".codex/agents/wave-evaluator.toml": "f6e9180ddf36f4a16cad218f769f49e3fb78340e9e906c5c67e08fefb11ab72a",
+    ".codex/agents/wave-worker.toml": "91960635a7470f9624fd8cfbaa2db10714d1169edc2379fd8653846cc3a80f52",
+    ".codex/agents/wave-researcher.toml": "d12dbed4dbda3f3d98016381c86eb53b57cd5d2520cdc0a9d42fb0bf4e3222b7",
+    "scripts/phase.mjs": "b068a145a6adf3cc930559334301e4ccd0a94f947418bd26baf07ffd5fcaac83",
+    "scripts/strategy.mjs": "0db315b51ab00bdefc8c75c7c01e914c1e3e87967deceec54e5c97ba06e12428",
+    "scripts/project-contract.mjs": "fa837c887a670dfc112ca6e02bb32dd7a3fcf38e230162631e9fa45e0a5f4da6",
+    "scripts/run-health.mjs": "f41d4c2ca61dc52ac22d1a29a2f287b1abb65267ff8a91f6284f881956923647",
+    "research/decisions/ADR-004-strategy-challenge-and-continuation.md": "8b3bd1f246fd0ab93ba5a7ac10bcd175a39296246c3d48493019cc9b13b3606c"
+  },
+  "nodes": [
+    {
+      "id": "Goals",
+      "label": "Two equal goals: ART + SYSTEM"
+    },
+    {
+      "id": "Lead",
+      "label": "Lead: propose and own result"
+    },
+    {
+      "id": "Research",
+      "label": "Optional researcher: exact blocker"
+    },
+    {
+      "id": "Strategy",
+      "label": "Independent evaluator: challenge hypothesis"
+    },
+    {
+      "id": "Build",
+      "label": "Lead / optional worker: build"
+    },
+    {
+      "id": "Artifact",
+      "label": "Artifact + technical checks"
+    },
+    {
+      "id": "Visual",
+      "label": "Independent evaluator: visual review"
+    },
+    {
+      "id": "Record",
+      "label": "Decision + phase evidence"
+    },
+    {
+      "id": "Process",
+      "label": "Process review: final 5%"
+    },
+    {
+      "id": "Result",
+      "label": "Both goals verified"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Goals",
+      "to": "Lead"
+    },
+    {
+      "from": "Lead",
+      "to": "Research",
+      "label": "Exact blocker"
+    },
+    {
+      "from": "Research",
+      "to": "Lead"
+    },
+    {
+      "from": "Lead",
+      "to": "Strategy"
+    },
+    {
+      "from": "Strategy",
+      "to": "Build",
+      "label": "Continue or pivot"
+    },
+    {
+      "from": "Strategy",
+      "to": "Lead",
+      "label": "Reject or defer"
+    },
+    {
+      "from": "Build",
+      "to": "Artifact"
+    },
+    {
+      "from": "Artifact",
+      "to": "Visual"
+    },
+    {
+      "from": "Visual",
+      "to": "Record"
+    },
+    {
+      "from": "Record",
+      "to": "Process"
+    },
+    {
+      "from": "Process",
+      "to": "Lead",
+      "label": "Lessons and next test"
+    },
+    {
+      "from": "Process",
+      "to": "Result",
+      "label": "Acceptance evidence"
+    }
+  ],
+  "note": "Strategy and visual review are modes of the existing evaluator role, not two simultaneous agents. One active child and one source writer. Lead owns goal coherence, integration and publication."
+}

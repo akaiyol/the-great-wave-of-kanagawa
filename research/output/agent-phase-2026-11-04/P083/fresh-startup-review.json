@@ -1,0 +1,21 @@
+{
+  "phase": "P083",
+  "role": "wave_researcher goal_startup_probe",
+  "policy": "v2 + strategy extensionv1",
+  "result": "A fresh agent recovered both equal goals, every current criterion status and lead ownership without historical logs. Numerical plans recognized as provisional.",
+  "reportedCriteria": {
+    "A1": "unmet",
+    "A2": "partial",
+    "A3": "unmet",
+    "A4": "partial",
+    "S1": "partial",
+    "S2": "unmet",
+    "S3": "partial",
+    "S4": "partial"
+  },
+  "faultFound": "README completion edge branched from phase record before mandatory final5%process review.",
+  "correction": "Architecture edge now goes from Process to Result; generated README resynchronized.",
+  "limits": "Fresh-startup adoption and one semantic diagram defect demonstrated; no claim of general critic accuracy, efficiency improvement or artistic acceptance.",
+  "actualTokens": null,
+  "estimatedTokens": null
+}

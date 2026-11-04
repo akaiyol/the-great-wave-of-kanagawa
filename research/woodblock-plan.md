@@ -1,5 +1,7 @@
 # Woodblock rebuild
 
+This plan serves the ART goal alongside the equally important SYSTEM goal. See [GOALS.md](../GOALS.md) for authoritative rendered acceptance guidance and [project-goals.json](project-goals.json) for its source. The lead owns both outcomes.
+
 Direction selected 2026-10-28: original woodblock visual language with background clouds; no Braille. Preserve the canonical museum scan unchanged.
 
 ## Primary artistic success criterion

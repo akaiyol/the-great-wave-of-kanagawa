@@ -170,6 +170,8 @@ test('CLI transitions use the same reviewed ordering and refresh contract', t =>
  const {root}=fixture(t);
  const scripts=path.join(root,'scripts');fs.mkdirSync(scripts);
  const cli=path.join(scripts,'phase.mjs');fs.copyFileSync(new URL('../../scripts/phase.mjs',import.meta.url),cli);
+ fs.copyFileSync(new URL('../../scripts/strategy.mjs',import.meta.url),path.join(scripts,'strategy.mjs'));
+ fs.copyFileSync(new URL('../../scripts/project-contract.mjs',import.meta.url),path.join(scripts,'project-contract.mjs'));
  const invoke=(command,value)=>{
   const input=path.join(root,'input.json');fs.writeFileSync(input,JSON.stringify(value));
   return execFileSync(process.execPath,[cli,command,input],{stdio:'pipe'}).toString();
