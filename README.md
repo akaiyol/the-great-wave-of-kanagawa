@@ -18,14 +18,12 @@ The lead owns delivery, decisions and documentation. Strategy and visual review 
 ```mermaid
 flowchart TD
   n_Goals["Two equal goals: ART + SYSTEM"]
-  n_Lead["Lead: propose and own result"]
-  n_Research["Optional researcher: exact blocker"]
-  n_Strategy["Independent evaluator: challenge hypothesis"]
-  n_Build["Lead / optional worker: build"]
-  n_Artifact["Artifact + technical checks"]
-  n_Visual["Independent evaluator: visual review"]
-  n_Record["Decision + phase evidence"]
-  n_Process["Process review: final 5%"]
+  n_Lead["Lead: owner"]
+  n_Research["Researcher: exact blocker"]
+  n_Strategy["Evaluator: challenge"]
+  n_Build["Lead / worker: build and test"]
+  n_Visual["Evaluator: visual review"]
+  n_Process["Lead: evidence + 5% review"]
   n_Result["Both goals verified"]
   n_Goals --> n_Lead
   n_Lead -->|"Exact blocker"| n_Research
@@ -33,10 +31,8 @@ flowchart TD
   n_Lead --> n_Strategy
   n_Strategy -->|"Continue or pivot"| n_Build
   n_Strategy -->|"Reject or defer"| n_Lead
-  n_Build --> n_Artifact
-  n_Artifact --> n_Visual
-  n_Visual --> n_Record
-  n_Record --> n_Process
+  n_Build --> n_Visual
+  n_Visual --> n_Process
   n_Process -->|"Lessons and next test"| n_Lead
   n_Process -->|"Acceptance evidence"| n_Result
 ```

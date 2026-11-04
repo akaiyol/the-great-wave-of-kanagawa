@@ -21,35 +21,27 @@
     },
     {
       "id": "Lead",
-      "label": "Lead: propose and own result"
+      "label": "Lead: owner"
     },
     {
       "id": "Research",
-      "label": "Optional researcher: exact blocker"
+      "label": "Researcher: exact blocker"
     },
     {
       "id": "Strategy",
-      "label": "Independent evaluator: challenge hypothesis"
+      "label": "Evaluator: challenge"
     },
     {
       "id": "Build",
-      "label": "Lead / optional worker: build"
-    },
-    {
-      "id": "Artifact",
-      "label": "Artifact + technical checks"
+      "label": "Lead / worker: build and test"
     },
     {
       "id": "Visual",
-      "label": "Independent evaluator: visual review"
-    },
-    {
-      "id": "Record",
-      "label": "Decision + phase evidence"
+      "label": "Evaluator: visual review"
     },
     {
       "id": "Process",
-      "label": "Process review: final 5%"
+      "label": "Lead: evidence + 5% review"
     },
     {
       "id": "Result",
@@ -86,18 +78,10 @@
     },
     {
       "from": "Build",
-      "to": "Artifact"
-    },
-    {
-      "from": "Artifact",
       "to": "Visual"
     },
     {
       "from": "Visual",
-      "to": "Record"
-    },
-    {
-      "from": "Record",
       "to": "Process"
     },
     {
