@@ -1,0 +1,38 @@
+{
+  "phase": "P079",
+  "rolePolicy": "v2",
+  "mode": "artifact",
+  "verdict": "retain_minor_local_gain_research_gallery_only",
+  "scope": {
+    "seeds": [
+      721,
+      0,
+      5
+    ],
+    "viewport": [
+      1440,
+      960
+    ],
+    "dpr": 1,
+    "comparison": "Matched baseline/candidate whole compositions, then visible foam-tip details against unchanged canonical scan."
+  },
+  "identity": {
+    "referenceSourceAndCaptureHashes": "verified once against receipt; frozen source copies match live source",
+    "receipt": "research/output/procedural-wave-2026-10-30/P079/receipt.json"
+  },
+  "localFinding": "Short interior marks visibly reduce blank tips and clarify their recurvature. Gain is modest across all three seeds; seed0 has the clearest change. Parallel marks also duplicate outer tip curvature and remain diagrammatic rather than convincing folds.",
+  "wholeCrest": "Unchanged recognition. Sparse tip count, broad blank cap and long uninterrupted cream tongue remain unlike the canonical branching foam hierarchy. Water silhouette and bands are unchanged.",
+  "materialStyle": "Unchanged flat vector appearance. Uniform thin ink and smooth parallel blue bands do not establish woodblock material or source style; clouds unchanged.",
+  "technicalEvidence": "Worker reports 51 children over eight fixtures contained and pair-separated; this review did not rerun checks or infer visual generality from them.",
+  "userAcceptance": "Untested; no accepted procedural artwork established.",
+  "nextDecision": "Adopt creases in the research gallery as a minor articulation improvement, retain the no-ink switch, and move the next geometry hypothesis to branching hierarchy and interrupted foam mass rather than further crease tuning.",
+  "processReview": "Not assigned in this invocation.",
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedEvaluatorTokens": 3600,
+    "plannedEvaluatorTokens": 2500,
+    "estimatedOverrun": 1100,
+    "note": "Startup context and oversized worker-checks output exceeded the intended evaluator budget; no broad reruns performed."
+  }
+}

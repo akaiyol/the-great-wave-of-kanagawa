@@ -4,7 +4,7 @@ import {pointInPolygon,cubicBezier} from './geometry.mjs';
 // Public gallery entry point deliberately accepts only a seed: Array.map's
 // index must never become a crest-construction option.
 export function generateWave(seed=721){
- const p=generateIntegratedCrest(seed,'all','interlocked');
+ const p=generateIntegratedCrest(seed,'all','interlocked',{branchCreases:true});
  const {wave,diagnostics:d}=p,c=wave.continuity,bay=d.bayConstraints;
  const points=[...p.bodyPolygons,...p.foamPolygons].flat();
  const bounds={minX:Infinity,maxX:-Infinity,minY:Infinity,maxY:-Infinity};

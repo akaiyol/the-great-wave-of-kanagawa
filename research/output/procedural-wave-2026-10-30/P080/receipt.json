@@ -1,0 +1,35 @@
+{
+  "phase": "P080",
+  "referenceHash": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceHashes": {
+    "src/procedural/secondary-branches.mjs": "4150b0d23e8a99bd5341242ad21e85e727bbbfa25380e5d5911f518f24c737bc",
+    "src/procedural/secondary-branches.test.mjs": "22f20fd4aba046c80840fd64e9c4f852604ed58fa909bf99d1595e8b4afe7d32",
+    "src/procedural/integrated-crest.mjs": "fe7c723498630d8ac72426d3b97a955516db66545e689223191efec2a2991bb4",
+    "src/procedural/branch-creases.mjs": "18aa32d8c4047d80b41720ad1fb78fb1929e2a22a14066aa70c5d931be513d69",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/ordered-bay.mjs": "453c3792f93937e830a55e9e9ca3326404a84962836616ce8111352dd550b1b1",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "captures": {
+    "baseline-721.png": "818ec79b11e7a52c04227d2235ce474f5a98f604ce3edbd57036af1dee6a73fa",
+    "candidate-721.png": "0ce77752589a227fc3f87eb55ddd3aae4036eeaa08623ea3a54caafc2bb5cc23"
+  },
+  "triage": {
+    "role": "lead",
+    "seed": 721,
+    "verdict": "reject",
+    "finding": "Secondary lobes create small upward prongs and doubled hooks on the same sparse shafts. They do not create a convincing foam hierarchy or interrupt the dominant blank mass.",
+    "scope": "First native whole-view rejection; no independent review or held-out sweep requested. No claim that all possible second-level branching fails."
+  },
+  "disposition": "Archive executable prototype; remove rejected secondary branch module and option from active source. Keep P079 creases.",
+  "restoration": {
+    "integratedCrestHash": "15427abc1dd70ad195ba3a85696ee13e23248534ddea1e8e33a54121262dba6f",
+    "exactP079FrozenSource": true
+  }
+}

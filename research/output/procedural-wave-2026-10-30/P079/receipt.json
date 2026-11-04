@@ -1,0 +1,41 @@
+{
+  "phase": "P079",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "referenceHash": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceHashes": {
+    "src/procedural/branch-creases.mjs": "18aa32d8c4047d80b41720ad1fb78fb1929e2a22a14066aa70c5d931be513d69",
+    "src/procedural/branch-creases.test.mjs": "bde23e6307275a1be0d330768d1029bec73b38f0ecd8aaaeb117e69503133c6f",
+    "src/procedural/integrated-crest.mjs": "15427abc1dd70ad195ba3a85696ee13e23248534ddea1e8e33a54121262dba6f",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/ordered-bay.mjs": "453c3792f93937e830a55e9e9ca3326404a84962836616ce8111352dd550b1b1",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6",
+    "src/procedural/study.mjs": "d5e0d8877ee2e4fe564a9d2d7a2337a34ee540c12c372d47e0b63850d397416b",
+    "src/procedural/study.test.mjs": "be748249dfe3ecf37404f8430f78965aba795f98626e12b3757402d2ad7f58c4"
+  },
+  "captures": {
+    "baseline-721.png": "cbe7cca7b6bc5bb622129e26f1786beb8980a1e3c4c622c8c0c2ed70f42398bc",
+    "candidate-5.png": "e401d5a205826f6319078084b4f5598cc0d6fee8f1482728315c763d9a92b6d8",
+    "candidate-721.png": "818ec79b11e7a52c04227d2235ce474f5a98f604ce3edbd57036af1dee6a73fa",
+    "candidate-0.png": "77ce3bc23428e0813f1bfe5726dbea13f19524fb11748ac44dbdd6a4a8c10c98",
+    "baseline-5.png": "2213fd05dfaacc6d83fe7e18981b35b0673d34ebcfa2d345faf1efce4e270863",
+    "baseline-0.png": "62e794cb95838ca2e73893df7afe23a3e81eb865bf0cb29667fa5ebc86a75f7f",
+    "gallery-721.png": "818ec79b11e7a52c04227d2235ce474f5a98f604ce3edbd57036af1dee6a73fa"
+  },
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "scope": "Three fixed seeds at one native SVG display size; local crease articulation only, not whole artwork acceptance.",
+  "galleryIntegration": {
+    "seed": 721,
+    "ink": 5,
+    "pageErrors": 0,
+    "pixelsIdenticalToReviewedCandidate": true,
+    "focusedTests": {
+      "passed": 25,
+      "failed": 0
+    }
+  }
+}

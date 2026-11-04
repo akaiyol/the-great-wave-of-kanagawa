@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "P079",
+  "objective": "Restore interior foam articulation from the generated branch anatomy without changing the retained silhouette or water boundaries.",
+  "hypothesis": "Short unequal indigo crease paths derived from each actual recurved child centerline can make the sparse crest read as folding foam rather than blank hooks; no stamped curl glyphs or texture.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.divergent-sectors"
+  ],
+  "baseline": "P078 repaired research-gallery construction, no branch ink in all-group fixtures.",
+  "artifactTarget": "src/procedural/branch-creases.mjs",
+  "plannedTokens": 12000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 11400,
+    "reviewTokens": 600
+  },
+  "startedAt": "2026-11-04T03:16:27.522Z",
+  "result": {
+    "id": "P079",
+    "summary": "Actual-child partial crease paths adopted in research gallery. All51children over8fixtures are contained and pair-separated;25affected tests pass after integration, gallery seed721 equals reviewed candidate pixels. Independent review retained a minor local tip-articulation gain across3native views; whole recognition and material style unchanged.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "src/procedural/branch-creases.mjs",
+      "research/output/procedural-wave-2026-10-30/P079/receipt.json",
+      "research/output/agent-phase-2026-11-03/P079/worker-checks.json",
+      "research/output/agent-phase-2026-11-03/P079/visual-review.json"
+    ],
+    "nextAction": "Change branching hierarchy and foam mass before further crease tuning.",
+    "estimatedWorkTokens": 14000
+  },
+  "review": {
+    "id": "P079",
+    "findings": [
+      "Native review supports only minor articulation gain; silhouette and whole recognition did not improve.",
+      "Worker used4700estimated versus4500planned; evaluator3600versus2500 due setup and oversized checks retrieval. Full diagnostics should not be startup context.",
+      "The existing renderer and actual branch paths allowed reuse without adding glyph templates or geometry changes."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep optional anatomical creases and gallery adoption; preserve no-crease control.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-03/P079/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Provide compact fixture summary to evaluators, detailed records only on discrepancy; move next hypothesis to branching hierarchy.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-03/P079/worker-checks.json",
+          "research/output/agent-phase-2026-11-03/P079/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Use a compact review handoff and one whole-crest branching experiment rather than more ink parameters.",
+    "estimatedReviewTokens": 600
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 14000,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 14600,
+    "estimatedWorkOverrun": 2600,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 2600
+  },
+  "resultAt": "2026-11-04T03:20:53.351Z",
+  "closedAt": "2026-11-04T03:20:53.378Z"
+}

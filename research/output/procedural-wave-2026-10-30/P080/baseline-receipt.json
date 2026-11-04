@@ -1,0 +1,17 @@
+{
+  "phase": "P080",
+  "mode": "baseline",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "records": [
+    {
+      "seed": 721,
+      "ink": 5,
+      "svgHash": "3afbbec28dfa584451db885785469fa4192c433201e9504b061f24c5331e5fe1"
+    }
+  ]
+}

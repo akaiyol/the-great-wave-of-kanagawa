@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "P080",
+  "objective": "Test a second level of attached foam branching as a whole-crest density change, preserving the existing connected parent construction.",
+  "hypothesis": "A short recurved secondary lobe grown from the convex side of each sufficiently wide actual child can interrupt the sparse hook silhouette with a hierarchy of unequal tips, without floating foam or closed sky pockets.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.compact-fork-fusion",
+    "geometry.divergent-sectors"
+  ],
+  "baseline": "P079 creased primary and child branches; original sparse hook silhouette unchanged.",
+  "artifactTarget": "src/procedural/secondary-branches.mjs",
+  "plannedTokens": 15000,
+  "status": "closed",
+  "budget": {
+    "workTokens": 14250,
+    "reviewTokens": 750
+  },
+  "startedAt": "2026-11-04T03:21:20.480Z",
+  "result": {
+    "id": "P080",
+    "summary": "Prototype built and10affected checks passed atseed721, but first native whole-view triage rejected its small upward prongs and doubled hooks. Active secondary module and option removed; executable source and capture archived. P079 restored exactly. No held-out validation or independent promotion review performed after rejection.",
+    "artifactDelivered": false,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/procedural-wave-2026-10-30/P080/receipt.json",
+      "research/output/procedural-wave-2026-10-30/P080/source/src/procedural/secondary-branches.mjs",
+      "research/output/agent-phase-2026-11-03/P080/worker-summary.json"
+    ],
+    "nextAction": "Reconsider the full foam cluster and water-cove boundary together; do not add another small lobe to the same sparse shafts.",
+    "estimatedWorkTokens": 11000
+  },
+  "review": {
+    "id": "P080",
+    "findings": [
+      "A second hierarchy level is not sufficient when grafted onto the same sparse shaft anatomy; native triage rejected the executable despite passing local checks.",
+      "First-view triage avoided a held-out sweep and evaluator setup for an implausible candidate. Worker delivered compact summary and froze source promptly.",
+      "Rejected source was archived and removed from active dependencies; retained P079 code restored by exact hash."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Discard convex-side secondary-lobe graft from active generator; no nearby length/width tuning.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/P080/receipt.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep first-native-view triage and compact diagnostic handoff before broader review.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-03/P080/worker-summary.json"
+        ]
+      }
+    ],
+    "nextImprovement": "A retry must replace cluster silhouette and coves together, with a source-supported larger root mass; unchanged shafts plus extra twigs do not change the premise.",
+    "estimatedReviewTokens": 650
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 11000,
+    "estimatedReviewTokens": 650,
+    "estimatedTotalTokens": 11650,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-04T03:24:07.924Z",
+  "closedAt": "2026-11-04T03:24:07.954Z"
+}

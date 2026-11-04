@@ -1,0 +1,27 @@
+{
+  "phase": "P079",
+  "mode": "candidate",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "records": [
+    {
+      "seed": 721,
+      "ink": 5,
+      "svgHash": "3afbbec28dfa584451db885785469fa4192c433201e9504b061f24c5331e5fe1"
+    },
+    {
+      "seed": 0,
+      "ink": 4,
+      "svgHash": "7875dcbc7e3ebc6fe59353720e764b74c79b6b421e04e405b1ef7ab2ffe571b0"
+    },
+    {
+      "seed": 5,
+      "ink": 9,
+      "svgHash": "0a38108c20994683ffd90ac72a3f92195e4ae777e8a9ccb79b487ff832410343"
+    }
+  ]
+}

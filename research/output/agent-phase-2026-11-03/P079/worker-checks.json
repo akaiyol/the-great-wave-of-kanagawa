@@ -1,0 +1,1087 @@
+{
+  "phase": "P079",
+  "rolePolicy": "v2",
+  "artifact": "src/procedural/branch-creases.mjs",
+  "optionsArgument": 4,
+  "checks": {
+    "branchCreases": "9/9 pass",
+    "affectedIntegratedCrest": "10/10 pass; unchanged since run",
+    "baseline": "default and explicit false data exactly equal; legacy seed721 SVG exact P073",
+    "geometry": "all non-ink data unchanged across eight fixtures",
+    "clearance": "sampled every rendered segment, radius+1 inset plus Lipschitz and SVG rounding guards",
+    "determinism": "eight fixtures; serializable data equal",
+    "pairGap": "stroke edges at least max stroke width"
+  },
+  "initialFailure": "New test deepStrictEqual compared generated function references; corrected to serialized data. One narrowed test retry passed.",
+  "fixtures": [
+    {
+      "seed": 0,
+      "children": 4,
+      "emitted": 4,
+      "omissions": [],
+      "minArcLength": 17.940948982194627,
+      "minInteriorClearance": 2.153096838095913,
+      "minPairGap": 32.053692449939504,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 40.78102416384785,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 5.3764124036905665,
+          "requiredClearance": 2,
+          "samples": 399
+        },
+        {
+          "ownerId": "group-0-root-0-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 42.50217161742825,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 5.047782562625643,
+          "requiredClearance": 2,
+          "samples": 423
+        },
+        {
+          "ownerId": "group-0-root-0-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 44.48782055786404,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 4.683293481172324,
+          "requiredClearance": 2,
+          "samples": 429
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "retainedInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "arcLength": 17.940948982194627,
+          "strokeWidth": 1.1567570937933858,
+          "safe": true,
+          "minInteriorClearance": 2.153096838095913,
+          "requiredClearance": 1.5783785468966929,
+          "samples": 256
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "children": 6,
+      "emitted": 6,
+      "omissions": [],
+      "minArcLength": 17.362453002203534,
+      "minInteriorClearance": 1.993904386404827,
+      "minPairGap": 13.41324174696622,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 39.38756301224858,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 5.192703878141522,
+          "requiredClearance": 2,
+          "samples": 386
+        },
+        {
+          "ownerId": "group-0-root-0-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30111111111111116,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.30111111111111116,
+            0.793611111111111
+          ],
+          "arcLength": 41.049899973402226,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 4.875303105649008,
+          "requiredClearance": 2,
+          "samples": 415
+        },
+        {
+          "ownerId": "group-0-root-0-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 42.96770057711909,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 4.523268379759232,
+          "requiredClearance": 2,
+          "samples": 423
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 17.362453002203534,
+          "strokeWidth": 1.2765423545210788,
+          "safe": true,
+          "minInteriorClearance": 2.2889986113271092,
+          "requiredClearance": 1.6382711772605394,
+          "samples": 256
+        },
+        {
+          "ownerId": "group-1-root-1-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 18.09522865915118,
+          "strokeWidth": 1.148888119068971,
+          "safe": true,
+          "minInteriorClearance": 2.1490850047514707,
+          "requiredClearance": 1.5744440595344855,
+          "samples": 256
+        },
+        {
+          "ownerId": "group-1-root-1-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 18.94061538285565,
+          "strokeWidth": 1.021233883616863,
+          "safe": true,
+          "minInteriorClearance": 1.993904386404827,
+          "requiredClearance": 1.5106169418084314,
+          "samples": 259
+        }
+      ]
+    },
+    {
+      "seed": 721,
+      "children": 5,
+      "emitted": 5,
+      "omissions": [],
+      "minArcLength": 19.50787013557407,
+      "minInteriorClearance": 2.2402841250484684,
+      "minPairGap": 38.18169335482783,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "retainedInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "arcLength": 21.650342778607122,
+          "strokeWidth": 1.3959232377878679,
+          "safe": true,
+          "minInteriorClearance": 2.598261921739727,
+          "requiredClearance": 1.697961618893934,
+          "samples": 299
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 19.50787013557407,
+          "strokeWidth": 1.434280194820193,
+          "safe": true,
+          "minInteriorClearance": 2.571842103452213,
+          "requiredClearance": 1.7171400974100965,
+          "samples": 277
+        },
+        {
+          "ownerId": "group-1-root-1-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 21.281040480265474,
+          "strokeWidth": 1.1474241558561544,
+          "safe": true,
+          "minInteriorClearance": 2.2402841250484684,
+          "requiredClearance": 1.5737120779280773,
+          "samples": 293
+        },
+        {
+          "ownerId": "group-2-root-2-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 19.53438561979665,
+          "strokeWidth": 1.436229696924325,
+          "safe": true,
+          "minInteriorClearance": 2.575337802277393,
+          "requiredClearance": 1.7181148484621624,
+          "samples": 277
+        },
+        {
+          "ownerId": "group-2-root-2-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 21.309966092809223,
+          "strokeWidth": 1.1489837575394597,
+          "safe": true,
+          "minInteriorClearance": 2.2433291636898,
+          "requiredClearance": 1.57449187876973,
+          "samples": 293
+        }
+      ]
+    },
+    {
+      "seed": 1847,
+      "children": 9,
+      "emitted": 9,
+      "omissions": [],
+      "minArcLength": 16.69857855650946,
+      "minInteriorClearance": 1.917665034216297,
+      "minPairGap": 12.891463066579764,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 24.692354330320306,
+          "strokeWidth": 1.815459839199851,
+          "safe": true,
+          "minInteriorClearance": 3.2553444357963004,
+          "requiredClearance": 1.9077299195999255,
+          "samples": 319
+        },
+        {
+          "ownerId": "group-0-root-0-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 25.734485656100105,
+          "strokeWidth": 1.6339138552798662,
+          "safe": true,
+          "minInteriorClearance": 3.0563635458978693,
+          "requiredClearance": 1.816956927639933,
+          "samples": 323
+        },
+        {
+          "ownerId": "group-0-root-0-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 26.93676902730423,
+          "strokeWidth": 1.452367871359881,
+          "safe": true,
+          "minInteriorClearance": 2.835670374666451,
+          "requiredClearance": 1.7261839356799404,
+          "samples": 328
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 16.69857855650946,
+          "strokeWidth": 1.227732209554501,
+          "safe": true,
+          "minInteriorClearance": 2.2014759735928067,
+          "requiredClearance": 1.6138661047772505,
+          "samples": 256
+        },
+        {
+          "ownerId": "group-1-root-1-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 17.403335647588808,
+          "strokeWidth": 1.104958988599051,
+          "safe": true,
+          "minInteriorClearance": 2.066912133435536,
+          "requiredClearance": 1.5524794942995255,
+          "samples": 256
+        },
+        {
+          "ownerId": "group-1-root-1-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 18.216397984726143,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.917665034216297,
+          "requiredClearance": 1.5,
+          "samples": 256
+        },
+        {
+          "ownerId": "group-2-root-2-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 22.653049530170055,
+          "strokeWidth": 1.6655237126145566,
+          "safe": true,
+          "minInteriorClearance": 2.9864903830294294,
+          "requiredClearance": 1.8327618563072783,
+          "samples": 307
+        },
+        {
+          "ownerId": "group-2-root-2-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 23.609112780519975,
+          "strokeWidth": 1.4989713413531012,
+          "safe": true,
+          "minInteriorClearance": 2.803943028730009,
+          "requiredClearance": 1.7494856706765507,
+          "samples": 312
+        },
+        {
+          "ownerId": "group-2-root-2-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 24.71210135718001,
+          "strokeWidth": 1.3324189700916453,
+          "safe": true,
+          "minInteriorClearance": 2.6014765781034273,
+          "requiredClearance": 1.6662094850458227,
+          "samples": 317
+        }
+      ]
+    },
+    {
+      "seed": 13891,
+      "children": 3,
+      "emitted": 3,
+      "omissions": [],
+      "minArcLength": 17.670383264934923,
+      "minInteriorClearance": 2.1206261928191155,
+      "minPairGap": 70.49190152910417,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 35.82648602760741,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 4.723225269811406,
+          "requiredClearance": 2,
+          "samples": 355
+        },
+        {
+          "ownerId": "group-0-root-0-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 39.08293904565416,
+          "strokeWidth": 2,
+          "safe": true,
+          "minInteriorClearance": 4.114314240669387,
+          "requiredClearance": 2,
+          "samples": 399
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "retainedInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "arcLength": 17.670383264934923,
+          "strokeWidth": 1.1393121518848988,
+          "safe": true,
+          "minInteriorClearance": 2.1206261928191155,
+          "requiredClearance": 1.5696560759424494,
+          "samples": 256
+        }
+      ]
+    },
+    {
+      "seed": 4294967295,
+      "children": 7,
+      "emitted": 7,
+      "omissions": [],
+      "minArcLength": 21.730200631463504,
+      "minInteriorClearance": 2.4954965955003114,
+      "minPairGap": 16.787514658378125,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "retainedInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "arcLength": 22.63034648195911,
+          "strokeWidth": 1.459109763591008,
+          "safe": true,
+          "minInteriorClearance": 2.7158723601341532,
+          "requiredClearance": 1.729554881795504,
+          "samples": 306
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 21.730200631463504,
+          "strokeWidth": 1.597672948331846,
+          "safe": true,
+          "minInteriorClearance": 2.864825555637979,
+          "requiredClearance": 1.798836474165923,
+          "samples": 300
+        },
+        {
+          "ownerId": "group-1-root-1-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 22.64731539867413,
+          "strokeWidth": 1.4379056534986616,
+          "safe": true,
+          "minInteriorClearance": 2.689714887717224,
+          "requiredClearance": 1.7189528267493308,
+          "samples": 306
+        },
+        {
+          "ownerId": "group-1-root-1-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 23.705369990092876,
+          "strokeWidth": 1.2781383586654766,
+          "safe": true,
+          "minInteriorClearance": 2.4954965955003114,
+          "requiredClearance": 1.6390691793327383,
+          "samples": 311
+        },
+        {
+          "ownerId": "group-2-root-2-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 23.101787981515155,
+          "strokeWidth": 1.6985163801351817,
+          "safe": true,
+          "minInteriorClearance": 3.045650323842344,
+          "requiredClearance": 1.8492581900675908,
+          "samples": 310
+        },
+        {
+          "ownerId": "group-2-root-2-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 24.076790065763827,
+          "strokeWidth": 1.5286647421216635,
+          "safe": true,
+          "minInteriorClearance": 2.8594868552110686,
+          "requiredClearance": 1.7643323710608318,
+          "samples": 315
+        },
+        {
+          "ownerId": "group-2-root-2-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 25.20162794730802,
+          "strokeWidth": 1.358813104108145,
+          "safe": true,
+          "minInteriorClearance": 2.6530097091863882,
+          "requiredClearance": 1.6794065520540724,
+          "samples": 320
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "children": 9,
+      "emitted": 9,
+      "omissions": [],
+      "minArcLength": 10.614691525251029,
+      "minInteriorClearance": 1.5546616175583219,
+      "minPairGap": 16.45117234713808,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 22.67069277800568,
+          "strokeWidth": 1.6668208998916367,
+          "safe": true,
+          "minInteriorClearance": 2.988816400544959,
+          "requiredClearance": 1.8334104499458184,
+          "samples": 307
+        },
+        {
+          "ownerId": "group-0-root-0-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.3011111111111111,
+            0.793611111111111
+          ],
+          "arcLength": 23.627500654850355,
+          "strokeWidth": 1.5001388099024733,
+          "safe": true,
+          "minInteriorClearance": 2.806126869881518,
+          "requiredClearance": 1.7500694049512366,
+          "samples": 312
+        },
+        {
+          "ownerId": "group-0-root-0-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 24.731348290278387,
+          "strokeWidth": 1.3334567199133094,
+          "safe": true,
+          "minInteriorClearance": 2.6035027289730386,
+          "requiredClearance": 1.6667283599566547,
+          "samples": 317
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 12.07145802754273,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.591454309954354,
+          "requiredClearance": 1.5,
+          "samples": 256
+        },
+        {
+          "ownerId": "group-1-root-1-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.756328125
+          ],
+          "arcLength": 12.484739982559251,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.5626180137960113,
+          "requiredClearance": 1.5,
+          "samples": 236
+        },
+        {
+          "ownerId": "group-2-root-2-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "retainedInterval": [
+            0.30120879120879124,
+            0.7357999227335164
+          ],
+          "arcLength": 10.614691525251029,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.5546616175583219,
+          "requiredClearance": 1.5,
+          "samples": 226
+        },
+        {
+          "ownerId": "group-3-root-3-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 21.29483029506556,
+          "strokeWidth": 1.5656631468226105,
+          "safe": true,
+          "minInteriorClearance": 2.807428015365381,
+          "requiredClearance": 1.7828315734113054,
+          "samples": 297
+        },
+        {
+          "ownerId": "group-3-root-3-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30111111111111116,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.30111111111111116,
+            0.793611111111111
+          ],
+          "arcLength": 22.193570424531707,
+          "strokeWidth": 1.4090968321403496,
+          "safe": true,
+          "minInteriorClearance": 2.6358257361470097,
+          "requiredClearance": 1.7045484160701747,
+          "samples": 303
+        },
+        {
+          "ownerId": "group-3-root-3-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 23.230426611425873,
+          "strokeWidth": 1.2525305174580885,
+          "safe": true,
+          "minInteriorClearance": 2.445498658956205,
+          "requiredClearance": 1.6262652587290443,
+          "samples": 308
+        }
+      ]
+    },
+    {
+      "seed": 11,
+      "children": 8,
+      "emitted": 8,
+      "omissions": [],
+      "minArcLength": 9.895435215504214,
+      "minInteriorClearance": 1.5483548230423132,
+      "minPairGap": 16.933172169885044,
+      "creases": [
+        {
+          "ownerId": "group-0-root-0-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 21.918743546417623,
+          "strokeWidth": 1.6115352186316265,
+          "safe": true,
+          "minInteriorClearance": 2.889682323886804,
+          "requiredClearance": 1.8057676093158133,
+          "samples": 302
+        },
+        {
+          "ownerId": "group-0-root-0-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30111111111111116,
+            0.793611111111111
+          ],
+          "retainedInterval": [
+            0.30111111111111116,
+            0.793611111111111
+          ],
+          "arcLength": 22.84381569490077,
+          "strokeWidth": 1.450381696768464,
+          "safe": true,
+          "minInteriorClearance": 2.713052301573907,
+          "requiredClearance": 1.725190848384232,
+          "samples": 307
+        },
+        {
+          "ownerId": "group-0-root-0-child-2",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 23.911050537355084,
+          "strokeWidth": 1.2892281749053012,
+          "safe": true,
+          "minInteriorClearance": 2.5171488669336126,
+          "requiredClearance": 1.6446140874526507,
+          "samples": 312
+        },
+        {
+          "ownerId": "group-1-root-1-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7848359375
+          ],
+          "arcLength": 11.509136847687728,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.5483548230423132,
+          "requiredClearance": 1.5,
+          "samples": 252
+        },
+        {
+          "ownerId": "group-1-root-1-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7447265624999999
+          ],
+          "arcLength": 11.821620391218902,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.555089026064627,
+          "requiredClearance": 1.5,
+          "samples": 230
+        },
+        {
+          "ownerId": "group-2-root-2-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30120879120879124,
+            0.7934890109890109
+          ],
+          "retainedInterval": [
+            0.30120879120879124,
+            0.7165702266483516
+          ],
+          "arcLength": 9.895435215504214,
+          "strokeWidth": 1,
+          "safe": true,
+          "minInteriorClearance": 1.5501925592696941,
+          "requiredClearance": 1.5,
+          "samples": 216
+        },
+        {
+          "ownerId": "group-3-root-3-child-0",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "retainedInterval": [
+            0.30200000000000005,
+            0.7925
+          ],
+          "arcLength": 22.39847630347493,
+          "strokeWidth": 1.6468066853510632,
+          "safe": true,
+          "minInteriorClearance": 2.952928434017303,
+          "requiredClearance": 1.8234033426755316,
+          "samples": 305
+        },
+        {
+          "ownerId": "group-3-root-3-child-1",
+          "emitted": true,
+          "reason": null,
+          "candidateInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "retainedInterval": [
+            0.30000000000000004,
+            0.7949999999999999
+          ],
+          "arcLength": 24.43438866456725,
+          "strokeWidth": 1.3174453482808506,
+          "safe": true,
+          "minInteriorClearance": 2.572241384591013,
+          "requiredClearance": 1.6587226741404253,
+          "samples": 315
+        }
+      ]
+    }
+  ],
+  "missingEvidence": [
+    "lead browser capture",
+    "independent visual review",
+    "native visible gain"
+  ],
+  "processReview": {
+    "sourceOwnership": "Only three assigned files edited; other edits preserved",
+    "scope": "child crease articulation only; no overall anatomy claim",
+    "estimatedWorkerTokens": 4700,
+    "estimatedOverrunTokens": 200,
+    "actualTokens": null
+  }
+}

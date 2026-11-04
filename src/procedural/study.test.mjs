@@ -27,7 +27,7 @@ for(const p of fixtures)test(`integrated gallery fixture ${p.seed} passes curren
 });
 
 test('adapter exposes the actual integrated construction without substituting a fallback',()=>{
- const p=fixtures[2],actual=generateIntegratedCrest(721,'all','interlocked');
+ const p=fixtures[2],actual=generateIntegratedCrest(721,'all','interlocked',{branchCreases:true});
  assert.deepEqual(p.bodyPolygons,actual.bodyPolygons);
  assert.deepEqual(p.foamPolygons,actual.foamPolygons);
  assert.deepEqual(p.inkSeams,actual.inkSeams);
@@ -59,7 +59,7 @@ test('an actual graft branch change distinguishes the normalized geometry',()=>{
 });
 
 test('current ink points and stroke width contribute to signatures',()=>{
- // The all-group graft currently removes every original child ink seam.
+ // Supply a controlled seam to isolate point and width signature changes.
  // Supply an explicit seam to test the adapter's supported geometry input.
  const base=fixtures[2],p={...base,inkSeams:[{points:base.branches[0].points.slice(0,3),strokeWidth:1}]};
  const seams=p.inkSeams.map(s=>({...s,points:s.points.map(q=>q.slice())}));

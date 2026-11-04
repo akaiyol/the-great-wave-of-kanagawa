@@ -1,0 +1,123 @@
+{
+  "phase": "P080",
+  "policy": "v2",
+  "seed": 721,
+  "artifact": "research/output/agent-phase-2026-11-03/P080/seed721.svg",
+  "attempted": 5,
+  "emitted": 5,
+  "diagnostics": [
+    {
+      "id": "group-0-root-0-child-0-secondary",
+      "parentId": "group-0-root-0-child-0",
+      "parentArc": 47.79458362104888,
+      "length": 20.938848566818017,
+      "rootWidth": 7.561250871350951,
+      "curvatureCross": 0.05809643396375934,
+      "emitted": true,
+      "reason": null,
+      "attachment": {
+        "insideBoth": true,
+        "parentClearance": 6.012328898309581,
+        "branchClearance": 0.7505477921653286
+      },
+      "unrelatedOverlapIds": [],
+      "coveredWaterHeadIds": []
+    },
+    {
+      "id": "group-1-root-1-child-0-secondary",
+      "parentId": "group-1-root-1-child-0",
+      "parentArc": 44.36009314442735,
+      "length": 19.96204191499231,
+      "rootWidth": 7.769017721942713,
+      "curvatureCross": 0.07523869752873574,
+      "emitted": true,
+      "reason": null,
+      "attachment": {
+        "insideBoth": true,
+        "parentClearance": 5.95890640324771,
+        "branchClearance": 0.7155344019324662
+      },
+      "unrelatedOverlapIds": [],
+      "coveredWaterHeadIds": []
+    },
+    {
+      "id": "group-1-root-1-child-1-secondary",
+      "parentId": "group-1-root-1-child-1",
+      "parentArc": 47.816351409587774,
+      "length": 17.211362337842317,
+      "rootWidth": 6.21521417755417,
+      "curvatureCross": 0.038320339325548736,
+      "emitted": true,
+      "reason": null,
+      "attachment": {
+        "insideBoth": true,
+        "parentClearance": 5.218642882274057,
+        "branchClearance": 0.616936980159288
+      },
+      "unrelatedOverlapIds": [],
+      "coveredWaterHeadIds": []
+    },
+    {
+      "id": "group-2-root-2-child-0-secondary",
+      "parentId": "group-2-root-2-child-0",
+      "parentArc": 44.420388263356585,
+      "length": 19.989174718510466,
+      "rootWidth": 7.7795775250067605,
+      "curvatureCross": 0.07523869752873569,
+      "emitted": true,
+      "reason": null,
+      "attachment": {
+        "insideBoth": true,
+        "parentClearance": 5.967005867085702,
+        "branchClearance": 0.7165069704912822
+      },
+      "unrelatedOverlapIds": [],
+      "coveredWaterHeadIds": []
+    },
+    {
+      "id": "group-2-root-2-child-1-secondary",
+      "parentId": "group-2-root-2-child-1",
+      "parentArc": 47.88134434334052,
+      "length": 17.234756363091897,
+      "rootWidth": 6.223662020005408,
+      "curvatureCross": 0.03832033932554879,
+      "emitted": true,
+      "reason": null,
+      "attachment": {
+        "insideBoth": true,
+        "parentClearance": 5.225736165243706,
+        "branchClearance": 0.617775533145943
+      },
+      "unrelatedOverlapIds": [],
+      "coveredWaterHeadIds": []
+    }
+  ],
+  "checks": {
+    "command": "node --test src/procedural/secondary-branches.test.mjs src/procedural/branch-creases.test.mjs",
+    "passed": 10,
+    "failed": 0,
+    "syntax": "node --check src/procedural/secondary-branches.mjs passed",
+    "scope": "new construction seed721 only; existing crease regression fixtures unchanged",
+    "baseline": "secondaryBranches false deep-equals baseline; existing branch geometry unchanged"
+  },
+  "missingEvidence": [
+    "lead browser capture",
+    "independent native-scale visual review",
+    "held-out seeds"
+  ],
+  "accounting": {
+    "basis": "estimated",
+    "estimatedTokens": 4800,
+    "actualTokens": null
+  },
+  "sourceHashes": {
+    "src/procedural/integrated-crest.mjs": "fe7c723498630d8ac72426d3b97a955516db66545e689223191efec2a2991bb4",
+    "src/procedural/secondary-branches.mjs": "4150b0d23e8a99bd5341242ad21e85e727bbbfa25380e5d5911f518f24c737bc",
+    "src/procedural/secondary-branches.test.mjs": "22f20fd4aba046c80840fd64e9c4f852604ed58fa909bf99d1595e8b4afe7d32"
+  },
+  "processReview": {
+    "delivery": "executable SVG and compact evidence saved before report",
+    "scope": "no gallery adapter edits or new-seed sweep; no visual acceptance claim",
+    "correction": "kept existing ribbon builder in integrated-crest and injected it into experiment per lead instruction"
+  }
+}

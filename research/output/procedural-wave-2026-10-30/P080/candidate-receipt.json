@@ -1,0 +1,17 @@
+{
+  "phase": "P080",
+  "mode": "candidate",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "records": [
+    {
+      "seed": 721,
+      "ink": 10,
+      "svgHash": "1438f83dcb1366654d5b71c195f5359764cde7cc6a597f53258e731cd465fc05"
+    }
+  ]
+}

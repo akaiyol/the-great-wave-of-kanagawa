@@ -1,0 +1,27 @@
+{
+  "phase": "P079",
+  "mode": "baseline",
+  "browser": "151.0.7922.34",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "records": [
+    {
+      "seed": 721,
+      "ink": 0,
+      "svgHash": "7bee6ebb37843e15cbc6d5906f30222d7a4f899a635f768b452ff7ed8fde4a8a"
+    },
+    {
+      "seed": 0,
+      "ink": 0,
+      "svgHash": "f8f8bdf4d0ef4652b1e0fa9443aec5d6448b2baf9cbc4cf54323e7627de89bde"
+    },
+    {
+      "seed": 5,
+      "ink": 0,
+      "svgHash": "25211b283e240cfa8d5c199ec894e51a674a2c8b7667b83b16685e88f8925d43"
+    }
+  ]
+}

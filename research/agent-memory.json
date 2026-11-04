@@ -52,9 +52,9 @@
     {
       "id": "review.context-overhead",
       "status": "retained",
-      "lesson": "The P066 independent process audit estimated9000 tokens against1000reserved. Routine audits use lead context; independent audits begin with a compact phase/lesson pack, escalating source reads only for a concrete flaw.",
+      "lesson": "Reserve review setup cost; send compact fixture summaries, retrieve detailed diagnostics only for discrepancies. P079 evaluator exceeded estimate after oversized checks retrieval.",
       "evidence": [
-        "research/output/agent-phase-2026-11-02/P066/process-review.json"
+        "research/output/agent-phase-2026-11-03/P079/visual-review.json"
       ],
       "reentryCondition": "Allocate review context explicitly before an independent audit; record estimates/overruns rather than claiming measured5% usage."
     },
@@ -105,6 +105,15 @@
         "research/output/agent-phase-2026-11-03/P073/visual-review.json"
       ],
       "reentryCondition": "Keep chart ordering/attachment while varying head depth/width; validate other seeds before generality claims."
+    },
+    {
+      "id": "geometry.secondary-prongs",
+      "status": "retained",
+      "lesson": "P080 convex-side secondary lobes on unchanged sparse child shafts create small prongs and doubled hooks, not a convincing foam hierarchy. Stop after the first native failure; no nearby twig parameter tuning.",
+      "evidence": [
+        "research/output/procedural-wave-2026-10-30/P080/receipt.json"
+      ],
+      "reentryCondition": "Replace the supported cluster silhouette and water coves together rather than appending lobes to unchanged shafts."
     }
   ]
 }

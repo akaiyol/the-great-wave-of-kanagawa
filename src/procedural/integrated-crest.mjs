@@ -1,4 +1,5 @@
 // W063: opt-in one-group replacement with continuous parent-flank attachment.
+import {buildBranchCreases} from './branch-creases.mjs';
 import {generateWave} from './rolled-front.mjs';
 import {buildOrderedBay} from './ordered-bay.mjs';
 import {lerp,cubicBezier,cubicTangent,taperedRibbon,pointInPolygon,polygonClearance,polygonSelfCrossings,segmentsCross} from './geometry.mjs';
@@ -85,7 +86,7 @@ function generateGraft(wave,group,recipe='legacy'){
 }
 // The two-group control deliberately preserves the original junction/bridge.
 // It tests the visible result before attempting a new inter-group boundary.
-export function generateIntegratedCrest(seed=721,groupCount=1,variant='legacy'){
+function generateBareCrest(seed=721,groupCount=1,variant='legacy'){
  if(!['legacy','turning','branched','interlocked'].includes(variant))throw new RangeError('Unknown crest variant');
  if(![1,2,'all'].includes(groupCount)||groupCount==='all'&&!['branched','interlocked'].includes(variant))throw new RangeError('groupCount must be 1, 2, or all for branched');
  const wave=generateWave(seed);
@@ -132,6 +133,12 @@ export function generateIntegratedCrest(seed=721,groupCount=1,variant='legacy'){
  }
  const diagnostics={variant,bayConstraints:bay?.diagnostics??null,innerBaySeamOutsideBody:newBaySeam.filter(p=>!bodyPolygons.some(poly=>pointInPolygon(p,poly))&&Math.min(...bodyPolygons.map(poly=>polygonClearance(p,poly)))>.1).length,waterTongues:waterTongueDiagnostics,foamRootKept,declaredInterGroupRoute:{points:interGroupRoute,samples:routeSamples,bodyHits:routeHits,boundaryCrossings:routeCrossings,minClearance:routeMinClearance,scope:'seed721 explicit route below upper tips into open hollow; sampled route only, not entire union proof'},scope:'selected whole-wave crest groups; retained original junctions; sky topology unproven',groups:grafts.map(g=>({root:g.group.rootId,range:[g.group.startIndex,g.group.endIndex],collar:g.diagnostics.collar,localAttachments:g.diagnostics.attachments})),simpleComponents:[...bodyPolygons,...foamPolygons].map(p=>polygonSelfCrossings(p)),finite:[...bodyPolygons,...foamPolygons].flat(2).every(Number.isFinite),sharedExposedGeometryError:0,interGroupSky:'declared route sampled; whole sky topology unproven',localCovesAgainstCombinedUnion:grafts.map(g=>({root:g.group.rootId,bodyHits:g.covePath.filter(p=>bodyPolygons.some(poly=>pointInPolygon(p,poly))).length})),retainedInk:inkSeams.length};
  return{seed,wave,grafts,groupCount,baseBody,baseFoam,bodyPolygons,foamPolygons,waterChannels,innerBayHeads,branches,inkSeams,diagnostics};
+}
+export function generateIntegratedCrest(seed=721,groupCount=1,variant='legacy',options={}){
+ const crest=generateBareCrest(seed,groupCount,variant);
+ if(!options.branchCreases)return crest;
+ const creases=buildBranchCreases(crest.branches);
+ return{...crest,inkSeams:[...crest.inkSeams,...creases.inkSeams],diagnostics:{...crest.diagnostics,branchCreases:creases.diagnostics}};
 }
 const pt=p=>p.map(x=>x.toFixed(2)).join(',');
 const path=p=>'M'+p.map(pt).join(' L')+' Z';
