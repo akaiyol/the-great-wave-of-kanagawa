@@ -6,7 +6,7 @@ Reviewed 2026-10-07 for an endlessly scrolling Braille Great Wave field.
 
 Original: [LingDong-/shan-shui-inf](https://github.com/LingDong-/shan-shui-inf).
 Reviewed commit: `9f754d2b2e73495db7883d4d4055a7b0903b0454`.
-The local `vendor/shan-shui-inf/index.html` is an unmodified, checksum-verified snapshot; `LICENSE` is retained alongside it. SHA-256: `858792db2659e7d4c6604606d4ff2175f137f07061f8af51644f06ab0788215f`.
+The local `research/vendor/shan-shui-inf/index.html` is an unmodified, checksum-verified snapshot; `LICENSE` is retained alongside it. SHA-256: `858792db2659e7d4c6604606d4ff2175f137f07061f8af51644f06ab0788215f`.
 
 The application is a self-contained HTML file with inline JavaScript, generated SVG scenery, and a generated Canvas paper texture. No external script imports were found. It creates static scenery and moves the view through it. There is no fluid solver, learned model, or temporal evolution of mountains/water.
 
@@ -60,3 +60,7 @@ For our project, that hierarchy becomes: wave-field layout → overhanging water
 - Generation/selection took about **2.85 s** initially and **48–1,176 ms** at subsequent sampled positions in this VM run. These measurements are not the demo's browser frame rate, and are not directly comparable with the much simpler new shape test.
 
 Evidence: `output/upstream-results.json`. This confirms the storage-growth concern and supports reusing the method rather than porting the entire implementation.
+
+## Current transfer — 2026-11-04
+
+The two equal goals and current acceptance criteria are in [GOALS.md](../GOALS.md). Transfer the construction hierarchy—composition, generated geometry, contours, attached detail and vector rendering—to a Hokusai-like ocean. Earlier Braille-specific application notes above are historical, not current rendering instructions. The source snapshot remains unchanged and its checksum was verified again; its mountains are not wave templates.

@@ -13,22 +13,67 @@
   "plannedTokens": 20000,
   "family": "project-goal-contract",
   "strategyReview": "research/strategies/S083.json",
-  "status": "working",
+  "status": "closed",
   "budget": {
     "workTokens": 19000,
     "reviewTokens": 1000
   },
   "startedAt": "2026-11-04T21:55:32.796Z",
-  "result": null,
-  "review": null,
+  "result": {
+    "id": "P083",
+    "summary": "Established pinned equal ART and SYSTEM goals, generated GOALS.md, explicit acceptance evidence and a phase goal/protection gate. README goals and Mermaid architecture are generated from one manifest and checked against reviewed role/workflow inputs.6final contract tests pass after16worker affected checks. Fresh agent recovered all goals/statuses and caught a completion-before-process diagram bug, now fixed. Native GitHub Mermaid reviewed in two viewport captures. Both goals remain unfinished.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "GOALS.md",
+      "research/project-goals.json",
+      "research/agent-architecture.json",
+      "research/output/agent-phase-2026-11-04/P083/worker-checks.json",
+      "research/output/agent-phase-2026-11-04/P083/fresh-startup-review.json",
+      "research/output/agent-phase-2026-11-04/P083/receipt.json"
+    ],
+    "nextAction": "Return to an independently challenged artwork experiment that targets the largest whole-view gap; use the new contracts instead of expanding infrastructure.",
+    "estimatedWorkTokens": 40000
+  },
+  "review": {
+    "id": "P083",
+    "findings": [
+      "Independent strategy review rejected unsupported numerical acceptance quotas; fresh-startup review also found a real diagram gate-order error. These are scoped useful decisions, not proof of general critic accuracy.",
+      "Goals, architecture source pins and generated documentation now have deterministic drift checks. Metadata and valid evidence paths cannot establish artistic acceptance or system efficiency.",
+      "Review setup exceeded estimates; native GitHub screenshot troubleshooting and this broad goal-contract change also exceeded the phase plan. Full-page iframe captures were discarded in favor of normal viewport evidence. No efficiency gain claimed."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep equal goal visibility, pinned acceptance definitions, source-pinned diagram generation and independent challenge.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P083/receipt.json",
+          "research/output/agent-phase-2026-11-04/P083/fresh-startup-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Stop infrastructure expansion; use compact packets and existing bindings for the next bounded artwork test, with setup cost included.",
+        "evidence": [
+          "research/strategies/S083.json",
+          "research/output/agent-phase-2026-11-04/P083/receipt.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Challenge the largest remaining visual gap using native whole views; protect the SYSTEM goal by performing one cheap discriminating artifact test before wider validation.",
+    "estimatedReviewTokens": 900
+  },
   "accounting": {
     "basis": "estimated",
     "actualTokens": null,
-    "estimatedWorkTokens": null,
-    "estimatedReviewTokens": null,
-    "estimatedTotalTokens": null,
-    "estimatedWorkOverrun": null,
-    "estimatedReviewOverrun": null,
-    "estimatedTotalOverrun": null
-  }
+    "estimatedWorkTokens": 40000,
+    "estimatedReviewTokens": 900,
+    "estimatedTotalTokens": 40900,
+    "estimatedWorkOverrun": 21000,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 20900
+  },
+  "resultAt": "2026-11-04T22:06:58.584Z",
+  "closedAt": "2026-11-04T22:06:58.637Z"
 }

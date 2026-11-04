@@ -1,0 +1,56 @@
+{
+  "phase": "P083",
+  "publishedCommit": "ad8f8aa8613e4d8e659add6b8baee7114e066582",
+  "sourceHashes": {
+    "README.md": "b6aade8ed6eb3415831b0791d2e69198b0c851a494b6e409892db48d3c5e3a87",
+    "GOALS.md": "70b4d7d3e71fb465db11d2c13b8c26d3eabc49b66de40052fe742a8a73080926",
+    "research/project-goals.json": "e58715410a25dad06e8acfc0a67bab73a1dceb9acc15e776ddc01e9c95e57978",
+    "research/agent-architecture.json": "48778ce96e663185ac1866250663ea0c11256fb2b8f39f10f1b42037f63dfc0a",
+    "scripts/project-contract.mjs": "fa837c887a670dfc112ca6e02bb32dd7a3fcf38e230162631e9fa45e0a5f4da6",
+    "scripts/phase.mjs": "b068a145a6adf3cc930559334301e4ccd0a94f947418bd26baf07ffd5fcaac83"
+  },
+  "checks": {
+    "workerAffectedSuite": {
+      "passed": 16,
+      "failed": 0
+    },
+    "leadFinalContractSuite": {
+      "passed": 6,
+      "failed": 0
+    },
+    "liveContractCheck": "pass",
+    "phaseCheck": "pass",
+    "freshStartup": "both equal goals and all outstanding criteria recovered without history"
+  },
+  "independentFindings": [
+    "Unsupported numerical acceptance quotas changed to provisional evaluation plans.",
+    "Completion edge moved after mandatory process review."
+  ],
+  "publishedDiagram": {
+    "url": "https://github.com/akaiyol/the-great-wave-of-kanagawa#agent-architecture",
+    "renderer": "GitHub native Mermaid",
+    "viewport": [
+      1280,
+      720
+    ],
+    "rendered": true,
+    "observedFinalFrame": [
+      838,
+      1052
+    ],
+    "views": [
+      "published-architecture-top.jpg",
+      "published-architecture-bottom.jpg"
+    ],
+    "captureMethodNote": "Full-page screenshots omitted the cross-origin iframe despite a visible rendered diagram; discarded those unusable captures and verified/saved two normal viewport captures."
+  },
+  "captures": {
+    "published-architecture-top.jpg": "e977d093a36f1347ad530885b3f209ad29dc1a39c5e5100d825c91c316716747",
+    "published-architecture-bottom.jpg": "69e550723eda1af16859c67733ff52caa27edd1542d1fc268b97aeee282be5c5"
+  },
+  "limits": [
+    "Presence/pinning checks cannot judge semantic quality, authenticate independent reasoning or grant user artistic acceptance.",
+    "No measured system efficiency improvement or complete artwork is established.",
+    "Runtime goal remains active to the90%-used ceiling; local sleep still suspends tools."
+  ]
+}
