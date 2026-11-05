@@ -1,0 +1,24 @@
+{
+  "phase": "P098",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "frame": [
+    0,
+    0,
+    250,
+    260
+  ],
+  "revision": "post-integrity ink-width repair, foam and interior paths unchanged",
+  "hashes": {
+    "research/woodblock/ink-parent.mjs": "343035cb463018046bbf65d0c38637671bfa1808f98ebdccbc0b5174b29a3993",
+    "research/woodblock/ink-parent.html": "7e3d4cd9740d69ead7b1945bc780585c456d392ef7ce7a3f57acb41068115d08",
+    "research/woodblock/measured-fork.mjs": "f50e0b48e5a4a771f8adaa2ca8e65725fce05e825b0f7f3260718f576b1f3cea",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-05/P098/repaired-comparison-721-native.jpg": "25e1ae9cb7d558213a33c4993dadaed0d67baa90b4578e18b879b260563d5225",
+    "research/output/agent-phase-2026-11-05/P098/checks.json": "2c9f1dfa30f9c5f99d8cfad4461929e9e2bc1f08dd33026adf4fa1efc0f4ce6e"
+  }
+}

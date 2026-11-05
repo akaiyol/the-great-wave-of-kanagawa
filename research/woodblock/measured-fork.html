@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Measured fork study</title>
+<style>html,body{margin:0;background:#e6dcc1;color:#23485f;font:16px system-ui}main{display:flex;gap:32px;justify-content:center;align-items:start;padding:32px}figure{margin:0;width:min(29vw,400px);flex:none}svg{display:block;width:100%;height:auto;aspect-ratio:250/260}figcaption{margin-bottom:12px}</style>
+<main><figure><figcaption>Canonical source</figcaption><svg viewBox="2020 950 250 260" xmlns="http://www.w3.org/2000/svg"><image href="../../references/great-wave-off-kanagawa-met-DP130155.jpg" width="3859" height="2594"/></svg></figure><figure><figcaption>P094 baseline</figcaption><div id="baseline"></div></figure><figure><figcaption>P097 measured fork</figcaption><div id="candidate"></div></figure></main>
+<script type="module">
+import{generateParentFork}from'./parent-fork.mjs';
+import{generateMeasuredFork}from'./measured-fork.mjs';
+const raw=new URLSearchParams(location.search).get('seed'),seed=raw===null?721:/^\d+$/.test(raw)?Number(raw):NaN;
+try{const baseline=generateParentFork(seed),variant=generateMeasuredFork(seed);document.querySelector('#baseline').innerHTML=baseline.svg;document.querySelector('#candidate').innerHTML=variant.svg;window.measuredFork={ready:true,baseline,variant,...variant,error:null};}catch(e){window.measuredFork={ready:true,seed,error:e.message};document.querySelector('#candidate').textContent=e.message;}
+</script></html>

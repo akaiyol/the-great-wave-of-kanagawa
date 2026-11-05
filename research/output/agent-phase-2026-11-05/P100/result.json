@@ -1,0 +1,16 @@
+{
+  "id": "P100",
+  "summary": "Rejected at native visual review: shared-boundary parent reads as a large dangling glyph rather than integrated froth. Endpoint matching did not establish sheet-flow or projected-scale correspondence. No broad integrity checks or gallery adoption; P099/P098 remain retained scoped checkpoints.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "fail",
+  "evidence": [
+    "research/woodblock/attached-parent.mjs",
+    "research/output/agent-phase-2026-11-05/P100/receipt.json",
+    "research/output/agent-phase-2026-11-05/P100/candidate-721-native.jpg",
+    "research/output/agent-phase-2026-11-05/P100/visual-review.json",
+    "research/output/agent-phase-2026-11-05/P100/placement-diagnostic.json"
+  ],
+  "nextAction": "Checkpoint this run. Before further attachment, inspect source-backed upstream sheet direction, bridge/fork axis and projected parent scale; do not rescue P100 with nearby parameter variants.",
+  "estimatedWorkTokens": 9750
+}

@@ -1,0 +1,13 @@
+{
+  "elapsedProposalToCaptureSeconds": 252.5,
+  "workEstimate": 10100,
+  "workerEstimate": 2400,
+  "strategyEstimate": 950,
+  "visualReviewEstimate": 750,
+  "leadEstimateIncludingBrowserRecovery": 6000,
+  "actualTokens": null,
+  "userCorrections": 0,
+  "scopeChanges": "Lead changed comparison CSS250px panels to400px before review; geometry unchanged.",
+  "overhead": "Cross-turn browser adapter unavailable; one session reset restored capture after three failed operations. No fallback browser technology.",
+  "efficiency": "Local gain supported; not a controlled speedup comparison."
+}

@@ -5,22 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P096 (closed).
-Record: research/phases/P096.json
-Objective: Measure source sky-cove extents with sensitivity and visual checks before more shape tuning.
-Hypothesis: Local sky-connected source measurements constrain cove/support proportions more reliably than qualitative root-width edits.
-Baseline: P095 qualitative root widening failed; exact cove/support proportions unresolved.
-Artifact: research/woodblock/cove-measurements.json
-Budget: 5700 work / 300 review tokens (planned; usage estimated).
-Strategy: research/strategies/S096.json (family: source-cove-measurement).
+Current phase: P100 (closed).
+Record: research/phases/P100.json
+Objective: Test one generated nested parent attachment in the actual shared foam/body boundary.
+Hypothesis: A source-derived parent reconstructed into one actual shared crest boundary reads as attached nested froth rather than an isolated glyph.
+Baseline: P099 water checkpoint; source-failing oldfoam; P098 local parent only.
+Artifact: research/woodblock/attached-parent.mjs
+Budget: 11400 work / 600 review tokens (planned; usage estimated).
+Strategy: research/strategies/S100.json (family: source-parent-attachment).
 Artifact delivered: true.
-Result: Read-only chroma/sensitivity analysis yields independently supported lower B/C notch location band x2140–2144,y1098–1099. Upper A/J extremum shifts up to88px across thresholds, so overall measurements are inconclusive and no upper/lower proportion ratio is accepted. No source or art mutation.
-Verdicts: technical incomplete; artistic not_applicable.
-Next action: Stop threshold tuning. Preserve only lower-notch band; upper cove remains unknown. Any subsequent local test must isolate supported evidence and avoid whole-proportion claims.
-Decision (retain): Keep limited lower-notch location with method/landmark uncertainty.
-Decision (drop): Reject uppercove ratio and further threshold tuning; defer unsupported full-proportion changes.
-Next improvement: Choose only a source-supported local feature for any next experiment, or preserve checkpoint if no discriminating test fits remaining allowance.
-State retainedCandidate: P094 seed721 local P→A/J→B/C topology checkpoint; two independent reviews retain hierarchy, source style fails. P084 composition scaffold retained; no accepted procedural artwork.
+Result: Rejected at native visual review: shared-boundary parent reads as a large dangling glyph rather than integrated froth. Endpoint matching did not establish sheet-flow or projected-scale correspondence. No broad integrity checks or gallery adoption; P099/P098 remain retained scoped checkpoints.
+Verdicts: technical incomplete; artistic fail.
+Next action: Checkpoint this run. Before further attachment, inspect source-backed upstream sheet direction, bridge/fork axis and projected parent scale; do not rescue P100 with nearby parameter variants.
+Decision (drop): Keep P100 as rejected research evidence; do not integrate or tune this endpoint-fit construction.
+Decision (retain): Preserve P099 water and P098 local parent checkpoints separately; require source-backed sheet/parent correspondence before retry.
+Next improvement: Source study of sheet-to-parent flow and display-scale correspondence before another attachment; finish publication with headroom.
+State retainedCandidate: P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.
+State checkpointReason: Stopped new art at75% short-window usage to finish safely below90%. P097/P098 local gains and P099 water retained; P100 attachment rejected.
 Run authorization: Continue until either account usage window reaches90%used, then checkpoint and stop. User restored90% on2026-11-04; supersedes50% and0% instructions. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

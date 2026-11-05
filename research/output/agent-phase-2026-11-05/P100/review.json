@@ -1,0 +1,27 @@
+{
+  "id": "P100",
+  "findings": [
+    "Early visual rejection prevented broad integrity testing of a failed construction. Endpoint agreement is not evidence of anatomical integration.",
+    "Display-space diagnostic shows feature distances 2.47\u20132.94 times the reference and different parent direction. These are descriptive comparisons, not universal scale/angle rules.",
+    "Warm review remained compact; phase work is a rough estimate, with no actual token telemetry. No measured efficiency improvement can be claimed."
+  ],
+  "actions": [
+    {
+      "decision": "drop",
+      "summary": "Keep P100 as rejected research evidence; do not integrate or tune this endpoint-fit construction.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P100/visual-review.json"
+      ]
+    },
+    {
+      "decision": "retain",
+      "summary": "Preserve P099 water and P098 local parent checkpoints separately; require source-backed sheet/parent correspondence before retry.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P100/placement-diagnostic.json",
+        "research/output/agent-phase-2026-11-05/P099/visual-review.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Source study of sheet-to-parent flow and display-scale correspondence before another attachment; finish publication with headroom.",
+  "estimatedReviewTokens": 600
+}

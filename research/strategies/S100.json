@@ -1,0 +1,57 @@
+{
+  "id": "S100",
+  "targetPhase": "P100",
+  "policyVersion": "v2",
+  "family": "source-parent-attachment",
+  "hypothesis": "A source-derived parent reconstructed into one actual shared crest boundary reads as attached nested froth rather than an isolated glyph.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Executable common-chain replacement; endpoints alone do not prove support.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P100-parent-attachment.md",
+      "claim": "Cut interface, common exposure, oldgroup removal, blocker conditions.",
+      "sha256": "2e54abb14a6d9e48c652d7d3407ea00a519d3538908326f53b03ce9a2dc08f1d"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-05/P099/visual-review.json",
+      "claim": "Watergain, primaryfoam unresolved.",
+      "sha256": "902708b726a4b213496e6ffdd62bfffb182cae7962ca4ac27a1de29c322f325c"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P084/visual-review.json",
+      "claim": "Sparsegrafts/smoothribbon fail anatomy.",
+      "sha256": "1c2efd87c9806808e192f6b1ec2067b632eb595b55be43a8a10f5c66f9190a7b"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Verified nested anatomy reconstructed in common exposure, not secondarytwigs.",
+    "evidence": [
+      {
+        "path": "research/proposals/P100-parent-attachment.md",
+        "sha256": "2e54abb14a6d9e48c652d7d3407ea00a519d3538908326f53b03ce9a2dc08f1d"
+      }
+    ]
+  },
+  "unknowns": [
+    "Fit does not constrain tangents/supportwidth.",
+    "Innerseam/neighbors may collide."
+  ],
+  "prediction": {
+    "ifTrue": "Nestedfroth continuously attached.",
+    "ifFalse": "Glyph/pinchedseam/mergedcove remains."
+  },
+  "test": {
+    "action": "One wholeview; actual common exposure and obsoletegroup removed.",
+    "success": "Attachedmass/legiblecoves; earn integritychecks.",
+    "failure": "Invalidinterface/severedroot/collision/negligiblegain: stop without rescue.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 1200,
+  "actualTokens": null
+}

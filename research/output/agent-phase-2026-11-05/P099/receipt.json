@@ -1,0 +1,20 @@
+{
+  "phase": "P099",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "baseline": "research/output/agent-phase-2026-11-04/P084/seed721-native.jpg",
+  "hashes": {
+    "research/woodblock/water-hierarchy.mjs": "6db3c499938b251cb08e28f24f04959a9378c06cf542079b998a29ba2d6101e3",
+    "research/woodblock/water-hierarchy.html": "54b362b839967049f74fc2c761455f107615e11ed6f570d817e1e2e32234db60",
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "src/procedural/study.mjs": "c6bd06d1bdbff1f7a7d36e5be9cac739f22abebd62c2d89be8f2673e301b5c9f",
+    "src/procedural/integrated-crest.mjs": "afef2f7ddb31e1f09bca830adbc0aa80e9371b4c7f004dcd2f3285f9ed963388",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-05/P099/candidate-721-native.jpg": "8be4eef7c5ae02eea6285e59f816494fa0d658d51617b3ab29158d745de61ac2"
+  },
+  "scope": "interiorwatercontour language only; silhouettes fixed, whole-art unaccepted"
+}

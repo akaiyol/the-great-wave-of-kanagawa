@@ -1,0 +1,25 @@
+{
+  "phase": "P098",
+  "seed": 721,
+  "contourCrossings": [
+    0,
+    0
+  ],
+  "markCrossings": [
+    0,
+    0
+  ],
+  "accentCrossings": 0,
+  "insideFoam": true,
+  "filledOutlineExact": true,
+  "curvesExact": true,
+  "graphExact": true,
+  "anchorsExact": true,
+  "endpointSeparation": [
+    28.31960451701259,
+    38.01315561749642
+  ],
+  "interiorInkEnclosedBackgroundCells": 0,
+  "backgroundCheckScope": ".5unit four-neighbor grid,box65,40 to145,115; interior ink union only, excludes intended outer contour; subgrid gaps/unrendered seeds unproven",
+  "repairedWidthCount": 156
+}

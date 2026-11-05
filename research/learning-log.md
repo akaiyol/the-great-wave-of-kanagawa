@@ -53,3 +53,11 @@ Attribution: owner identified the distinction; Daphnie implemented it. Status: a
 Source: canonical museum scan and the independent P089 reviewer, who identified the missing region-connectivity analysis. [P090 observations](woodblock/source-regions.json) support a local distinction between filled water, continuous foam, open ink marks and sky-connected gaps.
 
 Change: next construction must treat those boundary types separately. Daphnie had not enforced the existing warning that ink marks are not all water cavities; she owns that implementation fault. Reviewer receives detection credit. Status: local source interpretation verified; procedural benefit remains a trial. See [review](output/agent-phase-2026-11-04/P090/visual-review.json).
+
+## L007 — Connected geometry still needs anatomical correspondence
+
+Source: canonical scan; independent P097–P100 reviews. P097/P098 retained small local fork and ink gains, and P099 retained a whole-view water-layer gain. P100 failed: fitting a generated parent to two boundary endpoints made an oversized pendant glyph rather than integrated froth.
+
+Change: before another attachment, establish the source relationship from upstream foam sheet through parent bridge to descending fork, including projected scale. Preserve the scoped gains separately. No parameter rescue or new gate. Daphnie owns the endpoint-fit assumption; the independent reviewer identified the integration failure.
+
+Process: native visual rejection avoided broad checks on P100. Fresh-review startup exceeded its estimate in P099; use compact warm review for bounded variants and reserve fresh review for milestones. Efficiency improvement remains unproven. Evidence: [P099](phases/P099.json), [P100](phases/P100.json).

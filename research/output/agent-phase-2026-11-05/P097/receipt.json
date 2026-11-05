@@ -1,0 +1,30 @@
+{
+  "phase": "P097",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "sourceCrop": [
+    2020,
+    950,
+    250,
+    260
+  ],
+  "frame": [
+    0,
+    0,
+    250,
+    260
+  ],
+  "hashes": {
+    "research/woodblock/measured-fork.mjs": "f50e0b48e5a4a771f8adaa2ca8e65725fce05e825b0f7f3260718f576b1f3cea",
+    "research/woodblock/measured-fork.html": "9cc264f888c38977edf40c3737cbff1fb18cd855447877d0568c90bb34d72514",
+    "research/woodblock/parent-fork.mjs": "8e1bba535b91ecdcd355dadbfa1613db744534fe18d96f17b8fc9ca4145c40a8",
+    "research/woodblock/cove-measurements.json": "37f3f0dce57535ef3d1438d0931e4fecb29fecdf27a4fbc11bcb8e19b207d9dc",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-05/P097/comparison-721-native.jpg": "94e6b9337e09b7a2554d5653924a583f4b36bf74b38f6caa6c71432ffab2990a"
+  },
+  "captureSetup": "Stale browser adapter recovered by session reset; first250px panels corrected to matched400px panels without geometry changes before independent review."
+}

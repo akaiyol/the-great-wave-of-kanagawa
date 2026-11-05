@@ -1,0 +1,27 @@
+{
+  "id": "P097",
+  "findings": [
+    "Source-backed relationship and actual construction coverage produced one scoped visible gain rather than an incomplete flat-row test; no causal efficiency claim.",
+    "Browser adapter recovery required session reset; include cross-turn tool setup in budget. Estimated10100work vs7600allocation, actual telemetry unavailable.",
+    "Exact two-feature change and post-view integrity checks preserve known topology; uncertain uppercove and source-style claims remain excluded."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Adopt local P097 lower opening with single-seed support/sky evidence.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P097/visual-review.json",
+        "research/output/agent-phase-2026-11-05/P097/checks.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Treat browser recovery/setup explicitly; isolate next ink-boundary experiment on unchanged anatomy.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P097/measurements.json"
+      ]
+    }
+  ],
+  "nextImprovement": "One source-informed ink treatment, then native source/baseline comparison; no texture or silhouette rescue.",
+  "estimatedReviewTokens": 400
+}

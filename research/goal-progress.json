@@ -4,9 +4,10 @@
     "A1": {
       "status": "unmet",
       "evidence": [
-        "research/phases/P079.json"
+        "research/phases/P099.json",
+        "research/phases/P100.json"
       ],
-      "note": "No accepted procedural ocean."
+      "note": "P099 retains a water-layer gain only. P100 attachment rejected; no accepted procedural ocean."
     },
     "A2": {
       "status": "partial",
@@ -32,9 +33,10 @@
     "S1": {
       "status": "partial",
       "evidence": [
-        "research/phases/P082.json"
+        "research/phases/P099.json",
+        "research/phases/P100.json"
       ],
-      "note": "Gates exist; effectiveness and efficiency remain unproven."
+      "note": "Scoped independent reviews and early rejection recorded. Efficiency gain remains unproven; review startup exceeded estimate."
     },
     "S2": {
       "status": "unmet",

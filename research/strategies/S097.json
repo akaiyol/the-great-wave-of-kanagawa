@@ -1,0 +1,47 @@
+{
+  "id": "S097",
+  "targetPhase": "P097",
+  "policyVersion": "v2",
+  "family": "measured-lower-fork",
+  "hypothesis": "A source-supported upper-right lower-fork opening improves local B/C anatomy while preserving both filled supports.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Bounded two-curve test preserves topology and isolates supported lower-notch relationship.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P097-lower-notch.md",
+      "claim": "Approximate P/J registration; only lower inner cove changes.",
+      "sha256": "8bba7ed5460f43ae94f3128508676657e8f63a45a487de424c2b5681cc69d265"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P096/visual-review.json",
+      "claim": "Lower band identifies actual B/C sky-side apex region.",
+      "sha256": "b81692f8e4daa24b14d27f64b71886a7f34e686815d18c13b98d94387c54ab7e"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P096/visual-review.json",
+      "claim": "Band establishes neither exact boundary nor curvature law.",
+      "sha256": "b81692f8e4daa24b14d27f64b71886a7f34e686815d18c13b98d94387c54ab7e"
+    }
+  ],
+  "unknowns": [
+    "Registration/boundary uncertainty exceeds segmentation band."
+  ],
+  "prediction": {
+    "ifTrue": "Higher rightward opening makes lower fork more source-like with supports intact.",
+    "ifFalse": "Numerical alignment yields negligible gain or pinched fork."
+  },
+  "test": {
+    "action": "One native source/P094/variant comparison; upper cove and terminals unchanged.",
+    "success": "Visible local gain and supports intact; earn affected checks only.",
+    "failure": "Less source-like, pinched/severed support or negligible change: stop without tuning.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 950,
+  "actualTokens": null
+}

@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ocean study</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#e6dcc1}main{width:100%;height:100%}svg{display:block;width:100%;height:100%}</style>
+<main id="art"></main>
+<script type="module">
+import{generateWaterHierarchy}from'./water-hierarchy.mjs';
+import{compositionSvg}from'../../src/procedural/composition.mjs';
+const query=new URLSearchParams(location.search),raw=query.get('seed'),seed=raw===null?721:/^\d+$/.test(raw)?Number(raw):NaN;
+try{const study=generateWaterHierarchy(seed);document.querySelector('#art').innerHTML=query.has('baseline')?compositionSvg(study.baseline):study.svg;window.waterHierarchy={ready:true,...study,error:null};}catch(e){window.waterHierarchy={ready:true,seed,error:e.message};document.querySelector('#art').textContent=e.message;}
+</script></html>

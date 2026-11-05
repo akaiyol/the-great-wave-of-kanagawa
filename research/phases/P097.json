@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P097",
+  "objective": "Test one supported lower-fork relationship without assuming an upper-cove ratio.",
+  "hypothesis": "A source-supported upper-right lower-fork opening improves local B/C anatomy while preserving both filled supports.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P094 local topology only; P096 lower-notch location supported, upper unknown.",
+  "artifactTarget": "research/woodblock/measured-fork.mjs",
+  "plannedTokens": 8000,
+  "family": "measured-lower-fork",
+  "strategyReview": "research/strategies/S097.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One two-curve variant; exact baseline, graph, frame, ink and terminals preserved. No threshold tuning or whole-art claim; checks follow plausible view.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-05T14:58:01.603Z",
+  "result": {
+    "id": "P097",
+    "summary": "Measured lower-fork opening independently retained as a modest local source-anatomy gain. Complete sampled outline has0crossings, four filled supports and bottom-connected sky path pass; only B-inner/notch changed, ink/anchors/graph exact. Upper cove/style/whole artwork unaccepted. Browser adapter recovery added unplanned setup.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/woodblock/measured-fork.mjs",
+      "research/output/agent-phase-2026-11-05/P097/receipt.json",
+      "research/output/agent-phase-2026-11-05/P097/visual-review.json",
+      "research/output/agent-phase-2026-11-05/P097/checks.json",
+      "research/output/agent-phase-2026-11-05/P097/measurements.json"
+    ],
+    "nextAction": "Keep P097 lower-opening local checkpoint. Test a source-supported ink treatment separately, without changing filled anatomy or claiming whole-style acceptance.",
+    "estimatedWorkTokens": 10100
+  },
+  "review": {
+    "id": "P097",
+    "findings": [
+      "Source-backed relationship and actual construction coverage produced one scoped visible gain rather than an incomplete flat-row test; no causal efficiency claim.",
+      "Browser adapter recovery required session reset; include cross-turn tool setup in budget. Estimated10100work vs7600allocation, actual telemetry unavailable.",
+      "Exact two-feature change and post-view integrity checks preserve known topology; uncertain uppercove and source-style claims remain excluded."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Adopt local P097 lower opening with single-seed support/sky evidence.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P097/visual-review.json",
+          "research/output/agent-phase-2026-11-05/P097/checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Treat browser recovery/setup explicitly; isolate next ink-boundary experiment on unchanged anatomy.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P097/measurements.json"
+        ]
+      }
+    ],
+    "nextImprovement": "One source-informed ink treatment, then native source/baseline comparison; no texture or silhouette rescue.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 10100,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 10500,
+    "estimatedWorkOverrun": 2500,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 2500
+  },
+  "resultAt": "2026-11-05T15:03:54.122Z",
+  "closedAt": "2026-11-05T15:03:54.154Z"
+}

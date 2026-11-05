@@ -1,0 +1,19 @@
+{
+  "phase": "P100",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "hashes": {
+    "research/woodblock/attached-parent.mjs": "0a1b3e13a29db5a074797465917cd5016ebbde2dead9afc7b7ee4b6b322fbc61",
+    "research/woodblock/attached-parent.html": "19e5b68a97e8f182e1a5c0834fc0f0ac317a0228929959969ea10ca7461981ef",
+    "research/woodblock/ink-parent.mjs": "343035cb463018046bbf65d0c38637671bfa1808f98ebdccbc0b5174b29a3993",
+    "research/woodblock/water-hierarchy.mjs": "6db3c499938b251cb08e28f24f04959a9378c06cf542079b998a29ba2d6101e3",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-05/P100/candidate-721-native.jpg": "c15245460d769b87f40f0ebc4860c94b5124a516bc3022f8a82cdaaf088ed2f2"
+  },
+  "baseline": "P099 same scene; one reconstructedcommonboundary group plus interiorink",
+  "scope": "initialfinite/interfaceonly; attachment/collision/union unverified"
+}

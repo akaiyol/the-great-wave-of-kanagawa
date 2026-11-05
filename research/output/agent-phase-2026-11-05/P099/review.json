@@ -1,0 +1,27 @@
+{
+  "id": "P099",
+  "findings": [
+    "Fixed-region test separates real water-language gain from unresolved foam/wholeart. Bothreviewsretaincomponent only; exactinvariancechecked independentlyofsharedreferences.",
+    "Freshreviewestimated11000vs4000target dueexcessstartupoutput. Lead5000+worker2500+strategy1100+warm900+fresh11000=20500estimatedwork, over11400allocation. Actualtelemetryunavailable; no efficiencyclaim.",
+    "Nextgeometrytaskmustprove actualfoam/bodyattachment, not randomplacing finishedSVGs. Preservewaterlayer whileisolatingonegeneratedparentinterface."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Keep scoped P099 waterlayer with geometry/clip evidence and failedwholelikenessscope.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P099/checks.json",
+        "research/output/agent-phase-2026-11-05/P099/fresh-review.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Usecompactwarmreviewforboundedattachment test; no newfreshstartup without actualmilestone/headroom.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P099/fresh-review.json"
+      ]
+    }
+  ],
+  "nextImprovement": "One shared-boundary generatedparent attachment on retained water scene; firstviewbefore broadchecks.",
+  "estimatedReviewTokens": 600
+}

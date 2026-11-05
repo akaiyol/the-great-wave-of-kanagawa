@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P098",
+  "objective": "Test related open ink and varying contour weight on retained local foam anatomy.",
+  "hypothesis": "Related open contours and geometry-responsive ink weight improve local woodblock articulation without changing foam anatomy.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P097 lower opening retained; thin uniform outline and isolated spiral still fail source style.",
+  "artifactTarget": "research/woodblock/ink-parent.mjs",
+  "plannedTokens": 9000,
+  "family": "source-ink-language",
+  "strategyReview": "research/strategies/S098.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Exact filled anatomy/frame preserved; ink-language only, no texture/fading/sweep or whole-art claim; tests after native review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 8550,
+    "reviewTokens": 450
+  },
+  "startedAt": "2026-11-05T15:06:44.199Z",
+  "result": {
+    "id": "P098",
+    "summary": "Related open ink and varied outline weight independently retained as a limited articulation gain. Post-view checks exposed2ribbonfolds; bounded geometric width repair removed both. Repaired view re-reviewed, anatomy exact, marks contained/open and grid detects no closed interior ink pockets in declared scope. Whole style remains unaccepted.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/woodblock/ink-parent.mjs",
+      "research/output/agent-phase-2026-11-05/P098/receipt.json",
+      "research/output/agent-phase-2026-11-05/P098/visual-review.json",
+      "research/output/agent-phase-2026-11-05/P098/checks.json"
+    ],
+    "nextAction": "Preserve P098 local one-parent checkpoint. Test whole-view water contour hierarchy separately, keeping all body/foam/cloud geometry fixed; no primitive catalogue integration.",
+    "estimatedWorkTokens": 11900
+  },
+  "review": {
+    "id": "P098",
+    "findings": [
+      "Source-supported contour pair gives local ink gain with foam anatomy unchanged. Post-view checks caught real offset folds; visible gain required geometry-safe repair before retention.",
+      "Work11900estimated incllead6000,worker2300,repair1100,strategy1100,reviews1400; exceeds8550workallocation. Actual telemetry unavailable; late repaircost must count against efficiency.",
+      "One-parent evidence does not establish broader wave grammar, source style or useracceptance; no dark holes inferred from interior ink."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep repaired local ink treatment with exact anatomy and bounded gap evidence.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P098/visual-review.json",
+          "research/output/agent-phase-2026-11-05/P098/checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Budget geometric offset validation when changing stroke representation; keep next whole-view test separate from foam anatomy.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P098/initial-receipt.json",
+          "research/output/agent-phase-2026-11-05/P098/receipt.json"
+        ]
+      }
+    ],
+    "nextImprovement": "One whole-view water contour hierarchy discriminator on fixed P084 geometry, not texture or generated variety.",
+    "estimatedReviewTokens": 450
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 11900,
+    "estimatedReviewTokens": 450,
+    "estimatedTotalTokens": 12350,
+    "estimatedWorkOverrun": 3350,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 3350
+  },
+  "resultAt": "2026-11-05T15:23:19.488Z",
+  "closedAt": "2026-11-05T15:23:19.519Z"
+}

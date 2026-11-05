@@ -1,0 +1,57 @@
+{
+  "phase": "P097",
+  "seed": 721,
+  "changedFeatures": [
+    "B-inner",
+    "B-C-notch"
+  ],
+  "outlineCrossings": 0,
+  "supports": [
+    {
+      "from": "P",
+      "to": "A",
+      "inside": true
+    },
+    {
+      "from": "P",
+      "to": "J",
+      "inside": true
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "inside": true
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "inside": true
+    }
+  ],
+  "skyRoute": {
+    "points": [
+      [
+        115.59999999999991,
+        181.60000000000002
+      ],
+      [
+        115.59999999999991,
+        225
+      ],
+      [
+        115.59999999999991,
+        255
+      ]
+    ],
+    "samples": 130,
+    "hits": 0,
+    "crossings": 0,
+    "minFillClearance": 3.9924109954485134
+  },
+  "inkUnchanged": true,
+  "accentUnchanged": true,
+  "graphUnchanged": true,
+  "anchorsUnchanged": true,
+  "deterministicSvg": true,
+  "scope": "single local primitive, sampled support and explicit sky path; no whole-art or variety acceptance"
+}

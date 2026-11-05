@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-05",
+  "phaseIds": [
+    "P097",
+    "P098",
+    "P099",
+    "P100"
+  ],
+  "retained": {
+    "P097": "Local lower-fork anatomy gain only",
+    "P098": "Local open-ink and variable-contour gain only",
+    "P099": "Whole-view water-layer gain only"
+  },
+  "rejected": {
+    "P100": "Connected parent reads as oversized pendant glyph; sheet-flow relationship absent"
+  },
+  "artStatus": "Unaccepted procedural artwork; gallery and root app unchanged.",
+  "systemStatus": "Native visual triage rejected failed integration before broad checks. Efficiency improvement unproven; P097\u2013P099 estimated work overruns, fresh-review startup disproportionately expensive.",
+  "processDecision": "Keep compact warm review for bounded variants. Fresh independent review at meaningful milestones only. Require source-backed relationship plus actual artifact coverage within existing preflight; do not add another gate.",
+  "nextAction": "Before another attachment, establish source-backed upstream sheet direction, bridge-to-fork axis and projected scale. Two endpoint matches are insufficient. Preserve P099/P098; no nearby P100 parameter rescue.",
+  "accountUsageObservation": {
+    "primaryUsedPercent": 75,
+    "weeklyUsedPercent": 80,
+    "scope": "Shared account observation before finishing; not phase token telemetry."
+  },
+  "accounting": "Phase tokens are rough estimates; actual tokens unavailable.",
+  "publication": "See Git history for checkpoint commit; final remote verification reported in chat."
+}

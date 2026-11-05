@@ -1,0 +1,15 @@
+{
+  "phase": "P100",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "reject",
+  "scope": "One attachment, seed721, 1440x960 DPR1; independent local visual review, not user acceptance.",
+  "findings": [
+    "Parent is continuously connected but reads as a large dangling glyph with eye-like ink; extended blank support and swollen returns dominate.",
+    "No meaningful froth gain over P099. Shared-chain identity and old-group removal demonstrate construction coverage only; union validity remains unverified.",
+    "Missing relationship: upstream sheet direction through parent bridge to descending fork axis. Fitting two endpoints permits a poorly integrated pendant figure."
+  ],
+  "nextAction": "Stop without parameter rescue. Preserve P097/P098 local gains and P099 water checkpoint. Establish source-backed flow direction and projected scale before another attachment.",
+  "estimatedTokens": 850,
+  "actualTokens": null
+}

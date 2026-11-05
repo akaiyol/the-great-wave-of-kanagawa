@@ -1,0 +1,47 @@
+{
+  "phase": "P100",
+  "preflight": {
+    "finite": true,
+    "sharedChainIdentity": true,
+    "oldGroupRemoved": true,
+    "scope": "P100 initial preflight only; attachment/sky/ink and visual validity unverified"
+  },
+  "modifiedGroup": 2,
+  "cut": [
+    {
+      "index": 9,
+      "point": [
+        40,
+        -5.774696222658177
+      ]
+    },
+    {
+      "index": 452,
+      "point": [
+        40,
+        139.41382330848515
+      ]
+    }
+  ],
+  "scale": 0.6341135408667717,
+  "projectedParentDirectionDegrees": 108.03831585899542,
+  "sourceParentDirectionDegrees": 71.45670211519698,
+  "projectedRelativeFeatureDistances": {
+    "A": {
+      "candidatePixels": 170.9758858530853,
+      "sourcePixels": 58.976907944922345,
+      "ratio": 2.899031024358841
+    },
+    "B": {
+      "candidatePixels": 190.49740226357406,
+      "sourcePixels": 64.87964495399589,
+      "ratio": 2.9361659176564507
+    },
+    "C": {
+      "candidatePixels": 144.0060661498679,
+      "sourcePixels": 58.21920658519698,
+      "ratio": 2.4735147487647726
+    }
+  },
+  "scope": "Descriptive display-space comparison only; different whole-wave geometry and unmeasured upstream direction prohibit a universal angle/scale rule. No union validity or new artistic pass."
+}

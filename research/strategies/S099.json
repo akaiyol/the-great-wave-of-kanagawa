@@ -1,0 +1,48 @@
+{
+  "id": "S099",
+  "targetPhase": "P099",
+  "policyVersion": "v2",
+  "family": "water-flow-hierarchy",
+  "hypothesis": "Unequal indigo-dominant flow bands and smooth supporting water contours improve whole-view water language without altering wave anatomy.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Independently testable water hierarchy; not source anatomy/whole acceptance.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P099-water-hierarchy.md",
+      "claim": "Unequal interior tracks/smooth support envelopes; exposed regions fixed.",
+      "sha256": "e1e010b0f72ede3582f90936b23204c10825e2ddb08c87b676b14e2b96ff38e8"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P084/visual-review.json",
+      "claim": "Regular bands contribute striped emblem.",
+      "sha256": "1c2efd87c9806808e192f6b1ec2067b632eb595b55be43a8a10f5c66f9190a7b"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P084/visual-review.json",
+      "claim": "Foam ribbon/sparse fingers remain geometric failures.",
+      "sha256": "1c2efd87c9806808e192f6b1ec2067b632eb595b55be43a8a10f5c66f9190a7b"
+    }
+  ],
+  "unknowns": [
+    "Fewer tracks may flatten depth/detach flow.",
+    "Four is experimental, not universal source rule."
+  ],
+  "prediction": {
+    "ifTrue": "Unequal indigo flow reduces stripe/corrugation.",
+    "ifFalse": "Flat dark fill or regular rhythm persists."
+  },
+  "test": {
+    "action": "One native whole scene then source/P084 comparison; only generated interior bands change.",
+    "success": "Clearer unequal flow/calmer supports; fixedsilhouettes; earn checks.",
+    "failure": "Flat fill/crossings/uniform stripes: archive without tuning.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 1100,
+  "actualTokens": null
+}

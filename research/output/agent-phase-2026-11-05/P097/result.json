@@ -1,0 +1,16 @@
+{
+  "id": "P097",
+  "summary": "Measured lower-fork opening independently retained as a modest local source-anatomy gain. Complete sampled outline has0crossings, four filled supports and bottom-connected sky path pass; only B-inner/notch changed, ink/anchors/graph exact. Upper cove/style/whole artwork unaccepted. Browser adapter recovery added unplanned setup.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "incomplete",
+  "evidence": [
+    "research/woodblock/measured-fork.mjs",
+    "research/output/agent-phase-2026-11-05/P097/receipt.json",
+    "research/output/agent-phase-2026-11-05/P097/visual-review.json",
+    "research/output/agent-phase-2026-11-05/P097/checks.json",
+    "research/output/agent-phase-2026-11-05/P097/measurements.json"
+  ],
+  "nextAction": "Keep P097 lower-opening local checkpoint. Test a source-supported ink treatment separately, without changing filled anatomy or claiming whole-style acceptance.",
+  "estimatedWorkTokens": 10100
+}

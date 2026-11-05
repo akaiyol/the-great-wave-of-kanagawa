@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P099",
+  "objective": "Test whole-view water hierarchy on fixed P084 composition and anatomy.",
+  "hypothesis": "Unequal indigo-dominant flow bands and smooth supporting water contours improve whole-view water language without altering wave anatomy.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "source.boundary-conflation"
+  ],
+  "baseline": "P084 source-failing striped crescent and corrugated support water; composition scaffold only.",
+  "artifactTarget": "research/woodblock/water-hierarchy.mjs",
+  "plannedTokens": 12000,
+  "family": "water-flow-hierarchy",
+  "strategyReview": "research/strategies/S099.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Fixed body/foam/sky/pose; firstwholeview before broadchecks; no alpha/texture/sweep or wholeartacceptance from contour improvement.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 11400,
+    "reviewTokens": 600
+  },
+  "startedAt": "2026-11-05T15:24:19.623Z",
+  "result": {
+    "id": "P099",
+    "summary": "Warm and fresh independent reviews retain whole-view water-language gain: indigo dominance, unequal flow and smoother supporting contours. Checks confirm simple/disjoint bands, unchanged clipping contract and exact body/foam/sky/pose invariance; frozen P084 baselineSVG exact. Whole likeness fails on foam/crescent anatomy; no app integration or broad variety claim.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/woodblock/water-hierarchy.mjs",
+      "research/output/agent-phase-2026-11-05/P099/receipt.json",
+      "research/output/agent-phase-2026-11-05/P099/checks.json",
+      "research/output/agent-phase-2026-11-05/P099/visual-review.json",
+      "research/output/agent-phase-2026-11-05/P099/fresh-review.json"
+    ],
+    "nextAction": "Preserve water-layer checkpoint. Test one source-validated generated parent attachment on the actual foam/body boundary before any gallery adoption or seed expansion.",
+    "estimatedWorkTokens": 20500
+  },
+  "review": {
+    "id": "P099",
+    "findings": [
+      "Fixed-region test separates real water-language gain from unresolved foam/wholeart. Bothreviewsretaincomponent only; exactinvariancechecked independentlyofsharedreferences.",
+      "Freshreviewestimated11000vs4000target dueexcessstartupoutput. Lead5000+worker2500+strategy1100+warm900+fresh11000=20500estimatedwork, over11400allocation. Actualtelemetryunavailable; no efficiencyclaim.",
+      "Nextgeometrytaskmustprove actualfoam/bodyattachment, not randomplacing finishedSVGs. Preservewaterlayer whileisolatingonegeneratedparentinterface."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep scoped P099 waterlayer with geometry/clip evidence and failedwholelikenessscope.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P099/checks.json",
+          "research/output/agent-phase-2026-11-05/P099/fresh-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Usecompactwarmreviewforboundedattachment test; no newfreshstartup without actualmilestone/headroom.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P099/fresh-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "One shared-boundary generatedparent attachment on retained water scene; firstviewbefore broadchecks.",
+    "estimatedReviewTokens": 600
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 20500,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 21100,
+    "estimatedWorkOverrun": 9100,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 9100
+  },
+  "resultAt": "2026-11-05T15:33:24.673Z",
+  "closedAt": "2026-11-05T15:33:24.704Z"
+}

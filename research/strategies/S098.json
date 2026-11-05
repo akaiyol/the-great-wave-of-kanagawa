@@ -1,0 +1,56 @@
+{
+  "id": "S098",
+  "targetPhase": "P098",
+  "policyVersion": "v2",
+  "family": "source-ink-language",
+  "hypothesis": "Related open contours and geometry-responsive ink weight improve local woodblock articulation without changing foam anatomy.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Related contour pair tests articulation beyond isolated glyphs; retain P097 anatomy.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P098-ink-language.md",
+      "claim": "Paired hood/countercurve, controlled weight, unchanged filled regions.",
+      "sha256": "037032fe44dd33f18364f4345299ddeb5793db4cb9d70e1791ad55c4599bf310"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P094/visual-review.json",
+      "claim": "Uniform contour and isolated curl remain gaps.",
+      "sha256": "6ee27c70e2b8cd24dcab33ff1566afca314eb93974bcd679281cd255a30d3ba3"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P091/visual-review.json",
+      "claim": "C/U marks read as decoration.",
+      "sha256": "d9ff1874f3bb9075f68469dd20ad94becf67102748ac39e1d3ba03930b0329fd"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Related asymmetric pair on supported anatomy, controlled contour weight.",
+    "evidence": [
+      {
+        "path": "research/proposals/P098-ink-language.md",
+        "sha256": "037032fe44dd33f18364f4345299ddeb5793db4cb9d70e1791ad55c4599bf310"
+      }
+    ]
+  },
+  "unknowns": [
+    "Weight may become cartoon border or obscure returns."
+  ],
+  "prediction": {
+    "ifTrue": "Pair describes foam mass rather than letter.",
+    "ifFalse": "Ornament/heavier border leaves articulation unchanged."
+  },
+  "test": {
+    "action": "Equal-frame source/P097/candidate; actual open hood and shorter countercurve.",
+    "success": "Source-related articulation with open ends and preserved anatomy; earn checks.",
+    "failure": "Glyph, cartoon border, apparent hole or negligible gain: stop without tuning.",
+    "maxWorkTokens": 4500
+  },
+  "estimatedReviewerTokens": 1100,
+  "actualTokens": null
+}

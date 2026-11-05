@@ -1,0 +1,55 @@
+{
+  "phase": "P099",
+  "seed": 721,
+  "fixedRegionsExact": true,
+  "baselineSvgExact": true,
+  "bandIntegrity": {
+    "primary": {
+      "count": 4,
+      "selfCrossings": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pairCrossings": 0,
+      "nestedWitnesses": 0
+    },
+    "foreground": {
+      "count": 3,
+      "selfCrossings": [
+        0,
+        0,
+        0
+      ],
+      "pairCrossings": 0,
+      "nestedWitnesses": 0
+    },
+    "midground": {
+      "count": 2,
+      "selfCrossings": [
+        0,
+        0
+      ],
+      "pairCrossings": 0,
+      "nestedWitnesses": 0
+    }
+  },
+  "clipIds": [
+    {
+      "id": "graft-water-721",
+      "present": true
+    },
+    {
+      "id": "front-721",
+      "present": true
+    },
+    {
+      "id": "mid-721",
+      "present": true
+    }
+  ],
+  "noAlphaFilterMask": true,
+  "deterministicSvg": true,
+  "scope": "one scene seed721; sampled simple and disjoint band boundaries, unchanged renderer clipping contract; no broad source/anatomy/variety acceptance"
+}
