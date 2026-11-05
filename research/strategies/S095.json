@@ -1,0 +1,47 @@
+{
+  "id": "S095",
+  "targetPhase": "P095",
+  "policyVersion": "v2",
+  "family": "parent-support-curvature",
+  "hypothesis": "Fuller proximal sheet support and compact unequal tip reversals improve source-proportioned parent anatomy while preserving nested topology.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Targets observed curvature defects preserving demonstrated nesting.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P095-parent-curvature.md",
+      "claim": "Preserves baseline/frame/topology/ink while changing support and tips.",
+      "sha256": "05b696d5fd20ec2c4d7321367acf728881193c1327f464cec0a79ff0297f9a8e"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P094/visual-review.json",
+      "claim": "Two support levels and distinct cove depths legible.",
+      "sha256": "6ee27c70e2b8cd24dcab33ff1566afca314eb93974bcd679281cd255a30d3ba3"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P094/visual-review.json",
+      "claim": "Swollen hook, pinched connection and pointed lower tip remain.",
+      "sha256": "6ee27c70e2b8cd24dcab33ff1566afca314eb93974bcd679281cd255a30d3ba3"
+    }
+  ],
+  "unknowns": [
+    "Whether off-crop support improves visible junction rather than concealing it."
+  ],
+  "prediction": {
+    "ifTrue": "Fuller visible support and compact unequal returns preserve nesting.",
+    "ifFalse": "Wider slab or hidden stalk replaces unresolved anatomy."
+  },
+  "test": {
+    "action": "One outline variant beside exact P094 baseline and source, unchanged frame.",
+    "success": "Support and reversals improve without losing cove hierarchy; earn checks.",
+    "failure": "Blank slab, pinched stalk, flat row or framing-dependent compactness: archive without tuning.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 1000,
+  "actualTokens": null
+}

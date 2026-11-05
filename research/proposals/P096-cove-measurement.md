@@ -1,0 +1,7 @@
+# P096 — source cove measurements before more shape edits
+
+P095 did not improve the A–J support/cove anatomy. Resolve actual cove extent and curvature from the unchanged source, not another qualitative width patch. Use P093 landmark frame and source pixels to estimate sky-connected background locally. P/J pale foam differs in chroma from warm sky S; ink/water are darker/bluer. Point samples preliminarily confirm that distinction, but paper grain and faded ink make segmentation uncertain.
+
+Analyze only source crop2020,950,250,260 with a small blur/threshold sensitivity sweep and sky seed S; no source editing, AI replacement, production masks or traced generation template. Identify A–J cove boundary extrema and B–C notch within declared landmark-relative bands. If segmentation leaks into foam or results depend strongly on thresholds, report inconclusive. Show a few coordinate-linked measurement points in a separate overlay, inspect against unmodified scan and obtain independent check. Output ratios/uncertainty to constrain a later generative profile; do not import source contour as finished artwork.
+
+Prediction: measured cove/support relationships expose which P094 assumptions differ from the source. Falsifier: unreliable region separation or unsupported extremum correspondence. Planned6000 incl300review; testmax3500estimatedwork. No art tuning or new renderer during measurement phase.

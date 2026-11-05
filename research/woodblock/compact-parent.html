@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Compact parent study</title>
+<style>html,body{margin:0;background:#e6dcc1;color:#23485f;font:16px system-ui}main{display:flex;gap:24px;justify-content:center;align-items:start;padding:24px}figure{margin:0;width:min(29vw,430px)}svg{display:block;width:100%;height:auto}figcaption{margin-bottom:12px}</style>
+<main><figure><figcaption>Canonical source parent</figcaption><svg viewBox="2020 950 250 260" xmlns="http://www.w3.org/2000/svg"><image href="../../references/great-wave-off-kanagawa-met-DP130155.jpg" width="3859" height="2594"/></svg></figure><figure><figcaption>P094 baseline</figcaption><div id="baseline"></div></figure><figure><figcaption>P095 compact parent</figcaption><div id="candidate"></div></figure></main>
+<script type="module">
+import{generateCompactParent}from'./compact-parent.mjs';
+const raw=new URLSearchParams(location.search).get('seed'),seed=raw===null?721:/^\d+$/.test(raw)?Number(raw):NaN;
+try{const study=generateCompactParent(seed);document.querySelector('#baseline').innerHTML=study.baseline.svg;document.querySelector('#candidate').innerHTML=study.svg;window.compactParent={ready:true,...study,error:null};}catch(e){window.compactParent={ready:true,seed,error:e.message};document.querySelector('#candidate').textContent=e.message;}
+</script></html>

@@ -1,0 +1,14 @@
+{
+  "id": "P096",
+  "summary": "Read-only chroma/sensitivity analysis yields independently supported lower B/C notch location band x2140\u20132144,y1098\u20131099. Upper A/J extremum shifts up to88px across thresholds, so overall measurements are inconclusive and no upper/lower proportion ratio is accepted. No source or art mutation.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "not_applicable",
+  "evidence": [
+    "research/woodblock/cove-measurements.json",
+    "research/output/agent-phase-2026-11-04/P096/receipt.json",
+    "research/output/agent-phase-2026-11-04/P096/visual-review.json"
+  ],
+  "nextAction": "Stop threshold tuning. Preserve only lower-notch band; upper cove remains unknown. Any subsequent local test must isolate supported evidence and avoid whole-proportion claims.",
+  "estimatedWorkTokens": 4200
+}

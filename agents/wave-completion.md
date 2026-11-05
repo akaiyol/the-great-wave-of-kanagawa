@@ -8,7 +8,7 @@ The two equally important goals are a source-recognizable procedural Great Wave 
 
 Lead owns scope, uncertain geometry, source integration, browser capture and decisions. Use one independent evaluator for plausible artifact reviews and the end-of-phase process review. Worker is optional for defined patches; researcher is optional for one exact blocker. At most one child active, one source writer, no recursive delegation. Existing role models stay unchanged. Use fresh minimal contexts and require policy v2 plus phase ID in the first handoff.
 
-For a delegation: provide one failure ID, concrete hypothesis/construction, owned files, first artifact path, rejection condition and budget. Preserve others' edits. If the first artifact cannot be built, report the missing decision immediately. Narrow once; after another no-artifact result stop delegation and take serial ownership. Do not repeatedly poll unchanged work. Lead supplies captures unless explicitly assigned elsewhere.
+For a delegation: provide one failure ID, concrete hypothesis/construction, owned files, first artifact path, rejection condition and budget. The existing preflight must identify one source-backed anatomical relationship and the visible artifact coverage that will test it; necessary structural coverage is not artistic acceptance. Do not add a separate gate. Preserve others' edits. If the first artifact cannot be built, report the missing decision immediately. Narrow once; after another no-artifact result stop delegation and take serial ownership. Do not repeatedly poll unchanged work. Lead supplies captures unless explicitly assigned elsewhere.
 
 ## Phase lifecycle and 5% reserve
 

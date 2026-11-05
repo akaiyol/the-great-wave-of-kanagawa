@@ -1,0 +1,28 @@
+{
+  "phase": "P095",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "frame": [
+    0,
+    0,
+    250,
+    260
+  ],
+  "sourceCrop": [
+    2020,
+    950,
+    250,
+    260
+  ],
+  "hashes": {
+    "research/woodblock/compact-parent.mjs": "2aa841c08c84ef0ee928782c51259a363aa1ea2bb7e87a8e2eae620439998d34",
+    "research/woodblock/compact-parent.html": "08b5d3308149b08ca0fb2db6e40a34e4a42017fc5e1aeddb9a408929b8307466",
+    "research/woodblock/parent-fork.mjs": "8e1bba535b91ecdcd355dadbfa1613db744534fe18d96f17b8fc9ca4145c40a8",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-04/P095/comparison-721-native.jpg": "b0ecef7926203b43cfb75a07780d67e74ca3f1e8b06065f3993b7cd31c1a8888"
+  }
+}

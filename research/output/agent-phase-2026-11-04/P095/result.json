@@ -1,0 +1,15 @@
+{
+  "id": "P095",
+  "summary": "Source-proportion outline variant preserved topology, ink and frame. Independent review rejected advancement: root became larger blank foam while upper hook/waist remained unresolved. Small B/C tip refinements recorded but combined variant not adopted. No integrity suite or seed sweep after failure.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "fail",
+  "evidence": [
+    "research/woodblock/compact-parent.mjs",
+    "research/output/agent-phase-2026-11-04/P095/receipt.json",
+    "research/output/agent-phase-2026-11-04/P095/worker-checks.json",
+    "research/output/agent-phase-2026-11-04/P095/visual-review.json"
+  ],
+  "nextAction": "Keep P094 topology checkpoint. Measure the source A\u2013J sky cove against J fork support before more control-point edits.",
+  "estimatedWorkTokens": 5500
+}

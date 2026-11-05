@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P095",
+  "objective": "Test source-proportioned local support and tip curvature while preserving nested topology.",
+  "hypothesis": "Fuller proximal sheet support and compact unequal tip reversals improve source-proportioned parent anatomy while preserving nested topology.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P094 seed721 local topology only, source curvature/style rejected.",
+  "artifactTarget": "research/woodblock/compact-parent.mjs",
+  "plannedTokens": 8000,
+  "family": "parent-support-curvature",
+  "strategyReview": "research/strategies/S095.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Exact P094 baseline/frame/ink preserved, one outline variant, no integration or broad seed sweep; integrity checks only after promising review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-05T03:59:59.184Z",
+  "result": {
+    "id": "P095",
+    "summary": "Source-proportion outline variant preserved topology, ink and frame. Independent review rejected advancement: root became larger blank foam while upper hook/waist remained unresolved. Small B/C tip refinements recorded but combined variant not adopted. No integrity suite or seed sweep after failure.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/woodblock/compact-parent.mjs",
+      "research/output/agent-phase-2026-11-04/P095/receipt.json",
+      "research/output/agent-phase-2026-11-04/P095/worker-checks.json",
+      "research/output/agent-phase-2026-11-04/P095/visual-review.json"
+    ],
+    "nextAction": "Keep P094 topology checkpoint. Measure the source A–J sky cove against J fork support before more control-point edits.",
+    "estimatedWorkTokens": 5500
+  },
+  "review": {
+    "id": "P095",
+    "findings": [
+      "Widening proximal support did not resolve source anatomy; fixedframe avoids camera-based pass, but off-frame extension still cannot substitute for visible cove correspondence.",
+      "Defined patch firstartifact2300estimated, strategy1000, review800; no freshreviewhistoryreplay. Local modest tip improvements do not justify promoting a failed combined variant.",
+      "Next decision should use source-measured cove extent/curvature with uncertainty; another qualitative wider/smaller patch would repeat the same unsupported premise."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Do not advance P095 or tune its rootwidth; keep P094 checkpoint.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P095/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Measure actual sky-connected source cove and its relationship to J support before another outline change.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P095/visual-review.json",
+          "research/woodblock/source-parent.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Bounded source-color/landmark measurements, independently checked; no generated tracing template.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 5500,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 5900,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T04:03:43.367Z",
+  "closedAt": "2026-11-05T04:03:43.400Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "P095",
+  "findings": [
+    "Widening proximal support did not resolve source anatomy; fixedframe avoids camera-based pass, but off-frame extension still cannot substitute for visible cove correspondence.",
+    "Defined patch firstartifact2300estimated, strategy1000, review800; no freshreviewhistoryreplay. Local modest tip improvements do not justify promoting a failed combined variant.",
+    "Next decision should use source-measured cove extent/curvature with uncertainty; another qualitative wider/smaller patch would repeat the same unsupported premise."
+  ],
+  "actions": [
+    {
+      "decision": "drop",
+      "summary": "Do not advance P095 or tune its rootwidth; keep P094 checkpoint.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P095/visual-review.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Measure actual sky-connected source cove and its relationship to J support before another outline change.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P095/visual-review.json",
+        "research/woodblock/source-parent.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Bounded source-color/landmark measurements, independently checked; no generated tracing template.",
+  "estimatedReviewTokens": 400
+}

@@ -1,0 +1,42 @@
+{
+  "id": "S096",
+  "targetPhase": "P096",
+  "policyVersion": "v2",
+  "family": "source-cove-measurement",
+  "hypothesis": "Local sky-connected source measurements constrain cove/support proportions more reliably than qualitative root-width edits.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Bounded measurements constrain extent ratios, not curvature law.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P096-cove-measurement.md",
+      "claim": "Verified parent crop, sensitivity and visual validation.",
+      "sha256": "09c837446de04aec52b30f26bda08285570952e577c534dadfa119231b1c039c"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P095/visual-review.json",
+      "claim": "Root expansion left main cove/support unresolved.",
+      "sha256": "92f503d8497fdad0a4a71d4d916aa21e9c257e9a372979c0e3b29d6891d79a54"
+    }
+  ],
+  "unknowns": [
+    "Blur may erase ink; stable thresholds may classify wrong region."
+  ],
+  "prediction": {
+    "ifTrue": "Supported extrema yield stable extent ratios.",
+    "ifFalse": "Leakage/misidentification makes ratios unreliable."
+  },
+  "test": {
+    "action": "Declared sensitivity sweep; extrema overlay against unmodified crop.",
+    "success": "Points match sky boundaries and ratios stable; extent-only uncertainty.",
+    "failure": "Leakage/instability/wrong extrema: inconclusive, defer geometry.",
+    "maxWorkTokens": 3500
+  },
+  "estimatedReviewerTokens": 900,
+  "actualTokens": null
+}

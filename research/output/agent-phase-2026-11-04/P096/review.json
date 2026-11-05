@@ -1,0 +1,27 @@
+{
+  "id": "P096",
+  "findings": [
+    "Sensitivity testing prevented a false precise uppercove claim; stable witness classifications alone do not validate a boundary.",
+    "Lower location visually verified, but stable extrema do not yield curvature law or bridge width. Do not import mask contours as artwork.",
+    "Source grain and fading make uppercove segmentation threshold-biased. Stop this method rather than expanding morphology/tests to force agreement."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Keep limited lower-notch location with method/landmark uncertainty.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P096/visual-review.json",
+        "research/woodblock/cove-measurements.json"
+      ]
+    },
+    {
+      "decision": "drop",
+      "summary": "Reject uppercove ratio and further threshold tuning; defer unsupported full-proportion changes.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P096/visual-review.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Choose only a source-supported local feature for any next experiment, or preserve checkpoint if no discriminating test fits remaining allowance.",
+  "estimatedReviewTokens": 400
+}

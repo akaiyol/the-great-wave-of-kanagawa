@@ -1,0 +1,10 @@
+{
+  "commit": "1df932bdfa2491a87037325fa4b691d50b40de97",
+  "remoteVerified": true,
+  "readmeDiagram": "Rendered on GitHub, labels and promising/reject paths inspected; no syntax error. Top/bottom native viewport captures, not full-page iframe capture.",
+  "scope": "publication and chart readability only; no art acceptance",
+  "proofHashes": {
+    "published-architecture-top.jpg": "2146e084df5def317df7411cbff360ac3c83cb273057d73b839e20868cc3c5ae",
+    "published-architecture-bottom.jpg": "f9208b3f347866ad7e2bbb2cf336df6a917b8c12e88e8eef27d6a1e218e055f5"
+  }
+}

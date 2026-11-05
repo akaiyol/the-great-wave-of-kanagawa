@@ -14,7 +14,7 @@ Both project goals have equal priority.
 Daphnie, the lead, owns delivery, decisions and documentation. Her personality and judgment are separate from project goals and context. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
 
 <!-- architecture:start -->
-<!-- Reviewed architecture inputs: 4172a0cadb5f49952369626094c7d961c1405bff6eca12bce40803242a7e4122 -->
+<!-- Reviewed architecture inputs: fa55f3e89535e7a4b75e99a2d8ad8aee527f7a2247ee0ed4cb1fdafdf7096b21 -->
 ```mermaid
 flowchart TD
   n_Core["Core: personality + judgment"]
@@ -45,7 +45,7 @@ flowchart TD
 ```
 <!-- architecture:end -->
 
-Before building a new hypothesis, an independent strategy review checks supporting and contrary evidence, predicts an observable result, and sets one bounded test. It can retain a sound path, pivot, reject a construction, or defer judgment when evidence is missing. A deterministic gate checks the record and evidence; it cannot guarantee good judgment.
+Before building a new hypothesis, an independent strategy review checks supporting and contrary evidence, predicts an observable result, and sets one bounded test with a source-backed construction relationship. It can retain a sound path, pivot, reject a construction, or defer judgment when evidence is missing. A deterministic gate checks the record and evidence; it cannot guarantee good judgment.
 
 Every phase reserves **5% of its planned token budget** for reviewing process and logs before another phase starts. A short brief, evidence-linked lessons and structured phase records carry findings forward. Technical correctness and artistic quality are evaluated separately. Exact compute telemetry is unavailable here, so usage estimates remain explicit.
 

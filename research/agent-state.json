@@ -5,10 +5,10 @@
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
-  "currentStudy": "research/woodblock/parent-fork.html (P094 local topology checkpoint only); P084 composition scaffold and P079 gallery unchanged",
+  "currentStudy": "research/woodblock/parent-fork.html (P094 retained local topology); source-region-study.html?patch=measurement documents P096 uncertainty",
   "retainedCandidate": "P094 seed721 local P\u2192A/J\u2192B/C topology checkpoint; two independent reviews retain hierarchy, source style fails. P084 composition scaffold retained; no accepted procedural artwork.",
-  "currentPhase": "P094",
-  "currentPhaseRecord": "research/phases/P094.json",
+  "currentPhase": "P096",
+  "currentPhaseRecord": "research/phases/P096.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -21,7 +21,7 @@
     "stopRemainingPercent": 10,
     "noPurchaseResetOrWaitingForReset": true
   },
-  "continuationGoal": "User resumed after reset; active bounded run until either account window90%used, then checkpoint. No purchases/resets.",
+  "continuationGoal": "Bounded reset/resume run checkpointing near90%primary usage; no new art phase without review headroom. User must resume after the limit.",
   "strategyPolicy": {
     "enabled": true,
     "version": 1,
@@ -52,5 +52,7 @@
       "research/output/agent-phase-2026-11-04/P087/measurements.json",
       "research/output/agent-phase-2026-11-04/P087/visual-review.json"
     ]
-  }
+  },
+  "runCheckpoint": "research/output/agent-phase-2026-11-04/run-checkpoint.json",
+  "nextExperimentContract": "Existing preflight must name one source-backed anatomical relationship and visible artifact coverage before construction; no new gate. Preserve P094, do not infer upper-cove ratios."
 }

@@ -1,0 +1,128 @@
+{
+  "phase": "P096",
+  "status": "overall inconclusive; limited lower-notch location supported",
+  "crop": [
+    2020,
+    950,
+    250,
+    260
+  ],
+  "landmarkPointScope": "representative, not segmented pixel truth",
+  "method": "blur3/5; RGB warm-sky thresholds; 3px grain closing; right-open upper ray and bottom-open lower ray extrema",
+  "results": [
+    {
+      "blur": 3,
+      "rg": 4,
+      "rb": 18,
+      "upperRightOpenExtremum": [
+        2134,
+        1064
+      ],
+      "lowerBottomOpenExtremum": [
+        2140,
+        1098
+      ],
+      "witnessSky": true,
+      "foamPClassifiedSky": false,
+      "foamJClassifiedSky": false
+    },
+    {
+      "blur": 3,
+      "rg": 6,
+      "rb": 22,
+      "upperRightOpenExtremum": [
+        2164,
+        1050
+      ],
+      "lowerBottomOpenExtremum": [
+        2143,
+        1098
+      ],
+      "witnessSky": true,
+      "foamPClassifiedSky": false,
+      "foamJClassifiedSky": false
+    },
+    {
+      "blur": 3,
+      "rg": 8,
+      "rb": 26,
+      "upperRightOpenExtremum": [
+        2220,
+        1097
+      ],
+      "lowerBottomOpenExtremum": [
+        2144,
+        1099
+      ],
+      "witnessSky": true,
+      "foamPClassifiedSky": false,
+      "foamJClassifiedSky": false
+    },
+    {
+      "blur": 5,
+      "rg": 4,
+      "rb": 18,
+      "upperRightOpenExtremum": [
+        2132,
+        1063
+      ],
+      "lowerBottomOpenExtremum": [
+        2140,
+        1098
+      ],
+      "witnessSky": true,
+      "foamPClassifiedSky": false,
+      "foamJClassifiedSky": false
+    },
+    {
+      "blur": 5,
+      "rg": 6,
+      "rb": 22,
+      "upperRightOpenExtremum": [
+        2163,
+        1050
+      ],
+      "lowerBottomOpenExtremum": [
+        2142,
+        1098
+      ],
+      "witnessSky": true,
+      "foamPClassifiedSky": false,
+      "foamJClassifiedSky": false
+    },
+    {
+      "blur": 5,
+      "rg": 8,
+      "rb": 26,
+      "upperRightOpenExtremum": [
+        2220,
+        1097
+      ],
+      "lowerBottomOpenExtremum": [
+        2144,
+        1099
+      ],
+      "witnessSky": true,
+      "foamPClassifiedSky": false,
+      "foamJClassifiedSky": false
+    }
+  ],
+  "limitation": "Directional connected intervals, not global floodfill. Extrema do not establish a curvature law; inspect overlay for misidentified regions.",
+  "acceptedScope": {
+    "lowerNotchBand": {
+      "x": [
+        2140,
+        2144
+      ],
+      "y": [
+        1098,
+        1099
+      ]
+    },
+    "upperCove": "inconclusive; no generation ratio accepted",
+    "limitations": [
+      "Method-dependent location, not exact ink boundary/curvature/bridge width.",
+      "Source parent landmarks are approximate anatomical groupings."
+    ]
+  }
+}

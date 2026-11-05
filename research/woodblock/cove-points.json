@@ -1,0 +1,37 @@
+{
+  "phase": "P096",
+  "landmarks": [
+    {
+      "id": "U-loose",
+      "point": [
+        2133,
+        1064
+      ],
+      "observation": "Upper cove, loose warm-sky threshold: estimate, not accepted boundary."
+    },
+    {
+      "id": "U-mid",
+      "point": [
+        2164,
+        1050
+      ],
+      "observation": "Upper cove, middle threshold; about31px shift."
+    },
+    {
+      "id": "U-strict",
+      "point": [
+        2220,
+        1097
+      ],
+      "observation": "Upper cove, strict threshold; large disagreement makes upper measurement inconclusive."
+    },
+    {
+      "id": "L",
+      "point": [
+        2142,
+        1098
+      ],
+      "observation": "Lower bottom-open notch extremum stable across thresholds (x2140\u20132144,y1098\u20131099), but region identity still needs visual review."
+    }
+  ]
+}

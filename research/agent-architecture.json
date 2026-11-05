@@ -3,7 +3,7 @@
   "revision": "2026-11-04-visual-first-assessed",
   "sourcePins": {
     "AGENTS.md": "d76602a78482c3a4c6c188f53c0cd72e5af222bf579ec6e3ee165f14bf35c316",
-    "agents/wave-completion.md": "d0797a41540082e5eb9dc74b48efb7b0d3e0165a6742b1b1ef74cc5925947bf8",
+    "agents/wave-completion.md": "98bff5e5dd3138dcf13910333bd76f070df5076c048f2d84402cbe09636da409",
     ".codex/config.toml": "a198aac471b651db60840bf1e38a13c30fe23207a4d0f118bc6e0003684053d6",
     ".codex/agents/wave-evaluator.toml": "f6e9180ddf36f4a16cad218f769f49e3fb78340e9e906c5c67e08fefb11ab72a",
     ".codex/agents/wave-worker.toml": "91960635a7470f9624fd8cfbaa2db10714d1169edc2379fd8653846cc3a80f52",

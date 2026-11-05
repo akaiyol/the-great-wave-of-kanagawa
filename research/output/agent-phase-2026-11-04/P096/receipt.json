@@ -1,0 +1,24 @@
+{
+  "phase": "P096",
+  "sourceCrop": [
+    2020,
+    950,
+    250,
+    260
+  ],
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "hashes": {
+    "research/woodblock/cove-measurements.json": "37f3f0dce57535ef3d1438d0931e4fecb29fecdf27a4fbc11bcb8e19b207d9dc",
+    "research/woodblock/cove-points.json": "d2906c9a3fdd800f4ccdc3a2d7b7dc25a8feaaabd0666c1ce4df7f531ba2960a",
+    "research/output/agent-phase-2026-11-04/P096/measure.py": "62d9d3b30d2813b10bde7ddd2fff45564e3db0c84dbd73c234e1707653fd9269",
+    "research/output/agent-phase-2026-11-04/P096/measurement-overlay.jpg": "b27b0af98adf21e3585aea95406aea11332d9e9ce5854ea87a3522676efd294a",
+    "research/output/agent-phase-2026-11-04/P096/measurement-source.jpg": "41eb30fee818cf49a2cd35ecb9cb515db348e44d27ea7040cba18f37a8d6751f",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "sourceUnchanged": true,
+  "maskUse": "temporary numeric analysis only; no derived raster art or generated tracing template"
+}

@@ -1,0 +1,109 @@
+{
+  "scope": "Authorized reset/resume run; phase records remain authoritative for detailed results.",
+  "phases": [
+    "P087",
+    "P088",
+    "P089",
+    "P090",
+    "P091",
+    "P092",
+    "P093",
+    "P094",
+    "P095",
+    "P096"
+  ],
+  "outcomes": {
+    "artExperiments": 7,
+    "rejectedArtArtifacts": 6,
+    "localTopologyCheckpointOnly": [
+      "P094"
+    ],
+    "sourceStudyPhases": [
+      "P090",
+      "P093",
+      "P096"
+    ],
+    "acceptedProceduralArtwork": false,
+    "productionGalleryChanged": false
+  },
+  "processTrial": {
+    "decision": "modify",
+    "assessedPhase": "P087",
+    "retained": "Early native rejection and compact scoped handoffs.",
+    "notEstablished": "General efficiency or faster artistic progress; no comparable full-cost baseline."
+  },
+  "repeatPatterns": [
+    {
+      "failure": "source.boundary-conflation",
+      "evidence": [
+        "research/phases/P089.json",
+        "research/phases/P090.json",
+        "research/phases/P093.json"
+      ],
+      "correction": "Source region and explicit parent/fork mapping before more topology guesses; lead owns implementation misses, reviewers identified blocker."
+    },
+    {
+      "failure": "hypothesis.not-implemented",
+      "evidence": [
+        "research/phases/P092.json",
+        "research/phases/P094.json"
+      ],
+      "correction": "Require promised two-level structure in actual filled support, not metadata or flat lobe count; necessary coverage is not beauty proof."
+    },
+    {
+      "failure": "review.context-overhead",
+      "evidence": [
+        "research/phases/P087.json",
+        "research/phases/P094.json"
+      ],
+      "correction": "Fresh startup costs must be included in review plan; warm compact tasks were smaller self-estimates, not controlled savings or billing telemetry."
+    },
+    {
+      "failure": "source.false-precision",
+      "evidence": [
+        "research/phases/P096.json"
+      ],
+      "correction": "Retain lower observation only; upper threshold shifts forbid a precise profile ratio. Stop threshold tuning."
+    }
+  ],
+  "nextExperimentBoundary": {
+    "retained": "P094 local parent topology, source style fails.",
+    "supportedObservation": "Lower notch sourcex2140\u20132144,y1098\u20131099; method/landmark uncertainty remains.",
+    "unknown": "Upper A\u2013J cove extremum and curvature; no whole-profile proportions accepted.",
+    "next": "Either a bounded source-supported lower-fork feature test or a visually justified upper uncertainty bracket; no wider-root rescue or full-wave integration yet."
+  },
+  "publication": {
+    "waveCommit": "1df932bdfa2491a87037325fa4b691d50b40de97",
+    "readmeRendered": true,
+    "daphnieLessonCommit": "e4b4bb4",
+    "finalCheckpointScope": [
+      "P095/P096 results and uncertainties",
+      "Published diagram screenshots",
+      "Run process review and source-backed preflight criterion"
+    ]
+  },
+  "accountUse": {
+    "startupPrimaryUsed": 1,
+    "startupWeeklyUsed": 54,
+    "lastObservedPrimaryUsed": 89,
+    "lastObservedWeeklyUsed": 68,
+    "scope": "shared account observations, not attributable token billing",
+    "checkpointScope": "No new art at85%; remaining allowance used for mandatory run review, evidence audit and publication."
+  },
+  "actualPhaseTokens": null,
+  "historicalComparison": "Differing tasks and unknown setup costs prohibit a defensible speedup percentage.",
+  "continuation": "No new art delegation with insufficient review headroom; save source/budget state at account ceiling.",
+  "processReview": {
+    "reviewer": "/root/p087_strategy",
+    "verdict": "retain early rejection; change construction readiness and budget discipline; efficiency unproven",
+    "findings": [
+      "Source region interpretation came late.",
+      "Preflight did not ensure executable anatomical relationship; P092 incomplete construction.",
+      "Granular gates and fresh setup added cost without demonstrated efficiency."
+    ],
+    "nextRunChange": "Use existing preflight to specify source-backed anatomical relationship and visible artifact coverage before construction. No new gate. Measure incomplete-test prevention and total effort.",
+    "estimatedTokens": 1300,
+    "assignedEstimate": 600,
+    "actualTokens": null
+  }
+}

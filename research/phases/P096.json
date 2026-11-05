@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P096",
+  "objective": "Measure source sky-cove extents with sensitivity and visual checks before more shape tuning.",
+  "hypothesis": "Local sky-connected source measurements constrain cove/support proportions more reliably than qualitative root-width edits.",
+  "failureIds": [
+    "source.boundary-conflation"
+  ],
+  "baseline": "P095 qualitative root widening failed; exact cove/support proportions unresolved.",
+  "artifactTarget": "research/woodblock/cove-measurements.json",
+  "plannedTokens": 6000,
+  "family": "source-cove-measurement",
+  "strategyReview": "research/strategies/S096.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Read-only source analysis, no generated masks as artwork, no pin changes; report inconclusive if segmentation uncertain.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-05T05:58:14.482Z",
+  "result": {
+    "id": "P096",
+    "summary": "Read-only chroma/sensitivity analysis yields independently supported lower B/C notch location band x2140–2144,y1098–1099. Upper A/J extremum shifts up to88px across thresholds, so overall measurements are inconclusive and no upper/lower proportion ratio is accepted. No source or art mutation.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/cove-measurements.json",
+      "research/output/agent-phase-2026-11-04/P096/receipt.json",
+      "research/output/agent-phase-2026-11-04/P096/visual-review.json"
+    ],
+    "nextAction": "Stop threshold tuning. Preserve only lower-notch band; upper cove remains unknown. Any subsequent local test must isolate supported evidence and avoid whole-proportion claims.",
+    "estimatedWorkTokens": 4200
+  },
+  "review": {
+    "id": "P096",
+    "findings": [
+      "Sensitivity testing prevented a false precise uppercove claim; stable witness classifications alone do not validate a boundary.",
+      "Lower location visually verified, but stable extrema do not yield curvature law or bridge width. Do not import mask contours as artwork.",
+      "Source grain and fading make uppercove segmentation threshold-biased. Stop this method rather than expanding morphology/tests to force agreement."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep limited lower-notch location with method/landmark uncertainty.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P096/visual-review.json",
+          "research/woodblock/cove-measurements.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Reject uppercove ratio and further threshold tuning; defer unsupported full-proportion changes.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P096/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Choose only a source-supported local feature for any next experiment, or preserve checkpoint if no discriminating test fits remaining allowance.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 4200,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 4600,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 100,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T06:01:05.619Z",
+  "closedAt": "2026-11-05T06:01:05.656Z"
+}
