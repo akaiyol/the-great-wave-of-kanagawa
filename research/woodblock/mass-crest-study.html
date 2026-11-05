@@ -1,0 +1,4 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Foam mass study</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#e6dcc1}main{height:100%}svg{display:block;width:100%;height:100%}</style><main id="view"></main><script type="module">
+import{massComposition}from'../../src/procedural/mass-crest.mjs';const seed=Number(new URLSearchParams(location.search).get('seed')??721);
+try{const result=massComposition(seed);document.querySelector('#view').innerHTML=result.svg;window.massStudy={ready:true,diagnostics:result.crest.diagnostics};}catch(e){document.querySelector('#view').textContent=e.message;window.massStudy={ready:false,error:e.message};}
+</script></html>

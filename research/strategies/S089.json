@@ -1,0 +1,51 @@
+{
+  "id": "S089",
+  "targetPhase": "P089",
+  "policyVersion": "v2",
+  "family": "branching-water-shell",
+  "hypothesis": "Connected branching water trunks and their shared foam shell produce legible unequal crest hierarchy without parallel punched slots.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Connected water branching changes P088 topology; thin shell still risks skeletal antlers.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P089-water-tree.md",
+      "claim": "Shared-root water children and scale-dependent foam replace unrelated slots; fixed bounds prevent oversized growth.",
+      "sha256": "48882e71caec4ab1ae545167ff4ab829d739a08727879e86d2ffa66ecbd526f5"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P088/visual-review.json",
+      "claim": "Broad supported foam became fused masses and parallel slots without readable children.",
+      "sha256": "1f0b093f62a8bc78254a615854552ce968e7edfe1fad99b401e6ecd9a8564ba8"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Construct branching connected water first, then its common foam shell.",
+    "evidence": [
+      {
+        "path": "research/proposals/P089-water-tree.md",
+        "sha256": "48882e71caec4ab1ae545167ff4ab829d739a08727879e86d2ffa66ecbd526f5"
+      }
+    ]
+  },
+  "unknowns": [
+    "Whether shell thickness supports rounded masses rather than outlined antlers."
+  ],
+  "prediction": {
+    "ifTrue": "Visible water divisions organize unequal returning foam clusters.",
+    "ifFalse": "An outlined branching skeleton replaces the slotted slab."
+  },
+  "test": {
+    "action": "One seed721 native whole view against P084 and canonical.",
+    "success": "Water visibly divides beneath unequal foam clusters without losing crest mass; proceed to affected checks.",
+    "failure": "Antlers, repeated fingers, holes or oversized caps: archive and stop tuning.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 950,
+  "actualTokens": null
+}

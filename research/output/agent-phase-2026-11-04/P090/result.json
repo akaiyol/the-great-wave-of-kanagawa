@@ -1,0 +1,15 @@
+{
+  "id": "P090",
+  "summary": "Annotated and independently reviewed one canonical crest patch. Connected water, filled foam bridge and sky gap supported; nearby open ink curl is not a water cavity, with point-level qualification. This resolves a local classification blocker, not procedural likeness.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "not_applicable",
+  "evidence": [
+    "research/woodblock/source-regions.json",
+    "research/woodblock/source-region-study.html",
+    "research/output/agent-phase-2026-11-04/P090/visual-review.json",
+    "research/output/agent-phase-2026-11-04/P090/receipt.json"
+  ],
+  "nextAction": "Next bounded construction must identify foam/sky silhouette, foam/water seam and interior open ink marks separately; test sheet articulation without cutting new holes.",
+  "estimatedWorkTokens": 5500
+}

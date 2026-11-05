@@ -1,0 +1,16 @@
+{
+  "id": "P088",
+  "summary": "Built seeded 2D branch fields, connected water-carving attempt and vector contours. Independent whole-view review rejects oversized fused prongs and parallel slots; broad-mass capacity is scoped evidence only. No crop, broad integrity suite, sweep or gallery adoption after decisive failure.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "fail",
+  "evidence": [
+    "src/procedural/mass-crest.mjs",
+    "src/procedural/field-contours.mjs",
+    "research/output/agent-phase-2026-11-04/P088/receipt.json",
+    "research/output/agent-phase-2026-11-04/P088/visual-review.json",
+    "research/output/agent-phase-2026-11-04/P088/contours-checks.json"
+  ],
+  "nextAction": "Change topology to branching water parents and children with foam around their supported boundaries; no width/scale rescue of P088. Preserve fixed composition and existing gallery.",
+  "estimatedWorkTokens": 9500
+}

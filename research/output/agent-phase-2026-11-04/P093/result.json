@@ -1,0 +1,14 @@
+{
+  "id": "P093",
+  "summary": "Mapped and independently verified one hanging foam group: P supports A and lower fork J; J supports unequal B/C. Two sky-cove depths and separate interior I are supported. No broad water slot belongs under each tip. Grouping is local anatomy, not unique growth skeleton or precise segmentation.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "not_applicable",
+  "evidence": [
+    "research/woodblock/source-parent.json",
+    "research/output/agent-phase-2026-11-04/P093/visual-review.json",
+    "research/output/agent-phase-2026-11-04/P093/receipt.json"
+  ],
+  "nextAction": "Implement one local P\u2192A/J\u2192B/C foam sheet with two cove depths and open interior contour; no water holes in this hanging patch. Verify actual two-level structure before capture, then judge source comparison.",
+  "estimatedWorkTokens": 3500
+}

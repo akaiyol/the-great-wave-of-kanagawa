@@ -1,0 +1,42 @@
+{
+  "id": "S093",
+  "targetPhase": "P093",
+  "policyVersion": "v2",
+  "family": "source-parent-map",
+  "hypothesis": "Mapping one actual parent foam bridge and subordinate sky-facing returns constrains a genuinely nested construction before another prototype.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Annotation tests proposed parent relationship; remains falsifiable.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P093-parent-map.md",
+      "claim": "Separates bridge, outer returns, interior marks and nearest water boundary.",
+      "sha256": "0b75d8b61cd320435e5e7172ca953b0f12cf8fd697c74b05ef83fda1e639e1fc"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P092/visual-review.json",
+      "claim": "Candidate lacked subordinate returns; correspondence to source parent unresolved.",
+      "sha256": "8d9256aa4878c90de56d093e808164b9be16a0140fb71d8e56eb4cd738baf525"
+    }
+  ],
+  "unknowns": [
+    "Whether selected parent supports multiple outer returns rather than adjacent curls."
+  ],
+  "prediction": {
+    "ifTrue": "Continuous bridge supports distinct sky-facing returns and intervening coves.",
+    "ifFalse": "Apparent children are interior marks or unsupported groupings."
+  },
+  "test": {
+    "action": "One annotated source zoom; verify bridge-to-return connections against unannotated view.",
+    "success": "Multiple outer returns belong to supported parent; interior ink stays distinct.",
+    "failure": "Nesting requires invented boundaries: correct interpretation and defer geometry.",
+    "maxWorkTokens": 2500
+  },
+  "estimatedReviewerTokens": 800,
+  "actualTokens": null
+}

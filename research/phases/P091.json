@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P091",
+  "objective": "Test source-informed open ink articulation within unchanged connected foam.",
+  "hypothesis": "Generated open ink curls within unchanged connected foam give a meaningful local articulation gain without creating holes or silhouette branches.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "Retained P079/P084 filled geometry; P090 source distinguishes open ink from water/sky boundaries.",
+  "artifactTarget": "src/procedural/foam-articulation.mjs",
+  "plannedTokens": 10000,
+  "family": "source-open-ink",
+  "strategyReview": "research/strategies/S091.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One isolated boundary-type test; unchanged filled geometry, no texture/fading or source-style overclaim; promotion requires containment and exact invariance.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-05T02:57:15.567Z",
+  "result": {
+    "id": "P091",
+    "summary": "Bounded worker generated six open marks inside retained foam; native review rejects isolated C/U glyphs and unchanged empty-ribbon appearance. No tuning, integration or broad invariance checks after failure. Source boundary distinction remains valid but this primitive/support fails.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "src/procedural/foam-articulation.mjs",
+      "research/output/agent-phase-2026-11-04/P091/receipt.json",
+      "research/output/agent-phase-2026-11-04/P091/worker-checks.json",
+      "research/output/agent-phase-2026-11-04/P091/visual-review.json"
+    ],
+    "nextAction": "Build one source-scaled cluster primitive with related foam/sky, foam/water and interior ink boundaries; judge outside defective whole-wave support before integration.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P091",
+    "findings": [
+      "Source classification alone did not supply a convincing mark grammar; generic constant-width curls read as letters. Worker3500, strategy1050, artifactreview500estimated; no actual telemetry.",
+      "23clearance rejects show support/placement limitation but do not establish which constraint dominates; no density tuning to conceal the unsupported premise.",
+      "Bounded memory replaced historical P068 divergent-sector local-gain lesson with current source.boundary-conflation. Historical P068 evidence remains in phase record; no old artistic verdict promoted."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Do not integrate generic C glyphs or tune their count.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P091/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Test one complete source-scaled cluster and its related ink shapes before whole-wave construction.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P091/visual-review.json",
+          "research/woodblock/source-regions.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Design three boundary types together at primitive scale; preserve source classification and concise first-view rejection.",
+    "estimatedReviewTokens": 500
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 500,
+    "estimatedTotalTokens": 7000,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T03:00:52.370Z",
+  "closedAt": "2026-11-05T03:00:52.400Z"
+}

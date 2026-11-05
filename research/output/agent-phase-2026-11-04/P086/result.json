@@ -1,0 +1,16 @@
+{
+  "id": "P086",
+  "summary": "Installed an unproven one-art-iteration visual-first trial. Workflow, startup state, source-pinned README graph and protocol require a worth-it verdict after the next art iteration, with matched visual evidence and full-effort/unknown accounting. No art work or agent-model changes; documentation checks pass. Diagram source updated, rendered readability not verified.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "not_applicable",
+  "evidence": [
+    "research/proposals/visual-first-trial.md",
+    "research/strategies/S086.json",
+    "agents/wave-completion.md",
+    "research/agent-architecture.json",
+    "README.md"
+  ],
+  "nextAction": "When art continuation is authorized and allowance permits, follow the visual-first trial on fixed P084 composition. Record retain/modify/reject/inconclusive in that art phase review before another art iteration; pending publication and rendered diagram check remain separate.",
+  "estimatedWorkTokens": null
+}

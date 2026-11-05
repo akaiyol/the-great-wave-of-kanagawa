@@ -1,0 +1,96 @@
+{
+  "phase": "P090",
+  "status": "independently reviewed local distinctions; not segmentation or artwork acceptance",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "referenceSha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceSize": [
+    3859,
+    2594
+  ],
+  "crop": [
+    1200,
+    280,
+    1000,
+    1050
+  ],
+  "coordinateBasis": "Unmodified source pixels; representative landmarks, not traced boundaries. Source SVG mapping verified at1440x960DPR1.",
+  "landmarks": [
+    {
+      "id": "W",
+      "point": [
+        1599.3,
+        802.6
+      ],
+      "classification": "filled_water",
+      "observation": "Broad dark water finger joins the main water mass toward the lower left; its blue band is inside the same filled water, not a foam separator."
+    },
+    {
+      "id": "I",
+      "point": [
+        1877.8,
+        793.1
+      ],
+      "classification": "open_contour_ink",
+      "observation": "Open curved indigo contour within pale foam. The pale interior is not an enclosed dark-water hole; ink ends remain visible.",
+      "qualification": "Representative location near pale interior/ink edge of curl, not a verified ink pixel."
+    },
+    {
+      "id": "F",
+      "point": [
+        1942.9,
+        903.4
+      ],
+      "classification": "foam_bridge",
+      "observation": "Pale foam forms a filled bridge above the lower sky hollow, continuing between interior contour marks; the marks do not cut the sheet into separate solids."
+    },
+    {
+      "id": "S",
+      "point": [
+        1919.2,
+        1057.4
+      ],
+      "classification": "sky_gap",
+      "observation": "Paper-colored negative space beneath returning foam tips remains open to the sky/hollow below, rather than being a pale island inside water."
+    }
+  ],
+  "routes": [
+    {
+      "id": "W-to-body",
+      "points": [
+        [
+          1599.3,
+          802.6
+        ],
+        [
+          1557.8,
+          820.4
+        ],
+        [
+          1522.2,
+          861.9
+        ]
+      ],
+      "claim": "Water finger connects leftward to filled main water; not an isolated contour glyph."
+    },
+    {
+      "id": "S-to-sky",
+      "points": [
+        [
+          1919.2,
+          1057.4
+        ],
+        [
+          1931.1,
+          1128.5
+        ],
+        [
+          2025.9,
+          1175.9
+        ]
+      ],
+      "claim": "Negative space opens downward beneath returning tips."
+    }
+  ],
+  "uncertainty": "Thin blue washes, worn ink and exact bridge widths are not segmented; no pixel-perfect mask or universal interpretation claim.",
+  "constructionImplication": "Separate outer foam/sky silhouette, connected foam/water boundary, and many open interior ink curls. Do not force every visible curl to be a silhouette branch or dark water cavity."
+}

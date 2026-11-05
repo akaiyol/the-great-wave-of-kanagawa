@@ -1,0 +1,25 @@
+{
+  "phase": "P088",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "firstRenderAt": "2026-11-05T02:47:28.559902+00:00",
+  "sourceHashes": {
+    "src/procedural/mass-crest.mjs": "815c952ed3d6b72310089c6368ab604d97c88ed50de4341e5c116d8b3a2745d1",
+    "src/procedural/field-contours.mjs": "e946eb7e332e0c5d3bf9c64ed31c4768fe65475cb75039c4fc35a45ea5155f12",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "research/woodblock/mass-crest-study.html": "ab29175bafadb64757398e13fddca44d142dd08ab7fd24a54be18b998959e853",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-04/P088/candidate-721-native.jpg": "87a7a01858ad51d1cfe7259024c04a93fe6c251cae2887282863e7f097dd1e77"
+  },
+  "safety": "finite output; rendering0.9sec Node; openChains0; no general validity claim",
+  "workerEffortEstimate": 2300,
+  "strategyEstimate": 1100,
+  "artifactReviewEstimate": 500,
+  "actualTokens": null
+}

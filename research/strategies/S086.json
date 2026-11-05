@@ -1,0 +1,40 @@
+{
+  "id": "S086",
+  "targetPhase": "P086",
+  "family": "visual-first-process-trial",
+  "hypothesis": "An explicitly measured visual-first trial can test whether earlier visual rejection improves useful iteration without weakening integrity checks.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/visual_first_trial_review"
+  },
+  "recommendation": "continue",
+  "reason": "Bounded documentation change preserves integrity gates and requires a prospective worth-it decision.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/visual-first-trial.md",
+      "claim": "Declares matched visual evidence, total effort, unknowns and a mandatory post-iteration verdict.",
+      "sha256": "c5c9b719fb898c22386b80157d1ab295f596189d8a02ab1f056f992ea0bf57b8"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P084.json",
+      "claim": "Earlier single-view discrimination still incurred review overruns; ordering alone may not reduce cost.",
+      "sha256": "60e5268f5e96940328d6dbc2ca42d347ed047c82870907ccb6363658c31e116c"
+    }
+  ],
+  "unknowns": [
+    "Comparable historical cost measurements are unavailable.",
+    "Deferred integrity checks may expose expensive defects."
+  ],
+  "prediction": {
+    "ifTrue": "The next art iteration discriminates visual value earlier while retaining required integrity checks.",
+    "ifFalse": "Review overhead or late defects consume any benefit."
+  },
+  "test": {
+    "action": "Update workflow and diagram; require the next art phase review to record retain, modify, reject or inconclusive before another art phase.",
+    "success": "Matched visual comparison and full-cost evidence support a provisional decision; missing comparability remains explicit.",
+    "failure": "Documentation implies proven efficiency, bypasses integrity, or permits advancement without the verdict.",
+    "maxWorkTokens": 2400
+  }
+}

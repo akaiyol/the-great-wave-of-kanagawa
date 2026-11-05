@@ -1,0 +1,88 @@
+{
+  "phase": "P094",
+  "seed": 721,
+  "crossings": {
+    "outline": 0,
+    "ink": 0,
+    "accent": 0
+  },
+  "supports": [
+    {
+      "from": "P",
+      "to": "A",
+      "inside": true
+    },
+    {
+      "from": "P",
+      "to": "J",
+      "inside": true
+    },
+    {
+      "from": "J",
+      "to": "B",
+      "inside": true
+    },
+    {
+      "from": "J",
+      "to": "C",
+      "inside": true
+    }
+  ],
+  "sky": [
+    {
+      "id": "upper",
+      "points": [
+        [
+          133,
+          112
+        ],
+        [
+          160,
+          130
+        ],
+        [
+          200,
+          160
+        ],
+        [
+          245,
+          180
+        ]
+      ],
+      "samples": 195,
+      "fillHits": 0,
+      "boundaryCrossings": 0,
+      "minFillClearance": 7.383751666483449
+    },
+    {
+      "id": "lower",
+      "points": [
+        [
+          98,
+          204
+        ],
+        [
+          98,
+          225
+        ],
+        [
+          98,
+          255
+        ]
+      ],
+      "samples": 130,
+      "fillHits": 0,
+      "boundaryCrossings": 0,
+      "minFillClearance": 9.790994660127858
+    }
+  ],
+  "inkOutside": 0,
+  "accentOutside": 0,
+  "inkMinClearance": 10.075646735274432,
+  "accentMinClearance": 8.572109555602799,
+  "curveClosureError": 0,
+  "inkCenterlineEndpointDistance": 15.03329637837291,
+  "deterministicSvg": true,
+  "scope": "single local seed721; sampled contour/support/mark checks and explicit sky routes, not source-style, variety, narrowest-channel or user acceptance",
+  "lowerThroatAnchorClearance": 0.23758735080407664
+}

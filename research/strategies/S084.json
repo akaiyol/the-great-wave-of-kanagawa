@@ -1,0 +1,49 @@
+{
+  "id": "S084",
+  "targetPhase": "P084",
+  "policyVersion": "v2",
+  "family": "procedural-composition-hierarchy",
+  "hypothesis": "Connecting the retained curl to unequal supporting water forms improves whole-view likeness.",
+  "reviewer": {
+    "agentId": "/root/whole_view_strategy",
+    "role": "wave_evaluator"
+  },
+  "recommendation": "pivot",
+  "reason": "Largest observed gap: an isolated striped crescent instead of a dominant breaker within layered ocean.",
+  "supportingEvidence": [
+    {
+      "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+      "claim": "Overlapping foreground water supports the dominant left breaker.",
+      "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+    },
+    {
+      "path": "research/output/procedural-wave-2026-10-30/P079/candidate-721.png",
+      "claim": "Native1440x960view lacks supporting ocean hierarchy; capture and canonical hashes match pins.",
+      "sha256": "818ec79b11e7a52c04227d2235ce474f5a98f604ce3edbd57036af1dee6a73fa"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/procedural-wave-2026-10-30/P079/candidate-721.png",
+      "claim": "Sparse prongs, smooth foam ribbon and regular stripes remain independent likeness defects.",
+      "sha256": "818ec79b11e7a52c04227d2235ce474f5a98f604ce3edbd57036af1dee6a73fa"
+    }
+  ],
+  "unknowns": [
+    "Can composition improve likeness without anatomy changes? User acceptance remains untested."
+  ],
+  "prediction": {
+    "ifTrue": "Connected unequal forms make the curl read as a towering ocean breaker.",
+    "ifFalse": "Added scenery merely surrounds the same isolated emblem."
+  },
+  "test": {
+    "action": "Preserve P079 anatomy. Raise/enlarge the left curl; construct seeded foreground ridge and smaller midground breaker over one connected water base. Keep right-third quiet, hollow open and clouds subdued. No scaled curl copies. Compare one unlabeled1440x960capture.",
+    "success": "Independent comparison finds clearer ocean hierarchy and improved source likeness; retain only that scope.",
+    "failure": "Emblem persists or supporting forms compete; stop before wider validation.",
+    "maxWorkTokens": 15000
+  },
+  "accounting": {
+    "estimatedReviewerTokens": 7500,
+    "actualTokens": null
+  }
+}

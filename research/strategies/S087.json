@@ -1,0 +1,57 @@
+{
+  "id": "S087",
+  "targetPhase": "P087",
+  "policyVersion": "v2",
+  "family": "unified-chart-crest",
+  "hypothesis": "Constructing the exposed crest and inner water seam in one seeded sector chart produces visibly denser, unequal interlocking foam without sparse grafted hooks.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Co-construction addresses seam incompatibility; ordering alone cannot establish likeness. Preserve P084 scaffold.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/procedural-wave-2026-11-04/P081/summary.json",
+      "claim": "Reused bay incompatibility remains an implementation defect; no native review falsified connected clusters.",
+      "sha256": "9ace50e489780edceee2d541eabd280832778915e21ae387acc73f5379801689"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/agent-memory.json",
+      "claim": "Ordered bays retained attachment but unresolved regular scallops.",
+      "sha256": "17310026cc65a853e8968fd1e83a9884044fd2e51015a4ed68781585c96a4200"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P084/visual-review.json",
+      "claim": "Composition improved while sparse fingers and smooth ribbon persisted.",
+      "sha256": "1c2efd87c9806808e192f6b1ec2067b632eb595b55be43a8a10f5c66f9190a7b"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Generate outer contour and inner seam together; replace independent overlays and reused bay.",
+    "evidence": [
+      {
+        "path": "research/proposals/P087-chart-crest.md",
+        "sha256": "bb0c5d46971e43514a378470ee2b5916edc3748f542e9f377edb3ae3a35c82e0"
+      }
+    ]
+  },
+  "unknowns": [
+    "Whether sector ordering permits unequal returning lobes without regularization.",
+    "Whole likeness, material improvement and user acceptance remain unverified."
+  ],
+  "prediction": {
+    "ifTrue": "Unequal connected foam groups and branching water incursions become legible at native scale.",
+    "ifFalse": "A scalloped ribbon or doubled hooks persist despite valid geometry."
+  },
+  "test": {
+    "action": "One seed721 disposable render; matched 1440x960 DPR1 whole view, then crop, against P084 and verified canonical scan.",
+    "success": "Independent review finds clearer interlock without scaffold regression; proceed to affected integrity checks.",
+    "failure": "Regular fringe, smooth cap, prongs or disconnected lobes: archive; stop nearby tuning.",
+    "maxWorkTokens": 7000
+  },
+  "estimatedReviewerTokens": 18000,
+  "actualTokens": null
+}

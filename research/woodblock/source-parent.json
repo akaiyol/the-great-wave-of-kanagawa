@@ -1,0 +1,104 @@
+{
+  "phase": "P093",
+  "status": "independently supported local grouping, not unique growth skeleton",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "sourceSize": [
+    3859,
+    2594
+  ],
+  "crop": [
+    1900,
+    780,
+    480,
+    500
+  ],
+  "landmarks": [
+    {
+      "id": "P",
+      "point": [
+        2086.4,
+        980.9
+      ],
+      "classification": "parent_bridge",
+      "observation": "Continuous pale parent sheet above the hanging returns; parent label is an anatomical grouping to verify, not a segmented object."
+    },
+    {
+      "id": "A",
+      "point": [
+        2233.1,
+        1040.2
+      ],
+      "classification": "outer_return",
+      "observation": "Upper/right sky-facing returning tip of this group; representative feature point near thin outline."
+    },
+    {
+      "id": "J",
+      "point": [
+        2120.2,
+        1082.5
+      ],
+      "classification": "lower_fork_bridge",
+      "observation": "Pale connection above the lower pair of returning tips; verify that the shared filled bridge belongs to this parent."
+    },
+    {
+      "id": "B",
+      "point": [
+        2169.3,
+        1135.0
+      ],
+      "classification": "outer_return",
+      "observation": "Lower/right returning tip below the fork."
+    },
+    {
+      "id": "C",
+      "point": [
+        2075.1,
+        1137.8
+      ],
+      "classification": "outer_return",
+      "observation": "Lower/left returning tip paired with B; not an added ink glyph."
+    },
+    {
+      "id": "S",
+      "point": [
+        2199.3,
+        1076.8
+      ],
+      "classification": "sky_cove",
+      "observation": "Paper sky enters between upper/right return A and lower fork B/C."
+    },
+    {
+      "id": "I",
+      "point": [
+        2134.4,
+        1009.1
+      ],
+      "classification": "interior_contour",
+      "observation": "Nearby indigo curl inside pale parent region, distinct from outer returns. Point identifies feature, not an exact ink pixel."
+    }
+  ],
+  "proposedHierarchy": {
+    "parent": "P",
+    "children": [
+      "A",
+      "J"
+    ],
+    "Jchildren": [
+      "B",
+      "C"
+    ],
+    "interiorMarks": [
+      "I"
+    ],
+    "skyCoves": [
+      "S"
+    ]
+  },
+  "waterBoundary": "No broad filled dark-water incursion identified within this hanging parent patch. Main-body water W from P090 lies leftward outside this crop. Do not put a water slot beneath every outer tip.",
+  "qualification": "Grouping and representative coordinates require review; no traced outline, exact segmentation or confirmed pixel-level route.",
+  "qualifications": [
+    "P/J bridge widths unsegmented; representative points only.",
+    "A/B/C identify genuine silhouette returns near approximate outlines.",
+    "I landmark is pale interior of nearby ink curl, not ink pixel."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P089",
+  "objective": "Test connected branching water with common foam shell in one fixed native scene.",
+  "hypothesis": "Connected branching water trunks and their shared foam shell produce legible unequal crest hierarchy without parallel punched slots.",
+  "failureIds": [
+    "geometry.secondary-prongs",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P088 white masses carved by unrelated trunks failed; P084 composition fixed.",
+  "artifactTarget": "src/procedural/water-tree-crest.mjs",
+  "plannedTokens": 14000,
+  "family": "branching-water-shell",
+  "strategyReview": "research/strategies/S089.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One render before broad checks; preserve snapshots/reference/models and original pose bounds; no acceptance claim without integrity and independent review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 13300,
+    "reviewTokens": 700
+  },
+  "startedAt": "2026-11-05T02:49:51.451Z",
+  "result": {
+    "id": "P089",
+    "summary": "Connected branching water plus foam shell rendered under fixed P084 bounds; P088 helper extraction SVG-exact. Independent review rejected fused dark slab and illegible hierarchy before broad checks. Three changed constructions have not established source correspondence. No integration; next step is annotated source connectivity, not a fourth geometry guess.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "src/procedural/water-tree-crest.mjs",
+      "research/output/agent-phase-2026-11-04/P089/receipt.json",
+      "research/output/agent-phase-2026-11-04/P089/visual-review.json"
+    ],
+    "nextAction": "Annotate one canonical parent/child patch: filled water, contour ink, foam bridges and sky gaps. Establish actual region connectivity before another geometry prototype.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P089",
+    "findings": [
+      "General branching topology does not establish source region correspondence. The same hierarchy failure survives different algorithms; stop implementation and resolve the source interpretation blocker.",
+      "Compact reused strategy950/artifact450estimated avoided full-history review but cost comparability/actual usage remain unknown. No efficiency claim; no broad validity checks after decisive visual failure.",
+      "Lead incorrectly treated abstract parent/child topology as sufficient guidance. Independent reviewer identified exact missing region classification; detection credit belongs to reviewer."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Stop water-tree shell tuning and further unannotated topology guesses.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P089/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Require one source-grounded region connectivity annotation before selecting another construction.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P089/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Resolve source ink-versus-filled-region and sky-versus-foam distinctions in a bounded patch, then derive a construction from evidence.",
+    "estimatedReviewTokens": 500
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 500,
+    "estimatedTotalTokens": 7000,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T02:52:18.055Z",
+  "closedAt": "2026-11-05T02:52:18.090Z"
+}

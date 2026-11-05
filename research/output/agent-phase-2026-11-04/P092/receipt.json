@@ -1,0 +1,17 @@
+{
+  "phase": "P092",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "hashes": {
+    "research/woodblock/foam-cluster-primitive.mjs": "0c6ce75d32c8f1d7caf79c4b7f5a40cade9bec36eb38cdcf0727b8a23336c6f9",
+    "research/woodblock/foam-cluster-primitive.html": "df649531beaf789befb0a8c8a0fa6c1c302382c20c1b25c12b14fa99b5311f16",
+    "research/output/agent-phase-2026-11-04/P092/comparison-721-native.jpg": "3567f6531ef79f8f2760b8013e4ebc318f572566075548a923baf940f5c9f966",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "researchSource": "LingDong-/shan-shui-inf/index.html blob f0d1da751455f99b46756fcbdde8b02420f27d31, stroke/blob principles inspected; no source implementation copied.",
+  "scope": "local source comparison, not whole-scene native likeness; finite render only"
+}

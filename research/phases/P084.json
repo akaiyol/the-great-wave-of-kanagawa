@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P084",
+  "objective": "Construct one seeded ocean still with a dominant left breaker and unequal supporting water, preserving the retained primary anatomy.",
+  "hypothesis": "Connecting the retained curl to unequal supporting water forms improves whole-view likeness.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.secondary-prongs"
+  ],
+  "baseline": "P079 isolated curl; independent S084 identifies missing whole-ocean composition as the largest first-view gap.",
+  "artifactTarget": "src/procedural/composition.mjs",
+  "plannedTokens": 30000,
+  "family": "procedural-composition-hierarchy",
+  "strategyReview": "research/strategies/S084.json",
+  "goalIds": [
+    "ART"
+  ],
+  "otherGoalProtection": "Protect SYSTEM by one native whole-view discriminator before any broad seed sweep or new infrastructure; keep honest budget and recognition scope.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 28500,
+    "reviewTokens": 1500
+  },
+  "startedAt": "2026-11-04T22:11:10.445Z",
+  "result": {
+    "id": "P084",
+    "summary": "Built one seeded ocean composition with retained primary curl and new opaque foreground/midground ridges, common water and clouds. Fast checks preserve default rendering. Independent review rejected the full source-likeness predicate: modest depth/hierarchy gain only; same striped crescent/foam defects persist. Retain isolated composition scaffold for future primary-boundary work, not accepted artwork.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "src/procedural/composition.mjs",
+      "research/woodblock/composition-study.html",
+      "research/output/agent-phase-2026-11-04/P084/worker-checks.json",
+      "research/output/agent-phase-2026-11-04/P084/receipt.json",
+      "research/output/agent-phase-2026-11-04/P084/visual-review.json"
+    ],
+    "nextAction": "Hold composition fixed; reconstruct primary foam-water anatomy after completing the user-requested Daphnie reading/log setup.",
+    "estimatedWorkTokens": 31000
+  },
+  "review": {
+    "id": "P084",
+    "findings": [
+      "One native view discriminated local composition gain from failed whole-likeness success. No seed sweep followed; primary anatomy remains the real recognition barrier.",
+      "Independent review estimated12000tokens against6000planned. Strategy7500, worker4900 plus lead capture exceeded the approximate15000test allocation; no efficiency improvement claimed.",
+      "A new tab did not inherit a viewport override set before its creation. Setting it on the existing tab produced confirmed1440x960,DPR1 capture; the override was reset."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep the composition as a fixed isolated scaffold; preserve the full failed success predicate.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P084/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Budget actual image/context setup and use compact review packets; fix viewport on existing tabs before capture. Next art work targets primary anatomy.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P084/receipt.json",
+          "research/output/agent-phase-2026-11-04/P084/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Resume the primary-boundary hypothesis with a bounded test; capture sources and credit inspiration/process faults in the requested learning log.",
+    "estimatedReviewTokens": 1300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 31000,
+    "estimatedReviewTokens": 1300,
+    "estimatedTotalTokens": 32300,
+    "estimatedWorkOverrun": 2500,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 2300
+  },
+  "resultAt": "2026-11-04T22:20:20.107Z",
+  "closedAt": "2026-11-04T22:20:20.142Z"
+}

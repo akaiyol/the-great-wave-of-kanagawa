@@ -1,0 +1,16 @@
+{
+  "phase": "P093",
+  "reviewer": "/root/p087_strategy",
+  "verdict": "local anatomical grouping supported",
+  "hierarchy": "P supports A and J; J supports unequal B/C, not a unique growth skeleton.",
+  "constraints": [
+    "Continuous foam sheet supports A and J.",
+    "J divides into unequal B/C with sky between.",
+    "A\u2013J cove and B\u2013C notch at different depths.",
+    "Open interior I articulates sheet without hole.",
+    "No invented water slot beneath this hanging group; broad water boundary outside crop."
+  ],
+  "scope": "local grouping only; points/widths not exact segmentation; no whole-crest acceptance",
+  "estimatedTokens": 1300,
+  "actualTokens": null
+}

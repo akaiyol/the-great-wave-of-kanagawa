@@ -1,0 +1,28 @@
+{
+  "id": "P087",
+  "findings": [
+    "Mandatory trial verdict MODIFY: early native rejection prevented unnecessary broad validation, but no retained artistic gain or general speedup. Full cost lacks comparable baseline and P086 setup telemetry.",
+    "Fresh compact handoff still produced reviewer-reported18000-token strategy estimate, over entire16000-token plan; reused review added800estimated. Lead implementation/capture5500estimated and final review800estimated; actual telemetry unavailable. Estimates may be inaccurate, but do not hide overrun.",
+    "Shared chart regularized the outline into an ordered comb. Co-construction alone does not create hierarchical two-dimensional mass. Crop capture was not needed after decisive whole view."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Keep first-view rejection before broad validation; preserve unchanged gallery and scaffold.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P087/visual-review.json",
+        "research/output/agent-phase-2026-11-04/P087/receipt.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Next construction must change mass allocation, not tune fringe. Bound reviewer retrieval and reuse compact reviewed evidence. Trial status modified, effectiveness unproven.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P087/measurements.json",
+        "research/output/agent-phase-2026-11-04/P087/visual-review.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Build broad unequal supported masses and water coves as a whole-shape construction; assess one visible premise before further detail.",
+  "estimatedReviewTokens": 800
+}

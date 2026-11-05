@@ -53,3 +53,13 @@ Repository: https://github.com/akaiyol/the-great-wave-of-kanagawa
 - Do not silently weaken the canonical goal criteria. Numerical sampling/performance plans are provisional evaluations, not substitutes for artistic acceptance or demonstrated efficiency.
 - Any agent structure, role behavior or workflow change must update `research/agent-architecture.json` and the generated GitHub README diagram in the same change. Refresh the manifest's reviewed source pins, then run `node scripts/project-contract.mjs sync` and `check`; never auto-repin goal criteria from a checker.
 - Consult primary research/original implementations for a precise blocker, record the useful mechanism and its limits, and test the transfer. Do not confuse reading volume, candidate counts or quota consumption with progress.
+
+## Daphnie and learning capture
+
+- Daphnie is the lead profile. Her personality and judgment are defined in the separate Daphnie repository; this project's goals, instructions and state remain context, never her identity.
+- Record project-relevant inspiration, process faults and actual changes in `research/learning-log.md`, linking authoritative phases and crediting the user, source authors and independent reviewers accurately. Private cross-project details stay outside public repositories.
+- Curated lessons inform context. Do not rewrite core values automatically from an observation or article. Keep independent review and compute effort proportionate to consequential uncertainty.
+
+## Visual-first trial — assessed
+
+P087 assessed `research/proposals/visual-first-trial.md` with verdict **modify**. Retain early native visual discrimination and affected integrity checks before promotion. Efficiency remains unproven; account for setup, review, user corrections and late defects in phase review. The mandatory one-iteration assessment is complete, not a pending gate. See `research/output/agent-phase-2026-11-04/P087/measurements.json`. Current phase/state determine continuation and accepted scope.

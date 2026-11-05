@@ -11,20 +11,24 @@ Both project goals have equal priority.
 
 ## Agent architecture
 
-The lead owns delivery, decisions and documentation. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
+Daphnie, the lead, owns delivery, decisions and documentation. Her personality and judgment are separate from project goals and context. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
 
 <!-- architecture:start -->
-<!-- Reviewed architecture inputs: b8275d101d63bd8d27b596a2768814927cd7b75bba1c6d5d29d876a694a40415 -->
+<!-- Reviewed architecture inputs: 4172a0cadb5f49952369626094c7d961c1405bff6eca12bce40803242a7e4122 -->
 ```mermaid
 flowchart TD
-  n_Goals["Two equal goals: ART + SYSTEM"]
-  n_Lead["Lead: owner"]
+  n_Core["Core: personality + judgment"]
+  n_Goals["Context: goals + project state"]
+  n_Lead["Daphnie: lead owner"]
   n_Research["Researcher: exact blocker"]
   n_Strategy["Evaluator: challenge"]
-  n_Build["Lead / worker: build and test"]
-  n_Visual["Evaluator: visual review"]
-  n_Process["Lead: evidence + 5% review"]
+  n_Build["Lead: smallest generated study"]
+  n_Visual["Evaluator: early visual verdict"]
+  n_Process["Evidence + final 5% process review"]
+  n_Integrity["Affected checks + integration review"]
   n_Result["Both goals verified"]
+  n_Learning["Relevant lessons + readings"]
+  n_Core --> n_Lead
   n_Goals --> n_Lead
   n_Lead -->|"Exact blocker"| n_Research
   n_Research --> n_Lead
@@ -32,15 +36,20 @@ flowchart TD
   n_Strategy -->|"Continue or pivot"| n_Build
   n_Strategy -->|"Reject or defer"| n_Lead
   n_Build --> n_Visual
-  n_Visual --> n_Process
-  n_Process -->|"Lessons and next test"| n_Lead
+  n_Process -->|"Evidence"| n_Learning
   n_Process -->|"Acceptance evidence"| n_Result
+  n_Learning -->|"Context"| n_Lead
+  n_Visual -->|"Promising"| n_Integrity
+  n_Visual -->|"Reject; stop tuning"| n_Process
+  n_Integrity --> n_Process
 ```
 <!-- architecture:end -->
 
 Before building a new hypothesis, an independent strategy review checks supporting and contrary evidence, predicts an observable result, and sets one bounded test. It can retain a sound path, pivot, reject a construction, or defer judgment when evidence is missing. A deterministic gate checks the record and evidence; it cannot guarantee good judgment.
 
 Every phase reserves **5% of its planned token budget** for reviewing process and logs before another phase starts. A short brief, evidence-linked lessons and structured phase records carry findings forward. Technical correctness and artistic quality are evaluated separately. Exact compute telemetry is unavailable here, so usage estimates remain explicit.
+
+Sources, changes and fault attribution are linked in the [learning log](research/learning-log.md). Daphnie's shared skills live in [akaiyol/daphnie](https://github.com/akaiyol/daphnie).
 
 Today, this learning is **lead-managed** through recorded findings and updates to tasks and workflow rules. Reliable autonomous self-improvement is still the goal. See the [agent workflow](agents/wave-completion.md), [current brief](research/agent-brief.md) and [phase records](research/phases/).
 
@@ -61,3 +70,5 @@ python3 -m http.server 4187 --bind 127.0.0.1
 ```
 
 Open the [generated wave gallery](http://127.0.0.1:4187/research/woodblock/generated-gallery.html).
+
+The [visual-first trial](research/proposals/visual-first-trial.md) was assessed in [P087](research/phases/P087.json): **modify**. Early visual rejection is retained; promising work still needs integrity checks. Total-effort evidence has not established an efficiency gain.

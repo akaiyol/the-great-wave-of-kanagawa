@@ -1,0 +1,5 @@
+# P093 — map one actual foam parent and subordinate returns
+
+P092 did not implement its promised nested hierarchy. Before another prototype, zoom one canonical parent on the right-hand hanging foam sheet. Mark the parent bridge, subordinate sky-facing returns/coves and open interior contours. Locate the nearest connected water boundary separately; do not invent a water branch beneath every outer tip. It may lie outside this small patch.
+
+Use the existing source viewer with separate source-parent.json; unchanged museum image, overlay separate, no tracing template or masks. Identify representative feature locations and actual connections; mark uncertainty, do not claim pixel-perfect segmentation. Independent review must verify the chosen parent really has several subordinate silhouette returns rather than merely several internal ink curls. Deliver one explicit anatomical relationship list to constrain a later generator. No new geometry during this phase. Planned5000 incl250processreserve, testmax2500estimatedwork.

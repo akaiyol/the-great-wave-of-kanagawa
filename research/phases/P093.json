@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "P093",
+  "objective": "Map one actual source parent and subordinate silhouette returns before another prototype.",
+  "hypothesis": "Mapping one actual parent foam bridge and subordinate sky-facing returns constrains a genuinely nested construction before another prototype.",
+  "failureIds": [
+    "source.boundary-conflation"
+  ],
+  "baseline": "P092 flat row did not implement subordinate returns; source parent correspondence unresolved.",
+  "artifactTarget": "research/woodblock/source-parent.json",
+  "plannedTokens": 5000,
+  "family": "source-parent-map",
+  "strategyReview": "research/strategies/S093.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Reuse source viewer, no new geometry, no invented water beneath each tip; preserve unmodified reference and explicit unknowns.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 4750,
+    "reviewTokens": 250
+  },
+  "startedAt": "2026-11-05T03:07:12.296Z",
+  "result": {
+    "id": "P093",
+    "summary": "Mapped and independently verified one hanging foam group: P supports A and lower fork J; J supports unequal B/C. Two sky-cove depths and separate interior I are supported. No broad water slot belongs under each tip. Grouping is local anatomy, not unique growth skeleton or precise segmentation.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/source-parent.json",
+      "research/output/agent-phase-2026-11-04/P093/visual-review.json",
+      "research/output/agent-phase-2026-11-04/P093/receipt.json"
+    ],
+    "nextAction": "Implement one local P→A/J→B/C foam sheet with two cove depths and open interior contour; no water holes in this hanging patch. Verify actual two-level structure before capture, then judge source comparison.",
+    "estimatedWorkTokens": 3500
+  },
+  "review": {
+    "id": "P093",
+    "findings": [
+      "One explicit parent/fork grouping supplies a concrete construction target. Previous generic branching-water model placed visible water under tips where source shows a hanging foam sheet.",
+      "Source-derived anatomical grouping is not a unique physical growth skeleton. Keep point/pixel and bridge-width uncertainty explicit.",
+      "Before next render, check implementation actually includes promised two-level parent/child structure; necessary coverage check does not establish visual success."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Use verified parent/fork relations and two cove depths, distinct interior contour, no per-tip water slots.",
+        "evidence": [
+          "research/woodblock/source-parent.json",
+          "research/output/agent-phase-2026-11-04/P093/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Require first artifact metadata to expose promised parent/child relations, preventing another flat-row non-test.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P093/visual-review.json",
+          "research/output/agent-phase-2026-11-04/P092/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "One source-constrained hanging parent primitive, not another full-scene algorithm variant.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3500,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 3850,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 100,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T03:10:04.525Z",
+  "closedAt": "2026-11-05T03:10:04.555Z"
+}

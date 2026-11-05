@@ -1,0 +1,22 @@
+{
+  "phase": "P084",
+  "policyVersion": "v2",
+  "verdict": "reject full S084 success predicate; retain only modest composition scaffold",
+  "scope": {
+    "seed": 721,
+    "viewport": [
+      1440,
+      960
+    ],
+    "dpr": 1
+  },
+  "localGain": "Taller left breaker and unequal supporting ridges establish clearer depth and ocean hierarchy.",
+  "wholeViewFailure": "The primary remains a striped crescent emblem with a smooth foam ribbon, sparse fingers and an inward tongue; interlocking foam and branching water coves are not established.",
+  "material": "Flat fills, thin outlines and regular bands remain graphic vector styling.",
+  "userAcceptance": "untested",
+  "nextDecision": "Use the fixed scaffold for one bounded primary foam-water boundary reconstruction; no composition expansion or broad seed sweep.",
+  "identity": "Reviewer checked capture, baseline, canonical and listed source hashes once.",
+  "estimatedReviewerTokens": 12000,
+  "assignedReviewerTokens": 6000,
+  "actualTokens": null
+}

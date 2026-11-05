@@ -1,0 +1,56 @@
+{
+  "id": "S094",
+  "targetPhase": "P094",
+  "policyVersion": "v2",
+  "family": "observed-parent-fork",
+  "hypothesis": "An explicitly nested P-to-A/J-to-B/C continuous foam outline with distinct sky cove depths and related open ink reads as the observed hanging parent rather than a flat lobe row.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Source-supported nesting provides executable target; metadata cannot establish visible hierarchy.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P094-parent-fork.md",
+      "claim": "Shared lower support, unequal returns and distinct cove depths.",
+      "sha256": "101f7e998594c0dd39cbb66b281478860a02332fd126c02992201c3ab8ea2b8e"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P093/visual-review.json",
+      "claim": "Observed parent supports A and lower B/C fork without local water slots.",
+      "sha256": "4e15eab08a8dbe5ec084579f6a57b1fa4f122fb6768b96e43a30b52e0f0d0e83"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P092/visual-review.json",
+      "claim": "Three coarse lobes failed subordinate hierarchy.",
+      "sha256": "8d9256aa4878c90de56d093e808164b9be16a0140fb71d8e56eb4cd738baf525"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Construct verified source grouping rather than assumed alternating foam/water structure.",
+    "evidence": [
+      {
+        "path": "research/output/agent-phase-2026-11-04/P093/visual-review.json",
+        "sha256": "4e15eab08a8dbe5ec084579f6a57b1fa4f122fb6768b96e43a30b52e0f0d0e83"
+      }
+    ]
+  },
+  "unknowns": [
+    "Whether curvature makes J support visibly legible."
+  ],
+  "prediction": {
+    "ifTrue": "B/C read as unequal children of J subordinate to A/J division.",
+    "ifFalse": "Three equivalent hooks persist despite graph metadata."
+  },
+  "test": {
+    "action": "One native primitive/source comparison around verified parent.",
+    "success": "Nested support and two cove scales read visibly; earn integrity checks only.",
+    "failure": "Flat row, detached claws, shafts or decorative glyph: archive without tuning.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 1050,
+  "actualTokens": null
+}

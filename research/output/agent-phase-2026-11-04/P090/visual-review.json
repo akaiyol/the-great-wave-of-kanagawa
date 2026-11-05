@@ -1,0 +1,13 @@
+{
+  "phase": "P090",
+  "reviewer": "/root/p087_strategy",
+  "verdict": "local region distinctions supported",
+  "W": "Connected dark water; blue band belongs inside water.",
+  "I": "Nearby curl is open ink inside foam; exact marker not an asserted ink pixel.",
+  "F": "Foam bridge supported at region scale, boundaries/widths not segmented.",
+  "S": "Sky-connected gap opens into lower hollow.",
+  "consequence": "Three distinct boundaries: foam/sky, foam/body-connected-water, and open ink inside continuous foam. Interior curls must articulate sheet without punching holes or adding silhouette branches.",
+  "scope": "one bounded canonical patch; no procedural/whole-likeness/user acceptance",
+  "estimatedTokens": 1100,
+  "actualTokens": null
+}

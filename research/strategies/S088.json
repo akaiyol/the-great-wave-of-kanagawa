@@ -1,0 +1,51 @@
+{
+  "id": "S088",
+  "targetPhase": "P088",
+  "policyVersion": "v2",
+  "family": "two-dimensional-foam-masses",
+  "hypothesis": "Supported two-dimensional foam masses with connected water incursions produce a clearer unequal branching crest than an ordered hook fringe.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Executable change from edge ornament to supported area; preserve P084 scaffold.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P088-foam-masses.md",
+      "claim": "Curved branching fields and inset connected water permit broad interlocking masses.",
+      "sha256": "e2e208a4e35328ceb80db5323bf5b442ae746b2c5221fc53b4bd707babca5435"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P087/visual-review.json",
+      "claim": "Adding tips produced a comb without unequal foam hierarchy.",
+      "sha256": "a813e08d577cafb63f2c43f9d38d7fe2cbb91cdee6582b20a5347df9271b63f0"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Replace narrow ordered sectors with overlapping two-dimensional masses and carved water trunks.",
+    "evidence": [
+      {
+        "path": "research/proposals/P088-foam-masses.md",
+        "sha256": "e2e208a4e35328ceb80db5323bf5b442ae746b2c5221fc53b4bd707babca5435"
+      }
+    ]
+  },
+  "unknowns": [
+    "Field union may fuse branches into blobs; water carving may sever foam."
+  ],
+  "prediction": {
+    "ifTrue": "Broad unequal foam groups contain legible branching water incursions.",
+    "ifFalse": "Blobs, antlers or a repeated fringe replace the comb without improving hierarchy."
+  },
+  "test": {
+    "action": "Render seed721 once; compare native whole view, then matched crest crop, against P084 and canonical.",
+    "success": "Unequal connected masses and branching water read clearly; proceed to affected integrity checks.",
+    "failure": "Blobs, antlers, disconnected groups or closed dark holes: archive without nearby tuning.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 1100,
+  "actualTokens": null
+}

@@ -78,16 +78,6 @@
       "reentryCondition": "Change angular fan/parent hierarchy and check native visible separation; do not claim geometric collision from internal parent overlap."
     },
     {
-      "id": "geometry.divergent-sectors",
-      "status": "retained",
-      "lesson": "P068 parent-relative divergent child directions restore a visible notch and remove the long antler sweep at seed721. Retain local method only; thin angular hooks and whole source style remain unresolved.",
-      "evidence": [
-        "research/output/agent-phase-2026-11-02/P068/visual-review.json",
-        "research/output/procedural-wave-2026-10-30/P068/seed721.png"
-      ],
-      "reentryCondition": "Preserve the notch while improving lobe width/curvature; test held-out seeds before claiming generality."
-    },
-    {
       "id": "water.parallel-overlay-stripe",
       "status": "retained",
       "lesson": "P071independent water overlays merge into a dark stripe with a blunt mouth; P072free Cartesian inner seam folds. Do not re-enter these without an ordered boundary construction.",
@@ -114,6 +104,16 @@
         "research/output/procedural-wave-2026-10-30/P080/receipt.json"
       ],
       "reentryCondition": "Replace the supported cluster silhouette and water coves together rather than appending lobes to unchanged shafts."
+    },
+    {
+      "id": "source.boundary-conflation",
+      "status": "retained",
+      "lesson": "After different constructions repeat the same hierarchy failure, classify one actual source patch before another algorithm. Separate foam/sky silhouette, foam/body-connected-water boundary, and open ink inside continuous foam; not every curl is a hole or exposed branch.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P090/visual-review.json",
+        "research/woodblock/source-regions.json"
+      ],
+      "reentryCondition": "Next construction identifies which observed boundary each feature represents; local annotation is not whole-art acceptance."
     }
   ]
 }

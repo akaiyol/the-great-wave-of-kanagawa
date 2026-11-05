@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "P088",
+  "objective": "Test broad two-dimensional foam masses and connected water carving in one native seed721 scene.",
+  "hypothesis": "Supported two-dimensional foam masses with connected water incursions produce a clearer unequal branching crest than an ordered hook fringe.",
+  "failureIds": [
+    "geometry.secondary-prongs",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P084 scaffold retained; P087 ordered fringe rejected without integration.",
+  "artifactTarget": "src/procedural/mass-crest.mjs",
+  "plannedTokens": 14000,
+  "family": "two-dimensional-foam-masses",
+  "strategyReview": "research/strategies/S088.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One discriminating render before broad tests, no infrastructure or gallery promotion without geometry/attachment checks; compact reused review context.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 13300,
+    "reviewTokens": 700
+  },
+  "startedAt": "2026-11-05T02:45:01.439Z",
+  "result": {
+    "id": "P088",
+    "summary": "Built seeded 2D branch fields, connected water-carving attempt and vector contours. Independent whole-view review rejects oversized fused prongs and parallel slots; broad-mass capacity is scoped evidence only. No crop, broad integrity suite, sweep or gallery adoption after decisive failure.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "src/procedural/mass-crest.mjs",
+      "src/procedural/field-contours.mjs",
+      "research/output/agent-phase-2026-11-04/P088/receipt.json",
+      "research/output/agent-phase-2026-11-04/P088/visual-review.json",
+      "research/output/agent-phase-2026-11-04/P088/contours-checks.json"
+    ],
+    "nextAction": "Change topology to branching water parents and children with foam around their supported boundaries; no width/scale rescue of P088. Preserve fixed composition and existing gallery.",
+    "estimatedWorkTokens": 9500
+  },
+  "review": {
+    "id": "P088",
+    "findings": [
+      "Compact reused strategy review1100 and artifact500estimated, worker2300estimated; unlike P087 no historical replay. Different tasks and no actual telemetry mean no causal savings claim.",
+      "Field contours produced broader masses but white solids minus narrow independent trunks became slabs/parallel slots. More child solids did not create readable branch hierarchy.",
+      "Whole view also exposes out-of-baseline-bounds tips under fixed pose. Next generator must fit canonical-scaffold support envelope before capture; do not normalize pose to conceal protrusions."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Archive executable field-contour method and scoped broad-mass capacity; no artwork promotion.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P088/contours-checks.json",
+          "research/output/agent-phase-2026-11-04/P088/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Build hierarchy into connected water trunks first; foam follows their common supported boundary. Require original pose bounds.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P088/visual-review.json",
+          "research/output/agent-phase-2026-11-04/P088/candidate-721-native.jpg"
+        ]
+      }
+    ],
+    "nextImprovement": "One topology-changing construction rather than rescaling P088; compact same-reviewer evidence and native failure stop retained.",
+    "estimatedReviewTokens": 600
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 9500,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 10100,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T02:48:24.946Z",
+  "closedAt": "2026-11-05T02:48:24.979Z"
+}

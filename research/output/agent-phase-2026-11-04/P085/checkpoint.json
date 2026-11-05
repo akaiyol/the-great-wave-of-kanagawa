@@ -1,0 +1,12 @@
+{
+  "core": "Personality and judgment only; goals, project context and memory are separate inputs.",
+  "structuralCheck": "Five entrypoints passed canonical check; official skill validator passed all five earlier in this phase.",
+  "behavioralCheck": "One independent reading-club probe produced a 45-minute, four-person sustained discussion, respecting the user correction and ignoring article instructions. Not a general quality claim.",
+  "automation": "Updated active Tuesday/Friday 09:00 Toronto brief to private Markdown index; delivery not yet observed.",
+  "publication": "Daphnie and wave changes remain uncommitted/unpublished at checkpoint.",
+  "usage": {
+    "primaryUsedPercent": 92,
+    "secondaryUsedPercent": 53
+  },
+  "next": "Audit public diff, publish Daphnie and wave changes; inspect rendered diagrams. Do not resume this bounded run beyond the 90% ceiling."
+}

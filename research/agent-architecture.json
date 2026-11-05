@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-11-04-v1",
+  "revision": "2026-11-04-visual-first-assessed",
   "sourcePins": {
-    "AGENTS.md": "6e5e3883840bd3a92b40391ededaeca54cd755506d2507da83126beb8b445fd4",
-    "agents/wave-completion.md": "8f65d9cc897f6eae6933a7634d76643ffa62a40d3de10b468fff88aad8809de5",
+    "AGENTS.md": "d76602a78482c3a4c6c188f53c0cd72e5af222bf579ec6e3ee165f14bf35c316",
+    "agents/wave-completion.md": "d0797a41540082e5eb9dc74b48efb7b0d3e0165a6742b1b1ef74cc5925947bf8",
     ".codex/config.toml": "a198aac471b651db60840bf1e38a13c30fe23207a4d0f118bc6e0003684053d6",
     ".codex/agents/wave-evaluator.toml": "f6e9180ddf36f4a16cad218f769f49e3fb78340e9e906c5c67e08fefb11ab72a",
     ".codex/agents/wave-worker.toml": "91960635a7470f9624fd8cfbaa2db10714d1169edc2379fd8653846cc3a80f52",
@@ -12,16 +12,21 @@
     "scripts/strategy.mjs": "0db315b51ab00bdefc8c75c7c01e914c1e3e87967deceec54e5c97ba06e12428",
     "scripts/project-contract.mjs": "fa837c887a670dfc112ca6e02bb32dd7a3fcf38e230162631e9fa45e0a5f4da6",
     "scripts/run-health.mjs": "f41d4c2ca61dc52ac22d1a29a2f287b1abb65267ff8a91f6284f881956923647",
-    "research/decisions/ADR-004-strategy-challenge-and-continuation.md": "8b3bd1f246fd0ab93ba5a7ac10bcd175a39296246c3d48493019cc9b13b3606c"
+    "research/decisions/ADR-004-strategy-challenge-and-continuation.md": "8b3bd1f246fd0ab93ba5a7ac10bcd175a39296246c3d48493019cc9b13b3606c",
+    "research/proposals/visual-first-trial.md": "c5c9b719fb898c22386b80157d1ab295f596189d8a02ab1f056f992ea0bf57b8"
   },
   "nodes": [
     {
+      "id": "Core",
+      "label": "Core: personality + judgment"
+    },
+    {
       "id": "Goals",
-      "label": "Two equal goals: ART + SYSTEM"
+      "label": "Context: goals + project state"
     },
     {
       "id": "Lead",
-      "label": "Lead: owner"
+      "label": "Daphnie: lead owner"
     },
     {
       "id": "Research",
@@ -33,22 +38,34 @@
     },
     {
       "id": "Build",
-      "label": "Lead / worker: build and test"
+      "label": "Lead: smallest generated study"
     },
     {
       "id": "Visual",
-      "label": "Evaluator: visual review"
+      "label": "Evaluator: early visual verdict"
     },
     {
       "id": "Process",
-      "label": "Lead: evidence + 5% review"
+      "label": "Evidence + final 5% process review"
+    },
+    {
+      "id": "Integrity",
+      "label": "Affected checks + integration review"
     },
     {
       "id": "Result",
       "label": "Both goals verified"
+    },
+    {
+      "id": "Learning",
+      "label": "Relevant lessons + readings"
     }
   ],
   "edges": [
+    {
+      "from": "Core",
+      "to": "Lead"
+    },
     {
       "from": "Goals",
       "to": "Lead"
@@ -81,19 +98,34 @@
       "to": "Visual"
     },
     {
-      "from": "Visual",
-      "to": "Process"
-    },
-    {
       "from": "Process",
-      "to": "Lead",
-      "label": "Lessons and next test"
+      "to": "Learning",
+      "label": "Evidence"
     },
     {
       "from": "Process",
       "to": "Result",
       "label": "Acceptance evidence"
+    },
+    {
+      "from": "Learning",
+      "to": "Lead",
+      "label": "Context"
+    },
+    {
+      "from": "Visual",
+      "to": "Integrity",
+      "label": "Promising"
+    },
+    {
+      "from": "Visual",
+      "to": "Process",
+      "label": "Reject; stop tuning"
+    },
+    {
+      "from": "Integrity",
+      "to": "Process"
     }
   ],
-  "note": "Strategy and visual review are modes of the existing evaluator role, not two simultaneous agents. One active child and one source writer. Lead owns goal coherence, integration and publication."
+  "note": "Visual-first trial assessed P087: modify. Early rejection retained; efficiency unproven. Core is personality/judgment; goals and lessons are context. One active child, one writer; models unchanged."
 }

@@ -1,0 +1,27 @@
+{
+  "phase": "P084",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "browser": "Connected in-app browser; version not exposed in inspected API",
+  "capture": "seed721-native.jpg",
+  "captureSha256": "bfca0613776d50d08309aca168786af70e390ae4f90636f5eb0d024474d9797c",
+  "referenceHash": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "sourceHashes": {
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "src/procedural/integrated-crest.mjs": "afef2f7ddb31e1f09bca830adbc0aa80e9371b4c7f004dcd2f3285f9ed963388",
+    "src/procedural/study.mjs": "c6bd06d1bdbff1f7a7d36e5be9cac739f22abebd62c2d89be8f2673e301b5c9f",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/procedural/ordered-bay.mjs": "453c3792f93937e830a55e9e9ca3326404a84962836616ce8111352dd550b1b1",
+    "src/procedural/branch-creases.mjs": "18aa32d8c4047d80b41720ad1fb78fb1929e2a22a14066aa70c5d931be513d69",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "research/woodblock/composition-study.html": "3fe343184caa4b9a5312fb7ace895b124463216dca5828e9c560569b35b0fe8c",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6"
+  },
+  "scope": "One seed, one native whole-view composition; no variant family, repetition, continuous-world or artistic-acceptance claim.",
+  "captureCorrection": "First attempt created a tab after setting viewport, so the new tab did not inherit it. Replaced that capture after setting viewport on the existing study tab; DOM confirmed1440x960,DPR1,SVG0,0,1440,960. Temporary viewport reset afterwards.",
+  "modelChecks": "Worker finite/deterministic/default-exact checks; no broad sweep before visual triage."
+}

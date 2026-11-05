@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P092",
+  "objective": "Test a source-scaled complete foam-cluster primitive before whole-wave integration.",
+  "hypothesis": "A source-scaled continuous foam cluster with unequal returning lobes, connected water incursions and related tapered open marks yields a coherent local froth primitive.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "geometry.secondary-prongs"
+  ],
+  "baseline": "P090 source distinctions verified; P091 isolated Cs on narrow support failed.",
+  "artifactTarget": "research/woodblock/foam-cluster-primitive.mjs",
+  "plannedTokens": 10000,
+  "family": "source-scaled-cluster",
+  "strategyReview": "research/strategies/S092.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Bounded source-scaled primitive, no full-scene variants, no copied upstream implementation, first-view rejection before integrity checks.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-05T03:02:39.104Z",
+  "result": {
+    "id": "P092",
+    "summary": "Standalone source-scaled primitive rendered with variable-weight ink; independent review rejected three flat repeating lobes with decorative spirals. Lead did not implement promised subordinate silhouette returns, so complete-cluster premise remains untested. Stop tuning; require one annotated parent/child source group before another construction.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/woodblock/foam-cluster-primitive.mjs",
+      "research/output/agent-phase-2026-11-04/P092/receipt.json",
+      "research/output/agent-phase-2026-11-04/P092/visual-review.json"
+    ],
+    "nextAction": "Identify one parent and subordinate sky-facing returns in source, distinguishing interior curls and distant connected-water boundary before implementing the missing hierarchy.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P092",
+    "findings": [
+      "The planned hierarchical primitive was reduced to a flat lobe row. This is lead implementation failure, not falsification of a fully specified nested construction; reviewer caught missing hypothesis coverage.",
+      "Variable-weight ink alone gives no retained source gain. Upstream stroke principle informed mark rendering; no retrospective attribution to previous work, no copied code.",
+      "Local source juxtaposition was more discriminating than another full-wave view, but counts alone cannot establish hierarchy; exact parent/child source mapping required."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Archive flat-row primitive; no parameter rescue or integration.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P092/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Specify source parent plus subordinate outer returns and internal marks before building. Water incursions need not correspond one-for-one to outer tips.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P092/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "One bounded parent annotation with explicit relationship labels, then implement exactly the observed hierarchy.",
+    "estimatedReviewTokens": 500
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 500,
+    "estimatedTotalTokens": 7000,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T03:06:16.605Z",
+  "closedAt": "2026-11-05T03:06:16.640Z"
+}

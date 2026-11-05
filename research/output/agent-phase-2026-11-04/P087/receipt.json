@@ -1,0 +1,28 @@
+{
+  "phase": "P087",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "seed": 721,
+  "crop": {
+    "x": 470,
+    "y": 60,
+    "width": 360,
+    "height": 410
+  },
+  "referenceUnchanged": true,
+  "firstRenderAt": "2026-11-05T02:42:00.610828+00:00",
+  "setupStartedAt": "2026-11-05T02:39:21.583423+00:00",
+  "hashes": {
+    "src/procedural/chart-crest.mjs": "4aade83ba1bf144103ee2dad793f8c526f16cc90eb75cda7eeb345c7ce855501",
+    "src/procedural/rolled-front.mjs": "e893883ae438fca5ab7056e33d28a2df254c41d4231e8a3da1edfbe5ce1b8576",
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "research/woodblock/chart-crest-study.html": "f20baf3fdd4de57e49394ad91e9a97fec3bbfd2edbd7269c9edaaa93aef8a284",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "renderSafety": "finite output and no NaN/Infinity only; no promotion checks",
+  "leadTriage": "Reject comb of repeated hooks; no nearby tuning or gallery adoption."
+}

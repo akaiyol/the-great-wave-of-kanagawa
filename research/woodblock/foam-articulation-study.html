@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Foam articulation study</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#e6dcc1}main{width:100%;height:100%;display:grid;place-items:center}svg{display:block;width:100%;height:100%;object-fit:contain}</style>
+<main id="view"></main>
+<script type="module">
+import{generateArticulation}from'../../src/procedural/foam-articulation.mjs';
+const q=new URLSearchParams(location.search),raw=q.get('seed');
+const seed=raw===null?721:/^\d+$/.test(raw)?Number(raw):NaN;
+try{const study=generateArticulation(seed);document.querySelector('#view').innerHTML=study.svg;window.foamArticulation={ready:true,seed,...study,error:null};}
+catch(e){window.foamArticulation={ready:true,seed,error:e.message};document.querySelector('#view').textContent='Invalid seed.';}
+</script></html>

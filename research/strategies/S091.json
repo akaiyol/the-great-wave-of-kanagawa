@@ -1,0 +1,47 @@
+{
+  "id": "S091",
+  "targetPhase": "P091",
+  "policyVersion": "v2",
+  "family": "source-open-ink",
+  "hypothesis": "Generated open ink curls within unchanged connected foam give a meaningful local articulation gain without creating holes or silhouette branches.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Tests an observed source boundary type; local articulation meaningful though silhouette repair remains necessary.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P091-open-ink.md",
+      "claim": "Isolates direction-linked unequal open marks while preserving filled geometry.",
+      "sha256": "42f33630ba85f191ee5dcc57da7eb11111364fcae57afb1d64789b94844de05e"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P090/visual-review.json",
+      "claim": "Source curls articulate continuous foam without defining water cavities or exposed branches.",
+      "sha256": "ee0ecb41a0b05b5820bb1c4453fae1b5d11537a1386fc696cbfb6baab19a563b"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P089/visual-review.json",
+      "claim": "Filled-region anatomy remains unresolved; marks cannot establish whole-crest likeness.",
+      "sha256": "c847cf6af5cf50f3bb2e59a276d133540ab35ecb3bc53fa6fd63fbdbfb83254f"
+    }
+  ],
+  "unknowns": [
+    "Whether baseline foam supports coherent curl placement rather than decorative tattoos."
+  ],
+  "prediction": {
+    "ifTrue": "Unequal nested marks articulate connected froth locally.",
+    "ifFalse": "Ribbon gains arbitrary pattern without readable foam structure."
+  },
+  "test": {
+    "action": "Compare seed721 baseline/candidate whole views then crest detail against source distinctions.",
+    "success": "Meaningful local froth articulation without clutter; proceed to containment and unchanged-geometry checks.",
+    "failure": "Tattoos, uniform Cs, speckle or negligible gain: archive without tuning.",
+    "maxWorkTokens": 4500
+  },
+  "estimatedReviewerTokens": 1050,
+  "actualTokens": null
+}

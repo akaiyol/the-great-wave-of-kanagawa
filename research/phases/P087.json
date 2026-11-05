@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "P087",
+  "objective": "Test unified generated crest and water/foam seam at one native view; judge the visual-first workflow trial afterward.",
+  "hypothesis": "Constructing the exposed crest and inner water seam in one seeded sector chart produces visibly denser, unequal interlocking foam without sparse grafted hooks.",
+  "failureIds": [
+    "geometry.secondary-prongs",
+    "evaluation.scope-inflation",
+    "review.context-overhead"
+  ],
+  "baseline": "P084 fixed composition seed721; retained scaffold only, smooth cap and sparse hooks fail full likeness.",
+  "artifactTarget": "src/procedural/chart-crest.mjs",
+  "plannedTokens": 16000,
+  "family": "unified-chart-crest",
+  "strategyReview": "research/strategies/S087.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No broad sweep/infrastructure; require independent visual evidence and full process-cost assessment including setup. No prototype promotion without affected integrity checks.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 15200,
+    "reviewTokens": 800
+  },
+  "startedAt": "2026-11-05T02:40:40.319Z",
+  "result": {
+    "id": "P087",
+    "summary": "Unified chart crest reached first native view in about159seconds from proposal save; independent reviewer rejected its repeated hook comb and reduced crest mass. Stopped without nearby tuning, broad sweep or gallery changes. Process trial verdict MODIFY: early rejection useful, but review setup overrun and missing comparable costs prevent efficiency claim.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "src/procedural/chart-crest.mjs",
+      "research/output/agent-phase-2026-11-04/P087/receipt.json",
+      "research/output/agent-phase-2026-11-04/P087/visual-review.json",
+      "research/output/agent-phase-2026-11-04/P087/measurements.json"
+    ],
+    "nextAction": "Archive rejected construction; preserve P084 scaffold. Next premise must allocate broad unequal foam masses and interlocking water in two dimensions, not another narrow ordered fringe. Retain early triage and constrain review retrieval; no efficiency gain claimed.",
+    "estimatedWorkTokens": 24300
+  },
+  "review": {
+    "id": "P087",
+    "findings": [
+      "Mandatory trial verdict MODIFY: early native rejection prevented unnecessary broad validation, but no retained artistic gain or general speedup. Full cost lacks comparable baseline and P086 setup telemetry.",
+      "Fresh compact handoff still produced reviewer-reported18000-token strategy estimate, over entire16000-token plan; reused review added800estimated. Lead implementation/capture5500estimated and final review800estimated; actual telemetry unavailable. Estimates may be inaccurate, but do not hide overrun.",
+      "Shared chart regularized the outline into an ordered comb. Co-construction alone does not create hierarchical two-dimensional mass. Crop capture was not needed after decisive whole view."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep first-view rejection before broad validation; preserve unchanged gallery and scaffold.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P087/visual-review.json",
+          "research/output/agent-phase-2026-11-04/P087/receipt.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Next construction must change mass allocation, not tune fringe. Bound reviewer retrieval and reuse compact reviewed evidence. Trial status modified, effectiveness unproven.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P087/measurements.json",
+          "research/output/agent-phase-2026-11-04/P087/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Build broad unequal supported masses and water coves as a whole-shape construction; assess one visible premise before further detail.",
+    "estimatedReviewTokens": 800
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 24300,
+    "estimatedReviewTokens": 800,
+    "estimatedTotalTokens": 25100,
+    "estimatedWorkOverrun": 9100,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 9100
+  },
+  "resultAt": "2026-11-05T02:43:20.953Z",
+  "closedAt": "2026-11-05T02:43:20.985Z"
+}

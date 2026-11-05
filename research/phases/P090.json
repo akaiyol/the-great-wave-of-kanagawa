@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P090",
+  "objective": "Resolve one canonical crest patch region connectivity before further procedural construction.",
+  "hypothesis": "Explicit source-region connectivity distinguishes filled water, ink marks, foam bridges and sky gaps sufficiently to choose the next construction.",
+  "failureIds": [
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P089 fused water-tree slab demonstrates missing source boundary correspondence.",
+  "artifactTarget": "research/woodblock/source-regions.json",
+  "plannedTokens": 8000,
+  "family": "source-region-decomposition",
+  "strategyReview": "research/strategies/S090.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One bounded source decomposition, not new renderer or reference mutation; independent classification check and no broad tracing.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-05T02:53:08.092Z",
+  "result": {
+    "id": "P090",
+    "summary": "Annotated and independently reviewed one canonical crest patch. Connected water, filled foam bridge and sky gap supported; nearby open ink curl is not a water cavity, with point-level qualification. This resolves a local classification blocker, not procedural likeness.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/source-regions.json",
+      "research/woodblock/source-region-study.html",
+      "research/output/agent-phase-2026-11-04/P090/visual-review.json",
+      "research/output/agent-phase-2026-11-04/P090/receipt.json"
+    ],
+    "nextAction": "Next bounded construction must identify foam/sky silhouette, foam/water seam and interior open ink marks separately; test sheet articulation without cutting new holes.",
+    "estimatedWorkTokens": 5500
+  },
+  "review": {
+    "id": "P090",
+    "findings": [
+      "Local zoom and four landmarks resolved a concrete interpretive blocker more directly than further whole-crest algorithm variants. Independent classification supports the distinction but not a generated artwork.",
+      "Lead had not enforced the existing ink-marks-are-not-water-cavities warning when designing P087–P089. Reviewer identified the missing region decomposition; lead takes implementation fault and reviewer detection credit.",
+      "Exact I ink pixel and F bridge widths remain unsegmented; labels denote features, not precision masks. No reference asset/pin changes or completed-art claim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep three source boundary categories as a construction constraint; qualify representative landmarks.",
+        "evidence": [
+          "research/woodblock/source-regions.json",
+          "research/output/agent-phase-2026-11-04/P090/visual-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Next experiment tests structural ink articulation within connected foam, not more outer tips or carved holes.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P090/source-unannotated.jpg",
+          "research/output/agent-phase-2026-11-04/P090/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Use a small reference-grounded three-boundary construction and one native comparison; no broad sweep or texture rescue.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 5500,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 5900,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-05T02:55:40.352Z",
+  "closedAt": "2026-11-05T02:55:40.384Z"
+}

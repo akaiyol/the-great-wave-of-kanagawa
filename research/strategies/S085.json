@@ -1,0 +1,43 @@
+{
+  "id": "S085",
+  "targetPhase": "P085",
+  "family": "portable-research-memory",
+  "hypothesis": "A user-level Daphnie profile, bounded shared notes and source-to-change logs can transfer useful learning across projects without importing unrelated goals or private data.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/strategy_architecture_challenge"
+  },
+  "recommendation": "continue",
+  "reason": "Useful bounded architecture; require selective sharing, verified scheduling scope and no infrastructure expansion.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/daphnie-reading-loop.md",
+      "claim": "Separates private knowledge, project outcomes and attribution; prohibits unrelated-chat scanning and forced changes.",
+      "sha256": "8b58e71a1241f574a23512ea3b946a408be2e0c114eff498ae768dfe894d9c41"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P083.json",
+      "claim": "Infrastructure work substantially exceeded budget without demonstrated efficiency gains; keep this implementation minimal.",
+      "sha256": "03ca3fd18d4806f74ea626f86d1cc357d266b708b9aaeb74e260623adcb9a795"
+    }
+  ],
+  "unknowns": [
+    "Cross-project retrieval quality and maintenance cost.",
+    "Actual scheduled delivery into this chat.",
+    "Execution while the laptop sleeps; local scheduling cannot guarantee wake or recovery.",
+    "No guaranteed model identity, universal chat access or web/mobile portability."
+  ],
+  "prediction": {
+    "ifTrue": "A fresh project retrieves a relevant sanitized lesson while preserving its own goals and private boundaries.",
+    "ifFalse": "Retrieval imports wave assumptions, leaks private material, misattributes changes or adds recurring overhead without useful synthesis."
+  },
+  "test": {
+    "action": "Validate the skill; run one unrelated scratch-project probe; inspect schedule, timezone and destination; audit one source-to-change entry and public diff.",
+    "success": "Relevant retrieval, no wave-goal leakage, article instructions treated as untrusted content, no private paths/content published; proposed versus applied credit remains explicit. Configuration alone is not delivery evidence.",
+    "failure": "Boundary leakage, unsupported continuity claims, retroactive attribution or budget exhaustion. Defer optional features.",
+    "maxWorkTokens": 10000
+  },
+  "schemaNormalization": "Reviewer returned its identity under reviewer.id; lead normalized that key to agentId without changing the identity or decision."
+}

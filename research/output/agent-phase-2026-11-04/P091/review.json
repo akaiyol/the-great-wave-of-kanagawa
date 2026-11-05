@@ -1,0 +1,27 @@
+{
+  "id": "P091",
+  "findings": [
+    "Source classification alone did not supply a convincing mark grammar; generic constant-width curls read as letters. Worker3500, strategy1050, artifactreview500estimated; no actual telemetry.",
+    "23clearance rejects show support/placement limitation but do not establish which constraint dominates; no density tuning to conceal the unsupported premise.",
+    "Bounded memory replaced historical P068 divergent-sector local-gain lesson with current source.boundary-conflation. Historical P068 evidence remains in phase record; no old artistic verdict promoted."
+  ],
+  "actions": [
+    {
+      "decision": "drop",
+      "summary": "Do not integrate generic C glyphs or tune their count.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P091/visual-review.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Test one complete source-scaled cluster and its related ink shapes before whole-wave construction.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P091/visual-review.json",
+        "research/woodblock/source-regions.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Design three boundary types together at primitive scale; preserve source classification and concise first-view rejection.",
+  "estimatedReviewTokens": 500
+}

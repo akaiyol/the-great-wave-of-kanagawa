@@ -1,0 +1,7 @@
+# P090 — resolve region connectivity before more geometry
+
+P089 independent review identified a precise blocker: abstract branching constructions fail to correspond to the source's actual regions. No fourth prototype before source decomposition. Read unchanged canonical scan, zoom one bounded crest patch, and annotate body-connected water, open ink contour marks, connected foam bridges and sky-connected gaps. Do not classify every indigo mark as a water hole or every pale region as sky. Uncertain/impression-dependent edges stay uncertain.
+
+Deliver a small source-coordinate annotation JSON plus a browser study showing unmodified museum image with separate optional overlay. Include parent/child patch bounds and observations with coordinates, not invented traced artwork. Independent review checks the classifications against image evidence; missing evidence stays unverified. No masks based on candidate, no reference pin changes, no procedural style claims. The next construction must name which source boundaries it is reproducing.
+
+Prediction: region distinctions reveal why tree/slab representations misplaced connected masses and interior marks. Falsifier: labels do not resolve filled-region connectivity or are not supported by the scan. Planned8000 incl400processreserve. First zoomed artifact before broad annotation; record only necessary landmarks, no exhaustive tracing or infrastructure.

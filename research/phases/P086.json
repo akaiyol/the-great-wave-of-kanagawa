@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P086",
+  "objective": "Install a one-iteration visual-first process trial with a required prospective worth-it assessment.",
+  "hypothesis": "An explicitly measured visual-first trial can test whether earlier visual rejection improves useful iteration without weakening integrity checks.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "review.context-overhead"
+  ],
+  "baseline": "P084 visual discrimination retained only a scaffold and still overran review estimates; no demonstrated efficiency gain.",
+  "artifactTarget": "research/proposals/visual-first-trial.md",
+  "plannedTokens": 6000,
+  "family": "visual-first-process-trial",
+  "strategyReview": "research/strategies/S086.json",
+  "goalIds": [
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No art edits or weaker acceptance criteria; preserve independent visual and integrity gates. This update does not restart the completed account-limited run.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-04T22:55:09.467Z",
+  "result": {
+    "id": "P086",
+    "summary": "Installed an unproven one-art-iteration visual-first trial. Workflow, startup state, source-pinned README graph and protocol require a worth-it verdict after the next art iteration, with matched visual evidence and full-effort/unknown accounting. No art work or agent-model changes; documentation checks pass. Diagram source updated, rendered readability not verified.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/proposals/visual-first-trial.md",
+      "research/strategies/S086.json",
+      "agents/wave-completion.md",
+      "research/agent-architecture.json",
+      "README.md"
+    ],
+    "nextAction": "When art continuation is authorized and allowance permits, follow the visual-first trial on fixed P084 composition. Record retain/modify/reject/inconclusive in that art phase review before another art iteration; pending publication and rendered diagram check remain separate.",
+    "estimatedWorkTokens": null
+  },
+  "review": {
+    "id": "P086",
+    "findings": [
+      "Independent strategy review supported a bounded trial, not proven efficiency. P084 already used one-view triage yet incurred review overrun, so ordering alone may not solve cost.",
+      "Historical effort is not comparable enough to calculate a causal speedup. Trial records unknowns and can return inconclusive; actual phase token telemetry unavailable.",
+      "No new results log, runtime or role/model change. Workflow/state carry the required next-art assessment; document compliance is not automatic semantic enforcement or demonstrated runtime adoption."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Use existing phase result/review for the prospective worth-it verdict; preserve integrity gates before promotion.",
+        "evidence": [
+          "research/proposals/visual-first-trial.md",
+          "agents/wave-completion.md"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Next art phase must assess visual gain and total cost, including process setup; no further art phase before verdict.",
+        "evidence": [
+          "research/agent-state.json",
+          "research/proposals/visual-first-trial.md"
+        ]
+      }
+    ],
+    "nextImprovement": "Test this sequence once on the crest, then decide from evidence rather than retaining the workflow by default.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": null,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": null,
+    "estimatedWorkOverrun": null,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": null
+  },
+  "resultAt": "2026-11-04T22:55:50.725Z",
+  "closedAt": "2026-11-04T22:55:50.750Z"
+}

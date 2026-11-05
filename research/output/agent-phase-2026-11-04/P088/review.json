@@ -1,0 +1,28 @@
+{
+  "id": "P088",
+  "findings": [
+    "Compact reused strategy review1100 and artifact500estimated, worker2300estimated; unlike P087 no historical replay. Different tasks and no actual telemetry mean no causal savings claim.",
+    "Field contours produced broader masses but white solids minus narrow independent trunks became slabs/parallel slots. More child solids did not create readable branch hierarchy.",
+    "Whole view also exposes out-of-baseline-bounds tips under fixed pose. Next generator must fit canonical-scaffold support envelope before capture; do not normalize pose to conceal protrusions."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Archive executable field-contour method and scoped broad-mass capacity; no artwork promotion.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P088/contours-checks.json",
+        "research/output/agent-phase-2026-11-04/P088/visual-review.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Build hierarchy into connected water trunks first; foam follows their common supported boundary. Require original pose bounds.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P088/visual-review.json",
+        "research/output/agent-phase-2026-11-04/P088/candidate-721-native.jpg"
+      ]
+    }
+  ],
+  "nextImprovement": "One topology-changing construction rather than rescaling P088; compact same-reviewer evidence and native failure stop retained.",
+  "estimatedReviewTokens": 600
+}

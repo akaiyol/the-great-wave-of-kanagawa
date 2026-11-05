@@ -1,0 +1,17 @@
+{
+  "phase": "P090",
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "image": "unmodified canonical scan with separate toggleable SVG landmarks",
+  "hashes": {
+    "research/woodblock/source-regions.json": "5200423b0546ff73be96ba632f15043bcc5b74fc3196360702edfd0f76d37731",
+    "research/woodblock/source-region-study.html": "91985485f09e5d5a860e88d8388156542191c2a40115292bb140c8ee548c4db3",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6",
+    "research/output/agent-phase-2026-11-04/P090/source-annotated.jpg": "a6b20fa3bc89f4d9241c431e0f939346efc69c929aa6f7f3c948062c6c631c30",
+    "research/output/agent-phase-2026-11-04/P090/source-unannotated.jpg": "7e6977b53dad7f464215e4e258a32fedc1be2260975bf5c38ee5cda42b8fb762"
+  }
+}

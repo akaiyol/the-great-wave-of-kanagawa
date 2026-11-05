@@ -1,0 +1,15 @@
+{
+  "id": "P087",
+  "summary": "Unified chart crest reached first native view in about159seconds from proposal save; independent reviewer rejected its repeated hook comb and reduced crest mass. Stopped without nearby tuning, broad sweep or gallery changes. Process trial verdict MODIFY: early rejection useful, but review setup overrun and missing comparable costs prevent efficiency claim.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "fail",
+  "evidence": [
+    "src/procedural/chart-crest.mjs",
+    "research/output/agent-phase-2026-11-04/P087/receipt.json",
+    "research/output/agent-phase-2026-11-04/P087/visual-review.json",
+    "research/output/agent-phase-2026-11-04/P087/measurements.json"
+  ],
+  "nextAction": "Archive rejected construction; preserve P084 scaffold. Next premise must allocate broad unequal foam masses and interlocking water in two dimensions, not another narrow ordered fringe. Retain early triage and constrain review retrieval; no efficiency gain claimed.",
+  "estimatedWorkTokens": 24300
+}

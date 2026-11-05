@@ -1,0 +1,15 @@
+{
+  "id": "P091",
+  "summary": "Bounded worker generated six open marks inside retained foam; native review rejects isolated C/U glyphs and unchanged empty-ribbon appearance. No tuning, integration or broad invariance checks after failure. Source boundary distinction remains valid but this primitive/support fails.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "fail",
+  "evidence": [
+    "src/procedural/foam-articulation.mjs",
+    "research/output/agent-phase-2026-11-04/P091/receipt.json",
+    "research/output/agent-phase-2026-11-04/P091/worker-checks.json",
+    "research/output/agent-phase-2026-11-04/P091/visual-review.json"
+  ],
+  "nextAction": "Build one source-scaled cluster primitive with related foam/sky, foam/water and interior ink boundaries; judge outside defective whole-wave support before integration.",
+  "estimatedWorkTokens": 6500
+}

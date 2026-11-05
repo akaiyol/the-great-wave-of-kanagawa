@@ -1,0 +1,40 @@
+{
+  "setupStartedAt": "2026-11-05T02:39:21.583423+00:00",
+  "firstRenderAt": "2026-11-05T02:42:00.610828+00:00",
+  "decisionRecordedAt": "2026-11-05T02:43:20.849576+00:00",
+  "elapsedToFirstRenderSeconds": 159.0,
+  "elapsedToRecordedDecisionSeconds": 239.3,
+  "activeWorkSeconds": null,
+  "pauses": "Not separately measured; elapsed is wall time.",
+  "tokenAccounting": {
+    "actual": null,
+    "leadEstimate": 5500,
+    "strategyReviewerEstimate": 18000,
+    "artifactReviewerEstimate": 800,
+    "imageEncoding": null,
+    "basis": "rough self-reported estimates; not measured token billing"
+  },
+  "effortBreakdownEstimate": {
+    "leadSetupImplementation": 3500,
+    "leadCaptureAndCoordination": 1400,
+    "leadSafetyChecksAndEvidence": 600,
+    "leadFinalReview": 800,
+    "reviewerStrategy": 18000,
+    "reviewerArtifact": 800
+  },
+  "priorProcessSetup": "P086 work tokens unknown; P086 review300 estimated. Thus net process cost cannot be calculated.",
+  "accountUseObserved": {
+    "startPrimaryUsed": 1,
+    "startWeeklyUsed": 54,
+    "milestonePrimaryUsed": 8,
+    "milestoneWeeklyUsed": 56,
+    "scope": "shared account, not attributable compute"
+  },
+  "userCorrectiveInterventions": 0,
+  "scopeChangesDuringExperiment": 0,
+  "avoidedWork": "No broad seed sweep, exhaustive polygon tests or gallery integration after native comb failure. Avoided cost unmeasured.",
+  "lateIntegrityDefects": "Not assessed; candidate rejected visually before promotion checks.",
+  "matchedScope": "1440x960 DPR1 seed721; crop x470 y60 w360 h410; P084 pose/supporting scene fixed.",
+  "handoff": "Fresh strategy child with no inherited chat; reused same reviewer for artifact; whole views decisive, detailed crop not needed.",
+  "comparisonLimit": "Historical P084/P079 work differs; no controlled speedup or quality acceptance inference."
+}

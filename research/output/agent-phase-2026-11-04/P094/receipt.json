@@ -1,0 +1,22 @@
+{
+  "phase": "P094",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "displayScope": "local source/candidate parent frames250x260; not a whole-wave recognition test",
+  "referencePinVerifiedUnchanged": true,
+  "hashes": {
+    "research/woodblock/parent-fork.mjs": "8e1bba535b91ecdcd355dadbfa1613db744534fe18d96f17b8fc9ca4145c40a8",
+    "research/woodblock/parent-fork.html": "254d12e210de7bcae9b96e15e6ffde93a744e15c5c8047f77847496b7da6a225",
+    "research/woodblock/source-parent.json": "3fcc8e73762ce0fdd5e50732eab15db3fc5c1f825fc82b545da291f56bfd26c1",
+    "src/procedural/geometry.mjs": "9df0c5eb6adedd30cb737e9295e5dba67fd9c18ca31032fa27281578295310bd",
+    "src/random.mjs": "7dceb534653a13ba3e82602ac125fb4920cabf37231807b5818aeee4856e8ac7",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "references/manifest.json": "6b5c20105055e84d302268dec0aa1dd1b3e92f2e06a5722cb68c98e71d0877c6",
+    "research/output/agent-phase-2026-11-04/P094/comparison-721-native.jpg": "cf7101974d53417fa02887305a2ee2e9df192255329aacc839f9bd597bb201f2",
+    "research/output/agent-phase-2026-11-04/P094/candidate-721.svg": "06c476a29bde86e0867a256bf310493bf35aada3f9af77b9604a032aa18ab57a"
+  }
+}

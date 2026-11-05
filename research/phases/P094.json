@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "P094",
+  "objective": "Construct the source-observed nested hanging foam parent in an isolated primitive.",
+  "hypothesis": "An explicitly nested P-to-A/J-to-B/C continuous foam outline with distinct sky cove depths and related open ink reads as the observed hanging parent rather than a flat lobe row.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "geometry.secondary-prongs"
+  ],
+  "baseline": "P093 parent anatomy verified; P092 flat-row primitive failed.",
+  "artifactTarget": "research/woodblock/parent-fork.mjs",
+  "plannedTokens": 10000,
+  "family": "observed-parent-fork",
+  "strategyReview": "research/strategies/S094.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One source-grounded primitive; graph coverage before capture, no water slots or whole-wave expansion; integrity checks only after promising native review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-05T03:10:53.107Z",
+  "result": {
+    "id": "P094",
+    "summary": "Generated continuous source-observed P→A/J→B/C parent. Warm and fresh independent reviews retain a local nested-topology gain; source style still fails. Seed721 contour/mark simplicity, four sampled support corridors, explicit sky routes, containment and determinism pass. Reference/source/capture hashes bound by lead. No gallery/whole-wave integration or variety claim.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/woodblock/parent-fork.mjs",
+      "research/output/agent-phase-2026-11-04/P094/receipt.json",
+      "research/output/agent-phase-2026-11-04/P094/checks.json",
+      "research/output/agent-phase-2026-11-04/P094/visual-review.json",
+      "research/output/agent-phase-2026-11-04/P094/fresh-review.json"
+    ],
+    "nextAction": "Preserve local topology checkpoint; test compact source-proportioned bridges and sharper asymmetric tip reversals before whole-crest integration. Publish reviewed accumulated changes and updated diagram.",
+    "estimatedWorkTokens": 18700
+  },
+  "review": {
+    "id": "P094",
+    "findings": [
+      "First independently retained construction gain in this run: actual nested topology, not source style or overall artwork acceptance. Necessary support checks prevented a flat-row non-test; geometry checks followed promising view.",
+      "Fresh independent reviewer estimated8000–10000 vs2000assigned, mandatory startup dominating. Work18700estimated includes lead4500, worker3600, strategy1050, warm550 and fresh9000midpoint. Actual telemetry unavailable; record overrun, no efficiency claim.",
+      "Lead created source/capture receipt after initial review packet; fresh reviewer did not receive it. Identity is lead-bound with independent visual source match, not independently verified cryptographic binding. Next packet includes receipt before review."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep single-seed local parent topology checkpoint with failed style verdict and bounded integrity evidence.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P094/visual-review.json",
+          "research/output/agent-phase-2026-11-04/P094/fresh-review.json",
+          "research/output/agent-phase-2026-11-04/P094/checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Budget fresh-review startup explicitly; include receipt in initial packet. Next art work changes source-proportioned curvature while preserving nested support.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P094/fresh-review.json",
+          "research/output/agent-phase-2026-11-04/P094/receipt.json"
+        ]
+      }
+    ],
+    "nextImprovement": "One source-curvature discriminator on retained nested topology, then evaluate before integration.",
+    "estimatedReviewTokens": 700
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 18700,
+    "estimatedReviewTokens": 700,
+    "estimatedTotalTokens": 19400,
+    "estimatedWorkOverrun": 9200,
+    "estimatedReviewOverrun": 200,
+    "estimatedTotalOverrun": 9400
+  },
+  "resultAt": "2026-11-05T03:16:35.462Z",
+  "closedAt": "2026-11-05T03:16:35.491Z"
+}

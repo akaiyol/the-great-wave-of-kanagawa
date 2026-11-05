@@ -1,0 +1,28 @@
+{
+  "id": "P086",
+  "findings": [
+    "Independent strategy review supported a bounded trial, not proven efficiency. P084 already used one-view triage yet incurred review overrun, so ordering alone may not solve cost.",
+    "Historical effort is not comparable enough to calculate a causal speedup. Trial records unknowns and can return inconclusive; actual phase token telemetry unavailable.",
+    "No new results log, runtime or role/model change. Workflow/state carry the required next-art assessment; document compliance is not automatic semantic enforcement or demonstrated runtime adoption."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Use existing phase result/review for the prospective worth-it verdict; preserve integrity gates before promotion.",
+      "evidence": [
+        "research/proposals/visual-first-trial.md",
+        "agents/wave-completion.md"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Next art phase must assess visual gain and total cost, including process setup; no further art phase before verdict.",
+      "evidence": [
+        "research/agent-state.json",
+        "research/proposals/visual-first-trial.md"
+      ]
+    }
+  ],
+  "nextImprovement": "Test this sequence once on the crest, then decide from evidence rather than retaining the workflow by default.",
+  "estimatedReviewTokens": 300
+}

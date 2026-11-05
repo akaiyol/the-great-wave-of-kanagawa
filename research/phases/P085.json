@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P085",
+  "objective": "Create the requested twice-weekly reading loop, truthful inspiration/change log, and reusable personal Daphnie profile.",
+  "hypothesis": "A user-level Daphnie profile, bounded shared notes and source-to-change logs can transfer useful learning across projects without importing unrelated goals or private data.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "review.context-overhead"
+  ],
+  "baseline": "No scheduled research brief or user-level Daphnie profile; project evidence exists but inspiration and fault attribution are not indexed.",
+  "artifactTarget": "research/learning-log.jsonl",
+  "plannedTokens": 18000,
+  "family": "portable-research-memory",
+  "strategyReview": "research/strategies/S085.json",
+  "goalIds": [
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Keep wave artwork and acceptance floors unchanged; log reading transfers as proposals/trials unless verified, and retain private cross-project data outside GitHub.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 17100,
+    "reviewTokens": 900
+  },
+  "startedAt": "2026-11-04T22:22:56.018Z",
+  "result": {
+    "id": "P085",
+    "summary": "Separated Daphnie personality/judgment from operating mechanics and contextual knowledge; updated diagrams, installed five skill modes and corrected the scheduled private Markdown reading index. Structure and one behavioral probe checked. Publishing and rendered diagram review remain outstanding at account ceiling.",
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "artifactDelivered": true,
+    "evidence": [
+      "research/learning-log.md",
+      "research/learning-log.jsonl",
+      "research/output/agent-phase-2026-11-04/P085/checkpoint.json"
+    ],
+    "nextAction": "At the next authorized run, audit and publish both repositories, verify rendered diagrams; retain separate core and context.",
+    "estimatedWorkTokens": null
+  },
+  "review": {
+    "id": "P085",
+    "findings": [
+      "Owner clarified that personality and decision-making belong in core; goals and project knowledge are context. Implemented separate CORE and OPERATING files and diagrams.",
+      "Usage was checked too late: primary already92% against90% ceiling. Stop new work and checkpoint; do not claim efficient resource control.",
+      "Scope expanded with multiple user directions. Actual phase tokens unavailable; work estimate left unknown rather than fabricate telemetry. Publication and rendered review pending."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep personality, operating rules, project context and reviewed memory distinct; preserve private/public boundary.",
+        "evidence": [
+          "research/learning-log.md",
+          "research/output/agent-phase-2026-11-04/P085/checkpoint.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Check account use before every expanded scope and checkpoint with headroom before90%; no new work in this bounded run.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-04/P085/checkpoint.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Publish the checkpoint only after a public diff audit; verify diagrams before claiming completion.",
+    "estimatedReviewTokens": 900
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": null,
+    "estimatedReviewTokens": 900,
+    "estimatedTotalTokens": null,
+    "estimatedWorkOverrun": null,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": null
+  },
+  "resultAt": "2026-11-04T22:39:53.038Z",
+  "closedAt": "2026-11-04T22:39:53.073Z"
+}

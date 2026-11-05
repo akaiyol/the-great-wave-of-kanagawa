@@ -1,0 +1,27 @@
+{
+  "id": "P085",
+  "findings": [
+    "Owner clarified that personality and decision-making belong in core; goals and project knowledge are context. Implemented separate CORE and OPERATING files and diagrams.",
+    "Usage was checked too late: primary already92% against90% ceiling. Stop new work and checkpoint; do not claim efficient resource control.",
+    "Scope expanded with multiple user directions. Actual phase tokens unavailable; work estimate left unknown rather than fabricate telemetry. Publication and rendered review pending."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Keep personality, operating rules, project context and reviewed memory distinct; preserve private/public boundary.",
+      "evidence": [
+        "research/learning-log.md",
+        "research/output/agent-phase-2026-11-04/P085/checkpoint.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Check account use before every expanded scope and checkpoint with headroom before90%; no new work in this bounded run.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P085/checkpoint.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Publish the checkpoint only after a public diff audit; verify diagrams before claiming completion.",
+  "estimatedReviewTokens": 900
+}

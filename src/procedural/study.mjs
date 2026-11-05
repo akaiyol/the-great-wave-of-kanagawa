@@ -42,7 +42,7 @@ export function normalizedGeometry(p){
  return{bodyPolygons:p.bodyPolygons.map(normalize),foamPolygons:p.foamPolygons.map(normalize),bands:p.wave.bands.map(b=>normalize(b.points)),strokes:p.wave.strokes.map(normalize),inkSeams:p.inkSeams.map(s=>({points:normalize(s.points),strokeWidth:quantize(s.strokeWidth/span)}))};
 }
 
-export function waveSvg(p){
+export function waveSvg(p,options){
  // Every SVG in a collection needs its own clip ID in the shared document.
- return integratedCrestSvg(p).replaceAll('graft-water',`graft-water-${p.seed}`);
+ return integratedCrestSvg(p,options).replaceAll('graft-water',`graft-water-${p.seed}`);
 }

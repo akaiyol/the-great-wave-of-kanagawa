@@ -1,0 +1,42 @@
+{
+  "id": "S090",
+  "targetPhase": "P090",
+  "policyVersion": "v2",
+  "family": "source-region-decomposition",
+  "hypothesis": "Explicit source-region connectivity distinguishes filled water, ink marks, foam bridges and sky gaps sufficiently to choose the next construction.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "A bounded source patch can test unresolved region interpretation before further geometry.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P090-source-regions.md",
+      "claim": "Separates observed regions, contour marks and uncertain boundaries using source coordinates.",
+      "sha256": "27aa8ee23012e22b6a12f0fc8344bf4ce7b1fc5a9aaa6f8edde8923073efa2f8"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P089/visual-review.json",
+      "claim": "Assumed water-tree topology produced a fused slab without visible hierarchy.",
+      "sha256": "c847cf6af5cf50f3bb2e59a276d133540ab35ecb3bc53fa6fd63fbdbfb83254f"
+    }
+  ],
+  "unknowns": [
+    "Some pale-region connections may remain ambiguous in this impression."
+  ],
+  "prediction": {
+    "ifTrue": "Observed connectivity constrains next construction boundaries.",
+    "ifFalse": "Labels rename shapes without resolving connections."
+  },
+  "test": {
+    "action": "Produce one zoomed source patch with toggleable coordinate-linked landmarks.",
+    "success": "Independent review follows water-to-body and sky routes, distinguishes open ink mark and identifies foam bridge.",
+    "failure": "Connections depend on unsupported interpretation; defer construction and name unresolved edge.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 850,
+  "actualTokens": null
+}

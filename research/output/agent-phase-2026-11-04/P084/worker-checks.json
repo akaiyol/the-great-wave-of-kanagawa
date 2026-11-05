@@ -1,0 +1,29 @@
+{
+  "phase": "P084",
+  "policyVersion": "v2",
+  "seed": 721,
+  "artifact": "research/output/agent-phase-2026-11-04/P084/seed721.svg",
+  "checks": {
+    "finite": true,
+    "deterministicSeed721": true,
+    "baselineDefaultRenderExact": true,
+    "primaryValid": true,
+    "primaryTop": 70.00000000000006,
+    "primaryBottom": 820.0000000000001,
+    "backgroundOmitted": true,
+    "noRasterTextureFade": true
+  },
+  "notes": [
+    "Default render compared exactly against HEAD renderer in preceding check.",
+    "Bounds assertion changed to 1e-8 tolerance for floating-point arithmetic."
+  ],
+  "scope": "One seed only. Native capture and independent visual review remain with lead.",
+  "sourceSha256": {
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "research/woodblock/composition-study.html": "3fe343184caa4b9a5312fb7ace895b124463216dca5828e9c560569b35b0fe8c",
+    "src/procedural/integrated-crest.mjs": "afef2f7ddb31e1f09bca830adbc0aa80e9371b4c7f004dcd2f3285f9ed963388",
+    "src/procedural/study.mjs": "c6bd06d1bdbff1f7a7d36e5be9cac739f22abebd62c2d89be8f2673e301b5c9f"
+  },
+  "estimatedWorkerTokens": 4900,
+  "actualWorkerTokens": null
+}

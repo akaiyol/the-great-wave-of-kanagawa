@@ -1,0 +1,26 @@
+{
+  "id": "P089",
+  "findings": [
+    "General branching topology does not establish source region correspondence. The same hierarchy failure survives different algorithms; stop implementation and resolve the source interpretation blocker.",
+    "Compact reused strategy950/artifact450estimated avoided full-history review but cost comparability/actual usage remain unknown. No efficiency claim; no broad validity checks after decisive visual failure.",
+    "Lead incorrectly treated abstract parent/child topology as sufficient guidance. Independent reviewer identified exact missing region classification; detection credit belongs to reviewer."
+  ],
+  "actions": [
+    {
+      "decision": "drop",
+      "summary": "Stop water-tree shell tuning and further unannotated topology guesses.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P089/visual-review.json"
+      ]
+    },
+    {
+      "decision": "change",
+      "summary": "Require one source-grounded region connectivity annotation before selecting another construction.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-04/P089/visual-review.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Resolve source ink-versus-filled-region and sky-versus-foam distinctions in a bounded patch, then derive a construction from evidence.",
+  "estimatedReviewTokens": 500
+}

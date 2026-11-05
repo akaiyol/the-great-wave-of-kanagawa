@@ -1,0 +1,22 @@
+{
+  "phase": "P089",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "sourceHashes": {
+    "src/procedural/water-tree-crest.mjs": "3e1d7153875c1d364018c2990ffc21744fa1628d59042f7163e44d32e073bf54",
+    "src/procedural/field-shapes.mjs": "90b2f6d79595a51fe34a9dbb70cdf7cf45606baeff11e398d4716b7abf9babca",
+    "src/procedural/field-contours.mjs": "e946eb7e332e0c5d3bf9c64ed31c4768fe65475cb75039c4fc35a45ea5155f12",
+    "src/procedural/mass-crest.mjs": "61b11187c7ec3c0ed87155641e08a268648d8e822141d810e536690169e03f45",
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-04/P089/candidate-721-native.jpg": "ed008195a6cdaed6be3f24e86f11bb1dcdc8396cea0ac756b7a482a80b94d873"
+  },
+  "safety": "Finite, closed sampled contour chains; minY248.5976 vsbaseline248.596 under fixedpose; P088 SVG exact after helper extraction. No topology validity claim.",
+  "strategyEstimate": 950,
+  "reviewEstimate": 450,
+  "actualTokens": null
+}

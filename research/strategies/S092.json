@@ -1,0 +1,60 @@
+{
+  "id": "S092",
+  "targetPhase": "P092",
+  "policyVersion": "v2",
+  "family": "source-scaled-cluster",
+  "hypothesis": "A source-scaled continuous foam cluster with unequal returning lobes, connected water incursions and related tapered open marks yields a coherent local froth primitive.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "A bounded cluster tests spatial relationships without failed ribbon constraining placement.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P092-cluster-primitive.md",
+      "claim": "Tests supported foam, water incursions and related tapered marks together.",
+      "sha256": "9cda8bc1304a8d2d4435eee10cc43c704c7304bbedfc57b4b405a599b29aff89"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-04/P090/visual-review.json",
+      "claim": "Source distinguishes foam/sky, foam/water and interior ink boundaries.",
+      "sha256": "ee0ecb41a0b05b5820bb1c4453fae1b5d11537a1386fc696cbfb6baab19a563b"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P091/visual-review.json",
+      "claim": "Simple isolated marks failed; support and grammar limited articulation.",
+      "sha256": "d9ff1874f3bb9075f68469dd20ad94becf67102748ac39e1d3ba03930b0329fd"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Use verified region distinctions in source-scaled cluster with adequate support and asymmetric marks.",
+    "evidence": [
+      {
+        "path": "research/proposals/P092-cluster-primitive.md",
+        "sha256": "9cda8bc1304a8d2d4435eee10cc43c704c7304bbedfc57b4b405a599b29aff89"
+      },
+      {
+        "path": "research/output/agent-phase-2026-11-04/P090/visual-review.json",
+        "sha256": "ee0ecb41a0b05b5820bb1c4453fae1b5d11537a1386fc696cbfb6baab19a563b"
+      }
+    ]
+  },
+  "unknowns": [
+    "Whether combined features form froth rather than branching plant."
+  ],
+  "prediction": {
+    "ifTrue": "Filled bridges, returning tips and interior contours form readable unequal hierarchy.",
+    "ifFalse": "Prongs or decorative marks persist despite broader support."
+  },
+  "test": {
+    "action": "One cluster beside canonical patch at matched displayed proportions.",
+    "success": "Relationships read coherently at source scale; earn affected integrity checks only.",
+    "failure": "Plant, comb, letters or disconnected patches: archive without full-scene variants.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 1150,
+  "actualTokens": null
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "P091",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "hashes": {
+    "src/procedural/foam-articulation.mjs": "8b56bf2d17c8f1b9f3368b5e9554d6506a24edacf168432086b019e8893affc5",
+    "research/woodblock/foam-articulation-study.html": "66f62578374e6326cbd8ceb193173b9e5892abd8da8e12097897c7c9a3c43a4e",
+    "src/procedural/composition.mjs": "d4514be3bf2f0d6f335b7d2dd492efa55cfccd5d04f54175aad5c0e1ecaa6d95",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-04/P091/candidate-721-native.jpg": "a31e84b28056d007bcded44db1812608407a0a6c402f4b378813f72039771295"
+  },
+  "scope": "finite/render-safe only; exact invariance/promotion checks skipped after decisive rejection"
+}

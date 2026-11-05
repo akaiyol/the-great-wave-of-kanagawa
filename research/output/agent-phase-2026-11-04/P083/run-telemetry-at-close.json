@@ -1,0 +1,6 @@
+{
+  "runtimeGoalReportedTokensUsed": 310575,
+  "runtimeGoalTimeUsedSeconds": 1378,
+  "scope": "Cumulative runtime-goal telemetry since activation across P082/P083 work; not attributed to one phase or agent and not a billing-cost measurement. Per-phase accounting remains explicitly estimated.",
+  "nextUse": "Take consistent before/after runtime-goal counter snapshots for future bounded experiments; keep scope and cached-input/cost uncertainty explicit."
+}
