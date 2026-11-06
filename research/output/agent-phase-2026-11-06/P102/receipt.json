@@ -1,0 +1,37 @@
+{
+  "phase": "P102",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "sourceHashes": {
+    "research/woodblock/fan-scaffold.mjs": "a6aa11b395d8f6bd736bd2f99772ed0e4a9d14fd0d7448e001be3cd70896154b",
+    "research/woodblock/fan-scaffold.html": "e703ca82a5c502245a9656644c921b9f80e3516c830b183a67f9708a57cefd29",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "diagnostics": {
+    "finite": true,
+    "sharedOuter": true,
+    "unchangedSceneLayers": true,
+    "primaryReplacementCount": 1,
+    "scope": "Coarse macro scaffold only; polygon integrity and native visual comparison pending. No branch anatomy or artistic acceptance."
+  },
+  "scope": "Initial native comparison; artistic and polygon integrity pending",
+  "capture": {
+    "path": "research/output/agent-phase-2026-11-06/P102/candidate-721-native.jpg",
+    "sha256": "4a7c0cacc03688e0756ed2a9437846df6715c249488cb4d57bce53a24587b18c",
+    "actualPixels": [
+      1440,
+      960
+    ],
+    "domViewport": [
+      1440,
+      960
+    ],
+    "dpr": 1,
+    "method": "documented browser Tab.screenshot fullPage false",
+    "correction": "Initial native CUA capture1440x810 contradicted DOM viewport. Reviewer detected; geometry frozen, recaptured and dimensions independently inspected."
+  }
+}

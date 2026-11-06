@@ -61,3 +61,9 @@ Source: canonical scan; independent P097–P100 reviews. P097/P098 retained smal
 Change: before another attachment, establish the source relationship from upstream foam sheet through parent bridge to descending fork, including projected scale. Preserve the scoped gains separately. No parameter rescue or new gate. Daphnie owns the endpoint-fit assumption; the independent reviewer identified the integration failure.
 
 Process: native visual rejection avoided broad checks on P100. Fresh-review startup exceeded its estimate in P099; use compact warm review for bounded variants and reserve fresh review for milestones. Efficiency improvement remains unproven. Evidence: [P099](phases/P099.json), [P100](phases/P100.json).
+
+## L008 — Source research can rule out a convenient repair
+
+P101's source-context study preserves visible sheet continuity and nested grouping, but does not establish a unique upstream tangent or replacement transform. The independent evaluator confirmed that limitation. P102 then rejected a coarse nonconcentric cap: changing macro curves alone did not establish a source-related gain. These findings do not invalidate all nonconcentric constructions.
+
+Change: archive the pointed cap without branch/detail rescue; the next hypothesis must address foam and water boundaries jointly. Daphnie owns the coarse-construction assumption and an unchecked screenshot-size mismatch. The independent evaluator detected the capture fault; geometry stayed frozen while Daphnie corrected and verified the capture. Evidence: [P101](phases/P101.json), [P102](phases/P102.json).

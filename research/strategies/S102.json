@@ -1,0 +1,43 @@
+{
+  "id": "S102",
+  "targetPhase": "P102",
+  "policyVersion": "v2",
+  "family": "source-frame-macro-support",
+  "hypothesis": "A source-framed nonconcentric primary sheet improves the whole-view crest and hollow distribution before local branch attachment.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Shared O→H construction makes bounded macro test executable; flattened cap alone would merely reshape smooth hook.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P102-source-frame.md",
+      "claim": "Separately constructs projecting fan, descending hollow and water-facing seam while sharing exposed samples.",
+      "sha256": "17769aecf88bc5422b35cefbb0596d5b70eec0321e3a5a0bd7978d46aa7733e7"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-05/P099/visual-review.json",
+      "claim": "Improved water hierarchy left smooth crescent and blank foam ribbon unresolved.",
+      "sha256": "902708b726a4b213496e6ffdd62bfffb182cae7962ca4ac27a1de29c322f325c"
+    }
+  ],
+  "unknowns": [
+    "Sparse cubic constraints may produce another generic smooth hook.",
+    "Band interpolation and uneven inner seam may cross or distort support."
+  ],
+  "prediction": {
+    "ifTrue": "Projecting fan and offset descending hollow visibly change source-related negative-space distribution.",
+    "ifFalse": "Broader blank cap retains generic hook organization."
+  },
+  "test": {
+    "action": "One native whole view against canonical/P099; artifact must show fan, flattened cap and nonconcentric descending hollow together.",
+    "success": "Meaningful macro spatial gain beyond smoothing or reduced detail; earn affected checks only.",
+    "failure": "Generic hook or negligible structural gain: stop without branch/detail rescue. Missing promised relationships are incomplete construction.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 1700,
+  "actualTokens": null
+}

@@ -5,23 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P101 (closed).
-Record: research/phases/P101.json
-Objective: Establish observed source sheet-to-parent relationships and projection limits before another attachment.
-Hypothesis: Source context can constrain sheet-to-parent direction and projected scale beyond two attachment endpoints.
-Baseline: P100 rejected endpoint-fit glyph; P093 local anatomical grouping.
-Artifact: research/woodblock/sheet-correspondence.json
-Budget: 6650 work / 350 review tokens (planned; usage estimated).
-Strategy: research/strategies/S101.json (family: source-sheet-correspondence).
+Current phase: P102 (closed).
+Record: research/phases/P102.json
+Objective: Test source-framed nonconcentric macro support before further local grafts.
+Hypothesis: A source-framed nonconcentric primary sheet improves the whole-view crest and hollow distribution before local branch attachment.
+Baseline: P099 water gain with source-failing circular crescent; P101 remapping deferred.
+Artifact: research/woodblock/fan-scaffold.mjs
+Budget: 8550 work / 450 review tokens (planned; usage estimated).
+Strategy: research/strategies/S102.json (family: source-frame-macro-support).
 Artifact delivered: true.
-Result: Source-context plate and measured landmark contract retain the observed nested grouping but expose underdetermined target correspondence. No unique upstream tangent or replacement transform established. Another endpoint-fit graft is deferred.
-Verdicts: technical pass; artistic not_applicable.
-Next action: Reconsider the source-failing macro support rather than forcing a local parent onto a nonhomologous slot. Preserve P099 water and P098 local anatomy.
-Decision (retain): Keep source observations and explicit remapping deferral; no renderer promotion.
-Decision (drop): Do not infer an upstream physical flow or universal angle/scale from P/J landmarks.
-Next improvement: Test source-compatible whole-crest support geometry before another local attachment.
+Result: Reject coarse macro construction after corrected native whole-view review: offset hollow and rising slope are delivered but blank pointed flap remains generic. No integrity checks, branch rescue or app adoption. P099 water retained separately.
+Verdicts: technical incomplete; artistic fail.
+Next action: Archive P102. Reconsider joint foam/water boundary construction rather than adding detail to this rejected cap.
+Decision (drop): Archive failed pointed-cap construction; no graft/detail rescue.
+Decision (retain): Retain independent capture criticism and corrected matched comparison, without a new workflow gate.
+Next improvement: Any next anatomy hypothesis must jointly construct exposed foam and water boundaries, not decorate P102.
 State retainedCandidate: P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.
-State checkpointReason: Stopped new art at75% short-window usage to finish safely below90%. P097/P098 local gains and P099 water retained; P100 attachment rejected.
+State checkpointReason: Incremental checkpoint under owner-overridden account ceilings. P101 source constraints retained; P102 macro flap rejected. Current best wholewater remainsP099.
 Run authorization: User explicitly overrides both90%-used account ceilings for this run on2026-11-05. Continue useful work until either allowance is exhausted; save incremental checkpoints. No purchases, resets, paid fallback or waiting. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "P102",
+  "objective": "Test source-framed nonconcentric macro support before further local grafts.",
+  "hypothesis": "A source-framed nonconcentric primary sheet improves the whole-view crest and hollow distribution before local branch attachment.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P099 water gain with source-failing circular crescent; P101 remapping deferred.",
+  "artifactTarget": "research/woodblock/fan-scaffold.mjs",
+  "plannedTokens": 9000,
+  "family": "source-frame-macro-support",
+  "strategyReview": "research/strategies/S102.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Research-only macro comparison; preserve existing studies, no branch polishing or app integration; early visual rejection.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 8550,
+    "reviewTokens": 450
+  },
+  "startedAt": "2026-11-06T05:08:53.455Z",
+  "result": {
+    "id": "P102",
+    "summary": "Reject coarse macro construction after corrected native whole-view review: offset hollow and rising slope are delivered but blank pointed flap remains generic. No integrity checks, branch rescue or app adoption. P099 water retained separately.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/woodblock/fan-scaffold.mjs",
+      "research/output/agent-phase-2026-11-06/P102/receipt.json",
+      "research/output/agent-phase-2026-11-06/P102/candidate-721-native.jpg",
+      "research/output/agent-phase-2026-11-06/P102/visual-review.json"
+    ],
+    "nextAction": "Archive P102. Reconsider joint foam/water boundary construction rather than adding detail to this rejected cap.",
+    "estimatedWorkTokens": 10900
+  },
+  "review": {
+    "id": "P102",
+    "findings": [
+      "Independent review rejected coarse macro-only representation; delivered cubics/shared exposure do not establish source-related spatialgain.",
+      "Lead capture dimensions were unchecked; reviewer detected mismatch. Corrected with geometry frozen, actualpixels verified. Use documented DOM capture and dimension inspection for subsequent comparisons.",
+      "Strategy1700+worker3500+lead4550+visual1150≈10900 estimated work exceeds8550planned. Recovery/capture/coordination overhead included; actual telemetry unavailable."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Archive failed pointed-cap construction; no graft/detail rescue.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-06/P102/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Retain independent capture criticism and corrected matched comparison, without a new workflow gate.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-06/P102/receipt.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Any next anatomy hypothesis must jointly construct exposed foam and water boundaries, not decorate P102.",
+    "estimatedReviewTokens": 450
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 10900,
+    "estimatedReviewTokens": 450,
+    "estimatedTotalTokens": 11350,
+    "estimatedWorkOverrun": 2350,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 2350
+  },
+  "resultAt": "2026-11-06T05:13:07.005Z",
+  "closedAt": "2026-11-06T05:13:07.039Z"
+}
