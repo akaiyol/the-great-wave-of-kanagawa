@@ -67,3 +67,9 @@ Process: native visual rejection avoided broad checks on P100. Fresh-review star
 P101's source-context study preserves visible sheet continuity and nested grouping, but does not establish a unique upstream tangent or replacement transform. The independent evaluator confirmed that limitation. P102 then rejected a coarse nonconcentric cap: changing macro curves alone did not establish a source-related gain. These findings do not invalidate all nonconcentric constructions.
 
 Change: archive the pointed cap without branch/detail rescue; the next hypothesis must address foam and water boundaries jointly. Daphnie owns the coarse-construction assumption and an unchecked screenshot-size mismatch. The independent evaluator detected the capture fault; geometry stayed frozen while Daphnie corrected and verified the capture. Evidence: [P101](phases/P101.json), [P102](phases/P102.json).
+
+## L009 — Boundary coverage is not an exterior union
+
+P103's independent evaluator rejected crossing connector lines and repeated frills; shared root references had not established a valid exposed boundary. Daphnie owns that assembly assumption. The evaluator also correctly deferred the initial underdefined water/support proposal before construction. Evidence: [P103](phases/P103.json), [S103](strategies/S103.json).
+
+Proposed next mechanism: drawing all outlines before all opaque fills may hide internal overlap seams. W3C's [SVG2 painting specification](https://www.w3.org/TR/SVG2/painting.html#PaintOrder), accessed2026-11-06, explains paint operations; Daphnie proposed the cross-component transfer. [P104](proposals/P104-union-paint.md) is independently reviewed but untested. It does not establish geometric union, support validity or better artwork. No P103 repair is authorized by this proposal.

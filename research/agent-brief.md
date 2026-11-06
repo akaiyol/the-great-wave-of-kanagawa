@@ -21,7 +21,7 @@ Decision (drop): Archive crossedfrill construction without nearby repair or dens
 Decision (retain): Retain explicit sourceW/F/P correspondence as provisional geometryquestion, not proven integration.
 Next improvement: Resolve exposed-boundary assembly/support with changed premise before another art build; keep archived failures out of activegallery.
 State retainedCandidate: P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.
-State checkpointReason: P101 source study retained; P102 macrocap and P103 crossedfrill fan rejected. User accountceilingoverride remains active this run; incremental checkpoint at99%weekly.
+State checkpointReason: Owner-authorized run reached100%weekly usage (fivehour46%). Stop new work; P101source study retained, P102/P103 art rejected; P104mechanism proposal independently reviewed but NOT started.
 Run authorization: User explicitly overrides both90%-used account ceilings for this run on2026-11-05. Continue useful work until either allowance is exhausted; save incremental checkpoints. No purchases, resets, paid fallback or waiting. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

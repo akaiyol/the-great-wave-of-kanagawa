@@ -1,0 +1,42 @@
+{
+  "id": "S104",
+  "targetPhase": "P104",
+  "policyVersion": "v2",
+  "family": "ordered-fill-union-mechanism",
+  "hypothesis": "Painting all component outlines before all opaque fills suppresses interior overlap seams while retaining an exposed exterior contour.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Cheap isolated mechanism test; no wave repair authorized.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P104-union-paint.md",
+      "claim": "Opaque fills can cover previously painted overlap strokes.",
+      "sha256": "b89cee3497b5425ea87c6ab48e726cb4da4c5d7e0de3d2b45a872178eee70ac7"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/proposals/P104-union-paint.md",
+      "claim": "Exterior preservation untested; painting cannot establish union topology.",
+      "sha256": "b89cee3497b5425ea87c6ab48e726cb4da4c5d7e0de3d2b45a872178eee70ac7"
+    }
+  ],
+  "unknowns": [
+    "Intersection fringes and exterior contour continuity."
+  ],
+  "prediction": {
+    "ifTrue": "Overlap ink disappears while exposed ink remains.",
+    "ifFalse": "Seams persist or exterior ink disappears."
+  },
+  "test": {
+    "action": "One two-polygon three-panel rendered comparison.",
+    "success": "Ordered panel matches fill-only overlap and retains continuous exterior ink.",
+    "failure": "Residual seam,lost exterior or transparencyrequired:stop.",
+    "maxWorkTokens": 1000
+  },
+  "estimatedReviewerTokens": 300,
+  "actualTokens": null
+}
