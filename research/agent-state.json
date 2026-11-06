@@ -4,7 +4,7 @@
   "direction": "woodblock",
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
-  "currentApp": "index.html — earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
+  "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "research/woodblock/water-hierarchy.html (wholewater checkpoint) and ink-parent.html (localparent checkpoint)",
   "retainedCandidate": "P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.",
   "currentPhase": "P103",
@@ -54,7 +54,7 @@
     ]
   },
   "runCheckpoint": "research/output/agent-phase-2026-11-05/run-checkpoint.json",
-  "nextExperimentContract": "Do not decorate rejected P102 cap. A new representation must jointly construct exposed foam and water boundaries, with source/target correspondence and source-scale parent extents explicitly justified.",
+  "nextExperimentContract": "No P103 connectorrepair/densityrescue. Re-entry needs materially changed boundaryassembly/support premise; sharedcoordinates and one walk do not prove an exterior union. Preserve P099/P098.",
   "runHeadroomPlan": {
     "noNewArtAfter": {
       "primaryUsedPercent": 75,
@@ -68,5 +68,5 @@
     "reason": "Finishing previously crossed91%; reserve10primary points and2weekly points, monitored as shared account observations.",
     "status": "Earlier90% ceiling/headroom superseded for current run by explicit owner override; retain 5% phase review reserve."
   },
-  "checkpointReason": "Incremental checkpoint under owner-overridden account ceilings. P101 source constraints retained; P102 macro flap rejected. Current best wholewater remainsP099."
+  "checkpointReason": "P101 source study retained; P102 macrocap and P103 crossedfrill fan rejected. User accountceilingoverride remains active this run; incremental checkpoint at99%weekly."
 }

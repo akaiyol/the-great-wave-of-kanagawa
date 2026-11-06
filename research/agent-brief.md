@@ -5,7 +5,7 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P103 (working).
+Current phase: P103 (closed).
 Record: research/phases/P103.json
 Objective: Test one jointly generated branching fan with source-linked connected water head and foam bridge.
 Hypothesis: Joint construction of source-scale branching foam exposure and body-connected water incursions yields an integrated fan rather than a blank cap or pendant glyph.
@@ -13,8 +13,15 @@ Baseline: P100 pendant and P102 cap rejected; P099 water/P098 local anatomy reta
 Artifact: research/woodblock/joint-fan.mjs
 Budget: 9500 work / 500 review tokens (planned; usage estimated).
 Strategy: research/strategies/S103R.json (family: joint-branching-fan).
+Artifact delivered: true.
+Result: Reject joint fan first native view: repeated frills and crossing connectorlines on broad blankcap, blunt waterhead. Exposed-chain assembly and source-support routes remain unverified. No affected integrity checks or app/gallery adoption.
+Verdicts: technical incomplete; artistic fail.
+Next action: Archive P103 without repair. Next source/geometry question must change boundary-assembly/support premise; preserve P099/P098 scoped gains.
+Decision (drop): Archive crossedfrill construction without nearby repair or densityvariation.
+Decision (retain): Retain explicit sourceW/F/P correspondence as provisional geometryquestion, not proven integration.
+Next improvement: Resolve exposed-boundary assembly/support with changed premise before another art build; keep archived failures out of activegallery.
 State retainedCandidate: P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.
-State checkpointReason: Incremental checkpoint under owner-overridden account ceilings. P101 source constraints retained; P102 macro flap rejected. Current best wholewater remainsP099.
+State checkpointReason: P101 source study retained; P102 macrocap and P103 crossedfrill fan rejected. User accountceilingoverride remains active this run; incremental checkpoint at99%weekly.
 Run authorization: User explicitly overrides both90%-used account ceilings for this run on2026-11-05. Continue useful work until either allowance is exhausted; save incremental checkpoints. No purchases, resets, paid fallback or waiting. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

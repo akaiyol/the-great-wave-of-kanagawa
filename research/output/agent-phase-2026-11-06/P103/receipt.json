@@ -1,0 +1,32 @@
+{
+  "phase": "P103",
+  "seed": 721,
+  "viewport": [
+    1440,
+    960
+  ],
+  "dpr": 1,
+  "capture": "candidate-721-native.jpg",
+  "sourceHashes": {
+    "research/woodblock/joint-fan.mjs": "e0ad3b51f34d28d902fd6363098801c8ea45118c4e82fd328b5888563ca78373",
+    "research/woodblock/joint-fan.html": "e95e5cb2571a7fee54a306b37e848c007ce8cecb601329c729cc6f21a50f9643",
+    "research/woodblock/measured-fork.mjs": "f50e0b48e5a4a771f8adaa2ca8e65725fce05e825b0f7f3260718f576b1f3cea",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/output/agent-phase-2026-11-06/P103/candidate-721-native.jpg": "7117dcc5f8f7bdae7b36bfc7fd7d6fc76ba4eb68e65558f656802b2a6b103e96"
+  },
+  "diagnostics": {
+    "finite": true,
+    "sharedRootCoverage": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "scaleRange": [
+      0.28913231106242165,
+      0.32666153381112967
+    ],
+    "scope": "Initial finite/shared root coverage only; routes, polygon integrity and visual review pending."
+  },
+  "scope": "Initial wholeview only; routes/polygons not yet verified."
+}
