@@ -1,0 +1,48 @@
+{
+  "id": "S103",
+  "targetPhase": "P103",
+  "policyVersion": "v2",
+  "family": "joint-branching-fan",
+  "hypothesis": "Joint construction of source-scale branching foam exposure and body-connected water incursions yields an integrated fan rather than a blank cap or pendant glyph.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "defer",
+  "reason": "Outer construction changes materially, but joint foam/water relationship remains unspecified.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P103-joint-fan.md",
+      "claim": "Distributed nested exposure uses independent subtree sizing.",
+      "sha256": "7aa3145d0bd15a0783b979a69da380dd9f6dc509bf523b139c16a9fdb50fee9d"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-05/P097/visual-review.json",
+      "claim": "Nested support and asymmetric lower opening show local gains.",
+      "sha256": "5833b16d6b54ce3f6c8e67b16b926ab74cb55deb012cf7af1720c966d2a57daa"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-05/P100/visual-review.json",
+      "claim": "Shared-chain attachment did not establish integrated froth.",
+      "sha256": "3a64471d9d2d601a7ffe6fb27e2dc3c5f64041547a7014937613a22919eb4e29"
+    }
+  ],
+  "unknowns": [
+    "Which supports border each water head and how intervening bridges survive.",
+    "Upright subtrees may form repeated row."
+  ],
+  "prediction": {
+    "ifTrue": "Water heads and unequal supports organize coherent fan.",
+    "ifFalse": "Nested cut shapes sit beside independently scalloped water boundary."
+  },
+  "test": {
+    "action": "Specify ordered water entry/return anchors relative to parent supports and foam bridges before rendering.",
+    "success": "Joint relationship executable; reconsider authorization.",
+    "failure": "Verbal incursions or independent decoration: no wholeview build.",
+    "maxWorkTokens": 1200
+  },
+  "estimatedReviewerTokens": 1500,
+  "actualTokens": null
+}

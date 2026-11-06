@@ -1,0 +1,52 @@
+{
+  "id": "S103R",
+  "targetPhase": "P103",
+  "policyVersion": "v2",
+  "family": "joint-branching-fan",
+  "hypothesis": "Joint construction of source-scale branching foam exposure and body-connected water incursions yields an integrated fan rather than a blank cap or pendant glyph.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Explicit W/body and F/P routes resolve deferred construction; one-head integration only.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P103-joint-fan-revised.md",
+      "claim": "Source-linked region anchors, ordered rounded head and continuous foam support route.",
+      "sha256": "b5cc24f7e1f38c73ac696449c3f2d3ed740f3ac17fb1fa64a2a22464b7561357"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/proposals/P103-joint-fan.md",
+      "claim": "Original independent incursions left joint relationship underdefined.",
+      "sha256": "7aa3145d0bd15a0783b979a69da380dd9f6dc509bf523b139c16a9fdb50fee9d"
+    }
+  ],
+  "changedPremise": {
+    "summary": "One explicit source-corresponding water/foam connection replaces arbitrary multiple incursions.",
+    "evidence": [
+      {
+        "path": "research/proposals/P103-joint-fan-revised.md",
+        "sha256": "b5cc24f7e1f38c73ac696449c3f2d3ed740f3ac17fb1fa64a2a22464b7561357"
+      }
+    ]
+  },
+  "unknowns": [
+    "Registration, widths and neighbor clearance provisional.",
+    "One head cannot establish broader multiple-incursion hypothesis."
+  ],
+  "prediction": {
+    "ifTrue": "Connected head and foam bridge organize exposed groups coherently.",
+    "ifFalse": "Comb or blank cap persists despite valid routes."
+  },
+  "test": {
+    "action": "One native whole view covering W/body and F/P routes without slot-driven subtree scaling.",
+    "success": "Visible integrated froth gain; earn affected checks for one-head construction only.",
+    "failure": "Generic cap, comb, detached roots or unconstructible routes: stop without rescue.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 1900,
+  "actualTokens": null
+}

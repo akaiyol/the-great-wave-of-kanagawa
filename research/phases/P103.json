@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "P103",
+  "objective": "Test one jointly generated branching fan with source-linked connected water head and foam bridge.",
+  "hypothesis": "Joint construction of source-scale branching foam exposure and body-connected water incursions yields an integrated fan rather than a blank cap or pendant glyph.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P100 pendant and P102 cap rejected; P099 water/P098 local anatomy retained separately.",
+  "artifactTarget": "research/woodblock/joint-fan.mjs",
+  "plannedTokens": 10000,
+  "family": "joint-branching-fan",
+  "strategyReview": "research/strategies/S103R.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One source-linked head, research-only whole-view; no cap rescue or fixed SVG sprites, early visual rejection and explicit limits.",
+  "status": "working",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-06T05:17:13.263Z",
+  "result": null,
+  "review": null,
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": null,
+    "estimatedReviewTokens": null,
+    "estimatedTotalTokens": null,
+    "estimatedWorkOverrun": null,
+    "estimatedReviewOverrun": null,
+    "estimatedTotalOverrun": null
+  }
+}
