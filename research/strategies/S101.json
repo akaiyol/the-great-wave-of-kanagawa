@@ -1,0 +1,42 @@
+{
+  "id": "S101",
+  "targetPhase": "P101",
+  "policyVersion": "v2",
+  "family": "source-sheet-correspondence",
+  "hypothesis": "Source context can constrain sheet-to-parent direction and projected scale beyond two attachment endpoints.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Useful bounded diagnosis, provided structural direction stays separate from inferred physical flow.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P101-sheet-correspondence.md",
+      "claim": "Requires contextual connections, projection-specific scale and explicit uncertainty.",
+      "sha256": "b3a5be2bf61edfe18cf3d9be7c7b9b53362e9e960821a0ef42a87546bba7659f"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-05/P100/visual-review.json",
+      "claim": "Endpoint-fit attachment produced a pendant glyph despite connected exposure.",
+      "sha256": "3a64471d9d2d601a7ffe6fb27e2dc3c5f64041547a7014937613a22919eb4e29"
+    }
+  ],
+  "unknowns": [
+    "Target composition may lack homologous support; source measurements cannot guarantee mapping."
+  ],
+  "prediction": {
+    "ifTrue": "Observed sheet-to-fork connections constrain orientation and displayed extent.",
+    "ifFalse": "Only speculative flow or unmatched attachment landmarks support the contract."
+  },
+  "test": {
+    "action": "One source-context plate and observed/inferred correspondence contract; no geometry.",
+    "success": "Connections and projected extent inspectable; mapping limits explicit.",
+    "failure": "Ambiguous connection or unsupported correspondence: defer another graft.",
+    "maxWorkTokens": 3000
+  },
+  "estimatedReviewerTokens": 800,
+  "actualTokens": null
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "P101",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "retain_source_study_only",
+  "findings": [
+    "Continuous pale-sheet attachment and P-to-A/J-to-B/C grouping supported.",
+    "P\u2013J is landmark displacement, not support path, upstream tangent or physical velocity.",
+    "Projected P-to-feature distances are not parent dimensions or a mapping law for P099. Target correspondence, widths and full boundaries unresolved."
+  ],
+  "nextAction": "Defer remapping until a homologous support region is established; orientation alone is not a demonstrated cause of P100 failure.",
+  "estimatedTokens": 1100,
+  "actualTokens": null
+}

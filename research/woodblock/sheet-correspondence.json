@@ -1,0 +1,100 @@
+{
+  "phase": "P101",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "sourceSha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "accessDate": "2026-11-05",
+  "crop": [
+    1650,
+    600,
+    700,
+    650
+  ],
+  "landmarks": {
+    "P": [
+      2086.4,
+      980.9
+    ],
+    "A": [
+      2233.1,
+      1040.2
+    ],
+    "J": [
+      2120.2,
+      1082.5
+    ],
+    "B": [
+      2169.3,
+      1135.0
+    ],
+    "C": [
+      2075.1,
+      1137.8
+    ],
+    "S": [
+      2199.3,
+      1076.8
+    ],
+    "I": [
+      2134.4,
+      1009.1
+    ]
+  },
+  "observed": [
+    {
+      "id": "sheet.connected-parent",
+      "statement": "The pale parent is continuous with surrounding foam; P supports A and J, J supports B/C. It is not a separate floating outlined object.",
+      "evidence": "P093 independent grouping and current source-context plate."
+    },
+    {
+      "id": "sheet.nonuniform-branches",
+      "statement": "A extends rightward above B/C; lower J-to-B/C returns descend at unequal lateral offsets. A single attachment-line normal does not encode these relationships.",
+      "evidence": "Approximate landmark vectors; not a growth skeleton."
+    },
+    {
+      "id": "sheet.interior-ink",
+      "statement": "The hood/counter marks articulate continuous pale sheet rather than defining an eye-shaped hole.",
+      "evidence": "Unmodified source and P093 grouping."
+    }
+  ],
+  "measurements": {
+    "landmarkBasis": "Approximate P093 landmarks, not segmented boundaries. Angles measured clockwise from image +x, y downward.",
+    "PtoJ": {
+      "vector": [
+        33.79999999999973,
+        101.60000000000002
+      ],
+      "angleDegrees": 71.59889392536509
+    },
+    "fullFrameContainProjection": {
+      "viewport": [
+        1440,
+        960
+      ],
+      "scale": 0.3700848111025443,
+      "scope": "Aspect-preserving full-scan display only; not a mapping law for a different wave."
+    },
+    "sourceFeatureDistancesPixels": {
+      "A": 158.2320447949781,
+      "B": 174.98348493500757,
+      "C": 157.30638893573268
+    },
+    "projectedFeatureDistancesCssPixels": {
+      "A": 58.5592764083188,
+      "B": 64.75872996823719,
+      "C": 58.216705234504
+    }
+  },
+  "inferences": [
+    {
+      "statement": "Construction should relate sheet support, parent bridge and fork axis before choosing root endpoints.",
+      "status": "Proposed construction principle; not a physical velocity inference."
+    }
+  ],
+  "unknowns": [
+    "No unique upstream tangent or velocity field established by this static image.",
+    "Existing P099/P100 support region is not registered to a homologous source region.",
+    "Bridge widths and full source boundary remain unsegmented; P/J are representative coordinates."
+  ],
+  "decision": "Do not authorize another endpoint-fit graft. Establish explicit source/target support correspondence or reconstruct the crest support itself before integration.",
+  "preserved": "P099 water and P098 local anatomy/ink remain scoped gains; no new artwork acceptance."
+}

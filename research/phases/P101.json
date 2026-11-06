@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P101",
+  "objective": "Establish observed source sheet-to-parent relationships and projection limits before another attachment.",
+  "hypothesis": "Source context can constrain sheet-to-parent direction and projected scale beyond two attachment endpoints.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P100 rejected endpoint-fit glyph; P093 local anatomical grouping.",
+  "artifactTarget": "research/woodblock/sheet-correspondence.json",
+  "plannedTokens": 7000,
+  "family": "source-sheet-correspondence",
+  "strategyReview": "research/strategies/S101.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No renderer changes; preserve P099/P098 and limit study to one source-supported correspondence question.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-06T04:47:11.431Z",
+  "result": {
+    "id": "P101",
+    "summary": "Source-context plate and measured landmark contract retain the observed nested grouping but expose underdetermined target correspondence. No unique upstream tangent or replacement transform established. Another endpoint-fit graft is deferred.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/sheet-correspondence.json",
+      "research/output/agent-phase-2026-11-05/P101/source-context-plate.png",
+      "research/output/agent-phase-2026-11-05/P101/visual-review.json"
+    ],
+    "nextAction": "Reconsider the source-failing macro support rather than forcing a local parent onto a nonhomologous slot. Preserve P099 water and P098 local anatomy.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P101",
+    "findings": [
+      "Source research narrowed uncertainty rather than supplying a convenient flow law. Independent reviewer confirmed the limit.",
+      "P100 endpoint agreement did not establish homologous support. Orientation-only repair would overstate causality.",
+      "Review retrieval exceeded its nominal target; rough total work6500 remains within6650 allocation. No efficiency gain claim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep source observations and explicit remapping deferral; no renderer promotion.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P101/visual-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do not infer an upstream physical flow or universal angle/scale from P/J landmarks.",
+        "evidence": [
+          "research/woodblock/sheet-correspondence.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Test source-compatible whole-crest support geometry before another local attachment.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 6850,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-06T04:54:51.010Z",
+  "closedAt": "2026-11-06T04:54:51.035Z"
+}

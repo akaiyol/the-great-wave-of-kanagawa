@@ -1,0 +1,26 @@
+{
+  "id": "P101",
+  "findings": [
+    "Source research narrowed uncertainty rather than supplying a convenient flow law. Independent reviewer confirmed the limit.",
+    "P100 endpoint agreement did not establish homologous support. Orientation-only repair would overstate causality.",
+    "Review retrieval exceeded its nominal target; rough total work6500 remains within6650 allocation. No efficiency gain claim."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Keep source observations and explicit remapping deferral; no renderer promotion.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-05/P101/visual-review.json"
+      ]
+    },
+    {
+      "decision": "drop",
+      "summary": "Do not infer an upstream physical flow or universal angle/scale from P/J landmarks.",
+      "evidence": [
+        "research/woodblock/sheet-correspondence.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Test source-compatible whole-crest support geometry before another local attachment.",
+  "estimatedReviewTokens": 350
+}

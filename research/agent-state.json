@@ -4,11 +4,11 @@
   "direction": "woodblock",
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
-  "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
+  "currentApp": "index.html — earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "research/woodblock/water-hierarchy.html (wholewater checkpoint) and ink-parent.html (localparent checkpoint)",
   "retainedCandidate": "P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.",
-  "currentPhase": "P100",
-  "currentPhaseRecord": "research/phases/P100.json",
+  "currentPhase": "P101",
+  "currentPhaseRecord": "research/phases/P101.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -16,12 +16,12 @@
   "artisticAcceptance": "No accepted procedural artwork; local method reviews are scoped evidence.",
   "bootstrapNote": "P066 created its own lifecycle tool; planned budget/earlier setup work recorded at tool bootstrap. Later phases start before productive work.",
   "runAuthorization": {
-    "instruction": "Continue until either account usage window reaches90%used, then checkpoint and stop. User restored90% on2026-11-04; supersedes50% and0% instructions.",
-    "checkpointRemainingPercent": 10,
-    "stopRemainingPercent": 10,
+    "instruction": "User explicitly overrides both90%-used account ceilings for this run on2026-11-05. Continue useful work until either allowance is exhausted; save incremental checkpoints. No purchases, resets, paid fallback or waiting.",
+    "checkpointRemainingPercent": 2,
+    "stopRemainingPercent": 0,
     "noPurchaseResetOrWaitingForReset": true
   },
-  "continuationGoal": "User resumed2026-11-05 after reset; useful work under90%used ceiling in either window. Stop new art at75%primary or87%weekly; finish from80%primary or88%weekly. No purchases/resets.",
+  "continuationGoal": "Source-grounded continuation after P100; both account ceilings explicitly overridden for this run. Checkpoint incrementally before access exhaustion.",
   "strategyPolicy": {
     "enabled": true,
     "version": 1,
@@ -65,7 +65,8 @@
       "weeklyUsedPercent": 88
     },
     "ceilingUsedPercent": 90,
-    "reason": "Finishing previously crossed91%; reserve10primary points and2weekly points, monitored as shared account observations."
+    "reason": "Finishing previously crossed91%; reserve10primary points and2weekly points, monitored as shared account observations.",
+    "status": "Earlier90% ceiling/headroom superseded for current run by explicit owner override; retain 5% phase review reserve."
   },
   "checkpointReason": "Stopped new art at75% short-window usage to finish safely below90%. P097/P098 local gains and P099 water retained; P100 attachment rejected."
 }
