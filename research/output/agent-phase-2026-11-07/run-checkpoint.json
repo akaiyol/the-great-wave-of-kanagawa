@@ -7,7 +7,9 @@
     "P107",
     "P108",
     "P109",
-    "P110"
+    "P110",
+    "P111",
+    "P112"
   ],
   "retained": [
     "P104limitedopaqueoverlaprenderingmechanism",
@@ -25,12 +27,19 @@
     "weeklyUsedPercent": 23,
     "scope": "Sharedaccountpercentages,notphasetokentelemetry."
   },
-  "next": "Usecurrentbrief afterallowancecheck; preserveP099/P098/P110scopes. Noacceptedwholeproceduralocean.",
+  "next": "AtnextTorontomidnight, usecurrentbrief; preserveARTP099/P098/P110. Noacceptedwholeproceduralocean.",
   "automation": {
     "id": "wave-project-five-hour-continuation",
     "status": "ACTIVE",
-    "intervalHours": 5,
-    "deliveryObserved": false
+    "mode": "overnight00\u201308America/Toronto",
+    "primaryUTCHours": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "oneFiniteDeliveryObserved": true,
+    "nightlyDeliveryObserved": false
   },
   "efficiency": "Unproven; estimates/overruns inauthoritativephases.",
   "projectComplete": false

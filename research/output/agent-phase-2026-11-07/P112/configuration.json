@@ -1,0 +1,16 @@
+{
+  "id": "wave-project-five-hour-continuation",
+  "name": "Wave project \u2014 overnight continuation",
+  "status": "ACTIVE",
+  "rrule": "FREQ=DAILY;BYHOUR=4,5,9,10;BYMINUTE=0;BYSECOND=0",
+  "timezoneGate": "America/Toronto",
+  "automaticWindow": "00:00\u201308:00",
+  "checkpointAt": "07:45",
+  "savedPromptVerified": true,
+  "nightlyDeliveryObserved": false,
+  "plannerTests": {
+    "pass": 17,
+    "fail": 0
+  },
+  "limitation": "Prompt-level stop and overlap check, no enforced kill/lock; host/app must be available."
+}

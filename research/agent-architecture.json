@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-11-07-reset-aware-continuation",
+  "revision": "2026-11-07-overnight-window",
   "sourcePins": {
     "AGENTS.md": "d76602a78482c3a4c6c188f53c0cd72e5af222bf579ec6e3ee165f14bf35c316",
-    "agents/wave-completion.md": "f4308364c9a9307a1b71a1968ac4fdb9993cb9586021a2a9c93aa0a657deb9b1",
+    "agents/wave-completion.md": "11bc20ba15e7a5768f44071aa1a40cdbf7c3b1e402c86c12f2bf71f80315f7de",
     ".codex/config.toml": "a198aac471b651db60840bf1e38a13c30fe23207a4d0f118bc6e0003684053d6",
     ".codex/agents/wave-evaluator.toml": "f6e9180ddf36f4a16cad218f769f49e3fb78340e9e906c5c67e08fefb11ab72a",
     ".codex/agents/wave-worker.toml": "91960635a7470f9624fd8cfbaa2db10714d1169edc2379fd8653846cc3a80f52",
@@ -16,7 +16,8 @@
     "research/proposals/visual-first-trial.md": "c5c9b719fb898c22386b80157d1ab295f596189d8a02ab1f056f992ea0bf57b8",
     "research/proposals/P105-reset-continuation.md": "6b5fddfe89e16130716c7d191de21b59836417df61a305e68bc00090170467f3",
     "research/continuation.md": "9f338898db53272296b5f8b55c07ea01ea879092053faa10ae9586ec102a5d32",
-    "scripts/continuation-plan.mjs": "5ac89c5f440ff0eff51e0b90ad677911ad84ff4aa57ce85384a1d725dea51b21"
+    "scripts/continuation-plan.mjs": "669edfe6d8f9583cc1281e80939d26342e72f3b23e065564c7d661ddbdf923a9",
+    "research/overnight.md": "0f66bf209beb34b776a9d896f7197505942032f43125bacfd9801fe1e9dbfe96"
   },
   "nodes": [
     {
@@ -65,15 +66,15 @@
     },
     {
       "id": "Runtime",
-      "label": "Host check: every 5 hours"
+      "label": "Host checks: Toronto midnight to 8 a.m."
     },
     {
       "id": "Checkpoint",
-      "label": "Allowance + active run check"
+      "label": "Night window + allowance + active run"
     },
     {
       "id": "ResetRetry",
-      "label": "One finite retry after allowance reset"
+      "label": "One finite retry within night window"
     }
   ],
   "edges": [
@@ -171,5 +172,5 @@
       "label": "Recheck; remove retry"
     }
   ],
-  "note": "Roles/models unchanged; one active child and one writer. Nominal five-hour heartbeat plus one finite reset retry. Recheck fresh usage and active work; no enforced lock or sleeping-host wake guarantee. See research/continuation.md. ART and SYSTEM acceptance remain unmet."
+  "note": "Owner-selected Toronto00\u201308 automatic window; explicit manual work separate. DST-covering UTC primary wakes; finite retries stay inside window. Roles/models unchanged, one child/source writer. Time/overlap checks are prompt-level; no sleeping-host guarantee. One P111 finite wake observed; nightly delivery not yet observed."
 }

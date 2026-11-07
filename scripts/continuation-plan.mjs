@@ -2,11 +2,20 @@ import {pathToFileURL} from 'node:url';
 
 const validNumber=v=>typeof v==='number'&&Number.isFinite(v);
 const unknown=reason=>({action:'unknown',reason,schedulerTimezone:'UTC'});
+export function nightWindow(now){
+ if(!validNumber(now))return {open:false,localHour:null};
+ const date=new Date(now*1000);
+ if(!Number.isFinite(date.getTime()))return {open:false,localHour:null};
+ const localHour=Number(new Intl.DateTimeFormat('en-CA',{timeZone:'America/Toronto',hour:'2-digit',hourCycle:'h23'}).format(date));
+ return {open:localHour>=0&&localHour<8,localHour};
+}
 /** Pure quota planner. Percentages are observed inputs, not runtime telemetry. */
 export function continuationPlan(input={}){
  if(input.busy===true)return {action:'busy',schedulerTimezone:'UTC'};
  if(input.ordinaryUsageAllowed===false)return unknown('Ordinary usage not allowed');
  if(!validNumber(input.now)||!Number.isInteger(input.now))return unknown('Invalid now');
+ if(typeof input.automatic!=='boolean')return unknown('Missing automatic mode');
+ if(input.automatic&&!nightWindow(input.now).open)return {action:'wait_window',reason:'outsidewindow',schedulerTimezone:'UTC'};
  if(typeof input.busy!=='boolean'||typeof input.checkpoint!=='boolean')return unknown('Missing state');
  const windows=[input.primary,input.weekly];
  if(windows.some(w=>!w||!validNumber(w.usedPercent)||w.usedPercent<0||w.usedPercent>100))return unknown('Unknown usage');
@@ -21,6 +30,7 @@ export function continuationPlan(input={}){
  // days so a year-less calendar rule cannot first match an earlier year.
  if(blockers.some(w=>w.resetsAt-input.now>8*86400))return unknown('Blocking reset exceeds supported eight-day horizon');
  const target=Math.ceil((Math.max(...blockers.map(w=>w.resetsAt))+90)/60)*60;
+ if(input.automatic&&!nightWindow(target).open)return {action:'wait_window',reason:'retryoutsidewindow',schedulerTimezone:'UTC'};
  const date=new Date(target*1000),until=new Date((target+120)*1000);
  if(!Number.isFinite(date.getTime())||!Number.isFinite(until.getTime())||date.getUTCFullYear()<1970||date.getUTCFullYear()>9999||until.getUTCFullYear()>9999)return unknown('Unsupported calendar date');
  const stamp=d=>d.toISOString().replace(/[-:]/g,'').replace('.000','');

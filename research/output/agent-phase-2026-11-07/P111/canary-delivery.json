@@ -1,0 +1,15 @@
+{
+  "phase": "P111",
+  "automationId": "wave-reset-retry-delivery-test",
+  "expectedAtUTC": "2026-11-07T23:30:00Z",
+  "heartbeatDeliveredAtUTC": "2026-11-07T23:30:14.678Z",
+  "clockCheckedAtUTC": "2026-11-07T23:30:18Z",
+  "deliveryDelaySeconds": 14.678,
+  "clockCheckDelaySeconds": 18,
+  "withinTwoMinutes": true,
+  "verdict": "one_finite_delivery_observed",
+  "earlierAttempt": "23:24 attempt not observed during repair run; no success claim.",
+  "scope": "Confirms this finite UTC scheduling instance only; not future reliability, allowance reset itself, sleeping-host recovery or enforced overlap exclusion.",
+  "artworkChanged": false,
+  "primaryFiveHourHeartbeatChanged": false
+}

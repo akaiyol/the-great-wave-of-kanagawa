@@ -1,0 +1,47 @@
+{
+  "id": "S112",
+  "targetPhase": "P112",
+  "policyVersion": "v2",
+  "family": "overnight-continuation",
+  "hypothesis": "A fresh Toronto night-window guard and DST-covering primary schedule permit automatic work only midnight–08:00, including delayed delivery.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Independent reviewer accepted revised union wakes without brittle exact-slot filtering.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P112-overnight-window.md",
+      "claim": "Owner confirmed local night window; delayed wakes use fresh local time.",
+      "sha256": "7125064644d57e6d2ad7df0b11ed594a82d2b08da0bce76422d71c1ede75e526"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-07/P111/canary-delivery.json",
+      "claim": "Finite UTC canary delivered14.678seconds late.",
+      "sha256": "4b7a6727f56686dbf4fd700dfe3570cc32d60de0089724d6697d8946e4e1d67f"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/continuation.md",
+      "claim": "Prompt-level checks cannot enforce hard stop or sleeping-host wake.",
+      "sha256": "9f338898db53272296b5f8b55c07ea01ea879092053faa10ae9586ec102a5d32"
+    }
+  ],
+  "unknowns": [
+    "Stop compliance and mutual exclusion not host-enforced."
+  ],
+  "prediction": {
+    "ifTrue": "Automatic work only inside fresh local00–08; daytime reset waits next night.",
+    "ifFalse": "Timezone or boundary fault allows daytime automatic work."
+  },
+  "test": {
+    "action": "Boundary/DST/delay/allowance planner tests and saved scheduler inspection.",
+    "success": "Existing quota cases plus night cases pass; primary prompt and diagram consistent.",
+    "failure": "Reject boundary leaks; no new scheduler infrastructure.",
+    "maxWorkTokens": 3700
+  },
+  "estimatedReviewerTokens": 700,
+  "actualTokens": null
+}

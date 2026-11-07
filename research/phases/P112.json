@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P112",
+  "objective": "Restrict owner-authorized automatic wave work to midnight–08:00 Toronto daily.",
+  "hypothesis": "A fresh Toronto night-window guard and DST-covering primary schedule permit automatic work only midnight–08:00, including delayed delivery.",
+  "failureIds": [
+    "runtime.reset-clock-mismatch",
+    "runtime.window-boundary"
+  ],
+  "baseline": "P111 has no night-window guard; one finite delivery now observed.",
+  "artifactTarget": "scripts/continuation-plan.mjs",
+  "plannedTokens": 4000,
+  "family": "overnight-continuation",
+  "strategyReview": "research/strategies/S112.json",
+  "goalIds": [
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No ART edits/goal weakening; keep repair bounded and role models unchanged.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 3800,
+    "reviewTokens": 200
+  },
+  "startedAt": "2026-11-07T23:42:30.003Z",
+  "result": {
+    "id": "P112",
+    "summary": "Updated existing heartbeat to daily Toronto midnight–08:00 automatic work, DST-covering UTC wakes and planner night guard. Daytime retries deferred; manual mode remains distinct.17tests pass, saved scheduler/diagram contract verified. P111finite delivery observed14.678s late; first overnight delivery remains unobserved.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "scripts/continuation-plan.mjs",
+      "scripts/continuation-plan.test.mjs",
+      "research/output/agent-phase-2026-11-07/P112/configuration.json",
+      "research/overnight.md",
+      "research/output/agent-phase-2026-11-07/P111/canary-delivery.json"
+    ],
+    "nextAction": "At next Toronto midnight, check actual night window, allowance and active-run state; resume source-matched ART iteration preserving P110 scope. Checkpoint by07:45 and finish save/review before08.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P112",
+    "findings": [
+      "Owner window supersedes all-day automation, not explicit manual requests. Primary and retries now share fresh Toronto guard; DST union avoids seasonal schedule edits.",
+      "Independent reviewer rejected brittle exact-minute launch filtering; revised implementation has no slot filter. Delayed in-window work allowed, post08 skipped. Hard stop/overlap remain prompt-level; no nighttime delivery claim.",
+      "Estimated6500work includes setup, two strategy rounds, worker1250, scheduler/docs/checks; exceeds3800allocation. Actual telemetry unavailable. No additional infrastructure/test automation created."
+    ],
+    "actions": [
+      {
+        "decision": "change",
+        "summary": "Use explicit automatic mode and one authoritative overnight policy; defer daytime reset retries to primary.",
+        "evidence": [
+          "research/overnight.md",
+          "research/output/agent-phase-2026-11-07/P112/configuration.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep finite reset mechanism and separate its one observed delivery from future reliability.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P111/canary-delivery.json"
+        ]
+      }
+    ],
+    "nextImprovement": "First overnight run should record actual delivery/stop evidence while prioritizing ART, not extend scheduler infrastructure.",
+    "estimatedReviewTokens": 250
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 250,
+    "estimatedTotalTokens": 6750,
+    "estimatedWorkOverrun": 2700,
+    "estimatedReviewOverrun": 50,
+    "estimatedTotalOverrun": 2750
+  },
+  "resultAt": "2026-11-07T23:44:14.043Z",
+  "closedAt": "2026-11-07T23:44:14.070Z"
+}

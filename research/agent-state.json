@@ -7,8 +7,8 @@
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "P099 water-hierarchy.html globalwater checkpoint; P098 ink-parent.html localparent; P110 source-head.html localW/F/S interface only.",
   "retainedCandidate": "P099water/P098localparent plusP110seed721 localW/F/S gain withaffectedchecks. Broadblankcap/regularhooks/otherocclusions unresolved; noacceptedproceduralart orvariety. P079gallery/rootapp unchanged.",
-  "currentPhase": "P111",
-  "currentPhaseRecord": "research/phases/P111.json",
+  "currentPhase": "P112",
+  "currentPhaseRecord": "research/phases/P112.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -16,12 +16,18 @@
   "artisticAcceptance": "No accepted procedural artwork; local method reviews are scoped evidence.",
   "bootstrapNote": "P066 created its own lifecycle tool; planned budget/earlier setup work recorded at tool bootstrap. Later phases start before productive work.",
   "runAuthorization": {
-    "instruction": "Owner2026-11-07: use full available account allowance for useful project work; check every5hours and resume after reset when no run is active. Overrides earlier90%used controls. No purchases,resets or paidfallback.",
+    "instruction": "Owner2026-11-07: automatic useful work daily00:00\u201308:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback.",
     "checkpointRemainingPercent": 2,
     "stopRemainingPercent": 0,
-    "noPurchaseResetOrWaitingForReset": true
+    "noPurchaseResetOrWaitingForReset": true,
+    "automaticWindow": {
+      "timezone": "America/Toronto",
+      "start": "00:00",
+      "end": "08:00",
+      "checkpointBy": "07:45"
+    }
   },
-  "continuationGoal": "Full-allowance useful work with five-hour primary check and reset-aware recovery; no quota-spending target.",
+  "continuationGoal": "Owner-authorized overnight useful work with local night-window, allowance and active-run checks.",
   "strategyPolicy": {
     "enabled": true,
     "version": 1,
@@ -58,18 +64,23 @@
   "runHeadroomPlan": {
     "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "P111 repairs missed reset recovery; actual finite delivery pending, project artwork unchanged.",
+  "checkpointReason": "P112 configures owner-selected overnight schedule; P111 finite delivery observed, nighttime delivery not yet observed.",
   "scheduledContinuation": {
     "id": "wave-project-five-hour-continuation",
-    "intervalHours": 5,
     "status": "ACTIVE",
     "execution": "local heartbeat in current chat",
-    "verified": "Primary delivery observed21:36:13Z; P111 primary prompt updated and saved config verified. Finite reset retry delivery pending canary; no future reliability claim.",
+    "verified": "P111 finite canary arrived14.678s late and was deleted; P112 nightly schedule awaiting first overnight execution.",
     "limitations": [
       "Computer/app must be available.",
       "Prompt requests overlap avoidance; no enforced lock verified."
     ],
     "resetRetryPolicy": "research/continuation.md",
-    "canaryId": "wave-reset-retry-delivery-test"
+    "nightPolicy": "research/overnight.md",
+    "primaryUTCHours": [
+      4,
+      5,
+      9,
+      10
+    ]
   }
 }

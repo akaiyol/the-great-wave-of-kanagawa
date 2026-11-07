@@ -97,3 +97,9 @@ Daphnie also corrected an extra W probe that tested outside the declared source 
 The owner identified the missed continuation. Daphnie configured a fixed five-hour heartbeat that checked127seconds before the reported reset and returned without scheduling recovery. The heartbeat fired; the allowance later became available. Fault ID: `runtime.reset-clock-mismatch`. [P111](phases/P111.json) adds a pure reset planner, a finite retry branch and proactive pre-exhaustion arming; the primary cadence remains unchanged.
 
 The independent evaluator caught a year-less calendar-rule fault; Daphnie added an eight-day reset horizon and regression. Twelve planner checks pass. Saved scheduler configuration does not prove future delivery: the finite canary remains separately tracked. Retry the old skip-only design only if the host supplies a verified reset-triggered wake. Source: [official scheduling documentation](https://learn.chatgpt.com/docs/automations); mechanism transfer is Daphnie's, not an OpenAI reliability guarantee. No art, goal criteria or role models changed.
+
+## L014 — Automatic work needs an explicit local-time boundary
+
+The owner selected daily midnight–08:00 America/Toronto. [P112](phases/P112.json) updates the existing heartbeat and planner; daytime resets defer to the next night. The independent evaluator challenged an exact-minute filter. Daphnie removed slot filtering entirely: delayed wakeups use fresh local time, and DST padding checks are permitted recovery opportunities within the window. Seventeen planner tests pass.
+
+P111's finite canary actually arrived14.678seconds after its target; its receipt is retained and test automation deleted. That observation does not prove nighttime execution, hard-stop enforcement or mutual exclusion. Fault `runtime.window-boundary`: retry older unrestricted automatic timing only with a new explicit owner instruction. No art/goal criteria or agent models changed.

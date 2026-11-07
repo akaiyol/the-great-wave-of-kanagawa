@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {continuationPlan as plan} from './continuation-plan.mjs';
+import {continuationPlan as plan,nightWindow} from './continuation-plan.mjs';
 const now=1794087382;
-const input=(primary={},weekly={},extra={})=>({now,busy:false,checkpoint:false,primary:{usedPercent:100,resetsAt:1794087509,...primary},weekly:{usedPercent:40,resetsAt:now+10000,...weekly},...extra});
+const input=(primary={},weekly={},extra={})=>({now,automatic:false,busy:false,checkpoint:false,primary:{usedPercent:100,resetsAt:1794087509,...primary},weekly:{usedPercent:40,resetsAt:now+10000,...weekly},...extra});
 test('observed early retry adds buffer then rounds up UTC minute',()=>{
  const p=plan(input());assert.equal(p.action,'retry');assert.equal(p.target,1794087600);assert.equal(p.schedulerTimezone,'UTC');assert.match(p.rrule,/BYHOUR=21;BYMINUTE=40;BYSECOND=0;/);
 });
@@ -17,9 +17,9 @@ test('stale or unknown blocking reset never schedules',()=>{
 });
 test('unknown usage never starts work',()=>{
  for(const usedPercent of [undefined,null,NaN,Infinity,-1,101,'98'])assert.equal(plan(input({usedPercent})).action,'unknown');
- assert.equal(plan({now,busy:false,checkpoint:false}).action,'unknown');
+ assert.equal(plan({now,automatic:false,busy:false,checkpoint:false}).action,'unknown');
 });
-test('busy never starts another run',()=>assert.equal(plan({busy:true}).action,'busy'));
+test('busy never starts another run',()=>assert.equal(plan({busy:true,automatic:false}).action,'busy'));
 test('year rollover fixes date and expires before annual recurrence',()=>{
  const reset=Date.parse('2026-12-31T23:59:40Z')/1000,p=plan(input({resetsAt:reset},{},{now:reset-30}));
  assert.equal(p.scheduledAt,'2027-01-01T00:02:00.000Z');assert.match(p.rrule,/BYMONTH=1;BYMONTHDAY=1;BYHOUR=0;BYMINUTE=2;BYSECOND=0;UNTIL=20270101T000400Z$/);
@@ -35,4 +35,24 @@ test('far-future reset cannot match an earlier calendar year',()=>{
  const at=Date.parse('2026-11-07T23:00:00Z')/1000;
  assert.equal(plan(input({resetsAt:Date.parse('2027-12-01T00:00:00Z')/1000},{},{now:at})).action,'unknown');
  assert.equal(plan(input({resetsAt:at+8*86400+1},{},{now:at})).action,'unknown');
+});
+
+const epoch=s=>Date.parse(s)/1000;
+test('Toronto midnight through 07:59 allowed, 08 denied',()=>{
+ for(const [s,h,open] of [['2026-07-01T04:00:00Z',0,true],['2026-07-01T11:59:00Z',7,true],['2026-07-01T12:00:00Z',8,false],['2026-01-01T05:00:00Z',0,true]])assert.deepEqual(nightWindow(epoch(s)),{localHour:h,open});
+});
+test('DST transitions and seasonal effective midnight/five slots',()=>{
+ for(const s of ['2026-03-08T06:59:00Z','2026-03-08T07:00:00Z','2026-11-01T05:30:00Z','2026-11-01T06:30:00Z','2026-07-01T04:00:00Z','2026-07-01T09:00:00Z','2026-01-01T05:00:00Z','2026-01-01T10:00:00Z'])assert.equal(nightWindow(epoch(s)).open,true);
+});
+test('automatic mode required and manual daytime unaffected',()=>{
+ assert.equal(plan(input({usedPercent:20},{},{automatic:undefined})).action,'unknown');assert.equal(plan(input({usedPercent:20})).action,'continue');
+});
+test('delayed minute remains allowed but daytime never gets RRULE',()=>{
+ const at=epoch('2026-07-01T04:01:00Z');assert.equal(plan(input({usedPercent:20},{},{now:at,automatic:true})).action,'continue');
+ const p=plan(input({}, {}, {now:epoch('2026-07-01T12:01:00Z'),automatic:true}));assert.equal(p.action,'wait_window');assert.equal(p.rrule,undefined);
+});
+test('night retry stays inside window or defers without a rule',()=>{
+ const at=epoch('2026-07-01T11:50:00Z');
+ assert.equal(plan(input({resetsAt:at+60},{},{now:at,automatic:true})).action,'retry');
+ const p=plan(input({resetsAt:at+600},{},{now:at,automatic:true}));assert.equal(p.action,'wait_window');assert.equal(p.reason,'retryoutsidewindow');assert.equal(p.rrule,undefined);
 });
