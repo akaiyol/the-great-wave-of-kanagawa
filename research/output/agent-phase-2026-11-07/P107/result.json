@@ -1,0 +1,15 @@
+{
+  "id": "P107",
+  "summary": "Sourceadjacency study is non-discriminating. Independentresearcher and evaluator couldnotsecurelyclassify the upperneighbor lowerreturnpair. ConfirmedlowerP093groupretained; upperlabelsremainproposed. No new constructionpremise from thisambiguity.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "not_applicable",
+  "evidence": [
+    "research/woodblock/adjacency-roles.json",
+    "research/output/agent-phase-2026-11-07/P107/source-context.png",
+    "research/output/agent-phase-2026-11-07/P107/rival-grouping-plate.png",
+    "research/output/agent-phase-2026-11-07/P107/independent-review.json"
+  ],
+  "nextAction": "Do not force a unique neighborgrammar. A separate experiment may use alreadyconfirmed interior-contour roles, with no inference from thisuncertaingrouping.",
+  "estimatedWorkTokens": 7900
+}

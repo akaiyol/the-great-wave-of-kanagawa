@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "P107",
+  "objective": "Discriminate actual source roles of a neighboring foam motif before another parent field.",
+  "hypothesis": "The canonical neighboring foam motifs require distinct exposed-boundary and interior-contour roles rather than repeated fully exposed copies of one parent.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P093 exposednestedparent supported; P106 repeats it but occludes subordinatefeatures.",
+  "artifactTarget": "research/woodblock/adjacency-roles.json",
+  "plannedTokens": 6000,
+  "family": "source-adjacency-roles",
+  "strategyReview": "research/strategies/S107.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Source-only exactblocker; no ungrounded rolepromotion or more geometryvariants, preserve retained art.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-07T16:54:52.914Z",
+  "result": {
+    "id": "P107",
+    "summary": "Sourceadjacency study is non-discriminating. Independentresearcher and evaluator couldnotsecurelyclassify the upperneighbor lowerreturnpair. ConfirmedlowerP093groupretained; upperlabelsremainproposed. No new constructionpremise from thisambiguity.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/adjacency-roles.json",
+      "research/output/agent-phase-2026-11-07/P107/source-context.png",
+      "research/output/agent-phase-2026-11-07/P107/rival-grouping-plate.png",
+      "research/output/agent-phase-2026-11-07/P107/independent-review.json"
+    ],
+    "nextAction": "Do not force a unique neighborgrammar. A separate experiment may use alreadyconfirmed interior-contour roles, with no inference from thisuncertaingrouping.",
+    "estimatedWorkTokens": 7900
+  },
+  "review": {
+    "id": "P107",
+    "findings": [
+      "Initialhypothesis under-specified discriminator: findinginteriorink plusboundarydoesnotrejectP093likeparents. Leadclarified actuallowerreturn connectivity, and owns initialquestionfault.",
+      "Researcherambiguous result and independentreview preventedpromoting convenient sourceinterpretation. Leadcaught an incorrectcoordinateclassification; approximatepointsnotpixeltruth.",
+      "Estimated7900work exceeds5700allocation; roughlystrategy700+research1800+visual900+lead4500. Actualtelemetryunavailable; extendedleadreasoning/sourceinspectiondominates."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep explicit sourceambiguity and confirmedlowergroup; no artificialrequirement for uniquegrowthskeleton.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P107/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do not use upperneighborlabels as constructionfacts.",
+        "evidence": [
+          "research/woodblock/adjacency-roles.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Investigate a separatelysupported causalstylefactor withoutusing ambiguousneighbor topology as a premise.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 7900,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 8200,
+    "estimatedWorkOverrun": 2200,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 2200
+  },
+  "resultAt": "2026-11-07T17:03:11.816Z",
+  "closedAt": "2026-11-07T17:03:11.851Z"
+}

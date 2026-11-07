@@ -1,0 +1,58 @@
+{
+  "phase": "P107",
+  "status": "lead_proposal_unverified",
+  "sourceCrop": [
+    1650,
+    600,
+    700,
+    650
+  ],
+  "landmarks": {
+    "U-P": [
+      2080,
+      815
+    ],
+    "U-A": [
+      2280,
+      883
+    ],
+    "U-J": [
+      2120,
+      925
+    ],
+    "U-B": [
+      2150,
+      957
+    ],
+    "U-C": [
+      2083,
+      972
+    ],
+    "L-P": [
+      2086.4,
+      980.9
+    ],
+    "L-A": [
+      2233.1,
+      1040.2
+    ],
+    "L-J": [
+      2120.2,
+      1082.5
+    ],
+    "L-B": [
+      2169.3,
+      1135
+    ],
+    "L-C": [
+      2075.1,
+      1137.8
+    ]
+  },
+  "rivalReading": "Upper motif may itself have A and unequal B/C on sky-facing outline; P positions appear near verticallyaligned, not a monotonicallyrightward row.",
+  "limits": [
+    "UpperP/J representative regions uncertain.",
+    "Finding bothink+sky doesnotreject repeatedparent; actuallowerreturn classification is needed.",
+    "No source-targetmapping law, skeleton or geometryimplementation authorized."
+  ]
+}

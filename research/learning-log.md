@@ -79,3 +79,9 @@ Proposed next mechanism: drawing all outlines before all opaque fills may hide i
 Owner requested five-hour allowance checks on2026-11-07. Host scheduling is configured; [P105](phases/P105.json) verifies saved configuration and the synchronized README diagram, not future wake or a concurrency lock. The independent reviewer caught a stale90% policy paragraph and an overstated runtime claim; Daphnie owns both faults and applied the corrections.
 
 L009's proposed ordered-pass mechanism now has a limited rendered result in [P104](phases/P104.json): two opaque overlapping rectangles, not geometricunion or wave acceptance. Daphnie's transfer from SVG painting order remains unproven on curved foam.
+
+## L011 — A source ambiguity is not a construction fact
+
+[P106](phases/P106.json) showed that opaque overlap can hide generated fork anatomy as well as seams. Daphnie's support-envelope assumption caused that occlusion; the independent evaluator identified the visible failure, and the lead's narrow geometry probe localized it.
+
+[P107](phases/P107.json) did not settle the neighboring source grouping. The researcher and evaluator kept it inconclusive. Daphnie owns an initially non-discriminating question: both interior ink and exposed edges already occur in the confirmed P093 parent. The next diagnostic uses only previously confirmed interior-contour roles, not the unresolved upper labels.

@@ -1,0 +1,42 @@
+{
+  "id": "S107",
+  "targetPhase": "P107",
+  "policyVersion": "v2",
+  "family": "source-adjacency-roles",
+  "hypothesis": "The canonical neighboring foam motifs require distinct exposed-boundary and interior-contour roles rather than repeated fully exposed copies of one parent.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Test rival readings; distinctroles remain falsifiable interpretation.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P107-adjacency-roles.md",
+      "claim": "One neighbor and explicit boundaryroles.",
+      "sha256": "f5fd3fda68fc0a71985d6f2ed582c4c4ded422b571ecf55d6ad6fc1946f202f4"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/woodblock/source-parent.json",
+      "claim": "One exposednestedparent supported; neighbordifferences unverified.",
+      "sha256": "3fcc8e73762ce0fdd5e50732eab15db3fc5c1f825fc82b545da291f56bfd26c1"
+    }
+  ],
+  "unknowns": [
+    "Reliable neighboringgroup identification."
+  ],
+  "prediction": {
+    "ifTrue": "Neighborcombines different exposed/interiorroles.",
+    "ifFalse": "Another exposedfork supports repeatedroleinterpretation."
+  },
+  "test": {
+    "action": "One expandedsourceplate mappingneighboragainstP093.",
+    "success": "Observedconnections discriminate rivalreadings; negativevalid.",
+    "failure": "Ambiguousroles:recorduncertainty,deferconstruction.",
+    "maxWorkTokens": 3000
+  },
+  "estimatedReviewerTokens": 700,
+  "actualTokens": null
+}
