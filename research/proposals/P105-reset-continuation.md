@@ -1,0 +1,7 @@
+# P105 — Owner-requested reset continuation
+
+Owner requested2026-11-07: continue useful project work using the full available daily allowance; check every5hours and resume when allowance resets. Host automation wave-project-five-hour-continuation was created before this documentation phase (bootstrap/configuration work, not a prospective trial). Scheduler view succeeded. No automatic-delivery or sleeping-host guarantee is established.
+
+Update architecture manifest and generated README diagram in the same change to show scheduled allowance/active-run check → lead when allowance is available and no run overlaps; exhausted windows → incremental checkpoint. Preserve equal goals, one child, source writer, phase review and models. Store owner override without weakening goal acceptance or enabling purchases/resets/paid fallback. Existing90% stored controls must not conflict with current explicit full-allowance authorization. Host-scheduled recurrence is separate from stored policy and runtime goal.
+
+Test: inspect saved scheduler configuration, generated diagram and project-contract checks. Success: exact5hour cadence and authorized prompt active, honest local-runtime limitation, consistent manifest/README/state. Unproven: actual future wake, reset detection and non-overlap under concurrency. No new fleet, host power changes or quota-spending target. Budget3000estimated including150review reserve. SYSTEM configuration only; ART unchanged and nextP104 remains pending.

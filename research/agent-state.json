@@ -7,8 +7,8 @@
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "research/woodblock/water-hierarchy.html (wholewater checkpoint) and ink-parent.html (localparent checkpoint)",
   "retainedCandidate": "P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.",
-  "currentPhase": "P103",
-  "currentPhaseRecord": "research/phases/P103.json",
+  "currentPhase": "P105",
+  "currentPhaseRecord": "research/phases/P105.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -16,12 +16,12 @@
   "artisticAcceptance": "No accepted procedural artwork; local method reviews are scoped evidence.",
   "bootstrapNote": "P066 created its own lifecycle tool; planned budget/earlier setup work recorded at tool bootstrap. Later phases start before productive work.",
   "runAuthorization": {
-    "instruction": "User explicitly overrides both90%-used account ceilings for this run on2026-11-05. Continue useful work until either allowance is exhausted; save incremental checkpoints. No purchases, resets, paid fallback or waiting.",
+    "instruction": "Owner2026-11-07: use full available account allowance for useful project work; check every5hours and resume after reset when no run is active. Overrides earlier90%used controls. No purchases,resets or paidfallback.",
     "checkpointRemainingPercent": 2,
     "stopRemainingPercent": 0,
     "noPurchaseResetOrWaitingForReset": true
   },
-  "continuationGoal": "Source-grounded continuation after P100; both account ceilings explicitly overridden for this run. Checkpoint incrementally before access exhaustion.",
+  "continuationGoal": "Owner-authorized scheduled continuation with actual account checks; runtime delivery unproven.",
   "strategyPolicy": {
     "enabled": true,
     "version": 1,
@@ -56,17 +56,18 @@
   "runCheckpoint": "research/output/agent-phase-2026-11-06/run-checkpoint.json",
   "nextExperimentContract": "When allowance permits, P104 isolated ordered-pass rendering mechanism trial (S104); do not apply to P103 or claim source anatomy/geometric union. P103 remains archived. Preserve P099/P098.",
   "runHeadroomPlan": {
-    "noNewArtAfter": {
-      "primaryUsedPercent": 75,
-      "weeklyUsedPercent": 87
-    },
-    "beginFinishing": {
-      "primaryUsedPercent": 80,
-      "weeklyUsedPercent": 88
-    },
-    "ceilingUsedPercent": 90,
-    "reason": "Finishing previously crossed91%; reserve10primary points and2weekly points, monitored as shared account observations.",
-    "status": "Earlier90% ceiling/headroom superseded for current run by explicit owner override; retain 5% phase review reserve."
+    "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "Owner-authorized run reached100%weekly usage (fivehour46%). Stop new work; P101source study retained, P102/P103 art rejected; P104mechanism proposal independently reviewed but NOT started."
+  "checkpointReason": "Owner-authorized run reached100%weekly usage (fivehour46%). Stop new work; P101source study retained, P102/P103 art rejected; P104mechanism proposal independently reviewed but NOT started.",
+  "scheduledContinuation": {
+    "id": "wave-project-five-hour-continuation",
+    "intervalHours": 5,
+    "status": "ACTIVE",
+    "execution": "local heartbeat in current chat",
+    "verified": "Saved configuration inspected2026-11-07; actual scheduled delivery unproven.",
+    "limitations": [
+      "Computer/app must be available.",
+      "Prompt requests overlap avoidance; no enforced lock verified."
+    ]
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "S105",
+  "targetPhase": "P105",
+  "policyVersion": "v2",
+  "family": "reset-continuation-configuration",
+  "hypothesis": "Explicit host-scheduled allowance checks and consistent documentation provide a recoverable continuation configuration without claiming runtime delivery.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Authorized configuration documentation; runtime delivery unproven.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P105-reset-continuation.md",
+      "claim": "Records owner authorization, scheduler bootstrap and bounded scope.",
+      "sha256": "6b5fddfe89e16130716c7d191de21b59836417df61a305e68bc00090170467f3"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/proposals/P105-reset-continuation.md",
+      "claim": "Future wake,reset detection and concurrent-run exclusion untested.",
+      "sha256": "6b5fddfe89e16130716c7d191de21b59836417df61a305e68bc00090170467f3"
+    }
+  ],
+  "unknowns": [
+    "Runtime overlap prevention versus requested avoidance."
+  ],
+  "prediction": {
+    "ifTrue": "Saved schedule and project instructions consistently express authorized continuation.",
+    "ifFalse": "Conflicting controls or overstated guarantees remain."
+  },
+  "test": {
+    "action": "Inspect active5hour schedule/prompt; check manifest, generateddiagram and state.",
+    "success": "Configuration matches authorization; honest runtime limits.",
+    "failure": "Wrongcadence,stale controls or claimed delivery/overlap guarantee.",
+    "maxWorkTokens": 1000
+  },
+  "estimatedReviewerTokens": 500,
+  "actualTokens": null
+}

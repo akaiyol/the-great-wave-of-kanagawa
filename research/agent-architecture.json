@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-11-04-visual-first-assessed",
+  "revision": "2026-11-07-owner-scheduled-continuation",
   "sourcePins": {
     "AGENTS.md": "d76602a78482c3a4c6c188f53c0cd72e5af222bf579ec6e3ee165f14bf35c316",
-    "agents/wave-completion.md": "98bff5e5dd3138dcf13910333bd76f070df5076c048f2d84402cbe09636da409",
+    "agents/wave-completion.md": "fed84a2d7d90a938809b74bbc0f7c80c8a8718ad7892541ecfdb5f4846741bcd",
     ".codex/config.toml": "a198aac471b651db60840bf1e38a13c30fe23207a4d0f118bc6e0003684053d6",
     ".codex/agents/wave-evaluator.toml": "f6e9180ddf36f4a16cad218f769f49e3fb78340e9e906c5c67e08fefb11ab72a",
     ".codex/agents/wave-worker.toml": "91960635a7470f9624fd8cfbaa2db10714d1169edc2379fd8653846cc3a80f52",
@@ -13,7 +13,8 @@
     "scripts/project-contract.mjs": "fa837c887a670dfc112ca6e02bb32dd7a3fcf38e230162631e9fa45e0a5f4da6",
     "scripts/run-health.mjs": "f41d4c2ca61dc52ac22d1a29a2f287b1abb65267ff8a91f6284f881956923647",
     "research/decisions/ADR-004-strategy-challenge-and-continuation.md": "8b3bd1f246fd0ab93ba5a7ac10bcd175a39296246c3d48493019cc9b13b3606c",
-    "research/proposals/visual-first-trial.md": "c5c9b719fb898c22386b80157d1ab295f596189d8a02ab1f056f992ea0bf57b8"
+    "research/proposals/visual-first-trial.md": "c5c9b719fb898c22386b80157d1ab295f596189d8a02ab1f056f992ea0bf57b8",
+    "research/proposals/P105-reset-continuation.md": "6b5fddfe89e16130716c7d191de21b59836417df61a305e68bc00090170467f3"
   },
   "nodes": [
     {
@@ -59,6 +60,14 @@
     {
       "id": "Learning",
       "label": "Relevant lessons + readings"
+    },
+    {
+      "id": "Runtime",
+      "label": "Host check: every 5 hours"
+    },
+    {
+      "id": "Checkpoint",
+      "label": "Allowance + active run check"
     }
   ],
   "edges": [
@@ -125,7 +134,21 @@
     {
       "from": "Integrity",
       "to": "Process"
+    },
+    {
+      "from": "Runtime",
+      "to": "Checkpoint"
+    },
+    {
+      "from": "Checkpoint",
+      "to": "Lead",
+      "label": "Available; no active run"
+    },
+    {
+      "from": "Process",
+      "to": "Runtime",
+      "label": "Checkpoint before exhaustion"
     }
   ],
-  "note": "Visual-first trial assessed P087: modify. Early rejection retained; efficiency unproven. Core is personality/judgment; goals and lessons are context. One active child, one writer; models unchanged."
+  "note": "Visual-first trial assessed P087: modify. Early rejection retained; efficiency unproven. Core is personality/judgment; goals and lessons are context. One active child, one writer; models unchanged. Owner-authorized full-allowance continuation and five-hour host checks; future wake and overlap exclusion unproven. No role/model change."
 }

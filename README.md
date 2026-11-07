@@ -14,7 +14,7 @@ Both project goals have equal priority.
 Daphnie, the lead, owns delivery, decisions and documentation. Her personality and judgment are separate from project goals and context. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
 
 <!-- architecture:start -->
-<!-- Reviewed architecture inputs: fa55f3e89535e7a4b75e99a2d8ad8aee527f7a2247ee0ed4cb1fdafdf7096b21 -->
+<!-- Reviewed architecture inputs: c4a0db8c8a8c872adbfce9ed66d48070889ff7676d1899409cf25ce78de1a66e -->
 ```mermaid
 flowchart TD
   n_Core["Core: personality + judgment"]
@@ -28,6 +28,8 @@ flowchart TD
   n_Integrity["Affected checks + integration review"]
   n_Result["Both goals verified"]
   n_Learning["Relevant lessons + readings"]
+  n_Runtime["Host check: every 5 hours"]
+  n_Checkpoint["Allowance + active run check"]
   n_Core --> n_Lead
   n_Goals --> n_Lead
   n_Lead -->|"Exact blocker"| n_Research
@@ -42,12 +44,17 @@ flowchart TD
   n_Visual -->|"Promising"| n_Integrity
   n_Visual -->|"Reject; stop tuning"| n_Process
   n_Integrity --> n_Process
+  n_Runtime --> n_Checkpoint
+  n_Checkpoint -->|"Available; no active run"| n_Lead
+  n_Process -->|"Checkpoint before exhaustion"| n_Runtime
 ```
 <!-- architecture:end -->
 
 Before building a new hypothesis, an independent strategy review checks supporting and contrary evidence, predicts an observable result, and sets one bounded test with a source-backed construction relationship. It can retain a sound path, pivot, reject a construction, or defer judgment when evidence is missing. A deterministic gate checks the record and evidence; it cannot guarantee good judgment.
 
 Every phase reserves **5% of its planned token budget** for reviewing process and logs before another phase starts. A short brief, evidence-linked lessons and structured phase records carry findings forward. Technical correctness and artistic quality are evaluated separately. Exact compute telemetry is unavailable here, so usage estimates remain explicit.
+
+Owner-authorized local checks run every five hours and resume useful work when allowance is available and no run is active. Incremental checkpoints preserve work before exhaustion. Scheduled delivery and overlap prevention remain unverified; the computer and app must be available.
 
 Sources, changes and fault attribution are linked in the [learning log](research/learning-log.md). Daphnie's shared skills live in [akaiyol/daphnie](https://github.com/akaiyol/daphnie).
 

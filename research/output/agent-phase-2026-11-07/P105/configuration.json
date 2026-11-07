@@ -1,0 +1,12 @@
+{
+  "id": "wave-project-five-hour-continuation",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "intervalHours": 5,
+  "destination": "current chat",
+  "verification": "Host creation and view succeeded; saved local configuration inspected.",
+  "deliveryObserved": false,
+  "overlapLockVerified": false,
+  "localRuntimeRequired": true,
+  "bootstrap": "Scheduler created before documentationphase start at owner request; accounted as setup."
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "P105",
+  "objective": "Document owner-authorized five-hour scheduled continuation and verify configuration consistency.",
+  "hypothesis": "Explicit host-scheduled allowance checks and consistent documentation provide a recoverable continuation configuration without claiming runtime delivery.",
+  "failureIds": [
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "Owner-requested automation already created before phase bootstrap; prior exhausted-account checkpoint.",
+  "artifactTarget": "research/agent-architecture.json",
+  "plannedTokens": 3000,
+  "family": "reset-continuation-configuration",
+  "strategyReview": "research/strategies/S105.json",
+  "goalIds": [
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No art edits or weakened acceptance; P104 remains pending, local runtime limitations explicit.",
+  "status": "working",
+  "budget": {
+    "workTokens": 2850,
+    "reviewTokens": 150
+  },
+  "startedAt": "2026-11-07T16:41:24.336Z",
+  "result": null,
+  "review": null,
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": null,
+    "estimatedReviewTokens": null,
+    "estimatedTotalTokens": null,
+    "estimatedWorkOverrun": null,
+    "estimatedReviewOverrun": null,
+    "estimatedTotalOverrun": null
+  }
+}
