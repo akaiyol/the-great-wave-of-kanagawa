@@ -1,0 +1,52 @@
+{
+  "id": "S113",
+  "targetPhase": "P113",
+  "policyVersion": "v2",
+  "family": "source-water-head-seam",
+  "hypothesis": "Unequal body-connected water heads and descending foam wedges on one continuous seam improve P110 local anatomy without damaging W/F/S.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Reviewer found actual unequal broad shoulders and intervening wedges stronger than pipe/field recipes; limited regional study only.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P113-water-head-seam.md",
+      "claim": "One connected seam preserves source-related anatomy.",
+      "sha256": "79dde21aec4a26af03eb4dc3af24a6aacc11f3ad7216248df17b115cfe0a9f1e"
+    },
+    {
+      "path": "research/proposals/P113-seam-overlay.png",
+      "claim": "Approximate planned boundary compared with actual source.",
+      "sha256": "6f71c5c5e0813f9cfb978e55e2a4ad54968bed287bb27c7b791fb9264285adc8"
+    },
+    {
+      "path": "research/proposals/P113-seam-knots.json",
+      "claim": "Explicit unequal source-calibrated shape.",
+      "sha256": "b56cd33cf5c2204d3d10fda345a32e66cf6d8fe65799b0c687113833a74d4cde"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-07/P110/visual-review.json",
+      "claim": "Blankcap and regularhook defects persist; new lobes may be comb.",
+      "sha256": "752489dd0bf8c08ad6a18f4ed73cdabe12bb9081e404a94e4afb35083ebcb8af"
+    }
+  ],
+  "unknowns": [
+    "Cubic overshoot, neck widths, W/F/S compatibility and actual regional gain."
+  ],
+  "prediction": {
+    "ifTrue": "Unequal connected heads yield visible local source-related rhythm.",
+    "ifFalse": "Blocky fingers, scalloped comb, pinched wedges or no visible gain."
+  },
+  "test": {
+    "action": "One matched staticSVGnative-size comparison; affected checks only if visually retained.",
+    "success": "Visible regional gain and frozen P110 relationship survives.",
+    "failure": "Stop nearby tuning; no browser/variety/whole-art claim.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 1200,
+  "actualTokens": null
+}

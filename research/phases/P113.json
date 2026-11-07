@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "P113",
+  "objective": "Replace broad smooth water seam with unequal source-calibrated connected water heads.",
+  "hypothesis": "Unequal body-connected water heads and descending foam wedges on one continuous seam improve P110 local anatomy without damaging W/F/S.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P110 local W/F/S retained; smooth broad water seam and blank cap persist. Source calibration and QuickLook fallback setup preceded phase and are charged.",
+  "artifactTarget": "research/woodblock/water-head-seam.mjs",
+  "plannedTokens": 12000,
+  "family": "source-water-head-seam",
+  "strategyReview": "research/strategies/S113.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One candidate, preserve existinggains, no new workflow/model; static render not browser proof, no variety claim.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 11400,
+    "reviewTokens": 600
+  },
+  "startedAt": "2026-11-07T23:50:24.973Z",
+  "result": {
+    "id": "P113",
+    "summary": "Rejected source-calibrated multi-head seam: unequal upright prongs and pinched necks fail source broad shoulders/foam tongues. One candidate rendered; no affected checks or tuning. P110 remains retained; new module is rejected research only.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-07/P113/receipt.json",
+      "research/output/agent-phase-2026-11-07/P113/visual-review.json",
+      "research/output/agent-phase-2026-11-07/P113/candidate-static-1440x960.png",
+      "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png"
+    ],
+    "nextAction": "Preserve P110. Do not tune this knot recipe; next construction needs a changed premise that preserves broad water area and descending foam hierarchy rather than multiple raised prongs.",
+    "estimatedWorkTokens": 10000
+  },
+  "review": {
+    "id": "P113",
+    "findings": [
+      "Daphnie owns sparse profile selection; worker correctly implemented exact proposal. Matching tip positions did not preserve source broad water area, neck widths or foam descent. Independent reviewer rejected actual prong/pinch failure.",
+      "Same-renderer static1440x960 evidence discriminated a visible failure without browser access. This is no proof of browser compatibility or improved development efficiency; broad checks were correctly skipped.",
+      "Estimated10000 work includes source-calibration/fallback prephase setup, strategy1200, worker1400, visual700, captures/docs. Actual telemetry unavailable; no claim of causal cost savings."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Drop active upright-water-prong recipe; no nearby knot/width tuning. Retry only with changed representation protecting water-area/foam-tongue hierarchy and explicit source evidence. FailureID geometry.upright-water-prongs.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P113/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Preserve P110 local W/F/S; rejected module does not replace app or retained study.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P110/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Select one broad-water/descending-foam relationship before another generated field; actual source area/flow matters more than isolated tips.",
+    "estimatedReviewTokens": 600
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 10000,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 10600,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-07T23:53:34.807Z",
+  "closedAt": "2026-11-07T23:53:34.847Z"
+}

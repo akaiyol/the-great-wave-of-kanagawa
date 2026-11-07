@@ -1,0 +1,51 @@
+{
+  "phase": "P113",
+  "seed": 721,
+  "reference": {
+    "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "unchanged": true
+  },
+  "renderer": "macOS Quick Look qlmanage -t -s1440; no browser connection",
+  "thumbnailSize": [
+    1440,
+    1440
+  ],
+  "viewportCrop": [
+    0,
+    240,
+    1440,
+    1200
+  ],
+  "renderedImageSize": [
+    1440,
+    960
+  ],
+  "svgViewBox": [
+    0,
+    0,
+    1200,
+    800
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "cropBasis": "Centered960-high viewport; crop excludes white thumbnail padding and SVG overflow below viewBox. Same renderer/crop for candidate/baseline.",
+  "sourceCrop": [
+    850,
+    300,
+    1650,
+    1050
+  ],
+  "files": {
+    "research/woodblock/water-head-seam.mjs": "11697e5445244d4854502ba1f35d6328ee1763c9d25ba54bf686e844dbbb687e",
+    "research/woodblock/water-head-seam.html": "adfc510c646fd33c1a170886caf12190da4b81094388b3ab8d397ee2a98fd6c7",
+    "research/woodblock/source-head.mjs": "5ca454a363a89666d2037e616f9200f1957890626384ecba299cf7fc16e69bc2",
+    "research/proposals/P113-seam-knots.json": "b56cd33cf5c2204d3d10fda345a32e66cf6d8fe65799b0c687113833a74d4cde",
+    "research/output/agent-phase-2026-11-07/P113/candidate-721.svg": "6c991ca05fcf1ca2cc90e99625828718bbba9a24a9410d8af6c7d9a602346241",
+    "research/output/agent-phase-2026-11-07/P113/baseline-721.svg": "b036da12603bf9f193e5bc5fed0c3aeba528980e5d9025ce117a6697b92bd8b2",
+    "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png": "00ea326507d01c358c6750ac05b43ad1fae4a636a24350d72c76c052fefe3632",
+    "research/output/agent-phase-2026-11-07/P113/candidate-static-1440x960.png": "14499136bd201a1d87dc20a7bd31ce0b3dd027c598f7e48c478b83e48c83e136",
+    "research/output/agent-phase-2026-11-07/P113/source-water-heads.png": "5c77c11b9194565074188ee8b1d6493a233790db5b3f3a72cf591f5cc03f725a"
+  },
+  "scope": "Single calibrated seed; no browser, family, whole-art or perceptual-variety acceptance."
+}

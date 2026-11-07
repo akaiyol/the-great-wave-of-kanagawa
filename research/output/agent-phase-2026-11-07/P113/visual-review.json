@@ -1,0 +1,15 @@
+{
+  "phase": "P113",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "reject",
+  "findings": [
+    "Unequal heads read as upright hooked prongs; left bulb has pinched neck and remaining heads narrow with deep clefts.",
+    "Whole-context seam is an antler-like crest; no meaningful source-related regional gain.",
+    "Declared prong/pinch falsifier met; not a texture or missing-detail complaint."
+  ],
+  "nextAction": "Archive without affected checks or nearby knot/width tuning; preserve P110 W/F/S separately.",
+  "scope": "Single seed721, matched1440x960 QuickLook static renders; no browser/DPR/whole-art/variety acceptance.",
+  "estimatedTokens": 700,
+  "actualTokens": null
+}
