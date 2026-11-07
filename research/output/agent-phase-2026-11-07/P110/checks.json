@@ -1,0 +1,95 @@
+{
+  "phase": "P110",
+  "seed": 721,
+  "routes": {
+    "W": {
+      "intervals": 2,
+      "failures": 0,
+      "collinear": 0,
+      "pass": true
+    },
+    "F": {
+      "intervals": 5,
+      "failures": 0,
+      "collinear": 0,
+      "pass": true
+    },
+    "S": {
+      "intervals": 3,
+      "failures": 0,
+      "collinear": 0,
+      "pass": true
+    }
+  },
+  "positiveAreaRootWitnesses": [
+    {
+      "child": 0,
+      "point": [
+        505.02632297202945,
+        109.85605889360866
+      ],
+      "foam": true,
+      "body": true,
+      "clearance": 1.5
+    },
+    {
+      "child": 1,
+      "point": [
+        555.5382349202409,
+        175.39177913011665
+      ],
+      "foam": true,
+      "body": true,
+      "clearance": 1.5
+    },
+    {
+      "child": 2,
+      "point": [
+        604.573678765446,
+        238.4851687721611
+      ],
+      "foam": true,
+      "body": true,
+      "clearance": 1.5
+    },
+    {
+      "child": 3,
+      "point": [
+        640.961384491995,
+        301.2386913737439
+      ],
+      "foam": true,
+      "body": true,
+      "clearance": 1.5
+    }
+  ],
+  "crossings": {
+    "body": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "foam": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "blueBand": 0
+  },
+  "invariance": {
+    "freshBaselineSvg": true,
+    "freshBaselineGeometry": true,
+    "children": true,
+    "nonprimarySvg": true,
+    "sharedOuter": true,
+    "repeatSvg": true,
+    "uniqueClipIds": true,
+    "noAlphaMaskFilter": true
+  },
+  "allPass": true,
+  "scope": "Represented polygonal geometry, floating-point partition without collinear intersections; no exact source segmentation or global union/perceptual acceptance. F width6 remains sampled; centerline connectivity verified across all boundary-partition intervals. S ray reaches open right-side sky above supporting ridges."
+}

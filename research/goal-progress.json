@@ -5,9 +5,9 @@
       "status": "unmet",
       "evidence": [
         "research/phases/P099.json",
-        "research/phases/P100.json"
+        "research/phases/P110.json"
       ],
-      "note": "P099 retains a water-layer gain only. P100 attachment rejected; no accepted procedural ocean."
+      "note": "Limitedwater andW/F/Sregionalgains only; noacceptedproceduralocean orwhole-source likeness."
     },
     "A2": {
       "status": "partial",
@@ -33,10 +33,10 @@
     "S1": {
       "status": "partial",
       "evidence": [
-        "research/phases/P099.json",
-        "research/phases/P100.json"
+        "research/phases/P109.json",
+        "research/phases/P110.json"
       ],
-      "note": "Scoped independent reviews and early rejection recorded. Efficiency gain remains unproven; review startup exceeded estimate."
+      "note": "CriticacknowledgedweakARTjustification infieldpreflights; nextsource-matchedrelationretainedlocally. Decisionqualitynotcalibrated."
     },
     "S2": {
       "status": "unmet",
@@ -48,16 +48,18 @@
     "S3": {
       "status": "partial",
       "evidence": [
-        "research/phases/P082.json"
+        "research/phases/P107.json",
+        "research/phases/P110.json"
       ],
-      "note": "Gates exist; effectiveness and efficiency remain unproven."
+      "note": "Ambiguitypreserved; source-roleconstraints transferredandlocallychecked. No generalizedselflearningclaim."
     },
     "S4": {
       "status": "partial",
       "evidence": [
-        "research/phases/P082.json"
+        "research/phases/P105.json",
+        "research/phases/P110.json"
       ],
-      "note": "Gates exist; effectiveness and efficiency remain unproven."
+      "note": "Fivehourcontinuationconfigured andcheckpointspublished; actualscheduleddelivery/lockingunverified."
     }
   }
 }

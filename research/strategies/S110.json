@@ -1,0 +1,65 @@
+{
+  "id": "S110",
+  "targetPhase": "P110",
+  "policyVersion": "v2",
+  "family": "source-calibrated-head-bridge",
+  "hypothesis": "A source-calibrated asymmetric water/foam interface and open S-sky route yield a meaningful local source-related gain over the blunt head and filled flap.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "StrongerprospectiveARTjustification: actualasymmetricoverlay andScontradiction warrant changingincorrectreturnspan.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P110-source-head-bridge.md",
+      "claim": "ExplicitW/F/S relation and limitedaffectedborder.",
+      "sha256": "706c52567e4eebc71eb0984ccc46684d089323298cc45ac7a14692207d28a6a1"
+    },
+    {
+      "path": "research/proposals/P110-head-profile-overlay.png",
+      "claim": "Plannedasymmetricprofileovercanonicalcrop.",
+      "sha256": "68c133ff8b454eb8fc85fdf88067d9b247851793cfacdbd3904bc640af5a6cc0"
+    },
+    {
+      "path": "research/proposals/P110-region-evidence.json",
+      "claim": "MappedsourceSkyS isfilledbyP106.",
+      "sha256": "e6c31f5bfd59157e6f472628825882c800a39f8d30937a21e4446759f575ae80"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-07/P106/visual-review.json",
+      "claim": "Otherexteriordefects remain; profileresemblance notintegratedanatomy.",
+      "sha256": "f5b01333585cf9342fc5816b33f0e4a9320f72abefd9b8fb6560f0ee30876980"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Source-matchedprofileandopenSreplaceknob/flap; notanotherfieldrecipe orrootspacingrescue.",
+    "evidence": [
+      {
+        "path": "research/proposals/P110-source-head-bridge.md",
+        "sha256": "706c52567e4eebc71eb0984ccc46684d089323298cc45ac7a14692207d28a6a1"
+      },
+      {
+        "path": "research/woodblock/source-head-profile.mjs",
+        "sha256": "7401f8644ee9b4e0d7d75768d381dbf3f910da3880bf724d7103d35829918564"
+      }
+    ]
+  },
+  "unknowns": [
+    "H/seamjoins,F/Psupport,survivingmappedasymmetry."
+  ],
+  "prediction": {
+    "ifTrue": "Recognizablelocalinterlock andopenShollow.",
+    "ifFalse": "Pastedlobe,severedbridge ornogain."
+  },
+  "test": {
+    "action": "One matchednativeview withactualW/F/S coverage.",
+    "success": "Localgain earnsaffectedchecks only.",
+    "failure": "Failurestops tuning; noproceduralvarietyclaim.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 1100,
+  "actualTokens": null
+}

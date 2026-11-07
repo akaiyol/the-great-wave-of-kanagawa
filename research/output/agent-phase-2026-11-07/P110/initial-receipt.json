@@ -1,0 +1,41 @@
+{
+  "phase": "P110",
+  "seed": 721,
+  "declaredViewport": [
+    1440,
+    960
+  ],
+  "sourceHashes": {
+    "research/woodblock/source-head.mjs": "7f7adb2514f4f942a7031e43bced2a0375a1aa14cc79fa35a18c7defb8e87489",
+    "research/woodblock/source-head.html": "7f95cccd91c453828a27d23cf252aa8a40095227a0cab8eddda68c47d9a7ff91",
+    "research/woodblock/source-head-profile.mjs": "7401f8644ee9b4e0d7d75768d381dbf3f910da3880bf724d7103d35829918564",
+    "research/woodblock/component-field.mjs": "c3f1ecbb2742201d7c4f49611d4cdb9707d0a5dca4355931448f175fb0b04ae2",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "diagnostics": {
+    "finite": true,
+    "Wwater": false,
+    "FfoamCorridor": true,
+    "Ssky": true,
+    "failedProbes": {
+      "W": 19,
+      "F": 0,
+      "S": 0
+    },
+    "scope": "Source-frame registration approximate; local sampled coverage only. Failures retained without rescue; native and polygon review pending."
+  },
+  "scope": "Nativefirstview; declaredWroute/extendedprobe scope mustbe distinguished, no artverdict.",
+  "capture": {
+    "actualPixels": [
+      1440,
+      960
+    ],
+    "domViewport": [
+      1440,
+      960
+    ],
+    "dpr": 1,
+    "sha256": "d2e757e88557478af72d6c4da0d3a4c608f726640ae389b310746f9dc3d3f8d4"
+  },
+  "witnessQualification": "Worker extended W route to460,360 outside required/source route; falseaggregateflag not a cleanfailure of requiredW/body relation. Originaldiagnostics preserved; scopedcheck pending."
+}

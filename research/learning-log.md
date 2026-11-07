@@ -85,3 +85,9 @@ L009's proposed ordered-pass mechanism now has a limited rendered result in [P10
 [P106](phases/P106.json) showed that opaque overlap can hide generated fork anatomy as well as seams. Daphnie's support-envelope assumption caused that occlusion; the independent evaluator identified the visible failure, and the lead's narrow geometry probe localized it.
 
 [P107](phases/P107.json) did not settle the neighboring source grouping. The researcher and evaluator kept it inconclusive. Daphnie owns an initially non-discriminating question: both interior ink and exposed edges already occur in the confirmed P093 parent. The next diagnostic uses only previously confirmed interior-contour roles, not the unresolved upper labels.
+
+## L012 — Match one actual relationship, not just a category
+
+The independent evaluator acknowledged that recent preflights weighted executable boundedness more than prospective artistic value. Daphnie owns the proposed recipes. [P110](phases/P110.json) instead matched the canonical water/foam/sky relationship: S had been incorrectly filled in the prior model. A planned profile over the reference led to a locally retained, checked interface gain. This provisionally supports source-matched task selection; it does not establish efficiency or whole-art success.
+
+Daphnie also corrected an extra W probe that tested outside the declared source route, with identical rendered geometry, and fixed an incremental publication that briefly omitted matching state/control pointers. Initial evidence and limitations remain in the phase.

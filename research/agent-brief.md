@@ -5,23 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P109 (closed).
-Record: research/phases/P109.json
-Objective: Test source-related regional interlock from connected water lanes and pale veins.
-Hypothesis: Body-connected water lanes and attached pale veins create meaningful source-related interlock and flow hierarchy within a frozen exterior mass.
-Baseline: FrozenP106exterior/context, knownhooks/occlusiondefects. P108independentglyphfield rejected.
-Artifact: research/woodblock/dual-region.mjs
+Current phase: P110 (closed).
+Record: research/phases/P110.json
+Objective: Test one actual source-matched asymmetric waterhead/foambridge/open-sky relationship.
+Hypothesis: A source-calibrated asymmetric water/foam interface and open S-sky route yield a meaningful local source-related gain over the blunt head and filled flap.
+Baseline: P106sourceSkyS incorrectlycovered; priorfieldsrejected. Leadpreparedsourceoverlay/profile beforephasebootstrap; includeprepincost.
+Artifact: research/woodblock/source-head.mjs
 Budget: 11400 work / 600 review tokens (planned; usage estimated).
-Strategy: research/strategies/S109.json (family: dual-region-water-lanes).
+Strategy: research/strategies/S110.json (family: source-calibrated-head-bridge).
 Artifact delivered: true.
-Result: Positivewaterlane construction rejected atnativeview: pipes/fingers dominate, no convincingregionalinterlock. Rawclosure-centered probes fail but do notcleanlyprove disconnection. No affectedchecks/adoption.
-Verdicts: technical incomplete; artistic fail.
-Next action: Archivewithoutcount/width/spacingtuning. Nextboundedtestshouldmatchone actualasymmetric waterhead/foambridge fromsource, notpopulate anotherfield.
-Decision (drop): Archivepipefieldwithoutparameterrescue.
-Decision (change): Nexttask: one explicitlysource-matched asymmetrichead/bridge, usingexistingpreflight. No newagents/gatesorpermanentworkflowchange yet; assess nextoutcome before retention.
-Next improvement: Discriminate source-matched relationship against schematicfieldrecipes in the nextsingleiteration; prospectivemeasurement, no efficiencyclaim.
-State retainedCandidate: P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.
-State checkpointReason: Resumed2026-11-07 after observed allowance reset. P105 scheduleconfiguration and P104 limitedrenderingmechanism retained; no new artwork gain yet.
+Result: Retain limited source-related W/F/S interface gain after independentnativeview and affectedchecks. Unequalwaterlobes/foamwrap andopenShollow improve locally. Changedcomponentpolygons/band have0selfcrossings; boundary-partition routesW/F/S pass; rootjoins havepositivearea; frozenregions exact. Wholeart,otherfoamdefects andvariety remainunaccepted.
+Verdicts: technical pass; artistic incomplete.
+Next action: Checkpoint beforewindowexhaustion. Nextcheckfivehourallowance via configuredhostheartbeat; readcurrentbrief. PreserveP110localgain withP099/P098, testother source-specificrelationships withoutreintroducingfields orclaimingwholeartacceptance.
+Decision (retain): Keep onlysource-calibratedregionalgain, explicitunknowns andprovisionallysource-matchedtaskselection; no newpermanentgate/agentchange.
+Decision (change): Use declaredsource-role paths ratherthanextraunrequiredprobeextensions; publishconsistentbrief/state/controlrecords atomically.
+Next improvement: Carryforwardlocalgain andsource-roleconstraints. Nextartphase mustoffer concrete source-relatedqualityvalue; do not mistakeboundedness orcategorycorrectness forpromisingart.
+State retainedCandidate: P099water/P098localparent plusP110seed721 localW/F/S gain withaffectedchecks. Broadblankcap/regularhooks/otherocclusions unresolved; noacceptedproceduralart orvariety. P079gallery/rootapp unchanged.
+State checkpointReason: Incremental pre-exhaustion checkpoint; observed94%shortwindow/23%weekly beforepublication. P110localgain retained, accountfull-allowance authorization and5hourhostcheck remain active.
 Run authorization: Owner2026-11-07: use full available account allowance for useful project work; check every5hours and resume after reset when no run is active. Overrides earlier90%used controls. No purchases,resets or paidfallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

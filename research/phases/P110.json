@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "P110",
+  "objective": "Test one actual source-matched asymmetric waterhead/foambridge/open-sky relationship.",
+  "hypothesis": "A source-calibrated asymmetric water/foam interface and open S-sky route yield a meaningful local source-related gain over the blunt head and filled flap.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P106sourceSkyS incorrectlycovered; priorfieldsrejected. Leadpreparedsourceoverlay/profile beforephasebootstrap; includeprepincost.",
+  "artifactTarget": "research/woodblock/source-head.mjs",
+  "plannedTokens": 12000,
+  "family": "source-calibrated-head-bridge",
+  "strategyReview": "research/strategies/S110.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Single source-matchtasktrial; no permanentworkflow/newagents/gates, exactothergeometryfrozen, no wholeartacceptanceclaim.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 11400,
+    "reviewTokens": 600
+  },
+  "startedAt": "2026-11-07T17:27:31.748Z",
+  "result": {
+    "id": "P110",
+    "summary": "Retain limited source-related W/F/S interface gain after independentnativeview and affectedchecks. Unequalwaterlobes/foamwrap andopenShollow improve locally. Changedcomponentpolygons/band have0selfcrossings; boundary-partition routesW/F/S pass; rootjoins havepositivearea; frozenregions exact. Wholeart,otherfoamdefects andvariety remainunaccepted.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/woodblock/source-head.mjs",
+      "research/output/agent-phase-2026-11-07/P110/receipt.json",
+      "research/output/agent-phase-2026-11-07/P110/candidate-721-native.jpg",
+      "research/output/agent-phase-2026-11-07/P110/visual-review.json",
+      "research/output/agent-phase-2026-11-07/P110/checks.json",
+      "research/output/agent-phase-2026-11-07/P110/initial-receipt.json"
+    ],
+    "nextAction": "Checkpoint beforewindowexhaustion. Nextcheckfivehourallowance via configuredhostheartbeat; readcurrentbrief. PreserveP110localgain withP099/P098, testother source-specificrelationships withoutreintroducingfields orclaimingwholeartacceptance.",
+    "estimatedWorkTokens": 12300
+  },
+  "review": {
+    "id": "P110",
+    "findings": [
+      "Task-selectiontrial: provisionallyretain actualsource-matchedrelationship. Independentreviewretainedlocalqualitygain andaffectedcheckspassed. No matchedcostbaseline: efficiencyinconclusive, notprovenbetter/cheaper.",
+      "KnownsourceSkyS wasfilled byearliermodel; leadowns missingthatrelationship. Sourcecalibration alsoseparatedthininteriorinkfromfilledwater. ExtraWprobe outsidecontractcorrectedwithSVGbyteidentical; initialreceiptpreserved.",
+      "Work12300roughestimate includesprephaseprofileprep,sourceinspection,strategy1100,worker2700+diagnosticcorrection,visual850,checks/capture/publishing. Exceeds11400allocation. Earlierincrementalcommit brieflyomittedcurrentstate/controlpointers; leadfixedcompletepointerclosure and nowverifiescommittedstate. Actualtelemetryunknown."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep onlysource-calibratedregionalgain, explicitunknowns andprovisionallysource-matchedtaskselection; no newpermanentgate/agentchange.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P110/visual-review.json",
+          "research/output/agent-phase-2026-11-07/P110/checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Use declaredsource-role paths ratherthanextraunrequiredprobeextensions; publishconsistentbrief/state/controlrecords atomically.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P110/receipt.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Carryforwardlocalgain andsource-roleconstraints. Nextartphase mustoffer concrete source-relatedqualityvalue; do not mistakeboundedness orcategorycorrectness forpromisingart.",
+    "estimatedReviewTokens": 600,
+    "selectionTrial": {
+      "decision": "retain_provisionally",
+      "artOutcome": "local_gain_retained",
+      "systemEfficiency": "inconclusive",
+      "baselinePhases": [
+        "P106",
+        "P108",
+        "P109"
+      ],
+      "limitation": "Historicaldifferenttasks,notmatchedworkflowexperiment; no causal costclaim."
+    }
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 12300,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 12900,
+    "estimatedWorkOverrun": 900,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 900
+  },
+  "resultAt": "2026-11-07T17:38:29.713Z",
+  "closedAt": "2026-11-07T17:38:29.748Z"
+}

@@ -1,0 +1,21 @@
+{
+  "phase": "P110",
+  "scope": "ScopedsourceP090W-to-body route, not extra460360extension or globaltopology.",
+  "sourceRoute": [
+    [
+      497.3205493651205,
+      247.52505782575173
+    ],
+    [
+      484.41565172324437,
+      253.01464919043948
+    ],
+    [
+      473.3454262762374,
+      265.8134155744025
+    ]
+  ],
+  "sampledCount": 34,
+  "failed": 0,
+  "pass": true
+}

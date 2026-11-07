@@ -1,0 +1,17 @@
+{
+  "id": "P110",
+  "summary": "Retain limited source-related W/F/S interface gain after independentnativeview and affectedchecks. Unequalwaterlobes/foamwrap andopenShollow improve locally. Changedcomponentpolygons/band have0selfcrossings; boundary-partition routesW/F/S pass; rootjoins havepositivearea; frozenregions exact. Wholeart,otherfoamdefects andvariety remainunaccepted.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "incomplete",
+  "evidence": [
+    "research/woodblock/source-head.mjs",
+    "research/output/agent-phase-2026-11-07/P110/receipt.json",
+    "research/output/agent-phase-2026-11-07/P110/candidate-721-native.jpg",
+    "research/output/agent-phase-2026-11-07/P110/visual-review.json",
+    "research/output/agent-phase-2026-11-07/P110/checks.json",
+    "research/output/agent-phase-2026-11-07/P110/initial-receipt.json"
+  ],
+  "nextAction": "Checkpoint beforewindowexhaustion. Nextcheckfivehourallowance via configuredhostheartbeat; readcurrentbrief. PreserveP110localgain withP099/P098, testother source-specificrelationships withoutreintroducingfields orclaimingwholeartacceptance.",
+  "estimatedWorkTokens": 12300
+}

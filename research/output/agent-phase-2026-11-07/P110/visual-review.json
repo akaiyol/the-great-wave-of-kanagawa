@@ -1,0 +1,15 @@
+{
+  "phase": "P110",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "retain_limited_local_gain",
+  "findings": [
+    "Unequalreturningwaterlobes and legiblefoamwrap replacebluntknob; raisedunevenborderopenshollowratherthanfilledflap.",
+    "Broadblankcap andregularhooksexteriorunresolved; no wholeartacceptance orvarietyclaim.",
+    "Wrawfailurewasextraextension, notdeclaredsourcepath; sampledcoverage alone notcontinuousproof."
+  ],
+  "nextAction": "Retainregionalgain onlyafteraffectedchecks.",
+  "selectionTrial": "Source-matchedrelationproducedclearerqualitygain thanrecentfieldrecipes; provisionallyretainselectionapproach,efficiencyunproven.",
+  "estimatedTokens": 850,
+  "actualTokens": null
+}
