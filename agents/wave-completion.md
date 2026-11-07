@@ -40,7 +40,7 @@ Supply the objective, baseline, relevant failure IDs and evidence without tellin
 
 Use continue/pivot/reject/defer. Do not silently override an independent rejection; seek reconsideration only with material new evidence and a bounded test. Review hypotheses rather than every parameter change. Calibrate the critic against outcome-hidden cases and later prospective results; never describe JSON compliance as critical-thinking accuracy. The existing artifact and final5%process gates remain.
 
-Check the actual continuation goal at startup and milestones. For the current authorization, continue useful work to90%used in either account window, then checkpoint; do not end an intermediate run merely because a commit was pushed. Keep the effective user threshold in state. `run-health.mjs` diagnoses recorded inactivity only: it cannot run while the host sleeps, prove a pending agent is computing, or restart an interrupted runner. Do not create recurring jobs or change power settings without the corresponding user request. Researchers are read-only: the lead records their findings.
+Check the actual continuation goal at startup and milestones. Follow the effective owner authorization in agent-state.json for the account threshold and continuation; do not end an intermediate run merely because a commit was pushed. Keep the effective user threshold in state. `run-health.mjs` diagnoses recorded inactivity only: it cannot run while the host sleeps, prove a pending agent is computing, or restart an interrupted runner. Do not create recurring jobs or change power settings without the corresponding user request. Researchers are read-only: the lead records their findings.
 
 ## Two-goal contract
 

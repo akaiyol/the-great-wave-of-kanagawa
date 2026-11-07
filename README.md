@@ -14,7 +14,7 @@ Both project goals have equal priority.
 Daphnie, the lead, owns delivery, decisions and documentation. Her personality and judgment are separate from project goals and context. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
 
 <!-- architecture:start -->
-<!-- Reviewed architecture inputs: c4a0db8c8a8c872adbfce9ed66d48070889ff7676d1899409cf25ce78de1a66e -->
+<!-- Reviewed architecture inputs: ee979188600a00bb3e8d4bb6468067937210be13e3278a0600749fb158dfb7f9 -->
 ```mermaid
 flowchart TD
   n_Core["Core: personality + judgment"]
@@ -54,7 +54,7 @@ Before building a new hypothesis, an independent strategy review checks supporti
 
 Every phase reserves **5% of its planned token budget** for reviewing process and logs before another phase starts. A short brief, evidence-linked lessons and structured phase records carry findings forward. Technical correctness and artistic quality are evaluated separately. Exact compute telemetry is unavailable here, so usage estimates remain explicit.
 
-Owner-authorized local checks run every five hours and resume useful work when allowance is available and no run is active. Incremental checkpoints preserve work before exhaustion. Scheduled delivery and overlap prevention remain unverified; the computer and app must be available.
+Owner-authorized local checks are configured to check every five hours and request continuation when allowance is available and no run is active. Incremental checkpoints preserve work before exhaustion. Scheduled delivery and overlap prevention remain unverified; the computer and app must be available.
 
 Sources, changes and fault attribution are linked in the [learning log](research/learning-log.md). Daphnie's shared skills live in [akaiyol/daphnie](https://github.com/akaiyol/daphnie).
 
