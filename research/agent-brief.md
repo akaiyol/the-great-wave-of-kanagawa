@@ -5,7 +5,7 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P108 (working).
+Current phase: P108 (closed).
 Record: research/phases/P108.json
 Objective: Discriminate source-role structural ink from decorative detail using frozen geometry.
 Hypothesis: Source-role interior contour geometry adds meaningful woodblock contour-language structure on a frozen foam body, while leaving known silhouette defects unchanged.
@@ -13,6 +13,13 @@ Baseline: P106 frozenrejectedanatomy; P090/P098confirmed interiorinkrole/localho
 Artifact: research/woodblock/structural-ink.mjs
 Budget: 7600 work / 400 review tokens (planned; usage estimated).
 Strategy: research/strategies/S108.json (family: structural-ink-ablation).
+Artifact delivered: true.
+Result: Diagnostic field rejected: repeated C-stamps support decorative-pattern rival. Frozengeometrynotrepaired orpromoted; structuralinkgenerally remainsviable andP098localgainpreserved. Noaffectedintegritychecks.
+Verdicts: technical incomplete; artistic fail.
+Next action: Stopindependentmarkfields. Any newcontours should derivefrom constructed water/foamregionalrelationships ratherthan containmentselectedstamps.
+Decision (drop): Archivecontainmentselectedmarkfield; nodensity/orientation/resizingrescue.
+Decision (retain): PreserveP098limitedpairedcontourgain anddistinguish itfromfailedwholefieldtransfer.
+Next improvement: Newregionalconstruction shouldgeneratecontourstructurefromactualwater/foaminterfaces, not freestandingCglyphs.
 State retainedCandidate: P099 seed721 whole-scene water-language checkpoint plus P098 localparent anatomy/ink. Both scoped gains; whole-source likeness and uppercove unresolved. P079gallery unchanged.
 State checkpointReason: Resumed2026-11-07 after observed allowance reset. P105 scheduleconfiguration and P104 limitedrenderingmechanism retained; no new artwork gain yet.
 Run authorization: Owner2026-11-07: use full available account allowance for useful project work; check every5hours and resume after reset when no run is active. Overrides earlier90%used controls. No purchases,resets or paidfallback. No purchases, resets or waiting for a reset.

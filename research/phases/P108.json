@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "P108",
+  "objective": "Discriminate source-role structural ink from decorative detail using frozen geometry.",
+  "hypothesis": "Source-role interior contour geometry adds meaningful woodblock contour-language structure on a frozen foam body, while leaving known silhouette defects unchanged.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "source.boundary-conflation"
+  ],
+  "baseline": "P106 frozenrejectedanatomy; P090/P098confirmed interiorinkrole/localhoodgain.",
+  "artifactTarget": "research/woodblock/structural-ink.mjs",
+  "plannedTokens": 8000,
+  "family": "structural-ink-ablation",
+  "strategyReview": "research/strategies/S108.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Controlleddiagnostic only; noanatomyrepair,artadoptionorgalleryintegration; matchedgeometry and earlyrejection.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-07T17:06:10.260Z",
+  "result": {
+    "id": "P108",
+    "summary": "Diagnostic field rejected: repeated C-stamps support decorative-pattern rival. Frozengeometrynotrepaired orpromoted; structuralinkgenerally remainsviable andP098localgainpreserved. Noaffectedintegritychecks.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/woodblock/structural-ink.mjs",
+      "research/output/agent-phase-2026-11-07/P108/receipt.json",
+      "research/output/agent-phase-2026-11-07/P108/candidate-721-native.jpg",
+      "research/output/agent-phase-2026-11-07/P108/visual-review.json"
+    ],
+    "nextAction": "Stopindependentmarkfields. Any newcontours should derivefrom constructed water/foamregionalrelationships ratherthan containmentselectedstamps.",
+    "estimatedWorkTokens": 9700
+  },
+  "review": {
+    "id": "P108",
+    "findings": [
+      "Controlledfrozengeometrytest rejected thismarkfield; it cannotfalsifyallstructuralink oroverturnpriorgeometryfailures.",
+      "Leadprovidedindependenthood/counter placementwithouttheirP098pairedrelationship, so fieldreadasCstamps. Sourceinspiration alone didnotestablish transferredgrammar.",
+      "Estimated9700work exceeds7600allocation, dominatedleadreasoning/planningplusworker2400,strategy900,visual650. Actualtelemetryunknown; noefficiencyclaim."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Archivecontainmentselectedmarkfield; nodensity/orientation/resizingrescue.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P108/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "PreserveP098limitedpairedcontourgain anddistinguish itfromfailedwholefieldtransfer.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-05/P098/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Newregionalconstruction shouldgeneratecontourstructurefromactualwater/foaminterfaces, not freestandingCglyphs.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 9700,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 10100,
+    "estimatedWorkOverrun": 2100,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 2100
+  },
+  "resultAt": "2026-11-07T17:11:41.469Z",
+  "closedAt": "2026-11-07T17:11:41.506Z"
+}

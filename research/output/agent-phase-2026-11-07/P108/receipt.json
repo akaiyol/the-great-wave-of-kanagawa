@@ -1,0 +1,36 @@
+{
+  "phase": "P108",
+  "seed": 721,
+  "declaredViewport": [
+    1440,
+    960
+  ],
+  "sourceHashes": {
+    "research/woodblock/structural-ink.mjs": "010f08e38f54915c6e038f8bdbe39454db5d23ca731a1994097c447ead16ce8d",
+    "research/woodblock/structural-ink.html": "991b65f18479e1fb85695347a9a9e379000a4f571430c15f35f09192bd109fe9",
+    "research/woodblock/component-field.mjs": "c3f1ecbb2742201d7c4f49611d4cdb9707d0a5dca4355931448f175fb0b04ae2",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "diagnostics": {
+    "finite": true,
+    "generated": 37,
+    "accepted": 28,
+    "rejected": 9,
+    "parentCandidates": 4,
+    "fitRule": "Sampled full transverse ribbons with 16-direction 2-unit margin; not exact continuous containment.",
+    "scope": "Frozen P106 geometry; structural ink ablation only, visual and ribbon integrity review pending."
+  },
+  "scope": "Initial diagnosticablation only; no continuouscontainment or artisticverdict.",
+  "capture": {
+    "actualPixels": [
+      1440,
+      960
+    ],
+    "domViewport": [
+      1440,
+      960
+    ],
+    "dpr": 1,
+    "sha256": "eb8375a6a1df979af93bb5d7a58a59897e54ee1604accd3861be4789d6084474"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "P108",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "reject_diagnostic_layer",
+  "findings": [
+    "Repeated C-shapedstamps stacked inrows do notarticulate coherent parent/childcontours; blankcap/hooks unchanged.",
+    "Rejects testedcontainmentselectedfield only, notstructuralinkgenerally orP098pairedcontourgain.",
+    "Sampledcontainment/acceptedribbons notartisticvalue; nointegritychecksearned."
+  ],
+  "nextAction": "Archivewithoutdensity/orientation/size rescue.",
+  "estimatedTokens": 650,
+  "actualTokens": null
+}

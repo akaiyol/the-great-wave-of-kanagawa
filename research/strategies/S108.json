@@ -1,0 +1,55 @@
+{
+  "id": "S108",
+  "targetPhase": "P108",
+  "policyVersion": "v2",
+  "family": "structural-ink-ablation",
+  "hypothesis": "Source-role interior contour geometry adds meaningful woodblock contour-language structure on a frozen foam body, while leaving known silhouette defects unchanged.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Diagnostic frozenlayer ablation differsfromrepair/adoption; positive result cannotinvalidatepriorgeometryrejections.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P108-structural-ink-ablation.md",
+      "claim": "Unchangedanatomy,toggle and retainedP098contourconstruction.",
+      "sha256": "002f6022d9eab2ce59b56be161a1f126c82e4f9ec24f797b6f8cd9c4e81f5ec2"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P091/visual-review.json",
+      "claim": "Earliermarks became decoration; localhood doesnotestablishwholefieldgrammar.",
+      "sha256": "d9ff1874f3bb9075f68469dd20ad94becf67102748ac39e1d3ba03930b0329fd"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Surfaceanchored completecontained openribbons onfrozen geometry, notanother silhouette/supportrepair; knownocclusions remainnegativecontrol.",
+    "evidence": [
+      {
+        "path": "research/proposals/P108-structural-ink-ablation.md",
+        "sha256": "002f6022d9eab2ce59b56be161a1f126c82e4f9ec24f797b6f8cd9c4e81f5ec2"
+      },
+      {
+        "path": "research/output/agent-phase-2026-11-05/P098/visual-review.json",
+        "sha256": "66422b19a871f3e0650d7cd1dccdd7cd7af70062fd0c7811f513ee2624034fd9"
+      }
+    ]
+  },
+  "unknowns": [
+    "Containmentselected repetition mayreadaspaisley."
+  ],
+  "prediction": {
+    "ifTrue": "Meaningfulsource-related foam articulationimproves.",
+    "ifFalse": "Decorativepattern ondefectiveanatomy."
+  },
+  "test": {
+    "action": "One matchedP106/candidate/source comparison.",
+    "success": "Localinkgain only, subjecttoinvariance/containmentchecks.",
+    "failure": "Noinkgain orpattern:archivewithouttuning.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 900,
+  "actualTokens": null
+}
