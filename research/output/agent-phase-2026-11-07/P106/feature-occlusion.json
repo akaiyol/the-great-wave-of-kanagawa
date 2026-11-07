@@ -1,0 +1,122 @@
+{
+  "phase": "P106",
+  "scope": "Narrow explanatory featurecoverage probe after failed native view; not unionvalidity or artisticpass.",
+  "results": [
+    {
+      "group": 0,
+      "features": {
+        "A": {
+          "point": [
+            561.8775558003522,
+            127.84656320256818
+          ],
+          "coveredByOtherFoam": []
+        },
+        "B": {
+          "point": [
+            540.8928354431366,
+            162.61312408760347
+          ],
+          "coveredByOtherFoam": [
+            "support-sheet"
+          ]
+        },
+        "C": {
+          "point": [
+            506.45390638207016,
+            163.61012786654047
+          ],
+          "coveredByOtherFoam": [
+            "support-sheet"
+          ]
+        }
+      }
+    },
+    {
+      "group": 1,
+      "features": {
+        "A": {
+          "point": [
+            605.4053320099368,
+            191.90921491832728
+          ],
+          "coveredByOtherFoam": []
+        },
+        "B": {
+          "point": [
+            586.1831928697499,
+            221.03153541418473
+          ],
+          "coveredByOtherFoam": [
+            "support-sheet"
+          ]
+        },
+        "C": {
+          "point": [
+            556.7429171925768,
+            221.8832842737923
+          ],
+          "coveredByOtherFoam": [
+            "support-sheet"
+          ]
+        }
+      }
+    },
+    {
+      "group": 2,
+      "features": {
+        "A": {
+          "point": [
+            653.1710056251871,
+            255.4871609026988
+          ],
+          "coveredByOtherFoam": []
+        },
+        "B": {
+          "point": [
+            633.7252276453138,
+            282.33768602065726
+          ],
+          "coveredByOtherFoam": [
+            "support-sheet"
+          ]
+        },
+        "C": {
+          "point": [
+            605.6650662501253,
+            283.1566564919494
+          ],
+          "coveredByOtherFoam": [
+            "support-sheet"
+          ]
+        }
+      }
+    },
+    {
+      "group": 3,
+      "features": {
+        "A": {
+          "point": [
+            690.3049106343389,
+            316.4610669863184
+          ],
+          "coveredByOtherFoam": []
+        },
+        "B": {
+          "point": [
+            671.2958542258332,
+            347.05865793218203
+          ],
+          "coveredByOtherFoam": []
+        },
+        "C": {
+          "point": [
+            643.1043811271669,
+            347.9208247106951
+          ],
+          "coveredByOtherFoam": []
+        }
+      }
+    }
+  ]
+}

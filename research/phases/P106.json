@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P106",
+  "objective": "Test a new overlapping component-field foam construction at native wholeview.",
+  "hypothesis": "Overlapping generated parent components and opaque support-sheet fills yield a coherent exposed foam mass without the traversing connectors of a single contour walk.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P103 traversing contour rejected; P104 limited opaqueoverlap renderingproof retained.",
+  "artifactTarget": "research/woodblock/component-field.mjs",
+  "plannedTokens": 8000,
+  "family": "opaque-component-field",
+  "strategyReview": "research/strategies/S106.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Research-only newcomponentassembly; preserve P099/P098, nativefirst rejection, no galleryintegration or topologyclaim from opaqueappearance.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-07T16:47:57.763Z",
+  "result": {
+    "id": "P106",
+    "summary": "Seam suppression transfers to displayed curvedcomponents, but artwork rejected: support/neighborfills hide B/C in firstthreegroups (narrow geometryprobe); repeatedhooks/blankcap remain. No union/connectivity/skyaccess acceptance or appadoption.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/woodblock/component-field.mjs",
+      "research/output/agent-phase-2026-11-07/P106/receipt.json",
+      "research/output/agent-phase-2026-11-07/P106/candidate-721-native.jpg",
+      "research/output/agent-phase-2026-11-07/P106/feature-occlusion.json",
+      "research/output/agent-phase-2026-11-07/P106/visual-review.json"
+    ],
+    "nextAction": "Preserve orderedpainting observation separately. Any new support construction must preserve exposed features and skyvoids after whole composition; no P106spacing/overlap rescue.",
+    "estimatedWorkTokens": 8200
+  },
+  "review": {
+    "id": "P106",
+    "findings": [
+      "Independentnativeview rejected anatomy while retaining only seamappearance. This separates a useful renderingmechanism from failedmassconstruction.",
+      "Root interfacecoverage was insufficient: narrowprobe found B/C buried in firstthreegroups. Lead owns overbroad supportenvelope; no clean falsification of allcomponentmethods.",
+      "Estimated8200work exceeds7600allocation; strategy1000,worker2400,visual700,lead4100. Actualtelemetryunknown, no efficiencyclaim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep orderedpainting observation with curvedrender scope only.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P106/visual-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Archive supportenvelope that occludes fork anatomy; require materiallychanged support/void premise for retry.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P106/feature-occlusion.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Construct a supportregion with explicit protectedsky/cove constraints instead of an envelope acrossroots.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 8200,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 8600,
+    "estimatedWorkOverrun": 600,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 600
+  },
+  "resultAt": "2026-11-07T16:51:27.454Z",
+  "closedAt": "2026-11-07T16:51:27.486Z"
+}

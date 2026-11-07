@@ -1,0 +1,16 @@
+{
+  "id": "P106",
+  "summary": "Seam suppression transfers to displayed curvedcomponents, but artwork rejected: support/neighborfills hide B/C in firstthreegroups (narrow geometryprobe); repeatedhooks/blankcap remain. No union/connectivity/skyaccess acceptance or appadoption.",
+  "artifactDelivered": true,
+  "technicalVerdict": "incomplete",
+  "artisticVerdict": "fail",
+  "evidence": [
+    "research/woodblock/component-field.mjs",
+    "research/output/agent-phase-2026-11-07/P106/receipt.json",
+    "research/output/agent-phase-2026-11-07/P106/candidate-721-native.jpg",
+    "research/output/agent-phase-2026-11-07/P106/feature-occlusion.json",
+    "research/output/agent-phase-2026-11-07/P106/visual-review.json"
+  ],
+  "nextAction": "Preserve orderedpainting observation separately. Any new support construction must preserve exposed features and skyvoids after whole composition; no P106spacing/overlap rescue.",
+  "estimatedWorkTokens": 8200
+}

@@ -1,0 +1,55 @@
+{
+  "id": "S106",
+  "targetPhase": "P106",
+  "policyVersion": "v2",
+  "family": "opaque-component-field",
+  "hypothesis": "Overlapping generated parent components and opaque support-sheet fills yield a coherent exposed foam mass without the traversing connectors of a single contour walk.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Overlapping fills materially change assembly; rectangle evidence supports bounded curvedtest only.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P106-component-field.md",
+      "claim": "Closedcomponents overlap explicitsupport; orderedpainting replaces traversingconnectors.",
+      "sha256": "e8578078948a110ec3aea6e818cfc4260659b86775907311f2e1d461b23285e7"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-06/P103/visual-review.json",
+      "claim": "Repeatedfrills/blankcap failed independently ofconnectorvalidity.",
+      "sha256": "8ad7924db97718180220e5a5ae8a27aefe75face659f7f397bc3cf83e2ba8bcd"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Use separate simpleoverlappingcomponents, not one contourwalk or P103SVG repair.",
+    "evidence": [
+      {
+        "path": "research/proposals/P106-component-field.md",
+        "sha256": "e8578078948a110ec3aea6e818cfc4260659b86775907311f2e1d461b23285e7"
+      },
+      {
+        "path": "research/output/agent-phase-2026-11-07/P104/checks.json",
+        "sha256": "25d665e5d37d4dcd4aa6cbbfa632f8387b7c54e920b1b32003e9a646c5029318"
+      }
+    ]
+  },
+  "unknowns": [
+    "Curvedjunctionfringes,unionconnectivity and meaningfulfrothhierarchy."
+  ],
+  "prediction": {
+    "ifTrue": "Hidden rootedges permit coherentconnectedreturns.",
+    "ifFalse": "Fringes,comb or blankcap persists."
+  },
+  "test": {
+    "action": "One nativewholeview, inspectablecomponents and actualnonzero overlaps.",
+    "success": "Visibleconnectedmassgain withoutseams; earn topology/supportchecks only.",
+    "failure": "Seams,comb or negligiblenamegain:stopwithouttuning.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 1000,
+  "actualTokens": null
+}

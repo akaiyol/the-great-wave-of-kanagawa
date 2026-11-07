@@ -15,11 +15,12 @@
     {
       "id": "evaluation.scope-inflation",
       "status": "retained",
-      "lesson": "Simple polygons, hashes and local attachment passes do not establish whole-crest anatomy, source style or perceptual uniqueness.",
+      "lesson": "Simple polygons, hashes and local attachment passes do not establish whole-crest anatomy, source style or perceptual uniqueness. Opaque component unions may hide generated tips: P106 covered B/C in three of four groups.",
       "evidence": [
-        "research/output/procedural-wave-2026-10-30/W064/receipt.json"
+        "research/output/procedural-wave-2026-10-30/W064/receipt.json",
+        "research/output/agent-phase-2026-11-07/P106/feature-occlusion.json"
       ],
-      "reentryCondition": "Inspect the claimed whole scope at native scale against the canonical scan."
+      "reentryCondition": "Inspect the claimed whole scope at native scale against the canonical scan. For component-field retries, preserve subordinate exposure and open sky routes after composition, not only local topology or root overlap."
     },
     {
       "id": "geometry.fixed-fork-prong",

@@ -1,0 +1,31 @@
+{
+  "phase": "P106",
+  "seed": 721,
+  "declaredViewport": [
+    1440,
+    960
+  ],
+  "sourceHashes": {
+    "research/woodblock/component-field.mjs": "c3f1ecbb2742201d7c4f49611d4cdb9707d0a5dca4355931448f175fb0b04ae2",
+    "research/woodblock/component-field.html": "e908d0a831f191f1fe7cd389c57b040716ffc40b0d8a1a792dd7d70d26d79c00",
+    "research/woodblock/measured-fork.mjs": "f50e0b48e5a4a771f8adaa2ca8e65725fce05e825b0f7f3260718f576b1f3cea",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "diagnostics": {
+    "finite": true,
+    "scope": "Initial finite check only; component simplicity, union support, corridor coverage and native visual comparison unverified."
+  },
+  "scope": "Nativefirstview; no union/connectivity/anatomy verdict.",
+  "capture": {
+    "actualPixels": [
+      1440,
+      960
+    ],
+    "domViewport": [
+      1440,
+      960
+    ],
+    "dpr": 1,
+    "sha256": "81a45e60cc16126587f39706b7fcad3285dd9d00dcf17e4b8c9a2af61113e096"
+  }
+}
