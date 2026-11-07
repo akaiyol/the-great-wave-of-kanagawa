@@ -1,0 +1,15 @@
+{
+  "id": "P104",
+  "summary": "Ordered strokes-before-opaque-fills suppresses overlap seam in two rendered rectangles; exterior ink remains in211 noncorner samples. Scoped rendering mechanism only, not geometricunion or wave/anatomy acceptance.",
+  "artifactDelivered": true,
+  "technicalVerdict": "pass",
+  "artisticVerdict": "not_applicable",
+  "evidence": [
+    "research/woodblock/ordered-fill-test.html",
+    "research/output/agent-phase-2026-11-07/P104/render.jpg",
+    "research/output/agent-phase-2026-11-07/P104/comparison.png",
+    "research/output/agent-phase-2026-11-07/P104/checks.json"
+  ],
+  "nextAction": "A new component-field assembly may test this mechanism on generated curved foam; do not repair or promote P103.",
+  "estimatedWorkTokens": 2800
+}

@@ -1,0 +1,76 @@
+{
+  "phase": "P104",
+  "domViewport": [
+    1280,
+    720
+  ],
+  "domDpr": 2,
+  "actualCapturePixels": [
+    1280,
+    720
+  ],
+  "captureEncoding": "JPEG",
+  "pixelMapping": "Screenshot delivered CSS-sized raster; coordinates scaled from actual capture size, not assumed DPR.",
+  "colorMethod": "Nearest of three declared colors; screenshotJPEG has compression, so exact RGB equality is inappropriate.",
+  "sourceSha256": "1a98ec179f916719f9d74087b8a05db17e812c83d017a1cdf981e094f3748dbd",
+  "pixelWitnesses": [
+    {
+      "panel": 1,
+      "overlapRgb": [
+        43,
+        70,
+        97
+      ],
+      "overlapClass": "ink",
+      "exteriorRgb": [
+        42,
+        70,
+        91
+      ],
+      "exteriorClass": "ink"
+    },
+    {
+      "panel": 2,
+      "overlapRgb": [
+        238,
+        236,
+        215
+      ],
+      "overlapClass": "ivory",
+      "exteriorRgb": [
+        43,
+        72,
+        90
+      ],
+      "exteriorClass": "ink"
+    },
+    {
+      "panel": 3,
+      "overlapRgb": [
+        238,
+        236,
+        215
+      ],
+      "overlapClass": "ivory",
+      "exteriorRgb": [
+        230,
+        224,
+        202
+      ],
+      "exteriorClass": "background"
+    }
+  ],
+  "sampledExterior": {
+    "count": 211,
+    "pass": true,
+    "offsetCssPixels": 2,
+    "excludesCorners": true
+  },
+  "verdict": "pass_limited_mechanism",
+  "limits": [
+    "Two axis-aligned overlapping opaque rectangles only.",
+    "Exterior ink is outward half of centered stroke; apparent thickness changes.",
+    "Compression and CSS-resolution capture limit pixel precision.",
+    "No curved-root fringes, geometricunion, sourceanatomy, connectivity or wave integration established."
+  ]
+}

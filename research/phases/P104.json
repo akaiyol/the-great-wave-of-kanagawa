@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "P104",
+  "objective": "Test ordered opaque rendering passes on two overlapping polygons without modifying wave art.",
+  "hypothesis": "Painting all component outlines before all opaque fills suppresses interior overlap seams while retaining an exposed exterior contour.",
+  "failureIds": [
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "Per-component filled/stroked overlapping polygons retain an internal seam; fills-only has no outline.",
+  "artifactTarget": "research/woodblock/ordered-fill-test.html",
+  "plannedTokens": 2500,
+  "family": "ordered-fill-union-mechanism",
+  "strategyReview": "research/strategies/S104.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No wave edits or geometricunion/sourceanatomy claim. One small mechanism proof before another art construction.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 2375,
+    "reviewTokens": 125
+  },
+  "startedAt": "2026-11-07T16:43:35.983Z",
+  "result": {
+    "id": "P104",
+    "summary": "Ordered strokes-before-opaque-fills suppresses overlap seam in two rendered rectangles; exterior ink remains in211 noncorner samples. Scoped rendering mechanism only, not geometricunion or wave/anatomy acceptance.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/ordered-fill-test.html",
+      "research/output/agent-phase-2026-11-07/P104/render.jpg",
+      "research/output/agent-phase-2026-11-07/P104/comparison.png",
+      "research/output/agent-phase-2026-11-07/P104/checks.json"
+    ],
+    "nextAction": "A new component-field assembly may test this mechanism on generated curved foam; do not repair or promote P103.",
+    "estimatedWorkTokens": 2800
+  },
+  "review": {
+    "id": "P104",
+    "findings": [
+      "A small deterministic rendered comparison discriminated per-component seams from orderedpass appearance; no artacceptance implied.",
+      "Initial exactRGB assertion failed because browser screenshot was compressedJPEG atCSSresolution despiteDOMDPR2. Recorded actualencoding/dimensions and used declarednearest-colorclassification; no silentprecisionclaim.",
+      "Work2800roughestimate exceeds2375allocation. Keep subsequentmechanismclaims bounded; rootcapture/checkwork dominated trivialHTML implementation."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Retain orderedpass mechanism for opaqueoverlap appearance only, with halfstroke/corner/geometrylimits.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P104/checks.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Test genuinely different componentfield construction with curvedparent roots; nativewholeview before anatomyclaim.",
+    "estimatedReviewTokens": 125
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 2800,
+    "estimatedReviewTokens": 125,
+    "estimatedTotalTokens": 2925,
+    "estimatedWorkOverrun": 425,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 425
+  },
+  "resultAt": "2026-11-07T16:46:22.317Z",
+  "closedAt": "2026-11-07T16:46:22.355Z"
+}

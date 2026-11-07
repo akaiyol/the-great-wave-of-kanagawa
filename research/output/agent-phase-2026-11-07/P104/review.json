@@ -1,0 +1,19 @@
+{
+  "id": "P104",
+  "findings": [
+    "A small deterministic rendered comparison discriminated per-component seams from orderedpass appearance; no artacceptance implied.",
+    "Initial exactRGB assertion failed because browser screenshot was compressedJPEG atCSSresolution despiteDOMDPR2. Recorded actualencoding/dimensions and used declarednearest-colorclassification; no silentprecisionclaim.",
+    "Work2800roughestimate exceeds2375allocation. Keep subsequentmechanismclaims bounded; rootcapture/checkwork dominated trivialHTML implementation."
+  ],
+  "actions": [
+    {
+      "decision": "retain",
+      "summary": "Retain orderedpass mechanism for opaqueoverlap appearance only, with halfstroke/corner/geometrylimits.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-07/P104/checks.json"
+      ]
+    }
+  ],
+  "nextImprovement": "Test genuinely different componentfield construction with curvedparent roots; nativewholeview before anatomyclaim.",
+  "estimatedReviewTokens": 125
+}

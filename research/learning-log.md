@@ -73,3 +73,9 @@ Change: archive the pointed cap without branch/detail rescue; the next hypothesi
 P103's independent evaluator rejected crossing connector lines and repeated frills; shared root references had not established a valid exposed boundary. Daphnie owns that assembly assumption. The evaluator also correctly deferred the initial underdefined water/support proposal before construction. Evidence: [P103](phases/P103.json), [S103](strategies/S103.json).
 
 Proposed next mechanism: drawing all outlines before all opaque fills may hide internal overlap seams. W3C's [SVG2 painting specification](https://www.w3.org/TR/SVG2/painting.html#PaintOrder), accessed2026-11-06, explains paint operations; Daphnie proposed the cross-component transfer. [P104](proposals/P104-union-paint.md) is independently reviewed but untested. It does not establish geometric union, support validity or better artwork. No P103 repair is authorized by this proposal.
+
+## L010 — Configured continuation is not observed delivery
+
+Owner requested five-hour allowance checks on2026-11-07. Host scheduling is configured; [P105](phases/P105.json) verifies saved configuration and the synchronized README diagram, not future wake or a concurrency lock. The independent reviewer caught a stale90% policy paragraph and an overstated runtime claim; Daphnie owns both faults and applied the corrections.
+
+L009's proposed ordered-pass mechanism now has a limited rendered result in [P104](phases/P104.json): two opaque overlapping rectangles, not geometricunion or wave acceptance. Daphnie's transfer from SVG painting order remains unproven on curved foam.
