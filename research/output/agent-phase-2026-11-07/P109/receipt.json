@@ -1,0 +1,49 @@
+{
+  "phase": "P109",
+  "seed": 721,
+  "declaredViewport": [
+    1440,
+    960
+  ],
+  "sourceHashes": {
+    "research/woodblock/dual-region.mjs": "643e00758b6f340d4428e289621b280807a746bfd0b565912a02e7d12e2defd5",
+    "research/woodblock/dual-region.html": "f3bacb877c8c95c1f1125156909919d4b99762767982b00bc7329af2a4fe6779",
+    "research/woodblock/component-field.mjs": "c3f1ecbb2742201d7c4f49611d4cdb9707d0a5dca4355931448f175fb0b04ae2",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  },
+  "diagnostics": {
+    "finite": true,
+    "laneCount": 6,
+    "laneRoots": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "veinRoots": [
+      false,
+      false
+    ],
+    "veinTips": [
+      false,
+      false
+    ],
+    "scope": "Frozen exterior; local sampled witnesses only. Failed roots retained without rescue; native review and topology checks pending."
+  },
+  "scope": "Initial regionaltest; boundary-centered probes fail, joinarea unresolved, no artisticclaim.",
+  "capture": {
+    "actualPixels": [
+      1440,
+      960
+    ],
+    "domViewport": [
+      1440,
+      960
+    ],
+    "dpr": 1,
+    "sha256": "9a19d5c33c510bce73bf2e6cabdf45dd8aac42cb4eb53c756da200c9c96b21f7"
+  },
+  "witnessInterpretation": "Raw probes centered on flat root/end closures straddle componentboundary; false flags alone do not establish disconnection. No repair/checks earned by failed visualview."
+}

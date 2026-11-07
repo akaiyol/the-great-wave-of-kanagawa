@@ -1,0 +1,56 @@
+{
+  "id": "S109",
+  "targetPhase": "P109",
+  "policyVersion": "v2",
+  "family": "dual-region-water-lanes",
+  "hypothesis": "Body-connected water lanes and attached pale veins create meaningful source-related interlock and flow hierarchy within a frozen exterior mass.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "One regionaldiagnostic with explicit connectedroots/cubiclanes/paleveins.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P109-dual-region-lanes.md",
+      "claim": "Actualrootwitnesses and explicit regionalconstruction.",
+      "sha256": "1b48361fdf5dbccbf1c6f76fd69487c5d1882cca8ec7ccd803e542ba87c227cc"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-04/P089/visual-review.json",
+      "claim": "Earlierwaterconstruction lackedreadablehierarchy.",
+      "sha256": "c847cf6af5cf50f3bb2e59a276d133540ab35ecb3bc53fa6fd63fbdbfb83254f"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-07/P108/visual-review.json",
+      "claim": "Repetition mayremain decorative.",
+      "sha256": "af93be69d362a6538f47960241c639d14e55eb4668e2ea862bd0a42ec1e97d82"
+    }
+  ],
+  "changedPremise": {
+    "summary": "Generate actualconnectedwater/foamregions instead ofindependentinkstamps orre-spacingexposedparents.",
+    "evidence": [
+      {
+        "path": "research/proposals/P109-dual-region-lanes.md",
+        "sha256": "1b48361fdf5dbccbf1c6f76fd69487c5d1882cca8ec7ccd803e542ba87c227cc"
+      }
+    ]
+  },
+  "unknowns": [
+    "Source-rolecorrectness doesnotvalidate laneproportions."
+  ],
+  "prediction": {
+    "ifTrue": "Interlockingregions improve meaningfully.",
+    "ifFalse": "Parallelpipes/ribs/antlersor negligiblegain."
+  },
+  "test": {
+    "action": "One matchedP106/source view with actualrootwitnesses.",
+    "success": "Meaningfulregionalgain earnsaffectedchecks only.",
+    "failure": "Pipes/antlers/negligiblegain:stopwithouttuning.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 1000,
+  "actualTokens": null
+}
