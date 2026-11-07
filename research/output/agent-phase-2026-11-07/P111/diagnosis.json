@@ -1,0 +1,30 @@
+{
+  "phase": "P111",
+  "failureId": "runtime.reset-clock-mismatch",
+  "observedHeartbeatPayload": "2026-11-07T21:36:13.387Z",
+  "reportedResetAt": "2026-11-07T21:38:29Z",
+  "usageAtCheck": {
+    "shortUsedPercent": 100,
+    "weeklyUsedPercent": 24
+  },
+  "oldBehavior": "Skipped exhausted check without reset-aligned retry.",
+  "cause": "Independent fixed recurrence and account reset clocks; no recovery scheduling branch.",
+  "attribution": {
+    "identifiedBy": "owner",
+    "configurationFault": "Daphnie"
+  },
+  "canary": {
+    "id": "wave-reset-retry-delivery-test",
+    "targetUTC": "2026-11-07T23:30:00Z",
+    "utcRuleAccepted": true,
+    "localHourRuleRejected": true,
+    "deliveryObserved": false,
+    "initialTargetUTC": "2026-11-07T23:24:00Z",
+    "initialDeliveryObservedDuringActiveRun": false,
+    "reasonMoved": "Allow current repair run to finish; no claim that active run caused lack of observed delivery."
+  },
+  "scope": "Configuration and pure planning are separate from actual future delivery; no enforced overlap lock.",
+  "usageCheckCompletedAt": "2026-11-07T21:36:22.004Z",
+  "secondsUntilReportedReset": 127,
+  "source": "Current chat event timestamps and usage tool result; raw session/account data excluded."
+}

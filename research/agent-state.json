@@ -7,8 +7,8 @@
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "P099 water-hierarchy.html globalwater checkpoint; P098 ink-parent.html localparent; P110 source-head.html localW/F/S interface only.",
   "retainedCandidate": "P099water/P098localparent plusP110seed721 localW/F/S gain withaffectedchecks. Broadblankcap/regularhooks/otherocclusions unresolved; noacceptedproceduralart orvariety. P079gallery/rootapp unchanged.",
-  "currentPhase": "P110",
-  "currentPhaseRecord": "research/phases/P110.json",
+  "currentPhase": "P111",
+  "currentPhaseRecord": "research/phases/P111.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -21,7 +21,7 @@
     "stopRemainingPercent": 0,
     "noPurchaseResetOrWaitingForReset": true
   },
-  "continuationGoal": "Owner-authorized scheduled continuation with actual account checks; runtime delivery unproven.",
+  "continuationGoal": "Full-allowance useful work with five-hour primary check and reset-aware recovery; no quota-spending target.",
   "strategyPolicy": {
     "enabled": true,
     "version": 1,
@@ -58,16 +58,18 @@
   "runHeadroomPlan": {
     "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "Incremental pre-exhaustion checkpoint; observed94%shortwindow/23%weekly beforepublication. P110localgain retained, accountfull-allowance authorization and5hourhostcheck remain active.",
+  "checkpointReason": "P111 repairs missed reset recovery; actual finite delivery pending, project artwork unchanged.",
   "scheduledContinuation": {
     "id": "wave-project-five-hour-continuation",
     "intervalHours": 5,
     "status": "ACTIVE",
     "execution": "local heartbeat in current chat",
-    "verified": "Saved configuration inspected2026-11-07; actual scheduled delivery unproven.",
+    "verified": "Primary delivery observed21:36:13Z; P111 primary prompt updated and saved config verified. Finite reset retry delivery pending canary; no future reliability claim.",
     "limitations": [
       "Computer/app must be available.",
       "Prompt requests overlap avoidance; no enforced lock verified."
-    ]
+    ],
+    "resetRetryPolicy": "research/continuation.md",
+    "canaryId": "wave-reset-retry-delivery-test"
   }
 }

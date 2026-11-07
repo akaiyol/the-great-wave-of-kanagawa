@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P111",
+  "objective": "Repair missed allowance-reset continuation without changing artwork.",
+  "hypothesis": "A finite retry after the reported reset closes the early-check gap without permanent short polling.",
+  "failureIds": [
+    "runtime.reset-clock-mismatch"
+  ],
+  "baseline": "Five-hour heartbeat checked before reset and returned without scheduling a retry. Diagnosis/configuration canary bootstrap occurred before phase; charged as setup.",
+  "artifactTarget": "scripts/continuation-plan.mjs",
+  "plannedTokens": 8000,
+  "family": "reset-aware-continuation",
+  "strategyReview": "research/strategies/S111.json",
+  "goalIds": [
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No art geometry or goal criteria changes; bound repair effort, preserve retained P110 gain.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-07T23:19:49.679Z",
+  "result": {
+    "id": "P111",
+    "summary": "Fixed skip-only continuation configuration: nominal5h primary now plans finite reset retry and proactive98% arming. Twelve planner tests pass; independent horizon correction applied. Finite UTC rule accepted and saved; actual canary delivery remains pending, so runtime timing is not yet accepted. ART unchanged.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "scripts/continuation-plan.mjs",
+      "research/output/agent-phase-2026-11-07/P111/diagnosis.json",
+      "research/output/agent-phase-2026-11-07/P111/tests.json",
+      "research/output/agent-phase-2026-11-07/P111/configuration.json",
+      "research/output/agent-phase-2026-11-07/P111/independent-review.json",
+      "research/continuation.md"
+    ],
+    "nextAction": "Confirm finite canary delivery; keep configuration distinct from runtime proof. Preserve P110 ART scope and resume current source-matched experiment when no run active and allowance available.",
+    "estimatedWorkTokens": 12500
+  },
+  "review": {
+    "id": "P111",
+    "findings": [
+      "Daphnie owns fixed-cadence/no-retry fault; owner identified it. Primary delivery and reset availability verified separately. Finite calendar delivery remains pending; do not claim punctual recovery.",
+      "Independent challenge caught year-less-rule ambiguity. Eight-day horizon regression passes; no art/model changes. Initial local-hour rule rejected and UTC rule accepted; host semantics need live evidence.",
+      "Estimated work12500 includes diagnosis/bootstrap, worker1700, independent reviews3600 and integration. Exceeds7600work budget; actual telemetry unavailable. Avoid expanding scheduler repair into infrastructure."
+    ],
+    "actions": [
+      {
+        "decision": "change",
+        "summary": "Keep nominal cadence plus finite recovery, fail closed on stale/unknown/far-future reset.",
+        "evidence": [
+          "research/continuation.md",
+          "research/output/agent-phase-2026-11-07/P111/tests.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep actual delivery and overlap limits explicit; no runtime reliability acceptance yet.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P111/configuration.json",
+          "research/output/agent-phase-2026-11-07/P111/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Observe canary after this active run; if not delivered, diagnose host scheduling before claiming fix complete. Resume ART without more scheduler machinery once recovery validated.",
+    "estimatedReviewTokens": 600
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 12500,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 13100,
+    "estimatedWorkOverrun": 4900,
+    "estimatedReviewOverrun": 200,
+    "estimatedTotalOverrun": 5100
+  },
+  "resultAt": "2026-11-07T23:25:28.583Z",
+  "closedAt": "2026-11-07T23:25:28.618Z"
+}

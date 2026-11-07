@@ -1,0 +1,12 @@
+{
+  "id": "wave-project-five-hour-continuation",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "rrule": "FREQ=HOURLY;INTERVAL=5",
+  "savedPromptVerified": true,
+  "targetSameChat": true,
+  "resetRetryBranch": true,
+  "proactive98Percent": true,
+  "stalePhaseRemoved": true,
+  "futureDeliveryProven": false
+}

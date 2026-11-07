@@ -91,3 +91,9 @@ L009's proposed ordered-pass mechanism now has a limited rendered result in [P10
 The independent evaluator acknowledged that recent preflights weighted executable boundedness more than prospective artistic value. Daphnie owns the proposed recipes. [P110](phases/P110.json) instead matched the canonical water/foam/sky relationship: S had been incorrectly filled in the prior model. A planned profile over the reference led to a locally retained, checked interface gain. This provisionally supports source-matched task selection; it does not establish efficiency or whole-art success.
 
 Daphnie also corrected an extra W probe that tested outside the declared source route, with identical rendered geometry, and fixed an incremental publication that briefly omitted matching state/control pointers. Initial evidence and limitations remain in the phase.
+
+## L013 — A usage reset is not a scheduler tick
+
+The owner identified the missed continuation. Daphnie configured a fixed five-hour heartbeat that checked127seconds before the reported reset and returned without scheduling recovery. The heartbeat fired; the allowance later became available. Fault ID: `runtime.reset-clock-mismatch`. [P111](phases/P111.json) adds a pure reset planner, a finite retry branch and proactive pre-exhaustion arming; the primary cadence remains unchanged.
+
+The independent evaluator caught a year-less calendar-rule fault; Daphnie added an eight-day reset horizon and regression. Twelve planner checks pass. Saved scheduler configuration does not prove future delivery: the finite canary remains separately tracked. Retry the old skip-only design only if the host supplies a verified reset-triggered wake. Source: [official scheduling documentation](https://learn.chatgpt.com/docs/automations); mechanism transfer is Daphnie's, not an OpenAI reliability guarantee. No art, goal criteria or role models changed.

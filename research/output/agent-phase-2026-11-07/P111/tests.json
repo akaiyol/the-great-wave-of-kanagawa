@@ -1,0 +1,13 @@
+{
+  "command": "node --test scripts/continuation-plan.test.mjs",
+  "passed": 12,
+  "failed": 0,
+  "scope": "Pure planner, not host scheduling delivery.",
+  "observedCase": {
+    "now": 1794087382,
+    "reset": 1794087509,
+    "retry": 1794087600
+  },
+  "rawAccountDataStored": false,
+  "reviewerCorrection": "Independent evaluator found year-less calendar rule could match earlier year for far-future reset. Reject blocking resets beyond eight days; regression passes."
+}

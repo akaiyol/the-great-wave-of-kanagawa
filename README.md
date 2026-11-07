@@ -14,7 +14,7 @@ Both project goals have equal priority.
 Daphnie, the lead, owns delivery, decisions and documentation. Her personality and judgment are separate from project goals and context. Strategy and visual review use the existing independent evaluator; a worker handles defined patches and a researcher resolves exact blockers. One child runs at a time.
 
 <!-- architecture:start -->
-<!-- Reviewed architecture inputs: ee979188600a00bb3e8d4bb6468067937210be13e3278a0600749fb158dfb7f9 -->
+<!-- Reviewed architecture inputs: b87f686d0e4c26600017367b7c375293f313a2172b1c808dddbb4c6a5a9c6d8f -->
 ```mermaid
 flowchart TD
   n_Core["Core: personality + judgment"]
@@ -30,6 +30,7 @@ flowchart TD
   n_Learning["Relevant lessons + readings"]
   n_Runtime["Host check: every 5 hours"]
   n_Checkpoint["Allowance + active run check"]
+  n_ResetRetry["One finite retry after allowance reset"]
   n_Core --> n_Lead
   n_Goals --> n_Lead
   n_Lead -->|"Exact blocker"| n_Research
@@ -47,6 +48,9 @@ flowchart TD
   n_Runtime --> n_Checkpoint
   n_Checkpoint -->|"Available; no active run"| n_Lead
   n_Process -->|"Checkpoint before exhaustion"| n_Runtime
+  n_Checkpoint -->|"Exhausted; fresh reset time"| n_ResetRetry
+  n_Process -->|"Arm before exhaustion"| n_ResetRetry
+  n_ResetRetry -->|"Recheck; remove retry"| n_Checkpoint
 ```
 <!-- architecture:end -->
 

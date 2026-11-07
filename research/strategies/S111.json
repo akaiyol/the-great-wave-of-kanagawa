@@ -1,0 +1,42 @@
+{
+  "id": "S111",
+  "targetPhase": "P111",
+  "policyVersion": "v2",
+  "family": "reset-aware-continuation",
+  "hypothesis": "A finite retry after the reported reset closes the early-check gap without permanent short polling.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Independent reviewer permits finite delivery canary, deferring routine calendar retries until observed delivery.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P111-reset-retry.md",
+      "claim": "Observed early exhausted check had no reset retry.",
+      "sha256": "401072e547c58ca9ffa5b57ae1f4803ac6fb2af87b00a7b666db06fa0dc16a4b"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/proposals/P105-reset-continuation.md",
+      "claim": "Configuration was verified but future delivery and overlap exclusion were unproven.",
+      "sha256": "6b5fddfe89e16130716c7d191de21b59836417df61a305e68bc00090170467f3"
+    }
+  ],
+  "unknowns": [
+    "Host date/timezone semantics and future delivery; no enforced concurrency lock verified."
+  ],
+  "prediction": {
+    "ifTrue": "A finite canary arrives at the intended UTC minute; reset retry planning handles both windows.",
+    "ifFalse": "Calendar schedule rejects or delivers outside intended slot; no production calendar retry claim."
+  },
+  "test": {
+    "action": "One finite canary plus pure early-reset/both-window/stale/unknown/busy cases.",
+    "success": "Observed intended canary delivery and passing boundary tests.",
+    "failure": "Stop calendar rollout if canary fails; bounded same-heartbeat fallback only near reset.",
+    "maxWorkTokens": 7000
+  },
+  "estimatedReviewerTokens": 800,
+  "actualTokens": null
+}

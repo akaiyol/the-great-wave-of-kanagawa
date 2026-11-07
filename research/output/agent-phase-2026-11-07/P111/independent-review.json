@@ -1,0 +1,17 @@
+{
+  "phase": "P111",
+  "reviewer": "/root/p087_strategy",
+  "policyVersion": "v2",
+  "verdict": "modify",
+  "finding": "Year-less recurrence can match earlier annual date for far-future reset.",
+  "change": "Reject blocking reset beyond eight days; regression passes.",
+  "otherFindings": [
+    "Latest exhausted reset selection sound.",
+    "Stale/unknown data fail closed.",
+    "Busy avoidance is not mutual exclusion.",
+    "Queued canary cannot establish punctual execution."
+  ],
+  "estimatedTokens": 2800,
+  "actualTokens": null,
+  "deliveryStatus": "pending; no actual finite retry wake confirmed"
+}
