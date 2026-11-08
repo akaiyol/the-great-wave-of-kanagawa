@@ -1,0 +1,47 @@
+{
+  "id": "S115",
+  "targetPhase": "P115",
+  "policyVersion": "v2",
+  "family": "crest-relative-fork-placement",
+  "hypothesis": "Mapping one generated fork relative to the actual cap edge exposes a shared descendant junction without inventing new shape.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Specific documented root-plane mismatch; condition visible shared hierarchy, not additional tip count.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P115-crest-relative-fork.md",
+      "claim": "Changes placement coordinates relative to actual moving cap.",
+      "sha256": "a6344b069dac9b5faaef937a1ad64f5f7bee647527c592577e7e0a8beed030e1"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-07/P106/feature-occlusion.json",
+      "claim": "B0/C0 hidden by support sheet.",
+      "sha256": "1954b3079d06e3a9081f3ada5784e90b6d67d29405d12dc6e4eeabdaa6db62ea"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-07/P106/visual-review.json",
+      "claim": "Fork metadata did not establish visible anatomy; shear may distort.",
+      "sha256": "f5b01333585cf9342fc5816b33f0e4a9320f72abefd9b8fb6560f0ee30876980"
+    }
+  ],
+  "unknowns": [
+    "Visible shared junction, thin normal widths/collisions; C may remain hidden."
+  ],
+  "prediction": {
+    "ifTrue": "Connected subordinate return becomes legible in actual composition.",
+    "ifFalse": "Extra prong count with distortion or collision, no hierarchy."
+  },
+  "test": {
+    "action": "One matched P110/candidate static whole comparison; checks only after meaningful shared-junction gain.",
+    "success": "Source-related hierarchy gain, not just extra tip.",
+    "failure": "Prongs/distortion/collision/no gain; no rescue tuning.",
+    "maxWorkTokens": 3000
+  },
+  "estimatedReviewerTokens": 900,
+  "actualTokens": null
+}

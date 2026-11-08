@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P115",
+  "objective": "Test cap-relative placement of one existing complete generated fork.",
+  "hypothesis": "Mapping one generated fork relative to the actual cap edge exposes a shared descendant junction without inventing new shape.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.upright-water-prongs"
+  ],
+  "baseline": "P110 inherits P106 absolute translated fork with B0/C0 occluded. P113/P114 rejected; no anatomy gain. Selection diagnosis charged.",
+  "artifactTarget": "research/woodblock/crest-relative-fork.mjs",
+  "plannedTokens": 7000,
+  "family": "crest-relative-fork-placement",
+  "strategyReview": "research/strategies/S115.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One placement repair, no new field or workflow, no tip-count success proxy, preserve W/F/S and nonprimary.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-08T00:04:43.642Z",
+  "result": {
+    "id": "P115",
+    "summary": "Rejected cap-relative horizontal shear: additional exposed arm remains thin/pronged, shared fork junction not legible. P110 preserved; no broadchecks or rescue.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-07/P115/receipt.json",
+      "research/output/agent-phase-2026-11-07/P115/visual-review.json",
+      "research/output/agent-phase-2026-11-07/P115/candidate-static-1440x960.png"
+    ],
+    "nextAction": "Drop shear; retain parent geometry. If repairing occlusion, alter enclosing support material rather than distorting already demonstrated fork anatomy.",
+    "estimatedWorkTokens": 8000
+  },
+  "review": {
+    "id": "P115",
+    "findings": [
+      "Daphnie owns horizontal shear proposal; area/horizontalwidth invariants did not preserve normalwidths and visible shape. Workerimplementedcorrectly. Independentreviewer rejected actualarm.",
+      "Exposure alone is no ARTgain. Localparenttopology remains supported separately; no wholeforkfield/nativbrowserclaim.",
+      "Estimated8000work includingprephasediagnosis,strategy900,worker1050,visual450,captures/docs exceeds6650allocation. Actualtelemetryunknown. Three rejected candidates reveal composition/occlusion coupling; no architecture expansion justified."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Drop cap-relative shear without width/pose rescue. FailureID geometry.shear-exposes-prong; reentry requires mechanism preserving parent geometry and changing actual enclosing material.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P115/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep P110 and existing local parent anatomy separate from failed integration.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P110/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Repair support material only if a new open cove can expose unchanged fork and maintain real root/sky continuity.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 8000,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 8350,
+    "estimatedWorkOverrun": 1350,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 1350
+  },
+  "resultAt": "2026-11-08T00:08:59.289Z",
+  "closedAt": "2026-11-08T00:08:59.339Z"
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "P115",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "reject",
+  "findings": [
+    "Additional sideways arm is a narrow prong with angular attachment and pointed cleft.",
+    "No compact shared junction/subordinate fork legible; increased exposure is not anatomical integration."
+  ],
+  "nextAction": "Archivewithoutbroadchecks orwidth/pose/control-pointrescue;preserveP110.",
+  "scope": "Oneforkseed721 QuickLookstaticcomparison, notbrowser/wholeart/variety.",
+  "estimatedTokens": 450,
+  "actualTokens": null
+}

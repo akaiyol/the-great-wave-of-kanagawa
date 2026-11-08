@@ -111,3 +111,7 @@ P111's finite canary actually arrived14.678seconds after its target; its receipt
 ## L016 — A matching source patch can disappear in the composition
 
 [P114](phases/P114.json) used the evaluator's proposed descending pale-region mechanism. The source overlay matched a finite-area tongue, but its placement against P110 exposed only a thin filament. Daphnie owns that placement; the worker implemented the plan. The independent evaluator rejected it at whole-view scale. Failure `geometry.inlet-reduces-to-filament`: no nearby scaling/width rescue; re-entry requires changed coupled-mass representation or composition. Source calibration must account for the current enclosing water, not just an isolated outline. P110 remains retained; neither rejected experiment is an art gain.
+
+## L017 — Exposure is not preserved anatomy
+
+[P115](phases/P115.json) exposed a previously covered arm by horizontal shear, but made it a thin prong. Daphnie owns the mapping; the worker implemented it correctly, and the independent reviewer rejected it. Area/horizontal-width invariants did not preserve the visible shape. Failure `geometry.shear-exposes-prong`: re-entry requires preserving parent anatomy while changing the enclosing support material, not rescuing shear with width/pose edits. P110 remains retained.

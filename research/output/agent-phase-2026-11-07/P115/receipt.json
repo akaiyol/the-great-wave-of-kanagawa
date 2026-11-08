@@ -1,0 +1,22 @@
+{
+  "phase": "P115",
+  "seed": 721,
+  "reference": {
+    "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "unchanged": true
+  },
+  "renderer": "QuickLook staticSVG1440; crop[0,240,1440,1200] from1440square",
+  "DPR": null,
+  "browserVerified": false,
+  "baselineImage": "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png",
+  "files": {
+    "research/woodblock/crest-relative-fork.mjs": "b4b1b3848f6531687f1df1216d840ceb072579c7671d346ca56b1ed4643265c9",
+    "research/woodblock/crest-relative-fork.html": "51d84b6ca041a7d714a3e1fcb9150099dc6550d501a6eca1928392677b47a63b",
+    "research/woodblock/source-head.mjs": "5ca454a363a89666d2037e616f9200f1957890626384ecba299cf7fc16e69bc2",
+    "research/output/agent-phase-2026-11-07/P115/candidate-721.svg": "6596bb5adb5e58615a97c2d51120028637f904a1c0b40b9c22db7913895e56ec",
+    "research/output/agent-phase-2026-11-07/P115/candidate-static-1440x960.png": "d236ce8d758b6e4d232c58c0d7487052558e91ba3af50f5544e005674502d39e",
+    "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png": "00ea326507d01c358c6750ac05b43ad1fae4a636a24350d72c76c052fefe3632"
+  },
+  "scope": "One fork-placement test, not nativebrowser/wholeart/varietyacceptance."
+}
