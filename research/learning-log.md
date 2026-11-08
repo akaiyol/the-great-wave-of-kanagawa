@@ -107,3 +107,7 @@ P111's finite canary actually arrived14.678seconds after its target; its receipt
 ## L015 — Tip positions do not preserve water anatomy
 
 [P113](phases/P113.json) matched several source-related waterhead positions with an interpolated seam, but produced upright prongs and pinched necks. Daphnie owns the approximate profile; the worker implemented it correctly. The independent evaluator rejected the actual shape before affected checks. Failure `geometry.upright-water-prongs`: no nearby knot/width tuning; re-entry requires a changed representation protecting broad water area and descending foam hierarchy with source evidence. P110's local gain remains separate. Same-renderer static SVG comparison caught the failure while browser access was unavailable; no browser or efficiency claim follows.
+
+## L016 — A matching source patch can disappear in the composition
+
+[P114](phases/P114.json) used the evaluator's proposed descending pale-region mechanism. The source overlay matched a finite-area tongue, but its placement against P110 exposed only a thin filament. Daphnie owns that placement; the worker implemented the plan. The independent evaluator rejected it at whole-view scale. Failure `geometry.inlet-reduces-to-filament`: no nearby scaling/width rescue; re-entry requires changed coupled-mass representation or composition. Source calibration must account for the current enclosing water, not just an isolated outline. P110 remains retained; neither rejected experiment is an art gain.

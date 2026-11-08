@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ocean study</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#e6dcc1}main{width:100%;height:100%}svg{display:block;width:100%;height:100%}</style><main id="art"></main><script type="module">
+import{generateFoamInlet}from'./foam-inlet.mjs';
+const q=new URLSearchParams(location.search),raw=q.get('seed'),seed=raw===null?721:/^\d+$/.test(raw)?Number(raw):NaN;
+try{const study=generateFoamInlet(seed);document.querySelector('#art').innerHTML=q.has('baseline')?study.baseline.svg:study.svg;window.foamInlet={ready:true,...study,error:null};}catch(e){window.foamInlet={ready:true,seed,error:e.message};document.querySelector('#art').textContent=e.message;}
+</script></html>

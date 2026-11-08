@@ -1,0 +1,47 @@
+{
+  "id": "S114",
+  "targetPhase": "P114",
+  "policyVersion": "v2",
+  "family": "source-foam-inlet",
+  "hypothesis": "An attached finite-area descending foam inlet improves local source-related interlock while preserving broad surrounding water.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Overlay supports specific pale descent between substantial dark shoulders; stronger prospective anatomy than repeated field.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P114-foam-inlet-overlay.png",
+      "claim": "Unequal flanks and returning toe approximately follow connected source tongue.",
+      "sha256": "e62f79686de0f232deeada0501ad25d79cb309a7410fdaac51adf4f6248d91a0"
+    },
+    {
+      "path": "research/proposals/P114-foam-inlet.md",
+      "claim": "Preserve P110 water mass, overlapping unoutlined root.",
+      "sha256": "9fcb01d5320ff63cb7394355604c314c1f9e6483b292c9fc07aaa926c1a930ec"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-07/P109/visual-review.json",
+      "claim": "Pale interruptions previously failed; source labels alone insufficient.",
+      "sha256": "1365f4340601067d31d369f0ef908e4e7186fddc484b562059fc0485d6ce2c63"
+    }
+  ],
+  "unknowns": [
+    "Actual root overlap, stroke trimming and broad water continuity around toe."
+  ],
+  "prediction": {
+    "ifTrue": "Rooted pale tongue gives local interlock without water stalks.",
+    "ifFalse": "Thin vein, pasted comma or outlined root remains decorative."
+  },
+  "test": {
+    "action": "One matched P110/candidate staticwholeview then source comparison; checks only after visual gain.",
+    "success": "Meaningful local relationship gain with broad enclosing water.",
+    "failure": "Vein/antler/rootseam/negligiblegain archive without tuning.",
+    "maxWorkTokens": 3000
+  },
+  "estimatedReviewerTokens": 1100,
+  "actualTokens": null
+}

@@ -1,0 +1,43 @@
+{
+  "phase": "P114",
+  "seed": 721,
+  "reference": {
+    "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "unchanged": true
+  },
+  "renderer": "macOS QuickLook qlmanage -t -s1440; browser unavailable",
+  "thumbnailSize": [
+    1440,
+    1440
+  ],
+  "viewportCrop": [
+    0,
+    240,
+    1440,
+    1200
+  ],
+  "renderedImageSize": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "baselineImage": "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png",
+  "sourceCrop": [
+    1000,
+    540,
+    1200,
+    750
+  ],
+  "files": {
+    "research/woodblock/foam-inlet.mjs": "9f048f8a3f926c2b251f54361d637ccfa8e978cb1146b071c88c52eae0a2045f",
+    "research/woodblock/foam-inlet.html": "08db9ff2fe569861148e5b424e450fcccd08e4f1ed5a6717695c0bad4596d8da",
+    "research/woodblock/source-head.mjs": "5ca454a363a89666d2037e616f9200f1957890626384ecba299cf7fc16e69bc2",
+    "research/output/agent-phase-2026-11-07/P114/candidate-721.svg": "437eab5b4dd4e33721420e23ee32f94aac468222d5eb4ed33f7e820bfbb63a8a",
+    "research/output/agent-phase-2026-11-07/P114/candidate-static-1440x960.png": "be04f23c5a2e4565121d0b0670b34f3f8f02254fde29506a520c51001dfbb678",
+    "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png": "00ea326507d01c358c6750ac05b43ad1fae4a636a24350d72c76c052fefe3632",
+    "research/output/agent-phase-2026-11-07/P114/source-inlet.png": "1bb1e052a15cb0a7243baf2465f9beb6ec55765b07d68dca5c7186e164bb2377"
+  },
+  "scope": "One source-calibrated inlet; no family/wholeart/browser acceptance."
+}

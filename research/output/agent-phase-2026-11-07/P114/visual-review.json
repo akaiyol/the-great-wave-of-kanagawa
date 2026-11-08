@@ -1,0 +1,15 @@
+{
+  "phase": "P114",
+  "policyVersion": "v2",
+  "reviewer": "/root/p087_strategy",
+  "decision": "reject",
+  "findings": [
+    "Whole-view addition reads as short thin ivory filament, not substantial rooted inlet or meaningful interlock.",
+    "Source tongue has two distinct flanks and returning toe between unequal dark shoulders; only narrow bent tail remains legible after attachment.",
+    "Broad water preserved but intended finite-area relationship not clearly realized."
+  ],
+  "nextAction": "Archive without affected checks or nearby scale/width/control-point rescue. Preserve P110.",
+  "scope": "One seed721 matched1440x960 QuickLook static renders; no browser/DPR/wholeart/variety claim.",
+  "estimatedTokens": 550,
+  "actualTokens": null
+}

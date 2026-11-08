@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P114",
+  "objective": "Construct one attached descending foam inlet preserving broad enclosing water.",
+  "hypothesis": "An attached finite-area descending foam inlet improves local source-related interlock while preserving broad surrounding water.",
+  "failureIds": [
+    "geometry.upright-water-prongs",
+    "source.boundary-conflation"
+  ],
+  "baseline": "P110 retained; P113 upward-extrema seam rejected. New pale-region construction instead conserves broad water. Selection and source-curve overlay setup charged.",
+  "artifactTarget": "research/woodblock/foam-inlet.mjs",
+  "plannedTokens": 7000,
+  "family": "source-foam-inlet",
+  "strategyReview": "research/strategies/S114.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One source-relatedcandidate; no P113knotrescue, no workflow/model change, preserve P110, no browser/varietyclaim.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-07T23:56:35.414Z",
+  "result": {
+    "id": "P114",
+    "summary": "Rejected descending foam inlet: after attachment to P110 only a thin bent tail is visible, not meaningful source-like interlock. No affected checks or rescue tuning. P110 retained; P114 isolated research module only.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-07/P114/receipt.json",
+      "research/output/agent-phase-2026-11-07/P114/visual-review.json",
+      "research/output/agent-phase-2026-11-07/P114/candidate-static-1440x960.png"
+    ],
+    "nextAction": "Preserve P110. Next experiment must address coupled visible foam/water masses or larger crest hierarchy; do not keep adding tiny isolated source patches whose intended relationship disappears in current composition.",
+    "estimatedWorkTokens": 6500
+  },
+  "review": {
+    "id": "P114",
+    "findings": [
+      "Daphnie owns placement: source overlay matched pale shape but current water seam hid most intended finite-area relationship. Worker correctly implemented specified curves/root trim. Independent reviewer rejected actual thin-filament result.",
+      "P113/P114 selected source-like local motifs yet failed whole-context value. Do not infer valid coupled anatomy from a local source overlay. Actual projection against current mass must be considered in next hypothesis.",
+      "Estimated6500work includes selection/sourceoverlay, strategy1100, worker1200, visual550, renders/docs. Actualtelemetryunknown; no demonstratedefficiencygain. Browser remainsunavailable; staticcomparisoncaughtfailure."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Drop active foam-inlet recipe without nearby tuning. FailureID geometry.inlet-reduces-to-filament; reentry needs changed coupled-mass representation or composition, not larger scale of same mark.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P114/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Preserve P110 W/F/S and honest rejected scope.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P110/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Select an experiment with visible whole-crest anatomical value and source-area relationships; avoid another isolated-detail task.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6500,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 6850,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-08T00:01:21.693Z",
+  "closedAt": "2026-11-08T00:01:21.727Z"
+}

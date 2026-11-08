@@ -1,0 +1,9 @@
+# P114 — Descending foam inlet
+
+ART: test one attached finite-area ivory tongue descending into P110's broad water. Preserve water on both sides and below its returning toe, exterior/children/hollow and retained W/F/S. SYSTEM: changed representation after P113, no tuning of rejected knots, no new architecture or renderer.
+
+Mechanism proposed by independent evaluator after P113 rejection: root opening, two unequal flanks and compact returning toe modeled together while conserving enclosing water, rather than fitting upward extrema. Source region around1060,595–1148,710 shows continuous pale foam descending between broad dark shoulders. Sparse approximate source-frame controls and overlay are supplied; they are local calibration, not segmentation or a procedural family.
+
+Implement new isolated foam-inlet module on P110 (not P113). Sample the7cubics in P114-foam-inlet-curves.json at32segments each and map source3859x2594 to study1200x800. Fill closed ivory polygon after existing foam layer so its root overlaps the cap and covers the old root boundary. Stroke only exposed flank/toe portion outside original foam, not the closing root chord; find/trim intersections with original supportsheet. Root must have positive-area overlap. Do not add repetitive veins, texture, separate water tips or new field. Broad water below toe and beside flanks must remain connected in actual composed geometry.
+
+Falsifier: thin vein, isolated comma/antler, stalk-like adjacent water, visible closed root outline or no source-related relationship gain at whole-view scale. One candidate; no nearby rescue tuning if rejected. Same QuickLook baseline/candidate1440x960 comparison, receipt and unchanged reference pin. Browser/DPR unverified. Only a visual gain earns affected checks. Budget7000 estimated incl source/selection setup and350finalreview. No changes to accepted goal criteria.
