@@ -1,0 +1,47 @@
+{
+  "id": "S116",
+  "targetPhase": "P116",
+  "policyVersion": "v2",
+  "family": "open-support-cove",
+  "hypothesis": "Removing enclosing support material exposes an unchanged compact fork against open sky without shearing parent anatomy.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p087_strategy"
+  },
+  "recommendation": "continue",
+  "reason": "Modest prospective anatomy value: actual occlusion localized, parent unchanged; exposure alone is not acceptance.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P116-open-support-cove.md",
+      "claim": "Shared outer boundary undercuts occluding sheet, preserving complete parent.",
+      "sha256": "465fc87527a5eacf5b1b4b684e33f8801b66d4d474ec861f66057fe3df19779f"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-07/P106/feature-occlusion.json",
+      "claim": "Actual support sheet covers descendants.",
+      "sha256": "1954b3079d06e3a9081f3ada5784e90b6d67d29405d12dc6e4eeabdaa6db62ea"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-07/P115/visual-review.json",
+      "claim": "More exposure did not establish hierarchy; bay may be punched/isolated.",
+      "sha256": "7de160f1401063a8b6d4914e96215966eebba35a0dd238c69833b593ec436776"
+    }
+  ],
+  "unknowns": [
+    "Natural support and readable J; upper placement not source-established."
+  ],
+  "prediction": {
+    "ifTrue": "Compact junction and subordinate returns emerge against sky.",
+    "ifFalse": "Punched bay/isolated claw, no anatomy gain."
+  },
+  "test": {
+    "action": "One matched static wholeview, affected checks only after regional relationship gain.",
+    "success": "Meaningful compact junction/support relationship.",
+    "failure": "Tipcount alone/bay-looking cut; no rescue tuning.",
+    "maxWorkTokens": 2800
+  },
+  "estimatedReviewerTokens": 850,
+  "actualTokens": null
+}

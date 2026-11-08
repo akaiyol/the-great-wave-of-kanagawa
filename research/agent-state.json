@@ -5,10 +5,10 @@
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
-  "currentStudy": "P099 water-hierarchy.html globalwater checkpoint; P098 ink-parent.html localparent; P110 source-head.html localW/F/S interface only.",
-  "retainedCandidate": "P099water/P098localparent plusP110seed721 localW/F/S gain withaffectedchecks. Broadblankcap/regularhooks/otherocclusions unresolved; noacceptedproceduralart orvariety. P079gallery/rootapp unchanged.",
-  "currentPhase": "P115",
-  "currentPhaseRecord": "research/phases/P115.json",
+  "currentStudy": "P099 globalwater/P098localparent; P116support-cove.html preservesP110WFS and addsseed721limitedforkhierarchy.",
+  "retainedCandidate": "P099water/P098localparent plusP110WFS andP116seed721open-support-cove regionalforkhierarchygain. Bowl-likecove/blankcap/remaininghooks unresolved; noacceptedwholeart orvariety. Rootapp/P079unchanged.",
+  "currentPhase": "P116",
+  "currentPhaseRecord": "research/phases/P116.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -60,11 +60,11 @@
     ]
   },
   "runCheckpoint": "research/output/agent-phase-2026-11-07/run-checkpoint.json",
-  "nextExperimentContract": "P113/P114/P115rejected, no nearbyrescue. RetainP110. Actualsupportsheetocclusion mustbeaddressedwithoutdistortingparentgeometry; exposure alone notsuccess.",
+  "nextExperimentContract": "P116onlyregionalretainedafterchecks. Preserveunchangedparentanatomy andsharedwater/foamouter. Next ART hypothesis must assesswhole-crestrelationships andsourcegroundedcove/supportshape, notmereextratips ornearbyrescueofP113/P114/P115. Do notassertP107uppergroupingresolved.",
   "runHeadroomPlan": {
     "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "P113/P114rejectednative-staticcandidates; P110retained. Needchangedexperiment scale/coupling, notmoreisolatedmotifs.",
+  "checkpointReason": "P116regionalgainchecked; P113\u2013P115rejected/published. Pre-exhaustioncheckpoint, next planned ARTphase willnotfit remainingheadroom safely; automaticnextnightwindow00\u201308Toronto.",
   "scheduledContinuation": {
     "id": "wave-project-five-hour-continuation",
     "status": "ACTIVE",

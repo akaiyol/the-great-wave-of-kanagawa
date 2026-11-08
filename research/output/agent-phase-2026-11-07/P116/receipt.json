@@ -1,0 +1,44 @@
+{
+  "phase": "P116",
+  "seed": 721,
+  "reference": {
+    "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+    "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "unchanged": true
+  },
+  "renderer": "QuickLook staticSVG1440; crop[0,240,1440,1200] from1440square",
+  "DPR": null,
+  "browserVerified": false,
+  "baselineImage": "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png",
+  "sourceParentCrop": [
+    2000,
+    900,
+    2280,
+    1200
+  ],
+  "sourceQualification": "Parent local source approximate registration; new upper placement not source-classified.",
+  "files": {
+    "research/woodblock/support-cove.mjs": "5999d5c5c9dede78961749f2862fd59060ee4ff8cdce4f8840df4cf2395a16db",
+    "research/woodblock/support-cove.html": "9d3876c3351e12714bdb72b59460158b3bdef9cf69fc9fcac1707b2ef8120ac0",
+    "research/woodblock/source-head.mjs": "5ca454a363a89666d2037e616f9200f1957890626384ecba299cf7fc16e69bc2",
+    "research/output/agent-phase-2026-11-07/P116/candidate-721.svg": "21d175b0920bcb6cb8fa47808c76ee5a12a68fc62c37338ab03cc9f3e68867a5",
+    "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94",
+    "research/output/agent-phase-2026-11-07/P113/baseline-static-1440x960.png": "00ea326507d01c358c6750ac05b43ad1fae4a636a24350d72c76c052fefe3632",
+    "research/output/agent-phase-2026-11-07/P116/source-parent.png": "864c60a062820f0059acc77e771e9fc81a86897c324c5c5407fb4fb7601a6be3",
+    "research/woodblock/support-cove-check.mjs": "69ad5c6a7694bdafc72a5422adfa66a5a305eb615af761d770537f10f63c8618",
+    "research/output/agent-phase-2026-11-07/P116/checks.json": "8a9e924e0a67f3e290fbe6ff2ddaf085fc17b8bb59b23e5795938d20cf3a74bc",
+    "research/output/agent-phase-2026-11-07/P116/comparison-detail.png": "fa1d523106f142a43aab49b10169e3e14b8ed5e3bc741d24975a004425d98328"
+  },
+  "scope": "One support-material change; no wholeart/variety/browser acceptance.",
+  "comparisonDetail": {
+    "path": "research/output/agent-phase-2026-11-07/P116/comparison-detail.png",
+    "cropFromEachWholeView": [
+      550,
+      80,
+      850,
+      440
+    ],
+    "resampled": false,
+    "scope": "Presentation detail only; full views remain primary review evidence."
+  }
+}

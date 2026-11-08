@@ -115,3 +115,9 @@ P111's finite canary actually arrived14.678seconds after its target; its receipt
 ## L017 — Exposure is not preserved anatomy
 
 [P115](phases/P115.json) exposed a previously covered arm by horizontal shear, but made it a thin prong. Daphnie owns the mapping; the worker implemented it correctly, and the independent reviewer rejected it. Area/horizontal-width invariants did not preserve the visible shape. Failure `geometry.shear-exposes-prong`: re-entry requires preserving parent anatomy while changing the enclosing support material, not rescuing shear with width/pose edits. P110 remains retained.
+
+## L018 — Change the occluding material without deforming the parent
+
+[P116](phases/P116.json) kept the complete fork unchanged and opened its shared water/foam support boundary. The evaluator retained a limited shared-junction/subordinate-return gain; the rounded cove remains stylistically unresolved. Daphnie proposed the cove after the failed shear, and the worker implemented it. Actual lower-cove sky access, all four child/sheet overlaps, simple new polygons and frozen W/F/S passed checks. No whole-art or efficiency claim.
+
+Daphnie caught that union membership alone cannot prove attachment and switched to direct child/sheet interior clearances. The independent evaluator identified missing boundary-contact/exit qualifications in the first route checker; Daphnie added partition-point/collinear checks and a strict-air route beyond the main material bound. Stronger checks pass without changing the artwork. Evidence and scope remain in the phase; no general topology or browser proof follows.

@@ -5,9 +5,10 @@
       "status": "unmet",
       "evidence": [
         "research/phases/P099.json",
-        "research/phases/P110.json"
+        "research/phases/P110.json",
+        "research/phases/P116.json"
       ],
-      "note": "Limitedwater andW/F/Sregionalgains only; noacceptedproceduralocean orwhole-source likeness."
+      "note": "Limitedwater,W/F/Sandseed721forkhierarchygains only. Noacceptedwhole-source likeness; P116covebowl-like andexactplacementunestablished."
     },
     "A2": {
       "status": "partial",
@@ -34,9 +35,13 @@
       "status": "partial",
       "evidence": [
         "research/phases/P109.json",
-        "research/phases/P110.json"
+        "research/phases/P110.json",
+        "research/phases/P113.json",
+        "research/phases/P114.json",
+        "research/phases/P115.json",
+        "research/phases/P116.json"
       ],
-      "note": "CriticacknowledgedweakARTjustification infieldpreflights; nextsource-matchedrelationretainedlocally. Decisionqualitynotcalibrated."
+      "note": "Threefailedrenderedhypotheses rejected; changedoccludingenvelope retainedregionally. Preflightjudgmentandcostefficiencyremainuncalibrated."
     },
     "S2": {
       "status": "unmet",

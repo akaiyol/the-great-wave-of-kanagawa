@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "P116",
+  "objective": "Expose unchanged fork by opening a shared water/foam support cove.",
+  "hypothesis": "Removing enclosing support material exposes an unchanged compact fork against open sky without shearing parent anatomy.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.shear-exposes-prong"
+  ],
+  "baseline": "P110 supportcoversB0/C0; P115 shear rejected. Originalfork retained, changeoccludingenvelope only. Selection charged.",
+  "artifactTarget": "research/woodblock/support-cove.mjs",
+  "plannedTokens": 6500,
+  "family": "open-support-cove",
+  "strategyReview": "research/strategies/S116.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Onecandidate/norescue; preserveP110WFS, no newworkflow/model, no exactsourcegrouping orbrowserclaim.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6175,
+    "reviewTokens": 325
+  },
+  "startedAt": "2026-11-08T00:10:05.004Z",
+  "result": {
+    "id": "P116",
+    "summary": "Retain limited seed721forkhierarchy gain: unchanged upper/lower returns share pale junction nowexposedbyopen supportcove. Affectedchecks pass: simplepolygons, directrootinteriorclearance1.5, specifiedW/F/Sroles andstrictairpath beyondmainmaterialbound, frozenregions. Covebowl-like, sourceplacement/browser/wholeart/varietyunaccepted.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/agent-phase-2026-11-07/P116/receipt.json",
+      "research/output/agent-phase-2026-11-07/P116/visual-review.json",
+      "research/output/agent-phase-2026-11-07/P116/integration-review.json",
+      "research/output/agent-phase-2026-11-07/P116/checks.json",
+      "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png",
+      "research/woodblock/support-cove-check.mjs"
+    ],
+    "nextAction": "Checkpoint beforeexhaustion; nextTorontomidnightcontinuecurrentbrief. PreserveP116regionalgain, targetwhole-crest/source-relatedsupportshape. Do notretuneP113/P114/P115 orclaimuppergroupingresolved.",
+    "estimatedWorkTokens": 9000
+  },
+  "review": {
+    "id": "P116",
+    "findings": [
+      "Changingoccludingmaterialwhilepreservingparentanatomy retainedregionalhierarchy; P113tipfit/P114isolatedtongue/P115shear werecorrectlyrejected. Onegainafterthreefailures isnot efficiencyproof, andwholeart remainsunmet.",
+      "Daphniecorrectedunion-onlyattachmenttesttodirectchild/sheetclearance. Independentrevieweridentifiedroutecontact/exitlimitations; strengthenedpartition-point,collinear,strictairandexteriorboundchecks passwithoutgeometrychanges. No general topology/browserclaim.",
+      "Estimated9000work includes source/selection,strategy850,worker1150,visual500,integrationreview2600,captures/checkscript/docs. Exceeds6175workallocation. Actualtelemetryunknown. Futurecomparablephasebudgetshouldincludeobservedreview/retrievaloverhead (~10000total), notonlyshortrequestedreplylength."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep scopedP116hierarchy checkpoint andstrongeractualattachment/sky evidence; preserveexplicitstylisticlimits.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-07/P116/visual-review.json",
+          "research/output/agent-phase-2026-11-07/P116/checks.json",
+          "research/output/agent-phase-2026-11-07/P116/integration-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do notpromotethreefailedcandidates ormistakehighercomplexity/exposure/sourceoverlay forartgain.",
+        "evidence": [
+          "research/phases/P113.json",
+          "research/phases/P114.json",
+          "research/phases/P115.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Choosewhole-crest/source-grounded support relationship; budgetfullsetup+reviewcost. Anothercomparablephasecannotfitsafelyincurrentremainingallowance.",
+    "estimatedReviewTokens": 500
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 9000,
+    "estimatedReviewTokens": 500,
+    "estimatedTotalTokens": 9500,
+    "estimatedWorkOverrun": 2825,
+    "estimatedReviewOverrun": 175,
+    "estimatedTotalOverrun": 3000
+  },
+  "resultAt": "2026-11-08T00:17:38.463Z",
+  "closedAt": "2026-11-08T00:17:38.508Z"
+}

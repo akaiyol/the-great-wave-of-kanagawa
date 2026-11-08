@@ -9,25 +9,33 @@
     "P109",
     "P110",
     "P111",
-    "P112"
+    "P112",
+    "P113",
+    "P114",
+    "P115",
+    "P116"
   ],
   "retained": [
     "P104limitedopaqueoverlaprenderingmechanism",
     "P105configured5hourcontinuation,notdeliveryproof",
-    "P110seed721localW/F/Sinterfacegain,notwholeart"
+    "P110seed721localW/F/Sinterfacegain,notwholeart",
+    "P116seed721limitedforkhierarchywithaffectedchecks"
   ],
   "rejectedArt": [
     "P106occludedforkfield",
     "P108Cstampfield",
-    "P109pipes"
+    "P109pipes",
+    "P113uprightprongs",
+    "P114filament",
+    "P115shearprong"
   ],
   "inconclusive": "P107upperneighborroles",
   "usageObservationBeforePublication": {
-    "shortWindowUsedPercent": 94,
-    "weeklyUsedPercent": 23,
-    "scope": "Sharedaccountpercentages,notphasetokentelemetry."
+    "shortWindowUsedPercent": 92,
+    "weeklyUsedPercent": 38,
+    "scope": "Sharedaccountobservedbeforefinalpublication,notphasetelemetry."
   },
-  "next": "AtnextTorontomidnight, usecurrentbrief; preserveARTP099/P098/P110. Noacceptedwholeproceduralocean.",
+  "next": "NightlyprimaryToronto00\u201308; readP116scope/currentbrief. Nextcomparablephaseestimated~10000tokensincludesreviewoverhead; do notstartwithoutheadroom.",
   "automation": {
     "id": "wave-project-five-hour-continuation",
     "status": "ACTIVE",
