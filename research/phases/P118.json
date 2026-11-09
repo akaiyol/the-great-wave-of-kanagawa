@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P118",
+  "objective": "Measure three complete source waterhead/ivory area relationships before construction.",
+  "hypothesis": "Complete source area and flow-relative width relationships distinguish broad connected water heads from a tip-fit prong construction.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P113 tip-fit prongs and P117 repeated cups rejected; P116 regional gain preserved.",
+  "artifactTarget": "research/woodblock/waterhead-envelope.json",
+  "plannedTokens": 9000,
+  "family": "source-waterhead-envelope",
+  "strategyReview": "research/strategies/S118.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Source-only exact blocker; no artwork mutation or new workflow. Budget includes preflight/research/review overhead, not nominal reply size.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 8550,
+    "reviewTokens": 450
+  },
+  "startedAt": "2026-11-09T11:50:28.027Z",
+  "result": {
+    "id": "P118",
+    "summary": "Incomplete source-only study: independent preflight recovered and approved discrimination, but night window expired before research dispatch. No measured envelope or renderer change.",
+    "artifactDelivered": false,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P118/checkpoint.json",
+      "research/strategies/S118.json",
+      "research/proposals/P118-waterhead-envelope.md"
+    ],
+    "nextAction": "Fresh authorized run may resume source-only three-head width/area overlay with new independently reviewed phase; no claim changed representation is established.",
+    "estimatedWorkTokens": 3300
+  },
+  "review": {
+    "id": "P118",
+    "findings": [
+      "Independent reviewer capacity recovered; previous thread-limit blocker is no longer current. Source-only preflight supported one bounded measurement study, not renderer implementation.",
+      "Daphnie did not maintain required five-minute clock checks across elapsed interval. Latest clock08:31Toronto forced stop; no unsupported attribution of elapsed time to compute or host/tool behavior. No research dispatch occurred.",
+      "Estimated3300 work includes reviewer1900 and startup/planning/records; actual telemetry unavailable. Phase incomplete, not a falsified anatomy premise or art gain."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep strict source-only scope and explicit incomplete result; preserve P116 artwork.",
+        "evidence": [
+          "research/strategies/S118.json",
+          "research/output/agent-phase-2026-11-09/P118/checkpoint.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do not continue productive work outside owner night window or infer time/headroom from prior observations.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P118/checkpoint.json",
+          "research/overnight.md"
+        ]
+      }
+    ],
+    "nextImprovement": "Use fresh clock immediately before and after every delegation/tool milestone, with small source-study scope; current instructions already require bounded checking, no unverified watchdog claim.",
+    "estimatedReviewTokens": 450
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3300,
+    "estimatedReviewTokens": 450,
+    "estimatedTotalTokens": 3750,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T13:32:03.880Z",
+  "closedAt": "2026-11-09T13:32:03.904Z"
+}

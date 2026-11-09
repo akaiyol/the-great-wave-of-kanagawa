@@ -1,0 +1,52 @@
+{
+  "id": "S118",
+  "targetPhase": "P118",
+  "family": "source-waterhead-envelope",
+  "hypothesis": "Complete source area and flow-relative width relationships distinguish broad connected water heads from a tip-fit prong construction.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Source-only discrimination approved; renderer deferred until complete area/width relationships offer material changed evidence beyond P113.",
+  "supportingEvidence": [
+    {
+      "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+      "claim": "Broad body-connected blue heads and descending ivory separations.",
+      "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png",
+      "claim": "Dominant blank cap and sparse hooks remain.",
+      "sha256": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P113.json",
+      "claim": "Earlier broad-head claim implemented as prongs; renaming area envelope is insufficient.",
+      "sha256": "e187fe9eb8a46217938ee8b75f2ec7e7741454a2c73f9ddaff8322acb1644679"
+    },
+    {
+      "path": "research/phases/P117.json",
+      "claim": "Second opening failed whole-context hierarchy.",
+      "sha256": "e78aab240ca10d3d21fcfd82cb47bccb4d2f06fd471173a7fd83026e4d87cdff"
+    }
+  ],
+  "unknowns": [
+    "Complete head-to-body widths and flow-relative ivory depth; procedural representation not established."
+  ],
+  "prediction": {
+    "ifTrue": "Measured broad shoulder/body relationships and intervening ivory can constrain a genuinely different recipe.",
+    "ifFalse": "Boundaries ambiguous or output reduces to tips plus adjustable necks."
+  },
+  "test": {
+    "action": "One annotated source overlay of three complete adjacent heads and body continuations; shoulder/intermediate/body widths along declared flow-relative transects, uncertainty and whole-source context.",
+    "success": "Complete area relationships and substantial connected widths independently supported.",
+    "failure": "Ambiguous boundaries or tip-only recipe; no renderer/tuning.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 1900,
+  "actualTokens": null
+}
