@@ -1,0 +1,47 @@
+{
+  "id": "S119",
+  "targetPhase": "P119",
+  "family": "source-waterhead-envelope",
+  "hypothesis": "Three complete source head-to-body width relationships distinguish a broad connected water envelope from tip-fit prongs.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "P118 was interrupted by timing, not contrary anatomy evidence; resume source-only discrimination, no renderer.",
+  "supportingEvidence": [
+    {
+      "path": "research/phases/P118.json",
+      "claim": "No research dispatch or artifact; prior source test remains unexecuted.",
+      "sha256": "343309eec7355eaf12bbe20f590f846286192af3be1ec8953ccfd261ef3b321d"
+    },
+    {
+      "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+      "claim": "Canonical material areas are the classification authority.",
+      "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P113.json",
+      "claim": "A tip-fit recipe previously produced prongs; renamed area language is insufficient.",
+      "sha256": "e187fe9eb8a46217938ee8b75f2ec7e7741454a2c73f9ddaff8322acb1644679"
+    }
+  ],
+  "unknowns": [
+    "Complete material boundaries and transferable representation, including ivory descent."
+  ],
+  "prediction": {
+    "ifTrue": "Measured substantial shoulder/intermediate/body widths reveal omitted coupled structure.",
+    "ifFalse": "Ambiguity or adjustable tips/necks remain; defer construction."
+  },
+  "test": {
+    "action": "One three-head source overlay, explicit material boundaries, flow-relative width transects, intervening ivory descent and whole-source context.",
+    "success": "Complete qualified area relationships independently supported.",
+    "failure": "Classification ambiguous or work cap reached: incomplete, no renderer.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 450,
+  "actualTokens": null
+}

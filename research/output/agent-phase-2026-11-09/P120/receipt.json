@@ -1,0 +1,19 @@
+{
+  "phase": "P120",
+  "renderer": "Pillow exact source crop and fixed color components; not wave art or browser proof",
+  "sourceUnchanged": true,
+  "configuration": "crop[850,480,1650,1100], seed[1300,950], four-neighbor, R<90/110/130 and B>1.15R, no morphology/tuning",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/source-component-diagnostic.py": "07d2ff1e6b78b9ca60a3b608acd5cf5c30dc1113f6900623a096676a148b7d6f",
+    "research/output/agent-phase-2026-11-09/P120/boundary-110.png": "8a0c74657f510af4f099df93228d9e026266925623b2b90e97c9be3af9b7293c",
+    "research/output/agent-phase-2026-11-09/P120/boundary-130.png": "65416d5581a3e8845f4ce9e498e4e109835d79e69e2321017e0c6b614616cc10",
+    "research/output/agent-phase-2026-11-09/P120/boundary-90.png": "33ee8afe4f36cbb285c066d33377fa3944648d5328f214db2af529a333fcf61b",
+    "research/output/agent-phase-2026-11-09/P120/component-110.png": "a77adf7e7d44f3c0b52c20d335d0be7c9b95079043e182709a05aeb4774b81e4",
+    "research/output/agent-phase-2026-11-09/P120/component-130.png": "276fa5b0bbee09bb9e8201b3158ccfc89f2ed6376c48432df65aa4d76547f2b5",
+    "research/output/agent-phase-2026-11-09/P120/component-90.png": "61d8c76a66b84dbd63c26a62dece0b97b8f1354aa68a80400a5bdc66757ec2ce",
+    "research/output/agent-phase-2026-11-09/P120/source-crop.png": "600cbec7675345ad0d9c261dc5d2794f51889ce80b5c256d87b69d7b890ad894",
+    "research/output/agent-phase-2026-11-09/P120/metrics.json": "31ba84c46eb0c581ff9e25e80142c6dd023faa086369505030e736b3fd6144dd",
+    "research/output/agent-phase-2026-11-09/P120/independent-review.json": "35294d92171e9e0574972466c0a1ec54075e9ad25df815191068250ff7b3ddec"
+  }
+}

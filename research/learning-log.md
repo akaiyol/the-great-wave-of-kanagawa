@@ -127,3 +127,11 @@ Daphnie caught that union membership alone cannot prove attachment and switched 
 [P117](phases/P117.json) exposed another unchanged fork, but the independent reviewer rejected repeated rounded cups at whole-view scale. Daphnie owns the proposed opening; the worker implemented it correctly. Preserve P116 only in its tested regional scope. Failure `geometry.repeated-support-cups`: no nearby cove tuning; re-entry requires a materially different crest-wide construction and source evidence. The next question is branching distribution, not tip count.
 
 Daphnie also owns the earlier native Safari fallback that stalled approximately10.7hours until the owner interrupted it, with no artwork progress. This is delivery failure, not evidence of productive compute or an allowance fault. The current static comparison completes without that access path; browser behavior remains unverified.
+
+## L020 — A line on the source is not a material width
+
+[P119](phases/P119.json) produced approximate transects, but the lead overlay and independent evaluator found mismatched heads, endpoints in ivory/blue interiors, and proposed ivory tips in blue. All numeric measurements are rejected; Daphnie owns the assignment and integration. Researcher attribution and the exact proposal remain in evidence. Failure `source.unsupported-width-correspondence`: re-entry requires independently visible material boundaries and same-region correspondence before measuring; no nearby coordinate rescue. Null body widths remain appropriate where regions merge. The source-only failure does not falsify broad connected water areas, and no renderer change follows.
+
+## L021 — Stable color is not stable material identity
+
+[P120](phases/P120.json) used fixed four-neighbor color components to replace guessed source endpoints. The worker implemented the declared rule; the independent reviewer identified attached ink, blue pinholes and crop truncation. Retain only a reproducible broad color-core observation, not segmentation truth or an artwork asset. Failure `source.color-material-conflation`: no threshold tuning; material measurements or renderer transfer require independent role/correspondence evidence. Daphnie owns scope and rejects unsupported promotion. No artwork or efficiency gain is claimed.

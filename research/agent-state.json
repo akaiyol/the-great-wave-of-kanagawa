@@ -5,10 +5,10 @@
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
-  "currentStudy": "P099 globalwater/P098localparent; P116support-cove.html preservesP110WFS and addsseed721limitedforkhierarchy.",
+  "currentStudy": "P116 remains retained art. P119 measurements rejected; P120 source color component retained only as qualified diagnostic.",
   "retainedCandidate": "P099water/P098localparent plusP110WFS andP116seed721open-support-cove regionalforkhierarchygain. Bowl-likecove/blankcap/remaininghooks unresolved; noacceptedwholeart orvariety. Rootapp/P079unchanged.",
-  "currentPhase": "P118",
-  "currentPhaseRecord": "research/phases/P118.json",
+  "currentPhase": "P120",
+  "currentPhaseRecord": "research/phases/P120.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -25,7 +25,8 @@
       "start": "00:00",
       "end": "08:00",
       "checkpointBy": "07:45"
-    }
+    },
+    "manualInstruction": "Owner2026-11-09 explicitly authorizes daytime continuation and100% current available allowance; no quota-spending target. Automatic night window unchanged."
   },
   "continuationGoal": "Owner-authorized overnight useful work with local night-window, allowance and active-run checks.",
   "strategyPolicy": {
@@ -60,11 +61,11 @@
     ]
   },
   "runCheckpoint": "research/output/agent-phase-2026-11-09/P118/checkpoint.json",
-  "nextExperimentContract": "Resume three-complete-head source area/width overlay only with fresh independent phase preflight. No renderer construction, P107 interpretation, P113 tip-fit rescue or P117 cups.",
+  "nextExperimentContract": "Do not use P119 widths or P120 mask as material/renderer truth. New water/foam construction needs independent preflight and whole-view evidence. P116 retained.",
   "runHeadroomPlan": {
     "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "P118 source-only preflight complete but study incomplete; fresh clock08:31Toronto required stop. No art change. Agent capacity recovered; prior thread-limit blocker superseded.",
+  "checkpointReason": "Current Daphnie commit120835a installed/remote match verified. P119 rejected source spans; P120 fixed diagnostic reviewed. Next renderer hypothesis under independent challenge, no art promotion.",
   "scheduledContinuation": {
     "id": "wave-project-five-hour-continuation",
     "status": "ACTIVE",

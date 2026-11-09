@@ -1,0 +1,14 @@
+{
+  "phase": "P120",
+  "reviewer": "/root/p118_night_preflight",
+  "policyVersion": "v2",
+  "decision": "retain_restricted_diagnostic_reject_material_measurement",
+  "findings": [
+    "Dominant broad connected color core remains across fixed thresholds; pixel count increases about1.8%. This is not segmentation truth.",
+    "Thin ink around ivory crop-local410,10\u2013490,50 is included; another outline650,80\u2013710,110 connects at130. Threshold90 has pinholes in visible blue near390,180 and bands.",
+    "Top/right/bottom crop contact truncates area/perimeter; no head widths or renderer transfer."
+  ],
+  "nextAction": "Close without tuning. Subsequent construction needs its own material/ink correspondence, not mask boundary adoption.",
+  "estimatedTokens": 750,
+  "actualTokens": null
+}

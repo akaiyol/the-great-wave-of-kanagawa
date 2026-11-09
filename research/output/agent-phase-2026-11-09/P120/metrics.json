@@ -1,0 +1,104 @@
+{
+  "phase": "P120",
+  "source": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "source_sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "crop_box_xyxy_exclusive": [
+    850,
+    480,
+    1650,
+    1100
+  ],
+  "seed_source_xy": [
+    1300,
+    950
+  ],
+  "seed_crop_xy": [
+    450,
+    470
+  ],
+  "seed_rgb": [
+    33,
+    62,
+    94
+  ],
+  "connectivity": 4,
+  "predicate": "R < threshold and B > R * 1.15",
+  "boundary": "retained pixels with any unretained four-neighbor, including outside crop",
+  "bbox_convention": "xyxy, right and bottom exclusive",
+  "limitation": "Color components are not material segmentation or area truth.",
+  "thresholds": [
+    {
+      "threshold": 90,
+      "seed_eligible": true,
+      "pixel_count": 270127,
+      "boundary_pixel_count": 11649,
+      "bbox_crop_xyxy": [
+        24,
+        0,
+        800,
+        620
+      ],
+      "bbox_source_xyxy": [
+        874,
+        480,
+        1650,
+        1100
+      ],
+      "crop_edge_contact": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": true
+      }
+    },
+    {
+      "threshold": 110,
+      "seed_eligible": true,
+      "pixel_count": 273267,
+      "boundary_pixel_count": 10273,
+      "bbox_crop_xyxy": [
+        23,
+        0,
+        800,
+        620
+      ],
+      "bbox_source_xyxy": [
+        873,
+        480,
+        1650,
+        1100
+      ],
+      "crop_edge_contact": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": true
+      }
+    },
+    {
+      "threshold": 130,
+      "seed_eligible": true,
+      "pixel_count": 275008,
+      "boundary_pixel_count": 9999,
+      "bbox_crop_xyxy": [
+        23,
+        0,
+        800,
+        620
+      ],
+      "bbox_source_xyxy": [
+        873,
+        480,
+        1650,
+        1100
+      ],
+      "crop_edge_contact": {
+        "left": false,
+        "right": true,
+        "top": true,
+        "bottom": true
+      }
+    }
+  ],
+  "source_sha256_after": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+}

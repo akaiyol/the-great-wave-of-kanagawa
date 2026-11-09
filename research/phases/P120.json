@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P120",
+  "objective": "Test image-backed source component evidence without guessed geometry.",
+  "hypothesis": "Pixel-supported connected color components expose source boundary evidence more reliably than guessed material endpoints, within explicit color-versus-material limits.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "source.unsupported-width-correspondence"
+  ],
+  "baseline": "P119 manual source spans rejected; P116 artwork unchanged.",
+  "artifactTarget": "research/woodblock/source-component-diagnostic.py",
+  "plannedTokens": 6000,
+  "family": "source-color-component",
+  "strategyReview": "research/strategies/S120.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Source-only diagnostic, no artwork transfer or new infrastructure; fixed triplet stops tuning and preserves final300 review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-09T14:11:40.446Z",
+  "result": {
+    "id": "P120",
+    "summary": "Retain fixed image-backed color-connectivity diagnostic only. Broad core stable across triplet; touching ink contamination, blue exclusions and crop truncation reject material measurement/renderer use. No art change.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P120/receipt.json",
+      "research/output/agent-phase-2026-11-09/P120/metrics.json",
+      "research/output/agent-phase-2026-11-09/P120/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P120/boundary-110.png"
+    ],
+    "nextAction": "No threshold tuning or source-mask renderer transfer. New shared-mass construction requires explicit source material/ink correspondence and independent hypothesis review.",
+    "estimatedWorkTokens": 3900
+  },
+  "review": {
+    "id": "P120",
+    "findings": [
+      "Image-backed overlay is reproducible and exposes attached-ink contamination; stable counts are insufficient evidence of material identity. No mask/width promotion.",
+      "Worker faithfully implemented fixed diagnostic. Reviewer qualified false inclusions/exclusions and crop truncation. Daphnie retains scoped evidence rather than equating a technical pass with art progress.",
+      "Estimated3900 work includes450 strategy,1500 worker(over1200assignment),750 review,1200 lead run/records. Actual telemetry unknown; no matched efficiency proof."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep diagnostic as source evidence, with explicit observed semantic limits.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P120/metrics.json",
+          "research/output/agent-phase-2026-11-09/P120/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Reject mask-as-material, head-width and renderer transfer claims; no threshold rescue.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P120/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "For a new construction test, specify connected finite-area water mass directly and independently justify each source role; do not turn image segmentation into a finished-wave template.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3900,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 4200,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T14:14:19.469Z",
+  "closedAt": "2026-11-09T14:14:19.493Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "S120",
+  "targetPhase": "P120",
+  "family": "source-color-component",
+  "hypothesis": "Pixel-supported connected color components expose source boundary evidence more reliably than guessed material endpoints, within explicit color-versus-material limits.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Changed evidence mechanism, restricted source diagnostic only. Stable color components can still share semantic classification errors.",
+  "supportingEvidence": [
+    {
+      "path": "research/phases/P119.json",
+      "claim": "Guessed mixed-material endpoints and correspondence failed.",
+      "sha256": "42d3cdf264b469c10f12fc52870c1189b71e6fe427046102f50f4174f0bb877d"
+    },
+    {
+      "path": "research/proposals/P120-source-component.md",
+      "claim": "Fixed image-backed thresholds and seed reveal evidence before width assignment.",
+      "sha256": "66da08d36fc267ad4d74f2502d4058879c09b0c789cc230e81248f9638213d0c"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+      "claim": "Ink, pale blue bands and grain can contaminate or split color components; crop truncates.",
+      "sha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+    }
+  ],
+  "unknowns": [
+    "Seed eligibility and connectivity at each fixed threshold; material versus tonal boundary identity."
+  ],
+  "prediction": {
+    "ifTrue": "Recognizable stable broad blue core with qualified peripheral uncertainty.",
+    "ifFalse": "Material connectivity changes or obvious ink leakage prevent area evidence."
+  },
+  "test": {
+    "action": "One fixed four-neighbor component triplet plus boundaries, seed eligibility, count/bounds and crop-edge qualification; no morphology or tuning.",
+    "success": "Restricted broad core evidence only, not head identity or segmentation truth.",
+    "failure": "Color component insufficient for material separation.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 450,
+  "actualTokens": null
+}

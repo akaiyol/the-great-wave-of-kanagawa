@@ -1,0 +1,9 @@
+{
+  "daphnieCommit": "120835aae907294d86c1bd4c7fde8f939b31d818",
+  "installedSkill": "daphnie-research symlink to canonical repository",
+  "remoteMainMatches": true,
+  "researchLibraryVersion": "1.0.0",
+  "hostModelChanged": false,
+  "referenceSha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "scope": "Guidance and source integrity verification, not model upgrade or behavioral validation."
+}

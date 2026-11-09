@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P119",
+  "objective": "Complete bounded three-head source measurement study.",
+  "hypothesis": "Three complete source head-to-body width relationships distinguish a broad connected water envelope from tip-fit prongs.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P118 incomplete timing only; P113 prongs rejected, P116 regional art retained.",
+  "artifactTarget": "research/woodblock/waterhead-envelope.json",
+  "plannedTokens": 6000,
+  "family": "source-waterhead-envelope",
+  "strategyReview": "research/strategies/S119.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Source-only discrimination, <=4000 test work incl preflight, no renderer/workflow changes; retain final300 process reserve.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-09T14:07:00.564Z",
+  "result": {
+    "id": "P119",
+    "summary": "Source measurement artifact delivered but independently rejected: mixed materials, mismatched heads and blue rather than ivory tips. No numeric width/descent or renderer premise accepted. Null body widths retained; qualitative shared blue envelope remains plausible.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P119/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P119/receipt.json",
+      "research/output/agent-phase-2026-11-09/P119/proposed-overlay.png",
+      "research/woodblock/waterhead-envelope.json"
+    ],
+    "nextAction": "Identify material-separated regions and explicit boundary correspondence before further numeric measurements; no coordinate tuning or renderer construction.",
+    "estimatedWorkTokens": 3900
+  },
+  "review": {
+    "id": "P119",
+    "findings": [
+      "Lead overlay and independent review caught false widths before construction. Researcher supplied guessed correspondence; Daphnie owns the assignment and rejects the unsupported submission. Source distances are arithmetic, not evidence of material width.",
+      "The bounded source-only question produced a clear annotation failure rather than a procedural recipe. Do not interpret this as rejection of broad connected water areas.",
+      "Estimated3900 work includes450 preflight,800 researcher,650 review and lead setup/overlay/error correction/records. Actual telemetry unavailable; no efficiency gain. Current Daphnie skill commit120835a verified against installed symlink and remote, not a host model upgrade."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Reject all proposed numeric measurements; no hand-tuned coordinate rescue or renderer transfer.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P119/independent-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep explicit null body widths and distinguish verified skill installation from runtime capabilities.",
+        "evidence": [
+          "research/woodblock/waterhead-envelope.json",
+          "research/output/agent-phase-2026-11-09/P119/version.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Use image-backed material evidence and boundary identity before measurement; avoid asking a read-only worker for unsupported approximate numeric widths.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3900,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 4200,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T14:10:51.720Z",
+  "closedAt": "2026-11-09T14:10:51.746Z"
+}

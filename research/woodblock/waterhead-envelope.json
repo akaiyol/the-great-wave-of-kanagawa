@@ -1,0 +1,169 @@
+{
+  "phase": "P119",
+  "status": "rejected_measurements",
+  "source": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "crop": [
+    850,
+    480,
+    800,
+    620
+  ],
+  "coordinateSystem": "Original image pixels, x right/y down. Manual estimates; not segmentation.",
+  "attribution": "Read-only wave_researcher /root/p119_source_measure; lead computes lengths and renders overlay.",
+  "heads": [
+    {
+      "id": "H1",
+      "proposedFlowAxis": [
+        -0.48,
+        0.88
+      ],
+      "transects": [
+        {
+          "role": "shoulder",
+          "endpoints": [
+            [
+              1110,
+              590
+            ],
+            [
+              1182,
+              620
+            ]
+          ],
+          "lengthPx": 78.0
+        },
+        {
+          "role": "intermediate",
+          "endpoints": [
+            [
+              1050,
+              675
+            ],
+            [
+              1120,
+              710
+            ]
+          ],
+          "lengthPx": 78.26
+        }
+      ],
+      "bodyWidth": null,
+      "bodyReason": "No unique lateral material boundaries after merging into shared blue area."
+    },
+    {
+      "id": "H2",
+      "proposedFlowAxis": [
+        -0.56,
+        0.83
+      ],
+      "transects": [
+        {
+          "role": "shoulder",
+          "endpoints": [
+            [
+              1240,
+              550
+            ],
+            [
+              1320,
+              595
+            ]
+          ],
+          "lengthPx": 91.79
+        },
+        {
+          "role": "intermediate",
+          "endpoints": [
+            [
+              1178,
+              637
+            ],
+            [
+              1250,
+              680
+            ]
+          ],
+          "lengthPx": 83.86
+        }
+      ],
+      "bodyWidth": null,
+      "bodyReason": "No unique lateral material boundaries after merging into shared blue area."
+    },
+    {
+      "id": "H3",
+      "proposedFlowAxis": [
+        -0.62,
+        0.78
+      ],
+      "transects": [
+        {
+          "role": "shoulder",
+          "endpoints": [
+            [
+              1360,
+              525
+            ],
+            [
+              1440,
+              565
+            ]
+          ],
+          "lengthPx": 89.44
+        },
+        {
+          "role": "intermediate",
+          "endpoints": [
+            [
+              1280,
+              610
+            ],
+            [
+              1360,
+              655
+            ]
+          ],
+          "lengthPx": 91.79
+        }
+      ],
+      "bodyWidth": null,
+      "bodyReason": "No unique lateral material boundaries after merging into shared blue area."
+    }
+  ],
+  "ivoryTongues": [
+    {
+      "between": [
+        "H1",
+        "H2"
+      ],
+      "base": [
+        1202,
+        562
+      ],
+      "tip": [
+        1215,
+        637
+      ],
+      "baseTipDistancePx": 76.12
+    },
+    {
+      "between": [
+        "H2",
+        "H3"
+      ],
+      "base": [
+        1346,
+        500
+      ],
+      "tip": [
+        1370,
+        590
+      ],
+      "baseTipDistancePx": 93.15
+    }
+  ],
+  "uncertainty": "Approximate manual endpoints; numerical error bound not established. Tips clearer than bases. Body widths deliberately null where material boundaries merge.",
+  "interpretation": "Qualitative broad connected blue regions remain visible; exact individual head correspondence and widths not established by these coordinates.",
+  "rendererReady": false,
+  "measurementValidity": "None of the six proposed head spans or two ivory spans is accepted for geometry. Numeric distances are arithmetic only.",
+  "rejectionEvidence": "research/output/agent-phase-2026-11-09/P119/independent-review.json"
+}

@@ -1,0 +1,5 @@
+# P120 — Color component as source evidence only
+
+Hypothesis: fixed pixel-supported components can expose blue/ivory boundary evidence before semantic head identification, replacing P119 guessed endpoints. Canonical scan unchanged; crop [850,480,1650,1100], seed original [1300,950], four-neighbor connectivity. Fixed RGB membership: R < threshold and B > 1.15 R, thresholds 90,110,130. Report seed eligibility at each threshold; no seed replacement.
+
+One triplet of component masks and boundary overlays against the unthresholded crop, pixel counts/bounds, crop-edge contact and visible contamination. No morphology, color-rule tuning, width measurements, renderer transfer or source-derived finished-wave asset. Stable thresholds can share errors: color cannot itself distinguish water from touching ink or pale bands. Reject area interpretation if connectivity differs materially or ink leaks; report color component insufficient for material separation. Test work4000 estimated including preflight/review, final5% phase reserve separate.

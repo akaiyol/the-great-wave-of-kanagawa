@@ -1,0 +1,15 @@
+{
+  "phase": "P119",
+  "renderer": "Pillow source annotations; no browser/art capture",
+  "status": "rejected source measurements retained for evidence only",
+  "files": {
+    "research/woodblock/waterhead-envelope.json": "c5bed48fd3ef3438a0731551072b2225817b0da3081d2a45c0a098fbb2f4396c",
+    "research/output/agent-phase-2026-11-09/P119/proposed-measurements.json": "267d021796cfedb059913897eb0b9b50fef4fb894d1d0aaf3e5f45ce63c23c4e",
+    "research/output/agent-phase-2026-11-09/P119/proposed-overlay.png": "5f4e7f63b9c35a00f0bbe03c34f3612d8245a24c2a1407957d86d7508e50a086",
+    "research/output/agent-phase-2026-11-09/P119/source-crop.png": "600cbec7675345ad0d9c261dc5d2794f51889ce80b5c256d87b69d7b890ad894",
+    "research/output/agent-phase-2026-11-09/P119/source-context.png": "926f5912c1a9d5f3d2cc90518e5cd3344dbd1bcd0f63f668432a53b94dd91982",
+    "research/output/agent-phase-2026-11-09/P119/independent-review.json": "66d54bc6dfc19a3061890d3392464059dcf8b3f244f2671aa730cfe1fdd25521",
+    "research/output/agent-phase-2026-11-09/P119/version.json": "a0cf6633eed3ecb6c38ba3fec2ce0e0c01e590b9cb674f4d0d06effd98a5cd75",
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303"
+  }
+}

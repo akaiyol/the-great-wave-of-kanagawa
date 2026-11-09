@@ -1,0 +1,18 @@
+{
+  "phase": "P119",
+  "reviewer": "/root/p118_night_preflight",
+  "policyVersion": "v2",
+  "decision": "reject_measurement",
+  "findings": [
+    "H1 shoulder and intermediate cross different lobes; shared body continuity does not prove same-head correspondence.",
+    "H2 shoulder starts in ivory; H3 shoulder starts in ivory and ends inside blue. Lengths are not boundary-to-boundary water widths.",
+    "Both proposed ivory tips lie in blue. No descent distances accepted."
+  ],
+  "retained": [
+    "Null body widths and rendererReady:false are appropriate.",
+    "Qualitative broad connected water areas remain a viable premise, not demonstrated construction readiness."
+  ],
+  "nextAction": "No coordinate tuning. Identify material boundaries and correspondence explicitly before later numeric study.",
+  "estimatedTokens": 650,
+  "actualTokens": null
+}
