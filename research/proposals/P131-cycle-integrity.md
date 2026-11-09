@@ -1,0 +1,7 @@
+# P131 — One bounded cycle excision
+
+P130exactrecipe remainsfailed. Keeprawnodes/tangents/inputevidence immutable. Exactlyoneproperintersection inrawopenprofile definesoneclosedsubcycle. Eligibleonlyif area<=strokeWidth²/4 and diameter<=strokeWidth (width3). Exciseintervalbetweenintersectingsegments, insertanalyticintersection, preserveprefix/suffixandendpoints. Thisremovestheoldlefttoe node andintroducesatangentdiscontinuity; doNOTclaimallnodes/C1orappearancepreserved. No smoothing, tangent/nodechange, secondrepair oradditionalgroup.
+
+Recomposeactualsharedfoam/bluefaces. Requirezero nonadjacentcross/contact inactualand3-decimalserializedprofile/Fsheet/mainblueface, profileinsideoldbody, faceareaspartitionmainbody, retainedP110W/F/Sprobes, deterministicunchangedremainingSVG. NewnativevalidviewcomparewithP124/referenceandrawP130. Raw-to-repairedpixeldiff confinedtocyclebbox+stroke/antialiaspadding; noassumptiondirectionalgainpreserved. Stoponanyfailedgeometry/pixel/artgate. No scene/appintegrationuntilscopedretention.
+
+Workcap7000estimatedinclcachedsetup/implementation/capture/affectedchecks/review; planned10000incl500processreserve. Currentmanualfullallowance override permitsoneattempt; checkpointbeforeexhaustion, leaveanyunfinishedreviewexplicit.

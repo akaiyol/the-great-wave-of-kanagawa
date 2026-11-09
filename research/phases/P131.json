@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P131",
+  "objective": "Repair one localized cycle and test the valid whole-view result.",
+  "hypothesis": "Removing only the single sub-stroke-scale closed cycle can produce a valid shared partition while preserving the promising whole-view interlock, subject to a fresh valid comparison.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "process.local-proof-drift"
+  ],
+  "baseline": "P130rawfailedpartition withdirectionalpromise; P124retainedscene.",
+  "artifactTarget": "research/woodblock/crest-junction-repair.mjs",
+  "plannedTokens": 10000,
+  "family": "bounded-cycle-integrity",
+  "strategyReview": "research/strategies/S131.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Oneintegrityoperation/no anatomyredesign, rawfailurepreserved, milestoneallowance/checkpoint, final500review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-09T17:18:49.961Z",
+  "result": {
+    "id": "P131",
+    "summary": "Geometry repair passes; mandatory rendered-locality gate fails: seven pixels extend outside predeclared bound. Cause unknown. P124 retained; no artistic promotion.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P131/summary.json",
+      "research/output/agent-phase-2026-11-09/P131/render-receipt.json",
+      "research/output/agent-phase-2026-11-09/P131/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P131/candidate-static-1440x960.png"
+    ],
+    "nextAction": "Separate fixed-input repeat-render discriminator; no second repair or bound expansion.",
+    "estimatedWorkTokens": 5200
+  },
+  "review": {
+    "id": "P131",
+    "findings": [
+      "Worker implemented the exact operation within estimated2400tokens; source and serialized geometry pass. Lead owns mandatory rendered gate and retains its failure rather than relaxing it.",
+      "Seven changedpixels are not evidence of broad geometry leakage; exact cause remains unknown. No visual promotion or wholeart claim.",
+      "Work estimated5200 includes250preflight,2400worker,2550leadverification/records. Review600 includes450peer plus150lead; reserve500 exceeded100 with phase headroom. Actual telemetry unavailable; no efficiency claim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Preserve technical repair evidence and unchanged P124 retained artwork.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P131/summary.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "No P131 art promotion, gate widening or second repair.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P131/render-receipt.json",
+          "research/output/agent-phase-2026-11-09/P131/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Calibrate fixed-input raster repeatability once before attributing the seven-pixel discrepancy.",
+    "estimatedReviewTokens": 600
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 5200,
+    "estimatedReviewTokens": 600,
+    "estimatedTotalTokens": 5800,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 100,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T23:48:22.490Z",
+  "closedAt": "2026-11-09T23:48:22.520Z"
+}

@@ -1,0 +1,33 @@
+{
+  "phase": "P131",
+  "renderer": "QuickLook static SVG",
+  "browserVerified": false,
+  "DPR": null,
+  "thumbnailSize": [
+    1440,
+    1440
+  ],
+  "crop": [
+    0,
+    240,
+    1440,
+    1200
+  ],
+  "predeclaredPixelBound": [
+    440,
+    253,
+    450,
+    264
+  ],
+  "actualChangedPixelsBBox": [
+    173,
+    257,
+    602,
+    260
+  ],
+  "changedPixels": 7,
+  "maximumChannelDifference": 25,
+  "outsideBoundEqual": false,
+  "verdict": "fail",
+  "note": "No bound expansion or second repair; geometry gates passed but rendered locality gate failed. Cause not established."
+}

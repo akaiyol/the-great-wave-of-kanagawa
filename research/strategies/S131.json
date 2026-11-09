@@ -1,0 +1,52 @@
+{
+  "id": "S131",
+  "targetPhase": "P131",
+  "family": "bounded-cycle-integrity",
+  "hypothesis": "Removing only the single sub-stroke-scale closed cycle can produce a valid shared partition while preserving the promising whole-view interlock, subject to a fresh valid comparison.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p129_fresh_review"
+  },
+  "recommendation": "continue",
+  "reason": "Oneboundedexcisionandvalidcomparisonapproved; toe/tangentchange canexposepegso noautomaticgainretention.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P130/independent-review.json",
+      "claim": "Qualifiedwholeviewdirectionworthoneintegrityrepair.",
+      "sha256": "9338a0ebf86f759e1e792b8311825735bcdb0b664387a90227287f969cf65530"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-09/P130/diagnostics.json",
+      "claim": "One smallclosedcycle localized inprofile.",
+      "sha256": "55144656f737d6632b5c8405b4054213da1d56151eccec9e17b26412c7656e29"
+    },
+    {
+      "path": "research/proposals/P131-cycle-integrity.md",
+      "claim": "Explicitboundedoperation,no anatomicalparametersearch.",
+      "sha256": "9ff1e58c7ec28b6475a9abee3a31fd55e5f89b556f1efe9b1e4dc43431b96018"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P130.json",
+      "claim": "Centralreturnalreadynarrow/peg-like; exactpartitionfailed.",
+      "sha256": "be9b4f902353e923608a70dcafe94dd24e37c47f2c2ab1b445830cc9d0986f50"
+    }
+  ],
+  "unknowns": [
+    "Serializedsimplicity/sharedpartition and whether toe/tangentchange harmsinterlock."
+  ],
+  "prediction": {
+    "ifTrue": "Validfaceswithsamevisibleinterlockoutsideboundeddefect.",
+    "ifFalse": "Invalidgeometry,outsidepixelchangesorconspicuousprongs/lostgain."
+  },
+  "test": {
+    "action": "Oneeligiblecycleexcision, geometry/serialized/probe/pixelchecks andvalidwholevsP124/raw/reference.",
+    "success": "Independentlyretainedscopededgegainonlyafterallchecks.",
+    "failure": "Stopnosmoothing/secondrepair orwiderfamily.",
+    "maxWorkTokens": 7000
+  },
+  "estimatedReviewerTokens": 250,
+  "actualTokens": null
+}

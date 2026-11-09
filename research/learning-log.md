@@ -173,3 +173,7 @@ The worker independently avoided dumping rawpolygon arrays and used runtime comp
 ## L030 — Keep a direction separate from a failed artifact
 
 [P130](phases/P130.json) followed the freshwhole-viewpriority witha sharedrecurvedboundary. Daphnie’s exactrecipeproduced one small self-crossing; the worker followedit. Independentreviewauthorized one unchanged forensicview and sawmodestsource-relatedinterlock, while retaining onlythedirection—not thefailedartwork. A separatelyreviewedintegrityrepair needs a validwholecomparison andmaystillfail artistically. No localparameterredesign or additionalgroups approved. P124remainsretained.
+
+## L031 — A failed raster gate has a narrow meaning
+
+[P131](phases/P131.json) removed the one eligible cycle and passed geometric, serialized partition, probe and frozen-source checks. Seven rendered pixels exceeded the predeclared locality bound. Daphnie retained the failed gate rather than widening it; the independent reviewer distinguished this observation from evidence of broad source changes or capture instability. P124 remains retained. Another repaired-branch claim requires a separately reviewed fixed-input capture discriminator; no second repair is authorized. Daphnie owns the review-reserve estimate overrun; the worker followed the bounded operation.

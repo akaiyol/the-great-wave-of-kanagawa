@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/p129_fresh_review",
+  "policyVersion": "v2",
+  "strategyVersion": 1,
+  "verdict": "failed rendered-locality scope; cause unknown",
+  "findings": [
+    "Geometric repair passes, not artistic acceptance.",
+    "Seven outside-bound pixels do not prove broad source changes or renderer instability.",
+    "No widening or second repair; P124 remains retained."
+  ],
+  "next": "Separate bounded unchanged-input repeat capture discriminator before further repaired-branch claims.",
+  "estimatedTokens": 450
+}

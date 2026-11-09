@@ -1,0 +1,80 @@
+{
+  "phase": "P131",
+  "pass": true,
+  "cleanup": {
+    "i": 427,
+    "j": 441,
+    "q": [
+      370.42674506509303,
+      214.73247110388706
+    ],
+    "cycleArea": 0.20200623425625963,
+    "diameter": 1.8690314512426152,
+    "replacementCount": 2,
+    "cycleBounds": [
+      370.42674506509303,
+      214.73247110388706,
+      371.3171296296296,
+      216.376708984375
+    ],
+    "lostOriginalToe": true,
+    "C1Preserved": false
+  },
+  "integrity": {
+    "profile": {
+      "raw": {
+        "crossings": 0,
+        "touches": 0,
+        "pass": true
+      },
+      "serialized": {
+        "crossings": 0,
+        "touches": 0,
+        "pass": true
+      }
+    },
+    "Fsheet": {
+      "raw": {
+        "crossings": 0,
+        "touches": 0,
+        "pass": true
+      },
+      "serialized": {
+        "crossings": 0,
+        "touches": 0,
+        "pass": true
+      }
+    },
+    "mainBlue": {
+      "raw": {
+        "crossings": 0,
+        "touches": 0,
+        "pass": true
+      },
+      "serialized": {
+        "crossings": 0,
+        "touches": 0,
+        "pass": true
+      }
+    }
+  },
+  "profileInsideBody": true,
+  "areaResidual": 1.1059455573558807e-9,
+  "probes": {
+    "W": {
+      "count": 34,
+      "failed": 0
+    },
+    "F": {
+      "count": 816,
+      "failed": 0
+    },
+    "S": {
+      "count": 58,
+      "failed": 0
+    }
+  },
+  "byteExact": true,
+  "frozen": true,
+  "deterministic": true
+}
