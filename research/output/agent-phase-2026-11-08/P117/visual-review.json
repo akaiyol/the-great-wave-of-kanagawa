@@ -1,0 +1,14 @@
+{
+  "phase": "P117",
+  "policyVersion": "v2",
+  "reviewer": "/root/p117_visual",
+  "decision": "reject",
+  "findings": [
+    "Second opening exposes subordinate hooks but repeats rounded cups; no meaningful integrated whole-crest hierarchy.",
+    "Canonical branching spans broader foam structure; blank upper cap and sparse hooked perimeter persist.",
+    "Reject this construction, not support removal generally. Preserve P116 scoped regional gain."
+  ],
+  "scope": "Seed721 fixed-crop QuickLook, source/capture hashes verified by reviewer; browser/material style/user acceptance unverified.",
+  "estimatedTokens": 1750,
+  "actualTokens": null
+}

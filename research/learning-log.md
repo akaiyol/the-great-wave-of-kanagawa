@@ -121,3 +121,9 @@ P111's finite canary actually arrived14.678seconds after its target; its receipt
 [P116](phases/P116.json) kept the complete fork unchanged and opened its shared water/foam support boundary. The evaluator retained a limited shared-junction/subordinate-return gain; the rounded cove remains stylistically unresolved. Daphnie proposed the cove after the failed shear, and the worker implemented it. Actual lower-cove sky access, all four child/sheet overlaps, simple new polygons and frozen W/F/S passed checks. No whole-art or efficiency claim.
 
 Daphnie caught that union membership alone cannot prove attachment and switched to direct child/sheet interior clearances. The independent evaluator identified missing boundary-contact/exit qualifications in the first route checker; Daphnie added partition-point/collinear checks and a strict-air route beyond the main material bound. Stronger checks pass without changing the artwork. Evidence and scope remain in the phase; no general topology or browser proof follows.
+
+## L019 — A local gain does not justify repeating its shape
+
+[P117](phases/P117.json) exposed another unchanged fork, but the independent reviewer rejected repeated rounded cups at whole-view scale. Daphnie owns the proposed opening; the worker implemented it correctly. Preserve P116 only in its tested regional scope. Failure `geometry.repeated-support-cups`: no nearby cove tuning; re-entry requires a materially different crest-wide construction and source evidence. The next question is branching distribution, not tip count.
+
+Daphnie also owns the earlier native Safari fallback that stalled approximately10.7hours until the owner interrupted it, with no artwork progress. This is delivery failure, not evidence of productive compute or an allowance fault. The current static comparison completes without that access path; browser behavior remains unverified.

@@ -1,0 +1,23 @@
+{
+  "phase": "P117",
+  "seed": 721,
+  "renderer": "macOS QuickLook SVG thumbnail1440; fixed crop [0,240,1440,1200]",
+  "viewport": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "baselineImage": "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png",
+  "candidateImage": "research/output/agent-phase-2026-11-08/P117/candidate-static-1440x960.png",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/second-support-cove.mjs": "cc2e37fb25127a82072b52907276c6e766fa9088f4c8ac281794848d5d822b40",
+    "research/woodblock/second-support-cove.html": "ee90208013d330104b93f7422592464d9aab7c8554b76759e8c946d9ceb96467",
+    "research/woodblock/support-cove.mjs": "5999d5c5c9dede78961749f2862fd59060ee4ff8cdce4f8840df4cf2395a16db",
+    "research/output/agent-phase-2026-11-08/P117/candidate-721.svg": "a2560af738312a2d1d3ae912eba782c1a27b4e934e18924b4901f0e1697dbff9",
+    "research/output/agent-phase-2026-11-08/P117/candidate-static-1440x960.png": "500ed8126efb52bc23e67a2910fd0de7cefc04d79f142a8cde5890632ecfd076",
+    "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94"
+  },
+  "scope": "One seed static whole-view discrimination; no browser, variety or artistic acceptance."
+}

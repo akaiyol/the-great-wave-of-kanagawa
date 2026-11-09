@@ -1,0 +1,7 @@
+{
+  "status": "blocked_next_phase_review",
+  "observed": "Both followup_task and fresh spawn_agent returned agent thread limit reached after P117 closed. One stale pending P107 researcher was interrupted; fresh spawn still failed.",
+  "impact": "Mandatory fresh independent preflight unavailable. P118 remains draft, no phase or art implementation.",
+  "recovery": "Retry independent reviewer when host capacity is available; do not bypass review or revive rejected cove/stamp paths.",
+  "quotaExhausted": false
+}

@@ -5,23 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P116 (closed).
-Record: research/phases/P116.json
-Objective: Expose unchanged fork by opening a shared water/foam support cove.
-Hypothesis: Removing enclosing support material exposes an unchanged compact fork against open sky without shearing parent anatomy.
-Baseline: P110 supportcoversB0/C0; P115 shear rejected. Originalfork retained, changeoccludingenvelope only. Selection charged.
-Artifact: research/woodblock/support-cove.mjs
-Budget: 6175 work / 325 review tokens (planned; usage estimated).
-Strategy: research/strategies/S116.json (family: open-support-cove).
+Current phase: P117 (closed).
+Record: research/phases/P117.json
+Objective: Test second support opening in whole crest.
+Hypothesis: A second shared support opening exposes unchanged descendants as integrated branching in the whole crest rather than repeated cups.
+Baseline: P116 retained one regional fork; cove bowl-like, whole artwork unmet.
+Artifact: research/woodblock/second-support-cove.mjs
+Budget: 15200 work / 800 review tokens (planned; usage estimated).
+Strategy: research/strategies/S117.json (family: second-support-cove).
 Artifact delivered: true.
-Result: Retain limited seed721forkhierarchy gain: unchanged upper/lower returns share pale junction nowexposedbyopen supportcove. Affectedchecks pass: simplepolygons, directrootinteriorclearance1.5, specifiedW/F/Sroles andstrictairpath beyondmainmaterialbound, frozenregions. Covebowl-like, sourceplacement/browser/wholeart/varietyunaccepted.
-Verdicts: technical pass; artistic incomplete.
-Next action: Checkpoint beforeexhaustion; nextTorontomidnightcontinuecurrentbrief. PreserveP116regionalgain, targetwhole-crest/source-relatedsupportshape. Do notretuneP113/P114/P115 orclaimuppergroupingresolved.
-Decision (retain): Keep scopedP116hierarchy checkpoint andstrongeractualattachment/sky evidence; preserveexplicitstylisticlimits.
-Decision (drop): Do notpromotethreefailedcandidates ormistakehighercomplexity/exposure/sourceoverlay forartgain.
-Next improvement: Choosewhole-crest/source-grounded support relationship; budgetfullsetup+reviewcost. Anothercomparablephasecannotfitsafelyincurrentremainingallowance.
+Result: Rejected second support opening: repeated rounded cups dominate over integrated whole-crest branching. Preserve P116; no geometry checks or rescue tuning. Candidate archived only.
+Verdicts: technical incomplete; artistic fail.
+Next action: Fresh source-grounded hypothesis review of crest-wide branching distribution, not another cove or independent stamp field.
+Decision (drop): Do not promote or retune P117 repeated-cup construction.
+Decision (retain): Preserve P116 limited fork gain and early whole-view discrimination; defer broad tests for rejected art.
+Next improvement: Require crest-wide causal value and actual coupled material anatomy in next hypothesis; avoid freestanding stamps or another opening. Avoid the failing Safari path; no recovery guarantee claimed.
 State retainedCandidate: P099water/P098localparent plusP110WFS andP116seed721open-support-cove regionalforkhierarchygain. Bowl-likecove/blankcap/remaininghooks unresolved; noacceptedwholeart orvariety. Rootapp/P079unchanged.
-State checkpointReason: P116regionalgainchecked; P113–P115rejected/published. Pre-exhaustioncheckpoint, next planned ARTphase willnotfit remainingheadroom safely; automaticnextnightwindow00–08Toronto.
+State checkpointReason: P117 rejected and closed; P116 preserved. Next-phase independent review blocked by host agent thread limit, not account exhaustion.
 Run authorization: Owner2026-11-07: automatic useful work daily00:00–08:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

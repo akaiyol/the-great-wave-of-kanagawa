@@ -1,0 +1,47 @@
+{
+  "id": "S117",
+  "targetPhase": "P117",
+  "policyVersion": "v2",
+  "family": "second-support-cove",
+  "hypothesis": "A second shared support opening exposes unchanged descendants as integrated branching in the whole crest rather than repeated cups.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p117_review"
+  },
+  "recommendation": "continue",
+  "reason": "Prior independent preflight permitted one bounded whole-view test; placement and source likeness remain unaccepted.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P117-second-support-cove.md",
+      "claim": "Preserves complete children and opens enclosing material only.",
+      "sha256": "d3850b5eb808255867a738d9e87fe776988898160603a10d5527c835415229b0"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-07/P116/visual-review.json",
+      "claim": "First opening exposes a shared junction and unequal returns.",
+      "sha256": "158d988ceec6b523d325bd7a4ca870cada05e9305e95208b705348ac41e0eb45"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png",
+      "claim": "First bay is bowl-like beneath a blank cap; repetition may worsen whole anatomy.",
+      "sha256": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94"
+    }
+  ],
+  "unknowns": [
+    "Whole-view integration of second group; exact source upper-neighbor placement unresolved."
+  ],
+  "prediction": {
+    "ifTrue": "Substantial connected parent feeds unequal subordinate returns in whole context.",
+    "ifFalse": "Repeated cups, detached claws, thin support or only more tips."
+  },
+  "test": {
+    "action": "One matched 1440x960 static comparison; integrity checks only after meaningful visual gain.",
+    "success": "Two integrated parent-descendant relationships.",
+    "failure": "Repeated bowls or extra tips dominate; reject without tuning.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 5000,
+  "actualTokens": null
+}

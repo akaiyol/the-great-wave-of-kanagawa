@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P117",
+  "objective": "Test second support opening in whole crest.",
+  "hypothesis": "A second shared support opening exposes unchanged descendants as integrated branching in the whole crest rather than repeated cups.",
+  "failureIds": [
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P116 retained one regional fork; cove bowl-like, whole artwork unmet.",
+  "artifactTarget": "research/woodblock/second-support-cove.mjs",
+  "plannedTokens": 16000,
+  "family": "second-support-cove",
+  "strategyReview": "research/strategies/S117.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One isolated candidate, preserve P116; no rescue tuning, no browser or overall acceptance claims. Budget includes previous preflight overhead.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 15200,
+    "reviewTokens": 800
+  },
+  "startedAt": "2026-11-09T04:25:59.416Z",
+  "result": {
+    "id": "P117",
+    "summary": "Rejected second support opening: repeated rounded cups dominate over integrated whole-crest branching. Preserve P116; no geometry checks or rescue tuning. Candidate archived only.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-08/P117/visual-review.json",
+      "research/output/agent-phase-2026-11-08/P117/receipt.json",
+      "research/output/agent-phase-2026-11-08/P117/candidate-static-1440x960.png"
+    ],
+    "nextAction": "Fresh source-grounded hypothesis review of crest-wide branching distribution, not another cove or independent stamp field.",
+    "estimatedWorkTokens": 12000
+  },
+  "review": {
+    "id": "P117",
+    "findings": [
+      "Independent whole-view review rejected this extension before broad checks. Exact worker implementation did not repair weak proposal value; Daphnie owns task selection.",
+      "Earlier native Safari call stalled about10.7h until owner interruption, with no artwork progress. Treat as delivery gap, not compute or host-sleep evidence. Current experiment used existing static fallback; browser remains unverified.",
+      "Estimated12000 work includes prior preflight5000, worker1700, evaluator1750 and lead setup/capture/records; exact telemetry unavailable. Budget16000 includes800 review reserve. No matched efficiency improvement established."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Do not promote or retune P117 repeated-cup construction.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-08/P117/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Preserve P116 limited fork gain and early whole-view discrimination; defer broad tests for rejected art.",
+        "evidence": [
+          "research/phases/P116.json",
+          "research/output/agent-phase-2026-11-08/P117/receipt.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Require crest-wide causal value and actual coupled material anatomy in next hypothesis; avoid freestanding stamps or another opening. Avoid the failing Safari path; no recovery guarantee claimed.",
+    "estimatedReviewTokens": 800
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 12000,
+    "estimatedReviewTokens": 800,
+    "estimatedTotalTokens": 12800,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T04:28:06.509Z",
+  "closedAt": "2026-11-09T04:28:06.547Z"
+}

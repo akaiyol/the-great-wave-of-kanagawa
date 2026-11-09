@@ -7,8 +7,8 @@
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
   "currentStudy": "P099 globalwater/P098localparent; P116support-cove.html preservesP110WFS and addsseed721limitedforkhierarchy.",
   "retainedCandidate": "P099water/P098localparent plusP110WFS andP116seed721open-support-cove regionalforkhierarchygain. Bowl-likecove/blankcap/remaininghooks unresolved; noacceptedwholeart orvariety. Rootapp/P079unchanged.",
-  "currentPhase": "P116",
-  "currentPhaseRecord": "research/phases/P116.json",
+  "currentPhase": "P117",
+  "currentPhaseRecord": "research/phases/P117.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -60,11 +60,11 @@
     ]
   },
   "runCheckpoint": "research/output/agent-phase-2026-11-07/run-checkpoint.json",
-  "nextExperimentContract": "P116onlyregionalretainedafterchecks. Preserveunchangedparentanatomy andsharedwater/foamouter. Next ART hypothesis must assesswhole-crestrelationships andsourcegroundedcove/supportshape, notmereextratips ornearbyrescueofP113/P114/P115. Do notassertP107uppergroupingresolved.",
+  "nextExperimentContract": "P118 draft source-calibrated broad waterhead/ivory area-envelope question. Fresh independent preflight required before phase start; do not repeat P117 cups or P108 stamps.",
   "runHeadroomPlan": {
     "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "P116regionalgainchecked; P113\u2013P115rejected/published. Pre-exhaustioncheckpoint, next planned ARTphase willnotfit remainingheadroom safely; automaticnextnightwindow00\u201308Toronto.",
+  "checkpointReason": "P117 rejected and closed; P116 preserved. Next-phase independent review blocked by host agent thread limit, not account exhaustion.",
   "scheduledContinuation": {
     "id": "wave-project-five-hour-continuation",
     "status": "ACTIVE",
@@ -82,5 +82,6 @@
       9,
       10
     ]
-  }
+  },
+  "continuationBlocker": "research/output/agent-phase-2026-11-08/P117/continuation-blocker.json"
 }
