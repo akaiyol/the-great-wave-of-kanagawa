@@ -1,0 +1,52 @@
+{
+  "id": "S123",
+  "targetPhase": "P123",
+  "family": "shared-boundary-source-cell",
+  "policyVersion": "v2",
+  "hypothesis": "One explicit canonical cell with shared water/ivory/sky boundaries can resolve the missing coupled region construction before any crest-wide renderer.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Source-only decision cell permitted; renderer expressly deferred as under-specified.",
+  "supportingEvidence": [
+    {
+      "path": "research/phases/P122.json",
+      "claim": "Appendages fail hierarchy; a joint material partition is needed.",
+      "sha256": "35d29083ed4c0cb3b410001a662655cc31aeab42bf15b00234ac4c06de29fe61"
+    },
+    {
+      "path": "research/proposals/P123-shared-boundary-cell.md",
+      "claim": "One cell requires explicit paths, attachment intervals and exterior sky, not labels alone.",
+      "sha256": "62515f071bca1d8b239c27276cc1f0de0abe3b82dd6507a80e76d7f8534a2db4"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P106.json",
+      "claim": "Overlapping support/components previously occluded descendants; graph vocabulary alone does not fix anatomy.",
+      "sha256": "ea004b9d9241277a08970d222851914af58cd2564d32a875097f14d3a3041c7d"
+    },
+    {
+      "path": "research/phases/P121.json",
+      "claim": "Technical reachability/widths do not establish artistic value.",
+      "sha256": "8e05113facfa98b198050fb59ce3c660e3f3095b2cad923c0ee2023b65ec3d6d"
+    }
+  ],
+  "unknowns": [
+    "Exact replacement boundary geometry, shared junction correspondence and composable neighbor intervals."
+  ],
+  "prediction": {
+    "ifTrue": "Concrete simultaneously consistent material regions and exterior sky support a new construction premise.",
+    "ifFalse": "Missing paths/assignments or independent support envelope remain; defer renderer."
+  },
+  "test": {
+    "action": "One annotated canonical cell plus deterministic edge-to-region/attachment recipe and concrete drawing; no renderer.",
+    "success": "Unambiguous shared interfaces and open sky/attachment relationships independently supported.",
+    "failure": "Any material assignment hand-waved: unresolved decision, no implementation.",
+    "maxWorkTokens": 2500
+  },
+  "estimatedReviewerTokens": 1050,
+  "actualTokens": null
+}

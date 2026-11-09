@@ -21,7 +21,7 @@ Decision (drop): Archive coupled appendix candidate without tuning.
 Decision (retain): Keep exact displacement witness capability and source/acceptance limits, not visual promotion.
 Next improvement: Independently assess whether new representation has crest-wide anatomical coverage before any implementation; stop using material reachability as sufficient task-selection evidence.
 State retainedCandidate: P099water/P098localparent plusP110WFS andP116seed721open-support-cove regionalforkhierarchygain. Bowl-likecove/blankcap/remaininghooks unresolved; noacceptedwholeart orvariety. Rootapp/P079unchanged.
-State checkpointReason: Daphnie120835a verified. P119measurements rejected; P120diagnostic scoped. P121/P122art rejected, P116 remains retained. New construction requires crest-wide representation, not further appendix tuning.
+State checkpointReason: Daphnie120835a verified; P119–P122 reviewed/published, no new art gain. Independent P123 review defers renderer: missing exact three-material cell geometry. P116 remains retained; source-only decision packet not yet started.
 Run authorization: Owner2026-11-07: automatic useful work daily00:00–08:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:
