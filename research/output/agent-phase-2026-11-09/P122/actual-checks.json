@@ -1,0 +1,61 @@
+{
+  "witnessCenters": [
+    {
+      "p": [
+        308,
+        249
+      ],
+      "material": "foam"
+    },
+    {
+      "p": [
+        363,
+        236
+      ],
+      "material": "foam"
+    },
+    {
+      "p": [
+        345,
+        177
+      ],
+      "material": "blue"
+    },
+    {
+      "p": [
+        410,
+        157
+      ],
+      "material": "blue"
+    }
+  ],
+  "geometryKeys": [
+    "profile",
+    "sourceCurves",
+    "correction",
+    "outerPrefix",
+    "outerReturn",
+    "outer",
+    "seam",
+    "supportsheet",
+    "waterbase",
+    "foamcomponents",
+    "watercomponents",
+    "children",
+    "band",
+    "routes",
+    "W",
+    "F",
+    "P",
+    "S",
+    "cove",
+    "lobes",
+    "insideSharedBody",
+    "insideOldFoam",
+    "insideLobes",
+    "materialAt",
+    "blueLobes",
+    "ivoryRibbons",
+    "insideIvoryRibbons"
+  ]
+}

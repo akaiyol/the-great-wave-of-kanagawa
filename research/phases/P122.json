@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P122",
+  "objective": "Test two-way material displacement with geometric witnesses before rendering.",
+  "hypothesis": "Coupled finite-area displacement creates actual descending ivory inside old blue and broad blue inside old ivory, enabling interlocking crest anatomy.",
+  "failureIds": [
+    "geometry.monotone-material-recipe",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P121 blue-only additions rejected, P114 filament rejected; preserve P116.",
+  "artifactTarget": "research/woodblock/coupled-material.mjs",
+  "plannedTokens": 7000,
+  "family": "coupled-material-areas",
+  "strategyReview": "research/strategies/S122.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Witness gate before renderer, onecandidate/norescue, no numeric sourcewidth or copied masks; reserve350process.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-09T14:20:39.261Z",
+  "result": {
+    "id": "P122",
+    "summary": "Rejected artwork: long ivory slots and capsule blue fingers without whole-crest hierarchy. Retain only scoped two-way displacement/witness capability, not visual gain. Preserve P116.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P122/visual-review.json",
+      "research/output/agent-phase-2026-11-09/P122/receipt.json",
+      "research/output/agent-phase-2026-11-09/P122/witnesses.json",
+      "research/output/agent-phase-2026-11-09/P122/actual-checks.json",
+      "research/output/agent-phase-2026-11-09/P122/candidate-static-1440x960.png"
+    ],
+    "nextAction": "No ribbon/appendix tuning. Require crest-wide joint representation of shoulders, junctions, unequal branches and outer curl before another build.",
+    "estimatedWorkTokens": 5000
+  },
+  "review": {
+    "id": "P122",
+    "findings": [
+      "Two-way material displacement addresses P121 logical impossibility, but shape hierarchy remains inadequate. Root/displacement witnesses establish capability, not prospective artistic value. Daphnie owns recipe; worker implemented correctly.",
+      "Reviewer rejected parallel slots and blue fingers; no rescue or broad checks. Preserve scoped technical result separately from P116 visual checkpoint.",
+      "Estimated5000 work includes600 strategy,2200worker,1700lead/witness/capture and500review, at testcap. Actual telemetry unknown; no efficiencygain. Need wholecrest representation, not continued narrow variations."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Archive coupled appendix candidate without tuning.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P122/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep exact displacement witness capability and source/acceptance limits, not visual promotion.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P122/witnesses.json",
+          "research/output/agent-phase-2026-11-09/P122/actual-checks.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Independently assess whether new representation has crest-wide anatomical coverage before any implementation; stop using material reachability as sufficient task-selection evidence.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 5000,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 5350,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T14:24:06.044Z",
+  "closedAt": "2026-11-09T14:24:06.083Z"
+}

@@ -1,0 +1,23 @@
+{
+  "phase": "P122",
+  "seed": 721,
+  "renderer": "QuickLook1440square, crop[0,240,1440,1200]",
+  "viewport": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "scope": "One two-way material study. Geometry witnesses not source likeness or general topology.",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/coupled-material.mjs": "e11bd5b3f288d6c59fe10bb5ac29c036af46a742c8d9bcf26c7b1f5dc7c03839",
+    "research/woodblock/coupled-material.html": "8f1abf92c5facef0f041cdce14fe2f3a84a5c205097e26240bc1665001ed05fe",
+    "research/woodblock/coupled-material-check.mjs": "655c7624120c579792490077848e78facfbe5e1c66ad5d39e35cbcbad1e8b1b2",
+    "research/output/agent-phase-2026-11-09/P122/candidate-721.svg": "e47dc372082eb619c56eb31bcd18bcd126781520424f1f2b31fc530bb0410018",
+    "research/output/agent-phase-2026-11-09/P122/candidate-static-1440x960.png": "739452d5b2e7b0c1c78953a7852fdefd1c1b17de08b61564718c19c1ec13a658",
+    "research/output/agent-phase-2026-11-09/P122/witnesses.json": "a8fe9174ec35d8722b1c03c771e4f5c05fdf070214835381541842fb89960fb5",
+    "research/output/agent-phase-2026-11-09/P122/actual-checks.json": "dc37a07011a4da1cb8499756d6e3d7bb41aea433bc498a9d7cee1fdec7ff852e",
+    "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94"
+  }
+}

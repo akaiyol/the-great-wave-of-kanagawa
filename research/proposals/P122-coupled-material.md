@@ -1,0 +1,5 @@
+# P122 — Coupled water and ivory areas
+
+Changed premise after P113/P121: blue additions alone cannot grow ivory into old blue. Preserve P116 and reuse exact P121 blue lobes unchanged. Add two ivory ribbons with final material priority: F0 cubic[[314,178],[300,207],[302,236],[310,269]], halfwidth13→4; F1[[375,136],[362,177],[356,218],[368,255]],14→5. Same64interval smoothstep width/round32intervalcap construction. Foam=(oldFoam minusBlueLobes) unionIvoryRibbons withinsharedbody; Blue=sharedbody minusFoam. No mask assets/source widths, decoration or tuning.
+
+Before renderer dispatch: radius2 disks near[308,249],[363,236] must be newFoam/oldBlue, disks[345,177],[410,157] newBlue/oldFoam; continuous positive-area ivory attachment to old foam. Any failure stops without coordinate tuning. Then one area-only1440x960 whole comparison againstP116/canonical. Reject worms/filaments, slots/parallelchannels, capsulefingers or no clear wholecrestgain. No rescue. P114 visibility failure remains contrary evidence, not resolved by witness disks. Max5000estimatedtestwork inclsetup/review, separate5%reserve.

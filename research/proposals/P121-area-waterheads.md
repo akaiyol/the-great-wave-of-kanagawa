@@ -1,0 +1,7 @@
+# P121 — Finite-area water lobes, one falsifiable still
+
+Preserve P116, no source-mask transfer or P119 numeric widths. Test three explicit positive-width water ribbons rooted in existing blue water; union them into actual blue material and remove their areas from the ivory material predicate. Source inspiration is qualitative broad connected water and ivory separators, not quantitative correspondence.
+
+Cubic spines root→tip: L0[[250,340],[245,300],[270,250],[285,225]], L1[[310,345],[300,285],[320,230],[345,192]], L2[[380,350],[355,280],[385,220],[405,172]]. Halfwidths decrease smoothstep root→tip24→16,28→20,32→20. Sample64intervals, round terminalcap32intervals, flatbaseclosure; no neck narrower than tip. Actual predicates foam=oldFoam&&!newLobes and blue=oldBlue||newLobes inside shared body. Preserve original waterbody/outer/firstcove/children/WFS and nonprimarylayers. Render opaque blue lobe areas over corresponding ivory, without bands. Clip to shared body if necessary but report it. New polygons are procedural constructions, not source contours/sprites. Seed721 only; no variety claim.
+
+Confirm sampled root interiors are existing blue and lobes within shared body enough to interpret candidate; then matched1440x960 QuickLook whole comparison before details. Reject capsule/prong dominance, paralleluniform separators, lost retainedanatomy or no clearwholegain. No width/spine/cap rescue. Max4000estimated work including strategy/build/capture/review; no broad checks after rejection.

@@ -1,0 +1,47 @@
+{
+  "id": "S121",
+  "targetPhase": "P121",
+  "family": "finite-area-waterheads",
+  "hypothesis": "Explicit finite-area body-connected water lobes partition the blank foam cap into interlocking material areas without pinched tip-fit necks.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "One area-only candidate; finite widths address neck defect but source likeness uncertain. Defer bands.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P121-area-waterheads.md",
+      "claim": "Positive finite widths and rooted closures materially differ from tip-fit seam.",
+      "sha256": "befb048899f61b27bf5461075517606b1a3b038422d55bcbd74d84ec0df5aed5"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P113.json",
+      "claim": "Upright prongs previously failed; capsules may repeat artistic defect.",
+      "sha256": "e187fe9eb8a46217938ee8b75f2ec7e7741454a2c73f9ddaff8322acb1644679"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-09/P120/independent-review.json",
+      "claim": "Color core supplies no evidence for particular spines or dimensions.",
+      "sha256": "35294d92171e9e0574972466c0a1ec54075e9ad25df815191068250ff7b3ddec"
+    }
+  ],
+  "unknowns": [
+    "Exposed proportions, ivory connectivity and whole-crest hierarchy after union."
+  ],
+  "prediction": {
+    "ifTrue": "Broad interlocking blue/ivory structure with substantial body union.",
+    "ifFalse": "Parallel capsules/prongs, uniform separators or no clear whole-view gain."
+  },
+  "test": {
+    "action": "One specified area-only candidate, sampled root/body checks sufficient for interpretation, whole1440x960 comparison before detail/broad checks.",
+    "success": "Clear whole-crest material structure gain.",
+    "failure": "Reject no cap/width/spine tuning or broad tests.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 600,
+  "actualTokens": null
+}

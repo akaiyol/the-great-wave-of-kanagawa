@@ -1,0 +1,21 @@
+{
+  "phase": "P121",
+  "seed": 721,
+  "renderer": "QuickLook1440square, crop[0,240,1440,1200]",
+  "viewport": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "scope": "One finite-area study; no source widths, copied mask, variety or artistic acceptance.",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/area-waterheads.mjs": "5a74828129e8e30e8bf4beb93f35c4f2a3ba189620a9e439a3d060efeca1b7b1",
+    "research/woodblock/area-waterheads.html": "ad8b1128fe32362858c5158f65d6c39f2158c2de27d1e3343b790eaeb992f92d",
+    "research/output/agent-phase-2026-11-09/P121/candidate-721.svg": "14eb2dbbef229d00c016bab91e46d7aede9f32a34db7f5ea2dc77be3af112cba",
+    "research/output/agent-phase-2026-11-09/P121/candidate-static-1440x960.png": "8b6493da13ec4fabf4c0216388c862af71a8d3b5cd41add29a8f73537f35b9f4",
+    "research/output/agent-phase-2026-11-09/P121/diagnostics.json": "c8422d4c7234bb6807d6e077a10eb2df0c733c6317734eb8941191da66291fbf",
+    "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94"
+  }
+}

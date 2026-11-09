@@ -135,3 +135,11 @@ Daphnie also owns the earlier native Safari fallback that stalled approximately1
 ## L021 — Stable color is not stable material identity
 
 [P120](phases/P120.json) used fixed four-neighbor color components to replace guessed source endpoints. The worker implemented the declared rule; the independent reviewer identified attached ink, blue pinholes and crop truncation. Retain only a reproducible broad color-core observation, not segmentation truth or an artwork asset. Failure `source.color-material-conflation`: no threshold tuning; material measurements or renderer transfer require independent role/correspondence evidence. Daphnie owns scope and rejects unsupported promotion. No artwork or efficiency gain is claimed.
+
+## L022 — Check whether the operation can produce its prediction
+
+[P121](phases/P121.json) added positive-width blue lobes but could only remove old ivory. The independent evaluator identified the causal restriction: new ivory was a subset of old ivory, so it could not descend into previously blue water. Daphnie owns this inconsistent recipe and the resulting contour occlusion; the worker implemented it faithfully. Failure `geometry.monotone-material-recipe`: no cap/width rescue; re-entry requires coupled material displacement with explicit witness areas for ivory entering old blue and a changed whole-anatomy prediction. Root attachment alone is not artistic improvement.
+
+## L023 — Reachable material is not adequate anatomy
+
+[P122](phases/P122.json) passed declared two-way material disks and connected ivory-root evidence, but independent whole-view review rejected long slots and capsule fingers. Daphnie owns the candidate; the worker followed it. Keep displacement as a scoped technical result only. Failure `geometry.appendage-without-hierarchy`: no narrow ribbon variants; re-entry requires a crest-wide representation coupling water shoulders, ivory junctions, unequal branches and outer curl, with a different prospective visible prediction. No efficiency or artistic improvement is claimed.

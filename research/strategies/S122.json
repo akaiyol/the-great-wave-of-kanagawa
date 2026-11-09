@@ -1,0 +1,65 @@
+{
+  "id": "S122",
+  "targetPhase": "P122",
+  "family": "coupled-material-areas",
+  "hypothesis": "Coupled finite-area displacement creates actual descending ivory inside old blue and broad blue inside old ivory, enabling interlocking crest anatomy.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Conditional on declared witness disks and continuous root attachment before renderer dispatch; no tuning.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P121/visual-review.json",
+      "claim": "Causal monotonic restriction requires two-way material displacement.",
+      "sha256": "59c02a011071df8afa236ecf80a9c7f164aff85fe7e8d26db437a501ccf07248"
+    },
+    {
+      "path": "research/proposals/P122-coupled-material.md",
+      "claim": "Explicit new ivory can enter old blue; fixed blue lobes are not retuned.",
+      "sha256": "bc35ff52c81b0b2ffa2195c371119aabd16db7ed90389d8169d1c017f6be849c"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P114.json",
+      "claim": "Visible ivory can reduce to filament; root/area witnesses insufficient for art.",
+      "sha256": "b0ed5bf4bcd95bb7a0699f54e188fcfb99f355ba97edbc40f42fced8772a74c8"
+    },
+    {
+      "path": "research/phases/P121.json",
+      "claim": "Unchanged blue caps may retain capsule anatomy.",
+      "sha256": "8e05113facfa98b198050fb59ce3c660e3f3095b2cad923c0ee2023b65ec3d6d"
+    }
+  ],
+  "unknowns": [
+    "Root continuity, exposed ivory extent and source-like whole-crest hierarchy."
+  ],
+  "prediction": {
+    "ifTrue": "Genuine two-way interlocking material structure.",
+    "ifFalse": "Worms, channels, capsule fingers or no clear whole-crest gain."
+  },
+  "test": {
+    "action": "First radius2 material witnesses and continuous ivory attachment; only on pass one exact area-only wholeview.",
+    "success": "Displacement witnesses plus independent whole-crest gain, followed by affected checks before promotion.",
+    "failure": "Failed witness stops dispatch; failed art stops tuning/broadchecks.",
+    "maxWorkTokens": 5000
+  },
+  "changedPremise": {
+    "summary": "Permit ivory area expansion into old blue, impossible under P121 monotone recipe; preserve explicit fixed candidate rather than cap tuning.",
+    "evidence": [
+      {
+        "path": "research/output/agent-phase-2026-11-09/P121/visual-review.json",
+        "sha256": "59c02a011071df8afa236ecf80a9c7f164aff85fe7e8d26db437a501ccf07248"
+      },
+      {
+        "path": "research/proposals/P122-coupled-material.md",
+        "sha256": "bc35ff52c81b0b2ffa2195c371119aabd16db7ed90389d8169d1c017f6be849c"
+      }
+    ]
+  },
+  "estimatedReviewerTokens": 600,
+  "actualTokens": null
+}

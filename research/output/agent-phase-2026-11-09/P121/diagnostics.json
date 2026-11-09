@@ -1,0 +1,25 @@
+{
+  "finite": true,
+  "lobes": [
+    {
+      "boundarySamples": 322,
+      "boundaryOutsideSharedBody": 0,
+      "rootInteriorSamples": 31,
+      "rootInteriorsExistingBlue": true
+    },
+    {
+      "boundarySamples": 322,
+      "boundaryOutsideSharedBody": 0,
+      "rootInteriorSamples": 31,
+      "rootInteriorsExistingBlue": true
+    },
+    {
+      "boundarySamples": 322,
+      "boundaryOutsideSharedBody": 0,
+      "rootInteriorSamples": 31,
+      "rootInteriorsExistingBlue": true
+    }
+  ],
+  "boundaryContained": true,
+  "rootsExistingBlue": true
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P121",
+  "objective": "Test finite-area waterhead construction in whole crest.",
+  "hypothesis": "Explicit finite-area body-connected water lobes partition the blank foam cap into interlocking material areas without pinched tip-fit necks.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "geometry.upright-water-prongs"
+  ],
+  "baseline": "P116 regional gain, blank cap/sparse hooks unresolved; P113 failed tip-fit seam.",
+  "artifactTarget": "research/woodblock/area-waterheads.mjs",
+  "plannedTokens": 6000,
+  "family": "finite-area-waterheads",
+  "strategyReview": "research/strategies/S121.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Exact onecandidate/norescue; no mask tracing or numeric sourcewidth claims, preserve P116; final300 review reserve.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-09T14:16:02.519Z",
+  "result": {
+    "id": "P121",
+    "summary": "Rejected finite-area blue extensions: rounded bumps, absent descending ivory and interrupted bands. Root/body sample checks pass only in declared scope; no art promotion. Additive blue operation cannot produce ivory entering old blue.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P121/visual-review.json",
+      "research/output/agent-phase-2026-11-09/P121/receipt.json",
+      "research/output/agent-phase-2026-11-09/P121/diagnostics.json",
+      "research/output/agent-phase-2026-11-09/P121/candidate-static-1440x960.png"
+    ],
+    "nextAction": "No cap/width/spine rescue. New hypothesis needs coupled displacement of water/ivory boundary and explicit ivory-in-old-blue area evidence.",
+    "estimatedWorkTokens": 4350
+  },
+  "review": {
+    "id": "P121",
+    "findings": [
+      "Daphnie proposed an operation incompatible with claimed ivory descent: foamNew subset foamOld. The evaluator identified the causal set restriction. Worker faithfully implemented; no worker blame.",
+      "Sampled attachment/containment passed but wholeview failed; overpainting also hid existing bands. No broad checks or tuning after rejection.",
+      "Estimated4350 work(600strategy+2300worker+900lead+550review) exceeds4000 test cap350, though within5700 phasework. Estimate overruns include actual setup/review; telemetrynull, no efficiencyproof."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Archive blue-only raised-head candidate; require material changed premise before another extension.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P121/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Preserve P116 and the causal requirement that new ivory occupy old-blue area if ivory descent is claimed.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P121/visual-review.json",
+          "research/phases/P116.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Before delegating the next material recipe, identify explicit new-ivory/old-blue and new-blue/old-ivory witness areas; then independently assess whole anatomy.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 4350,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 4650,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T14:18:40.420Z",
+  "closedAt": "2026-11-09T14:18:40.452Z"
+}
