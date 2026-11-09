@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/p129_fresh_review",
+  "policyVersion": "v2",
+  "verdict": "retain scoped calibration; stop renderer branch",
+  "findings": [
+    "Both tested same-input pairs and archive comparisons are exact.",
+    "Nonlocal raw/repaired difference reproduces; cause unknown, no general determinism claim.",
+    "No P131 retroactive pass. P124 retained."
+  ],
+  "nextDecision": "Source-backed connected foam hierarchy across blank cap; not more blue heads.",
+  "estimatedResultTokens": 180,
+  "estimatedProcessTokens": 70
+}

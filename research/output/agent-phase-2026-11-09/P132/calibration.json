@@ -1,0 +1,53 @@
+{
+  "phase": "P132",
+  "settings": {
+    "renderer": "QuickLook",
+    "size": 1440,
+    "crop": [
+      0,
+      240,
+      1440,
+      1200
+    ],
+    "browser": false,
+    "DPR": null
+  },
+  "svgHashes": {
+    "research/output/agent-phase-2026-11-09/P130/candidate-721.svg": "df935d4cbeb846756c6c3ce3b9f7fb65c818b18840dfd7f888f50e2f86de6dbb",
+    "research/output/agent-phase-2026-11-09/P131/candidate.svg": "f5f0bb2db12aaf5238ecbb48b6bafaece1be4301fa722647c9a082c30795410b"
+  },
+  "comparisons": {
+    "raw1_raw2": {
+      "bbox": null,
+      "changedPixels": 0,
+      "equal": true
+    },
+    "repair1_repair2": {
+      "bbox": null,
+      "changedPixels": 0,
+      "equal": true
+    },
+    "raw1_rawArchive": {
+      "bbox": null,
+      "changedPixels": 0,
+      "equal": true
+    },
+    "repair1_repairArchive": {
+      "bbox": null,
+      "changedPixels": 0,
+      "equal": true
+    },
+    "raw1_repair1": {
+      "bbox": [
+        173,
+        257,
+        602,
+        260
+      ],
+      "changedPixels": 7,
+      "equal": false
+    }
+  },
+  "classification": "Tested same-input repeats and archives match exactly; deterministic nonlocal cross-difference persists. Cause remains unknown. Stop; no additional tooling or retroactive P131 pass.",
+  "retained": "P124"
+}

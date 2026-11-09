@@ -5,23 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P131 (closed).
-Record: research/phases/P131.json
-Objective: Repair one localized cycle and test the valid whole-view result.
-Hypothesis: Removing only the single sub-stroke-scale closed cycle can produce a valid shared partition while preserving the promising whole-view interlock, subject to a fresh valid comparison.
-Baseline: P130rawfailedpartition withdirectionalpromise; P124retainedscene.
-Artifact: research/woodblock/crest-junction-repair.mjs
-Budget: 9500 work / 500 review tokens (planned; usage estimated).
-Strategy: research/strategies/S131.json (family: bounded-cycle-integrity).
+Current phase: P132 (closed).
+Record: research/phases/P132.json
+Objective: Calibrate static raster repeatability without changing artwork.
+Hypothesis: Fixed-input repeat captures can determine whether exact raster equality is repeatable under the current static capture procedure, without changing artwork.
+Baseline: Immutable rawP130/repairedP131 SVG and archived captures; retainedP124.
+Artifact: research/output/agent-phase-2026-11-09/P132/calibration.json
+Budget: 5700 work / 300 review tokens (planned; usage estimated).
+Strategy: research/strategies/S132.json (family: fixed-input-raster-calibration).
 Artifact delivered: true.
-Result: Geometry repair passes; mandatory rendered-locality gate fails: seven pixels extend outside predeclared bound. Cause unknown. P124 retained; no artistic promotion.
-Verdicts: technical fail; artistic incomplete.
-Next action: Separate fixed-input repeat-render discriminator; no second repair or bound expansion.
-Decision (retain): Preserve technical repair evidence and unchanged P124 retained artwork.
-Decision (drop): No P131 art promotion, gate widening or second repair.
-Next improvement: Calibrate fixed-input raster repeatability once before attributing the seven-pixel discrepancy.
+Result: Unchanged-input repeat pairs and archived captures match exactly. Seven nonlocal raw/repaired pixels reproduce; cause unknown. Diagnostic complete, renderer branch stopped.
+Verdicts: technical pass; artistic not_applicable.
+Next action: Decide source-backed connected crest-cap hierarchy before another implementation. P124 stays retained; P131 stays failed.
+Decision (retain): Tested repeatability evidence only.
+Decision (drop): Stop renderer investigation; return to connected crest hierarchy.
+Next improvement: Select one source-backed whole-cap structure and predictive visible comparison before writing more anatomy code.
 State retainedCandidate: P099water/P098localparent +P110WFS/P116forkhierarchy +P124seed721child0 pairedcontour articulation. Blankcap/sparsehierarchy andwholeart/browser/variety unmet.
-State checkpointReason: P131 geometry passed but mandatory rendered-locality gate failed on seven pixels; cause unknown. P124 retained.
+State checkpointReason: P132 fixed-input captures/archives match exactly; seven nonlocal crosspixels reproduce, cause unknown. Renderer diagnostic stopped. Next priority connected crest-cap hierarchy.
 Run authorization: Owner2026-11-07: automatic useful work daily00:00–08:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

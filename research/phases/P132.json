@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "P132",
+  "objective": "Calibrate static raster repeatability without changing artwork.",
+  "hypothesis": "Fixed-input repeat captures can determine whether exact raster equality is repeatable under the current static capture procedure, without changing artwork.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "process.local-proof-drift"
+  ],
+  "baseline": "Immutable rawP130/repairedP131 SVG and archived captures; retainedP124.",
+  "artifactTarget": "research/output/agent-phase-2026-11-09/P132/calibration.json",
+  "plannedTokens": 6000,
+  "family": "fixed-input-raster-calibration",
+  "strategyReview": "research/strategies/S132.json",
+  "goalIds": [
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No art/source/criteria changes; no promotion; one bounded capture discriminator.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-09T23:49:04.753Z",
+  "result": {
+    "id": "P132",
+    "summary": "Unchanged-input repeat pairs and archived captures match exactly. Seven nonlocal raw/repaired pixels reproduce; cause unknown. Diagnostic complete, renderer branch stopped.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P132/calibration.json",
+      "research/output/agent-phase-2026-11-09/P132/independent-review.json"
+    ],
+    "nextAction": "Decide source-backed connected crest-cap hierarchy before another implementation. P124 stays retained; P131 stays failed.",
+    "estimatedWorkTokens": 2400
+  },
+  "review": {
+    "id": "P132",
+    "findings": [
+      "A fixed discriminator isolated tested repeatability without artwork edits or expanded tooling.",
+      "No rootcause, general renderer determinism, artistic gain or retroactive P131pass established.",
+      "Estimated2400work includes300strategy,180resultreview,1920leadcapture/comparison/records; review300 includes70peer230lead. Withindeclaredphase/testlimits; actualtelemetryunavailable."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Tested repeatability evidence only.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P132/calibration.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Stop renderer investigation; return to connected crest hierarchy.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P132/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Select one source-backed whole-cap structure and predictive visible comparison before writing more anatomy code.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 2400,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 2700,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T23:50:18.285Z",
+  "closedAt": "2026-11-09T23:50:18.318Z"
+}

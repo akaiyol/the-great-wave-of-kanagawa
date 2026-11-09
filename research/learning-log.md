@@ -177,3 +177,7 @@ The worker independently avoided dumping rawpolygon arrays and used runtime comp
 ## L031 — A failed raster gate has a narrow meaning
 
 [P131](phases/P131.json) removed the one eligible cycle and passed geometric, serialized partition, probe and frozen-source checks. Seven rendered pixels exceeded the predeclared locality bound. Daphnie retained the failed gate rather than widening it; the independent reviewer distinguished this observation from evidence of broad source changes or capture instability. P124 remains retained. Another repaired-branch claim requires a separately reviewed fixed-input capture discriminator; no second repair is authorized. Daphnie owns the review-reserve estimate overrun; the worker followed the bounded operation.
+
+## L032 — Stop a diagnostic after its discriminator
+
+[P132](phases/P132.json) repeated two unchanged SVG captures each. Both repeat pairs and archived comparisons match exactly; the same seven nonlocal pixels persist between raw and repaired inputs. This supports repeatability only for these captures and settings, not general determinism or a root cause. Credit the independent reviewer for keeping the conclusion narrow and returning the next decision to source-backed connected foam hierarchy across the blank cap. Daphnie stopped renderer investigation; P131 is not retroactively passed and P124 stays retained. No artistic or measured efficiency gain claimed.

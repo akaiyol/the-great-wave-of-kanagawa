@@ -1,0 +1,40 @@
+{
+  "id": "S132",
+  "targetPhase": "P132",
+  "family": "fixed-input-raster-calibration",
+  "hypothesis": "Fixed-input repeat captures can determine whether exact raster equality is repeatable under the current static capture procedure, without changing artwork.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p129_fresh_review"
+  },
+  "recommendation": "continue",
+  "reason": "One SYSTEM-only discriminator; no renderer repair or art promotion.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P131/render-receipt.json",
+      "claim": "Seven nonlocal pixels despite geometry pass.",
+      "sha256": "e1e3944e1fc87e1d4c1bae9132ce47a38900ba9876e8bc54cf5255f92b359cc4"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P131.json",
+      "claim": "Fixed capture repeats cannot explain deterministic raster influence or establish art quality.",
+      "sha256": "e3346bd5284d8e232529b3668617e7f92c5787ea11a3a8585d6f720c571dbfe4"
+    }
+  ],
+  "unknowns": [
+    "Same-input repeatability and archive consistency."
+  ],
+  "prediction": {
+    "ifTrue": "Same-input repeats equal; crossdifference is classified within tested capture scope.",
+    "ifFalse": "Repeatability not demonstrated; exact pixel comparison remains inconclusive."
+  },
+  "test": {
+    "action": "Two raw and two repaired fixed-SVG QuickLook1440 captures; compare repeat pairs, archives and crosspair.",
+    "success": "One compact scoped classification, source hashes frozen and retained P124 unchanged.",
+    "failure": "Stop after discriminator, no source changes, widened bound, retroactive P131pass or tooling.",
+    "maxWorkTokens": 4000
+  },
+  "estimatedReviewerTokens": 300
+}
