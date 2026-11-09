@@ -1,0 +1,42 @@
+{
+  "id": "S126",
+  "targetPhase": "P126",
+  "family": "edge-conditioned-contour-research",
+  "hypothesis": "Original branch-edge conditioning can identify a concrete causal dependency missing from frame-only contour transfer, with explicit limits before any paired-contour adaptation.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Restricted mechanism study; actual edge correspondence must be explicit, stop on ambiguity.",
+  "supportingEvidence": [
+    {
+      "path": "research/vendor/shan-shui-inf/index.html",
+      "claim": "barkify positions between generated edges and uses their tangents; tree06 supplies actual branch output.",
+      "sha256": "858792db2659e7d4c6604606d4ff2175f137f07061f8af51644f06ab0788215f"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P125.json",
+      "claim": "Fixedpairedanatomy acrossframes failed; boundarytransport can retain sameglyph shape.",
+      "sha256": "52593f612944b7807c9b9034c747142afb1ad54db3c64f0e1122dd0d2fddacd8"
+    }
+  ],
+  "unknowns": [
+    "Which actual P098 edge intervals constrain hood/counter jointly."
+  ],
+  "prediction": {
+    "ifTrue": "Explicit boundaryterms change interior points with root/markparameters/draws fixed.",
+    "ifFalse": "Only randomness/roottransforms or unresolvedcorrespondence; no adaptation."
+  },
+  "test": {
+    "action": "Document original equations/limits; minimalactualfork adaptation and rootfixed dependency test only if correspondence explicit.",
+    "success": "Causalmechanism precisely scoped, not art/grammar proof.",
+    "failure": "Ambiguous correspondence stops geometrywork.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 450,
+  "actualTokens": null
+}

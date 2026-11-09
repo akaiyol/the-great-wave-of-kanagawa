@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P126",
+  "objective": "Investigate original edge-conditioned detail for exact contour-coupling blocker.",
+  "hypothesis": "Original branch-edge conditioning can identify a concrete causal dependency missing from frame-only contour transfer, with explicit limits before any paired-contour adaptation.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "source.frame-only-contour-variation"
+  ],
+  "baseline": "P125 actualparentframes repeatedsameglyph; currentretainedP124oneparent only.",
+  "artifactTarget": "research/woodblock/edge-conditioned-contours.md",
+  "plannedTokens": 6000,
+  "family": "edge-conditioned-contour-research",
+  "strategyReview": "research/strategies/S126.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Primary-source exactblocker only; no copiedcode/treemotif/geometryengine or ungroundedrenderer; final300process.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-09T16:11:04.305Z",
+  "result": {
+    "id": "P126",
+    "summary": "Originalsource mechanism qualified: barkify frame-conditionedmotif vs texture pointwisecontourdependence. P098actualedgecorrespondence unresolved; no adaptation ordependencytest run. Sourcefinding informative, transferincomplete.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/edge-conditioned-contours.md",
+      "research/output/agent-phase-2026-11-09/P126/source-receipt.json",
+      "research/output/agent-phase-2026-11-09/P126/independent-review.json"
+    ],
+    "nextAction": "Supply explicit actualparent-boundary correspondence for bothrelatedcurves before anyprototype; no arbitrarymarktransport or newgeneralresearchhunt.",
+    "estimatedWorkTokens": 4000
+  },
+  "review": {
+    "id": "P126",
+    "findings": [
+      "Originalsource separates frameconditioning frompointwisedependence; attributionLingdongHuang andsnapshotdate/limits explicit. Tree/barkappearance nottransferred.",
+      "Read-onlyresearcherfoundnomapping; leadstoppedratherthansubstitutetoydependencytest. Actualparentoutlineconditionedpairedshape remainsopen.",
+      "Estimated4000work within5000cap:450strategy,850researcher,2200lead/source/notes,500review. Actualtelemetrynull; no art/efficiencygain."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep precise source-mechanism distinction and failedprerequisite asboundedresearch.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P126/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do notborrowbarkmotifs orclaimrootfixedglyphtransport is anatomicalshapevariation.",
+        "evidence": [
+          "research/woodblock/edge-conditioned-contours.md"
+        ]
+      }
+    ],
+    "nextImprovement": "One explicit anatomicallyidentified boundarypatch, not more copyfields, is required for geometryconditionedcurveprototype.",
+    "estimatedReviewTokens": 300
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 4000,
+    "estimatedReviewTokens": 300,
+    "estimatedTotalTokens": 4300,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T16:15:57.665Z",
+  "closedAt": "2026-11-09T16:15:57.702Z"
+}

@@ -1,0 +1,89 @@
+{
+  "phase": "P125",
+  "pass": true,
+  "details": "containment.json",
+  "scope": "Complete transformed polygons vs each actual clipped child, not whole-art/variety evidence.",
+  "children": [
+    {
+      "childIndex": 1,
+      "parentSeed": 3857711740,
+      "root": [
+        554.0382349202409,
+        175.46234227530658
+      ],
+      "scale": 0.3095962608489208,
+      "checks": [
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 2.4798604011526884
+        },
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 5.336428800366359
+        },
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 2.072400829454324
+        }
+      ],
+      "pass": true
+    },
+    {
+      "childIndex": 2,
+      "parentSeed": 2472333691,
+      "root": [
+        603.073678765446,
+        238.55631599016488
+      ],
+      "scale": 0.297318520413246,
+      "checks": [
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 2.3511716624737735
+        },
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 5.115162436848065
+        },
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 1.952626281076514
+        }
+      ],
+      "pass": true
+    },
+    {
+      "childIndex": 3,
+      "parentSeed": 3030635280,
+      "root": [
+        639.461384491995,
+        301.28757330588996
+      ],
+      "scale": 0.30960135008906947,
+      "checks": [
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 2.4252535294399022
+        },
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 5.319158923863351
+        },
+        {
+          "allVerticesInside": true,
+          "boundaryContacts": 0,
+          "minClearance": 2.004810788657893
+        }
+      ],
+      "pass": true
+    }
+  ]
+}

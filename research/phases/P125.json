@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P125",
+  "objective": "Test composition of parent-linked contour pairs on existing forks.",
+  "hypothesis": "The retained exact parent-linked contour relationship transfers across existing unequal forks without becoming a repeated decorative field.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation",
+    "review.context-overhead"
+  ],
+  "baseline": "P124child0 limitedarticulation retained, allotherforksblank; P108independentfield rejected.",
+  "artifactTarget": "research/woodblock/linked-forks.mjs",
+  "plannedTokens": 10000,
+  "family": "linked-parent-field-transfer",
+  "strategyReview": "research/strategies/S125.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Only actualparentlinkedmarks, frozengeometry/child0, predispatchcontainment and prospectivefullcost; final500review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 9500,
+    "reviewTokens": 500
+  },
+  "startedAt": "2026-11-09T16:04:00.259Z",
+  "result": {
+    "id": "P125",
+    "summary": "Reject four-parent extension: repeated eye/C motifs dominate despite exactparentidentity andcontainment. Preserve P124singleforkgain. Technicaltransfer successful, composedart unsuccessful.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P125/visual-review.json",
+      "research/output/agent-phase-2026-11-09/P125/receipt.json",
+      "research/output/agent-phase-2026-11-09/P125/containment-summary.json",
+      "research/output/agent-phase-2026-11-09/P125/integration-checks.json"
+    ],
+    "nextAction": "No density/pose/scale rescue. Need concrete co-variation of outerfork anatomy and interiorcontours before newrenderer.",
+    "estimatedWorkTokens": 5000
+  },
+  "review": {
+    "id": "P125",
+    "findings": [
+      "Actualparentidentity sufficient for placement but not anatomicalvariation; P098inkpair substantiallyconstant acrossseeds. Daphnieowns testselection; workerimplementedcorrectly.",
+      "Worker independently omitted rawpolygonpayload fromcontext and runtimecompared it. Lead addedcompactsummary afterward to existingchecker; do notcreditthiswithsaving earlierwork. Reportedworker1600vs3000 hasdifferenttask/context anddoesnotproveefficiency.",
+      "Estimated5000workincl450preflight,1600worker,450review,2500lead/checks/capture/records, within9000testcap. Unusedallowance notscopeexpansion. Actualtelemetrynull; artfailedso noquality-adjustedefficiencygain."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Archive repeatedpairfield without density orplacement tuning; preserveP124.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P125/visual-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Use compactsummary at evidenceowner and runtimechecks forrawarrays; same existingretrievalpolicy, no newroles/workflow.",
+        "evidence": [
+          "research/woodblock/linked-forks-check.mjs",
+          "research/output/agent-phase-2026-11-09/P125/containment-summary.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Concrete joint outer/inner shape relationship first; investigate one originalimplementation mechanism if it resolves thisexactblocker, not more copyfields.",
+    "estimatedReviewTokens": 500
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 5000,
+    "estimatedReviewTokens": 500,
+    "estimatedTotalTokens": 5500,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T16:08:03.447Z",
+  "closedAt": "2026-11-09T16:08:03.483Z"
+}

@@ -1,0 +1,25 @@
+{
+  "phase": "P126",
+  "sourceCommit": "9f754d2b2e73495db7883d4d4055a7b0903b0454",
+  "sourceSHA256": "858792db2659e7d4c6604606d4ff2175f137f07061f8af51644f06ab0788215f",
+  "regions": {
+    "barkify": [
+      1064,
+      1158
+    ],
+    "tree06": [
+      1392,
+      1399
+    ],
+    "texture": [
+      653,
+      721
+    ]
+  },
+  "sourceAuthor": "Lingdong Huang",
+  "researcher": "/root/p126_edge_correspondence",
+  "researcherEstimatedTokens": 850,
+  "status": "mechanism documented; actualfoamcorrespondence unresolved; dependencytest notrun",
+  "artifact": "research/woodblock/edge-conditioned-contours.md",
+  "artifactSHA256": "3e2d74cc42a319a1ae929a00d606ffc90ded76bd116867717acb4a82fca08c3b"
+}

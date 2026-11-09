@@ -1,0 +1,23 @@
+{
+  "phase": "P125",
+  "seed": 721,
+  "renderer": "QuickLook1440square fixedcrop[0,240,1440,1200]",
+  "viewport": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/linked-forks.mjs": "4ff7e6d0178b573579786ddff7b54e2d6965eaaa40d2b33eb4f456dfca0a676f",
+    "research/woodblock/linked-forks.html": "2c58b3173d2b2e22c05a9913fd25bd4d290d1703c2ad4393738094252e134998",
+    "research/woodblock/linked-forks-check.mjs": "bbe6d90e7711fba59829a12c2bc5bc9a138dd187adccca68d6848359580c4591",
+    "research/output/agent-phase-2026-11-09/P125/candidate-721.svg": "326d3c14e73bf9e3d84b97398c56d5640ca8f3100aa4a0ce003884a2cb77caaf",
+    "research/output/agent-phase-2026-11-09/P125/candidate-static-1440x960.png": "bb6377b8949643797fdff02811bd7bf79427808aa338ba350951789051643ca9",
+    "research/output/agent-phase-2026-11-09/P125/integration-checks.json": "41ca7c2f31f907269310d4e09c352dc67efa7f60c8418a5a8d104304124324bf",
+    "research/output/agent-phase-2026-11-09/P125/containment-summary.json": "7f47aeca196397d0e563f882208ae47dcd7ae875219bd643cf0cac13e0595854",
+    "research/output/agent-phase-2026-11-09/P125/containment.json": "3230b0d449801c7dfa77a140cd38acae24ed5e65258f02767ac9b413b5d84ad8",
+    "research/output/agent-phase-2026-11-09/P124/candidate-static-1440x960.png": "fc5b4e4ce441336da8bb405c35be1be684a5b4e86dacf32dc1ac56a0306e4c44"
+  }
+}

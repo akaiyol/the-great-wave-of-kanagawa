@@ -1,0 +1,13 @@
+{
+  "phase": "P125",
+  "reviewer": "/root/p118_night_preflight",
+  "policyVersion": "v2",
+  "decision": "reject_extension_preserve_P124",
+  "findings": [
+    "Four near-identicaleye/Cmotifs formregular descendingsequence; repeateddecoratedheads not unequalinterlockingcurls.",
+    "Specificchildcontainment/exactintegration/frozenbaseline/determinism pass, but compositionfailsart.",
+    "Nextouterfork andinteriorcontourgeometry mustvarytogether; no density/rotation/scale/placement rescue."
+  ],
+  "estimatedTokens": 450,
+  "actualTokens": null
+}

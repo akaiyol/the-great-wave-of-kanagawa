@@ -1,0 +1,52 @@
+{
+  "id": "S125",
+  "targetPhase": "P125",
+  "family": "linked-parent-field-transfer",
+  "hypothesis": "The retained exact parent-linked contour relationship transfers across existing unequal forks without becoming a repeated decorative field.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "One bounded actual-parent extension tests composed visibility; repeated-eye risk explicit.",
+  "supportingEvidence": [
+    {
+      "path": "research/phases/P124.json",
+      "claim": "Exact linkedpair visible in child0, scopedgain retained.",
+      "sha256": "8039ff011ba2e4ddb3804c07ae2b71c9b2b15c5ebdd8d06b0592ebcda34349e7"
+    },
+    {
+      "path": "research/proposals/P125-linked-forks.md",
+      "claim": "Each addedpair belongs to actual generatedparent, not independentplacement.",
+      "sha256": "130e7013ed4e44afa00152329abae9ae44fe0c51aa899e273eedf148be8d6118"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P108.json",
+      "claim": "Stampfield failed and P098pairshape largelysame acrossseed; identity notvariety.",
+      "sha256": "4984b2e0bc7955511341e951a78f8c51b35aca9055642061bbf2a8012c9925f7"
+    },
+    {
+      "path": "research/phases/P106.json",
+      "claim": "Composed support can obscure descendants.",
+      "sha256": "ea004b9d9241277a08970d222851914af58cd2564d32a875097f14d3a3041c7d"
+    }
+  ],
+  "unknowns": [
+    "Specificchildcontainment and whether repeatedcurves reinforceouteranatomy or compete."
+  ],
+  "prediction": {
+    "ifTrue": "Four existingforks gain coherent internalarticulation.",
+    "ifFalse": "RepeatedC/eyes/comb/clutter or no visiblegain fromP124."
+  },
+  "test": {
+    "action": "Completeactualchildcontainment first, then one exact4parentwholeviewvsP124/reference.",
+    "success": "Clear scopedrim articulation without repeatedstampeffect; preserveoneparentbaseline.",
+    "failure": "Anycontainmentfail stopsdispatch; artfail stops tuning/broadchecks.",
+    "maxWorkTokens": 9000
+  },
+  "estimatedReviewerTokens": 450,
+  "actualTokens": null
+}

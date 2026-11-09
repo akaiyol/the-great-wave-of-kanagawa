@@ -147,3 +147,13 @@ Daphnie also owns the earlier native Safari fallback that stalled approximately1
 ## L024 — Transfer a retained relationship through the same parent
 
 [P124](phases/P124.json) maps the P098 hood/counter/accent through the exact generated-parent identity used by P116 child0. The independent reviewer retained a small visible articulation gain after direct whole-polygon child containment and whole-view review. This credits the earlier P098 mechanism; it is not a new grammar or an independent stamp field. No source mask, new material cuts, browser acceptance or whole-art claim. Daphnie owns the1400estimated test-cap overrun; full worker/startup/capture/review cost must be budgeted before further dispatch. Existing bounded source-role and overhead lessons updated, with no role/workflow or goal changes.
+
+## L025 — Correct placement is not varied anatomy
+
+[P125](phases/P125.json) transferred exact parent-linked pairs to three other existing forks. All containment/integration checks passed; independent whole-view review rejected the repeated eye-like sequence. Daphnie owns the test; the worker implemented it. Failure `source.frame-only-contour-variation`: no field-density/pose/scale rescue; next outerfork and interiorcontours need a concrete joint shape relationship. P124oneparent gain remains.
+
+The worker independently avoided dumping rawpolygon arrays and used runtime comparison. Daphnie added a compact summary at the owning checker afterward. That repair implements existing compact-evidence guidance; it did not cause this worker’s lower estimated cost. Different scopes/context and unknown telemetry prevent an efficiency claim.
+
+## L026 — Frame conditioning and pointwise conditioning differ
+
+[P126](phases/P126.json) read Lingdong Huang’s pinned original implementation: barkify uses actual edges to position/orient a separate motif, while texture constructs individualpoints fromcontourrows. The read-only researcher found no P098pair-to-edge correspondence; the independent reviewer retained the distinction but deferred adaptation. Credit Huang for originalmechanisms; no treeappearance/code or source-derivedwaveasset adopted. Daphnie owns the proposed transfer limits. Failure `source.transport-not-anatomy`: root-localpointchanges from transportedglyphs are not sufficient; actual pairedcurve correspondence/deformation must be explicit. No dependencytest or artgain claimed.
