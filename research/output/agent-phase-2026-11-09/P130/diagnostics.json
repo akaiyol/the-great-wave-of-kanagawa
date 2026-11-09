@@ -1,0 +1,41 @@
+{
+  "finite": true,
+  "exactEnds": true,
+  "replacementCount": 2,
+  "profileCrossings": 1,
+  "fullFsheetCrossings": 1,
+  "controlHullXYXY": [
+    310,
+    159,
+    465,
+    226
+  ],
+  "understrokePaddedFootprintXYXY": [
+    308.5,
+    157.5,
+    466.5,
+    227.5
+  ],
+  "sampledFootprintXYXY": [
+    310,
+    165.62039749710647,
+    461.98117404513897,
+    218.8067039207176
+  ],
+  "loop": {
+    "i": 427,
+    "j": 441,
+    "intersection": [
+      370.42674506509303,
+      214.73247110388706
+    ],
+    "area": 0.20200623425625963,
+    "box": [
+      370.42674506509303,
+      214.73247110388706,
+      371.3171296296296,
+      216.376708984375
+    ]
+  },
+  "scope": "Exactrecipe construction failed; no art/retention claim."
+}

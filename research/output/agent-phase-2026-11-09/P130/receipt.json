@@ -1,0 +1,21 @@
+{
+  "phase": "P130",
+  "technicalStatus": "FAIL: one proper crossing, diagnostic only; no promotion",
+  "renderer": "QuickLook1440square fixedcrop[0,240,1440,1200]",
+  "viewport": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "purpose": "Oneunchangedwholeviewforensiccomparison, not validmaterialpartition orretainedart.",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/crest-junction-group.mjs": "e4fee2923a2d91f6e82021e14a4324ba4358a3af48bc1e8f61744f5dd2265633",
+    "research/woodblock/crest-junction-group.html": "208543db87a8e24e5350399e1c55cda918ec7805fbf7792acaac13ec1a834f5b",
+    "research/output/agent-phase-2026-11-09/P130/candidate-721.svg": "df935d4cbeb846756c6c3ce3b9f7fb65c818b18840dfd7f888f50e2f86de6dbb",
+    "research/output/agent-phase-2026-11-09/P130/candidate-static-1440x960.png": "aea61709b875b43c9184636b3a940a9fa258994d1ce14bfa2478a303c8a90205",
+    "research/output/agent-phase-2026-11-09/P130/diagnostics.json": "55144656f737d6632b5c8405b4054213da1d56151eccec9e17b26412c7656e29",
+    "research/output/agent-phase-2026-11-09/P124/candidate-static-1440x960.png": "fc5b4e4ce441336da8bb405c35be1be684a5b4e86dacf32dc1ac56a0306e4c44"
+  }
+}

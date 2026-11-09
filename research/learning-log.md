@@ -169,3 +169,7 @@ The worker independently avoided dumping rawpolygon arrays and used runtime comp
 ## L029 — A technical rescue is not an artistic one
 
 [P129](phases/P129.json) proves one fixed edge-derived radius3connection across the unchanged localforms; P128stillfaileditsoriginalcorridor. The fresh evaluator rejected the images as repeatedeye-likeinserts and identified the wholeblankcap as the dominantbottleneck. Credit the independentreviewer for the task-selection pivot and LingdongHuang’s originalpointwisecontour precedent for inspiration, not thisspecificroute. Daphnie owns the isolatedprimitive detour and reviewreserve underallocation. Active lesson `process.local-proof-drift` replaces an automaticallyenforcedstale-brief reminder, archived in the phase. Nextfocus is one whole-view connectedbranchgroup, not anotherlocalparameterproof.
+
+## L030 — Keep a direction separate from a failed artifact
+
+[P130](phases/P130.json) followed the freshwhole-viewpriority witha sharedrecurvedboundary. Daphnie’s exactrecipeproduced one small self-crossing; the worker followedit. Independentreviewauthorized one unchanged forensicview and sawmodestsource-relatedinterlock, while retaining onlythedirection—not thefailedartwork. A separatelyreviewedintegrityrepair needs a validwholecomparison andmaystillfail artistically. No localparameterredesign or additionalgroups approved. P124remainsretained.

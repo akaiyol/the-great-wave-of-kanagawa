@@ -1,0 +1,65 @@
+{
+  "id": "S130",
+  "targetPhase": "P130",
+  "family": "curled-crest-junction",
+  "hypothesis": "A shared returning water/foam boundary can form one unequal connected crest junction that visibly structures the blank cap, rather than independent bumps, slots or eye inserts.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p129_fresh_review"
+  },
+  "recommendation": "continue",
+  "reason": "Oneexisting-rendererpatchconditionallyapproved; returningnonmonotoneboundariesareplausiblechangedconstruction, not demonstratedartgain. Declareactualfootprint.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P129/independent-review.json",
+      "claim": "Wholeblankcapneedsconnectedunequalbranchgroup, notmorelocalprimitiveproofs.",
+      "sha256": "915a9a0a5113d7e98229ea3db0e5603a09619ebbc0d6bb02fb7a0949cfe9e997"
+    },
+    {
+      "path": "research/proposals/P130-crest-junction-group.json",
+      "claim": "Sharedboundarywithreturnsegments/forkedjunction targetswholeviewstructure.",
+      "sha256": "ac982ced22db48b3b0fd8c7bcbcf07b7fc80d8ff905e54602500edb2f5a8588d"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P113.json",
+      "claim": "Shapedseamfailedpinchedprongs; newinterpolation/nodesaloneinsufficient.",
+      "sha256": "e187fe9eb8a46217938ee8b75f2ec7e7741454a2c73f9ddaff8322acb1644679"
+    },
+    {
+      "path": "research/phases/P122.json",
+      "claim": "Independentcoupledribbonsfailedaslongslots.",
+      "sha256": "35d29083ed4c0cb3b410001a662655cc31aeab42bf15b00234ac4c06de29fe61"
+    }
+  ],
+  "unknowns": [
+    "Simplicity,endtangentcompatibility, exposedjunctionandnearbycontours."
+  ],
+  "prediction": {
+    "ifTrue": "Broaderinterlockingjunctionandunequalsubordinatebranches structurecap atwholeviewscale.",
+    "ifFalse": "Comb/prongs/worms/disjointcutsor negligiblechange."
+  },
+  "test": {
+    "action": "Oneexactpatch/basicinterpretabilitythenwhole1440x960vsP124/reference, affectedchecks onlyaftervisiblegain.",
+    "success": "Independentreviewedscopedcapstructuregain withlaterintegritypass.",
+    "failure": "No localnode/controltuning or newfamilyexpansion.",
+    "maxWorkTokens": 15000
+  },
+  "changedPremise": {
+    "summary": "Recurvednonmonotonereturns/forkedsharedjunction ratherthan sparseheights, additivecaps or independentribbons. No claimconnected-regiontopologychanged.",
+    "evidence": [
+      {
+        "path": "research/proposals/P130-crest-junction-group.json",
+        "sha256": "ac982ced22db48b3b0fd8c7bcbcf07b7fc80d8ff905e54602500edb2f5a8588d"
+      },
+      {
+        "path": "research/output/agent-phase-2026-11-09/P129/independent-review.json",
+        "sha256": "915a9a0a5113d7e98229ea3db0e5603a09619ebbc0d6bb02fb7a0949cfe9e997"
+      }
+    ]
+  },
+  "estimatedReviewerTokens": 850,
+  "actualTokens": null
+}

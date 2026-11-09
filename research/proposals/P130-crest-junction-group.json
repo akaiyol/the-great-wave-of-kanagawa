@@ -1,0 +1,162 @@
+{
+  "phase": "P130",
+  "status": "single_conditional_candidate",
+  "source": "Canonical scan qualitative blue-head/unequalfoaminterlock, not sourcepixeltrace/P119widths/P120mask.",
+  "baseline": "P124",
+  "nodesLeftToRight": [
+    [
+      310,
+      200
+    ],
+    [
+      338,
+      171
+    ],
+    [
+      376,
+      173
+    ],
+    [
+      366,
+      185
+    ],
+    [
+      358,
+      184
+    ],
+    [
+      371,
+      216
+    ],
+    [
+      381,
+      207
+    ],
+    [
+      390,
+      218
+    ],
+    [
+      393,
+      196
+    ],
+    [
+      414,
+      174
+    ],
+    [
+      460,
+      171
+    ],
+    [
+      451,
+      202
+    ],
+    [
+      437,
+      183
+    ],
+    [
+      420,
+      216
+    ],
+    [
+      440,
+      205
+    ]
+  ],
+  "tangentHandles": [
+    [
+      17,
+      3
+    ],
+    [
+      12,
+      -7
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      -6,
+      -4
+    ],
+    [
+      -3,
+      7
+    ],
+    [
+      -3,
+      -4
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      -4
+    ],
+    [
+      -4,
+      -9
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      5,
+      12
+    ],
+    [
+      -9,
+      -2
+    ],
+    [
+      -6,
+      7
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      12,
+      0
+    ]
+  ],
+  "cubicRule": "[Ni,Ni+Ti,Nnext-Tnext,Nnext],48intervals, sharedtangents C1. Reverse to actual right-to-left seam orientation.",
+  "replaceSeamEndpoints": [
+    [
+      440,
+      205
+    ],
+    [
+      310,
+      200
+    ]
+  ],
+  "controlHullXYXY": [
+    310,
+    159,
+    465,
+    226
+  ],
+  "understrokePaddedFootprintXYXY": [
+    308.5,
+    157.5,
+    466.5,
+    227.5
+  ],
+  "footprintQualification": "Only selected seam interval is replaced; region reaches x465, not frozen spatially outsidex310\u2013440. WholeFsheetpath serialized twice but othergeometry fixed.",
+  "anatomy": "Two unequal curled blue knolls, connected ivoryjunction withtwo returntoes aroundoneindigoinlet, andrightunequalivoryreturn. SharedactualW/Fpartition; no independentlypaintedcaps/slots/eye glyphs.",
+  "preserve": "Waterbody/outerF-S/children/P124ink/foreground/clouds/bandgeometry; no blueoverpaint erasingbandstumps.",
+  "changedPremise": "Explicit non-monotone returningsegments/forkedjunction withcontrolledtangents vsP113 heightinterpolation, P121additivecaps/P122independentslots. Materialtopology maystayconnected; morphologicalbranching notclaimedasgenuschange.",
+  "test": "Finite/exactends/simplefaces enoughinterpretation thenONEwhole1440x960 comparison; no curvesweeps/tuning. Affectedconnectivity/frozenchecks onlyifvisibleretention. Failedsimplicityisconstructionfailure, notfalsifiedartpremise.",
+  "falsifier": "Scallopedcomb, narrowprongs/worms, disconnected-lookingcuts, negligiblecapstructuregain; stopnotnearbyadjustment.",
+  "plannedTokens": 18000,
+  "testCap": 15000,
+  "reviewReserve": 900
+}

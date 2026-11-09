@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "P130",
+  "objective": "Test one connected crest junction in the full retained composition.",
+  "hypothesis": "A shared returning water/foam boundary can form one unequal connected crest junction that visibly structures the blank cap, rather than independent bumps, slots or eye inserts.",
+  "failureIds": [
+    "process.local-proof-drift",
+    "evaluation.scope-inflation",
+    "source.boundary-conflation"
+  ],
+  "baseline": "P124wholecrestblankcap; P113/P121/P122failed profiles/caps/slots; P129freshprioritywholecap.",
+  "artifactTarget": "research/woodblock/crest-junction-group.mjs",
+  "plannedTokens": 18000,
+  "family": "curled-crest-junction",
+  "strategyReview": "research/strategies/S130.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Onewholeviewpatch/norescue, actualfootprintsourcequalifications, no newrenderer/texture/variety; fullstartup/capture/reviewbudget with900reserve.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 17100,
+    "reviewTokens": 900
+  },
+  "startedAt": "2026-11-09T17:00:47.313Z",
+  "result": {
+    "id": "P130",
+    "summary": "Exactconstructionfailedonepropercrossing. Unchangedwholeforensicview supportsdirectionalinterlock/edgearticulation only; notretainedart. Centralreturnpeg-likeandblankcapremain. PreserveP124.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P130/diagnostics.json",
+      "research/output/agent-phase-2026-11-09/P130/receipt.json",
+      "research/output/agent-phase-2026-11-09/P130/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P130/candidate-static-1440x960.png"
+    ],
+    "nextAction": "One separatelyreviewedintegritychange mayearnvalidwholecomparison; no redesign/extra groups, no assumptionrepairpreservesgain.",
+    "estimatedWorkTokens": 9000
+  },
+  "review": {
+    "id": "P130",
+    "findings": [
+      "Whole-view-first test showedpromiseinsharedhookedboundary, unlikeearlierisolatedprimitives. Failedrecipeexplicit; no material/wholeartpromotion.",
+      "Lead-authoredtangentsproduceatinyloop(.202units²,~1x2displaypx); workerfaithfullyimplemented. Forensiccaptureapprovedonlybecausebulkgroupinterpretable, notbecausefailureignored.",
+      "Estimated9000workincludes1050preflight/triage,1900worker,500artifactreview,5550leadplanning/capture/records. Review900includes100peerprocess+800lead. Withinplannedphase/testlimits, telemetryunknown; no efficiencyproof."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keepdirectionalhypothesisandonevalidcomparisongate; retainedsceneP124unchanged.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P130/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do notpromotefailedpartition orredesignnearbycurvesunderrepairlabel.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P130/diagnostics.json",
+          "research/output/agent-phase-2026-11-09/P130/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Specifyone bounded integrityoperation preservinggroupoutsideitslocaldefect, prereviewit, thenverifywholevalidresultbeforeanyretention.",
+    "estimatedReviewTokens": 900
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 9000,
+    "estimatedReviewTokens": 900,
+    "estimatedTotalTokens": 9900,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T17:12:56.270Z",
+  "closedAt": "2026-11-09T17:12:56.307Z"
+}
