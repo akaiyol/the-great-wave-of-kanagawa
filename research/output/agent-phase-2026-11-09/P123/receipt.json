@@ -1,0 +1,12 @@
+{
+  "phase": "P123",
+  "renderer": "Source crop plus existing representative landmark annotations; not geometric cell drawing or browser evidence",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/shared-boundary-cell.json": "d8d6be4aa8cb1d262a99447b4d669d0a4da1b2dc1040d6ece0270cd1e00f3d66",
+    "research/output/agent-phase-2026-11-09/P123/source-cell.png": "6772f53d749b95b4710c5bf8291877b4a874fd63784a1e81cb3d0537038ac2a0",
+    "research/output/agent-phase-2026-11-09/P123/role-coverage.png": "8820650aa3de489e0e49ee0ff12ba02b4a4ad1bddc13ec7aca17e8813c2e5f3b",
+    "research/woodblock/source-regions.json": "5200423b0546ff73be96ba632f15043bcc5b74fc3196360702edfd0f76d37731",
+    "research/woodblock/source-parent.json": "3fcc8e73762ce0fdd5e50732eab15db3fc5c1f825fc82b545da291f56bfd26c1"
+  }
+}

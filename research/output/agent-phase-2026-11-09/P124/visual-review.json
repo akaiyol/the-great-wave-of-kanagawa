@@ -1,0 +1,13 @@
+{
+  "phase": "P124",
+  "reviewer": "/root/p118_night_preflight",
+  "policyVersion": "v2",
+  "decision": "retain_scoped_child0_articulation",
+  "findings": [
+    "Nativewholeview shows pairedcurl visible insideupperfork; parent internalturningstructure absent inP116.",
+    "Smalllocalgain only; blankcap/sparsehierarchy/wholeart remainunresolved.",
+    "Reviewedcontainment, exactpolygons, deterministicoutput and frozenbaseline adequate foroneparent/seedaddition; browser/otherparents/seeds unverified."
+  ],
+  "estimatedTokens": 400,
+  "actualTokens": null
+}

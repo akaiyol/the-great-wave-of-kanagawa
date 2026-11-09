@@ -54,9 +54,10 @@
     {
       "id": "review.context-overhead",
       "status": "retained",
-      "lesson": "Reserve review setup cost; send compact fixture summaries, retrieve detailed diagnostics only for discrepancies. P079 evaluator exceeded estimate after oversized checks retrieval.",
+      "lesson": "Reserve review setup cost; send compact fixture summaries, retrieve detailed diagnostics only for discrepancies. P079 evaluator exceeded estimate after oversized checks retrieval. P124 one-wrapper worker estimated3000 vs1600 assignment; totalwork6400 vs5000 testcap. Include observed full startup, capture and both reviews before dispatch.",
       "evidence": [
-        "research/output/agent-phase-2026-11-03/P079/visual-review.json"
+        "research/output/agent-phase-2026-11-03/P079/visual-review.json",
+        "research/phases/P124.json"
       ],
       "reentryCondition": "Allocate review context explicitly before an independent audit; record estimates/overruns rather than claiming measured5% usage."
     },
@@ -110,10 +111,11 @@
     {
       "id": "source.boundary-conflation",
       "status": "retained",
-      "lesson": "After different constructions repeat the same hierarchy failure, classify one actual source patch before another algorithm. Separate foam/sky silhouette, foam/body-connected-water boundary, and open ink inside continuous foam; not every curl is a hole or exposed branch.",
+      "lesson": "After different constructions repeat the same hierarchy failure, classify one actual source patch before another algorithm. Separate foam/sky silhouette, foam/body-connected-water boundary, and open ink inside continuous foam; not every curl is a hole or exposed branch. P124 retained exact P098 paired ink only through the SAME generated parent frame and complete actual-child containment. Independent C-stamp placement remains rejected.",
       "evidence": [
         "research/output/agent-phase-2026-11-04/P090/visual-review.json",
-        "research/woodblock/source-regions.json"
+        "research/woodblock/source-regions.json",
+        "research/output/agent-phase-2026-11-09/P124/visual-review.json"
       ],
       "reentryCondition": "Next construction identifies which observed boundary each feature represents; local annotation is not whole-art acceptance."
     }

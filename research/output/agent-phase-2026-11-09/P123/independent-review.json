@@ -1,0 +1,13 @@
+{
+  "phase": "P123",
+  "reviewer": "/root/p118_night_preflight",
+  "policyVersion": "v2",
+  "decision": "incomplete_construction",
+  "findings": [
+    "Landmark coverage distinguishes W/F/S/interior ink but does not supply shared paths, closed faces or attachment intervals.",
+    "P093 hangingparent requires no broad blue incursion; this neither completes nor disproves a larger3materialcell. Credit prior P090/P093 classification, not new discovery."
+  ],
+  "nextAction": "Specify/draw one P098 contourpair linked to actual outerfork using shared localframe, mouth/counter relation, endpoints and ivory clearance; no independentCstamp field. Renderer deferred until concrete.",
+  "estimatedTokens": 400,
+  "actualTokens": null
+}

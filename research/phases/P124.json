@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "P124",
+  "objective": "Link a retained ink pair to the actual generated child before scene transfer.",
+  "hypothesis": "Exact shared generated-parent identity preserves a related interior hood/counter pair through the clipped child transform, enabling scoped articulation without independent stamps.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P116child0 no related interiorink; P098 localpair retained; P108 independentfield rejected.",
+  "artifactTarget": "research/woodblock/linked-parent-ink.json",
+  "plannedTokens": 7000,
+  "family": "linked-parent-ink-transfer",
+  "strategyReview": "research/strategies/S124.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Exactoneparent transfer, no newwavegeometry/styleclaim; fullcontainment and independentlink gate; final350 review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-09T15:57:45.135Z",
+  "result": {
+    "id": "P124",
+    "summary": "Retain seed721child0 pairedcurl transfer as limited internalarticulation gain. Fullmark/accent containment inactualchild, exactsameparentmapping, unchangedbaselineanddeterminism verified. No wholeart/browser/grammar orotherparent acceptance.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P124/visual-review.json",
+      "research/output/agent-phase-2026-11-09/P124/scene-receipt.json",
+      "research/output/agent-phase-2026-11-09/P124/integration-checks.json",
+      "research/output/agent-phase-2026-11-09/P124/link-review.json",
+      "research/output/agent-phase-2026-11-09/P124/link-receipt.json",
+      "research/woodblock/linked-parent-ink-check.mjs"
+    ],
+    "nextAction": "Preserve oneparentgain; any extension requires exactparent correspondence and owncontainment/wholeviewreview, not P108densityfield. Plan fullobservedsetup/capture/reviewcost before dispatch.",
+    "estimatedWorkTokens": 6400
+  },
+  "review": {
+    "id": "P124",
+    "findings": [
+      "Exact sharedparentidentity provides a real relationship absent from independentstampfields. Prior P098mechanism retained inonecurrentchild; neither generalgrammar norblankcap solution established.",
+      "Estimated6400work exceeds5000testcap1400, within6650phasework. Worker3000vs1600assignment andlead/link/capture/reviewcost all count; no matched efficiencygain. Daphnie owns budget/taskselection.",
+      "Rootkept exactgeometry, no rescue/broadregressions; fullpolygonedge containment and frozenbaseline support limitedclaim. Sourcepriorresearch credited."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keep oneparent articulation alongsideP116 with narrow acceptance scope.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P124/visual-review.json",
+          "research/output/agent-phase-2026-11-09/P124/integration-checks.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Update bounded source-role and overhead lessons with this result; future comparablephase plan must include observed full worker/setup/capture/review costs.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P124/visual-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Test actualparent-linked relationships at meaningful scope only after prospectivecostallocation; no genericfield/densityrescue.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6400,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 6750,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T16:02:00.682Z",
+  "closedAt": "2026-11-09T16:02:00.716Z"
+}

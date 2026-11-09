@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import {generateSupportCove} from './support-cove.mjs';
+import {generateInkParent} from './ink-parent.mjs';
+import {hash} from '../../src/random.mjs';
+import {pointInPolygon,segmentsCross,pointSegmentDistance} from '../../src/procedural/geometry.mjs';
+const scene=generateSupportCove(721),g=scene.baseline.baseline.geometry,local=generateInkParent(hash(721,106)),child=g.children[0],root=g.roots[0],scale=g.scales[0];
+const transform=p=>p.map((v,i)=>root[i]+(v-[40,67][i])*scale);
+const polygons=[...local.ink,local.accent].map(ps=>ps.map(transform));
+const checks=polygons.map(poly=>{let contacts=0,minClearance=Infinity;for(let i=0;i<poly.length;i++){const a=poly[i],b=poly[(i+1)%poly.length];for(let j=0;j<child.length;j++){const c=child[j],d=child[(j+1)%child.length],distance=Math.min(pointSegmentDistance(a,c,d),pointSegmentDistance(b,c,d),pointSegmentDistance(c,a,b),pointSegmentDistance(d,a,b));if(segmentsCross(a,b,c,d)||distance<1e-8)contacts++;minClearance=Math.min(minClearance,distance);}}return{allVerticesInside:poly.every(p=>pointInPolygon(p,child)),boundaryContacts:contacts,minClearance};});
+const diagramAnnotations=Object.entries(local.anchors).filter(([k])=>['P','A','J','B','C','I'].includes(k)).map(([k,[x,y]])=>`<circle cx="${x}" cy="${y}" r="2" fill="#b34d2b"/><text x="${x+3}" y="${y-3}" font-size="8" fill="#b34d2b">${k}</text>`).join('');
+const hood=local.marks[0].points,mouth=hood[0].map((v,i)=>(v+hood.at(-1)[i])/2),I=local.anchors.I;
+const svg=local.svg.replace('</svg>',`<path d="M40 0V260" stroke="#8a6b9f" stroke-dasharray="3 3" fill="none"/>${diagramAnnotations}<path d="M${I.join(',')} L${mouth.join(',')}" stroke="#b34d2b" fill="none"/><circle cx="${mouth[0]}" cy="${mouth[1]}" r="1.5" fill="#b34d2b"/></svg>`);
+const data={phase:'P124',seed:721,parentSeed:hash(721,106),status:checks.every(c=>c.allVerticesInside&&!c.boundaryContacts)?'link_checks_pass_pending_review':'link_checks_fail',sameParentAnatomy:true,root,scale,transform:'root+(local-[40,67])*scale',clippedRootX:40,checks,marks:local.marks.map(m=>({name:m.name,curves:m.curves,first:m.points[0],last:m.points.at(-1),closed:m.closed})),mouth:{point:mouth,directionFromI:mouth.map((v,i)=>v-I[i]),qualification:'Opening direction of existing related hood; no new growth law inferred.'},anchors:local.anchors,polygons,scope:'Exact one-parent interior pair/accent transfer. Complete finitepolygon edges tested against actual clipped child. No scene/art/wholegrammar acceptance.'};
+const out='research/output/agent-phase-2026-11-09/P124';fs.mkdirSync(out,{recursive:true});fs.writeFileSync(out+'/local-link.svg',svg);fs.writeFileSync('research/woodblock/linked-parent-ink.json',JSON.stringify(data,null,2)+'\n');console.log(JSON.stringify({status:data.status,checks}));

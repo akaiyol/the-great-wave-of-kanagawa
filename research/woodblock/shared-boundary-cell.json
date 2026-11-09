@@ -1,0 +1,27 @@
+{
+  "phase": "P123",
+  "status": "incomplete_construction_cell",
+  "source": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "cropXYXY": [
+    1450,
+    650,
+    2300,
+    1250
+  ],
+  "observedEvidence": [
+    "P090 identifies broad water W leftward, connected ivory F and exterior sky S.",
+    "P093 identifies a hanging foam/sky parent P\u2192A/J\u2192B/C and internal ink I, with no broad water incursion in that parent patch."
+  ],
+  "sources": [
+    "research/woodblock/source-regions.json",
+    "research/woodblock/source-parent.json"
+  ],
+  "knownLimit": "Representative landmarks and routes are not traced closed faces or exact attachment intervals.",
+  "constructionDecisionUnresolved": [
+    "Actual shared W/F and F/S boundary paths, closed faces and neighboring replacement intervals have not been specified together.",
+    "Do not require each hanging foam parent to contain a blue shoulder: its supported source patch is foam/sky only. A larger composite cell could contain all3 materials; this does not disprove that possibility."
+  ],
+  "proposedNextPremise": "Typed material roles: water/foam shoulder and foam/sky fork may be distinct substructures connected through ivory. This is a hypothesis, not a completed grammar.",
+  "rendererReady": false,
+  "noNewWidthsOrBoundaryClaims": true
+}

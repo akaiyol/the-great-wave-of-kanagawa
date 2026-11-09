@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P123",
+  "objective": "Resolve one source-cell material partition decision before any renderer.",
+  "hypothesis": "One explicit canonical cell with shared water/ivory/sky boundaries can resolve the missing coupled region construction before any crest-wide renderer.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P122 appendix failure. P093 explicitly has foam/sky parent with no broad water incursion; P090 water lies leftward.",
+  "artifactTarget": "research/woodblock/shared-boundary-cell.json",
+  "plannedTokens": 4000,
+  "family": "shared-boundary-source-cell",
+  "strategyReview": "research/strategies/S123.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Source-only bounded decision, no renderer or invented interface; final200 review. Preserve P116.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 3800,
+    "reviewTokens": 200
+  },
+  "startedAt": "2026-11-09T15:54:16.025Z",
+  "result": {
+    "id": "P123",
+    "summary": "Source-cell packet incomplete: reused P090/P093 roles, no closed faces/shared paths/attachment intervals. No renderer. Hanging foam/sky parent must not be forced to contain water; linked interior-contour/outerfork relationship is better supported next blocker.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P123/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P123/receipt.json",
+      "research/woodblock/shared-boundary-cell.json"
+    ],
+    "nextAction": "Concrete P098 pairedcontour relationship in identifiedactualfork before sceneintegration; no newmaterialslots or independentglyphfields.",
+    "estimatedWorkTokens": 2450
+  },
+  "review": {
+    "id": "P123",
+    "findings": [
+      "Exact construction remains missing; annotatedlandmarks not masqueraded as tracedregions. Source-only scope prevented unsupported renderer.",
+      "Alreadyrecorded P090/P093 distinctions againmatter: manycurlsaresurfaceink andconfirmedhangingparenthasnowaterincursion. Daphnieowns failing to apply these distinctions in recent taskselection.",
+      "Estimated2450work includes prior1050preflight,400review,1000lead/sourcepacket. Actualtelemetryunknown; no art/efficiencygain."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Reuse supported material/ink roles with priorresearch credit; preserve unresolvedregionpaths.",
+        "evidence": [
+          "research/woodblock/source-regions.json",
+          "research/woodblock/source-parent.json",
+          "research/output/agent-phase-2026-11-09/P123/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Do not infer every foamforkneeds all3materials or build unspecifiedfacegraph renderer.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P123/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Transfer a concrete previouslyretained P098 contourpair into the actual generatedfork localframe, with direct ivoryclearance and visible linkage before broaderfieldwork.",
+    "estimatedReviewTokens": 200
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 2450,
+    "estimatedReviewTokens": 200,
+    "estimatedTotalTokens": 2650,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T15:56:36.021Z",
+  "closedAt": "2026-11-09T15:56:36.060Z"
+}

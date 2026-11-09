@@ -1,0 +1,18 @@
+{
+  "phase": "P124",
+  "seed": 721,
+  "renderer": "QuickLook750square localdiagram, not actualdesktop/browsercapture",
+  "scope": "P098 existing localpair/frame with rootclip annotation; its weighted exterior contour is illustration only, NOT proposed for scene transfer.",
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/ink-parent.mjs": "343035cb463018046bbf65d0c38637671bfa1808f98ebdccbc0b5174b29a3993",
+    "research/woodblock/parent-fork.mjs": "8e1bba535b91ecdcd355dadbfa1613db744534fe18d96f17b8fc9ca4145c40a8",
+    "research/woodblock/measured-fork.mjs": "f50e0b48e5a4a771f8adaa2ca8e65725fce05e825b0f7f3260718f576b1f3cea",
+    "research/woodblock/component-field.mjs": "c3f1ecbb2742201d7c4f49611d4cdb9707d0a5dca4355931448f175fb0b04ae2",
+    "research/woodblock/support-cove.mjs": "5999d5c5c9dede78961749f2862fd59060ee4ff8cdce4f8840df4cf2395a16db",
+    "research/woodblock/linked-parent-ink-check.mjs": "6e28e293ce47970fae8f6150250a5b5d9a370cd7fc89d24d01ad2adf621fb533",
+    "research/woodblock/linked-parent-ink.json": "90b80455c1de03ae7d55cdf41152e07748758dbc52b6d095cbf01424bd5cdd12",
+    "research/output/agent-phase-2026-11-09/P124/local-link.svg": "e1233539ad098fcef85a08f8f0024362d403b052a5549f5588367baa8cff479e",
+    "research/output/agent-phase-2026-11-09/P124/local-link.png": "06e100c8d6173d3a9d9670add1cd66574c1c693042658f1b8f1636ef1849e84d"
+  }
+}

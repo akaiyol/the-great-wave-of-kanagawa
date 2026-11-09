@@ -1,0 +1,57 @@
+{
+  "id": "S124",
+  "targetPhase": "P124",
+  "family": "linked-parent-ink-transfer",
+  "hypothesis": "Exact shared generated-parent identity preserves a related interior hood/counter pair through the clipped child transform, enabling scoped articulation without independent stamps.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Link diagram and complete actual-child containment first; scene deferred until independent link pass.",
+  "supportingEvidence": [
+    {
+      "path": "research/woodblock/ink-parent.mjs",
+      "claim": "Marks derived from same measured fork I anchor.",
+      "sha256": "343035cb463018046bbf65d0c38637671bfa1808f98ebdccbc0b5174b29a3993"
+    },
+    {
+      "path": "research/woodblock/component-field.mjs",
+      "claim": "Exact seed/transform for actual child0.",
+      "sha256": "c3f1ecbb2742201d7c4f49611d4cdb9707d0a5dca4355931448f175fb0b04ae2"
+    },
+    {
+      "path": "research/phases/P098.json",
+      "claim": "Limited paired-contour gain retained locally.",
+      "sha256": "30278e7300fbd9654f052a52fe9361ffa2ba544d78126a21e506a171047dc96f"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P108.json",
+      "claim": "Independent Cstamp field failed; pairedidentity must survive composedcontext.",
+      "sha256": "4984b2e0bc7955511341e951a78f8c51b35aca9055642061bbf2a8012c9925f7"
+    },
+    {
+      "path": "research/proposals/P124-linked-parent-ink.md",
+      "claim": "Rootclip and support occlusion may invalidate or hide transfer.",
+      "sha256": "51f58f284cd75bbc9b4526c3fe56292b0859cdd3e884710e8950fa9337fb5d6b"
+    }
+  ],
+  "unknowns": [
+    "Fullpolygon containment and visible child articulation after composition."
+  ],
+  "prediction": {
+    "ifTrue": "Actual parent-linked curl pair articulates child0 without independentstamp character.",
+    "ifFalse": "Clipped, hidden, orphaned or no visiblelocalcontribution."
+  },
+  "test": {
+    "action": "Exactpair linkdiagram+fullboundary containment, independentlink review, then oneunchangedscene transfer/wholeview.",
+    "success": "Supported pair/frame correspondence and visible scopedarticulation; integrity before retention.",
+    "failure": "Stop no reposition/scale/density rescue.",
+    "maxWorkTokens": 5000
+  },
+  "estimatedReviewerTokens": 450,
+  "actualTokens": null
+}

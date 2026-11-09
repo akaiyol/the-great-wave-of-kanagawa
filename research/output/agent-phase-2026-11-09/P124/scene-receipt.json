@@ -1,0 +1,33 @@
+{
+  "phase": "P124",
+  "seed": 721,
+  "renderer": "QuickLook1440square fixedcrop[0,240,1440,1200]",
+  "viewport": [
+    1440,
+    960
+  ],
+  "DPR": null,
+  "browserVerified": false,
+  "referenceReceipt": "research/output/agent-phase-2026-11-09/P124/link-receipt.json",
+  "files": {
+    "research/woodblock/linked-parent-ink.mjs": "00eca88699a887bf32d792b1fb4cea0271d8f1a7e34d2e6a7fbb0ff14391d5d9",
+    "research/woodblock/linked-parent-ink.html": "89426725e44347b4a6ca1b48ff2e76080539f171160185df67a8ce6f61eb0ae7",
+    "research/output/agent-phase-2026-11-09/P124/candidate-721.svg": "8337bbf3e1b9a9dc80c5ada6d954025c530749e426029d7fcf15b82a11604977",
+    "research/output/agent-phase-2026-11-09/P124/candidate-static-1440x960.png": "fc5b4e4ce441336da8bb405c35be1be684a5b4e86dacf32dc1ac56a0306e4c44",
+    "research/output/agent-phase-2026-11-09/P124/integration-checks.json": "41ca7c2f31f907269310d4e09c352dc67efa7f60c8418a5a8d104304124324bf",
+    "research/output/agent-phase-2026-11-07/P116/candidate-static-1440x960.png": "e681c2d079a333057758afc4669581f13be64a1906c7fe784219ee321fc97a94",
+    "research/output/agent-phase-2026-11-09/P124/comparison-detail.png": "b9ea7838193132807cfcdb68718330722afc2a5fb618f0c604d3a7b289d45f74",
+    "research/output/agent-phase-2026-11-09/P124/visual-review.json": "adaf98f0004db866d35ee31789edf3086ddde4d8234b108fd5b3afdacd1a13f6"
+  },
+  "comparisonDetail": {
+    "path": "research/output/agent-phase-2026-11-09/P124/comparison-detail.png",
+    "nativeCropXYXY": [
+      570,
+      80,
+      730,
+      280
+    ],
+    "resampled": false,
+    "labelMarginPx": 20
+  }
+}

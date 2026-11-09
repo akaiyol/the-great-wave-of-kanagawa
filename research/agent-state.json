@@ -5,10 +5,10 @@
   "primaryArtisticCriterion": "Immediate canonical Great Wave aesthetic plus newly constructed wave anatomy; finished sprite repetition fails.",
   "canonicalReference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
   "currentApp": "index.html \u2014 earlier painted visual/interaction checkpoint; does not satisfy procedural requirement",
-  "currentStudy": "P116 remains retained art. P119 measurements rejected; P120 source color component retained only as qualified diagnostic.",
-  "retainedCandidate": "P099water/P098localparent plusP110WFS andP116seed721open-support-cove regionalforkhierarchygain. Bowl-likecove/blankcap/remaininghooks unresolved; noacceptedwholeart orvariety. Rootapp/P079unchanged.",
-  "currentPhase": "P122",
-  "currentPhaseRecord": "research/phases/P122.json",
+  "currentStudy": "P124 linked-parent-ink.html seed721 retains P116 regional fork plus child0 internalpairedcurl only.",
+  "retainedCandidate": "P099water/P098localparent +P110WFS/P116forkhierarchy +P124seed721child0 pairedcontour articulation. Blankcap/sparsehierarchy andwholeart/browser/variety unmet.",
+  "currentPhase": "P124",
+  "currentPhaseRecord": "research/phases/P124.json",
   "brief": "research/agent-brief.md",
   "memory": "research/agent-memory.json",
   "plan": "research/woodblock-plan.md",
@@ -61,11 +61,11 @@
     ]
   },
   "runCheckpoint": "research/output/agent-phase-2026-11-09/P118/checkpoint.json",
-  "nextExperimentContract": "S123 permits ONLY one source-cell decision packet: actual shared W/F/F-S paths, closedregions, exterior sky and neighboring attachment intervals. Renderer deferred until concretecell is supported; no narrow patches.",
+  "nextExperimentContract": "Preserve P124 oneparentgain. Future transfer must use actualgeneratedparent identity and completechild containment; no independentstampfields or narrowmaterialpatch rescue. Plan fullobserved setup/capture/review cost.",
   "runHeadroomPlan": {
     "status": "Earlier90%thresholds superseded by owner full-allowance authorization. Incremental checkpoints before exhaustion; final5%phase review unchanged."
   },
-  "checkpointReason": "Daphnie120835a verified; P119\u2013P122 reviewed/published, no new art gain. Independent P123 review defers renderer: missing exact three-material cell geometry. P116 remains retained; source-only decision packet not yet started.",
+  "checkpointReason": "P123 sourcecell incomplete; P124 oneparenttransfer independently retained andchecked. Estimatedwork6400 exceeds5000testcap; noefficiencyclaim.",
   "scheduledContinuation": {
     "id": "wave-project-five-hour-continuation",
     "status": "ACTIVE",

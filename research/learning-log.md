@@ -143,3 +143,7 @@ Daphnie also owns the earlier native Safari fallback that stalled approximately1
 ## L023 — Reachable material is not adequate anatomy
 
 [P122](phases/P122.json) passed declared two-way material disks and connected ivory-root evidence, but independent whole-view review rejected long slots and capsule fingers. Daphnie owns the candidate; the worker followed it. Keep displacement as a scoped technical result only. Failure `geometry.appendage-without-hierarchy`: no narrow ribbon variants; re-entry requires a crest-wide representation coupling water shoulders, ivory junctions, unequal branches and outer curl, with a different prospective visible prediction. No efficiency or artistic improvement is claimed.
+
+## L024 — Transfer a retained relationship through the same parent
+
+[P124](phases/P124.json) maps the P098 hood/counter/accent through the exact generated-parent identity used by P116 child0. The independent reviewer retained a small visible articulation gain after direct whole-polygon child containment and whole-view review. This credits the earlier P098 mechanism; it is not a new grammar or an independent stamp field. No source mask, new material cuts, browser acceptance or whole-art claim. Daphnie owns the1400estimated test-cap overrun; full worker/startup/capture/review cost must be budgeted before further dispatch. Existing bounded source-role and overhead lessons updated, with no role/workflow or goal changes.
