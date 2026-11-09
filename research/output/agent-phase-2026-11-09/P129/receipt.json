@@ -1,0 +1,26 @@
+{
+  "phase": "P129",
+  "renderer": "QuickLook1600square, sourceviewBox800x310 fixedcrop[0,490,1600,1110]",
+  "DPR": null,
+  "browserVerified": false,
+  "scope": "Unchanged3localforms, alternativefixedrouteevidence; P128failurepreserved, no waveartacceptance.",
+  "referenceCropXYXY": [
+    1900,
+    780,
+    2380,
+    1280
+  ],
+  "files": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/arm-support-diagnostic.mjs": "2e7dc25ab2b5569e062c7b0e0538612be7be45ddab33c7d54b084446af4a5769",
+    "research/woodblock/junction-pair.mjs": "678aa4bdae643be1e09ac95ce523107425f905bb46df64028446fe650611d205",
+    "research/woodblock/junction-pair-check.mjs": "c307673f7c1bb4a0e81988a47a1ef10e2f32d90c829148085e2f820a6fb3a95a",
+    "research/output/agent-phase-2026-11-09/P129/summary.json": "062956ede1d71bfae1d1e3747372caae04a99705a53578353eab31eb60103459",
+    "research/output/agent-phase-2026-11-09/P129/routes.json": "c418a0d88a166f814fa19983011a7effc2b232429fb73b5575ce32c2bbc2f87b",
+    "research/output/agent-phase-2026-11-09/P129/local-parents.svg": "bbcdd91bc00bcc643e05d40d3debcceb71582c12538d95a7f3a9cea699efd27b",
+    "research/output/agent-phase-2026-11-09/P129/local-parents.png": "16f68dd0395d7df7dc3068070f6337048fdab698142b090d44410abf58975f47",
+    "research/output/agent-phase-2026-11-09/P129/support-overlays.svg": "b2c4ddee7b7949283a757da67c8321e126666f6dfdf83c592ae0999a576824e2",
+    "research/output/agent-phase-2026-11-09/P129/support-overlays.png": "4ce258b77f54eee889596d2aefd8dbfbf3c3951441d490dcb2970eb02129300b",
+    "research/output/agent-phase-2026-11-09/P129/canonical-parent.png": "0487ac3789c6aafde0cad8fe52ddb838142d7167f6cb3cb600116a6909c7a72a"
+  }
+}

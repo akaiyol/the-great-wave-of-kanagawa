@@ -1,0 +1,134 @@
+{
+  "phase": "P127",
+  "status": "fail_actual_material_patch",
+  "audit": [
+    {
+      "childIndex": 0,
+      "cage": [
+        [
+          40,
+          -5.862744105505712
+        ],
+        [
+          140,
+          37
+        ],
+        [
+          146,
+          90
+        ],
+        [
+          49,
+          147
+        ]
+      ],
+      "allMarkVerticesInsideCage": true,
+      "outsideWitness": {
+        "edge": 2,
+        "t": 0.002,
+        "point": [
+          145.806,
+          90.114
+        ],
+        "distanceFromParentBoundary": 0.03828940690471909
+      }
+    },
+    {
+      "childIndex": 1,
+      "cage": [
+        [
+          40,
+          -5.869663085079679
+        ],
+        [
+          140,
+          37
+        ],
+        [
+          146,
+          90
+        ],
+        [
+          49,
+          147
+        ]
+      ],
+      "allMarkVerticesInsideCage": true,
+      "outsideWitness": {
+        "edge": 2,
+        "t": 0.002,
+        "point": [
+          145.806,
+          90.114
+        ],
+        "distanceFromParentBoundary": 0.03823397029978397
+      }
+    },
+    {
+      "childIndex": 2,
+      "cage": [
+        [
+          40,
+          -5.892415882569495
+        ],
+        [
+          140,
+          37
+        ],
+        [
+          146,
+          90
+        ],
+        [
+          49,
+          147
+        ]
+      ],
+      "allMarkVerticesInsideCage": true,
+      "outsideWitness": {
+        "edge": 2,
+        "t": 0.002,
+        "point": [
+          145.806,
+          90.114
+        ],
+        "distanceFromParentBoundary": 0.038297374039048565
+      }
+    },
+    {
+      "childIndex": 3,
+      "cage": [
+        [
+          40,
+          -5.729596686941022
+        ],
+        [
+          140,
+          37
+        ],
+        [
+          146,
+          90
+        ],
+        [
+          49,
+          147
+        ]
+      ],
+      "allMarkVerticesInsideCage": true,
+      "outsideWitness": {
+        "edge": 2,
+        "t": 0.002,
+        "point": [
+          145.806,
+          90.114
+        ],
+        "distanceFromParentBoundary": 0.03834356277733397
+      }
+    }
+  ],
+  "scope": "A positive-clearance outside witness is a counterexample. Absence of sampled failure would NOT prove containment; complete intersection-partition test would be required.",
+  "prototypeRun": false,
+  "targetsChanged": false,
+  "nextAction": "Stop declared quad construction before worker dispatch; do not move corners or weaken wholepatch requirement."
+}

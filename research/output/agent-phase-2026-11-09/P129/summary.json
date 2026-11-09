@@ -1,0 +1,67 @@
+{
+  "phase": "P129",
+  "pass": true,
+  "geometryIdentical": true,
+  "originalP128Pass": false,
+  "geometryEvidence": "research/output/agent-phase-2026-11-09/P128/geometry.json",
+  "cases": [
+    {
+      "id": "Q",
+      "pass": true,
+      "oldRoute": {
+        "pass": false,
+        "inside": true,
+        "contacts": 0,
+        "minClearance": 2.18843174290131
+      },
+      "newRoute": {
+        "pass": true,
+        "inside": true,
+        "contacts": 0,
+        "minClearance": 12.426315632011736
+      },
+      "oldTipDistance": 42.60957025393508,
+      "newTipDistance": 25.506562983767306,
+      "tipReachPass": true
+    },
+    {
+      "id": "R",
+      "pass": true,
+      "oldRoute": {
+        "pass": true,
+        "inside": true,
+        "contacts": 0,
+        "minClearance": 5.865048423184937
+      },
+      "newRoute": {
+        "pass": true,
+        "inside": true,
+        "contacts": 0,
+        "minClearance": 11.955422453889838
+      },
+      "oldTipDistance": 42.60957025393508,
+      "newTipDistance": 25.610480338931993,
+      "tipReachPass": true
+    },
+    {
+      "id": "S",
+      "pass": true,
+      "oldRoute": {
+        "pass": true,
+        "inside": true,
+        "contacts": 0,
+        "minClearance": 8.447259515500438
+      },
+      "newRoute": {
+        "pass": true,
+        "inside": true,
+        "contacts": 0,
+        "minClearance": 10.889642487503162
+      },
+      "oldTipDistance": 42.60957025393508,
+      "newTipDistance": 25.779144965199215,
+      "tipReachPass": true
+    }
+  ],
+  "scope": "One fixed polygonal radius3 support route only; original P128 failure unchanged. No minimum-width, bottleneck-absence or artistic claim."
+}

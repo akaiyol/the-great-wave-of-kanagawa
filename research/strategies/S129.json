@@ -1,0 +1,47 @@
+{
+  "id": "S129",
+  "targetPhase": "P129",
+  "family": "boundary-derived-support-diagnostic",
+  "hypothesis": "One fixed support derived from actual opposing arm boundaries can distinguish route-specific failure from a demonstrated alternative broad connection without changing the failed geometry or width threshold.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Distinctfixedroute diagnostic, allcases/geometry/thresholdunchanged, explicitA-tipreach; P128failure remains.",
+  "supportingEvidence": [
+    {
+      "path": "research/phases/P128.json",
+      "claim": "Only frozenP-toAroute fails; notglobaldisconnectionproof.",
+      "sha256": "c0e4cff2ef6c129aef41653b5b30e2d429a8ec51982973115d0d8c81bc9ed897"
+    },
+    {
+      "path": "research/proposals/P129-boundary-support.md",
+      "claim": "ActualnamedopposingAarmboundaries defineone fixedgeometry-conditioned route.",
+      "sha256": "6e6a751a8bc2b98fdbef635556d0da74d283a74d9faaeff4860e4a46e770fa24"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P128/independent-review.json",
+      "claim": "Post-failurerouteselection mustnotretroactivelyrepairP128 orclaimactualwidth/bottleneckabsence.",
+      "sha256": "c82d699f8d7657c929e4038c9f25c065cc15a4dafd92a4458ad9ade48997cd87"
+    }
+  ],
+  "unknowns": [
+    "Pairedparameterization/connectorinside, endpointreach andfullrouteclearance, localappearance."
+  ],
+  "prediction": {
+    "ifTrue": "Alternativefixedradius3connectionexistsforunchangedcases.",
+    "ifFalse": "Rejectthisrouteonly, stopbeforerendering."
+  },
+  "test": {
+    "action": "Exactfixedmidline/support/tipreach forall3; old/newreported together; conditionalunchangedlocal3panel+freshvisualreview.",
+    "success": "Scopedalternativeconnectionproof andseparatevisualjudgment; noP128passrewrite.",
+    "failure": "No alternateu/path/sampling orrepair.",
+    "maxWorkTokens": 9000
+  },
+  "estimatedReviewerTokens": 500,
+  "actualTokens": null
+}

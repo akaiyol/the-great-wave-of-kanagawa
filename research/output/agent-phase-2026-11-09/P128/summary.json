@@ -1,0 +1,155 @@
+{
+  "phase": "P128",
+  "pass": false,
+  "deterministic": true,
+  "cases": [
+    {
+      "id": "Q",
+      "pass": false,
+      "parentContacts": 0,
+      "fullParentContacts": 0,
+      "supportChecks": [
+        {
+          "inside": true,
+          "minClearance": 2.18843174290131
+        },
+        {
+          "inside": true,
+          "minClearance": 24.328683247850464
+        },
+        {
+          "inside": true,
+          "minClearance": 5.006843061904353
+        },
+        {
+          "inside": true,
+          "minClearance": 6.12155640120978
+        }
+      ],
+      "markChecks": [
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 7.994462982984756
+        },
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 19.984054838802273
+        },
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 6.265517260459823
+        }
+      ],
+      "open": true,
+      "det": 1.035,
+      "invariant": 2.220446049250313e-16,
+      "reconstruction": true,
+      "frameOnly": {
+        "angularResidual": 0.33020650167710586,
+        "rmsDisplacement": 10.619835973379487
+      }
+    },
+    {
+      "id": "R",
+      "pass": true,
+      "parentContacts": 0,
+      "fullParentContacts": 0,
+      "supportChecks": [
+        {
+          "inside": true,
+          "minClearance": 5.865048423184937
+        },
+        {
+          "inside": true,
+          "minClearance": 24.328683247850464
+        },
+        {
+          "inside": true,
+          "minClearance": 5.006843061904353
+        },
+        {
+          "inside": true,
+          "minClearance": 6.12155640120978
+        }
+      ],
+      "markChecks": [
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 7.9207553096202
+        },
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 17.208394600479444
+        },
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 6.583353157432449
+        }
+      ],
+      "open": true,
+      "det": 1,
+      "invariant": 0,
+      "reconstruction": true,
+      "frameOnly": {
+        "angularResidual": 0,
+        "rmsDisplacement": 9.053376273789533e-15
+      }
+    },
+    {
+      "id": "S",
+      "pass": true,
+      "parentContacts": 0,
+      "fullParentContacts": 0,
+      "supportChecks": [
+        {
+          "inside": true,
+          "minClearance": 8.447259515500438
+        },
+        {
+          "inside": true,
+          "minClearance": 24.328683247850464
+        },
+        {
+          "inside": true,
+          "minClearance": 5.006843061904353
+        },
+        {
+          "inside": true,
+          "minClearance": 6.12155640120978
+        }
+      ],
+      "markChecks": [
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 10.512511111046548
+        },
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 19.861141431264087
+        },
+        {
+          "inside": true,
+          "contacts": 0,
+          "minClearance": 9.324762686073885
+        }
+      ],
+      "open": true,
+      "det": 0.935,
+      "invariant": 0,
+      "reconstruction": true,
+      "frameOnly": {
+        "angularResidual": 0.019488598927307033,
+        "rmsDisplacement": 7.706487878833862
+      }
+    }
+  ],
+  "scope": "Local integrity only; model angle constant is not a museum measurement."
+}

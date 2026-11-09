@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P128",
+  "objective": "Test a junction-facing paired-contour primitive on exactly three local forms.",
+  "hypothesis": "Keeping paired-contour mouth orientation tied to the moving lower fork while co-generating shoulder dimensions preserves a concrete local anatomical relationship under shape change.",
+  "failureIds": [
+    "source.frame-only-contour-variation",
+    "source.boundary-conflation",
+    "review.context-overhead"
+  ],
+  "baseline": "P098localpair retained; P125repeatedfieldfailed; P127quadfailed. P124sceneunchanged.",
+  "artifactTarget": "research/woodblock/junction-pair.mjs",
+  "plannedTokens": 14000,
+  "family": "junction-facing-shoulder",
+  "strategyReview": "research/strategies/S128.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Localproofonly, sourceanglequalification, strictgates/norescue, prospectivefullcost+freshreview, no worldintegration; final700reserve.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 13300,
+    "reviewTokens": 700
+  },
+  "startedAt": "2026-11-09T16:30:49.542Z",
+  "result": {
+    "id": "P128",
+    "summary": "Declaredtechnicalfailure: Q/B fixedP-toA supporttube belowradius3. Allmarks/invariant/simpleparent checks pass; reference/A passlocalgates. StoppedwithnoSVG/targetrepair/artverdict. No globaldisconnectionclaim.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P128/summary.json",
+      "research/output/agent-phase-2026-11-09/P128/receipt.json",
+      "research/output/agent-phase-2026-11-09/P128/independent-review.json"
+    ],
+    "nextAction": "Keepfailureprominent; investigatewhetherfrozenpathfailureisrealbottleneck orstalesupportwitness before anyseparatelyreviewedvisualstudy. No corridorrelaxation/targetrepair.",
+    "estimatedWorkTokens": 7350
+  },
+  "review": {
+    "id": "P128",
+    "findings": [
+      "ExplicitJ-facing ruleimplemented, butsuccessfulangle/containmentdoesnotestablishallgeometry orart. Preservetechnicalpartialfactswithoutturningtrialintosuccess.",
+      "Daphnieowns ambiguousuppercaseX handoff; workerstoppedandclarified beforeediting. Full2Dvertexdeltaresolvedwithouttargetchange;900clarificationcostincluded3900workerestimate.",
+      "Estimated7350work(1100preflights+3900worker+1800lead+550review), below10000testcap; exacttelemetrynull. No SVG,freshvisualagent orbroaderwork afterfailedgate; noefficiencyclaim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Keepall3caseevidence withfailedQvisible andpreservescopeofpassingrelationships.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P128/summary.json",
+          "research/output/agent-phase-2026-11-09/P128/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "No target/corridorrelaxation orcherrypickedA-onlysuccessclaim.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P128/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Anyfailurediagnosis mustdistinguish actualarmbottleneckfromonefixedsupportpath; preregisteranatomicalsupportcorrespondence andunchangedthresholds ifseparatelystudied.",
+    "estimatedReviewTokens": 700
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 7350,
+    "estimatedReviewTokens": 700,
+    "estimatedTotalTokens": 8050,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T16:37:27.015Z",
+  "closedAt": "2026-11-09T16:37:27.049Z"
+}

@@ -1,0 +1,13 @@
+{
+  "phase": "P128",
+  "renderer": "Not run: strict geometrygatefailed",
+  "scope": "Local model/declaredsupport evidence only; no artisticevaluation or waveintegration.",
+  "files": {
+    "research/woodblock/junction-pair.mjs": "678aa4bdae643be1e09ac95ce523107425f905bb46df64028446fe650611d205",
+    "research/woodblock/junction-pair-check.mjs": "c307673f7c1bb4a0e81988a47a1ef10e2f32d90c829148085e2f820a6fb3a95a",
+    "research/output/agent-phase-2026-11-09/P128/summary.json": "769116f0863a6c98b4c8c5448fd1d8dedc349877410acff3fa2337199e169139",
+    "research/output/agent-phase-2026-11-09/P128/geometry.json": "92f8c7d3fd91d759c6bebdb073f9513dedd16ba7346c1bc4432b7c022243e1f9",
+    "research/output/agent-phase-2026-11-09/P128/local-case-key.json": "336e9cec47022ffebe8a386311e10209f3cab375e8077893974f77aae56c1e15",
+    "research/output/agent-phase-2026-11-09/P128/independent-review.json": "c82d699f8d7657c929e4038c9f25c065cc15a4dafd92a4458ad9ade48997cd87"
+  }
+}

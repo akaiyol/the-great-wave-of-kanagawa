@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "P127",
+  "objective": "Validate actual shoulder chart before a coupled-contour prototype.",
+  "hypothesis": "A boundary-anchored upper-shoulder chart can couple actual outer-fork changes to pointwise hood/counter deformation, beyond frame-only transport.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "source.boundary-conflation"
+  ],
+  "baseline": "P124onepairretained,P125copyfieldfailed; shouldersV/W/Xfixed acrossparents.",
+  "artifactTarget": "research/woodblock/shoulder-cage-gate.json",
+  "plannedTokens": 7000,
+  "family": "shoulder-cage-dependency",
+  "strategyReview": "research/strategies/S127.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "Predispatchchartvalidity, fixedtargets/norescue, no renderer/artclaims; final350 review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-09T16:21:34.911Z",
+  "result": {
+    "id": "P127",
+    "summary": "Rejected baseline shoulderchart beforeworkerdispatch: chordcrossesoutsidefoam despiteallinkverticesinsidequad. No deformationprototype, targettest orartresult. Fixedshoulderfeatureaudit explainsP125limitedvariation.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/shoulder-cage-gate.json",
+      "research/woodblock/shoulder-cage-check.mjs",
+      "research/output/agent-phase-2026-11-09/P127/independent-review.json"
+    ],
+    "nextAction": "Do notmovequadcorrners orweakenwholepatchcontainment. Newconstructionpremise mustavoidinvalidvirtualmaterialchart.",
+    "estimatedWorkTokens": 3800
+  },
+  "review": {
+    "id": "P127",
+    "findings": [
+      "Leadvertex-onlyselectioninsufficient; fullmaterialgate foundpositiveoutsidewitness beforeprototype. Counterexamplevalidwithoutclaimingsamplingprovespass.",
+      "SourcegeneratorfixesVWXwithinparentdespiteseedchange; constantIregionisnotgenuineanatomyvariation. No newsourcepixelinference.",
+      "Estimated3800work includes600strategy,350review,2850lead/audit/gate/records; telemetryunknown. No workerdispatch orartgain; no matched efficiencyproof."
+    ],
+    "actions": [
+      {
+        "decision": "drop",
+        "summary": "Stop declaredquadconstructionwithoutcorneradjustment orprototype.",
+        "evidence": [
+          "research/woodblock/shoulder-cage-gate.json",
+          "research/output/agent-phase-2026-11-09/P127/independent-review.json"
+        ]
+      },
+      {
+        "decision": "retain",
+        "summary": "Keep actualboundarycounterexample and fixedshoulder audit as newpremise constraints.",
+        "evidence": [
+          "research/woodblock/shoulder-cage-gate.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Generate outerandinner shoulder anatomy jointly from explicitanatomicalparameters ratherthan reconstructing an invalidmaterialchart. Anynewproposal needsindependentreview.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3800,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 4150,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T16:24:58.046Z",
+  "closedAt": "2026-11-09T16:24:58.082Z"
+}

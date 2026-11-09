@@ -5,23 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P126 (closed).
-Record: research/phases/P126.json
-Objective: Investigate original edge-conditioned detail for exact contour-coupling blocker.
-Hypothesis: Original branch-edge conditioning can identify a concrete causal dependency missing from frame-only contour transfer, with explicit limits before any paired-contour adaptation.
-Baseline: P125 actualparentframes repeatedsameglyph; currentretainedP124oneparent only.
-Artifact: research/woodblock/edge-conditioned-contours.md
-Budget: 5700 work / 300 review tokens (planned; usage estimated).
-Strategy: research/strategies/S126.json (family: edge-conditioned-contour-research).
+Current phase: P129 (closed).
+Record: research/phases/P129.json
+Objective: Diagnose one fixed anatomical support route on unchanged local cases.
+Hypothesis: One fixed support derived from actual opposing arm boundaries can distinguish route-specific failure from a demonstrated alternative broad connection without changing the failed geometry or width threshold.
+Baseline: P128Q fixedroutefailed2.1884vs3; otherlocalchecks passed. Originaltrial remainsfailed.
+Artifact: research/woodblock/arm-support-diagnostic.mjs
+Budget: 10450 work / 550 review tokens (planned; usage estimated).
+Strategy: research/strategies/S129.json (family: boundary-derived-support-diagnostic).
 Artifact delivered: true.
-Result: Originalsource mechanism qualified: barkify frame-conditionedmotif vs texture pointwisecontourdependence. P098actualedgecorrespondence unresolved; no adaptation ordependencytest run. Sourcefinding informative, transferincomplete.
-Verdicts: technical incomplete; artistic not_applicable.
-Next action: Supply explicit actualparent-boundary correspondence for bothrelatedcurves before anyprototype; no arbitrarymarktransport or newgeneralresearchhunt.
-Decision (retain): Keep precise source-mechanism distinction and failedprerequisite asboundedresearch.
-Decision (drop): Do notborrowbarkmotifs orclaimrootfixedglyphtransport is anatomicalshapevariation.
-Next improvement: One explicit anatomicallyidentified boundarypatch, not more copyfields, is required for geometryconditionedcurveprototype.
+Result: Fixedboundary-derivedradius3connectionprovenforall3unchangedlocalcases; P128originalfailedcorridorstillfailed. Freshvisualreviewrejectslocalanatomicalcoherence: repeatedovaleyeinserts. Keeptechnicalrouteproofonly, preserveP124scene.
+Verdicts: technical pass; artistic fail.
+Next action: Parkisolatedprimitive/tuning. Freshstrategyreviewforonewholeviewconnectedunequalcapbranchgroup/bodyconnectedrecesses, no newrendererbydefault.
+Decision (retain): PreservescopedrouteproofandP124scene, notnewlocalfamilyart.
+Decision (change): Startupmemorynowprioritizeswholeviewbottleneck; archiveautomaticallyenforcedstale-briefreminderinthisphasehistory, keep12lessons.
+Next improvement: Oneboundedwholecapbranchgrouptestwithfreshsource-ledpreflight; useobservedreviewstartupinbudgetratherthanmoreisolatedanatomymetrics.
 State retainedCandidate: P099water/P098localparent +P110WFS/P116forkhierarchy +P124seed721child0 pairedcontour articulation. Blankcap/sparsehierarchy andwholeart/browser/variety unmet.
-State checkpointReason: P125repeatedpairfield rejected, P126sourcefinding qualified; P124singlefork retained. Nextgeometryneeds explicitactualshoulder-boundary correspondence for inner/outer co-variation.
+State checkpointReason: P129routeproofpassesbutfreshlocalartreviewrejects; parkprimitive refinement. P124singleforkscene remainsretained. Wholeblankcap identifiedasnextARTbottleneck.
 Run authorization: Owner2026-11-07: automatic useful work daily00:00–08:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

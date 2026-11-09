@@ -1,0 +1,14 @@
+{
+  "phase": "P127",
+  "reviewer": "/root/p118_night_preflight",
+  "policyVersion": "v2",
+  "decision": "fail_baseline_patch_stop_before_dispatch",
+  "findings": [
+    "W-to-X chord witness[145.806,90.114] outsideactualclippedparent withpositiveclearance~.0383; all4cases.",
+    "Insideinkvertices do notrepairwholepatchcontainment. No inversemap/target/dependency/artresult.",
+    "Failureisdeclaredstraightquadonly, notallboundaryconditioning/bilinearmethods. FixedVWX iscodeaudit, notsourcepixels."
+  ],
+  "nextAction": "Closequadconstruction; newcorrespondence mustrespectactualconcavematerialboundary. No corneradjustment orrelaxedcontainment.",
+  "estimatedTokens": 350,
+  "actualTokens": null
+}

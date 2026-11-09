@@ -1,0 +1,7 @@
+# P127 — Anatomical shoulder cage gate before deformation
+
+Reference parent is generateInkParent(hash(721,106)), same actual P124 child. Candidatequad U=actualupperrootcut atx40, V=P-upper endpoint[140,37], W=A-inner endpoint[146,90], X=J-left endpoint[49,147]. These are construction-space feature correspondences, not pixel segmentation; virtual quad chords are not material boundaries. Selectionaudit found V/W/Xfixed acrossP125seeds andallink/accentvertices withinquad. Vertex inclusion alone does not establish patch containment.
+
+FIRST: convexity/Jacobian, baselinepatch/wholeparent containment including completeedges. Any actualoutsidewitness stops without movingcorners orweakening criterion. If valid, invertP098points into bilinearuv, varyactualboundaryV/W/X withadjacentBeziercontrol endpointtranslations and recomputeU. Fixedtargets A:V[160,42],W[132,112],X[55,145]; B:V[130,25],W[165,77],X[58,135]. Rootpose/tipanchors/markparameters/randomdrawsfixed. BaselineUVreconstruction, simpleoutlines, targetpatch andwholemarkcontainment required beforethree localdrawings. Similarityalignmentresidual separates intrinsicdeformation fromrigid/scaledglyphtransport. No waveintegration, sourcefitclaim or targetrescue.
+
+Independentpreflight permits onlylocaldependencydiagnostic, max6000estimatedwork inclaudit/setup/implementation/review; separate5%phase reserve. Stopafterdiagnostic ratherthanautomaticallyescalating.

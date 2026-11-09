@@ -1,0 +1,17 @@
+{
+  "phase": "P129",
+  "reviewer": "/root/p129_fresh_review",
+  "policyVersion": "v2",
+  "artifactDecision": "reject_local_anatomical_coherence_retain_route_proof",
+  "findings": [
+    "Qcompactforkwithinsertedeye; R/Selongatedlowerforkretainsnear-sameovalinterior.",
+    "Sourcehasvariedopenhooksatspecificturnsandneighboringfoam; localformsnotconvincingcovariation.",
+    "Alternativefixedradius3routeexistsforallunchangedcases, butP128originalfailureandallscopequalificationsremain."
+  ],
+  "processDecision": "pivot_wholeview_connected_branch_group",
+  "bottleneck": "Broadnearlyblankivorycapwithsparseisolatedhooks vsconnectedunequalfoambranches/bodyconnectedindigorecesses.",
+  "nextTest": "Onegeneratedconnectedgroup inboundedcapregion, native1440x960wholeview, stopifeyes/detachedclawsorblankdominancepersist. Notnewrendererapproval.",
+  "estimatedArtifactTokens": 2000,
+  "estimatedProcessTokens": 500,
+  "actualTokens": null
+}

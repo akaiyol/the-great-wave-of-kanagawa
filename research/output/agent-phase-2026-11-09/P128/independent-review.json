@@ -1,0 +1,13 @@
+{
+  "phase": "P128",
+  "policyVersion": "v2",
+  "reviewer": "/root/p118_night_preflight",
+  "decision": "declared_technical_failure_park_no_art_verdict",
+  "findings": [
+    "Q/B frozenP-toA supportclearance2.1884 below3; sourcecasesR/reference,S/A passlocalgates.",
+    "Allcases passreportedsimplicity,markcontainment,positivepairmap,angularinvariant,determinism. No globalarmdisconnection inferred.",
+    "No SVG or targetrepair. Preservepartialtechnicalfacts withQfailureprominent; A-onlyvisual removesstrongerorientationchallenge."
+  ],
+  "estimatedTokens": 550,
+  "actualTokens": null
+}

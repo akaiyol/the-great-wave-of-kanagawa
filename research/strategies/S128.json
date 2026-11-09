@@ -1,0 +1,74 @@
+{
+  "id": "S128",
+  "targetPhase": "P128",
+  "family": "junction-facing-shoulder",
+  "hypothesis": "Keeping paired-contour mouth orientation tied to the moving lower fork while co-generating shoulder dimensions preserves a concrete local anatomical relationship under shape change.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Revised explicit J-facing mouth relation permitted onlyboundedlocaltest; initial unconditionedresize wasdeferred.",
+  "supportingEvidence": [
+    {
+      "path": "research/phases/P098.json",
+      "claim": "Retained related localhood/counter provides reference.",
+      "sha256": "30278e7300fbd9654f052a52fe9361ffa2ba544d78126a21e506a171047dc96f"
+    },
+    {
+      "path": "research/woodblock/source-parent.json",
+      "claim": "I lies above lowerparentforkJ; qualitative grouping, notmeasuredangle.",
+      "sha256": "3fcc8e73762ce0fdd5e50732eab15db3fc5c1f825fc82b545da291f56bfd26c1"
+    },
+    {
+      "path": "research/proposals/P128-junction-facing-pair.md",
+      "claim": "Explicit model-specific J-facing angle invariant, shared outer/inner generation.",
+      "sha256": "4c79c98927916e33975c44918b8979ed63d14aebd9513d8f7d44c1cc81dd993c"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P125.json",
+      "claim": "Repeatedeye familyfailed; affinepair mayremainstretched eye.",
+      "sha256": "52593f612944b7807c9b9034c747142afb1ad54db3c64f0e1122dd0d2fddacd8"
+    },
+    {
+      "path": "research/phases/P127.json",
+      "claim": "Virtualchartinvalid; cannotreuseorweakenitscontainment.",
+      "sha256": "225598bdac8a55e70f5d665a976b7e674bc4e974cfdd3a8172082023458cc33e"
+    }
+  ],
+  "unknowns": [
+    "Targetoutline/support/markvalidity andlocalaestheticcoherence, notguaranteedbyinvariant."
+  ],
+  "prediction": {
+    "ifTrue": "Mouthorientation remainsrelatedto actualJ whilelocalformstillreadscoherently.",
+    "ifFalse": "Invalidgeometry, stretched/detachedeye or damagedshoulder/covetransition."
+  },
+  "test": {
+    "action": "Exactlyreference/A/B geometry+support+paircontainment/invariant first; local3panel source-role comparison onlyonpass.",
+    "success": "Scopedvalidcoupling plusindependentlocalformjudgment, no waveintegration.",
+    "failure": "Anyfailedcase stopswithouttargetadjustment; metricsneveroverrideartrejection.",
+    "maxWorkTokens": 10000
+  },
+  "changedPremise": {
+    "summary": "Shared primitive with explicit actual-J-facing invariant, notcopyfields, arbitraryresizeorvirtualmaterialchart.",
+    "evidence": [
+      {
+        "path": "research/proposals/P128-junction-facing-pair.md",
+        "sha256": "4c79c98927916e33975c44918b8979ed63d14aebd9513d8f7d44c1cc81dd993c"
+      },
+      {
+        "path": "research/phases/P125.json",
+        "sha256": "52593f612944b7807c9b9034c747142afb1ad54db3c64f0e1122dd0d2fddacd8"
+      },
+      {
+        "path": "research/phases/P127.json",
+        "sha256": "225598bdac8a55e70f5d665a976b7e674bc4e974cfdd3a8172082023458cc33e"
+      }
+    ]
+  },
+  "estimatedReviewerTokens": 1100,
+  "actualTokens": null
+}

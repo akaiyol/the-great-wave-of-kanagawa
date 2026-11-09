@@ -1,0 +1,57 @@
+{
+  "id": "S127",
+  "targetPhase": "P127",
+  "family": "shoulder-cage-dependency",
+  "hypothesis": "A boundary-anchored upper-shoulder chart can couple actual outer-fork changes to pointwise hood/counter deformation, beyond frame-only transport.",
+  "policyVersion": "v2",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p118_night_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Localdependencydiagnostic only, allchartvalidity gates beforeprototype/art. No claimbilinearstretching solvesanatomy.",
+  "supportingEvidence": [
+    {
+      "path": "research/woodblock/parent-fork.mjs",
+      "claim": "Namedshouldervertices andlargelyfixedrootshape supply explicit constructioncorrespondence.",
+      "sha256": "8e1bba535b91ecdcd355dadbfa1613db744534fe18d96f17b8fc9ca4145c40a8"
+    },
+    {
+      "path": "research/woodblock/ink-parent.mjs",
+      "claim": "Existingpairedcurves occupy thisupperparentregion.",
+      "sha256": "343035cb463018046bbf65d0c38637671bfa1808f98ebdccbc0b5174b29a3993"
+    },
+    {
+      "path": "research/proposals/P127-shoulder-cage.md",
+      "claim": "Pointwisemapping tiedto changingactualshoulder, notgenericframe.",
+      "sha256": "1d860aed82c8239b87b8a2a81ffd7fbc862c4662015de4542301c88b07513452"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P125.json",
+      "claim": "Sharedparentidentity retainedsameeye glyphs.",
+      "sha256": "52593f612944b7807c9b9034c747142afb1ad54db3c64f0e1122dd0d2fddacd8"
+    },
+    {
+      "path": "research/phases/P126.json",
+      "claim": "Pointwise geometrydependence notHokusai-likeanatomy; actualmappingmustbesupported.",
+      "sha256": "b5538b837df926b692deb5a755aca4e764ee50cf89060bab13ebc91c395ffd94"
+    }
+  ],
+  "unknowns": [
+    "Wholepatchcontainment,inverseuniqueness,targetoutlineandpairvalidity, sourceanatomicalsuitability."
+  ],
+  "prediction": {
+    "ifTrue": "Validchart and rootfixedboundarychanges cause intrinsicpairdeformation.",
+    "ifFalse": "Patch/outlineinvalid or onlyglyphtransport; stopwithoutrescue."
+  },
+  "test": {
+    "action": "Chartgeometrygate first. Ifpass exactlyreference/A/B localdependency+similarityresidual; no waveintegration.",
+    "success": "Scopedcausaldependency andlocalformreview only, notartsolution.",
+    "failure": "Anygeometrygatefailurestops beforeprototype; no target/corneradjustment.",
+    "maxWorkTokens": 6000
+  },
+  "estimatedReviewerTokens": 600,
+  "actualTokens": null
+}

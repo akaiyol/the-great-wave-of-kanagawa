@@ -157,3 +157,15 @@ The worker independently avoided dumping rawpolygon arrays and used runtime comp
 ## L026 — Frame conditioning and pointwise conditioning differ
 
 [P126](phases/P126.json) read Lingdong Huang’s pinned original implementation: barkify uses actual edges to position/orient a separate motif, while texture constructs individualpoints fromcontourrows. The read-only researcher found no P098pair-to-edge correspondence; the independent reviewer retained the distinction but deferred adaptation. Credit Huang for originalmechanisms; no treeappearance/code or source-derivedwaveasset adopted. Daphnie owns the proposed transfer limits. Failure `source.transport-not-anatomy`: root-localpointchanges from transportedglyphs are not sufficient; actual pairedcurve correspondence/deformation must be explicit. No dependencytest or artgain claimed.
+
+## L027 — A valid ornament region is not necessarily a valid material chart
+
+[P127](phases/P127.json) found every markvertex inside a shoulderquad, but its W–X chord crosses sky outside the actualfoam. The independent reviewer confirmed a positive-clearance counterexample; no worker/prototype was dispatched. Daphnie owns the invalidchart proposal. Failure `geometry.virtual-chart-outside-material`: no corneradjustment or weakenedcontainment; another construction needs a changedrepresentation. The audit also found fixed shouldervertices across seededparents, explaining why changingtipseedparameters did not vary the anatomy beneath the curls. This is code-level evidence, not source-image measurement or general failure of boundaryconditioning.
+
+## L028 — A failed support path is a scoped failure
+
+[P128](phases/P128.json) preserves a model-specific J-facing mouth relation while co-generating shoulder/descendantgeometry. Allthree mark/angle checks passed; Q failed the declared frozen P→A radius3 corridor at clearance2.1884. The independent reviewer confirmed strictstop and no artist verdict; this does not prove globalarmdisconnection. No geometry/threshold altered and noSVGgenerated. Daphnie owns the ambiguous X-vector handoff and its clarificationcost; the worker correctly stopped for that decision. Futurediagnosis needs separately reviewed anatomicalsupport evidence, not a retroactivelyrelaxedcriterion.
+
+## L029 — A technical rescue is not an artistic one
+
+[P129](phases/P129.json) proves one fixed edge-derived radius3connection across the unchanged localforms; P128stillfaileditsoriginalcorridor. The fresh evaluator rejected the images as repeatedeye-likeinserts and identified the wholeblankcap as the dominantbottleneck. Credit the independentreviewer for the task-selection pivot and LingdongHuang’s originalpointwisecontour precedent for inspiration, not thisspecificroute. Daphnie owns the isolatedprimitive detour and reviewreserve underallocation. Active lesson `process.local-proof-drift` replaces an automaticallyenforcedstale-brief reminder, archived in the phase. Nextfocus is one whole-view connectedbranchgroup, not anotherlocalparameterproof.

@@ -62,15 +62,6 @@
       "reentryCondition": "Allocate review context explicitly before an independent audit; record estimates/overruns rather than claiming measured5% usage."
     },
     {
-      "id": "logging.stale-brief",
-      "status": "retained",
-      "lesson": "Phase transitions regenerate the startup brief automatically; check rejects stale manual context.",
-      "evidence": [
-        "research/output/agent-phase-2026-11-02/P066b/checks.json"
-      ],
-      "reentryCondition": "Any lifecycle or memory/state change must preserve brief freshness."
-    },
-    {
       "id": "geometry.compact-fork-fusion",
       "status": "retained",
       "lesson": "P067 shorter falling children remain visually cramped despite simple components and no external sibling crossing. Reach reduction alone is insufficient; separate child growth sectors.",
@@ -119,6 +110,16 @@
         "research/output/agent-phase-2026-11-09/P125/visual-review.json"
       ],
       "reentryCondition": "Next construction identifies which observed boundary each feature represents; local annotation is not whole-art acceptance."
+    },
+    {
+      "id": "process.local-proof-drift",
+      "status": "retained",
+      "lesson": "Localcontainment/deformation/supportproofs canpasswhilethewholecrestvisualgap staysunchanged. P129freshreview: parkisolatedprimitive refinement; testoneconnectedbranchgroupintheblankcap atnativewholeview beforebroaderchecks. Technicalreachability isnotprospectiveartvalue.",
+      "evidence": [
+        "research/output/agent-phase-2026-11-09/P129/independent-review.json",
+        "research/output/agent-phase-2026-11-09/P124/candidate-static-1440x960.png"
+      ],
+      "reentryCondition": "A freshreference-led wholeviewreview identifiesaconsequentiallocalblocker andabounded visiblewhole-testprediction; no automaticparameter/cagefollowups."
     }
   ]
 }

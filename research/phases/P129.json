@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "P129",
+  "objective": "Diagnose one fixed anatomical support route on unchanged local cases.",
+  "hypothesis": "One fixed support derived from actual opposing arm boundaries can distinguish route-specific failure from a demonstrated alternative broad connection without changing the failed geometry or width threshold.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "source.boundary-conflation"
+  ],
+  "baseline": "P128Q fixedroutefailed2.1884vs3; otherlocalchecks passed. Originaltrial remainsfailed.",
+  "artifactTarget": "research/woodblock/arm-support-diagnostic.mjs",
+  "plannedTokens": 11000,
+  "family": "boundary-derived-support-diagnostic",
+  "strategyReview": "research/strategies/S129.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No geometry/thresholdchange/pathsearch; all3cases, explicitreach, conditionalartreviewonly, P124retained; final550review.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 10450,
+    "reviewTokens": 550
+  },
+  "startedAt": "2026-11-09T16:39:48.146Z",
+  "result": {
+    "id": "P129",
+    "summary": "Fixedboundary-derivedradius3connectionprovenforall3unchangedlocalcases; P128originalfailedcorridorstillfailed. Freshvisualreviewrejectslocalanatomicalcoherence: repeatedovaleyeinserts. Keeptechnicalrouteproofonly, preserveP124scene.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-09/P129/summary.json",
+      "research/output/agent-phase-2026-11-09/P129/receipt.json",
+      "research/output/agent-phase-2026-11-09/P129/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P129/local-parents.png"
+    ],
+    "nextAction": "Parkisolatedprimitive/tuning. Freshstrategyreviewforonewholeviewconnectedunequalcapbranchgroup/bodyconnectedrecesses, no newrendererbydefault.",
+    "estimatedWorkTokens": 6100
+  },
+  "review": {
+    "id": "P129",
+    "findings": [
+      "Alternativeanatomicalroute passesunchangedwidth/geometry/reachguards; do notretrospectivelyturnP128intopassorclaimglobalminimumwidth. Freshartreviewstillrejectslocalcoherence.",
+      "Freshwholeviewmilestone identifiesprocessdrift towardisolatedproofswhileblankcapdominates. Daphnieownstaskselection; nextARTquestionmustbevisibleinwholecomposition.",
+      "Estimated6100work includes500strategy,1600worker,2000freshartifactreview,2000lead/check/capture/records. Reviewestimated850(500freshprocess+350lead) exceeds550plannedreserve300, completedusingunusedphaseheadroom; noartifactworkinreview. Telemetrynull, noefficiencyclaim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "PreservescopedrouteproofandP124scene, notnewlocalfamilyart.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P129/summary.json",
+          "research/output/agent-phase-2026-11-09/P129/independent-review.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Startupmemorynowprioritizeswholeviewbottleneck; archiveautomaticallyenforcedstale-briefreminderinthisphasehistory, keep12lessons.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-09/P129/independent-review.json",
+          "research/agent-memory.json"
+        ]
+      }
+    ],
+    "archivedLessons": [
+      {
+        "id": "logging.stale-brief",
+        "status": "retained",
+        "lesson": "Phase transitions regenerate the startup brief automatically; check rejects stale manual context.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-02/P066b/checks.json"
+        ],
+        "reentryCondition": "Any lifecycle or memory/state change must preserve brief freshness."
+      }
+    ],
+    "nextImprovement": "Oneboundedwholecapbranchgrouptestwithfreshsource-ledpreflight; useobservedreviewstartupinbudgetratherthanmoreisolatedanatomymetrics.",
+    "estimatedReviewTokens": 850
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 6100,
+    "estimatedReviewTokens": 850,
+    "estimatedTotalTokens": 6950,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 300,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-09T16:52:46.335Z",
+  "closedAt": "2026-11-09T16:52:46.369Z"
+}
