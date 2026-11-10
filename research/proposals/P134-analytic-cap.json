@@ -1,0 +1,86 @@
+{
+  "phase": "P134",
+  "family": "analytic-separated-cap-hooks",
+  "baseline": "P124 only",
+  "changedPremise": "Replace independently prescribed doubled-back cubic controls with two ordered annular-sector rails, separated shoulders and a round end cap. Local embedding is a positive affine map; global shared profile and partition still require checks. No general guarantee for assembled scene.",
+  "construction": {
+    "localStartAngle": "pi",
+    "localEndAngle": "5*pi/2",
+    "railRadii": "R+w/2 outer, R-w/2 inner; R>w>0",
+    "orderedLocalBoundary": [
+      "outer root[-R-w/2,L]",
+      "outer rail start[-R-w/2,0]",
+      "outer arc(theta)=(R+w/2)[cos(theta),sin(theta)] withtheta pi..5pi/2",
+      "end cap [0,R]+(w/2)[cos(phi),sin(phi)] phi pi/2..3pi/2",
+      "inner arc(theta)=(R-w/2)[cos(theta),sin(theta)] theta5pi/2..pi",
+      "inner root[-R+w/2,L]"
+    ],
+    "embedding": "world=c+Rot(angleDegrees)*diag(sx,sy)*local. All scales positive. No smoothing.",
+    "sampling": {
+      "arcs": 192,
+      "endCap": 32,
+      "shoulderLines": 1
+    },
+    "parameters": [
+      {
+        "name": "lower-left",
+        "c": [
+          330,
+          179
+        ],
+        "R": 13,
+        "w": 8,
+        "L": 30,
+        "sx": 1,
+        "sy": 0.85,
+        "angleDegrees": 10
+      },
+      {
+        "name": "dominant",
+        "c": [
+          411,
+          145
+        ],
+        "R": 24,
+        "w": 12,
+        "L": 58,
+        "sx": 1.2,
+        "sy": 0.8,
+        "angleDegrees": 20
+      },
+      {
+        "name": "shoulder-return",
+        "c": [
+          467,
+          179
+        ],
+        "R": 12,
+        "w": 9,
+        "L": 14,
+        "sx": 0.9,
+        "sy": 0.8,
+        "angleDegrees": 25
+      }
+    ],
+    "assemblyLeftToRight": [
+      "start[275,215]",
+      "lower-left complete boundary",
+      "deep ivory separator toe[343,211]",
+      "dominant complete boundary",
+      "shallower ivory toe[434,190]",
+      "shoulder-return complete boundary",
+      "end[499.09302928219745,232.8450269853508]"
+    ],
+    "assemblyLinks": "Straight segments only between each listed item; reverse combined profile into exactP124 seam interval end(index480) through start[275,215]. No extra points or implicit closure on open profile."
+  },
+  "sourceRelationship": "Canonical crest has body-connected blue rises and open ivory hooked separations. This model tests one dominant rise with smaller adjacent returns, not source-measured landmarks, traced contours or a claim of complete hierarchy.",
+  "frozen": "waterbase,outer,children,P124 marks,bands,foreground,clouds. Only shared seam interval and derived Fsheet change. ExactP124 restoration by removing newtag and replacing2 Fsheet paths.",
+  "checks": "Finite; openprofile/closedFsheet/complementmainblue simple rawand3decimal includingnonadjacentcontacts; profileinsidewaterbase; partitionarearesidual<=1e-6; frozenidentity/determinism/exactrestoration. Firstfailure stops, no repair or secondcandidate.",
+  "visualGate": "If valid, whole1440x960 static comparison withP124/canonical. Reject repeatedC/eye glyphs, comb, longslots, detachedteeth or weak upwardflow. Scopegeometrychecks distinctfromindependentvisualreview/useracceptance. No exact pixel-locality gate, no revisionP131.",
+  "budget": {
+    "plannedTokens": 14000,
+    "maxWorkTokens": 11000,
+    "reviewReserve": 700
+  },
+  "stop": "One whole-cap candidate; no isolated primitive study, controltuning, smoothing, extra texture or density rescue. P124 retained unless complete scopedgates pass."
+}

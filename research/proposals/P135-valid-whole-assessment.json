@@ -1,0 +1,13 @@
+{
+  "phase": "P135",
+  "scope": "Assess unchanged valid P131 whole view once under source identity, partition and artistic comparison; no construction or renderer work.",
+  "allowedClaim": "At most an independently reviewed regional improvement over P124 for this fixed repaired assembly under this newly declared scope. No wholeart, seedvariety/browser/useracceptance/generalquality claim.",
+  "required": [
+    "ExistingP131 summary all scoped geometry checks pass.",
+    "Unchanged existing SVG/capture bound by hashes; sourcecode reproduces SVG.",
+    "Canonical/P124/P131 whole-view comparison: clear broadfinger/connectedfoam interlock gain, surroundingcomposition preserved, no conspicuouspegs/slots/glyphs."
+  ],
+  "oldFailure": "P131 exact raster-locality gate remains failed and unexplained; P132 repetition does not excuse it. This assessment is not a retrospective P131 pass.",
+  "falsifier": "No clear visible improvement means reject and preserve P124; similarity to P130 or validity alone fails.",
+  "stop": "One assessment only; no source edits/repair/capture/localityinvestigation/tuning."
+}

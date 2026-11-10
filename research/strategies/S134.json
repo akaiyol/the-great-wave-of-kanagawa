@@ -1,0 +1,63 @@
+{
+  "id": "S134",
+  "targetPhase": "P134",
+  "family": "analytic-separated-cap-hooks",
+  "hypothesis": "Ordered analytic rails with unequal turn sweeps and one shared radial shoulder can form a valid body-connected cap hierarchy without unconstrained doubled-back return crossings.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p129_fresh_review"
+  },
+  "recommendation": "continue",
+  "reason": "Onlyv2: thirdindependenthookremoved, shoulder sharesdominantouterrail/innerrail/root; unequal180/270turns; oneimmutablecandidate.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P134-analytic-cap-v2.json",
+      "claim": "Explicit analytic separation premise and sharedshoulderconnection.",
+      "sha256": "c156be0966abc07380713a0be9b1879954110e4a2b421e8c66aeb07cc87285fc"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-10/P133/independent-review.json",
+      "claim": "Changedreturnseparation is required, testdirectlywholecap.",
+      "sha256": "5a3f6efda0cdece4498d44d8ad2a63874c618a8eee15503d50e560584a319fb2"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/proposals/P134-analytic-cap.json",
+      "claim": "Original repeatedthreehookassembly deferred; differentradii/poses insufficient.",
+      "sha256": "500a938a8bf5a16cafffcbd2b569f84eced7b482b59920ccf82d05f23cdec420"
+    },
+    {
+      "path": "research/phases/P133.json",
+      "claim": "Explicit recipes may fail before visualtesting; namedhierarchy isnotproof.",
+      "sha256": "74ffcd686531733be05b3784841e320d067fc2f9cbfdb6ebfbfcca3ea23d646b"
+    }
+  ],
+  "unknowns": [
+    "Globalassembly and serializedsimplicity; genericCs/eyes/slots and actualwholeview hierarchy."
+  ],
+  "prediction": {
+    "ifTrue": "Dominantbodyconnectedrise andattachedshoulder readasone structure beside a smaller unequalreturn, separatedbycapconnectedivory.",
+    "ifFalse": "Integrityfailure or repeatedCs/eyes/teeth/slots/absentupwardhierarchy."
+  },
+  "test": {
+    "action": "Implementimmutablev2fromP124; firstintegrityfailurestop; ifvalid one1440nativewholeview comparison and independentreview.",
+    "success": "Allscopedchecks and independently retained visiblegain; no wholeart/useracceptance claim.",
+    "failure": "No thirdproposal, repair, smoothing, parameter/visualtuning, density/texture rescue or separateprimitive study.",
+    "maxWorkTokens": 11000
+  },
+  "changedPremise": {
+    "summary": "Orderedinner/outerrails withpositiveaffinemap andradialshoulder replaceuncontrolledmanualreturns; fullassemblynotguaranteed.",
+    "evidence": [
+      {
+        "path": "research/proposals/P134-analytic-cap-v2.json",
+        "sha256": "c156be0966abc07380713a0be9b1879954110e4a2b421e8c66aeb07cc87285fc"
+      },
+      {
+        "path": "research/output/agent-phase-2026-11-10/P133/summary.json",
+        "sha256": "bf8be73cdf65ed87a22a1e8e44fe178fa597ab7a2d520adb6d6cde96235a0ac2"
+      }
+    ]
+  },
+  "estimatedReviewerTokens": 800
+}

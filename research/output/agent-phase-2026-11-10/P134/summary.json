@@ -1,0 +1,45 @@
+{
+  "phase": "P134",
+  "policyVersion": "v2",
+  "pass": true,
+  "checks": {
+    "finite": {
+      "pass": true
+    },
+    "profile.raw": {
+      "pass": true
+    },
+    "profile.serialized": {
+      "pass": true
+    },
+    "Fsheet.raw": {
+      "pass": true
+    },
+    "Fsheet.serialized": {
+      "pass": true
+    },
+    "mainBlue.raw": {
+      "pass": true
+    },
+    "mainBlue.serialized": {
+      "pass": true
+    },
+    "profileInsideBody": {
+      "pass": true
+    },
+    "partition": {
+      "pass": true,
+      "residual": 2.9103830456733704e-10
+    },
+    "frozenIdentity": {
+      "pass": true
+    },
+    "exactRestoration": {
+      "pass": true
+    },
+    "deterministic": {
+      "pass": true
+    }
+  },
+  "stoppedAt": null
+}

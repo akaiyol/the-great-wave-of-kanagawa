@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/p135_valid_whole_review",
+  "policyVersion": "v2",
+  "strategyVersion": 1,
+  "artisticVerdict": "fail",
+  "findings": [
+    "Native1440x960 P131 adds two conspicuous darkstalks/roundedheads/narrowpaleslots; no clearregionalbroadwaterfinger/branchingfoaminterlockgain overP124.",
+    "Surroundingsilhouette/bands/clouds appearpreserved. Canonical/P124/P131imagehashes match receipt. Source/geometry are receipt-backed, not independentlyrerun.",
+    "OriginalP131rasterlocalityfailure remainsfailed/unexplained. No repair/recapture orvalidity-based promotion."
+  ],
+  "nextDecision": "RetainP124; close existingassemblyassessment. Newphase needs materiallychangedanatomicalpremise withwholeviewprediction.",
+  "processVerdict": "retain bounded assessment, not artwork",
+  "estimatedArtifactTokens": 900,
+  "estimatedProcessTokens": 120,
+  "unestablished": [
+    "whole-art recognition",
+    "material style",
+    "variety",
+    "browser behavior",
+    "user acceptance"
+  ]
+}

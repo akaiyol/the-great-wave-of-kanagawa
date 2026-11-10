@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "P135",
+  "objective": "Resolve the missing valid whole-view verdict for the unchanged repaired assembly.",
+  "hypothesis": "The unchanged geometrically valid P131 assembly may provide a clear regional broad-finger/foam interlock gain over P124 under a newly declared source-identity and whole-view scope, while its original raster-locality failure remains unchanged.",
+  "failureIds": [
+    "evaluation.scope-inflation",
+    "process.local-proof-drift"
+  ],
+  "baseline": "P124 retained; P131 oldlocalityfailureunchanged, validartifactnotyetindependentlyassessed.",
+  "artifactTarget": "research/output/agent-phase-2026-11-10/P135/independent-review.json",
+  "plannedTokens": 6000,
+  "family": "existing-valid-whole-assessment",
+  "strategyReview": "research/strategies/S135.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "No newconstruction/capture; explicitnewscopeandoldfailure, onecomparisonnorescue, final300processreserve; no efficiencyclaim.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 5700,
+    "reviewTokens": 300
+  },
+  "startedAt": "2026-11-10T10:06:10.756Z",
+  "result": {
+    "id": "P135",
+    "summary": "Fresh independent whole-view comparison rejects existing valid P131: dark stalks, rounded heads and pale slots do not provide clear regional broad-finger/foam interlock gain. P124 retained; old P131 locality failure remains unchanged.",
+    "artifactDelivered": true,
+    "technicalVerdict": "not_applicable",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-10/P135/assessment-receipt.json",
+      "research/output/agent-phase-2026-11-10/P135/independent-review.json",
+      "research/output/agent-phase-2026-11-09/P131/candidate-static-1440x960.png"
+    ],
+    "nextAction": "Close P131 assembly assessment permanently absent materially changed anatomy. No more validity-based promotion, recapture or repair. Next source-backed whole-cap hypothesis must change broad water/foam relationship.",
+    "estimatedWorkTokens": 3200
+  },
+  "review": {
+    "id": "P135",
+    "findings": [
+      "A fresh evaluator resolved the missing validwholeviewjudgment using existingassets and verifiedimagehashes; didnotaccept technicalvalidity asquality. OldP131failureunchanged.",
+      "No artisticgain retained inP134/P135. Lead owns selecting repeatednarrowstalk/loop representations; whole-cap breadth andattachedfoam remainunmet. Do not spendmore on thisassembly ornewribbon variants.",
+      "Work estimated3200 includes300strategy,900freshartifactreview and2000leadstartup/scope/identity/records. Review350 includes120peer230lead; plannedreserve300 exceeded50 withphaseheadroom. Actualtelemetryunavailable, noefficiencyclaim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Explicit finalrejection andunchangedP124; missingregionalassessmentclosed.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-10/P135/independent-review.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "No further P131 promotion attempts, recapture, nearbyrepair or validity-based defense.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-10/P135/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Require changed source-backed broad-water/attached-foam anatomy and one visible whole-view prediction before any next implementation.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 3200,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 3550,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 50,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-10T10:07:41.584Z",
+  "closedAt": "2026-11-10T10:07:41.614Z"
+}

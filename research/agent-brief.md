@@ -5,23 +5,23 @@ Policy v2. Phase records are authoritative; review is required before advancing.
 Goal ART (equal): Procedural Great Wave ocean. Outstanding criteria: A1 (unmet), A2 (partial), A3 (unmet), A4 (partial).
 Goal SYSTEM (equal): Efficient evaluated agentic development. Outstanding criteria: S1 (partial), S2 (unmet), S3 (partial), S4 (partial).
 
-Current phase: P133 (closed).
-Record: research/phases/P133.json
-Objective: Test one connected hierarchical crest-cap boundary at whole view.
-Hypothesis: A shared boundary with two primary rising water fingers and a subordinate shoulder return, separated by unequal cap-connected ivory toes, can structure the blank cap as one hierarchy rather than independent heads.
-Baseline: P124 retained; P130/P131 unpromoted and unchanged.
-Artifact: research/woodblock/cap-separator.mjs
-Budget: 13300 work / 700 review tokens (planned; usage estimated).
-Strategy: research/strategies/S133.json (family: hierarchical-cap-separator).
+Current phase: P135 (closed).
+Record: research/phases/P135.json
+Objective: Resolve the missing valid whole-view verdict for the unchanged repaired assembly.
+Hypothesis: The unchanged geometrically valid P131 assembly may provide a clear regional broad-finger/foam interlock gain over P124 under a newly declared source-identity and whole-view scope, while its original raster-locality failure remains unchanged.
+Baseline: P124 retained; P131 oldlocalityfailureunchanged, validartifactnotyetindependentlyassessed.
+Artifact: research/output/agent-phase-2026-11-10/P135/independent-review.json
+Budget: 5700 work / 300 review tokens (planned; usage estimated).
+Strategy: research/strategies/S135.json (family: existing-valid-whole-assessment).
 Artifact delivered: true.
-Result: Immutable cap hierarchy recipe failed the first raw profile gate: lower-left return self-crosses. Lead independently confirmed crossing. No SVG/HTML/render or later-check verdict; P124 retained.
-Verdicts: technical fail; artistic incomplete.
-Next action: Retire unconstrained doubled-back recipe family. A changed separation representation and specified whole-cap connection require independent review before another candidate.
-Decision (retain): Failed construction evidence, unchanged P124 and explicit unrun-check scope.
-Decision (drop): Retire unconstrained doubled-back control recipes; retry requires changed separation premise.
-Next improvement: Specify analytically separated hooked returns and their cap connections before independent preflight; do not start another isolated primitive study.
+Result: Fresh independent whole-view comparison rejects existing valid P131: dark stalks, rounded heads and pale slots do not provide clear regional broad-finger/foam interlock gain. P124 retained; old P131 locality failure remains unchanged.
+Verdicts: technical not_applicable; artistic fail.
+Next action: Close P131 assembly assessment permanently absent materially changed anatomy. No more validity-based promotion, recapture or repair. Next source-backed whole-cap hypothesis must change broad water/foam relationship.
+Decision (retain): Explicit finalrejection andunchangedP124; missingregionalassessmentclosed.
+Decision (drop): No further P131 promotion attempts, recapture, nearbyrepair or validity-based defense.
+Next improvement: Require changed source-backed broad-water/attached-foam anatomy and one visible whole-view prediction before any next implementation.
 State retainedCandidate: P099water/P098localparent +P110WFS/P116forkhierarchy +P124seed721child0 pairedcontour articulation. Blankcap/sparsehierarchy andwholeart/browser/variety unmet.
-State checkpointReason: P133 first rawprofile gate failed at lowerleftreturn; no candidate/render or laterchecks. Lead owns invalidrecipe. Changed separation representation required.
+State checkpointReason: P134 technicalpass/artfail; P135freshwholeview rejects P131regionalgain. No artworkpromoted; retainedP124 and bothgoalsstillunmet.
 Run authorization: Owner2026-11-07: automatic useful work daily00:00–08:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:

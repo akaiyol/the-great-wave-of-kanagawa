@@ -1,0 +1,50 @@
+{
+  "id": "S135",
+  "targetPhase": "P135",
+  "family": "existing-valid-whole-assessment",
+  "hypothesis": "The unchanged geometrically valid P131 assembly may provide a clear regional broad-finger/foam interlock gain over P124 under a newly declared source-identity and whole-view scope, while its original raster-locality failure remains unchanged.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p129_fresh_review"
+  },
+  "recommendation": "continue",
+  "reason": "Resolve the missing validwholeviewverdict once; no new construction or rendererwork, narrowprospectiveclaim only.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P131/summary.json",
+      "claim": "Fixedassemblypassed scopedpartition/sourceidentitychecks.",
+      "sha256": "c970bdb582a1a14bcb84e1514ee608acfc9f6c169cd4fa70384f242533e004fb"
+    },
+    {
+      "path": "research/proposals/P135-valid-whole-assessment.json",
+      "claim": "Prospective scope separates unchangedoldfailure from newregionalartjudgment.",
+      "sha256": "964c2600d2b2cfef27e90a9eca45aadb226aa85ca039ca2472fa07dc9b7e8c30"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-09/P131/render-receipt.json",
+      "claim": "Mandatoryoldpixellocalityfailed; notexplained/excused.",
+      "sha256": "e1e3944e1fc87e1d4c1bae9132ce47a38900ba9876e8bc54cf5255f92b359cc4"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-09/P130/independent-review.json",
+      "claim": "Onlydirectionalpromise, peg-likecentralreturnpossible.",
+      "sha256": "9338a0ebf86f759e1e792b8311825735bcdb0b664387a90227287f969cf65530"
+    }
+  ],
+  "unknowns": [
+    "Clearregionalgain andabsenceofconspicuouspegs/slots/glyphs inexistingvalidcapture."
+  ],
+  "prediction": {
+    "ifTrue": "Visiblebroadfinger/foaminterlockgain overP124 withpreservedcomposition.",
+    "ifFalse": "No cleargain, peg/slot/glyphanatomy or lostinterlock; reject."
+  },
+  "test": {
+    "action": "One independentcanonical/P124/P131nativewholeviewcomparison usingexistingcaptures, frozen source/capturehashreceipt.",
+    "success": "Scopedregionalartgain independentlyretainedwitholdfailureexplicit.",
+    "failure": "No newgeometry/rendererwork/localityinvestigation/tuning; P124retained ifnotclear.",
+    "maxWorkTokens": 4500
+  },
+  "estimatedReviewerTokens": 300
+}

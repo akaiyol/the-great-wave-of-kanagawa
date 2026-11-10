@@ -83,11 +83,13 @@
     {
       "id": "geometry.secondary-prongs",
       "status": "retained",
-      "lesson": "P080 convex-side secondary lobes on unchanged sparse child shafts create small prongs and doubled hooks, not a convincing foam hierarchy. Stop after the first native failure; no nearby twig parameter tuning.",
+      "lesson": "P080 convex-side secondary lobes on unchanged sparse child shafts create small prongs and doubled hooks, not a convincing foam hierarchy. Stop after the first native failure; no nearby twig parameter tuning. P134 analytic separated rails formed valid material faces but native wholeview read as narrow stalks and loop glyphs; local simplicity does not establish broad water-finger/attached-foam anatomy. P135 fresh wholeview also rejects validP131 as dark rounded stalks and slots, closing its missing regional assessment; validity cannot substitute for visible broad-finger/foam gain.",
       "evidence": [
-        "research/output/procedural-wave-2026-10-30/P080/receipt.json"
+        "research/output/procedural-wave-2026-10-30/P080/receipt.json",
+        "research/output/agent-phase-2026-11-10/P134/independent-review.json",
+        "research/output/agent-phase-2026-11-10/P135/independent-review.json"
       ],
-      "reentryCondition": "Replace the supported cluster silhouette and water coves together rather than appending lobes to unchanged shafts."
+      "reentryCondition": "Replace the supported cluster silhouette and water coves together rather than appending lobes to unchanged shafts. For the P134 assembly, require a materially different broad-water/connected-foam relationship; no radius/pose/density rescue."
     },
     {
       "id": "source.boundary-conflation",

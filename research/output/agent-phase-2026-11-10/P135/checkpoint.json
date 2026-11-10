@@ -1,0 +1,29 @@
+{
+  "automatic": true,
+  "checkedAt": "2026-11-10T10:08:03Z",
+  "torontoLocal": "2026-11-10 05:08",
+  "anotherRunObserved": false,
+  "activeStateBasis": "Current chat is sole active wave chat in inventory; only assigned child and no enforced lock claim.",
+  "ordinaryUsageAllowed": true,
+  "primary": {
+    "usedPercent": 26,
+    "windowDurationMins": 300,
+    "resetsAt": 1794319428
+  },
+  "weekly": {
+    "usedPercent": 89,
+    "windowDurationMins": 10080,
+    "resetsAt": 1794582020
+  },
+  "phase": "P135",
+  "phaseStatus": "closed",
+  "retained": "P124",
+  "newArtworkPromoted": false,
+  "completed": [
+    "P134 tested analytic partition, rejected appearance",
+    "P135 rejected existing valid P131 wholeview"
+  ],
+  "next": "Materially changed broad-water/connected-foam premise before independently reviewed construction.",
+  "schedule": "Nightly primary retained; no reset retry needed.",
+  "publication": "Checkpoint content; verify current git HEAD against origin/main separately."
+}

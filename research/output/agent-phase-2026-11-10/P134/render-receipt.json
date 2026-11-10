@@ -1,0 +1,31 @@
+{
+  "phase": "P134",
+  "renderer": "QuickLook static SVG",
+  "browserVerified": false,
+  "DPR": null,
+  "thumbnailSize": [
+    1440,
+    1440
+  ],
+  "crop": [
+    0,
+    240,
+    1440,
+    1200
+  ],
+  "outputSize": [
+    1440,
+    960
+  ],
+  "referenceUnmodified": true,
+  "testedSeed": 721,
+  "hashes": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/proposals/P134-analytic-cap-v2.json": "c156be0966abc07380713a0be9b1879954110e4a2b421e8c66aeb07cc87285fc",
+    "research/woodblock/analytic-cap.mjs": "aaea78827815eb5866f02b6b6bb347da49ec160c8a748ab2c44943ae3de11534",
+    "research/woodblock/analytic-cap-check.mjs": "ef1b3268363e8c3890a442f9dc9131e03a3736bdd8f32dce390e04d29e54767d",
+    "research/output/agent-phase-2026-11-10/P134/candidate.svg": "9cc1bf56255ec833a2f9292078a59f47489a949eae9ef76a6371c33640a746c1",
+    "research/output/agent-phase-2026-11-10/P134/candidate-static-1440x960.png": "df9288e0e22d27be6f0fffb126688cefa70351609f9faf99202338b365856263",
+    "research/output/agent-phase-2026-11-10/P134/summary.json": "d077fdc549c623df7fa371490d2ea612a11e07da21ea61d8df7cdde6355b25e0"
+  }
+}

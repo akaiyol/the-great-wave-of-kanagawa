@@ -1,0 +1,85 @@
+{
+  "phase": "P134",
+  "family": "analytic-separated-cap-hooks",
+  "baseline": "P124 only",
+  "changedPremise": "Replace independently prescribed doubled-back cubic controls with two ordered annular-sector rails, separated shoulders and a round end cap. Local embedding is a positive affine map; global shared profile and partition still require checks. No general guarantee for assembled scene.",
+  "construction": {
+    "localStartAngle": "pi",
+    "localEndAngle": "pi+sweepDegrees*pi/180",
+    "railRadii": "R+w/2 outer, R-w/2 inner; R>w>0",
+    "orderedLocalBoundary": [
+      "outer root[-R-w/2,L]",
+      "outer rail start[-R-w/2,0]",
+      "outer arc(theta)=(R+w/2+bump(theta))[cos(theta),sin(theta)] theta pi..thetaEnd",
+      "end cap E=R[cos(thetaEnd),sin(thetaEnd)]+(w/2)[cos(phi),sin(phi)] phi thetaEnd..thetaEnd+pi; forward tangent hemisphere",
+      "inner arc(theta)=(R-w/2)[cos(theta),sin(theta)] thetaEnd..pi",
+      "inner root[-R+w/2,L]"
+    ],
+    "embedding": "world=c+Rot(angleDegrees)*diag(sx,sy)*local. All scales positive. No smoothing.",
+    "sampling": {
+      "arcs": 192,
+      "endCap": 32,
+      "shoulderLines": 1,
+      "bumpInterval": "Insert thetaStart/thetaEnd explicitly into sorted outertheta samples; sample at least48intervals within bump interval. Do not re-smooth."
+    },
+    "parameters": [
+      {
+        "name": "lower-left",
+        "c": [
+          330,
+          179
+        ],
+        "R": 13,
+        "w": 8,
+        "L": 30,
+        "sx": 1,
+        "sy": 0.85,
+        "angleDegrees": 10,
+        "sweepDegrees": 180,
+        "shoulderBump": null
+      },
+      {
+        "name": "dominant",
+        "c": [
+          411,
+          145
+        ],
+        "R": 24,
+        "w": 12,
+        "L": 58,
+        "sx": 1.2,
+        "sy": 0.8,
+        "angleDegrees": 20,
+        "sweepDegrees": 270,
+        "shoulderBump": {
+          "thetaStart": "1.8*pi",
+          "thetaEnd": "2.1*pi",
+          "amplitude": 12,
+          "formula": "A*sin(pi*t)^2 on t=(theta-thetaStart)/(thetaEnd-thetaStart) in[0,1], zero outside. Same outerrail/root/innerrail: no second stem or detached hook."
+        }
+      }
+    ],
+    "assemblyLeftToRight": [
+      "start[275,215]",
+      "lower-left complete180degree boundary",
+      "deep ivory separator toe[343,211]",
+      "dominant complete270degree boundary WITHradialshoulder",
+      "shallower ivory toe[434,190]",
+      "end[499.09302928219745,232.8450269853508]"
+    ],
+    "assemblyLinks": "Straight segments only between each listed item; reverse combined profile into exactP124 seam interval end(index480) through start[275,215]. No extra points or implicit closure on open profile."
+  },
+  "sourceRelationship": "Test two unequal body-connected rises with unequal cap-connected ivory separators. Lowerleft has180degree turn, dominant270degree turn and one shared radialshoulder. This is a construction hypothesis, not source-measured landmark anatomy or an accepted source likeness.",
+  "frozen": "waterbase,outer,children,P124 marks,bands,foreground,clouds. Only shared seam interval and derived Fsheet change. ExactP124 restoration by removing newtag and replacing2 Fsheet paths.",
+  "checks": "Finite; openprofile/closedFsheet/complementmainblue simple rawand3decimal includingnonadjacentcontacts; profileinsidewaterbase; partitionarearesidual<=1e-6; frozenidentity/determinism/exactrestoration. Firstfailure stops, no repair or secondcandidate.",
+  "visualGate": "If valid, whole1440x960 static comparison withP124/canonical. Reject repeatedC/eye glyphs, comb, longslots, detachedteeth or weak upwardflow. Scopegeometrychecks distinctfromindependentvisualreview/useracceptance. No exact pixel-locality gate, no revisionP131.",
+  "budget": {
+    "plannedTokens": 14000,
+    "maxWorkTokens": 11000,
+    "reviewReserve": 700
+  },
+  "stop": "One firstwholecandidate, no tuning/repair/secondcandidate. A second deferred preflight ends this proposal attempt; no worker without approval.",
+  "revision": "v2 single shared shoulder; original assembly deferred, retained as evidence",
+  "deferredAssembly": "research/proposals/P134-analytic-cap.json",
+  "shoulderConnection": "Subordinate shoulder is a radial enlargement of the dominant outerrail, sharing its existing innerrail and single root. It is not a third complete hook. Strict angular order and rOuter>=Ro>Ri preserve local rail separation. Global assembly remains unproved."
+}

@@ -1,0 +1,24 @@
+{
+  "phase": "P135",
+  "usesExistingCapture": true,
+  "newCapture": false,
+  "newGeometry": false,
+  "currentSourceReproducesSVG": true,
+  "renderer": "Archived QuickLook static SVG1440/crop0,240,1440,1200",
+  "DPR": null,
+  "browserVerified": false,
+  "geometryChecks": "Reusing unchanged P131 scoped pass; no new geometry-check claim",
+  "oldLocalityGate": "Failed and unexplained, unchanged",
+  "testedSeed": 721,
+  "hashes": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/crest-junction-repair.mjs": "dd0cecfd6ae1644c6c3f13e0fc72b638051cf336131fe8d6024a385cde1f349c",
+    "research/woodblock/crest-junction-repair-check.mjs": "71d781cbb5076325dd7ef08c95781e33b0b2cac2c748a0a45f030069d5a4799a",
+    "research/output/agent-phase-2026-11-09/P131/candidate.svg": "f5f0bb2db12aaf5238ecbb48b6bafaece1be4301fa722647c9a082c30795410b",
+    "research/output/agent-phase-2026-11-09/P131/candidate-static-1440x960.png": "3d48e13d2cb3f61581c645ee035efb807a333c2da6eed26f9116a9e7fbd13ebb",
+    "research/output/agent-phase-2026-11-09/P131/summary.json": "c970bdb582a1a14bcb84e1514ee608acfc9f6c169cd4fa70384f242533e004fb",
+    "research/output/agent-phase-2026-11-09/P131/render-receipt.json": "e1e3944e1fc87e1d4c1bae9132ce47a38900ba9876e8bc54cf5255f92b359cc4",
+    "research/output/agent-phase-2026-11-09/P132/calibration.json": "ff2d0bcf90370c5ab6dcb23902427e8d69054ac2469a6ba36b303c77c8665008",
+    "research/output/agent-phase-2026-11-09/P124/candidate-static-1440x960.png": "fc5b4e4ce441336da8bb405c35be1be684a5b4e86dacf32dc1ac56a0306e4c44"
+  }
+}

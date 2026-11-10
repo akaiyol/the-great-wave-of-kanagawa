@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "P134",
+  "objective": "Test separated analytic returns and a shared shoulder in one whole-cap construction.",
+  "hypothesis": "Ordered analytic rails with unequal turn sweeps and one shared radial shoulder can form a valid body-connected cap hierarchy without unconstrained doubled-back return crossings.",
+  "failureIds": [
+    "geometry.uncontrolled-hook-return",
+    "process.local-proof-drift",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P124 retained only; originalthreehookP134proposal deferred and preserved.",
+  "artifactTarget": "research/woodblock/analytic-cap.mjs",
+  "plannedTokens": 14000,
+  "family": "analytic-separated-cap-hooks",
+  "strategyReview": "research/strategies/S134.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One changedseparationpremise/no isolatedprimitive, immutablev2/norescue, sourcegoalunchanged, review700. Include allprework and review; noefficiencyclaimfromtests.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 13300,
+    "reviewTokens": 700
+  },
+  "startedAt": "2026-11-10T10:02:40.432Z",
+  "result": {
+    "id": "P134",
+    "summary": "Analytic rails pass all scoped raw/serialized partition checks; native independent review rejects stalk-and-loop appearance and isolated glyphs. Retain technical mechanism only; P124 remains artwork baseline.",
+    "artifactDelivered": true,
+    "technicalVerdict": "pass",
+    "artisticVerdict": "fail",
+    "evidence": [
+      "research/output/agent-phase-2026-11-10/P134/summary.json",
+      "research/output/agent-phase-2026-11-10/P134/render-receipt.json",
+      "research/output/agent-phase-2026-11-10/P134/independent-review.json",
+      "research/output/agent-phase-2026-11-10/P134/candidate-static-1440x960.png"
+    ],
+    "nextAction": "Park stalk-and-loop assembly. New construction requires a materially different broad-water/connected-foam relationship, not nearby tuning.",
+    "estimatedWorkTokens": 9400
+  },
+  "review": {
+    "id": "P134",
+    "findings": [
+      "Changed separation representation avoided crossings in this tested assembly but failed visual anatomy. Lead owns narrow stalk/loop recipe; worker faithfully built it. No repaired candidate or artistic promotion.",
+      "First preflight deferred three independent hooks; one narrowed revision supplied a shared shoulder. Count both proposals and reviews, not only worker implementation.",
+      "Estimated9400work includes3000worker,800strategy,400artifactreview and5200leadstartup/design/capture/check/records. Review700 includes100peer600lead. Actualtelemetryunavailable; technical success is not measured overall efficiency."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Only tested analytic separation mechanism and partition evidence.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-10/P134/summary.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Reject stalk-and-loop artwork; no local tuning/density/primitive detour.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-10/P134/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Separate broad material fingers and attached foam anatomy from mathematically simple ribbon curls before another artistic construction.",
+    "estimatedReviewTokens": 700
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 9400,
+    "estimatedReviewTokens": 700,
+    "estimatedTotalTokens": 10100,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-10T10:04:58.797Z",
+  "closedAt": "2026-11-10T10:04:58.823Z"
+}
