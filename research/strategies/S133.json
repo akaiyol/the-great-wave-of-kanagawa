@@ -1,0 +1,45 @@
+{
+  "id": "S133",
+  "targetPhase": "P133",
+  "family": "hierarchical-cap-separator",
+  "hypothesis": "A shared boundary with two primary rising water fingers and a subordinate shoulder return, separated by unequal cap-connected ivory toes, can structure the blank cap as one hierarchy rather than independent heads.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p129_fresh_review"
+  },
+  "recommendation": "continue",
+  "reason": "Exact ordered recipe specifies a deep cap-connected toe, dominant stem and subordinate shoulder return; one immutable test only.",
+  "supportingEvidence": [
+    {
+      "path": "research/proposals/P133-cap-separator.json",
+      "claim": "Explicit executable shared boundary and wholecapcoverage.",
+      "sha256": "3361caabbd0fb2bfd40fcb9b35e348fc17d217b01d22976cd94c753c2ac0c217"
+    },
+    {
+      "path": "research/output/agent-phase-2026-11-09/P132/independent-review.json",
+      "claim": "Connected foam hierarchy is next source-backed wholeview priority.",
+      "sha256": "d87b6497190b246d9ef92bb6d3f9830ec1bd8ea9f9406701b17b3ee77199a7ea"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P130.json",
+      "claim": "Hooked profiles can self-intersect, remain peg-like and leave blankcap unresolved.",
+      "sha256": "be9b4f902353e923608a70dcafe94dd24e37c47f2c2ab1b445830cc9d0986f50"
+    }
+  ],
+  "unknowns": [
+    "Raw and serialized simplicity; native wholeview hierarchy and source likeness."
+  ],
+  "prediction": {
+    "ifTrue": "Dominant rising blue stem with subordinate returns and connected ivory separators visibly structures the cap.",
+    "ifFalse": "Invalid geometry or comb, slots, independent teeth or weak rising flow."
+  },
+  "test": {
+    "action": "Implement exact P133recipe once fromP124; firstintegrityfailurestop; ifvalid one1440nativewholeview and independentreview.",
+    "success": "Complete scopedchecks and independently retained visible hierarchygain, no wholeart claim.",
+    "failure": "No repair, secondcandidate, density/pose/texture rescue or weakened goalcriteria.",
+    "maxWorkTokens": 11000
+  },
+  "estimatedReviewerTokens": 900
+}

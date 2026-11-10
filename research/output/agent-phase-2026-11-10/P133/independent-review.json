@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/p129_fresh_review",
+  "policyVersion": "v2",
+  "technicalVerdict": "fail",
+  "artisticVerdict": "incomplete",
+  "findings": [
+    "Exact lower-left return crosses sampled segments284/289; later checks not run, no SVG or artistic verdict.",
+    "P130 and P133 show repeated failure of manually prescribed doubled-back returns without controlled entering/returning boundary separation; not failure of all cubic curves or connected crest hierarchy.",
+    "Lead owns recipe defect; no nearby repair."
+  ],
+  "nextDecision": "A bounded analytic hook with ordered inner/outer radii and separated shoulders could materially change the separation premise. Specify its cap connection and whole-cap candidate before approval; avoid isolated primitive/research expansion.",
+  "estimatedReviewTokens": 400
+}

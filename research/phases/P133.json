@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "P133",
+  "objective": "Test one connected hierarchical crest-cap boundary at whole view.",
+  "hypothesis": "A shared boundary with two primary rising water fingers and a subordinate shoulder return, separated by unequal cap-connected ivory toes, can structure the blank cap as one hierarchy rather than independent heads.",
+  "failureIds": [
+    "delivery.no-artifact",
+    "process.local-proof-drift",
+    "evaluation.scope-inflation"
+  ],
+  "baseline": "P124 retained; P130/P131 unpromoted and unchanged.",
+  "artifactTarget": "research/woodblock/cap-separator.mjs",
+  "plannedTokens": 14000,
+  "family": "hierarchical-cap-separator",
+  "strategyReview": "research/strategies/S133.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One immutable source-backed recipe, no renderer detour or rescue, explicit estimates and final700processreview; technical checks do not imply artistic acceptance.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 13300,
+    "reviewTokens": 700
+  },
+  "startedAt": "2026-11-10T09:07:07.701Z",
+  "result": {
+    "id": "P133",
+    "summary": "Immutable cap hierarchy recipe failed the first raw profile gate: lower-left return self-crosses. Lead independently confirmed crossing. No SVG/HTML/render or later-check verdict; P124 retained.",
+    "artifactDelivered": true,
+    "technicalVerdict": "fail",
+    "artisticVerdict": "incomplete",
+    "evidence": [
+      "research/output/agent-phase-2026-11-10/P133/summary.json",
+      "research/output/agent-phase-2026-11-10/P133/independent-review.json",
+      "research/proposals/P133-cap-separator.json",
+      "research/woodblock/cap-separator.mjs"
+    ],
+    "nextAction": "Retire unconstrained doubled-back recipe family. A changed separation representation and specified whole-cap connection require independent review before another candidate.",
+    "estimatedWorkTokens": 9000
+  },
+  "review": {
+    "id": "P133",
+    "findings": [
+      "Lead-authored recipe repeated an uncontrolled return-separation defect. Worker faithfully implemented and stopped at the first failed gate. Hierarchy remains untested visually; no nearby rescue.",
+      "Estimated9000work includes3400worker,900preflight and4700leadstartup/recipe/check/records. Review700 includes400peer+300lead; actual telemetry unavailable and no measured efficiency improvement.",
+      "Archived the existing first-evidence-path reminder because current handoff policy already enforces it; bounded lesson memory now captures the repeated return-separation fault. No architecture or role changes."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Failed construction evidence, unchanged P124 and explicit unrun-check scope.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-10/P133/summary.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "Retire unconstrained doubled-back control recipes; retry requires changed separation premise.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-10/P133/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Specify analytically separated hooked returns and their cap connections before independent preflight; do not start another isolated primitive study.",
+    "estimatedReviewTokens": 700,
+    "archivedLessons": [
+      {
+        "id": "logging.delayed-handoff",
+        "status": "retained",
+        "lesson": "Save the first executable result and compact diagnostics before longer reporting or page expansion.",
+        "evidence": [
+          "research/output/procedural-wave-2026-10-30/W064/diagnostics.json",
+          "research/agent-iteration-log.md"
+        ],
+        "reentryCondition": "Every phase has an explicit first evidence path."
+      }
+    ]
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 9000,
+    "estimatedReviewTokens": 700,
+    "estimatedTotalTokens": 9700,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-10T09:09:56.079Z",
+  "closedAt": "2026-11-10T09:09:56.112Z"
+}

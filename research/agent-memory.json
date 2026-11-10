@@ -42,16 +42,6 @@
       "reentryCondition": "Shared owning code changes, a failure appears or a release milestone requires a broader check."
     },
     {
-      "id": "logging.delayed-handoff",
-      "status": "retained",
-      "lesson": "Save the first executable result and compact diagnostics before longer reporting or page expansion.",
-      "evidence": [
-        "research/output/procedural-wave-2026-10-30/W064/diagnostics.json",
-        "research/agent-iteration-log.md"
-      ],
-      "reentryCondition": "Every phase has an explicit first evidence path."
-    },
-    {
       "id": "review.context-overhead",
       "status": "retained",
       "lesson": "Reserve review setup cost; send compact fixture summaries, retrieve detailed diagnostics only for discrepancies. P079 evaluator exceeded estimate after oversized checks retrieval. P124 one-wrapper worker estimated3000 vs1600 assignment; totalwork6400 vs5000 testcap. Include observed full startup, capture and both reviews before dispatch.",
@@ -120,6 +110,17 @@
         "research/output/agent-phase-2026-11-09/P124/candidate-static-1440x960.png"
       ],
       "reentryCondition": "A freshreference-led wholeviewreview identifiesaconsequentiallocalblocker andabounded visiblewhole-testprediction; no automaticparameter/cagefollowups."
+    },
+    {
+      "id": "geometry.uncontrolled-hook-return",
+      "status": "retained",
+      "lesson": "P130 and P133 manually prescribed doubled-back return curves self-crossed. Control separation of entering and returning boundaries before another whole-cap candidate; do not adjust nearby cubic controls or infer hierarchy premise failure.",
+      "evidence": [
+        "research/phases/P130.json",
+        "research/output/agent-phase-2026-11-10/P133/summary.json",
+        "research/output/agent-phase-2026-11-10/P133/independent-review.json"
+      ],
+      "reentryCondition": "A materially changed return representation with explicit separation and cap connection, independently reviewed and tested directly in a whole-cap candidate."
     }
   ]
 }
