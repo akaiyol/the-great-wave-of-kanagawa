@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/p136_preflight",
+  "policyVersion": "v2",
+  "artifactVerdict": "incomplete; stopping condition met",
+  "findings": [
+    "Both fixedprobe sets pass, butk3 includesupperinternalcurve near1400480 thatk5drops; stablematerialclassification notestablished.",
+    "Neither condition suppliesorderedinterface;6/4nonuniquevertices do notprove orderingimpossible.",
+    "Retainfixedmask/probemeasurements only; no k5selection rescue or threshold/probe/cropchanges."
+  ],
+  "processVerdict": "Close withbudgetoverrun recorded; fixedrecipe notsufficient recoverymethod, notfailureofsource measurement generally.",
+  "next": "Changedmechanism mustaddressinkleakage ANDcontourordering before anotherimplementation.",
+  "estimatedReviewTokens": 300
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "manual",
+  "checkedAt": "2026-11-15T06:30:28Z",
+  "phase": "P137",
+  "status": "closed",
+  "primary": {
+    "usedPercent": 16,
+    "windowDurationMins": 300,
+    "resetsAt": 1794739655
+  },
+  "weekly": {
+    "usedPercent": 33,
+    "windowDurationMins": 10080,
+    "resetsAt": 1795201900
+  },
+  "retained": "P124",
+  "newArtwork": false,
+  "next": "No further fixed-mask rescue; any new construction or recovery mechanism needs fresh independent preflight.",
+  "publication": "Verify git HEAD against origin/main separately."
+}

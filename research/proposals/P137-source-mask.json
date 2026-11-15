@@ -1,0 +1,57 @@
+{
+  "phase": "P137",
+  "crop": [
+    1000,
+    460,
+    1700,
+    920
+  ],
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "fixedMask": "R<125 and G<145 and B>R (all uint8 original pixels)",
+  "openings": [
+    3,
+    5
+  ],
+  "opening": "PIL MinFilter(k) then MaxFilter(k) on white=selectedblue mask; no thresholdsweep",
+  "selection": "8-connected components after opening; select largest component touching cropbottom. Report no component as unresolved.",
+  "probes": [
+    {
+      "role": "W",
+      "source": [
+        1250,
+        700
+      ],
+      "expectedIncluded": true,
+      "confidence": "high"
+    },
+    {
+      "role": "F",
+      "source": [
+        1280,
+        570
+      ],
+      "expectedIncluded": false,
+      "confidence": "high"
+    },
+    {
+      "role": "I",
+      "source": [
+        1280,
+        490
+      ],
+      "expectedIncluded": false,
+      "confidence": "medium"
+    }
+  ],
+  "outputs": "For both openings maskPNG, originalcrop+thinboundaryoverlay with sourcecoordgrid, probe results, boundarypixel coordinates. If constructing ordered edge loops, expose ambiguousvertices and do not claim orderedinterface when nonunique.",
+  "hypothesis": "Largest bottom-connected blue component after fixed openings may distinguish broad water from isolated internal ink while retaining the neighboring material interface.",
+  "success": "Both fixed probe sets pass AND independent scan/overlay review finds actualW/F boundary/attachment/order interpretable without lost relevant anatomy. Probe passes alone insufficient.",
+  "stop": "Unresolved if probe failure, lost relevant anatomy, interpretations disagree, or attachment/order remains ambiguous. No threshold/probe/crop change, no productiontracing or constructionapproval.",
+  "budget": {
+    "plannedTokens": 8000,
+    "maxWorkTokens": 5500,
+    "reviewReserve": 400
+  },
+  "reviewer": "/root/p136_preflight",
+  "reviewEstimate": "Requested500 exceeded, actual and precise estimate unavailable; account setup honestly."
+}

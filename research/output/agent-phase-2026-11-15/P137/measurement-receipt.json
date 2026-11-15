@@ -1,0 +1,15 @@
+{
+  "phase": "P137",
+  "cropPixelsMatchCanonical": true,
+  "referenceUnmodified": true,
+  "newArtwork": false,
+  "hashes": {
+    "references/great-wave-off-kanagawa-met-DP130155.jpg": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+    "research/woodblock/source-mask-check.py": "c057e3f2d9de982adb9e90a1557b7d25e4fba2a1e9e50013b0af1cb51421334c",
+    "research/proposals/P137-source-mask.json": "0a08839a8d6fcd625246acca2e73d33033d1c0c0edccfd11fd8d0d217a271101",
+    "research/output/agent-phase-2026-11-15/P137/source-crop.png": "1267a3a9c0c9fbf1a0369f0d9e84ebd31c17efe961030c012b456818e49bf320",
+    "research/output/agent-phase-2026-11-15/P137/k3-boundary-overlay.png": "2eebcd4eaeac41edc7f21be760f40c56f5a329508dbe7cf80ebc54bc3cbdc59e",
+    "research/output/agent-phase-2026-11-15/P137/k5-boundary-overlay.png": "89a384e0bd702b0f09e5acd8b9b83b5dc0ec3b4018d81fffa752f6d467d929cd",
+    "research/output/agent-phase-2026-11-15/P137/summary.json": "fc801c635a10d10d17bc7f7ee0747373aee6b7cf9936af1df21f0094f0f120c9"
+  }
+}

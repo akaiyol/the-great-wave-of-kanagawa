@@ -1,0 +1,54 @@
+{
+  "id": "S137",
+  "targetPhase": "P137",
+  "family": "instrumented-material-boundary-recovery",
+  "hypothesis": "Largest bottom-connected blue component after fixed openings may distinguish broad water from isolated internal ink while retaining the neighboring material interface.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p136_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "Fixed connectivity/opening measurement changes endpoint-recovery premise; onecrop/probes/thresholds only.",
+  "supportingEvidence": [
+    {
+      "path": "research/output/agent-phase-2026-11-15/P136/source-receipt.json",
+      "claim": "Pinnedunchangedsourcecrop.",
+      "sha256": "377f5277f686fb586b5cc82b8ea9ce8895b3b4ff8a95e5ade6c8490b772aa63e"
+    },
+    {
+      "path": "research/woodblock/adjacent-material-interface.md",
+      "claim": "Endpoints/orderunresolved; anotherdescriptiveannotation insufficient.",
+      "sha256": "fc498a062a5a592747ca54da4194ee1f84eb112fc490be3621d36b56b1950949"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P136.json",
+      "claim": "Broadsourceagreement withoutboundaryrecoverydidnotresolveconstructability.",
+      "sha256": "9e6ec75b33bef092123f0ece81e174458c6db5af7f2994762b247cd08cba31e4"
+    }
+  ],
+  "unknowns": [
+    "Morphology may severvalidwater or keepinternalink; threeprobes do not establish roles/attachment/order."
+  ],
+  "prediction": {
+    "ifTrue": "Bothfixedopenings excludeinternalink, retainwater and exposeinterpretableactualW/F adjacency/order.",
+    "ifFalse": "Anyprobefailure, anatomy loss, disagreement or unresolvedattachment/order; stop."
+  },
+  "test": {
+    "action": "Run fixedsource-mask with3x3/5x5opening andlargestbottom8connectedcomponent; compareoverlaysagainstscan/threepredeclaredprobes.",
+    "success": "Both fixed probe sets pass AND independent scan/overlay review finds actualW/F boundary/attachment/order interpretable without lost relevant anatomy. Probe passes alone insufficient.",
+    "failure": "Unresolved if probe failure, lost relevant anatomy, interpretations disagree, or attachment/order remains ambiguous. No threshold/probe/crop change, no productiontracing or constructionapproval.",
+    "maxWorkTokens": 5500
+  },
+  "changedPremise": {
+    "summary": "Instrumented sourceboundaryrecovery replaces unsupportedvisualannotation, not a newanatomicalconstruction.",
+    "evidence": [
+      {
+        "path": "research/woodblock/adjacent-material-interface.md",
+        "sha256": "fc498a062a5a592747ca54da4194ee1f84eb112fc490be3621d36b56b1950949"
+      }
+    ]
+  },
+  "reviewerEstimate": "Exceeds requested500; exact estimate/telemetry unavailable."
+}

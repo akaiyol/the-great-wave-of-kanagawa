@@ -1,0 +1,122 @@
+{
+  "phase": "P137",
+  "policy": "v2",
+  "scope": "source analysis only; not production assets or geometry approval",
+  "referenceSha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "crop": [
+    1000,
+    460,
+    1700,
+    920
+  ],
+  "fixedMask": "R<125 and G<145 and B>R",
+  "opening": "PIL MinFilter(k) then MaxFilter(k); PIL native edge handling",
+  "selection": "largest 8-connected component touching crop bottom; ties retain first bottom seed left-to-right",
+  "conditions": {
+    "3": {
+      "openedPixels": 208762,
+      "selectedPixels": 194900,
+      "bottomComponentSizes": [
+        412,
+        194900,
+        66,
+        237
+      ],
+      "boundaryPixels": 7426,
+      "unitEdges": 9782,
+      "nonuniqueVertexCount": 6,
+      "orderedLoopsDerived": false,
+      "probes": [
+        {
+          "role": "W",
+          "sourceXY": [
+            1250,
+            700
+          ],
+          "expectedIncluded": true,
+          "included": true,
+          "pass": true
+        },
+        {
+          "role": "F",
+          "sourceXY": [
+            1280,
+            570
+          ],
+          "expectedIncluded": false,
+          "included": false,
+          "pass": true
+        },
+        {
+          "role": "I",
+          "sourceXY": [
+            1280,
+            490
+          ],
+          "expectedIncluded": false,
+          "included": false,
+          "pass": true
+        }
+      ],
+      "allProbesPass": true,
+      "rawSymmetricDifference": 14479,
+      "openedSymmetricDifference": 13862
+    },
+    "5": {
+      "openedPixels": 203726,
+      "selectedPixels": 192279,
+      "bottomComponentSizes": [
+        408,
+        192279,
+        55,
+        58
+      ],
+      "boundaryPixels": 6655,
+      "unitEdges": 8648,
+      "nonuniqueVertexCount": 4,
+      "orderedLoopsDerived": false,
+      "probes": [
+        {
+          "role": "W",
+          "sourceXY": [
+            1250,
+            700
+          ],
+          "expectedIncluded": true,
+          "included": true,
+          "pass": true
+        },
+        {
+          "role": "F",
+          "sourceXY": [
+            1280,
+            570
+          ],
+          "expectedIncluded": false,
+          "included": false,
+          "pass": true
+        },
+        {
+          "role": "I",
+          "sourceXY": [
+            1280,
+            490
+          ],
+          "expectedIncluded": false,
+          "included": false,
+          "pass": true
+        }
+      ],
+      "allProbesPass": true,
+      "rawSymmetricDifference": 17100,
+      "openedSymmetricDifference": 11447
+    }
+  },
+  "artAssessed": false,
+  "status": "unresolved",
+  "missingEvidence": [
+    "Independent source/overlay review of anatomy, W/F attachment and boundary order",
+    "Ordered material interface and production construction remain unapproved"
+  ],
+  "betweenConditionsSymmetricDifference": 2621
+}

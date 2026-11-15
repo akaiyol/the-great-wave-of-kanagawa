@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "P137",
+  "objective": "Test fixed source-mask recovery against material and internal-ink labels.",
+  "hypothesis": "Largest bottom-connected blue component after fixed openings may distinguish broad water from isolated internal ink while retaining the neighboring material interface.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "process.local-proof-drift"
+  ],
+  "baseline": "P136unresolvedadjacentinterface, canonicalcropunchanged, P124retained.",
+  "artifactTarget": "research/output/agent-phase-2026-11-15/P137/summary.json",
+  "plannedTokens": 8000,
+  "family": "instrumented-material-boundary-recovery",
+  "strategyReview": "research/strategies/S137.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One boundedsource-measurement, no artwork/productiontrace/renderer edits, fixedprobes no cherry-pick, final400review, no efficiencyclaim.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 7600,
+    "reviewTokens": 400
+  },
+  "startedAt": "2026-11-15T06:26:06.581Z",
+  "result": {
+    "id": "P137",
+    "summary": "Fixedmask/opening probes pass inbothconditions, but overlays disagree on internalink and no orderedinterface is supplied. Measurement remainsincomplete; stopmet. No productiongeometry/artworkgain.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/output/agent-phase-2026-11-15/P137/summary.json",
+      "research/output/agent-phase-2026-11-15/P137/measurement-receipt.json",
+      "research/output/agent-phase-2026-11-15/P137/independent-review.json",
+      "research/output/agent-phase-2026-11-15/P137/k3-boundary-overlay.png",
+      "research/output/agent-phase-2026-11-15/P137/k5-boundary-overlay.png",
+      "research/output/agent-phase-2026-11-15/P137/worker-checks.json"
+    ],
+    "nextAction": "Do notselectk5 orretune probes/threshold/crop. Nextimplementationrequires changedmechanism forinternalink leakage ANDorderedboundary extraction; source/P124unchanged.",
+    "estimatedWorkTokens": 7500
+  },
+  "review": {
+    "id": "P137",
+    "findings": [
+      "Threefixedprobes passed whileactualoverlaycomparison found roleleakage/sensitivity; spotchecks didnotestablishsourceclassification orconstructability. Noorderedpathclaim orartifactpromotion.",
+      "Workerreported3300estimated versus2100allocation, over1200; initialdefaultcachecheckpermissionissue resolved via in-memorycompile. Lead owns overscopedassignment and totalbudget. No retry/crop/probe/thresholdexpansion.",
+      "Totalworkestimated7500 includes3300worker,1000preflightestimate and3200leadsetup/spec/sourcecomparison/check/records. Preflight exceededrequested500 withprecisecostunknown; actualtelemetryunavailable. This exceeds5500strategycap by2000 but remainswithin7600phasework. Finalreview400 includes300peer100lead. No efficiencyclaim."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Fixedsource-measurement evidence andexplicitunresolvedstatus only; P124retained.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-15/P137/summary.json",
+          "research/output/agent-phase-2026-11-15/P137/measurement-receipt.json"
+        ]
+      },
+      {
+        "decision": "drop",
+        "summary": "No k5rescue, mask-to-production tracing orfurtherlocalretuning. Newmechanism needsfreshpreflight.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-15/P137/independent-review.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Specify how a changedrecoverymethod distinguishes internalink and yieldsanorderedmaterialchain before commissioning anotherimplementation; budgetfullsetup and stopearlier atallocation.",
+    "estimatedReviewTokens": 400
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 7500,
+    "estimatedReviewTokens": 400,
+    "estimatedTotalTokens": 7900,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "resultAt": "2026-11-15T06:29:54.249Z",
+  "closedAt": "2026-11-15T06:29:54.288Z"
+}
