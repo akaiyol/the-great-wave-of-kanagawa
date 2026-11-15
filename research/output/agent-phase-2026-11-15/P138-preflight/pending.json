@@ -1,0 +1,152 @@
+{
+  "prospectivePhase": "P138",
+  "status": "not_started",
+  "policyVersion": "v2",
+  "reviewer": "/root/p136_preflight",
+  "initialProposalVerdict": "reject blue-only subtraction: Fnew subsetFold repeatsP121",
+  "narrowedProposalVerdict": "continue to exactspec only; implementation deferred",
+  "changedPremise": "Bidirectional exchange: Fnew=((Fold minus newWaterArms) union newFoamTree) intersectbody. Newivory/oldblue ANDnewblue/oldivory required.",
+  "waterArmProposal": {
+    "roots": [
+      [
+        240,
+        330
+      ],
+      [
+        310,
+        335
+      ],
+      [
+        390,
+        345
+      ]
+    ],
+    "tips": [
+      [
+        318,
+        175
+      ],
+      [
+        404,
+        140
+      ],
+      [
+        468,
+        173
+      ]
+    ],
+    "rootWidths": [
+      60,
+      80,
+      70
+    ],
+    "tipWidths": [
+      26,
+      34,
+      28
+    ],
+    "solidCaps": true,
+    "noAnnularLoops": true
+  },
+  "foamTreeProposal": {
+    "trunk": [
+      [
+        360,
+        125
+      ],
+      [
+        330,
+        210
+      ]
+    ],
+    "trunkWidths": [
+      22,
+      16
+    ],
+    "branches": [
+      [
+        [
+          330,
+          210
+        ],
+        [
+          296,
+          258
+        ]
+      ],
+      [
+        [
+          330,
+          210
+        ],
+        [
+          390,
+          250
+        ]
+      ]
+    ],
+    "branchWidths": [
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ]
+    ],
+    "priority": "foam over new water"
+  },
+  "baselineWitnessChecks": [
+    {
+      "point": [
+        296,
+        258
+      ],
+      "oldBody": true,
+      "oldFoam": false,
+      "oldFoamBoundaryDistance": 47.6749704785353
+    },
+    {
+      "point": [
+        390,
+        250
+      ],
+      "oldBody": true,
+      "oldFoam": false,
+      "oldFoamBoundaryDistance": 67.26812023536856
+    },
+    {
+      "point": [
+        404,
+        140
+      ],
+      "oldBody": true,
+      "oldFoam": true,
+      "oldFoamBoundaryDistance": 39.828669262645406
+    },
+    {
+      "point": [
+        360,
+        125
+      ],
+      "oldBody": true,
+      "oldFoam": true,
+      "oldBodyBoundaryDistance": 18.807473192330544
+    }
+  ],
+  "missingBeforeImplementation": [
+    "Exactspines/widthlaw and attachment/overlapdisc certificates",
+    "Broad body-connected water routes surviving foampriority aroundboth toes",
+    "Retained P110 W/F/S and P124feature preservation",
+    "Fresh independent exactspec approval; one wholeview falsifier comb/barrier/stalk/slot/detachedhead"
+  ],
+  "proposedBudget": {
+    "phase": 12000,
+    "testWorkMax": 8500,
+    "finalReview": 600
+  },
+  "review": "No phase/workerdelegation/constructionapproval; current witnesschecks concern baseline only. Coupledconstruction remainsunverified. PreserveP124.",
+  "elapsedTime": "Fresh clocks09:12UTC and12:07UTC bracket preflight; tools do not establish why elapsed gaps occurred or activecompute time. No host-sleep diagnosis.",
+  "stopReason": "At07:07Toronto, availabletime before07:45checkpoint is insufficient for the proposed implementation plus independentreview given observed elapsed gaps. Save pending exactspec rather than start a phase unlikelytofit."
+}

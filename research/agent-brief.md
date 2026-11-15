@@ -21,7 +21,7 @@ Decision (retain): Fixedsource-measurement evidence andexplicitunresolvedstatus 
 Decision (drop): No k5rescue, mask-to-production tracing orfurtherlocalretuning. Newmechanism needsfreshpreflight.
 Next improvement: Specify how a changedrecoverymethod distinguishes internalink and yieldsanorderedmaterialchain before commissioning anotherimplementation; budgetfullsetup and stopearlier atallocation.
 State retainedCandidate: P099water/P098localparent +P110WFS/P116forkhierarchy +P124seed721child0 pairedcontour articulation. Blankcap/sparsehierarchy andwholeart/browser/variety unmet.
-State checkpointReason: P137 fixedprobechecks passed but semanticclassification differs betweenopenings and orderedinterface remainsunsupplied. P136/P137sourceinvestigations incomplete; no artworkchanges, P124retained.
+State checkpointReason: OvernightP138preflight saved, no implementationapproved/phase started or artworkchanged. Insufficientpredictedtime before07:45checkpoint given elapsedgaps; causeunknown. P124retained.
 Run authorization: Owner2026-11-07: automatic useful work daily00:00–08:00 America/Toronto, full available account allowance within window. Manual requests separately authorized. No purchases, resets or paid fallback. No purchases, resets or waiting for a reset.
 
 Scoped lessons:
