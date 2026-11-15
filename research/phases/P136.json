@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "P136",
+  "objective": "Discriminate one adjacent source material interface before another construction.",
+  "hypothesis": "One adjacent canonical broad water finger and cap-attached ivory separator can be identified as an ordered open W/F interface distinct from internal ink, yielding a concrete whole-view construction question rather than another stalk-loop motif.",
+  "failureIds": [
+    "source.boundary-conflation",
+    "process.local-proof-drift",
+    "geometry.secondary-prongs"
+  ],
+  "baseline": "P124 retained; P131/P134 anatomy rejected; interrupted P136preflight had no files/phase.",
+  "artifactTarget": "research/woodblock/adjacent-material-interface.md",
+  "plannedTokens": 7000,
+  "family": "adjacent-material-interface-discrimination",
+  "strategyReview": "research/strategies/S136r1.json",
+  "goalIds": [
+    "ART",
+    "SYSTEM"
+  ],
+  "otherGoalProtection": "One source-only exact blocker, cap2000productive+setup, no implementation approval fromannotation, final350review. Preserve source/goals/P124.",
+  "status": "closed",
+  "budget": {
+    "workTokens": 6650,
+    "reviewTokens": 350
+  },
+  "startedAt": "2026-11-15T05:48:14.924Z",
+  "result": {
+    "id": "P136",
+    "summary": "Source-only discrimination unresolved: broad finger/ivory attachment visible, but no exact adjacent boundary endpoints/order/currentseam mapping. No construction or artwork gain; stopping condition met.",
+    "artifactDelivered": true,
+    "technicalVerdict": "incomplete",
+    "artisticVerdict": "not_applicable",
+    "evidence": [
+      "research/woodblock/adjacent-material-interface.md",
+      "research/output/agent-phase-2026-11-15/P136/source-receipt.json",
+      "research/output/agent-phase-2026-11-15/P136/researcher-result.json",
+      "research/output/agent-phase-2026-11-15/P136/independent-review.json"
+    ],
+    "nextAction": "No more unsupported annotation. Tool-assisted source measurement is a possible changed premise requiring fresh preflight and explicit W/F-versus-ink discrimination.",
+    "estimatedWorkTokens": 4300
+  },
+  "review": {
+    "id": "P136",
+    "findings": [
+      "Visible sourceagreement didnotresolve endpoint/order interface. Source-only task stopped without inventing geometry; researcher760estimated, productive discriminator including leadnote stayed approximatelywithin2000cap.",
+      "Lead cited mutable generatedbrief in S136; start regenerated it. Originalpacket preserved, S136r1 cites immutableP135record; audited workingphasepointer correction, sourcehashassert passes. No hypothesis/criteria change.",
+      "Estimated4300totalwork includes350newpreflight,760researcher and3190leadstartup/crop/spec/correction/records; exceeds4000strategyworkcap by300 but within6650phasework. Earlier interrupted setup unknown, no activework inferred from elapsedgap. Review350 includes200peer150lead; actualtelemetryunavailable."
+    ],
+    "actions": [
+      {
+        "decision": "retain",
+        "summary": "Explicit unresolved interface and preserved P124.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-15/P136/researcher-result.json"
+        ]
+      },
+      {
+        "decision": "change",
+        "summary": "Another attempt needs an endpoint-recovery mechanism and validated material/ink distinction; no repeatannotation. Pin immutable evidence, not generatedbriefs.",
+        "evidence": [
+          "research/output/agent-phase-2026-11-15/P136/independent-review.json",
+          "research/strategies/S136r1.json"
+        ]
+      }
+    ],
+    "nextImprovement": "Freshpreflight for one tool-assisted source discrimination, stop if actualW/F versusinternalink remainsambiguous; no productiontrace or newrenderer approval.",
+    "estimatedReviewTokens": 350
+  },
+  "accounting": {
+    "basis": "estimated",
+    "actualTokens": null,
+    "estimatedWorkTokens": 4300,
+    "estimatedReviewTokens": 350,
+    "estimatedTotalTokens": 4650,
+    "estimatedWorkOverrun": 0,
+    "estimatedReviewOverrun": 0,
+    "estimatedTotalOverrun": 0
+  },
+  "strategyCorrection": {
+    "original": "research/strategies/S136.json",
+    "reason": "Lead cited mutable generatedbrief; replaced with immutableP135record carrying same reviewed claim. Original packet preserved; hypothesis/test/approval unchanged."
+  },
+  "resultAt": "2026-11-15T05:51:27.036Z",
+  "closedAt": "2026-11-15T05:51:27.070Z"
+}

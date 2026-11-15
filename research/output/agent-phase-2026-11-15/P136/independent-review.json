@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/p136_preflight",
+  "policyVersion": "v2",
+  "verdict": "close incomplete",
+  "findings": [
+    "General sourceagreement did not recover boundaryorder/endpoints; further unsupported annotation would repeat a loop.",
+    "Preserve original S136 and auditedS136r1 immutablecitationcorrection.",
+    "Tool-assisted segmentation/overlay is plausible changedmeasurement only; must distinguishW/F frominteriorink againstscan before anyapproval."
+  ],
+  "limits": "Finalresponse reliedon reported discriminator/correction, not independenthashinspection.",
+  "estimatedTokens": 200
+}

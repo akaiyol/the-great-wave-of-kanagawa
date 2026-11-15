@@ -1,0 +1,48 @@
+{
+  "id": "S136r1",
+  "targetPhase": "P136",
+  "family": "adjacent-material-interface-discrimination",
+  "hypothesis": "One adjacent canonical broad water finger and cap-attached ivory separator can be identified as an ordered open W/F interface distinct from internal ink, yielding a concrete whole-view construction question rather than another stalk-loop motif.",
+  "reviewer": {
+    "role": "wave_evaluator",
+    "agentId": "/root/p136_preflight"
+  },
+  "recommendation": "continue",
+  "reason": "One source-only discrimination at the current seam; no construction premise or artistic approval assumed.",
+  "supportingEvidence": [
+    {
+      "path": "research/woodblock/source-head-profile.mjs",
+      "claim": "One existing source-calibrated head shows an ordered shared seam interface.",
+      "sha256": "7401f8644ee9b4e0d7d75768d381dbf3f910da3880bf724d7103d35829918564"
+    },
+    {
+      "path": "research/phases/P135.json",
+      "claim": "Rejected stalk/loop anatomy leaves broad water/attachedfoam as the concrete bottleneck.",
+      "sha256": "b8f13fedddf70c6f5f8d3b55201c022d9946ed0501b0377477eb17e731a754a1"
+    }
+  ],
+  "contraryEvidence": [
+    {
+      "path": "research/phases/P135.json",
+      "claim": "Valid local stalk/loop assembly failed appearance; source labels or connectivity alone insufficient.",
+      "sha256": "b8f13fedddf70c6f5f8d3b55201c022d9946ed0501b0377477eb17e731a754a1"
+    }
+  ],
+  "unknowns": [
+    "Boundaryroles, identifiable endpoints, orderedopenconnection and whether broad body/foamattachment can both remain."
+  ],
+  "prediction": {
+    "ifTrue": "One source relationship yields source endpoints, boundaryorder, broadbody/foamattachment and changed/frozenspans for a wholeviewtest.",
+    "ifFalse": "Roles/attachment ambiguous or mapping needs unsupportedtopology, stalk orclosedloop; stop unresolved."
+  },
+  "test": {
+    "action": "Inspect one source relationship and currentseam; no newmotif, renderer, codeprototype or papersearch.",
+    "success": "Bounded evidence-backed interface note with one whole-view prediction; not implementation/art approval.",
+    "failure": "Stop unresolved at role/attachment ambiguity, no secondmotif or nearbyrepair.",
+    "maxWorkTokens": 4000
+  },
+  "productiveDiscriminatorCap": 2000,
+  "estimatedReviewerTokens": 350,
+  "interruptedPriorSetup": "Unknown; no claim of active work during elapsed walltime gap.",
+  "correction": "S136 cited generated agentbrief, which phase-start regenerates. ImmutableP135record now supports same claim/hypothesis/review, no substantive strategy change."
+}

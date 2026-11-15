@@ -1,0 +1,15 @@
+{
+  "phase": "P136",
+  "reference": "references/great-wave-off-kanagawa-met-DP130155.jpg",
+  "referenceSha256": "cbb9988f2f18b9180a1cc0cf5dbb0e3bbf8f2e85d17930cf6ca9ab36fac36303",
+  "derivedCrop": [
+    1000,
+    460,
+    1700,
+    920
+  ],
+  "resized": false,
+  "cropSha256": "1267a3a9c0c9fbf1a0369f0d9e84ebd31c17efe961030c012b456818e49bf320",
+  "sourceModified": false,
+  "boundaryMapping": "unresolved"
+}
